@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-05-08T01:35:40.121479",
+  "generated": "2026年05月08日 01:35",
+  "scores": {
+    "USD": -1,
+    "JPY": 0,
+    "EUR": 0,
+    "GBP": 0,
+    "AUD": 0,
+    "NZD": 0,
+    "CAD": 0,
+    "CHF": 0
+  },
+  "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
+    }
+  ],
+  "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp.",
+      "summary": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp."
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
+      "summary": "Federal Reserve Board announces approval of application by Banco de Credito del Peru"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc."
+    },
+    {
+      "source": "Fed",
+      "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
+      "summary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
+      "summary": "Federal Reserve Board announces approval of application by Burke &amp; Herbert Financial Services Corp."
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Ag"
+    },
+    {
+      "source": "FXStreet",
+      "title": "EUR/USD: Sentiment-led rally eyes 1.1825 – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is modestly higher, extending a sentiment-dr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed’s Hammack: Fed should be neutral in policy stance",
+      "summary": "Beth Hammack, President of the Federal Reserve (Fed) Bank of Cleveland, in an interview on a public radio station on Thu"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/JPY muted as easing Middle East tensions weigh on US Dollar",
+      "summary": "The USD/JPY pair is currently trading around the 156.40 level, showing minimal change throughout the day. This stability"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold extends rally as traders reassess Fed outlook amid softer Oil prices",
+      "summary": "Gold (XAU/USD) extends its advance on Thursday, climbing to over two-week highs as price action remains driven by geopol"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF slides to two-month low as US-Iran deal hopes weigh on Dollar",
+      "summary": "The Swiss Franc (CHF) strengthens against the US Dollar (USD) on Thursday as renewed hopes for a possible US-Iran peace "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed: Higher-for-longer stance weighs on Gold – TD Securities",
+      "summary": "TD Securities strategist Bart Melek notes that the latest FOMC decision and the Iran-related Oil shock are pushing the F"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CAD: Bear trend intact below 1.3645 – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is little changed as traders await "
+    },
+    {
+      "source": "FXStreet",
+      "title": "GBP/USD: Election risks weigh on Pound – Societe Generale",
+      "summary": "Societe Generale’s team highlights that GBP/USD has edged higher, helped by lower Oil prices, risk correlations and Asia"
+    },
+    {
+      "source": "Investing",
+      "title": "Kraken launches virtual IBANs in four European countries with salary match",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin pulls back as markets eye Iran progress, Strategy sales",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin flat as Strategy flags potential sales, but still at over three-month high",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Roobet Launches Prediction Markets on May 6, The First Major Crypto Casino to Integrate the Format",
+      "summary": ""
+    }
+  ],
+  "cot": {},
+  "reasons": {
+    "USD": [
+      "[弱気] Fed: Higher-for-longer stance weighs on Gold – TD Secur"
+    ]
+  }
+}
