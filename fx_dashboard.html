@@ -162,7 +162,7 @@ function renderAll(d){
   const sorted=Object.entries(d.scores).sort((a,b)=>b[1]-a[1]);
   document.getElementById('clist').innerHTML=sorted.map(([c,s])=>{
     const cls=s>0?'pos':s<0?'neg':'neu';
-    const pct=s===0?1:Math.abs(s)/5*100;
+    const maxAbs=Math.max(...Object.values(d.scores).map(Math.abs),1);const pct=s===0?2:Math.abs(s)/maxAbs*100;
     return `<div class="crow"><div class="cname">${c}</div><div class="btrack"><div class="bfill ${cls}" style="width:${pct}%"></div></div><div class="sval ${cls}">${s>0?'+':''}${s}</div></div>`;
   }).join('');
 
