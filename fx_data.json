@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-08T01:35:40.121479",
-  "generated": "2026年05月08日 01:35",
+  "timestamp": "2026-05-10T06:44:35.552884",
+  "generated": "2026年05月10日 06:44",
   "scores": {
-    "USD": -1,
+    "USD": -2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 0,
@@ -14,31 +14,31 @@
   "pairs": [
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": -2
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": -2
     },
     {
       "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": -2
     },
     {
       "pair": "EURJPY",
@@ -56,6 +56,11 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
+      "summary": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc."
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve issues FOMC statement",
@@ -92,58 +97,43 @@
       "summary": "Federal Reserve Board announces approval of application by Burke &amp; Herbert Financial Services Corp."
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Ag"
+      "source": "FXStreet",
+      "title": "China: War risks reshape growth outlook – Rabobank",
+      "summary": "Rabobank strategists assess how the US and Israel’s war against Iran could affect China. They note higher Oil and gas pr"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD: Sentiment-led rally eyes 1.1825 – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is modestly higher, extending a sentiment-dr"
+      "title": "Indonesia: Growth momentum seen easing – Standard Chartered",
+      "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s GDP growth accelerated to 5.6% year-on-year in Q1 2026, driven b"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Hammack: Fed should be neutral in policy stance",
-      "summary": "Beth Hammack, President of the Federal Reserve (Fed) Bank of Cleveland, in an interview on a public radio station on Thu"
+      "title": "Silver Price Analysis: Climbs above $80 as bulls eye weekly high",
+      "summary": "Silver (XAG/USD) price advances more than 2.50% on Friday, set to end the week with gains of over 7% sponsored by US Dol"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY muted as easing Middle East tensions weigh on US Dollar",
-      "summary": "The USD/JPY pair is currently trading around the 156.40 level, showing minimal change throughout the day. This stability"
+      "title": "Brazil: IPCA shock complicates easing path – Wells Fargo",
+      "summary": "Wells Fargo Economics projects Brazil’s April IPCA inflation to rise 0.9% month-over-month and around 4.5% year-over-yea"
     },
     {
       "source": "FXStreet",
-      "title": "Gold extends rally as traders reassess Fed outlook amid softer Oil prices",
-      "summary": "Gold (XAU/USD) extends its advance on Thursday, climbing to over two-week highs as price action remains driven by geopol"
+      "title": "Aluminium: Bauxite export cap threatens supply – Commerzbank",
+      "summary": "Commerzbank’s Thu Lan Nguyen argues that any relief from a potential reopening of the Strait of Hormuz for Aluminium wil"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF slides to two-month low as US-Iran deal hopes weigh on Dollar",
-      "summary": "The Swiss Franc (CHF) strengthens against the US Dollar (USD) on Thursday as renewed hopes for a possible US-Iran peace "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed: Higher-for-longer stance weighs on Gold – TD Securities",
-      "summary": "TD Securities strategist Bart Melek notes that the latest FOMC decision and the Iran-related Oil shock are pushing the F"
-    },
-    {
-      "source": "FXStreet",
-      "title": "USD/CAD: Bear trend intact below 1.3645 – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is little changed as traders await "
-    },
-    {
-      "source": "FXStreet",
-      "title": "GBP/USD: Election risks weigh on Pound – Societe Generale",
-      "summary": "Societe Generale’s team highlights that GBP/USD has edged higher, helped by lower Oil prices, risk correlations and Asia"
+      "title": "Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches",
+      "summary": "The US Dollar Index (DXY) fell toward the 97.90 region on Friday, pressured by improving risk sentiment and easing safe-"
     },
     {
       "source": "Investing",
-      "title": "Kraken launches virtual IBANs in four European countries with salary match",
+      "title": "Bitcoin slips, falls under $80k amid U.S.-Iran tensions, Strategy sales",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin pulls back as markets eye Iran progress, Strategy sales",
+      "title": "Kraken launches virtual IBANs in four European countries with salary match",
       "summary": ""
     },
     {
@@ -155,12 +145,18 @@
       "source": "Investing",
       "title": "Roobet Launches Prediction Markets on May 6, The First Major Crypto Casino to Integrate the Format",
       "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "summary": ""
     }
   ],
   "cot": {},
   "reasons": {
     "USD": [
-      "[弱気] Fed: Higher-for-longer stance weighs on Gold – TD Secur"
+      "[弱気] Silver Price Analysis: Climbs above $80 as bulls eye we",
+      "[弱気] Forecasting the upcoming week: US Dollar weakens ahead "
     ]
   }
 }
