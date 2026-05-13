@@ -6,13 +6,11 @@
 <title>FX Terminal</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#070a0f;--panel:#0d1117;--border:#1a2332;--accent:#00d4ff;--green:#00ff88;--red:#ff3366;--yellow:#ffcc00;--text:#c9d1d9;--dim:#4a5568;}
+:root{--bg:#070a0f;--panel:#0d1117;--border:#1a2332;--accent:#00d4ff;--green:#00ff88;--red:#ff3366;--yellow:#ffcc00;--text:#c9d1d9;--dim:#4a5568;--purple:#a78bfa;}
 *{margin:0;padding:0;box-sizing:border-box;}
 body{background:var(--bg);color:var(--text);font-family:"JetBrains Mono",monospace;min-height:100vh;}
 body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(0,212,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,212,255,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0;}
 .wrap{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:16px;}
-
-/* ヘッダー */
 .header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--border);}
 .title{font-family:"Bebas Neue",sans-serif;font-size:2rem;letter-spacing:4px;color:var(--accent);text-shadow:0 0 30px rgba(0,212,255,0.5);}
 .subtitle{font-size:0.6rem;color:var(--dim);letter-spacing:2px;margin-top:2px;}
@@ -20,75 +18,68 @@ body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(
 @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
 .ts{font-size:0.65rem;color:var(--dim);text-align:right;}
 .status{font-size:0.6rem;color:var(--accent);margin-top:4px;}
-
-/* 警告 */
-.warn{background:rgba(255,204,0,0.05);border:1px solid rgba(255,204,0,0.2);border-radius:4px;padding:8px 12px;font-size:0.58rem;color:var(--yellow);margin-bottom:16px;font-family:"Noto Sans JP",sans-serif;line-height:1.5;}
-
-/* タブ（スマホ用） */
-.tabs{display:none;gap:4px;margin-bottom:16px;overflow-x:auto;}
-.tab{flex:none;padding:8px 14px;border:1px solid var(--border);border-radius:20px;font-size:0.65rem;letter-spacing:1px;background:transparent;color:var(--dim);cursor:pointer;white-space:nowrap;transition:all 0.2s;}
-.tab.active{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:600;}
-
-/* デスクトップグリッド */
-.grid{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:16px;margin-bottom:16px;}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
-
-/* パネル */
+.warn{background:rgba(255,204,0,0.05);border:1px solid rgba(255,204,0,0.2);border-radius:4px;padding:8px 12px;font-size:0.58rem;color:var(--yellow);margin-bottom:16px;font-family:"Noto Sans JP",sans-serif;}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:16px;margin-bottom:16px;}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
 .panel{background:var(--panel);border:1px solid var(--border);border-radius:4px;padding:16px;position:relative;overflow:hidden;}
 .panel::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0.3;}
 .plabel{font-size:0.58rem;letter-spacing:3px;text-transform:uppercase;color:var(--dim);margin-bottom:14px;display:flex;align-items:center;gap:8px;}
 .plabel::after{content:"";flex:1;height:1px;background:var(--border);}
-
-/* 通貨強弱 */
-.crow{display:grid;grid-template-columns:40px 1fr 36px;align-items:center;gap:8px;margin-bottom:8px;}
+.crow{display:grid;grid-template-columns:40px 1fr 52px;align-items:center;gap:8px;margin-bottom:8px;}
 .cname{font-family:"Bebas Neue",sans-serif;font-size:0.95rem;letter-spacing:2px;}
-.btrack{height:6px;background:var(--border);border-radius:3px;overflow:hidden;}
-.bfill{height:100%;border-radius:3px;}
-.pos{background:linear-gradient(90deg,var(--green),rgba(0,255,136,0.5));box-shadow:0 0 8px rgba(0,255,136,0.3);}
-.neg{background:linear-gradient(90deg,var(--red),rgba(255,51,102,0.5));box-shadow:0 0 8px rgba(255,51,102,0.3);}
-.neu{background:var(--dim);width:2px!important;}
-.sval{font-size:0.72rem;font-weight:600;text-align:right;}
-.sval.pos{color:var(--green);}.sval.neg{color:var(--red);}.sval.neu{color:var(--dim);}
-
-/* ペア */
-.prow{display:flex;align-items:center;justify-content:space-between;padding:8px 12px;border:1px solid var(--border);border-radius:3px;margin-bottom:6px;background:rgba(255,255,255,0.02);}
-.pname{font-family:"Bebas Neue",sans-serif;font-size:1rem;letter-spacing:3px;}
-.pdir{font-size:0.68rem;font-weight:600;}
-.sl{color:var(--green);text-shadow:0 0 8px rgba(0,255,136,0.5);}.l{color:rgba(0,255,136,0.7);}.ss{color:var(--red);text-shadow:0 0 8px rgba(255,51,102,0.5);}.s{color:rgba(255,51,102,0.7);}.n{color:var(--dim);}
-
-/* ニュース */
+.btrack{height:8px;background:var(--border);border-radius:4px;overflow:hidden;}
+.bfill{height:100%;border-radius:4px;transition:width 0.6s ease;}
+.pos{background:var(--green);}
+.neg{background:var(--red);}
+.neu{width:3px!important;background:var(--dim);}
+.score-badge{font-size:0.72rem;font-weight:600;padding:2px 6px;border-radius:4px;text-align:center;}
+.score-badge.pos{background:rgba(0,255,136,0.15);color:var(--green);}
+.score-badge.neg{background:rgba(255,51,102,0.15);color:var(--red);}
+.score-badge.neu{background:var(--border);color:var(--dim);}
+.tf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px;}
+.tf-card{background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:4px;padding:12px;cursor:pointer;transition:border-color 0.2s;}
+.tf-card:hover{border-color:var(--accent);}
+.tf-card.active{border-color:var(--accent);background:rgba(0,212,255,0.05);}
+.tf-label{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--dim);margin-bottom:8px;}
+.tf-arrow{font-size:1.6rem;font-weight:700;margin-bottom:4px;line-height:1;}
+.tf-arrow.up{color:var(--green);}
+.tf-arrow.flat{color:var(--dim);}
+.tf-arrow.down{color:var(--red);}
+.tf-status{font-size:0.65rem;font-weight:600;}
+.tf-status.up{color:var(--green);}
+.tf-status.flat{color:var(--dim);}
+.tf-status.down{color:var(--red);}
+.detail-box{background:rgba(0,212,255,0.03);border:1px solid rgba(0,212,255,0.1);border-radius:4px;padding:12px;min-height:60px;}
+.detail-title{font-size:0.55rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
+.detail-text{font-size:0.68rem;color:var(--text);line-height:1.7;font-family:"Noto Sans JP",sans-serif;}
+.dev-comment{background:rgba(167,139,250,0.05);border:1px solid rgba(167,139,250,0.2);border-left:3px solid var(--purple);border-radius:0 4px 4px 0;padding:12px 14px;margin-bottom:12px;}
+.dev-label{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--purple);margin-bottom:6px;}
+.dev-text{font-size:0.68rem;color:var(--text);line-height:1.7;font-family:"Noto Sans JP",sans-serif;}
+.dev-date{font-size:0.55rem;color:var(--dim);margin-top:6px;}
+.diary-box{background:rgba(255,204,0,0.03);border:1px solid rgba(255,204,0,0.15);border-radius:4px;padding:12px;}
+.diary-label{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--yellow);margin-bottom:6px;}
+.diary-text{font-size:0.68rem;color:var(--text);line-height:1.7;font-family:"Noto Sans JP",sans-serif;}
 .nlist{display:flex;flex-direction:column;gap:8px;max-height:400px;overflow-y:auto;}
 .nlist::-webkit-scrollbar{width:2px;}.nlist::-webkit-scrollbar-thumb{background:var(--accent);}
 .nitem{padding:8px 10px;border-left:2px solid var(--border);background:rgba(255,255,255,0.01);border-radius:0 3px 3px 0;}
 .nsrc{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:3px;}
 .ntitle{font-family:"Noto Sans JP",sans-serif;font-size:0.7rem;line-height:1.5;}
-
-/* COT */
-.cotg{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;}
-.coti{text-align:center;padding:8px 4px;border:1px solid var(--border);border-radius:3px;}
-.cotc{font-family:"Bebas Neue",sans-serif;font-size:0.95rem;letter-spacing:2px;margin-bottom:2px;}
-.cotb{font-size:0.58rem;}.cotn{font-size:0.58rem;color:var(--dim);margin-top:2px;}
-
-/* 根拠 */
-.rlist{display:flex;flex-direction:column;gap:4px;max-height:140px;overflow-y:auto;}
+.rlist{display:flex;flex-direction:column;gap:4px;max-height:120px;overflow-y:auto;}
 .ritem{font-size:0.6rem;padding:4px 8px;border-left:1px solid var(--border);color:var(--dim);font-family:"Noto Sans JP",sans-serif;line-height:1.4;}
 .rcur{color:var(--accent);font-size:0.58rem;margin-right:4px;}
-
-/* ボタン */
 .btn{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--accent);color:var(--accent);padding:7px 14px;border-radius:3px;font-family:"JetBrains Mono",monospace;font-size:0.6rem;letter-spacing:2px;text-transform:uppercase;cursor:pointer;margin-top:10px;transition:all 0.2s;width:100%;justify-content:center;}
 .btn:hover{background:rgba(0,212,255,0.08);}
 .gtime{font-size:0.55rem;color:var(--dim);margin-top:6px;text-align:center;}
-
-/* スマホ対応 */
+.tabs{display:none;gap:4px;margin-bottom:16px;overflow-x:auto;}
+.tab{flex:none;padding:8px 14px;border:1px solid var(--border);border-radius:20px;font-size:0.65rem;letter-spacing:1px;background:transparent;color:var(--dim);cursor:pointer;white-space:nowrap;transition:all 0.2s;}
+.tab.active{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:600;}
 @media(max-width:768px){
-  .title{font-size:1.6rem;letter-spacing:3px;}
-  .grid{grid-template-columns:1fr;}
+  .title{font-size:1.6rem;}
+  .grid3{grid-template-columns:1fr;}
   .grid2{grid-template-columns:1fr;}
   .tabs{display:flex;}
   .panel{display:none;}
   .panel.active{display:block;}
-  .cotg{grid-template-columns:repeat(3,1fr);}
-  .nlist{max-height:300px;}
 }
 </style>
 </head>
@@ -97,123 +88,141 @@ body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(
 <div class="header">
   <div>
     <div class="title">FX TERMINAL</div>
-    <div class="subtitle">Fundamental Analysis</div>
+    <div class="subtitle">USD/JPY Fundamental Analysis</div>
   </div>
   <div>
     <div class="ts"><span class="live"></span><span id="clk"></span></div>
     <div class="status" id="status">読込中...</div>
   </div>
 </div>
-<div class="warn">⚠️ 自動分析レポートです。最終判断は必ずご自身で。</div>
+<div class="warn">⚠️ 自動分析レポートです。最終判断は必ずご自身で。投資助言ではありません。</div>
 
-<!-- スマホ用タブ -->
-<div class="tabs" id="tabs">
+<div class="tabs">
   <button class="tab active" onclick="showTab(0)">📊 強弱</button>
-  <button class="tab" onclick="showTab(1)">🎯 ペア</button>
+  <button class="tab" onclick="showTab(1)">🎯 ドル円</button>
   <button class="tab" onclick="showTab(2)">📰 ニュース</button>
-  <button class="tab" onclick="showTab(3)">📋 COT</button>
-  <button class="tab" onclick="showTab(4)">🔍 根拠</button>
+  <button class="tab" onclick="showTab(3)">💬 コメント</button>
 </div>
 
-<!-- デスクトップ: 3列グリッド -->
-<div class="grid">
+<div class="grid3">
   <div class="panel active" id="p0">
     <div class="plabel">通貨強弱スコア</div>
     <div id="clist"></div>
   </div>
   <div class="panel active" id="p1">
-    <div class="plabel">ペア方向性</div>
-    <div id="plist"></div>
+    <div class="plabel">USD/JPY 目線</div>
+    <div class="tf-grid">
+      <div class="tf-card active" onclick="showDetail('long',this)">
+        <div class="tf-label">長期</div>
+        <div class="tf-arrow up">↑</div>
+        <div class="tf-status up">円安継続</div>
+      </div>
+      <div class="tf-card" onclick="showDetail('mid',this)">
+        <div class="tf-label">中期 / 1ヶ月</div>
+        <div class="tf-arrow flat">→</div>
+        <div class="tf-status flat">様子見</div>
+      </div>
+      <div class="tf-card" onclick="showDetail('short',this)">
+        <div class="tf-label">短期 / 今週</div>
+        <div class="tf-arrow flat">→</div>
+        <div class="tf-status flat">様子見</div>
+      </div>
+    </div>
+    <div class="detail-box">
+      <div class="detail-title" id="detail-title">長期の根拠</div>
+      <div class="detail-text" id="detail-text">読込中...</div>
+    </div>
   </div>
   <div class="panel active" id="p2" style="grid-row:span 2">
     <div class="plabel">FX関連ニュース</div>
     <div class="nlist" id="nlist"></div>
   </div>
 </div>
+
 <div class="grid2">
   <div class="panel active" id="p3">
-    <div class="plabel">COT 機関投資家</div>
-    <div class="cotg" id="cotg"></div>
+    <div class="plabel">開発者コメント</div>
+    <div class="dev-comment">
+      <div class="dev-label">相場の補足</div>
+      <div class="dev-text" id="dev-comment">読込中...</div>
+      <div class="dev-date" id="dev-date"></div>
+    </div>
+    <div class="diary-box">
+      <div class="diary-label">ひとこと日記</div>
+      <div class="diary-text" id="diary-text">読込中...</div>
+    </div>
   </div>
   <div class="panel active" id="p4">
     <div class="plabel">スコア根拠</div>
     <div class="rlist" id="rlist"></div>
-    <button class="btn" onclick="fetchLatestData()">▶ 今すぐ更新</button>
+    <button class="btn" onclick="fetchAll()">▶ 今すぐ更新</button>
     <div class="gtime">開くと自動更新 / 30分ごと自動</div>
   </div>
 </div>
 </div>
 
 <script>
-let DATA = {"timestamp": "2026-05-08T01:35:40.121479", "generated": "2026年05月08日 01:35", "scores": {"USD": -1, "JPY": 0, "EUR": 0, "GBP": 0, "AUD": 0, "NZD": 0, "CAD": 0, "CHF": 0}, "pairs": [{"pair": "USDJPY", "direction": "様子見", "diff": -1, "base_score": -1, "quote_score": 0}, {"pair": "EURUSD", "direction": "様子見", "diff": 1, "base_score": 0, "quote_score": -1}, {"pair": "GBPUSD", "direction": "様子見", "diff": 1, "base_score": 0, "quote_score": -1}, {"pair": "AUDUSD", "direction": "様子見", "diff": 1, "base_score": 0, "quote_score": -1}, {"pair": "EURJPY", "direction": "様子見", "diff": 0, "base_score": 0, "quote_score": 0}, {"pair": "GBPJPY", "direction": "様子見", "diff": 0, "base_score": 0, "quote_score": 0}], "news": [{"source": "Fed", "title": "Federal Reserve issues FOMC statement", "summary": "Federal Reserve issues FOMC statement"}, {"source": "Fed", "title": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp.", "summary": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp."}, {"source": "Fed", "title": "Federal Reserve Board announces approval of application by Banco de Credito del Peru", "summary": "Federal Reserve Board announces approval of application by Banco de Credito del Peru"}, {"source": "Fed", "title": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank", "summary": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank"}, {"source": "Fed", "title": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.", "summary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc."}, {"source": "Fed", "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026", "summary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026"}, {"source": "Fed", "title": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.", "summary": "Federal Reserve Board announces approval of application by Burke &amp; Herbert Financial Services Corp."}, {"source": "Fed", "title": "Federal Reserve Board announces termination of enforcement actions with Crédit Agricole S.A. and Crédit Agricole Corporate and Investment Bank, Mega International Commercial Bank Co., Ltd, and the Goldman Sachs Group, Inc.", "summary": "Federal Reserve Board announces termination of enforcement actions with Cr&eacute;dit Agricole S.A. and Cr&eacute;dit Ag"}, {"source": "FXStreet", "title": "EUR/USD: Sentiment-led rally eyes 1.1825 – Scotiabank", "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is modestly higher, extending a sentiment-dr"}, {"source": "FXStreet", "title": "Fed’s Hammack: Fed should be neutral in policy stance", "summary": "Beth Hammack, President of the Federal Reserve (Fed) Bank of Cleveland, in an interview on a public radio station on Thu"}, {"source": "FXStreet", "title": "USD/JPY muted as easing Middle East tensions weigh on US Dollar", "summary": "The USD/JPY pair is currently trading around the 156.40 level, showing minimal change throughout the day. This stability"}, {"source": "FXStreet", "title": "Gold extends rally as traders reassess Fed outlook amid softer Oil prices", "summary": "Gold (XAU/USD) extends its advance on Thursday, climbing to over two-week highs as price action remains driven by geopol"}, {"source": "FXStreet", "title": "USD/CHF slides to two-month low as US-Iran deal hopes weigh on Dollar", "summary": "The Swiss Franc (CHF) strengthens against the US Dollar (USD) on Thursday as renewed hopes for a possible US-Iran peace "}, {"source": "FXStreet", "title": "Fed: Higher-for-longer stance weighs on Gold – TD Securities", "summary": "TD Securities strategist Bart Melek notes that the latest FOMC decision and the Iran-related Oil shock are pushing the F"}, {"source": "FXStreet", "title": "USD/CAD: Bear trend intact below 1.3645 – Scotiabank", "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is little changed as traders await "}, {"source": "FXStreet", "title": "GBP/USD: Election risks weigh on Pound – Societe Generale", "summary": "Societe Generale’s team highlights that GBP/USD has edged higher, helped by lower Oil prices, risk correlations and Asia"}, {"source": "Investing", "title": "Kraken launches virtual IBANs in four European countries with salary match", "summary": ""}, {"source": "Investing", "title": "Bitcoin pulls back as markets eye Iran progress, Strategy sales", "summary": ""}, {"source": "Investing", "title": "Bitcoin flat as Strategy flags potential sales, but still at over three-month high", "summary": ""}, {"source": "Investing", "title": "Roobet Launches Prediction Markets on May 6, The First Major Crypto Casino to Integrate the Format", "summary": ""}], "cot": {}, "reasons": {"USD": ["[弱気] Fed: Higher-for-longer stance weighs on Gold – TD Secur"]}};
-let currentTab = 0;
+const DETAILS={long:{title:'長期の根拠',key:'long_reason'},mid:{title:'中期の根拠 / 1ヶ月目線',key:'mid_reason'},short:{title:'短期の根拠 / 今週の目線',key:'short_reason'}};
+let ADMIN={};
+
+function showDetail(key,el){
+  document.querySelectorAll('.tf-card').forEach(c=>c.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('detail-title').textContent=DETAILS[key].title;
+  document.getElementById('detail-text').textContent=ADMIN[DETAILS[key].key]||'データなし';
+}
 
 function showTab(n){
-  currentTab = n;
   document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===n));
-  // スマホ: 対応パネルだけ表示
-  if(window.innerWidth <= 768){
-    for(let i=0;i<5;i++) document.getElementById('p'+i).classList.toggle('active',i===n);
+  if(window.innerWidth<=768){
+    for(let i=0;i<4;i++) document.getElementById('p'+i).classList.toggle('active',i===n);
   }
 }
 
-function renderAll(d){
-  // 通貨強弱
-  const sorted=Object.entries(d.scores).sort((a,b)=>b[1]-a[1]);
+function renderScores(d){
+  const sorted=Object.entries(d.scores||{}).sort((a,b)=>b[1]-a[1]);
+  const maxAbs=Math.max(...Object.values(d.scores||{1:1}).map(Math.abs),1);
   document.getElementById('clist').innerHTML=sorted.map(([c,s])=>{
     const cls=s>0?'pos':s<0?'neg':'neu';
-    const pct=s===0?1:Math.abs(s)/5*100;
-    return `<div class="crow"><div class="cname">${c}</div><div class="btrack"><div class="bfill ${cls}" style="width:${pct}%"></div></div><div class="sval ${cls}">${s>0?'+':''}${s}</div></div>`;
+    const pct=s===0?0:Math.abs(s)/maxAbs*100;
+    return `<div class="crow"><div class="cname">${c}</div><div class="btrack"><div class="bfill ${cls}" style="width:${pct}%"></div></div><div class="score-badge ${cls}">${s>0?'+':''}${s}</div></div>`;
   }).join('');
-
-  // ペア
-  document.getElementById('plist').innerHTML=d.pairs.map(p=>{
-    let cls='n',label='⚪ 様子見';
-    if(p.direction.includes('強くロング')){cls='sl';label='🟢🟢 強くロング';}
-    else if(p.direction.includes('ロング')){cls='l';label='🟢 ロング優勢';}
-    else if(p.direction.includes('強くショート')){cls='ss';label='🔴🔴 強くショート';}
-    else if(p.direction.includes('ショート')){cls='s';label='🔴 ショート優勢';}
-    return `<div class="prow"><div class="pname">${p.pair}</div><div class="pdir ${cls}">${label}</div><div style="font-size:0.6rem;color:var(--dim)">${p.diff>0?'+':''}${p.diff}</div></div>`;
-  }).join('');
-
-  // ニュース
-  document.getElementById('nlist').innerHTML=(d.news||[]).map(n=>`
-    <div class="nitem"><div class="nsrc">${n.source}</div><div class="ntitle">${n.title}</div></div>
-  `).join('')||'<div class="ritem">取得中...</div>';
-
-  // COT
-  const ce=Object.entries(d.cot||{});
-  document.getElementById('cotg').innerHTML=ce.length?ce.map(([c,v])=>`
-    <div class="coti">
-      <div class="cotc" style="color:${v.net>0?'var(--green)':'var(--red)'}">${c}</div>
-      <div class="cotb" style="color:${v.net>0?'var(--green)':'var(--red)'}">${v.net>0?'▲ LONG':'▼ SHORT'}</div>
-      <div class="cotn">${v.net>0?'+':''}${v.net.toLocaleString()}</div>
-    </div>`).join(''):'<div class="ritem" style="grid-column:span 3;text-align:center;padding:16px">取得中...</div>';
-
-  // 根拠
+  document.getElementById('nlist').innerHTML=(d.news||[]).map(n=>`<div class="nitem"><div class="nsrc">${n.source}</div><div class="ntitle">${n.title}</div></div>`).join('')||'<div class="ritem">取得中...</div>';
   const items=[];
   for(const[c,list]of Object.entries(d.reasons||{}))
     for(const r of list) items.push(`<div class="ritem"><span class="rcur">${c}</span>${r}</div>`);
   document.getElementById('rlist').innerHTML=items.join('')||'<div class="ritem">データなし</div>';
 }
 
-async function fetchLatestData(){
+function renderAdmin(d){
+  ADMIN=d;
+  document.getElementById('dev-comment').textContent=d.dev_comment||'コメントなし';
+  document.getElementById('dev-date').textContent=d.updated?d.updated+' 更新':'';
+  document.getElementById('diary-text').textContent=d.diary||'';
+  document.getElementById('detail-text').textContent=d.long_reason||'データなし';
+}
+
+async function fetchAll(){
   const s=document.getElementById('status');
   s.textContent='🔄 更新中...';
   try{
-    const r=await fetch('fx_data.json?t='+Date.now());
-    const d=await r.json();
-    renderAll(d);
-    s.textContent='✅ '+d.generated;
+    const[r1,r2]=await Promise.all([
+      fetch('fx_data.json?t='+Date.now()),
+      fetch('fx_admin.json?t='+Date.now())
+    ]);
+    const d1=await r1.json();
+    const d2=await r2.json();
+    renderScores(d1);
+    renderAdmin(d2);
+    s.textContent='✅ '+d1.generated;
   }catch(e){
-    renderAll(DATA);
     s.textContent='📁 保存データ表示中';
   }
 }
 
 setInterval(()=>document.getElementById('clk').textContent=new Date().toLocaleString('ja-JP'),1000);
-window.addEventListener('load', fetchLatestData);
-setInterval(fetchLatestData, 30*60*1000);
+window.addEventListener('load',fetchAll);
+setInterval(fetchAll,30*60*1000);
 </script>
 </body>
 </html>
