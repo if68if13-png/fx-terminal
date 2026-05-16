@@ -35,7 +35,7 @@ def get_news():
 
 def get_cot():
     try:
-        r = requests.get("https://www.cftc.gov/dea/newcot/f_disagg.txt", headers=HEADERS, timeout=20)
+        r = requests.get("https://www.cftc.gov/dea/newcot/FinFutWk.txt", headers=HEADERS, timeout=20)
         if r.status_code != 200: return {}
         targets = {"JAPANESE YEN":"JPY","EURO FX":"EUR","BRITISH POUND":"GBP","AUSTRALIAN DOLLAR":"AUD","CANADIAN DOLLAR":"CAD","SWISS FRANC":"CHF"}
         cot = {}
