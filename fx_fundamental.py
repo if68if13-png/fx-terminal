@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import requests, feedparser, datetime, os, json
 
-SAVE_DIR = os.path.expanduser("~/Documents/FX分析")
+SAVE_DIR = os.path.abspath(".")
 os.makedirs(SAVE_DIR, exist_ok=True)
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
