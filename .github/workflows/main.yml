@@ -1,0 +1,35 @@
+name: FX Data Update
+
+on:
+  schedule:
+    - cron: '0 22 * * *'  # 日本時間7時
+    - cron: '0 6 * * *'   # 日本時間15時
+    - cron: '0 14 * * *'  # 日本時間23時
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests feedparser anthropic
+
+      - name: Run FX analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fx_fundamental.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add fx_data.json
+          git diff --staged --quiet || git commit -m "自動更新"
+          git push
