@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-10T06:44:35.552884",
-  "generated": "2026年05月10日 06:44",
+  "timestamp": "2026-05-16T16:46:48.308213",
+  "generated": "2026年05月16日 16:46",
   "scores": {
-    "USD": -2,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 0,
@@ -14,31 +14,31 @@
   "pairs": [
     {
       "pair": "USDJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": -2
+      "quote_score": 2
     },
     {
       "pair": "GBPUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": -2
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": -2
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -58,105 +58,110 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
+      "summary": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M."
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by the Stephen M. Calk 2025 Trust",
+      "summary": "Federal Reserve Board announces approval of application by the Stephen M. Calk 2025 Trust"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces it does not object to the conversion of United Texas Bank, of Dallas, Texas, from a bank supervised by the Federal Reserve to a national bank supervised by the Office of the Comptroller of the Currency",
+      "summary": "Federal Reserve Board announces it does not object to the conversion of United Texas Bank, of Dallas, Texas, from a bank"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Holdings (USA), Inc., and Credit Suisse AG, New York Branch",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Ho"
+    },
+    {
+      "source": "Fed",
+      "title": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his successor on the Board is sworn in",
+      "summary": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his "
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
+      "summary": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on disco"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
+      "summary": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with F &amp; M Holding Company, Inc. and Thread Banco"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
       "summary": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc."
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp.",
-      "summary": "Federal Reserve Board announces approval of application by OceanFirst Financial Corp."
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Banco de Credito del Peru",
-      "summary": "Federal Reserve Board announces approval of application by Banco de Credito del Peru"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of First Financial Bank"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with Community Bankshares, Inc."
-    },
-    {
-      "source": "Fed",
-      "title": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026",
-      "summary": "Minutes of the Board’s discount rate meetings on February 9 and March 18, 2026"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Burke & Herbert Financial Services Corp.",
-      "summary": "Federal Reserve Board announces approval of application by Burke &amp; Herbert Financial Services Corp."
+      "source": "FXStreet",
+      "title": "Taiwan: Tech exports sustain strong growth – ING",
+      "summary": "ING analysts see Taiwan’s external demand remaining a key growth driver, led by technology exports. They expect export o"
     },
     {
       "source": "FXStreet",
-      "title": "China: War risks reshape growth outlook – Rabobank",
-      "summary": "Rabobank strategists assess how the US and Israel’s war against Iran could affect China. They note higher Oil and gas pr"
+      "title": "Singapore: NODX gains extend on AI cycle – DBS",
+      "summary": "DBS economists Taimur Baig and Radhika Rao anticipate Singapore’s April 2026 non-oil domestic exports to rise 11.5% year"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesia: Growth momentum seen easing – Standard Chartered",
-      "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s GDP growth accelerated to 5.6% year-on-year in Q1 2026, driven b"
+      "title": "Japan: Energy shock lifts inflation more than GDP – ING",
+      "summary": "ING’s Min Joo Kang expects Japan’s economy to maintain similar growth to the previous quarter, with first-quarter Gross "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Analysis: Climbs above $80 as bulls eye weekly high",
-      "summary": "Silver (XAG/USD) price advances more than 2.50% on Friday, set to end the week with gains of over 7% sponsored by US Dol"
+      "title": "Forecasting the upcoming week: Markets shift focus to PMIs and central bank events",
+      "summary": "The US Dollar Index (DXY) climbs above the 99.30 region, reaching fresh multi-week highs on Friday as stronger-than-expe"
     },
     {
       "source": "FXStreet",
-      "title": "Brazil: IPCA shock complicates easing path – Wells Fargo",
-      "summary": "Wells Fargo Economics projects Brazil’s April IPCA inflation to rise 0.9% month-over-month and around 4.5% year-over-yea"
+      "title": "Asian FX: Dollar strength caps RMB-led optimism – OCBC",
+      "summary": "OCBC's strategist Christopher Wong says Asian FX remains constrained by a firm Dollar and higher US yields, despite some"
     },
     {
       "source": "FXStreet",
-      "title": "Aluminium: Bauxite export cap threatens supply – Commerzbank",
-      "summary": "Commerzbank’s Thu Lan Nguyen argues that any relief from a potential reopening of the Strait of Hormuz for Aluminium wil"
+      "title": "Silver Price Forecast: Crashes below $77 as RSI shifts bearish, eyes on $75",
+      "summary": "Silver (XAG/USD) price collapses by 7.90% on Friday as US Treasury yields skyrocket amid investor fears of a second roun"
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: US Dollar weakens ahead of key US CPI data and Fed speeches",
-      "summary": "The US Dollar Index (DXY) fell toward the 97.90 region on Friday, pressured by improving risk sentiment and easing safe-"
+      "title": "Malaysia: Growth risks and steady rates – UOB",
+      "summary": "UOB’s Global Economics & Markets Research, led by Julia Goh and Loke Siew Ting, notes Malaysia’s 1Q26 Gross Domestic Pro"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Growth outlook improves on US-China talks – DBS",
+      "summary": "DBS Group Research economist Samuel Tse assesses how recent US-China talks are shaping the outlook for Chinese growth an"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold sinks 2% as Iran war fuels fresh inflation shock",
+      "summary": "Gold price retreats by over 2.30% on Friday amid fears that prolonged hostilities between the US and Iran could trigger "
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar Index climbs to five-week high as hawkish Fed bets gather pace",
+      "summary": "The US Dollar Index (DXY), which measures the Greenback against a basket of six major currencies, extends its rally on F"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips, falls under $80k amid U.S.-Iran tensions, Strategy sales",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Kraken launches virtual IBANs in four European countries with salary match",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat as Strategy flags potential sales, but still at over three-month high",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Roobet Launches Prediction Markets on May 6, The First Major Crypto Casino to Integrate the Format",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "title": "Bitcoin drops to $78,000 as rate hike fears trigger massive $550M long flush",
       "summary": ""
     }
   ],
   "cot": {},
   "reasons": {
     "USD": [
-      "[弱気] Silver Price Analysis: Climbs above $80 as bulls eye we",
-      "[弱気] Forecasting the upcoming week: US Dollar weakens ahead "
+      "[強気] Forecasting the upcoming week: Markets shift focus to P",
+      "[強気] US Dollar Index climbs to five-week high as hawkish Fed"
     ]
   }
 }
