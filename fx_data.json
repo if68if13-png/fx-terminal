@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-16T16:46:48.308213",
-  "generated": "2026年05月16日 16:46",
+  "timestamp": "2026-05-17T02:07:20.507927",
+  "generated": "2026年05月17日 02:07",
   "scores": {
     "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 0,
-    "AUD": 0,
+    "AUD": 1,
     "NZD": 0,
     "CAD": 0,
     "CHF": 0
@@ -35,9 +35,9 @@
     },
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
       "quote_score": 2
     },
     {
@@ -157,11 +157,45 @@
       "summary": ""
     }
   ],
-  "cot": {},
+  "cot": {
+    "CHF": {
+      "long": 94743,
+      "short": 66537,
+      "net": 28206,
+      "bias": "🟢ロング優勢"
+    },
+    "GBP": {
+      "long": 36150,
+      "short": 484,
+      "net": 35666,
+      "bias": "🟢ロング優勢"
+    },
+    "JPY": {
+      "long": 21331,
+      "short": 3364,
+      "net": 17967,
+      "bias": "🟢ロング優勢"
+    },
+    "EUR": {
+      "long": 21331,
+      "short": 3364,
+      "net": 17967,
+      "bias": "🟢ロング優勢"
+    },
+    "AUD": {
+      "long": 289244,
+      "short": 38739,
+      "net": 250505,
+      "bias": "🟢ロング優勢"
+    }
+  },
   "reasons": {
     "USD": [
       "[強気] Forecasting the upcoming week: Markets shift focus to P",
       "[強気] US Dollar Index climbs to five-week high as hawkish Fed"
+    ],
+    "AUD": [
+      "[COT] 🟢ロング優勢 (ネット:+250,505)"
     ]
   }
 }
