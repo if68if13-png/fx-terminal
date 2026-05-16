@@ -2,9 +2,9 @@ name: FX Data Update
 
 on:
   schedule:
-    - cron: '0 22 * * *'  # 日本時間7時
-    - cron: '0 6 * * *'   # 日本時間15時
-    - cron: '0 14 * * *'  # 日本時間23時
+    - cron: '0 22 * * *'
+    - cron: '0 6 * * *'
+    - cron: '0 14 * * *'
   workflow_dispatch:
 
 jobs:
@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v4
@@ -26,7 +28,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python fx_fundamental.py
 
-  　- name: Commit and push
+      - name: Commit and push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
