@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-05-17T17:34:08.597556",
-  "generated": "2026年05月17日 17:34",
+  "timestamp": "2026-05-18T11:55:41.733157",
+  "generated": "2026年05月18日 11:55",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
+    "USD": -2,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 0,
-    "AUD": 1,
+    "AUD": 0,
     "NZD": 0,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": -2
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": -2
     },
     {
       "pair": "AUDUSD",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 0,
+      "quote_score": -2
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "base_score": -2,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan: Tech exports sustain strong growth – ING",
-      "summary": "ING analysts see Taiwan’s external demand remaining a key growth driver, led by technology exports. They expect export o"
+      "title": "AUD/USD Price Forecast: Flattens around 0.7150 after recovering early losses",
+      "summary": "The AUD/USD pair trades flat around 0.7150 during the European trading session on Monday after recovering significant ea"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore: NODX gains extend on AI cycle – DBS",
-      "summary": "DBS economists Taimur Baig and Radhika Rao anticipate Singapore’s April 2026 non-oil domestic exports to rise 11.5% year"
+      "title": "United Kingdom: Sluggish jobs outlook persists – Deutsche Bank",
+      "summary": "Deutsche Bank’s Sanjay Raja expects the United Kingdom (UK) labour market to remain weak after a surprise drop in the jo"
     },
     {
       "source": "FXStreet",
-      "title": "Japan: Energy shock lifts inflation more than GDP – ING",
-      "summary": "ING’s Min Joo Kang expects Japan’s economy to maintain similar growth to the previous quarter, with first-quarter Gross "
+      "title": "IMF Staff: BoE doesn’t need to raise interest rates this year",
+      "summary": "According to the International Monetary Fund (IMF) staff, the Bank of England (BoE) doesn’t need to raise rates this yea"
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: Markets shift focus to PMIs and central bank events",
-      "summary": "The US Dollar Index (DXY) climbs above the 99.30 region, reaching fresh multi-week highs on Friday as stronger-than-expe"
+      "title": "Chinese Yuan: Stimulus hopes as PBoC defends 6.8 – TD Securities",
+      "summary": "TD Securities strategists judge China’s April data as weak, citing higher Oil prices and soft consumer sentiment. They e"
     },
     {
       "source": "FXStreet",
-      "title": "Asian FX: Dollar strength caps RMB-led optimism – OCBC",
-      "summary": "OCBC's strategist Christopher Wong says Asian FX remains constrained by a firm Dollar and higher US yields, despite some"
+      "title": "US Dollar: Structural risks behind yield-driven strength – DBS",
+      "summary": "DBS Group Research economist Philip Wee argues that recent US Dollar (USD) resilience reflects higher-for-longer US yiel"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: Crashes below $77 as RSI shifts bearish, eyes on $75",
-      "summary": "Silver (XAG/USD) price collapses by 7.90% on Friday as US Treasury yields skyrocket amid investor fears of a second roun"
+      "title": "Australian Dollar climbs against Yen as structural forces weigh on JPY",
+      "summary": "AUD/JPY trades around 113.65 on Monday at the time of writing, up 0.16% on the day. The pair rebounds as persistent weak"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysia: Growth risks and steady rates – UOB",
-      "summary": "UOB’s Global Economics & Markets Research, led by Julia Goh and Loke Siew Ting, notes Malaysia’s 1Q26 Gross Domestic Pro"
+      "title": "Indian Rupee hits fresh all-time lows as oil prices rise further",
+      "summary": "The Indian Rupee (INR) extends its over-a-week-long downfall against the US Dollar (USD) at the start of the week. The U"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Growth outlook improves on US-China talks – DBS",
-      "summary": "DBS Group Research economist Samuel Tse assesses how recent US-China talks are shaping the outlook for Chinese growth an"
+      "title": "Euro upside attempts remain limited amid cautious markets",
+      "summary": "The Euro (EUR) is ticking higher against the US Dollar (USD) on Monday, but remains below previous lows, now turned into"
     },
     {
       "source": "FXStreet",
-      "title": "Gold sinks 2% as Iran war fuels fresh inflation shock",
-      "summary": "Gold price retreats by over 2.30% on Friday amid fears that prolonged hostilities between the US and Iran could trigger "
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar Index climbs to five-week high as hawkish Fed bets gather pace",
-      "summary": "The US Dollar Index (DXY), which measures the Greenback against a basket of six major currencies, extends its rally on F"
+      "title": "US Dollar Index (DXY) eases to 99.10 amid hopes of a US-Iran peace deal",
+      "summary": "The US Dollar (USD) shows moderate losses against its main currency peers on Monday, as rumours about ongoing US-Iran ne"
     },
     {
       "source": "Investing",
       "title": "Bitcoin pauses near $78k as U.S. retail adoption surges, Strategy hints at sales",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin drops to $78,000 as rate hike fears trigger massive $550M long flush",
       "summary": ""
     }
   ],
@@ -191,11 +191,18 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Forecasting the upcoming week: Markets shift focus to P",
-      "[強気] US Dollar Index climbs to five-week high as hawkish Fed"
+      "[弱気] Australian Dollar climbs against Yen as structural forc",
+      "[弱気] Indian Rupee hits fresh all-time lows as oil prices ris"
+    ],
+    "JPY": [
+      "[弱気] Australian Dollar climbs against Yen as structural forc"
     ],
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+250,505)"
+      "[COT] 🟢ロング優勢 (ネット:+250,505)",
+      "[弱気] Australian Dollar climbs against Yen as structural forc"
+    ],
+    "CAD": [
+      "[弱気] Chinese Yuan: Stimulus hopes as PBoC defends 6.8 – TD S"
     ]
   }
 }
