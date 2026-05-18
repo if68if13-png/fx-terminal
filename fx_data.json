@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-18T16:49:26.921479",
-  "generated": "2026年05月18日 16:49",
+  "timestamp": "2026-05-18T19:18:41.070337",
+  "generated": "2026年05月18日 19:18",
   "scores": {
     "USD": 0,
     "JPY": 0,
     "EUR": 0,
     "GBP": 0,
-    "AUD": 2,
+    "AUD": 1,
     "NZD": 0,
     "CAD": 0,
     "CHF": 0
@@ -14,9 +14,9 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     },
     {
@@ -103,38 +103,28 @@
     },
     {
       "source": "FXStreet",
+      "title": "Taiwan: AI cycle boosts growth outlook – Standard Chartered",
+      "summary": "Standard Chartered’s Tommy Wu raises Taiwan’s 2026 growth forecast to 9.5% from 7.6% after much stronger-than-expected Q"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold steadies as USD slips, Fed hike bets cap upside",
+      "summary": "Gold (XAU/USD) price steadies on Monday after reaching a daily low beneath $4,500, as the US Dollar is on the back foot "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Kevin Warsh will be sworn in as Fed Chair at the White House on Friday",
+      "summary": "US President Donald Trump will swear in Kevin Warsh as the next Federal Reserve (Fed) Chairman on Friday at the White Ho"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar advances as easing Iran tensions weigh on USD, RBA minutes awaited",
+      "summary": "AUD/USD trades around 0.7160 on Monday at the time of writing, up 0.15% on the day, as the US Dollar (USD) corrects lowe"
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen falls ahead of Japan GDP as Kihara warns over bond-market volatility",
       "summary": "The USD/JPY pair rises toward the 158.90 region as traders position ahead of Japan’s Q1 GDP release."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar edges slightly higher as traders await CPI and FOMC minutes",
-      "summary": "USD/CAD trades around 1.3740 on Monday at the time of writing, down modestly by 0.05% on the day. The pullback in the US"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Fiscal worries keep Sterling in danger zone – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights that the global bond selloff is approaching levels where borrowi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Europe: Rearmament reshapes growth outlook – Nordea",
-      "summary": "Nordea's Chief Economist Helge J. Pedersen argues that rapidly rising defense spending in Europe represents a historic f"
-    },
-    {
-      "source": "FXStreet",
-      "title": "RBA: Rate hike timing questions persist – TD Securities",
-      "summary": "TD Securities strategists reiterate their view that the Reserve Bank of Australia (RBA) will likely need to raise the ca"
-    },
-    {
-      "source": "FXStreet",
-      "title": "China: Recovery stalls as domestic demand weakens – Commerzbank",
-      "summary": "Commerzbank’s Dr. Henry Hao notes that China’s post-Q1 recovery lost momentum in April, with industrial output at a thre"
-    },
-    {
-      "source": "FXStreet",
-      "title": "European gas: TTF strengthens on Gulf risks – ING",
-      "summary": "ING strategists Warren Patterson and Ewa Manthey report renewed strength in European gas, with TTF breaking above EUR50/"
     },
     {
       "source": "Investing",
@@ -154,6 +144,16 @@
     {
       "source": "Investing",
       "title": "Bitcoin pauses near $78k as U.S. retail adoption surges, Strategy hints at sales",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin drops to $78,000 as rate hike fears trigger massive $550M long flush",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,8 +191,7 @@
   },
   "reasons": {
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+250,505)",
-      "[強気] RBA: Rate hike timing questions persist – TD Securities"
+      "[COT] 🟢ロング優勢 (ネット:+250,505)"
     ]
   }
 }
