@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-05-18T19:18:41.070337",
-  "generated": "2026年05月18日 19:18",
+  "timestamp": "2026-05-19T10:47:46.925698",
+  "generated": "2026年05月19日 10:47",
   "scores": {
     "USD": 0,
     "JPY": 0,
@@ -9,7 +9,7 @@
     "AUD": 1,
     "NZD": 0,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
@@ -103,28 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan: AI cycle boosts growth outlook – Standard Chartered",
-      "summary": "Standard Chartered’s Tommy Wu raises Taiwan’s 2026 growth forecast to 9.5% from 7.6% after much stronger-than-expected Q"
+      "title": "Indian Rupee faces pressure as higher oil prices remain painful",
+      "summary": "The Indian Rupee (INR) holds onto its 10-day losses against the US Dollar (USD) in the opening session on Tuesday."
     },
     {
       "source": "FXStreet",
-      "title": "Gold steadies as USD slips, Fed hike bets cap upside",
-      "summary": "Gold (XAU/USD) price steadies on Monday after reaching a daily low beneath $4,500, as the US Dollar is on the back foot "
+      "title": "Swiss Franc dips as rising US yields overshadow stronger Swiss growth",
+      "summary": "USD/CHF trades higher around 0.7870 on Tuesday at the time of writing, gaining 0.35% on the day as the US Dollar (USD) b"
     },
     {
       "source": "FXStreet",
-      "title": "Kevin Warsh will be sworn in as Fed Chair at the White House on Friday",
-      "summary": "US President Donald Trump will swear in Kevin Warsh as the next Federal Reserve (Fed) Chairman on Friday at the White Ho"
+      "title": "Canada CPI set to show rising inflation in April, challenging BoC outlook",
+      "summary": "The publication of Canada’s April Consumer Price Index (CPI) figures on Tuesday will be the focus of attention."
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar advances as easing Iran tensions weigh on USD, RBA minutes awaited",
-      "summary": "AUD/USD trades around 0.7160 on Monday at the time of writing, up 0.15% on the day, as the US Dollar (USD) corrects lowe"
+      "title": "Canadian Dollar: CPI strength seen above BoC track – TD Securities",
+      "summary": "TD Securities expects Canada’s April CPI to firm to 3.1% year-on-year, driven by higher energy prices and base effects f"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen falls ahead of Japan GDP as Kihara warns over bond-market volatility",
-      "summary": "The USD/JPY pair rises toward the 158.90 region as traders position ahead of Japan’s Q1 GDP release."
+      "title": "Japanese Yen: Fiscal risks support renewed Takaichi trades – DBS",
+      "summary": "DBS Group Research economist Ma Tieying highlights that expectations for a new Japanese supplementary budget are revivin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Copper: Losses extend on macro headwinds – ING",
+      "summary": "ING’s Warren Patterson and Ewa Manthey report that Copper on the LME is extending losses as inflation concerns linked to"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Rebound against US Dollar nears 200-DMA – Societe Generale",
+      "summary": "Societe Generale strategists note that USD/CAD has bounced after defending its January lows and is now gravitating towar"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar Index: Rally pause as data focus shifts – OCBC",
+      "summary": "OCBC’s FX Strategist Christopher Wong notes that the Dollar Index (DXY) has eased alongside lower US Treasury yields, wi"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin steady near $77k after four-day slide amid inflation fears",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -134,26 +154,6 @@
     {
       "source": "Investing",
       "title": "Strategy drops $2 billion in epic bitcoin buying spree",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy Inc sells $2 billion in stock, acquires 24,869 bitcoin",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin pauses near $78k as U.S. retail adoption surges, Strategy hints at sales",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin drops to $78,000 as rate hike fears trigger massive $550M long flush",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -190,8 +190,15 @@
     }
   },
   "reasons": {
+    "USD": [
+      "[強気] Swiss Franc dips as rising US yields overshadow stronge",
+      "[弱気] Copper: Losses extend on macro headwinds – ING"
+    ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc dips as rising US yields overshadow stronge"
     ]
   }
 }
