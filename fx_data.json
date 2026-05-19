@@ -1,50 +1,50 @@
 {
-  "timestamp": "2026-05-19T10:47:46.925698",
-  "generated": "2026年05月19日 10:47",
+  "timestamp": "2026-05-19T16:55:02.730577",
+  "generated": "2026年05月19日 16:55",
   "scores": {
-    "USD": 0,
+    "USD": -2,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 0,
     "AUD": 1,
     "NZD": 0,
-    "CAD": 0,
-    "CHF": 1
+    "CAD": -2,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 1,
-      "quote_score": 0
+      "quote_score": -2
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -2,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -2
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": -1,
+      "quote_score": -2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     },
     {
@@ -103,47 +103,32 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee faces pressure as higher oil prices remain painful",
-      "summary": "The Indian Rupee (INR) holds onto its 10-day losses against the US Dollar (USD) in the opening session on Tuesday."
+      "title": "British Pound slides as US yields spike, UK jobs market cracks",
+      "summary": "The British Pound (GBP) retreats by 0.31% during the North American session as the US Dollar (USD) rises, underpinned by"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc dips as rising US yields overshadow stronger Swiss growth",
-      "summary": "USD/CHF trades higher around 0.7870 on Tuesday at the time of writing, gaining 0.35% on the day as the US Dollar (USD) b"
+      "title": "Canada: Energy-driven CPI rise supports BoC hold – RBC",
+      "summary": "Royal Bank of Canada (RBC) economist Abbey Xu notes that Canadian inflation accelerated in April, mainly due to higher e"
     },
     {
       "source": "FXStreet",
-      "title": "Canada CPI set to show rising inflation in April, challenging BoC outlook",
-      "summary": "The publication of Canada’s April Consumer Price Index (CPI) figures on Tuesday will be the focus of attention."
+      "title": "Canadian Dollar gains against Euro despite softer domestic inflation data",
+      "summary": "The Euro (EUR) weakens against the Canadian Dollar (CAD) on Tuesday as rising Oil prices linked to the US-Iran conflict "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: CPI strength seen above BoC track – TD Securities",
-      "summary": "TD Securities expects Canada’s April CPI to firm to 3.1% year-on-year, driven by higher energy prices and base effects f"
+      "title": "Canadian Dollar: Soft CPI delays recovery – TD Securities",
+      "summary": "TD Securities’ FX strategists Howard Du and Linda Cheng note that soft April Canada inflation and weak employment data s"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Fiscal risks support renewed Takaichi trades – DBS",
-      "summary": "DBS Group Research economist Ma Tieying highlights that expectations for a new Japanese supplementary budget are revivin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Copper: Losses extend on macro headwinds – ING",
-      "summary": "ING’s Warren Patterson and Ewa Manthey report that Copper on the LME is extending losses as inflation concerns linked to"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Rebound against US Dollar nears 200-DMA – Societe Generale",
-      "summary": "Societe Generale strategists note that USD/CAD has bounced after defending its January lows and is now gravitating towar"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar Index: Rally pause as data focus shifts – OCBC",
-      "summary": "OCBC’s FX Strategist Christopher Wong notes that the Dollar Index (DXY) has eased alongside lower US Treasury yields, wi"
+      "title": "British Pound: Political relief offsets rate expectations – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note GBP/USD is slightly lower versus the US Dollar (USD) but outp"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin steady near $77k after four-day slide amid inflation fears",
+      "title": "Bitcoin steady below $77k after four-day slide amid inflation fears",
       "summary": ""
     },
     {
@@ -154,6 +139,21 @@
     {
       "source": "Investing",
       "title": "Strategy drops $2 billion in epic bitcoin buying spree",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy Inc sells $2 billion in stock, acquires 24,869 bitcoin",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin pauses near $78k as U.S. retail adoption surges, Strategy hints at sales",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,14 +191,18 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Swiss Franc dips as rising US yields overshadow stronge",
-      "[弱気] Copper: Losses extend on macro headwinds – ING"
+      "[弱気] Canadian Dollar gains against Euro despite softer domes",
+      "[弱気] Canadian Dollar: Soft CPI delays recovery – TD Securiti"
+    ],
+    "EUR": [
+      "[弱気] Canadian Dollar gains against Euro despite softer domes"
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
     ],
-    "CHF": [
-      "[強気] Swiss Franc dips as rising US yields overshadow stronge"
+    "CAD": [
+      "[弱気] Canadian Dollar gains against Euro despite softer domes",
+      "[弱気] Canadian Dollar: Soft CPI delays recovery – TD Securiti"
     ]
   }
 }
