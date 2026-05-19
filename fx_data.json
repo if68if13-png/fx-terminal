@@ -1,50 +1,50 @@
 {
-  "timestamp": "2026-05-19T16:55:02.730577",
-  "generated": "2026年05月19日 16:55",
+  "timestamp": "2026-05-19T20:17:57.538457",
+  "generated": "2026年05月19日 20:17",
   "scores": {
-    "USD": -2,
+    "USD": 2,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 0,
     "AUD": 1,
     "NZD": 0,
-    "CAD": -2,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 1,
-      "quote_score": -2
-    },
-    {
       "pair": "USDJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": -2
+      "quote_score": 2
     },
     {
-      "pair": "EURUSD",
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": -1,
-      "quote_score": -2
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     },
     {
@@ -103,6 +103,36 @@
     },
     {
       "source": "FXStreet",
+      "title": "China: Mixed April data signals challenges – HSBC",
+      "summary": "HSBC reviews China’s April 2026 data, noting soft Retail Sales and a sharp fall in Fixed Asset Investment alongside resi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "XAG/USD Price Forecast: Silver struggles below key moving averages amid hawkish Fed bets",
+      "summary": "Silver (XAG/USD) remains under pressure on Tuesday as a stronger US Dollar (USD) and rising US Treasury yields continue "
+    },
+    {
+      "source": "FXStreet",
+      "title": "BoJ Governor Ueda: Aware that long-term interest rates are rising rapidly",
+      "summary": "Bank of Japan (BoJ) Governor Kazuo Ueda said that they need to closely monitor signs of upward price pressure and that h"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro weakens as strong ADP data and Trump’s Iran comments boost US Dollar",
+      "summary": "The EUR/USD pair weakens toward the 1.1600 region on Tuesday as the United States (US) Dollar (USD) strengthens followin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar Index hits more than one-month highs on Iran tensions and hawkish Fed bets",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback's value against a basket of six major currencies, extends its rall"
+    },
+    {
+      "source": "FXStreet",
+      "title": "WTI extends four-day rally as Trump pauses Iran strike but supply risks persist",
+      "summary": "West Texas Intermediate (WTI) trades around $103.20 at the time of writing on Tuesday, up 1.16% on the day and extending"
+    },
+    {
+      "source": "FXStreet",
       "title": "British Pound slides as US yields spike, UK jobs market cracks",
       "summary": "The British Pound (GBP) retreats by 0.31% during the North American session as the US Dollar (USD) rises, underpinned by"
     },
@@ -110,21 +140,6 @@
       "source": "FXStreet",
       "title": "Canada: Energy-driven CPI rise supports BoC hold – RBC",
       "summary": "Royal Bank of Canada (RBC) economist Abbey Xu notes that Canadian inflation accelerated in April, mainly due to higher e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar gains against Euro despite softer domestic inflation data",
-      "summary": "The Euro (EUR) weakens against the Canadian Dollar (CAD) on Tuesday as rising Oil prices linked to the US-Iran conflict "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Soft CPI delays recovery – TD Securities",
-      "summary": "TD Securities’ FX strategists Howard Du and Linda Cheng note that soft April Canada inflation and weak employment data s"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Political relief offsets rate expectations – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note GBP/USD is slightly lower versus the US Dollar (USD) but outp"
     },
     {
       "source": "Investing",
@@ -139,21 +154,6 @@
     {
       "source": "Investing",
       "title": "Strategy drops $2 billion in epic bitcoin buying spree",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy Inc sells $2 billion in stock, acquires 24,869 bitcoin",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin pauses near $78k as U.S. retail adoption surges, Strategy hints at sales",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,18 +191,11 @@
   },
   "reasons": {
     "USD": [
-      "[弱気] Canadian Dollar gains against Euro despite softer domes",
-      "[弱気] Canadian Dollar: Soft CPI delays recovery – TD Securiti"
-    ],
-    "EUR": [
-      "[弱気] Canadian Dollar gains against Euro despite softer domes"
+      "[強気] XAG/USD Price Forecast: Silver struggles below key movi",
+      "[強気] US Dollar Index hits more than one-month highs on Iran "
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar gains against Euro despite softer domes",
-      "[弱気] Canadian Dollar: Soft CPI delays recovery – TD Securiti"
     ]
   }
 }
