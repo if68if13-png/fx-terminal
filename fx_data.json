@@ -1,30 +1,37 @@
 {
-  "timestamp": "2026-05-20T10:30:10.002942",
-  "generated": "2026年05月20日 10:30",
+  "timestamp": "2026-05-20T17:43:43.156011",
+  "generated": "2026年05月20日 17:43",
   "scores": {
-    "USD": 0,
+    "USD": 2,
     "JPY": 0,
     "EUR": 1,
     "GBP": 0,
-    "AUD": 1,
+    "AUD": 2,
     "NZD": 0,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "AUDUSD",
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 1,
-      "quote_score": 0
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -34,18 +41,11 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -103,43 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains close to all-time lows amid elevated crude oil prices",
-      "summary": "The Indian Rupee (INR) continues to underperform against the US Dollar (USD) on Wednesday, trading close to its fresh al"
+      "title": "Fed Minutes could reinforce hawkish shift amid persistent inflation pressures",
+      "summary": "The Minutes of the United States (US) Federal Reserve’s (Fed) April 28-29 monetary policy meeting will be published on W"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Softer CPI trims BoC hike odds – Deutsche Bank",
-      "summary": "Deutsche Bank highlights that weaker‑than‑expected Canadian CPI reduced the perceived need for near‑term Bank of Canada "
+      "title": "British Pound rebounds as Iran deal hopes sink USD",
+      "summary": "The GBP/USD pair posts gains of over 0.30% during the North American session on Wednesday as the US Dollar (USD) turns n"
     },
     {
       "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD languishes below $4,500 amid US Dollar strength",
-      "summary": "Gold (XAU/USD) consolidates losses at nearly seven-week lows below $4,500 on Wednesday, trading at $4,478 at the time of"
+      "title": "EUR/USD Price Forecast: 1.1600 support holds as bearish momentum lingers",
+      "summary": "EUR/USD stages a modest rebound on Wednesday as a pullback in US Treasury yields limits further upside in the US Dollar "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Yield momentum supported by FOMC signals – MUFG",
-      "summary": "MUFG’s Derek Halpenny argues that US Dollar strength is underpinned by rising US yields and a more hawkish shift from th"
+      "title": "Australian Dollar rises ahead of key Australian employment data",
+      "summary": "AUD/USD advances to the vicinity of the 0.7150 region on Wednesday as the United States (US) Dollar (USD) continues to l"
     },
     {
       "source": "FXStreet",
-      "title": "Euro remains stronger against Canadian Dollar as oil prices ease",
-      "summary": "EUR/CAD edges higher after posting modest losses in the previous day, trading around 1.5960 during the European hours on"
+      "title": "ECB heads toward June rate hike as inflation outlook deteriorates",
+      "summary": "The European Central Bank (ECB) could raise interest rates in June as the inflation outlook shifts toward a more adverse"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Softer inflation but policy risks – Rabobank",
-      "summary": "Rabobank's Head of Macro Strategy Elwin de Groot highlights that United Kingdom (UK) Consumer Price Index (CPI) inflatio"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar recovers slightly; firm USD to cap the upside ahead of FOMC Minutes",
-      "summary": "The AUD/USD pair attracts some buyers following an intraday dip to the 0.7085 region on Wednesday and moves away from it"
-    },
-    {
-      "source": "FXStreet",
-      "title": "ECB’s Wunsch: The ECB will have to react at some point",
-      "summary": "European Central Bank (ECB) policymaker and the head of Belgium's central bank, Pierre Wunsch, said during the European "
+      "title": "BoE’s Bailey: We have a softening picture for growth",
+      "summary": "Bank of England (BoE) Governor Andrew Bailey said that financial market tightening gives the central bank some time to a"
     },
     {
       "source": "Investing",
@@ -154,6 +144,11 @@
     {
       "source": "Investing",
       "title": "Strategy Inc sells $2 billion in stock, acquires 24,869 bitcoin",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,18 +186,15 @@
   },
   "reasons": {
     "USD": [
-      "[弱気] Canadian Dollar: Softer CPI trims BoC hike odds – Deuts",
-      "[強気] Euro remains stronger against Canadian Dollar as oil pr"
+      "[強気] Fed Minutes could reinforce hawkish shift amid persiste",
+      "[強気] Australian Dollar rises ahead of key Australian employm"
     ],
     "EUR": [
-      "[強気] Euro remains stronger against Canadian Dollar as oil pr"
+      "[強気] ECB heads toward June rate hike as inflation outlook de"
     ],
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+250,505)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar: Softer CPI trims BoC hike odds – Deuts",
-      "[強気] Euro remains stronger against Canadian Dollar as oil pr"
+      "[COT] 🟢ロング優勢 (ネット:+250,505)",
+      "[強気] Australian Dollar rises ahead of key Australian employm"
     ]
   }
 }
