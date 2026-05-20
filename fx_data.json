@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-05-19T20:17:57.538457",
-  "generated": "2026年05月19日 20:17",
+  "timestamp": "2026-05-20T10:30:10.002942",
+  "generated": "2026年05月20日 10:30",
   "scores": {
-    "USD": 2,
+    "USD": 0,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 0,
     "AUD": 1,
     "NZD": 0,
@@ -13,35 +13,35 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     },
     {
       "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 1,
       "base_score": 1,
-      "quote_score": 2
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "China: Mixed April data signals challenges – HSBC",
-      "summary": "HSBC reviews China’s April 2026 data, noting soft Retail Sales and a sharp fall in Fixed Asset Investment alongside resi"
+      "title": "Indian Rupee remains close to all-time lows amid elevated crude oil prices",
+      "summary": "The Indian Rupee (INR) continues to underperform against the US Dollar (USD) on Wednesday, trading close to its fresh al"
     },
     {
       "source": "FXStreet",
-      "title": "XAG/USD Price Forecast: Silver struggles below key moving averages amid hawkish Fed bets",
-      "summary": "Silver (XAG/USD) remains under pressure on Tuesday as a stronger US Dollar (USD) and rising US Treasury yields continue "
+      "title": "Canadian Dollar: Softer CPI trims BoC hike odds – Deutsche Bank",
+      "summary": "Deutsche Bank highlights that weaker‑than‑expected Canadian CPI reduced the perceived need for near‑term Bank of Canada "
     },
     {
       "source": "FXStreet",
-      "title": "BoJ Governor Ueda: Aware that long-term interest rates are rising rapidly",
-      "summary": "Bank of Japan (BoJ) Governor Kazuo Ueda said that they need to closely monitor signs of upward price pressure and that h"
+      "title": "Gold Price Forecast: XAU/USD languishes below $4,500 amid US Dollar strength",
+      "summary": "Gold (XAU/USD) consolidates losses at nearly seven-week lows below $4,500 on Wednesday, trading at $4,478 at the time of"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens as strong ADP data and Trump’s Iran comments boost US Dollar",
-      "summary": "The EUR/USD pair weakens toward the 1.1600 region on Tuesday as the United States (US) Dollar (USD) strengthens followin"
+      "title": "US Dollar: Yield momentum supported by FOMC signals – MUFG",
+      "summary": "MUFG’s Derek Halpenny argues that US Dollar strength is underpinned by rising US yields and a more hawkish shift from th"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index hits more than one-month highs on Iran tensions and hawkish Fed bets",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback's value against a basket of six major currencies, extends its rall"
+      "title": "Euro remains stronger against Canadian Dollar as oil prices ease",
+      "summary": "EUR/CAD edges higher after posting modest losses in the previous day, trading around 1.5960 during the European hours on"
     },
     {
       "source": "FXStreet",
-      "title": "WTI extends four-day rally as Trump pauses Iran strike but supply risks persist",
-      "summary": "West Texas Intermediate (WTI) trades around $103.20 at the time of writing on Tuesday, up 1.16% on the day and extending"
+      "title": "United Kingdom: Softer inflation but policy risks – Rabobank",
+      "summary": "Rabobank's Head of Macro Strategy Elwin de Groot highlights that United Kingdom (UK) Consumer Price Index (CPI) inflatio"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound slides as US yields spike, UK jobs market cracks",
-      "summary": "The British Pound (GBP) retreats by 0.31% during the North American session as the US Dollar (USD) rises, underpinned by"
+      "title": "Australian Dollar recovers slightly; firm USD to cap the upside ahead of FOMC Minutes",
+      "summary": "The AUD/USD pair attracts some buyers following an intraday dip to the 0.7085 region on Wednesday and moves away from it"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Energy-driven CPI rise supports BoC hold – RBC",
-      "summary": "Royal Bank of Canada (RBC) economist Abbey Xu notes that Canadian inflation accelerated in April, mainly due to higher e"
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin steady below $77k after four-day slide amid inflation fears",
-      "summary": ""
+      "title": "ECB’s Wunsch: The ECB will have to react at some point",
+      "summary": "European Central Bank (ECB) policymaker and the head of Belgium's central bank, Pierre Wunsch, said during the European "
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Strategy drops $2 billion in epic bitcoin buying spree",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy Inc sells $2 billion in stock, acquires 24,869 bitcoin",
       "summary": ""
     }
   ],
@@ -191,11 +191,18 @@
   },
   "reasons": {
     "USD": [
-      "[強気] XAG/USD Price Forecast: Silver struggles below key movi",
-      "[強気] US Dollar Index hits more than one-month highs on Iran "
+      "[弱気] Canadian Dollar: Softer CPI trims BoC hike odds – Deuts",
+      "[強気] Euro remains stronger against Canadian Dollar as oil pr"
+    ],
+    "EUR": [
+      "[強気] Euro remains stronger against Canadian Dollar as oil pr"
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar: Softer CPI trims BoC hike odds – Deuts",
+      "[強気] Euro remains stronger against Canadian Dollar as oil pr"
     ]
   }
 }
