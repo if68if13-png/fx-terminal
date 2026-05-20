@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-05-20T17:43:43.156011",
-  "generated": "2026年05月20日 17:43",
+  "timestamp": "2026-05-20T21:16:16.432442",
+  "generated": "2026年05月20日 21:16",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 0,
-    "AUD": 2,
+    "AUD": 1,
     "NZD": 0,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
     },
     {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
       "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
@@ -56,6 +56,16 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
+      "summary": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally el"
+    },
+    {
+      "source": "Fed",
+      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
@@ -97,14 +107,24 @@
       "summary": "Federal Reserve Board announces termination of enforcement actions with F &amp; M Holding Company, Inc. and Thread Banco"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc.",
-      "summary": "Federal Reserve Board announces approval of related applications by Columbia Bank MHC, and Columbia Financial, Inc."
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar softens as Fed caution meets improving US-Iran optimism",
+      "summary": "The US Dollar Index (DXY) trades with a softer tone near the 99.10 region as improving market sentiment reduces safe-hav"
     },
     {
       "source": "FXStreet",
-      "title": "Fed Minutes could reinforce hawkish shift amid persistent inflation pressures",
-      "summary": "The Minutes of the United States (US) Federal Reserve’s (Fed) April 28-29 monetary policy meeting will be published on W"
+      "title": "Gold rallies as Fed minutes flag hikes, US Dollar slides",
+      "summary": "Gold (XAU/USD) finds bids and edges higher during the North American session on Wednesday after the Federal Reserve’s (F"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Breaking: Fed minutes reinforce higher-for-longer narrative",
+      "summary": "The Minutes from the Federal Reserve’s (Fed) April 28–29 meeting, which were released on Wednesday, revealed a noticeabl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF weakens amid renewed US-Iran negotiations",
+      "summary": "The USD/CHF drops toward the 0.7875 region on Wednesday as the US Dollar (USD) loses footing amid improving market senti"
     },
     {
       "source": "FXStreet",
@@ -115,36 +135,6 @@
       "source": "FXStreet",
       "title": "EUR/USD Price Forecast: 1.1600 support holds as bearish momentum lingers",
       "summary": "EUR/USD stages a modest rebound on Wednesday as a pullback in US Treasury yields limits further upside in the US Dollar "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar rises ahead of key Australian employment data",
-      "summary": "AUD/USD advances to the vicinity of the 0.7150 region on Wednesday as the United States (US) Dollar (USD) continues to l"
-    },
-    {
-      "source": "FXStreet",
-      "title": "ECB heads toward June rate hike as inflation outlook deteriorates",
-      "summary": "The European Central Bank (ECB) could raise interest rates in June as the inflation outlook shifts toward a more adverse"
-    },
-    {
-      "source": "FXStreet",
-      "title": "BoE’s Bailey: We have a softening picture for growth",
-      "summary": "Bank of England (BoE) Governor Andrew Bailey said that financial market tightening gives the central bank some time to a"
-    },
-    {
-      "source": "Investing",
-      "title": "BTCC Exchange Celebrates Bitcoin Pizza Day with Mystery Pizza Campaign Featuring 1 BTC Grand Prize",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy drops $2 billion in epic bitcoin buying spree",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy Inc sells $2 billion in stock, acquires 24,869 bitcoin",
-      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -186,15 +176,15 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Fed Minutes could reinforce hawkish shift amid persiste",
-      "[強気] Australian Dollar rises ahead of key Australian employm"
-    ],
-    "EUR": [
-      "[強気] ECB heads toward June rate hike as inflation outlook de"
+      "[強気] Gold rallies as Fed minutes flag hikes, US Dollar slide",
+      "[強気] Breaking: Fed minutes reinforce higher-for-longer narra",
+      "[弱気] USD/CHF weakens amid renewed US-Iran negotiations"
     ],
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+250,505)",
-      "[強気] Australian Dollar rises ahead of key Australian employm"
+      "[COT] 🟢ロング優勢 (ネット:+250,505)"
+    ],
+    "CHF": [
+      "[弱気] USD/CHF weakens amid renewed US-Iran negotiations"
     ]
   }
 }
