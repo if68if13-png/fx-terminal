@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-21T16:30:03.072905",
-  "generated": "2026年05月21日 16:30",
+  "timestamp": "2026-05-21T20:26:17.227417",
+  "generated": "2026年05月21日 20:26",
   "scores": {
-    "USD": 1,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": -1,
+    "EUR": -1,
+    "GBP": 0,
     "AUD": 1,
     "NZD": 0,
     "CAD": 0,
@@ -13,42 +13,42 @@
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 1,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -108,33 +108,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: BI jumbo hike buys time – OCBC",
-      "summary": "OCBC’s Christopher Wong says USD/IDR should find near‑term support after Bank Indonesia’s larger‑than‑expected 50bp hike"
+      "title": "Fed’s Barkin eschews forward monetary guidance",
+      "summary": "Bank of Richmond Federal Reserve (Fed) President Thomas Barkin said on Thursday that he doesn't think it's the right tim"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Yield spread pressure on EUR – ABN AMRO",
-      "summary": "Georgette Boele at ABN AMRO highlights that both the Euro and Sterling have fallen about 0.9% against the US Dollar sinc"
+      "title": "Indonesian Rupiah: BI front-loads tightening to bolster currency – DBS",
+      "summary": "DBS Group Research economist Radhika Rao notes that Bank Indonesia (BI) surprised markets by raising its benchmark rate "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention threat and hawkish BoJ support Yen – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights USD/JPY trading around 159.00, with expectations it should stay "
+      "title": "Dow Jones Industrial Average surges as a possible US-Iran deal lands within hours",
+      "summary": "For most of Thursday, the Dow Jones Industrial Average looked heavy, sliding to a session low near 49,700 as firmer Oil "
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: US flash S&P Composite PMI confirmed at 51.7",
-      "summary": "S&amp;P Global released the flash estimate of the United States (US) S&amp;P Global Composite Purchasing Managers Index "
+      "title": "Canadian Dollar struggles as US-Iran negotiation optimism pressures Oil prices",
+      "summary": "USD/CAD trims part of its intraday gains on Thursday as traders react to fresh geopolitical headlines surrounding ongoin"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: UK support plan and soft PMIs weigh – BNY",
-      "summary": "BNY’s Bob Savage explains that the United Kingdom (UK) government’s targeted cost-of-living package seeks to cushion hou"
+      "title": "Euro area: Weak PMI growth signals and ECB dilemma – Commerzbank",
+      "summary": "Commerzbank’s Dr. Vincent Stamer notes that the Euro area composite PMI fell further into contraction territory in May, "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound trades cautiously against the Japanese Yen ahead of Japan CPI and UK Retail Sales",
-      "summary": "The British Pound (GBP) weakens against the Japanese Yen (JPY) on Thursday as traders digest the latest preliminary PMI "
+      "title": "Current policy is in a good place to respond to ongoing shocks': Fed’s Barkin projects confidence",
+      "summary": "Bank of Richmond Federal Reserve (Fed) President Thomas Barkin said on Thursday that \"current monetary policy is in a go"
     },
     {
       "source": "MarketWatch",
@@ -176,14 +176,11 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Japanese Yen: Intervention threat and hawkish BoJ suppo"
+      "[強気] Fed’s Barkin eschews forward monetary guidance",
+      "[強気] Dow Jones Industrial Average surges as a possible US-Ir"
     ],
-    "JPY": [
-      "[強気] Japanese Yen: Intervention threat and hawkish BoJ suppo",
-      "[弱気] British Pound trades cautiously against the Japanese Ye"
-    ],
-    "GBP": [
-      "[弱気] British Pound trades cautiously against the Japanese Ye"
+    "EUR": [
+      "[弱気] Euro area: Weak PMI growth signals and ECB dilemma – Co"
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
