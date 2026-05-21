@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-05-20T21:16:16.432442",
-  "generated": "2026年05月20日 21:16",
+  "timestamp": "2026-05-21T10:53:10.910958",
+  "generated": "2026年05月21日 10:53",
   "scores": {
-    "USD": 1,
+    "USD": 0,
     "JPY": 0,
     "EUR": 0,
     "GBP": 0,
     "AUD": 1,
     "NZD": 0,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
+    },
+    {
       "pair": "EURUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -108,33 +108,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar softens as Fed caution meets improving US-Iran optimism",
-      "summary": "The US Dollar Index (DXY) trades with a softer tone near the 99.10 region as improving market sentiment reduces safe-hav"
+      "title": "US Dollar: Swaplines and energy statecraft reshape usage – Rabobank",
+      "summary": "Rabobank’s Michael Every and Joe DeLaura see US Dollar policy increasingly tied to energy and geopolitics."
     },
     {
       "source": "FXStreet",
-      "title": "Gold rallies as Fed minutes flag hikes, US Dollar slides",
-      "summary": "Gold (XAU/USD) finds bids and edges higher during the North American session on Wednesday after the Federal Reserve’s (F"
+      "title": "US S&P Global PMI for May seen holding in expansion territory",
+      "summary": "S&amp;P Global will release the May flash Purchasing Managers' Indices (PMIs) for most major economies, including the Un"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Fed minutes reinforce higher-for-longer narrative",
-      "summary": "The Minutes from the Federal Reserve’s (Fed) April 28–29 meeting, which were released on Wednesday, revealed a noticeabl"
+      "title": "Euro tests 10-day lows against British Pound after UK, Eurozone preliminary PMIs",
+      "summary": "The Euro’s (EUR) frail recovery attempt against the British Pound (GBP) has been capped below 0.8660, as the pair retrea"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF weakens amid renewed US-Iran negotiations",
-      "summary": "The USD/CHF drops toward the 0.7875 region on Wednesday as the US Dollar (USD) loses footing amid improving market senti"
+      "title": "US Dollar: Inflation expectations support USD and Treasuries – BNY",
+      "summary": "BNY’s Geoff Yu notes that U.S. long-term inflation expectations, measured via 5y5y swaps, are catching up with Europe’s "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound rebounds as Iran deal hopes sink USD",
-      "summary": "The GBP/USD pair posts gains of over 0.30% during the North American session on Wednesday as the US Dollar (USD) turns n"
+      "title": "Euro: Limited upside versus US Dollar as Fed shifts weigh – Danske Bank",
+      "summary": "Danske Bank’s Danske Research Team notes that EUR/USD has seen only a modest move higher, with the pair holding just abo"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: 1.1600 support holds as bearish momentum lingers",
-      "summary": "EUR/USD stages a modest rebound on Wednesday as a pullback in US Treasury yields limits further upside in the US Dollar "
+      "title": "Indian Rupee bounces back on US-Iran deal optimism, RBI’s intervention",
+      "summary": "The Indian Rupee (INR) extends its recovery against the US Dollar (USD) on Thursday after underperforming for almost two"
     },
     {
       "source": "MarketWatch",
@@ -175,16 +175,8 @@
     }
   },
   "reasons": {
-    "USD": [
-      "[強気] Gold rallies as Fed minutes flag hikes, US Dollar slide",
-      "[強気] Breaking: Fed minutes reinforce higher-for-longer narra",
-      "[弱気] USD/CHF weakens amid renewed US-Iran negotiations"
-    ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
-    ],
-    "CHF": [
-      "[弱気] USD/CHF weakens amid renewed US-Iran negotiations"
     ]
   }
 }
