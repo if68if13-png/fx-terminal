@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-05-21T10:53:10.910958",
-  "generated": "2026年05月21日 10:53",
+  "timestamp": "2026-05-21T16:30:03.072905",
+  "generated": "2026年05月21日 16:30",
   "scores": {
-    "USD": 0,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 0,
+    "GBP": -1,
     "AUD": 1,
     "NZD": 0,
     "CAD": 0,
@@ -13,32 +13,39 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -46,16 +53,14 @@
       "diff": 0,
       "base_score": 0,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
@@ -102,39 +107,34 @@
       "summary": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement actions with F & M Holding Company, Inc. and Thread Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with F &amp; M Holding Company, Inc. and Thread Banco"
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: BI jumbo hike buys time – OCBC",
+      "summary": "OCBC’s Christopher Wong says USD/IDR should find near‑term support after Bank Indonesia’s larger‑than‑expected 50bp hike"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Swaplines and energy statecraft reshape usage – Rabobank",
-      "summary": "Rabobank’s Michael Every and Joe DeLaura see US Dollar policy increasingly tied to energy and geopolitics."
+      "title": "Euro: Yield spread pressure on EUR – ABN AMRO",
+      "summary": "Georgette Boele at ABN AMRO highlights that both the Euro and Sterling have fallen about 0.9% against the US Dollar sinc"
     },
     {
       "source": "FXStreet",
-      "title": "US S&P Global PMI for May seen holding in expansion territory",
-      "summary": "S&amp;P Global will release the May flash Purchasing Managers' Indices (PMIs) for most major economies, including the Un"
+      "title": "Japanese Yen: Intervention threat and hawkish BoJ support Yen – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights USD/JPY trading around 159.00, with expectations it should stay "
     },
     {
       "source": "FXStreet",
-      "title": "Euro tests 10-day lows against British Pound after UK, Eurozone preliminary PMIs",
-      "summary": "The Euro’s (EUR) frail recovery attempt against the British Pound (GBP) has been capped below 0.8660, as the pair retrea"
+      "title": "Breaking: US flash S&P Composite PMI confirmed at 51.7",
+      "summary": "S&amp;P Global released the flash estimate of the United States (US) S&amp;P Global Composite Purchasing Managers Index "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Inflation expectations support USD and Treasuries – BNY",
-      "summary": "BNY’s Geoff Yu notes that U.S. long-term inflation expectations, measured via 5y5y swaps, are catching up with Europe’s "
+      "title": "British Pound: UK support plan and soft PMIs weigh – BNY",
+      "summary": "BNY’s Bob Savage explains that the United Kingdom (UK) government’s targeted cost-of-living package seeks to cushion hou"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Limited upside versus US Dollar as Fed shifts weigh – Danske Bank",
-      "summary": "Danske Bank’s Danske Research Team notes that EUR/USD has seen only a modest move higher, with the pair holding just abo"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee bounces back on US-Iran deal optimism, RBI’s intervention",
-      "summary": "The Indian Rupee (INR) extends its recovery against the US Dollar (USD) on Thursday after underperforming for almost two"
+      "title": "British Pound trades cautiously against the Japanese Yen ahead of Japan CPI and UK Retail Sales",
+      "summary": "The British Pound (GBP) weakens against the Japanese Yen (JPY) on Thursday as traders digest the latest preliminary PMI "
     },
     {
       "source": "MarketWatch",
@@ -175,6 +175,16 @@
     }
   },
   "reasons": {
+    "USD": [
+      "[強気] Japanese Yen: Intervention threat and hawkish BoJ suppo"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Intervention threat and hawkish BoJ suppo",
+      "[弱気] British Pound trades cautiously against the Japanese Ye"
+    ],
+    "GBP": [
+      "[弱気] British Pound trades cautiously against the Japanese Ye"
+    ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
     ]
