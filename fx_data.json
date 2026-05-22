@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-05-22T15:59:28.542160",
-  "generated": "2026年05月22日 15:59",
+  "timestamp": "2026-05-22T19:18:03.998381",
+  "generated": "2026年05月22日 19:18",
   "scores": {
     "USD": 1,
-    "JPY": 0,
-    "EUR": -1,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 0,
-    "AUD": 1,
+    "AUD": 0,
     "NZD": 0,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -34,25 +34,25 @@
       "quote_score": 1
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
       "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
+      "diff": -1,
+      "base_score": 0,
       "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,38 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar weakens as US-Iran uncertainty and hawkish Fed bets support Greenback",
-      "summary": "The Canadian Dollar (CAD) remains on the defensive against the US Dollar (USD) on Friday as traders look past stronger C"
+      "title": "Singapore Dollar: Buy dips against dollar in choppy range – OCBC",
+      "summary": "OCBC notes USDSGD is trading choppily in a subdued range, closely tracking moves in the USD, Oil and UST yields. The ban"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Growth returns with domestic support – RBC",
-      "summary": "Royal Bank of Canada (RBC) economists Nathan Janzen and Claire Fan expect Canada’s Gross Domestic Product (GDP) to rebou"
+      "title": "Gold price slips as Waller’s hawkish comments lift USD",
+      "summary": "Gold price edges lower during the day as the Greenback recovers some ground amid doubts that the US and Iran could reach"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Supported into holiday as risk stays contained – Scotiabank",
-      "summary": "Scotiabank’s global FX strategy team highlights the Dollar is ending the week on the offensive, with modest gains agains"
+      "title": "South Korea: Hawkish BoK tilt supports Won – ING",
+      "summary": "ING economists Min Joo Kang and Lynn Song expect the Bank of Korea to leave policy rates unchanged this week but to adop"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Tokyo CPI and intervention data watched – Deutsche Bank",
-      "summary": "Deutsche Bank analysts expect Japan’s Tokyo Consumer Price Index (CPI) to show a slight acceleration, with core CPI ex f"
+      "title": "A new Fed chair, an old instinct: Why markets may be misreading Warsh",
+      "summary": "Kevin Warsh was sworn in as the 17th head of the Fed on Friday, the first chair to take the oath at the White House sinc"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: PCE slowdown and hawkish Fedspeak – TD Securities",
-      "summary": "TD Securities economists expect April core and headline Personal Consumption Expenditures (PCE) Price Index to moderate "
+      "title": "Dow Jones Industrial Average shrugs off a hawkish new Fed chair to set a record",
+      "summary": "There is confident, and then there is Friday. The Dow Jones Industrial Average (DJIA) ground out a fresh all-time high, "
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Waller: Should remove easing bias from statement",
-      "summary": "Federal Reserve (Fed) Governor Christopher Waller said on Friday that he does not expect to support a change in the poli"
+      "title": "Fed's Warsh says he will lead reform at the Fed",
+      "summary": "Freshly-minted Federal Reserve (Fed) Chair Kevin Warsh delivered his first public speech as head of the Fed on Friday, d"
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone: Weak PMIs and higher inflation forecasts – Rabobank",
-      "summary": "Rabobank’s Senior Macro Strategist Teeuwe Mevissen reports that Eurozone growth indicators have deteriorated, with Frenc"
+      "title": "President Trump says he wants Warsh to be independent",
+      "summary": "Speaking ahead of the swearing-in of new Federal Reserve (Fed) Chair Kevin Warsh, President Trump stated that he wants W"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar: Rate repricing weighs against Japanese Yen – Rabobank",
+      "summary": "Rabobank’s Senior FX Strategist Jane Foley notes that the Australian Dollar (AUD) has shifted from a top G10 performer t"
     },
     {
       "source": "MarketWatch",
@@ -181,16 +186,16 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Canadian Dollar weakens as US-Iran uncertainty and hawk"
+      "[強気] Gold price slips as Waller’s hawkish comments lift USD",
+      "[強気] Dow Jones Industrial Average shrugs off a hawkish new F",
+      "[弱気] Australian Dollar: Rate repricing weighs against Japane"
     ],
-    "EUR": [
-      "[弱気] Eurozone: Weak PMIs and higher inflation forecasts – Ra"
+    "JPY": [
+      "[弱気] Australian Dollar: Rate repricing weighs against Japane"
     ],
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+250,505)"
-    ],
-    "CAD": [
-      "[強気] Canadian Dollar weakens as US-Iran uncertainty and hawk"
+      "[COT] 🟢ロング優勢 (ネット:+250,505)",
+      "[弱気] Australian Dollar: Rate repricing weighs against Japane"
     ]
   }
 }
