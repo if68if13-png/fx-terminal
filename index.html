@@ -1,233 +1,354 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>FX Terminal</title>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=JetBrains+Mono:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>日本株スクリーナー</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.2/babel.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet"/>
 <style>
-:root{--bg:#070a0f;--panel:#0d1117;--border:#1a2332;--accent:#00d4ff;--green:#00ff88;--red:#ff3366;--yellow:#ffcc00;--text:#c9d1d9;--dim:#4a5568;--purple:#a78bfa;}
-*{margin:0;padding:0;box-sizing:border-box;}
-body{background:var(--bg);color:var(--text);font-family:"JetBrains Mono",monospace;min-height:100vh;}
-body::before{content:"";position:fixed;inset:0;background-image:linear-gradient(rgba(0,212,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,212,255,0.03) 1px,transparent 1px);background-size:40px 40px;pointer-events:none;z-index:0;}
-.wrap{position:relative;z-index:1;max-width:1400px;margin:0 auto;padding:16px;}
-.header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--border);}
-.title{font-family:"Bebas Neue",sans-serif;font-size:2rem;letter-spacing:4px;color:var(--accent);text-shadow:0 0 30px rgba(0,212,255,0.5);}
-.subtitle{font-size:0.6rem;color:var(--dim);letter-spacing:2px;margin-top:2px;}
-.live{display:inline-block;width:6px;height:6px;background:var(--green);border-radius:50%;margin-right:6px;animation:pulse 2s infinite;}
-@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
-.ts{font-size:0.65rem;color:var(--dim);text-align:right;}
-.status{font-size:0.6rem;color:var(--accent);margin-top:4px;}
-.warn{background:rgba(255,204,0,0.05);border:1px solid rgba(255,204,0,0.2);border-radius:4px;padding:8px 12px;font-size:0.58rem;color:var(--yellow);margin-bottom:16px;font-family:"Noto Sans JP",sans-serif;}
-.grid3{display:grid;grid-template-columns:1fr 1fr 1.5fr;gap:16px;margin-bottom:16px;}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px;}
-.panel{background:var(--panel);border:1px solid var(--border);border-radius:4px;padding:16px;position:relative;overflow:hidden;}
-.panel::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0.3;}
-.plabel{font-size:0.58rem;letter-spacing:3px;text-transform:uppercase;color:var(--dim);margin-bottom:14px;display:flex;align-items:center;gap:8px;}
-.plabel::after{content:"";flex:1;height:1px;background:var(--border);}
-.crow{display:grid;grid-template-columns:40px 1fr 52px;align-items:center;gap:8px;margin-bottom:8px;}
-.cname{font-family:"Bebas Neue",sans-serif;font-size:0.95rem;letter-spacing:2px;}
-.btrack{height:8px;background:var(--border);border-radius:4px;overflow:hidden;}
-.bfill{height:100%;border-radius:4px;transition:width 0.6s ease;}
-.pos{background:var(--green);}
-.neg{background:var(--red);}
-.neu{width:3px!important;background:var(--dim);}
-.score-badge{font-size:0.72rem;font-weight:600;padding:2px 6px;border-radius:4px;text-align:center;}
-.score-badge.pos{background:rgba(0,255,136,0.15);color:var(--green);}
-.score-badge.neg{background:rgba(255,51,102,0.15);color:var(--red);}
-.score-badge.neu{background:var(--border);color:var(--dim);}
-.tf-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px;}
-.tf-card{background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:4px;padding:12px;cursor:pointer;transition:border-color 0.2s;}
-.tf-card:hover{border-color:var(--accent);}
-.tf-card.active{border-color:var(--accent);background:rgba(0,212,255,0.05);}
-.tf-label{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--dim);margin-bottom:8px;}
-.tf-arrow{font-size:1.6rem;font-weight:700;margin-bottom:4px;line-height:1;}
-.tf-arrow.up{color:var(--green);}
-.tf-arrow.flat{color:var(--dim);}
-.tf-arrow.down{color:var(--red);}
-.tf-status{font-size:0.65rem;font-weight:600;}
-.tf-status.up{color:var(--green);}
-.tf-status.flat{color:var(--dim);}
-.tf-status.down{color:var(--red);}
-.detail-box{background:rgba(0,212,255,0.03);border:1px solid rgba(0,212,255,0.1);border-radius:4px;padding:12px;min-height:60px;}
-.detail-title{font-size:0.55rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
-.detail-text{font-size:0.68rem;color:var(--text);line-height:1.7;font-family:"Noto Sans JP",sans-serif;}
-.dev-comment{background:rgba(167,139,250,0.05);border:1px solid rgba(167,139,250,0.2);border-left:3px solid var(--purple);border-radius:0 4px 4px 0;padding:12px 14px;margin-bottom:12px;}
-.dev-label{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--purple);margin-bottom:6px;}
-.dev-text{font-size:0.68rem;color:var(--text);line-height:1.7;font-family:"Noto Sans JP",sans-serif;}
-.dev-date{font-size:0.55rem;color:var(--dim);margin-top:6px;}
-.diary-box{background:rgba(255,204,0,0.03);border:1px solid rgba(255,204,0,0.15);border-radius:4px;padding:12px;}
-.diary-label{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--yellow);margin-bottom:6px;}
-.diary-text{font-size:0.68rem;color:var(--text);line-height:1.7;font-family:"Noto Sans JP",sans-serif;}
-.nlist{display:flex;flex-direction:column;gap:8px;max-height:400px;overflow-y:auto;}
-.nlist::-webkit-scrollbar{width:2px;}.nlist::-webkit-scrollbar-thumb{background:var(--accent);}
-.nitem{padding:8px 10px;border-left:2px solid var(--border);background:rgba(255,255,255,0.01);border-radius:0 3px 3px 0;}
-.nsrc{font-size:0.52rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin-bottom:3px;}
-.ntitle{font-family:"Noto Sans JP",sans-serif;font-size:0.7rem;line-height:1.5;}
-.rlist{display:flex;flex-direction:column;gap:4px;max-height:120px;overflow-y:auto;}
-.ritem{font-size:0.6rem;padding:4px 8px;border-left:1px solid var(--border);color:var(--dim);font-family:"Noto Sans JP",sans-serif;line-height:1.4;}
-.rcur{color:var(--accent);font-size:0.58rem;margin-right:4px;}
-.btn{display:inline-flex;align-items:center;gap:6px;background:transparent;border:1px solid var(--accent);color:var(--accent);padding:7px 14px;border-radius:3px;font-family:"JetBrains Mono",monospace;font-size:0.6rem;letter-spacing:2px;text-transform:uppercase;cursor:pointer;margin-top:10px;transition:all 0.2s;width:100%;justify-content:center;}
-.btn:hover{background:rgba(0,212,255,0.08);}
-.gtime{font-size:0.55rem;color:var(--dim);margin-top:6px;text-align:center;}
-.tabs{display:none;gap:4px;margin-bottom:16px;overflow-x:auto;}
-.tab{flex:none;padding:8px 14px;border:1px solid var(--border);border-radius:20px;font-size:0.65rem;letter-spacing:1px;background:transparent;color:var(--dim);cursor:pointer;white-space:nowrap;transition:all 0.2s;}
-.tab.active{background:var(--accent);color:var(--bg);border-color:var(--accent);font-weight:600;}
-@media(max-width:768px){
-  .title{font-size:1.6rem;}
-  .grid3{grid-template-columns:1fr;}
-  .grid2{grid-template-columns:1fr;}
-  .tabs{display:flex;}
-  .panel{display:none;}
-  .panel.active{display:block;}
-}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#0a0a0a;color:#e8e8e8;font-family:'Noto Sans JP',sans-serif;min-height:100vh}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:#111}
+::-webkit-scrollbar-thumb{background:#2a2a2a;border-radius:2px}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.35}}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 </style>
 </head>
 <body>
-<div class="wrap">
-<div class="header">
-  <div>
-    <div class="title">FX TERMINAL</div>
-    <div class="subtitle">USD/JPY Fundamental Analysis</div>
-  </div>
-  <div>
-    <div class="ts"><span class="live"></span><span id="clk"></span></div>
-    <div class="status" id="status">読込中...</div>
-  </div>
-</div>
-<div class="warn">⚠️ 自動分析レポートです。最終判断は必ずご自身で。投資助言ではありません。</div>
+<div id="root"></div>
+<script type="text/babel">
+const { useState, useEffect, useCallback } = React;
 
-<div class="tabs">
-  <button class="tab active" onclick="showTab(0)">📊 強弱</button>
-  <button class="tab" onclick="showTab(1)">🎯 ドル円</button>
-  <button class="tab" onclick="showTab(2)">📰 ニュース</button>
-  <button class="tab" onclick="showTab(3)">💬 コメント</button>
-</div>
+const CONDITIONS_LIST = [
+  { id:"nearLow",     icon:"📉", label:"5年安値近辺" },
+  { id:"highDiv",     icon:"💰", label:"高配当（3%以上）" },
+  { id:"lowPbr",      icon:"💎", label:"低PBR（1倍以下）" },
+  { id:"growthStock", icon:"🚀", label:"成長株" },
+  { id:"smallCap",    icon:"🔍", label:"小型株" },
+  { id:"fundHeld",    icon:"🏦", label:"大手ファンド保有" },
+  { id:"nisa",        icon:"🌱", label:"NISA対応" },
+  { id:"lowPrice",    icon:"🪙", label:"1株1000円以下" },
+];
 
-<div class="grid3">
-  <div class="panel active" id="p0">
-    <div class="plabel">通貨強弱スコア</div>
-    <div id="clist"></div>
-  </div>
-  <div class="panel active" id="p1">
-    <div class="plabel">USD/JPY 目線</div>
-    <div class="tf-grid">
-      <div class="tf-card active" onclick="showDetail('long',this)">
-        <div class="tf-label">長期</div>
-        <div class="tf-arrow up">↑</div>
-        <div class="tf-status up">円安継続</div>
+const SECTORS = ["全業種","テクノロジー","金融","製造業","ヘルスケア","不動産","消費財","エネルギー","通信","素材"];
+
+const SYSTEM_PROMPT = `あなたは日本株の専門アナリストです。
+以下の条件で日本株を5〜8銘柄スクリーニングし、必ずJSON形式のみで返答してください。マークダウンや説明文は一切不要です。
+
+スクリーニング条件: {CONDITIONS}
+
+以下のJSON配列を返してください:
+[{"code":"証券コード","name":"銘柄名","sector":"業種","price":株価数値,"minInvestment":最低投資額数値,"per":PER数値,"pbr":PBR数値,"dividendYield":配当利回り数値,"marketCap":"時価総額","reason":"選定理由100文字以内","tags":["タグ"],"signal":"BUY or WATCH or HOLD","fundOverlap":[],"nearLow":true/false,"lowRatio":乖離率数値,"low5yPrice":5年最安値数値,"undervalued":true/false,"priceChange1M":1ヶ月騰落率数値,"nisaGrowth":true/false}]
+
+2025〜2026年の実際の日本株市場を反映した現実的なデータを使用してください。
+「1株1000円以下」条件が含まれる場合は株価が1000円以下の銘柄のみを選定してください。`;
+
+const INTRO_PROMPT = (name, code, sector) =>
+  `あなたは株式投資の初心者にもわかりやすく会社を紹介するライターです。「${name}（証券コード:${code}）」という${sector}の日本企業について、200〜300文字程度で紹介してください。どんな会社か、世の中とのつながり、最近の動きや強みを自然な文章で書いてください。マークダウン記法は使わないでください。`;
+
+// ── APIキー設定モーダル ──────────────────────────────────────
+function ApiKeyModal({ onSave }) {
+  const [val, setVal] = useState("");
+  const [err, setErr] = useState("");
+  const save = () => {
+    if (!val.trim().startsWith("sk-ant-")) { setErr("APIキーは sk-ant- で始まる文字列です"); return; }
+    localStorage.setItem("anthropic_api_key", val.trim());
+    onSave(val.trim());
+  };
+  return (
+    <div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.95)",zIndex:1000,display:"flex",alignItems:"center",justifyContent:"center",padding:"20px"}}>
+      <div style={{background:"#111",border:"1px solid rgba(15,255,180,0.3)",borderRadius:"12px",padding:"36px",maxWidth:"460px",width:"100%",animation:"slideUp 0.3s ease"}}>
+        <div style={{fontFamily:"'Space Mono',monospace",fontSize:"10px",color:"#0fffb4",letterSpacing:"3px",marginBottom:"8px"}}>SETUP</div>
+        <div style={{fontSize:"22px",fontWeight:"700",marginBottom:"8px"}}>APIキーを設定</div>
+        <p style={{fontSize:"13px",color:"#777",lineHeight:"1.8",marginBottom:"24px"}}>
+          <a href="https://console.anthropic.com" target="_blank" style={{color:"#0fffb4",textDecoration:"none"}}>console.anthropic.com</a> でAPIキーを取得して貼り付けてください。キーはこのデバイスにのみ保存されます。
+        </p>
+        <input
+          type="password"
+          placeholder="sk-ant-api03-..."
+          value={val}
+          onChange={e => { setVal(e.target.value); setErr(""); }}
+          style={{width:"100%",padding:"12px 14px",background:"#0a0a0a",border:"1px solid rgba(255,255,255,0.15)",borderRadius:"6px",color:"#e8e8e8",fontSize:"13px",fontFamily:"'Space Mono',monospace",outline:"none",marginBottom:"8px"}}
+        />
+        {err && <div style={{fontSize:"12px",color:"#ff6b6b",marginBottom:"10px"}}>{err}</div>}
+        <button onClick={save} style={{width:"100%",padding:"13px",background:"#0fffb4",color:"#000",border:"none",borderRadius:"6px",fontSize:"14px",fontWeight:"700",cursor:"pointer",letterSpacing:"1px"}}>
+          保存して始める →
+        </button>
       </div>
-      <div class="tf-card" onclick="showDetail('mid',this)">
-        <div class="tf-label">中期 / 1ヶ月</div>
-        <div class="tf-arrow flat">→</div>
-        <div class="tf-status flat">様子見</div>
+    </div>
+  );
+}
+
+// ── 詳細モーダル ─────────────────────────────────────────────
+function DetailModal({ stock, apiKey, onClose }) {
+  const [slide, setSlide] = useState(0);
+  const [intro, setIntro] = useState("");
+  const [introLoading, setIntroLoading] = useState(false);
+  const signalColor = stock.signal==="BUY" ? "#0fffb4" : stock.signal==="WATCH" ? "#ffd700" : "#aaa";
+
+  useEffect(() => {
+    if (slide===0 && !intro) {
+      setIntroLoading(true);
+      fetch("https://api.anthropic.com/v1/messages",{
+        method:"POST",
+        headers:{"Content-Type":"application/json","x-api-key":apiKey,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+        body:JSON.stringify({model:"claude-sonnet-4-5",max_tokens:500,messages:[{role:"user",content:INTRO_PROMPT(stock.name,stock.code,stock.sector)}]})
+      }).then(r=>r.json()).then(d=>setIntro(d.content?.[0]?.text||"情報を取得できませんでした")).catch(()=>setIntro("情報の取得に失敗しました。")).finally(()=>setIntroLoading(false));
+    }
+  }, [slide]);
+
+  const tagStyle = color => ({padding:"3px 8px",borderRadius:"3px",fontSize:"11px",background:`${color}15`,border:`1px solid ${color}40`,color});
+
+  return (
+    <div style={{position:"fixed",inset:0,background:"rgba(0,0,0,0.85)",zIndex:500,display:"flex",alignItems:"center",justifyContent:"center",padding:"16px"}} onClick={onClose}>
+      <div style={{background:"#111",border:`1px solid ${signalColor}30`,borderRadius:"12px",width:"100%",maxWidth:"480px",overflow:"hidden",animation:"fadeIn 0.2s ease"}} onClick={e=>e.stopPropagation()}>
+        {/* ヘッダー */}
+        <div style={{padding:"20px 20px 14px",borderBottom:"1px solid rgba(255,255,255,0.06)"}}>
+          <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start"}}>
+            <div>
+              <div style={{fontFamily:"'Space Mono',monospace",fontSize:"11px",color:"#555",marginBottom:"2px"}}>{stock.code} · {stock.sector}</div>
+              <div style={{fontSize:"20px",fontWeight:"700"}}>{stock.name}</div>
+            </div>
+            <button onClick={onClose} style={{background:"none",border:"none",color:"#555",fontSize:"22px",cursor:"pointer",padding:"0 4px",lineHeight:1}}>×</button>
+          </div>
+          <div style={{display:"flex",gap:"12px",marginTop:"10px",alignItems:"center"}}>
+            <span style={{fontFamily:"'Space Mono',monospace",fontSize:"18px",color:signalColor}}>¥{stock.price?.toLocaleString()}</span>
+            <span style={{fontSize:"12px",color:stock.priceChange1M>=0?"#0fffb4":"#ff6b6b"}}>
+              {stock.priceChange1M>=0?"▲":"▼"}{Math.abs(stock.priceChange1M)}%（1M）
+            </span>
+            <span style={{marginLeft:"auto",padding:"3px 10px",borderRadius:"3px",fontSize:"11px",fontWeight:"700",background:`${signalColor}20`,border:`1px solid ${signalColor}50`,color:signalColor}}>{stock.signal}</span>
+          </div>
+        </div>
+        {/* タブ */}
+        <div style={{display:"flex",borderBottom:"1px solid rgba(255,255,255,0.06)"}}>
+          {[{id:0,label:"🏢 会社紹介"},{id:1,label:"📈 チャート"}].map(t=>(
+            <button key={t.id} onClick={()=>setSlide(t.id)} style={{
+              flex:1,padding:"11px",background:"none",border:"none",
+              borderBottom:slide===t.id?`2px solid ${signalColor}`:"2px solid transparent",
+              color:slide===t.id?"#f0f0f0":"#555",fontSize:"13px",cursor:"pointer",
+              fontWeight:slide===t.id?"600":"400",transition:"all 0.15s"
+            }}>{t.label}</button>
+          ))}
+        </div>
+        {/* コンテンツ */}
+        <div style={{minHeight:"240px",maxHeight:"420px",overflowY:"auto",padding:"20px"}}>
+          {slide===0 && (
+            <div style={{animation:"fadeIn 0.2s ease"}}>
+              {introLoading ? (
+                <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",padding:"40px 0",gap:"12px"}}>
+                  <div style={{width:"24px",height:"24px",border:"2px solid #222",borderTop:`2px solid ${signalColor}`,borderRadius:"50%",animation:"spin 0.8s linear infinite"}}/>
+                  <div style={{fontSize:"12px",color:"#555"}}>会社情報を取得中...</div>
+                </div>
+              ) : (
+                <>
+                  <p style={{fontSize:"14px",color:"#ccc",lineHeight:"1.85",marginBottom:"16px"}}>{intro}</p>
+                  <div style={{padding:"12px 14px",background:`${signalColor}08`,borderRadius:"8px",border:`1px solid ${signalColor}20`}}>
+                    <div style={{fontSize:"10px",color:signalColor,marginBottom:"5px",fontWeight:"600"}}>📌 選定理由</div>
+                    <p style={{fontSize:"12px",color:"#aaa",lineHeight:"1.7"}}>{stock.reason}</p>
+                  </div>
+                  <div style={{display:"flex",flexWrap:"wrap",gap:"6px",marginTop:"14px"}}>
+                    {stock.nearLow && <span style={tagStyle("#ff6b6b")}>📉 5年安値近辺 +{stock.lowRatio}%</span>}
+                    {stock.undervalued && <span style={tagStyle("#ffd700")}>💎 割安</span>}
+                    {stock.nisaGrowth && <span style={tagStyle("#0fffb4")}>🌱 NISA対応</span>}
+                    {(stock.tags||[]).map(t=><span key={t} style={tagStyle("#888")}>{t}</span>)}
+                  </div>
+                </>
+              )}
+            </div>
+          )}
+          {slide===1 && (
+            <div style={{animation:"fadeIn 0.2s ease"}}>
+              <div style={{fontSize:"13px",color:"#777",marginBottom:"16px"}}>外部サイトでチャートを確認できます：</div>
+              <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
+                {[
+                  {label:"Yahoo!ファイナンス",url:`https://finance.yahoo.co.jp/quote/${stock.code}.T`,color:"#ff6b00"},
+                  {label:"かぶたん",url:`https://kabutan.jp/stock/chart?code=${stock.code}`,color:"#0088ff"},
+                  {label:"TradingView",url:`https://jp.tradingview.com/chart/?symbol=TSE:${stock.code}`,color:"#2962ff"},
+                ].map(cl=>(
+                  <a key={cl.label} href={cl.url} target="_blank" rel="noopener noreferrer" style={{
+                    display:"flex",alignItems:"center",justifyContent:"space-between",
+                    padding:"14px 16px",borderRadius:"8px",
+                    background:`${cl.color}10`,border:`1px solid ${cl.color}30`,
+                    color:cl.color,textDecoration:"none",fontSize:"14px",fontWeight:"600"
+                  }}>
+                    <span>{cl.label}</span><span>→</span>
+                  </a>
+                ))}
+              </div>
+              <div style={{marginTop:"20px",padding:"12px 14px",background:"rgba(255,255,255,0.03)",borderRadius:"8px"}}>
+                <div style={{fontSize:"10px",color:"#555",fontFamily:"'Space Mono',monospace",marginBottom:"8px",letterSpacing:"1px"}}>基本指標</div>
+                <div style={{display:"grid",gridTemplateColumns:"1fr 1fr 1fr",gap:"12px"}}>
+                  {[["PER",`${stock.per}倍`],["PBR",`${stock.pbr}倍`],["配当",`${stock.dividendYield}%`]].map(([k,v])=>(
+                    <div key={k}>
+                      <div style={{fontSize:"10px",color:"#555"}}>{k}</div>
+                      <div style={{fontSize:"14px",fontFamily:"'Space Mono',monospace",color:"#ddd"}}>{v}</div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
       </div>
-      <div class="tf-card" onclick="showDetail('short',this)">
-        <div class="tf-label">短期 / 今週</div>
-        <div class="tf-arrow flat">→</div>
-        <div class="tf-status flat">様子見</div>
+    </div>
+  );
+}
+
+// ── 銘柄カード ───────────────────────────────────────────────
+function StockCard({ stock, onSelect }) {
+  const signalColor = stock.signal==="BUY" ? "#0fffb4" : stock.signal==="WATCH" ? "#ffd700" : "#aaa";
+  return (
+    <div style={{background:"#111",border:"1px solid rgba(255,255,255,0.07)",borderRadius:"10px",padding:"16px 18px",animation:"fadeIn 0.3s ease",borderLeft:`3px solid ${signalColor}`}}>
+      <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:"10px"}}>
+        <div>
+          <div style={{fontSize:"10px",color:"#555",fontFamily:"'Space Mono',monospace",marginBottom:"2px"}}>{stock.code} · {stock.sector}</div>
+          <button onClick={()=>onSelect(stock)} style={{
+            background:"none",border:"none",padding:0,cursor:"pointer",textAlign:"left",
+            fontSize:"17px",fontWeight:"700",color:"#e8e8e8",
+            textDecoration:"underline",textUnderlineOffset:"3px",textDecorationColor:"rgba(15,255,180,0.5)"
+          }}>{stock.name}</button>
+        </div>
+        <span style={{padding:"3px 10px",borderRadius:"3px",fontSize:"11px",fontWeight:"700",background:`${signalColor}20`,border:`1px solid ${signalColor}50`,color:signalColor,whiteSpace:"nowrap"}}>{stock.signal}</span>
+      </div>
+      <div style={{display:"flex",gap:"20px",marginBottom:"10px"}}>
+        <div><div style={{fontSize:"10px",color:"#555"}}>株価</div><div style={{fontFamily:"'Space Mono',monospace",fontSize:"16px"}}>¥{stock.price?.toLocaleString()}</div></div>
+        <div><div style={{fontSize:"10px",color:"#555"}}>配当利回り</div><div style={{fontFamily:"'Space Mono',monospace",fontSize:"16px",color:"#ffd700"}}>{stock.dividendYield}%</div></div>
+        <div><div style={{fontSize:"10px",color:"#555"}}>1ヶ月</div><div style={{fontFamily:"'Space Mono',monospace",fontSize:"16px",color:stock.priceChange1M>=0?"#0fffb4":"#ff6b6b"}}>{stock.priceChange1M>=0?"▲":"▼"}{Math.abs(stock.priceChange1M)}%</div></div>
+      </div>
+      <div style={{fontSize:"12px",color:"#888",lineHeight:"1.6",borderTop:"1px solid rgba(255,255,255,0.05)",paddingTop:"10px"}}>{stock.reason}</div>
+    </div>
+  );
+}
+
+// ── メインアプリ ─────────────────────────────────────────────
+function App() {
+  const [apiKey, setApiKey] = useState(() => localStorage.getItem("anthropic_api_key") || "");
+  const [selected, setSelected] = useState(new Set());
+  const [sector, setSector] = useState("全業種");
+  const [stocks, setStocks] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [lastUpdated, setLastUpdated] = useState("");
+  const [detailStock, setDetailStock] = useState(null);
+
+  const toggleCondition = id => setSelected(s => { const n=new Set(s); n.has(id)?n.delete(id):n.add(id); return n; });
+
+  const scan = useCallback(async () => {
+    if (selected.size===0) { setError("条件を1つ以上選択してください"); return; }
+    setLoading(true); setError(""); setStocks([]);
+    const condLabels = [...selected].map(id=>CONDITIONS_LIST.find(c=>c.id===id)?.label).join("、");
+    const prompt = SYSTEM_PROMPT.replace("{CONDITIONS}", `${condLabels}${sector!=="全業種"?`、セクター:${sector}`:""}`);
+    try {
+      const res = await fetch("https://api.anthropic.com/v1/messages",{
+        method:"POST",
+        headers:{"Content-Type":"application/json","x-api-key":apiKey,"anthropic-version":"2023-06-01","anthropic-dangerous-direct-browser-access":"true"},
+        body:JSON.stringify({model:"claude-sonnet-4-5",max_tokens:2000,system:prompt,messages:[{role:"user",content:"上記条件でスクリーニングしてJSON配列のみ返してください。"}]})
+      });
+      const data = await res.json();
+      if (data.error) throw new Error(data.error.message);
+      const text = data.content?.[0]?.text || "";
+      const clean = text.replace(/```json|```/g,"").trim();
+      setStocks(JSON.parse(clean));
+      setLastUpdated(new Date().toLocaleTimeString("ja-JP"));
+    } catch(e) {
+      setError("エラー: "+e.message);
+    } finally {
+      setLoading(false);
+    }
+  }, [selected, sector, apiKey]);
+
+  if (!apiKey) return <ApiKeyModal onSave={setApiKey}/>;
+
+  return (
+    <div style={{minHeight:"100vh",background:"#0a0a0a",color:"#e8e8e8"}}>
+      {detailStock && <DetailModal stock={detailStock} apiKey={apiKey} onClose={()=>setDetailStock(null)}/>}
+
+      {/* ヘッダー */}
+      <div style={{borderBottom:"1px solid rgba(255,255,255,0.06)",padding:"18px 20px 14px",background:"rgba(15,255,180,0.015)",position:"sticky",top:0,zIndex:100,backdropFilter:"blur(14px)"}}>
+        <div style={{maxWidth:"680px",margin:"0 auto",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
+          <div>
+            <div style={{display:"flex",alignItems:"center",gap:"8px"}}>
+              <div style={{width:"7px",height:"7px",borderRadius:"50%",background:"#0fffb4",boxShadow:"0 0 8px #0fffb4",animation:stocks.length>0?"pulse 2.2s infinite":"none"}}/>
+              <span style={{fontFamily:"'Space Mono',monospace",fontSize:"10px",color:"#0fffb4",letterSpacing:"3px"}}>JP STOCK SCREENER</span>
+            </div>
+            <div style={{fontSize:"20px",fontWeight:"700",marginTop:"3px"}}>日本株スクリーナー</div>
+          </div>
+          <div style={{display:"flex",alignItems:"center",gap:"10px"}}>
+            {lastUpdated&&<div style={{textAlign:"right"}}><div style={{fontSize:"9px",color:"#555",fontFamily:"'Space Mono',monospace"}}>UPDATED</div><div style={{fontSize:"11px",color:"#666",fontFamily:"'Space Mono',monospace"}}>{lastUpdated}</div></div>}
+            <button onClick={()=>{localStorage.removeItem("anthropic_api_key");setApiKey("");}} title="APIキーを変更" style={{padding:"6px 10px",background:"none",border:"1px solid rgba(255,255,255,0.1)",borderRadius:"5px",color:"#555",fontSize:"12px",cursor:"pointer"}}>🔑</button>
+          </div>
+        </div>
+      </div>
+
+      <div style={{padding:"20px",maxWidth:"680px",margin:"0 auto"}}>
+        {/* 条件 */}
+        <div style={{marginBottom:"14px"}}>
+          <div style={{fontSize:"9px",color:"#555",letterSpacing:"2.5px",marginBottom:"8px",fontFamily:"'Space Mono',monospace"}}>SCREENING CONDITIONS</div>
+          <div style={{display:"flex",flexWrap:"wrap",gap:"7px"}}>
+            {CONDITIONS_LIST.map(c=>{
+              const active=selected.has(c.id);
+              return <button key={c.id} onClick={()=>toggleCondition(c.id)} style={{
+                padding:"7px 13px",borderRadius:"5px",cursor:"pointer",
+                border:active?"1px solid #0fffb4":"1px solid rgba(255,255,255,0.09)",
+                background:active?"rgba(15,255,180,0.08)":"rgba(255,255,255,0.02)",
+                color:active?"#0fffb4":"#777",fontSize:"13px",transition:"all 0.14s",display:"flex",alignItems:"center",gap:"6px"
+              }}><span>{c.icon}</span><span>{c.label}</span></button>;
+            })}
+          </div>
+        </div>
+
+        {/* セクター */}
+        <div style={{display:"flex",gap:"8px",alignItems:"center",marginBottom:"16px",flexWrap:"wrap"}}>
+          <div style={{fontSize:"9px",color:"#555",fontFamily:"'Space Mono',monospace",letterSpacing:"2px",whiteSpace:"nowrap"}}>SECTOR</div>
+          <div style={{display:"flex",gap:"5px",flexWrap:"wrap"}}>
+            {SECTORS.map(s=><button key={s} onClick={()=>setSector(s)} style={{
+              padding:"5px 10px",borderRadius:"3px",cursor:"pointer",
+              border:sector===s?"1px solid #ffd700":"1px solid rgba(255,255,255,0.07)",
+              background:sector===s?"rgba(255,215,0,0.07)":"transparent",
+              color:sector===s?"#ffd700":"#666",fontSize:"11px",transition:"all 0.14s"
+            }}>{s}</button>)}
+          </div>
+        </div>
+
+        {/* SCANボタン */}
+        <button onClick={scan} disabled={loading} style={{
+          width:"100%",padding:"14px",borderRadius:"8px",cursor:loading?"not-allowed":"pointer",
+          background:loading?"rgba(15,255,180,0.05)":"rgba(15,255,180,0.12)",
+          border:"1px solid rgba(15,255,180,0.3)",color:"#0fffb4",
+          fontSize:"14px",fontWeight:"700",letterSpacing:"2px",fontFamily:"'Space Mono',monospace",
+          transition:"all 0.15s",marginBottom:"20px"
+        }}>{loading?"🔍 スキャン中...":"▶ SCAN"}</button>
+
+        {error&&<div style={{color:"#ff6b6b",fontSize:"13px",marginBottom:"16px",padding:"10px 14px",background:"rgba(255,107,107,0.08)",borderRadius:"6px",border:"1px solid rgba(255,107,107,0.2)"}}>{error}</div>}
+
+        {/* 結果 */}
+        {stocks.length>0&&(
+          <div>
+            <div style={{fontSize:"9px",color:"#555",letterSpacing:"2.5px",marginBottom:"12px",fontFamily:"'Space Mono',monospace"}}>RESULTS — {stocks.length} STOCKS</div>
+            <div style={{display:"flex",flexDirection:"column",gap:"12px"}}>
+              {stocks.map(s=><StockCard key={s.code} stock={s} onSelect={setDetailStock}/>)}
+            </div>
+          </div>
+        )}
+
+        {stocks.length===0&&!loading&&(
+          <div style={{textAlign:"center",padding:"60px 20px",color:"#333"}}>
+            <div style={{fontSize:"40px",marginBottom:"14px"}}>📊</div>
+            <div style={{fontFamily:"'Space Mono',monospace",fontSize:"12px",letterSpacing:"2px",color:"#444"}}>条件を選んでSCANしてください</div>
+          </div>
+        )}
       </div>
     </div>
-    <div class="detail-box">
-      <div class="detail-title" id="detail-title">長期の根拠</div>
-      <div class="detail-text" id="detail-text">読込中...</div>
-    </div>
-  </div>
-  <div class="panel active" id="p2" style="grid-row:span 2">
-    <div class="plabel">FX関連ニュース</div>
-    <div class="nlist" id="nlist"></div>
-  </div>
-</div>
-
-<div class="grid2">
-  <div class="panel active" id="p3">
-    <div class="plabel">開発者コメント</div>
-    <div class="dev-comment">
-      <div class="dev-label">相場の補足</div>
-      <div class="dev-text" id="dev-comment">読込中...</div>
-      <div class="dev-date" id="dev-date"></div>
-    </div>
-    <div class="fedwatch-box" style="background:rgba(0,212,255,0.05);border:1px solid rgba(0,212,255,0.2);border-radius:4px;padding:12px;margin-bottom:12px;">
-  <div class="diary-label" style="color:var(--accent);margin-bottom:8px;">📡 Fed政策金利 確率</div>
-  <div style="font-size:0.68rem;color:var(--dim);font-family:'Noto Sans JP',sans-serif;line-height:1.6;margin-bottom:10px;">利上げ・据え置き・利下げの市場織り込み確率。ドル円スイングで重要な指標です。</div>
-  <a href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank" class="btn" style="font-size:0.55rem;">📊 CME FedWatch を開く →</a>
-</div>
-<div class="diary-box">
-      <div class="diary-label">ひとこと日記</div>
-      <div class="diary-text" id="diary-text">読込中...</div>
-    </div>
-  </div>
-  <div class="panel active" id="p4">
-    <div class="plabel">スコア根拠</div>
-    <div class="rlist" id="rlist"></div>
-    <button class="btn" onclick="fetchAll()">▶ 今すぐ更新</button>
-    <div class="gtime">開くと自動更新 / 30分ごと自動</div>
-  </div>
-</div>
-</div>
-
-<script>
-const DETAILS={long:{title:'長期の根拠',key:'long_reason'},mid:{title:'中期の根拠 / 1ヶ月目線',key:'mid_reason'},short:{title:'短期の根拠 / 今週の目線',key:'short_reason'}};
-let ADMIN={};
-
-function showDetail(key,el){
-  document.querySelectorAll('.tf-card').forEach(c=>c.classList.remove('active'));
-  el.classList.add('active');
-  document.getElementById('detail-title').textContent=DETAILS[key].title;
-  document.getElementById('detail-text').textContent=ADMIN[DETAILS[key].key]||'データなし';
+  );
 }
 
-function showTab(n){
-  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===n));
-  if(window.innerWidth<=768){
-    for(let i=0;i<4;i++) document.getElementById('p'+i).classList.toggle('active',i===n);
-  }
-}
-
-function renderScores(d){
-  const sorted=Object.entries(d.scores||{}).sort((a,b)=>b[1]-a[1]);
-  const maxAbs=Math.max(...Object.values(d.scores||{1:1}).map(Math.abs),1);
-  document.getElementById('clist').innerHTML=sorted.map(([c,s])=>{
-    const cls=s>0?'pos':s<0?'neg':'neu';
-    const pct=s===0?0:Math.abs(s)/maxAbs*100;
-    return `<div class="crow"><div class="cname">${c}</div><div class="btrack"><div class="bfill ${cls}" style="width:${pct}%"></div></div><div class="score-badge ${cls}">${s>0?'+':''}${s}</div></div>`;
-  }).join('');
-  document.getElementById('nlist').innerHTML=(d.news||[]).map(n=>`<div class="nitem"><div class="nsrc">${n.source}</div><div class="ntitle">${n.title}</div></div>`).join('')||'<div class="ritem">取得中...</div>';
-  const items=[];
-  for(const[c,list]of Object.entries(d.reasons||{}))
-    for(const r of list) items.push(`<div class="ritem"><span class="rcur">${c}</span>${r}</div>`);
-  document.getElementById('rlist').innerHTML=items.join('')||'<div class="ritem">データなし</div>';
-}
-
-function renderAdmin(d){
-  ADMIN=d;
-  document.getElementById('dev-comment').textContent=d.dev_comment||'コメントなし';
-  document.getElementById('dev-date').textContent=d.updated?d.updated+' 更新':'';
-  document.getElementById('diary-text').textContent=d.diary||'';
-  document.getElementById('detail-text').textContent=d.long_reason||'データなし';
-}
-
-async function fetchAll(){
-  const s=document.getElementById('status');
-  s.textContent='🔄 更新中...';
-  try{
-    const[r1,r2]=await Promise.all([
-      fetch('fx_data.json?t='+Date.now()),
-      fetch('fx_admin.json?t='+Date.now())
-    ]);
-    const d1=await r1.json();
-    const d2=await r2.json();
-    renderScores(d1);
-    renderAdmin(d2);
-    s.textContent='✅ '+d1.generated;
-  }catch(e){
-    s.textContent='📁 保存データ表示中';
-  }
-}
-
-setInterval(()=>document.getElementById('clk').textContent=new Date().toLocaleString('ja-JP'),1000);
-window.addEventListener('load',fetchAll);
-setInterval(fetchAll,30*60*1000);
+ReactDOM.createRoot(document.getElementById("root")).render(<App/>);
 </script>
 </body>
 </html>

@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-05-21T20:26:17.227417",
-  "generated": "2026年05月21日 20:26",
+  "timestamp": "2026-05-22T11:52:49.084321",
+  "generated": "2026年05月22日 11:52",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": -1,
+    "USD": 0,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 0,
     "AUD": 1,
-    "NZD": 0,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": -1
     },
     {
       "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 1,
       "base_score": 1,
-      "quote_score": 2
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -108,33 +108,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Barkin eschews forward monetary guidance",
-      "summary": "Bank of Richmond Federal Reserve (Fed) President Thomas Barkin said on Thursday that he doesn't think it's the right tim"
+      "title": "US Dollar Index gains ground above 99.00 on resilient US labour data, eyes US-Iran deal",
+      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: BI front-loads tightening to bolster currency – DBS",
-      "summary": "DBS Group Research economist Radhika Rao notes that Bank Indonesia (BI) surprised markets by raising its benchmark rate "
+      "title": "PBOC sets USD/CNY reference rate at 6.8373 vs. 6.8349 previous",
+      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8373 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones Industrial Average surges as a possible US-Iran deal lands within hours",
-      "summary": "For most of Thursday, the Dow Jones Industrial Average looked heavy, sliding to a session low near 49,700 as firmer Oil "
+      "title": "Canadian Dollar declines as oil prices ease on rising US-Iran peace hopes",
+      "summary": "USD/CAD gains ground for the fourth consecutive day, trading around 1.3790 during the Asian hours on Friday. The pair ap"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar struggles as US-Iran negotiation optimism pressures Oil prices",
-      "summary": "USD/CAD trims part of its intraday gains on Thursday as traders react to fresh geopolitical headlines surrounding ongoin"
+      "title": "New Zealand Dollar flat lines vs USD as bulls shrug off upbeat Retail Sales",
+      "summary": "The NZD/USD pair oscillates in a narrow range during the Asian session on Friday and reacts little to the better-than-ex"
     },
     {
       "source": "FXStreet",
-      "title": "Euro area: Weak PMI growth signals and ECB dilemma – Commerzbank",
-      "summary": "Commerzbank’s Dr. Vincent Stamer notes that the Euro area composite PMI fell further into contraction territory in May, "
+      "title": "Japanese Yen weakens on soft Japan CPI inflation data",
+      "summary": "The USD/JPY pair gains ground to around 159.10 during the early Asian session on Friday. Softer Japan inflation data wei"
     },
     {
       "source": "FXStreet",
-      "title": "Current policy is in a good place to respond to ongoing shocks': Fed’s Barkin projects confidence",
-      "summary": "Bank of Richmond Federal Reserve (Fed) President Thomas Barkin said on Thursday that \"current monetary policy is in a go"
+      "title": "US President Donald Trump will swear in Kevin Warsh on Friday to lead Fed",
+      "summary": "The US President Donald Trump administration said that Trump will swear in Kevin Warsh as ‌the chair of the US Federal R"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japan’s National CPI rises 1.4% YoY in April, Core CPI climbs less than expected",
+      "summary": "Japan’s National Consumer Price Index (CPI) rose by 1.4% YoY in April, compared to the previous reading of 1.5%, accordi"
     },
     {
       "source": "MarketWatch",
@@ -176,14 +181,17 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Fed’s Barkin eschews forward monetary guidance",
-      "[強気] Dow Jones Industrial Average surges as a possible US-Ir"
+      "[強気] New Zealand Dollar flat lines vs USD as bulls shrug off",
+      "[弱気] Japanese Yen weakens on soft Japan CPI inflation data"
     ],
-    "EUR": [
-      "[弱気] Euro area: Weak PMI growth signals and ECB dilemma – Co"
+    "JPY": [
+      "[弱気] Japanese Yen weakens on soft Japan CPI inflation data"
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
+    ],
+    "NZD": [
+      "[強気] New Zealand Dollar flat lines vs USD as bulls shrug off"
     ]
   }
 }
