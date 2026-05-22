@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-05-22T11:52:49.084321",
-  "generated": "2026年05月22日 11:52",
+  "timestamp": "2026-05-22T10:29:52.041748",
+  "generated": "2026年05月22日 10:29",
   "scores": {
     "USD": 0,
     "JPY": -1,
     "EUR": 0,
-    "GBP": 0,
+    "GBP": -1,
     "AUD": 1,
-    "NZD": 1,
+    "NZD": 0,
     "CAD": 0,
     "CHF": 0
   },
@@ -18,6 +18,13 @@
       "diff": 1,
       "base_score": 0,
       "quote_score": -1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     },
     {
       "pair": "AUDUSD",
@@ -34,13 +41,6 @@
       "quote_score": -1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
       "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
@@ -48,11 +48,11 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,38 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index gains ground above 99.00 on resilient US labour data, eyes US-Iran deal",
-      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
+      "title": "Brent: Supply shock keeps prices supported – Rabobank",
+      "summary": "Rabobank’s Senior Macro Strategist Teeuwe Mevissen notes that Brent crude has edged higher as markets reassess prospects"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.8373 vs. 6.8349 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8373 compa"
+      "title": "Lagarde speech: Long-term inflation expectations broadly well-anchored",
+      "summary": "European Central Bank (ECB) President Christine Lagarde said on Friday that the long-term inflation expectations remain "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar declines as oil prices ease on rising US-Iran peace hopes",
-      "summary": "USD/CAD gains ground for the fourth consecutive day, trading around 1.3790 during the Asian hours on Friday. The pair ap"
+      "title": "US Dollar Index: Consolidation near resistance – OCBC",
+      "summary": "OCBC’s Christopher Wong notes the Dollar Index is consolidating as it tracks UST yields, with softer Oil and slightly lo"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar flat lines vs USD as bulls shrug off upbeat Retail Sales",
-      "summary": "The NZD/USD pair oscillates in a narrow range during the Asian session on Friday and reacts little to the better-than-ex"
+      "title": "ECB: Euro area’s Negotiated Wages rise 2.46% YoY in Q1 2026 vs. 2.95% in Q4 2025",
+      "summary": "On Friday, the European Central Bank (ECB) released its indicator of the Euro area’s Negotiated Wage Rates data for the "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen weakens on soft Japan CPI inflation data",
-      "summary": "The USD/JPY pair gains ground to around 159.10 during the early Asian session on Friday. Softer Japan inflation data wei"
+      "title": "Japanese Yen: Under pressure as USD eyes 160.50 – Societe Generale",
+      "summary": "Societe Generale analysts note USD/JPY has rebounded after testing a multi‑month channel floor near 155.50/155, now alig"
     },
     {
       "source": "FXStreet",
-      "title": "US President Donald Trump will swear in Kevin Warsh on Friday to lead Fed",
-      "summary": "The US President Donald Trump administration said that Trump will swear in Kevin Warsh as ‌the chair of the US Federal R"
+      "title": "British Pound sits near two-week high vs weak JPY; bulls shrug off weak UK Retail Sales",
+      "summary": "The GBP/JPY cross attracts some dip-buyers on Friday and sticks to modest intraday gains through the first half of the E"
     },
     {
       "source": "FXStreet",
-      "title": "Japan’s National CPI rises 1.4% YoY in April, Core CPI climbs less than expected",
-      "summary": "Japan’s National Consumer Price Index (CPI) rose by 1.4% YoY in April, compared to the previous reading of 1.5%, accordi"
+      "title": "Gold languishes near daily low; seems vulnerable amid Fed hike bets and bullish USD",
+      "summary": "Gold (XAU/USD) struggles near the daily low, though it manages to hold above the $4,500 psychological mark through the f"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee extends recovery as US-Iran deal optimism builds pressure on oil price",
+      "summary": "The Indian Rupee (INR) extends its recovery against the US Dollar (USD) on Friday. The USD/INR pair slides to near 95.90"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG/USD struggles around $76 amid US-Iran deal uncertainty",
+      "summary": "Silver price (XAG/USD) faces selling pressure near $76.00 during the European trading session on Friday. The white metal"
     },
     {
       "source": "MarketWatch",
@@ -181,17 +191,21 @@
   },
   "reasons": {
     "USD": [
-      "[強気] New Zealand Dollar flat lines vs USD as bulls shrug off",
-      "[弱気] Japanese Yen weakens on soft Japan CPI inflation data"
+      "[強気] Gold languishes near daily low; seems vulnerable amid F",
+      "[弱気] Indian Rupee extends recovery as US-Iran deal optimism "
     ],
     "JPY": [
-      "[弱気] Japanese Yen weakens on soft Japan CPI inflation data"
+      "[弱気] British Pound sits near two-week high vs weak JPY; bull"
+    ],
+    "EUR": [
+      "[弱気] British Pound sits near two-week high vs weak JPY; bull",
+      "[強気] Gold languishes near daily low; seems vulnerable amid F"
+    ],
+    "GBP": [
+      "[弱気] British Pound sits near two-week high vs weak JPY; bull"
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+250,505)"
-    ],
-    "NZD": [
-      "[強気] New Zealand Dollar flat lines vs USD as bulls shrug off"
     ]
   }
 }
