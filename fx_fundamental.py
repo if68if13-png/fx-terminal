@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import requests, feedparser, datetime, os, json
 
-SAVE_DIR = os.path.abspath(".")
+SAVE_DIR = os.path.expanduser("~/Documents/FX分析")
 os.makedirs(SAVE_DIR, exist_ok=True)
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
 
@@ -103,7 +103,7 @@ def judge(scores):
         results.append({"pair":pair,"direction":d,"diff":diff,"base_score":scores.get(base,0),"quote_score":scores.get(quote,0)})
     return sorted(results, key=lambda x: abs(x["diff"]), reverse=True)
 
-def save_all(news_items, cot, scores, reasons, judgments):
+def save_all(news_items, cot, scores, reasons, judgments, rates={}):
     now = datetime.datetime.now()
     ts = now.strftime("%Y%m%d_%H%M")
     md = f"# FX分析レポート\n**生成:** {now.strftime('%Y年%m月%d日 %H:%M')}\n\n"
@@ -126,12 +126,58 @@ def save_all(news_items, cot, scores, reasons, judgments):
         "news": [{"source":n.get("source",""),"title":n.get("title",""),"summary":n.get("summary","")[:120]} for n in news_items[:20]],
         "cot": cot,
         "reasons": {cur: lst for cur, lst in reasons.items() if lst},
+        "rates": rates,
     }
     with open(f"{SAVE_DIR}/fx_data.json","w",encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
     print(f"  ✅ 保存完了")
     return f"{SAVE_DIR}/FX分析_{ts}.md"
 
+
+def get_rates():
+    """FRED APIから主要金利データを取得"""
+    api_key = os.environ.get("FRED_API_KEY", "")
+    if not api_key:
+        print("  ⚠️ FRED_API_KEY未設定")
+        return {}
+
+    series = {
+        "US_FF":    "FEDFUNDS",
+        "US_10Y":   "DGS10",
+        "JP_10Y":   "IRLTLT01JPM156N",
+        "DE_10Y":   "IRLTLT01DEM156N",
+        "GB_10Y":   "IRLTLT01GBM156N",
+        "AU_10Y":   "IRLTLT01AUM156N",
+    }
+
+    rates = {}
+    base = "https://api.stlouisfed.org/fred/series/observations"
+    for name, sid in series.items():
+        try:
+            r = requests.get(base, params={
+                "series_id":    sid,
+                "api_key":      api_key,
+                "file_type":    "json",
+                "limit":        1,
+                "sort_order":   "desc",
+            }, timeout=10)
+            val = r.json()["observations"][0]["value"]
+            rates[name] = float(val) if val != "." else None
+        except Exception as e:
+            print(f"  ⚠️ FRED {name}: {e}")
+            rates[name] = None
+
+    # 金利差を計算
+    if rates.get("US_10Y") and rates.get("JP_10Y"):
+        rates["DIFF_USDJPY"] = round(rates["US_10Y"] - rates["JP_10Y"], 2)
+    if rates.get("US_10Y") and rates.get("DE_10Y"):
+        rates["DIFF_EURUSD"] = round(rates["DE_10Y"] - rates["US_10Y"], 2)
+    if rates.get("US_10Y") and rates.get("GB_10Y"):
+        rates["DIFF_GBPUSD"] = round(rates["GB_10Y"] - rates["US_10Y"], 2)
+    if rates.get("US_10Y") and rates.get("AU_10Y"):
+        rates["DIFF_AUDUSD"] = round(rates["AU_10Y"] - rates["US_10Y"], 2)
+
+    return rates
 def main():
     print("\n"+"="*50)
     print(f"  FX分析システム {datetime.datetime.now().strftime('%Y/%m/%d %H:%M')}")
@@ -142,11 +188,14 @@ def main():
     print("📋 COT取得中...")
     cot = get_cot()
     print(f"  → {len(cot)}通貨")
+    print("📈 金利データ取得中...")
+    rates = get_rates()
+    print(f"  → {len([v for v in rates.values() if v is not None])}件")
     print("🧮 スコアリング中...")
     scores, reasons = score(news_data, cot)
     judgments = judge(scores)
     print("💾 保存中...")
-    path = save_all(news_data, cot, scores, reasons, judgments)
+    path = save_all(news_data, cot, scores, reasons, judgments, rates)
     print("\n"+"="*50)
     for cur, s in sorted(scores.items(), key=lambda x: -x[1]):
         print(f"  {cur}: {'█'*abs(s)+'░'*(5-abs(s))} {s:+d}")
@@ -158,3 +207,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
