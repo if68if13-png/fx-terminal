@@ -26,7 +26,10 @@ jobs:
       - name: Run FX analysis
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python fx_fundamental.py
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          python fx_fundamental.py
+          python fx_outlook.py
 
       - name: Commit and push
         run: |
@@ -35,6 +38,6 @@ jobs:
           git stash
           git pull --rebase origin main
           git stash pop
-          git add fx_data.json
-          git diff --staged --quiet || git commit -m "自動更新"
+          git add fx_data.json fx_outlook.json
+          git diff --staged --quiet || git commit -m "自動更新 $(date '+%Y/%m/%d %H:%M')"
           git push
