@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-05-22T19:18:03.998381",
-  "generated": "2026年05月22日 19:18",
+  "timestamp": "2026-05-23T07:40:05.239479",
+  "generated": "2026年05月23日 07:40",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 0,
-    "AUD": 0,
+    "AUD": 1,
     "NZD": 0,
     "CAD": 0,
     "CHF": 0
@@ -16,46 +16,51 @@
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
+      "summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and t"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank",
@@ -97,14 +102,19 @@
       "summary": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his "
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on discount window operating days and their strategies and practices for managing reserve balances",
-      "summary": "Federal Reserve Board releases results from two surveys of senior financial officers at banks about their views on disco"
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Mild bullish against US Dollar within tight range – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann expect USD/SGD to edge lower intraday toward 1.2760, though "
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report",
-      "summary": "Federal Reserve Board issues Economic Well-Being of U.S. Households in 2025 report"
+      "source": "FXStreet",
+      "title": "ASEAN-6 inflation: Pipeline pressures and rate risks – DBS",
+      "summary": "DBS Group Research economists Radhika Rao and Chua Han Teng highlight that ASEAN-6 economies are experiencing asymmetric"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Neutral within tight onshore band – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann expect USD/CNH to trade quietly between 6.7920 and 6.8060 in"
     },
     {
       "source": "FXStreet",
@@ -132,19 +142,9 @@
       "summary": "There is confident, and then there is Friday. The Dow Jones Industrial Average (DJIA) ground out a fresh all-time high, "
     },
     {
-      "source": "FXStreet",
-      "title": "Fed's Warsh says he will lead reform at the Fed",
-      "summary": "Freshly-minted Federal Reserve (Fed) Chair Kevin Warsh delivered his first public speech as head of the Fed on Friday, d"
-    },
-    {
-      "source": "FXStreet",
-      "title": "President Trump says he wants Warsh to be independent",
-      "summary": "Speaking ahead of the swearing-in of new Federal Reserve (Fed) Chair Kevin Warsh, President Trump stated that he wants W"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar: Rate repricing weighs against Japanese Yen – Rabobank",
-      "summary": "Rabobank’s Senior FX Strategist Jane Foley notes that the Australian Dollar (AUD) has shifted from a top G10 performer t"
+      "source": "Investing",
+      "title": "Bitcoin slips below $76k, set for weekly loss amid liquidations, rate volatility",
+      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -154,48 +154,43 @@
   ],
   "cot": {
     "CHF": {
-      "long": 94743,
-      "short": 66537,
-      "net": 28206,
+      "long": 104225,
+      "short": 69321,
+      "net": 34904,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 36150,
+      "long": 35622,
       "short": 484,
-      "net": 35666,
+      "net": 35138,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 21331,
-      "short": 3364,
-      "net": 17967,
+      "long": 21163,
+      "short": 2926,
+      "net": 18237,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 21331,
-      "short": 3364,
-      "net": 17967,
+      "long": 21163,
+      "short": 2926,
+      "net": 18237,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 289244,
-      "short": 38739,
-      "net": 250505,
+      "long": 301269,
+      "short": 41467,
+      "net": 259802,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[強気] Gold price slips as Waller’s hawkish comments lift USD",
-      "[強気] Dow Jones Industrial Average shrugs off a hawkish new F",
-      "[弱気] Australian Dollar: Rate repricing weighs against Japane"
-    ],
-    "JPY": [
-      "[弱気] Australian Dollar: Rate repricing weighs against Japane"
+      "[強気] Dow Jones Industrial Average shrugs off a hawkish new F"
     ],
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+250,505)",
-      "[弱気] Australian Dollar: Rate repricing weighs against Japane"
+      "[COT] 🟢ロング優勢 (ネット:+259,802)"
     ]
   }
 }
