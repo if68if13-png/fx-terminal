@@ -4,8 +4,233 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FX Terminal</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;color:#c9d1d9;font-family:'Helvetica Neue',sans-serif;min-height:100vh}
+header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.logo{font-size:.9rem;font-weight:700;color:#00d4ff;letter-spacing:2px}
+.status{font-size:.72rem;color:#4a5568}
+.warn{background:#1a1500;border:1px solid #3a2800;color:#888;font-size:.7rem;padding:8px 16px;text-align:center}
+.tabs{display:flex;border-bottom:1px solid #1a2332;background:#0d1117;position:sticky;top:45px;z-index:99;overflow-x:auto}
+.tab{flex:1;min-width:60px;padding:10px 4px;text-align:center;font-size:.72rem;color:#4a5568;cursor:pointer;border-bottom:2px solid transparent;transition:.15s;white-space:nowrap}
+.tab.active{color:#00d4ff;border-bottom-color:#00d4ff}
+.panel{display:none;padding:16px}
+.panel.active{display:block}
+.score-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}
+.crow{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px;display:flex;align-items:center;gap:8px}
+.cname{font-size:.8rem;font-weight:700;color:#c9d1d9;width:32px}
+.btrack{flex:1;height:6px;background:#0d1117;border-radius:3px;overflow:hidden}
+.bfill{height:100%;border-radius:3px;transition:.3s}
+.bfill.pos{background:#00d4ff}
+.bfill.neg{background:#ff4466}
+.score-badge{font-size:.75rem;font-weight:700;min-width:28px;text-align:right}
+.score-badge.pos{color:#00d4ff}
+.score-badge.neg{color:#ff4466}
+.score-badge.neu{color:#4a5568}
+.pair-selector{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;padding-bottom:4px}
+.psBtn{background:#161b22;border:1px solid #1a2332;border-radius:5px;color:#4a5568;font-size:.78rem;padding:6px 14px;cursor:pointer;white-space:nowrap;font-weight:600;transition:.15s}
+.psBtn.active{background:#00d4ff18;border-color:#00d4ff;color:#00d4ff}
+.pair-panel{display:none}
+.pair-panel.active{display:block}
+.overall-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.overall-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+.overall-text{font-size:.9rem;color:#c9d1d9;line-height:1.5}
+.horizon-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.hcard{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:12px 10px;text-align:center}
+.hlabel{font-size:.65rem;color:#4a5568;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+.hview{font-size:.85rem;font-weight:700;margin-bottom:4px}
+.hview.bull{color:#00d4ff}
+.hview.bear{color:#ff4466}
+.hview.neu{color:#888}
+.hreason{font-size:.65rem;color:#5a6a7a;line-height:1.4}
+.cb-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.cbcard{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px}
+.cbname{font-size:.68rem;color:#4a5568;margin-bottom:4px;letter-spacing:1px}
+.cbstance{font-size:.78rem;color:#c9d1d9;line-height:1.4}
+.cbstance.hawk{color:#00d4ff}
+.cbstance.dove{color:#ff4466}
+.risk-card{background:#1a1500;border:1px solid #3a2800;border-radius:8px;padding:12px 14px;margin-bottom:12px;font-size:.8rem;color:#c9d1d9;line-height:1.5}
+.risk-label{font-size:.68rem;color:#aa8800;margin-bottom:4px;letter-spacing:1px;text-transform:uppercase}
+.cot-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.cotcard{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px}
+.cotname{font-size:.75rem;font-weight:700;color:#c9d1d9;margin-bottom:4px}
+.cotbias{font-size:.72rem}
+.cotnet{font-size:.68rem;color:#4a5568;margin-top:2px}
+.nitem{border-bottom:1px solid #1a2332;padding:10px 0}
+.nitem:last-child{border-bottom:none}
+.nsrc{font-size:.65rem;color:#00d4ff;margin-bottom:3px;text-transform:uppercase;letter-spacing:1px}
+.ntitle{font-size:.8rem;color:#c9d1d9;line-height:1.4}
+.comment-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.comment-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.comment-text{font-size:.82rem;color:#c9d1d9;line-height:1.6}
+.diary-text{font-size:.8rem;color:#888;line-height:1.6}
+.dev-date{font-size:.68rem;color:#3a4a5a;margin-top:6px}
+.fedwatch-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.fedwatch-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.fedwatch-desc{font-size:.78rem;color:#888;margin-bottom:10px;line-height:1.5}
+.fedwatch-link{display:block;background:#00d4ff18;border:1px solid #00d4ff40;border-radius:6px;padding:10px 14px;color:#00d4ff;text-decoration:none;font-size:.8rem;font-weight:600;text-align:center}
+.refresh-bar{padding:12px 16px;border-top:1px solid #1a2332;display:flex;align-items:center;justify-content:space-between}
+.refresh-btn{background:#00d4ff18;border:1px solid #00d4ff40;border-radius:6px;color:#00d4ff;font-size:.78rem;padding:7px 14px;cursor:pointer}
+.refresh-hint{font-size:.68rem;color:#3a4a5a}
+.slabel{font-size:.72rem;color:#4a5568;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;display:block}
+</style>
 </head>
 <body>
-<h1 style="color:#00d4ff;background:#0d1117;padding:20px">FX TERMINAL - テスト</h1>
+<header>
+  <div class="logo">FX TERMINAL</div>
+  <div class="status" id="status">読込中...</div>
+</header>
+<div class="warn">⚠️ 自動分析レポートです。最終判断は必ずご自身で。投資助言ではありません。</div>
+<div class="tabs">
+  <div class="tab active" onclick="showTab(0)">📊 強弱</div>
+  <div class="tab" onclick="showTab(1)">🎯 ペア</div>
+  <div class="tab" onclick="showTab(2)">🌏 大局観</div>
+  <div class="tab" onclick="showTab(3)">📰 ニュース</div>
+  <div class="tab" onclick="showTab(4)">💬 コメント</div>
+</div>
+<div class="panel active" id="p0">
+  <span class="slabel">通貨強弱スコア</span>
+  <div class="score-grid" id="clist"></div>
+  <span class="slabel" style="margin-top:14px">COTポジション</span>
+  <div class="cot-grid" id="cotlist"></div>
+  <span class="slabel" style="margin-top:14px">スコア根拠</span>
+  <div id="rlist"></div>
+</div>
+<div class="panel" id="p1">
+  <div class="pair-selector">
+    <button class="psBtn active" onclick="showPair('USDJPY',this)">USD/JPY</button>
+    <button class="psBtn" onclick="showPair('EURUSD',this)">EUR/USD</button>
+    <button class="psBtn" onclick="showPair('GBPUSD',this)">GBP/USD</button>
+    <button class="psBtn" onclick="showPair('AUDUSD',this)">AUD/USD</button>
+  </div>
+  <div class="pair-panel active" id="pair-USDJPY"></div>
+  <div class="pair-panel" id="pair-EURUSD"></div>
+  <div class="pair-panel" id="pair-GBPUSD"></div>
+  <div class="pair-panel" id="pair-AUDUSD"></div>
+</div>
+<div class="panel" id="p2">
+  <div class="overall-card">
+    <div class="overall-label">全体まとめ</div>
+    <div class="overall-text" id="outlook-overall">読込中...</div>
+  </div>
+  <div class="risk-card">
+    <div class="risk-label">⚠️ 最重要リスク</div>
+    <div id="outlook-risk">読込中...</div>
+  </div>
+  <span class="slabel">中央銀行スタンス</span>
+  <div class="cb-grid" id="cb-list"></div>
+  <div class="fedwatch-card">
+    <div class="fedwatch-label">📡 Fed政策金利確率</div>
+    <div class="fedwatch-desc">利上げ・据え置き・利下げの市場織り込み確率。スイングで重要な指標です。</div>
+    <a class="fedwatch-link" href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank">📊 CME FedWatch を開く →</a>
+  </div>
+</div>
+<div class="panel" id="p3">
+  <div id="nlist"><div style="color:#4a5568;font-size:.8rem">読込中...</div></div>
+</div>
+<div class="panel" id="p4">
+  <div class="comment-card">
+    <div class="comment-label">開発者コメント</div>
+    <div class="comment-text" id="dev-comment">読込中...</div>
+    <div class="dev-date" id="dev-date"></div>
+  </div>
+  <div class="comment-card">
+    <div class="comment-label">ひとこと日記</div>
+    <div class="diary-text" id="diary-text">読込中...</div>
+  </div>
+</div>
+<div class="refresh-bar">
+  <button class="refresh-btn" onclick="fetchAll()">▶ 今すぐ更新</button>
+  <div class="refresh-hint">開くと自動更新 / 30分ごと自動</div>
+</div>
+<script>
+function dirClass(v){
+  if(!v)return'neu';
+  if(['ロング','上向','強く','円安継続','上昇'].some(w=>v.includes(w)))return'bull';
+  if(['ショート','下向','弱く','円高転換','下落'].some(w=>v.includes(w)))return'bear';
+  return'neu';
+}
+function stanceClass(v){
+  if(!v)return'';
+  if(v.includes('タカ'))return'hawk';
+  if(v.includes('ハト'))return'dove';
+  return'';
+}
+function showTab(n){
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('active',i===n));
+  document.querySelectorAll('.panel').forEach((p,i)=>p.classList.toggle('active',i===n));
+}
+function showPair(pair,btn){
+  document.querySelectorAll('.psBtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.pair-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('pair-'+pair).classList.add('active');
+}
+function renderScores(d){
+  const sorted=Object.entries(d.scores||{}).sort((a,b)=>b[1]-a[1]);
+  const maxAbs=Math.max(...Object.values(d.scores||{1:1}).map(Math.abs),1);
+  document.getElementById('clist').innerHTML=sorted.map(([c,s])=>{
+    const cls=s>0?'pos':s<0?'neg':'neu';
+    const pct=Math.abs(s)/maxAbs*100;
+    return'<div class="crow"><div class="cname">'+c+'</div><div class="btrack"><div class="bfill '+cls+'" style="width:'+pct+'%"></div></div><div class="score-badge '+cls+'">'+(s>0?'+':'')+s+'</div></div>';
+  }).join('');
+}
+function renderCot(d){
+  const cot=d.cot||{};
+  if(!Object.keys(cot).length){document.getElementById('cotlist').innerHTML='<div style="color:#4a5568;font-size:.78rem;grid-column:1/-1">COTデータ取得中...</div>';return;}
+  document.getElementById('cotlist').innerHTML=Object.entries(cot).map(([c,v])=>'<div class="cotcard"><div class="cotname">'+c+'</div><div class="cotbias">'+(v.bias||'')+'</div><div class="cotnet">net: '+(v.net||0).toLocaleString()+'</div></div>').join('');
+}
+function renderNews(d){
+  document.getElementById('nlist').innerHTML=(d.news||[]).map(n=>'<div class="nitem"><div class="nsrc">'+(n.source||'')+'</div><div class="ntitle">'+(n.title||'')+'</div></div>').join('')||'<div style="color:#4a5568;font-size:.8rem">ニュースなし</div>';
+}
+function renderReasons(d){
+  const items=[];
+  for(const[c,list]of Object.entries(d.reasons||{}))
+    items.push(...list.map(r=>'<div class="nitem"><span style="color:#00d4ff;font-size:.68rem">'+c+'</span> <span style="font-size:.75rem">'+r+'</span></div>'));
+  document.getElementById('rlist').innerHTML=items.join('')||'<div style="color:#4a5568;font-size:.78rem">根拠データなし</div>';
+}
+function renderPairs(outlook,fdata){
+  const pairs=['USDJPY','EURUSD','GBPUSD','AUDUSD'];
+  const adminPairs=(window.ADMIN&&window.ADMIN.long_reasons)||{};
+  const adminWeek=(window.ADMIN&&window.ADMIN.week_comments)||{};
+  pairs.forEach(pair=>{
+    const p=(outlook.pairs||{})[pair]||{};
+    const scoreInfo=(fdata.pairs||[]).find(x=>x.pair===pair)||{};
+    const el=document.getElementById('pair-'+pair);
+    if(!el)return;
+    const lc=dirClass(p.long_view),mc=dirClass(p.mid_view),sc=dirClass(p.short_view);
+    const longReason=adminPairs[pair]||p.long_reason||'';
+    const weekComment=adminWeek[pair]||'';
+    el.innerHTML='<div class="horizon-grid"><div class="hcard"><div class="hlabel">長期</div><div class="hview '+lc+'">'+(p.long_view||'—')+'</div><div class="hreason">'+longReason+'</div></div><div class="hcard"><div class="hlabel">中期 / 1ヶ月</div><div class="hview '+mc+'">'+(p.mid_view||'—')+'</div><div class="hreason">'+(p.mid_reason||'')+'</div></div><div class="hcard"><div class="hlabel">短期 / 今週</div><div class="hview '+sc+'">'+(p.short_view||'—')+'</div><div class="hreason">'+(p.short_reason||'')+'</div></div></div>'+(weekComment?'<div class="risk-card"><div class="risk-label">📝 今週の補足</div>'+weekComment+'</div>':'')+'<div style="font-size:.68rem;color:#3a4a5a;margin-top:4px">スコア差: '+(scoreInfo.diff!=null?(scoreInfo.diff>0?'+':'')+scoreInfo.diff:'—')+' ('+(scoreInfo.base_score!=null?scoreInfo.base_score:'?')+' vs '+(scoreInfo.quote_score!=null?scoreInfo.quote_score:'?')+')</div>';
+  });
+}
+function renderOutlook(o){
+  document.getElementById('outlook-overall').textContent=o.overall||'分析中...';
+  document.getElementById('outlook-risk').textContent=(o.risk_mode?o.risk_mode+' | ':'')+( o.key_risk||'');
+  const cb=o.cb_stance||{};
+  document.getElementById('cb-list').innerHTML=Object.entries(cb).map(([bank,stance])=>'<div class="cbcard"><div class="cbname">'+bank+'</div><div class="cbstance '+stanceClass(stance)+'">'+( stance||'')+'</div></div>').join('');
+}
+function renderAdmin(d){
+  window.ADMIN=d;
+  document.getElementById('dev-comment').textContent=d.dev_comment||'コメントなし';
+  document.getElementById('dev-date').textContent=d.updated?d.updated+' 更新':'';
+  document.getElementById('diary-text').textContent=d.diary||'';
+}
+async function fetchAll(){
+  const s=document.getElementById('status');
+  s.textContent='🔄 更新中...';
+  try{
+    const t=Date.now();
+    const[r1,r2,r3]=await Promise.all([fetch('fx_data.json?t='+t),fetch('fx_outlook.json?t='+t),fetch('fx_admin.json?t='+t).catch(()=>null)]);
+    const d1=await r1.json();
+    const outlook=r2.ok?await r2.json():{};
+    const d2=r3&&r3.ok?await r3.json():{};
+    renderScores(d1);renderCot(d1);renderNews(d1);renderReasons(d1);renderAdmin(d2);renderOutlook(outlook);renderPairs(outlook,d1);
+    s.textContent='✅ '+d1.generated;
+  }catch(e){s.textContent='📦 保存データ表示中';}
+}
+window.addEventListener('load',fetchAll);
+setInterval(fetchAll,30*60*1000);
+</script>
 </body>
 </html>
