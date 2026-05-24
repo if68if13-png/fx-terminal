@@ -13,6 +13,13 @@ def load_fundamental_data():
     with open(FX_DATA_JSON, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def load_admin_data():
+    admin_path = os.path.join(ANALYSIS_DIR, "fx_admin.json")
+    if not os.path.exists(admin_path):
+        return {}
+    with open(admin_path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
 def build_prompt(data):
     today = datetime.datetime.now().strftime("%Y年%m月%d日")
     news_text = "\n".join(f"- [{n.get('source','')}] {n.get('title','')}" for n in data.get("news",[])[:25]) or "なし"
@@ -20,6 +27,9 @@ def build_prompt(data):
     scores = data.get("scores", {})
     score_text = "\n".join(f"- {c}: {s:+d}" for c,s in sorted(scores.items(), key=lambda x:-x[1]))
     pair_text = "\n".join(f"- {p['pair']}: {p['direction']} (差{p.get('diff',0):+d})" for p in data.get("pairs",[]))
+    admin = load_admin_data()
+    fedwatch = admin.get("fedwatch", "")
+    admin_text = f"FedWatch: {fedwatch}" if fedwatch else "（未入力）"
     rates = data.get("rates", {})
     rates_text = f"""- FF金利: {rates.get('US_FF','N/A')}%
 - 米10年債: {rates.get('US_10Y','N/A')}%
@@ -42,6 +52,9 @@ def build_prompt(data):
 
 【通貨強弱スコア(-5〜+5)】
 {score_text}
+
+【FedWatch所感（人間による市場分析）】
+{admin_text}
 
 【実際の金利データ（FRED）】
 {rates_text}
