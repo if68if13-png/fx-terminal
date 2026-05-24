@@ -22,7 +22,7 @@ def load_admin_data():
 
 def build_prompt(data):
     today = datetime.datetime.now().strftime("%Y年%m月%d日")
-    news_text = "\n".join(f"- [{n.get('source','')}] {n.get('title','')}" for n in data.get("news",[])[:25]) or "なし"
+    news_text = "\n".join(f"- [{n.get('source','')}] {n.get('title','')} / {n.get('summary','')[:150]}" for n in data.get("news",[])[:20]) or "なし"
     cot_text = "\n".join(f"- {c}: net {d.get('net',0):+,} ({d.get('bias','')})" for c,d in data.get("cot",{}).items()) or "取得なし"
     scores = data.get("scores", {})
     score_text = "\n".join(f"- {c}: {s:+d}" for c,s in sorted(scores.items(), key=lambda x:-x[1]))
