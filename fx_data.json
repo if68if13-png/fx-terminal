@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-24T02:25:33.636936",
-  "generated": "2026年05月24日 02:25",
+  "timestamp": "2026-05-26T00:58:28.403074",
+  "generated": "2026年05月26日 00:58",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
+    "USD": -1,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 0,
     "AUD": 1,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
+      "pair": "AUDUSD",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Mild bullish against US Dollar within tight range – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann expect USD/SGD to edge lower intraday toward 1.2760, though "
+      "title": "GBP/JPY Price Forecast: Bulls test 214.50 resistance as upside momentum improves",
+      "summary": "GBP/JPY trades with a positive bias on Monday as the British Pound (GBP) outperforms the Japanese Yen (JPY) amid improvi"
     },
     {
       "source": "FXStreet",
-      "title": "ASEAN-6 inflation: Pipeline pressures and rate risks – DBS",
-      "summary": "DBS Group Research economists Radhika Rao and Chua Han Teng highlight that ASEAN-6 economies are experiencing asymmetric"
+      "title": "Gold: Key $4500 support under scrutiny – Scotiabank",
+      "summary": "Scotiabank’s Global FX Strategy team observes renewed strength in non-energy commodities such as copper, while emphasizi"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Neutral within tight onshore band – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann expect USD/CNH to trade quietly between 6.7920 and 6.8060 in"
+      "title": "US Dollar Index hovers around 99.00, looks at geopolitics",
+      "summary": "The US Dollar (USD) kickstarts the new trading week on the back foot as investors continue to assess news that a potenti"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Buy dips against dollar in choppy range – OCBC",
-      "summary": "OCBC notes USDSGD is trading choppily in a subdued range, closely tracking moves in the USD, Oil and UST yields. The ban"
+      "title": "Chinese Yuan: Key 6.7820 support against US Dollar in focus – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/CNH has slipped toward the lower end of its recent range after tradin"
     },
     {
       "source": "FXStreet",
-      "title": "Gold price slips as Waller’s hawkish comments lift USD",
-      "summary": "Gold price edges lower during the day as the Greenback recovers some ground amid doubts that the US and Iran could reach"
+      "title": "Gold rebounds as hopes for US-Iran deal weigh on US Dollar, Oil prices",
+      "summary": "Gold (XAU/USD) rebounds sharply on Monday as hopes for a US-Iran deal to end the war in the Middle East and reopen the S"
     },
     {
       "source": "FXStreet",
-      "title": "South Korea: Hawkish BoK tilt supports Won – ING",
-      "summary": "ING economists Min Joo Kang and Lynn Song expect the Bank of Korea to leave policy rates unchanged this week but to adop"
+      "title": "Canadian Dollar: Losses against US Dollar look limited – Scotiabank",
+      "summary": "Scotiabank’s Global FX Strategy team, including Shaun Osborne and Eric Theoret, notes that the Canadian Dollar is flat a"
     },
     {
       "source": "FXStreet",
-      "title": "A new Fed chair, an old instinct: Why markets may be misreading Warsh",
-      "summary": "Kevin Warsh was sworn in as the 17th head of the Fed on Friday, the first chair to take the oath at the White House sinc"
+      "title": "South Korean Won: Hawkish BoK risk as authorities flag weakness – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects the Bank of Korea (BoK) to hold its policy rate at 2.50%, but warns"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones Industrial Average shrugs off a hawkish new Fed chair to set a record",
-      "summary": "There is confident, and then there is Friday. The Dow Jones Industrial Average (DJIA) ground out a fresh all-time high, "
+      "title": "Japanese Yen struggles for traction despite weaker US Dollar amid elevated Energy costs",
+      "summary": "USD/JPY consolidates on Monday after opening the week with a bearish gap as the US Dollar (USD) comes under pressure ami"
     },
     {
       "source": "Investing",
@@ -186,8 +186,10 @@
   },
   "reasons": {
     "USD": [
-      "[強気] Gold price slips as Waller’s hawkish comments lift USD",
-      "[強気] Dow Jones Industrial Average shrugs off a hawkish new F"
+      "[弱気] Japanese Yen struggles for traction despite weaker US D"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen struggles for traction despite weaker US D"
     ],
     "AUD": [
       "[COT] 🟢ロング優勢 (ネット:+259,802)"
