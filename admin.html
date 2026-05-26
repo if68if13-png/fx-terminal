@@ -36,8 +36,13 @@ input[type="text"] { width: 100%; background: #0d1117; border: 1px solid #1a2332
 </div>
 
 <div class="section">
-  <h2>日記・ひとこと</h2>
-  <textarea id="diary" rows="4" placeholder="例：夜勤明けでドル円見たら介入入ってた笑　今週はゆっくり様子見します。"></textarea>
+  <h2>日記</h2>
+  <label style="font-size:.75rem;color:#4a5568;display:block;margin-bottom:4px">📋 勤務</label>
+  <textarea id="diary_work" rows="2" placeholder="例：日勤、夜勤明け、公休など"></textarea>
+  <label style="font-size:.75rem;color:#4a5568;display:block;margin:10px 0 4px">📊 相場感</label>
+  <textarea id="diary_market" rows="3" placeholder="例：ドル円は155円台で膠着。介入警戒で上値重い。来週のFOMC待ち。"></textarea>
+  <label style="font-size:.75rem;color:#4a5568;display:block;margin:10px 0 4px">💰 トレード実績</label>
+  <textarea id="diary_trade" rows="2" placeholder="例：USDJPY ロング 155.20→155.80 +60pips。ノートレ。"></textarea>
 </div>
 
 <button class="btn" onclick="save()">保存してサイトに反映</button>
