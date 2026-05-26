@@ -87,6 +87,7 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <div class="tab" onclick="showTab(2)">🌏 大局観</div>
   <div class="tab" onclick="showTab(3)">📰 ニュース</div>
   <div class="tab" onclick="showTab(4)">💬 コメント</div>
+  <div class="tab" onclick="showTab(5)">📅 履歴</div>
 </div>
 <div class="panel active" id="p0">
   <span class="slabel">通貨強弱スコア</span>
@@ -144,6 +145,10 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
     <div class="diary-text" id="diary-text">読込中...</div>
   </div>
 </div>
+<div class="panel" id="p5">
+  <div id="history-list"><div style="color:#4a5568;font-size:.8rem">読込中...</div></div>
+</div>
+
 <div class="refresh-bar">
   <button class="refresh-btn" onclick="fetchAll()">▶ 今すぐ更新</button>
   <div class="refresh-hint">開くと自動更新 / 30分ごと自動</div>
@@ -273,7 +278,80 @@ async function fetchAll(){
     s.textContent='✅ '+d1.generated;
   }catch(e){s.textContent='📦 保存データ表示中';}
 }
+// ── 履歴描画 ──
+function renderHistory(history){
+  if(!history||!history.length){
+    document.getElementById('history-list').innerHTML='<div style="color:#4a5568;font-size:.8rem">履歴なし</div>';
+    return;
+  }
+  let html='';
+  history.forEach((h,i)=>{
+    const id='hist-'+i;
+    const pairs=['USDJPY','EURUSD','GBPUSD','AUDUSD'];
+    const pairHtml=pairs.map(pair=>{
+      const p=(h.pairs||{})[pair]||{};
+      const lc=p.long_view&&p.long_view.includes('上')?'bull':p.long_view&&p.long_view.includes('下')?'bear':'neu';
+      return `<div style="margin-bottom:8px">
+        <div style="font-size:.72rem;color:#00d4ff;margin-bottom:2px">${pair}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px">
+          <div style="background:#0d1117;border-radius:4px;padding:6px;text-align:center">
+            <div style="font-size:.6rem;color:#4a5568">長期</div>
+            <div style="font-size:.72rem;color:${lc==='bull'?'#00d4ff':lc==='bear'?'#ff4466':'#888'}">${p.long_view||'—'}</div>
+          </div>
+          <div style="background:#0d1117;border-radius:4px;padding:6px;text-align:center">
+            <div style="font-size:.6rem;color:#4a5568">中期</div>
+            <div style="font-size:.72rem;color:#888">${p.mid_view||'—'}</div>
+          </div>
+          <div style="background:#0d1117;border-radius:4px;padding:6px;text-align:center">
+            <div style="font-size:.6rem;color:#4a5568">短期</div>
+            <div style="font-size:.72rem;color:#888">${p.short_view||'—'}</div>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+
+    html+=`
+    <div style="border-bottom:1px solid #1a2332;padding:12px 0">
+      <div onclick="toggleHist('${id}')" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:.85rem;font-weight:700;color:#c9d1d9">${h.date}</div>
+          <div style="font-size:.72rem;color:#4a5568;margin-top:2px">${h.overall||''}</div>
+        </div>
+        <div style="color:#4a5568;font-size:.8rem" id="arr-${id}">▶</div>
+      </div>
+      <div id="${id}" style="display:none;margin-top:12px">
+        <div style="background:#161b22;border-radius:8px;padding:12px;margin-bottom:8px">
+          <div style="font-size:.68rem;color:#4a5568;margin-bottom:6px">大局観</div>
+          <div style="font-size:.78rem;color:#c9d1d9">${h.overall||''}</div>
+          <div style="font-size:.72rem;color:#888;margin-top:4px">${h.risk||''}</div>
+        </div>
+        ${pairHtml}
+        ${h.memo?`<div style="background:#161b22;border-radius:8px;padding:12px;margin-top:8px">
+          <div style="font-size:.68rem;color:#4a5568;margin-bottom:4px">ひとことメモ</div>
+          <div style="font-size:.78rem;color:#888">${h.memo}</div>
+        </div>`:''}
+      </div>
+    </div>`;
+  });
+  document.getElementById('history-list').innerHTML=html;
+}
+
+function toggleHist(id){
+  const el=document.getElementById(id);
+  const arr=document.getElementById('arr-'+id);
+  if(el.style.display==='none'){el.style.display='block';arr.textContent='▼';}
+  else{el.style.display='none';arr.textContent='▶';}
+}
+
+async function fetchHistory(){
+  try{
+    const r=await fetch('fx_history.json?t='+Date.now());
+    if(r.ok) renderHistory(await r.json());
+  }catch(e){}
+}
+
 window.addEventListener('load',fetchAll);
+window.addEventListener('load',fetchHistory);
 setInterval(fetchAll,30*60*1000);
 </script>
 </body>
