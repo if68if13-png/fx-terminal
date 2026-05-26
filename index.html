@@ -326,10 +326,12 @@ function renderHistory(history){
           <div style="font-size:.72rem;color:#888;margin-top:4px">${h.risk||''}</div>
         </div>
         ${pairHtml}
-        ${h.memo?`<div style="background:#161b22;border-radius:8px;padding:12px;margin-top:8px">
-          <div style="font-size:.68rem;color:#4a5568;margin-bottom:4px">ひとことメモ</div>
-          <div style="font-size:.78rem;color:#888">${h.memo}</div>
-        </div>`:''}
+        <div style="background:#161b22;border-radius:8px;padding:12px;margin-top:8px">
+          <div style="font-size:.68rem;color:#4a5568;margin-bottom:6px">📋 日記</div>
+          ${h.diary_work?`<div style="margin-bottom:6px"><span style="font-size:.65rem;color:#4a5568">勤務｜</span><span style="font-size:.75rem;color:#888">${h.diary_work}</span></div>`:''}
+          ${h.diary_market?`<div style="margin-bottom:6px"><span style="font-size:.65rem;color:#4a5568">相場感｜</span><span style="font-size:.75rem;color:#888">${h.diary_market}</span></div>`:''}
+          ${h.diary_trade?`<div><span style="font-size:.65rem;color:#4a5568">トレード｜</span><span style="font-size:.75rem;color:#888">${h.diary_trade}</span></div>`:''}
+        </div>
       </div>
     </div>`;
   });

@@ -49,7 +49,10 @@ function save() {
     fedwatch: document.getElementById('fedwatch').value,
     long_reason: document.getElementById('long_reason').value,
     dev_comment: document.getElementById('dev_comment').value,
-    diary: document.getElementById('diary').value,
+    diary_work:   document.getElementById('diary_work').value,
+    diary_market: document.getElementById('diary_market').value,
+    diary_trade:  document.getElementById('diary_trade').value,
+    diary: document.getElementById('diary_work').value + '\n' + document.getElementById('diary_market').value + '\n' + document.getElementById('diary_trade').value,
     updated: new Date().toLocaleDateString('ja-JP')
   };
 
@@ -62,6 +65,21 @@ function save() {
     setTimeout(() => document.getElementById('msg').style.display = 'none', 3000);
   }).catch(e => alert('サーバーが起動していません。ターミナルでサーバーを起動してください。'));
 }
+
+// ページ読み込み時に既存データを復元
+window.addEventListener('load', () => {
+  fetch('http://localhost:8765/load')
+    .then(r => r.json())
+    .then(data => {
+      if (data.fedwatch)    document.getElementById('fedwatch').value    = data.fedwatch;
+      if (data.long_reason) document.getElementById('long_reason').value = data.long_reason;
+      if (data.dev_comment) document.getElementById('dev_comment').value = data.dev_comment;
+      if (data.diary_work)   document.getElementById('diary_work').value   = data.diary_work;
+      if (data.diary_market) document.getElementById('diary_market').value = data.diary_market;
+      if (data.diary_trade)  document.getElementById('diary_trade').value  = data.diary_trade;
+    })
+    .catch(() => {});
+});
 </script>
 </body>
 </html>

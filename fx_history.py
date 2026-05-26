@@ -37,7 +37,10 @@ def main():
         "risk":    outlook.get("risk_mode", "") + " | " + outlook.get("key_risk", ""),
         "pairs":   outlook.get("pairs", {}),
         "scores":  fx_data.get("scores", {}),
-        "memo":    admin.get("diary", ""),
+        "memo":      admin.get("diary", ""),
+        "diary_work":   admin.get("diary_work", ""),
+        "diary_market": admin.get("diary_market", ""),
+        "diary_trade":  admin.get("diary_trade", ""),
         "cb_stance": outlook.get("cb_stance", {}),
     }
 
