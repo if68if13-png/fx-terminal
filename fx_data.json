@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-05-26T01:08:01.541034",
-  "generated": "2026年05月26日 01:08",
+  "timestamp": "2026-05-28T01:17:55.857927",
+  "generated": "2026年05月28日 01:17",
   "scores": {
-    "USD": -1,
+    "USD": 0,
     "JPY": -1,
     "EUR": 0,
     "GBP": 0,
-    "AUD": 1,
-    "NZD": 0,
-    "CAD": 0,
+    "AUD": 2,
+    "NZD": 2,
+    "CAD": -2,
     "CHF": 0
   },
   "pairs": [
@@ -16,18 +16,11 @@
       "pair": "AUDUSD",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 0,
@@ -48,14 +41,26 @@
       "quote_score": -1
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 0,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026",
+      "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026"
+    },
     {
       "source": "Fed",
       "title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
@@ -97,53 +102,53 @@
       "summary": "Federal Reserve Board announces termination of enforcement actions with UBS Group AG, Credit Suisse AG, Credit Suisse Ho"
     },
     {
-      "source": "Fed",
-      "title": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his successor on the Board is sworn in",
-      "summary": "Stephen I. Miran submits his resignation as a member of the Federal Reserve Board, effective when or shortly before his "
+      "source": "FXStreet",
+      "title": "Euro rises as traders expect US-Iran deal soon, USD slips",
+      "summary": "The Euro advances by 0.21% on Wednesday as risk appetite improves on news that Iran presented a draft framework to the U"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Bulls test 214.50 resistance as upside momentum improves",
-      "summary": "GBP/JPY trades with a positive bias on Monday as the British Pound (GBP) outperforms the Japanese Yen (JPY) amid improvi"
+      "title": "New Zealand Dollar: Hawkish RBNZ underpins range trade against USD – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights New Zealand Dollar (NZD) outperformance after a hawkish hold fro"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Key $4500 support under scrutiny – Scotiabank",
-      "summary": "Scotiabank’s Global FX Strategy team observes renewed strength in non-energy commodities such as copper, while emphasizi"
+      "title": "Canadian Dollar: Bullish momentum targets 1.3900 against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s Analyst Team notes the Canadian Dollar (CAD) is slightly weaker versus the US Dollar (USD), extending losse"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index hovers around 99.00, looks at geopolitics",
-      "summary": "The US Dollar (USD) kickstarts the new trading week on the back foot as investors continue to assess news that a potenti"
+      "title": "Euro: War resolution supports upside – Commerzbank",
+      "summary": "Commerzbank’s Antje Praefcke expects the European Central Bank (ECB) to raise rates in June, largely as a symbolic move,"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Key 6.7820 support against US Dollar in focus – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/CNH has slipped toward the lower end of its recent range after tradin"
+      "title": "Gold slides to two-month lows as markets balance inflation concerns and US-Iran peace hopes",
+      "summary": "Gold (XAU/USD) struggles to attract buying interest on Wednesday, even as the US Dollar (USD) and Oil prices trade on th"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rebounds as hopes for US-Iran deal weigh on US Dollar, Oil prices",
-      "summary": "Gold (XAU/USD) rebounds sharply on Monday as hopes for a US-Iran deal to end the war in the Middle East and reopen the S"
+      "title": "Japanese Yen: BoJ flags complex oil shock risks – BNY",
+      "summary": "Bob Savage notes that BoJ Governor Kazuo Ueda frames current oil price shocks as a broad test of Japan’s inflation regim"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Losses against US Dollar look limited – Scotiabank",
-      "summary": "Scotiabank’s Global FX Strategy team, including Shaun Osborne and Eric Theoret, notes that the Canadian Dollar is flat a"
+      "title": "Canadian Dollar declines as falling crude prices overshadow weaker US Dollar",
+      "summary": "USD/CAD gains traction on Wednesday as easing Oil prices pressure the Canadian Dollar (CAD), offsetting the impact of a "
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Hawkish BoK risk as authorities flag weakness – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects the Bank of Korea (BoK) to hold its policy rate at 2.50%, but warns"
+      "title": "Australian Dollar: Gains versus NZD at risk as hawkish RBNZ – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley notes that AUD/NZD has pulled back sharply after hitting its highest level si"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen struggles for traction despite weaker US Dollar amid elevated Energy costs",
-      "summary": "USD/JPY consolidates on Monday after opening the week with a bearish gap as the US Dollar (USD) comes under pressure ami"
+      "title": "US Dollar Index: Expected to overshoot range – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes improving risk sentiment as Iran-related worries ease, with Oil softe"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips below $76k, set for weekly loss amid liquidations, rate volatility",
+      "title": "Genius Group approves $100 million AI investment strategy",
       "summary": ""
     },
     {
@@ -186,25 +191,75 @@
   },
   "reasons": {
     "USD": [
-      "[弱気] Japanese Yen struggles for traction despite weaker US D"
+      "[強気] New Zealand Dollar: Hawkish RBNZ underpins range trade ",
+      "[弱気] Canadian Dollar: Bullish momentum targets 1.3900 agains",
+      "[弱気] Canadian Dollar declines as falling crude prices oversh",
+      "[強気] Australian Dollar: Gains versus NZD at risk as hawkish "
     ],
     "JPY": [
-      "[弱気] Japanese Yen struggles for traction despite weaker US D"
+      "[弱気] Japanese Yen: BoJ flags complex oil shock risks – BNY"
     ],
     "AUD": [
-      "[COT] 🟢ロング優勢 (ネット:+259,802)"
+      "[COT] 🟢ロング優勢 (ネット:+259,802)",
+      "[強気] Australian Dollar: Gains versus NZD at risk as hawkish "
+    ],
+    "NZD": [
+      "[強気] New Zealand Dollar: Hawkish RBNZ underpins range trade ",
+      "[強気] Australian Dollar: Gains versus NZD at risk as hawkish "
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar: Bullish momentum targets 1.3900 agains",
+      "[弱気] Canadian Dollar declines as falling crude prices oversh"
     ]
   },
   "rates": {
     "US_FF": 3.64,
-    "US_10Y": 4.57,
+    "US_10Y": 4.56,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 2.06,
-    "DIFF_EURUSD": -1.57,
-    "DIFF_GBPUSD": 0.25,
-    "DIFF_AUDUSD": 0.39
+    "DIFF_USDJPY": 2.04,
+    "DIFF_EURUSD": -1.56,
+    "DIFF_GBPUSD": 0.26,
+    "DIFF_AUDUSD": 0.4
+  },
+  "prices": {
+    "USDJPY": {
+      "today_open": 159.30989,
+      "prev_open": 158.92832,
+      "diff": 0.3816,
+      "diff_pct": 0.24
+    },
+    "EURUSD": {
+      "today_open": 1.16318,
+      "prev_open": 1.16435,
+      "diff": -0.0012,
+      "diff_pct": -0.1
+    },
+    "GBPUSD": {
+      "today_open": 1.3447,
+      "prev_open": 1.35071,
+      "diff": -0.006,
+      "diff_pct": -0.44
+    },
+    "AUDUSD": {
+      "today_open": 0.7167,
+      "prev_open": 0.71757,
+      "diff": -0.0009,
+      "diff_pct": -0.13
+    },
+    "WTI": {
+      "today_open": 131.49,
+      "prev_open": 136.34,
+      "diff": -4.85,
+      "diff_pct": -3.56
+    },
+    "SP500": {
+      "today_open": 750.885,
+      "prev_open": 750.01001,
+      "diff": 0.875,
+      "diff_pct": 0.12
+    }
   }
 }
