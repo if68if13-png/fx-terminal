@@ -4,7 +4,7 @@ import anthropic, json, datetime, os, re
 ANALYSIS_DIR = os.path.expanduser("~/Documents/FX分析")
 FX_DATA_JSON = os.path.join(ANALYSIS_DIR, "fx_data.json")
 OUTLOOK_JSON = os.path.join(ANALYSIS_DIR, "fx_outlook.json")
-TARGET_PAIRS = ["USDJPY", "EURUSD", "GBPUSD", "AUDUSD"]
+TARGET_PAIRS = ["USDJPY", "EURUSD", "GBPUSD", "AUDUSD", "WTI", "SP500"]
 
 def load_fundamental_data():
     if not os.path.exists(FX_DATA_JSON):
@@ -62,7 +62,7 @@ def build_prompt(data):
 【ペア判定】
 {pair_text}
 
-対象: USDJPY/EURUSD/GBPUSD/AUDUSD のスイングトレード向けに分析。
+対象: USDJPY/EURUSD/GBPUSD/AUDUSD のスイングトレード向けに分析。WTI原油・S&P500についても長期/中期/短期の方向性を分析。
 以下のJSON形式のみで返答。説明文・マークダウン不要:
 
 {{
@@ -104,6 +104,22 @@ def build_prompt(data):
     "AUDUSD": {{
       "long_view": "長期方向",
       "long_reason": "根拠(50字)",
+      "mid_view": "中期方向",
+      "mid_reason": "根拠(50字)",
+      "short_view": "短期方向",
+      "short_reason": "根拠(50字)"
+    }},
+    "WTI": {{
+      "long_view": "長期方向",
+      "long_reason": "根拠(50字) ※原油需給・地政学・OPEC政策を考慮",
+      "mid_view": "中期方向",
+      "mid_reason": "根拠(50字)",
+      "short_view": "短期方向",
+      "short_reason": "根拠(50字)"
+    }},
+    "SP500": {{
+      "long_view": "長期方向",
+      "long_reason": "根拠(50字) ※FRB政策・企業業績・景気サイクルを考慮",
       "mid_view": "中期方向",
       "mid_reason": "根拠(50字)",
       "short_view": "短期方向",

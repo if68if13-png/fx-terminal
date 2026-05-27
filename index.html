@@ -108,6 +108,20 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <div class="pair-panel" id="pair-EURUSD"></div>
   <div class="pair-panel" id="pair-GBPUSD"></div>
   <div class="pair-panel" id="pair-AUDUSD"></div>
+
+  <div style="margin-top:16px;border-top:1px solid #1a2332;padding-top:14px">
+    <span class="slabel">🛢️ WTI原油</span>
+    <div id="wti-section" style="margin-top:6px">
+      <div style="color:#4a5568;font-size:.75rem;text-align:center;padding:12px">読込中...</div>
+    </div>
+  </div>
+
+  <div style="margin-top:16px;border-top:1px solid #1a2332;padding-top:14px">
+    <span class="slabel">📈 S&amp;P500</span>
+    <div id="sp500-section" style="margin-top:6px">
+      <div style="color:#4a5568;font-size:.75rem;text-align:center;padding:12px">読込中...</div>
+    </div>
+  </div>
 </div>
 <div class="panel" id="p2">
   <div class="overall-card">
@@ -265,6 +279,59 @@ function renderAdmin(d){
   document.getElementById('dev-date').textContent=d.updated?d.updated+' 更新':'';
   document.getElementById('diary-text').textContent=d.diary||'';
 }
+async function fetchMarkets(){
+  try{
+    const r=await fetch('fx_outlook.json?t='+Date.now());
+    if(!r.ok) return;
+    const d=await r.json();
+    const pairs=d.pairs||{};
+
+    // WTI
+    const wti=pairs['WTI']||{};
+    const wtiEl=document.getElementById('wti-section');
+    if(wtiEl) wtiEl.innerHTML=`
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px">
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">長期</div>
+          <div style="font-size:.75rem;color:#e2b96f;font-weight:700">${wti.long_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${wti.long_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">中期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${wti.mid_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${wti.mid_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">短期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${wti.short_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${wti.short_reason||''}</div>
+        </div>
+      </div>`;
+
+    // SP500
+    const sp=pairs['SP500']||{};
+    const spEl=document.getElementById('sp500-section');
+    if(spEl) spEl.innerHTML=`
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px">
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">長期</div>
+          <div style="font-size:.75rem;color:#58a6ff;font-weight:700">${sp.long_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${sp.long_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">中期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${sp.mid_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${sp.mid_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">短期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${sp.short_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${sp.short_reason||''}</div>
+        </div>
+      </div>`;
+  }catch(e){ console.error('markets fetch error',e); }
+}
+
 async function fetchAll(){
   const s=document.getElementById('status');
   s.textContent='🔄 更新中...';
@@ -353,6 +420,7 @@ async function fetchHistory(){
 }
 
 window.addEventListener('load',fetchAll);
+window.addEventListener('load',fetchMarkets);
 window.addEventListener('load',fetchHistory);
 setInterval(fetchAll,30*60*1000);
 </script>
