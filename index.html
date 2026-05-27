@@ -97,10 +97,6 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <div id="price-diff-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:8px"></div>
 </div>
 <div class="panel" id="p1">
-  <span class="slabel">COTポジション</span>
-  <div class="cot-grid" id="cotlist"></div>
-  <span class="slabel" style="margin-top:14px">スコア根拠</span>
-  <div id="rlist"></div>
   <div class="pair-selector">
     <button class="psBtn active" onclick="showPair('USDJPY',this)">USD/JPY</button>
     <button class="psBtn" onclick="showPair('EURUSD',this)">EUR/USD</button>
@@ -111,6 +107,11 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <div class="pair-panel" id="pair-EURUSD"></div>
   <div class="pair-panel" id="pair-GBPUSD"></div>
   <div class="pair-panel" id="pair-AUDUSD"></div>
+
+  <span class="slabel" style="margin-top:14px">COTポジション</span>
+  <div class="cot-grid" id="cotlist"></div>
+  <span class="slabel" style="margin-top:14px">スコア根拠</span>
+  <div id="rlist"></div>
 
   <div style="margin-top:16px;border-top:1px solid #1a2332;padding-top:14px">
     <span class="slabel">🛢️ WTI原油</span>
