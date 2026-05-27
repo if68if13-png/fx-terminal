@@ -83,7 +83,7 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
 <div class="warn">⚠️ 自動分析レポートです。最終判断は必ずご自身で。投資助言ではありません。</div>
 <div class="tabs">
   <div class="tab active" onclick="showTab(0)">📊 強弱</div>
-  <div class="tab" onclick="showTab(1)">🎯 ペア</div>
+  <div class="tab" onclick="showTab(1)">🔍 分析</div>
   <div class="tab" onclick="showTab(2)">🌏 大局観</div>
   <div class="tab" onclick="showTab(3)">📰 ニュース</div>
   <div class="tab" onclick="showTab(4)">💬 コメント</div>
@@ -92,12 +92,16 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
 <div class="panel active" id="p0">
   <span class="slabel">通貨強弱スコア</span>
   <div class="score-grid" id="clist"></div>
-  <span class="slabel" style="margin-top:14px">COTポジション</span>
+
+  <span class="slabel" style="margin-top:14px">📊 前日始値→当日始値</span>
+  <div id="price-diff-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:8px"></div>
+</div>
+<div class="panel" id="p1">
+  <span class="slabel">COTポジション</span>
   <div class="cot-grid" id="cotlist"></div>
   <span class="slabel" style="margin-top:14px">スコア根拠</span>
   <div id="rlist"></div>
-</div>
-<div class="panel" id="p1">
+  <div style="margin-top:16px;border-top:1px solid #1a2332;padding-top:14px">
   <div class="pair-selector">
     <button class="psBtn active" onclick="showPair('USDJPY',this)">USD/JPY</button>
     <button class="psBtn" onclick="showPair('EURUSD',this)">EUR/USD</button>
@@ -279,6 +283,35 @@ function renderAdmin(d){
   document.getElementById('dev-date').textContent=d.updated?d.updated+' 更新':'';
   document.getElementById('diary-text').textContent=d.diary||'';
 }
+async function fetchPriceDiff(){
+  try{
+    const r=await fetch('fx_data.json?t='+Date.now());
+    if(!r.ok) return;
+    const d=await r.json();
+    const prices=d.prices||{};
+    const labels={
+      "USDJPY":"USD/JPY","EURUSD":"EUR/USD","GBPUSD":"GBP/USD","AUDUSD":"AUD/USD",
+      "WTI":"WTI原油(USO)","SP500":"S&P500(SPY)"
+    };
+    const el=document.getElementById('price-diff-grid');
+    if(!el) return;
+    let html='';
+    for(const [key,label] of Object.entries(labels)){
+      const p=prices[key];
+      if(!p){ html+=`<div style="background:#161b22;border-radius:6px;padding:8px"><div style="font-size:.65rem;color:#4a5568">${label}</div><div style="font-size:.75rem;color:#555">データなし</div></div>`; continue; }
+      const plus=p.diff_pct>=0;
+      const color=plus?'#3fb950':'#f85149';
+      const arrow=plus?'▲':'▼';
+      html+=`<div style="background:#161b22;border-radius:6px;padding:8px">
+        <div style="font-size:.65rem;color:#4a5568;margin-bottom:3px">${label}</div>
+        <div style="font-size:.8rem;font-weight:700;color:${color}">${arrow} ${Math.abs(p.diff_pct).toFixed(2)}%</div>
+        <div style="font-size:.62rem;color:#555;margin-top:2px">${p.prev_open} → ${p.today_open}</div>
+      </div>`;
+    }
+    el.innerHTML=html;
+  }catch(e){ console.error('pricediff error',e); }
+}
+
 async function fetchMarkets(){
   try{
     const r=await fetch('fx_outlook.json?t='+Date.now());
@@ -421,6 +454,7 @@ async function fetchHistory(){
 
 window.addEventListener('load',fetchAll);
 window.addEventListener('load',fetchMarkets);
+window.addEventListener('load',fetchPriceDiff);
 window.addEventListener('load',fetchHistory);
 setInterval(fetchAll,30*60*1000);
 </script>

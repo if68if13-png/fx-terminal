@@ -103,7 +103,51 @@ def judge(scores):
         results.append({"pair":pair,"direction":d,"diff":diff,"base_score":scores.get(base,0),"quote_score":scores.get(quote,0)})
     return sorted(results, key=lambda x: abs(x["diff"]), reverse=True)
 
-def save_all(news_items, cot, scores, reasons, judgments, rates={}):
+def get_prices():
+    """Twelve DataAPIから前日始値・当日始値を取得"""
+    api_key = os.environ.get("TWELVE_DATA_API_KEY", "")
+    if not api_key:
+        print("  ⚠️ TWELVE_DATA_API_KEY未設定")
+        return {}
+
+    symbols = {
+        "USDJPY": "USD/JPY",
+        "EURUSD": "EUR/USD",
+        "GBPUSD": "GBP/USD",
+        "AUDUSD": "AUD/USD",
+        "WTI":    "USO",
+        "SP500":  "SPY",
+    }
+
+    prices = {}
+    import requests
+    for key, symbol in symbols.items():
+        try:
+            r = requests.get("https://api.twelvedata.com/time_series", params={
+                "symbol":     symbol,
+                "interval":   "1day",
+                "outputsize": 2,
+                "apikey":     api_key,
+            }, timeout=10)
+            d = r.json()
+            vals = d.get("values", [])
+            if len(vals) >= 2:
+                today_open = float(vals[0]["open"])
+                prev_open  = float(vals[1]["open"])
+                diff = round(today_open - prev_open, 4)
+                diff_pct = round((diff / prev_open) * 100, 2)
+                prices[key] = {
+                    "today_open": today_open,
+                    "prev_open":  prev_open,
+                    "diff":       diff,
+                    "diff_pct":   diff_pct,
+                }
+                print(f"  {key}: 前日始値{prev_open} → 当日始値{today_open} ({diff_pct:+.2f}%)")
+        except Exception as e:
+            print(f"  ⚠️ {key} 価格取得失敗: {e}")
+    return prices
+
+def save_all(news_items, cot, scores, reasons, judgments, rates={}, prices={}):
     now = datetime.datetime.now()
     ts = now.strftime("%Y%m%d_%H%M")
     md = f"# FX分析レポート\n**生成:** {now.strftime('%Y年%m月%d日 %H:%M')}\n\n"
@@ -127,6 +171,7 @@ def save_all(news_items, cot, scores, reasons, judgments, rates={}):
         "cot": cot,
         "reasons": {cur: lst for cur, lst in reasons.items() if lst},
         "rates": rates,
+        "prices": prices,
     }
     with open(f"{SAVE_DIR}/fx_data.json","w",encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
@@ -195,7 +240,9 @@ def main():
     scores, reasons = score(news_data, cot)
     judgments = judge(scores)
     print("💾 保存中...")
-    path = save_all(news_data, cot, scores, reasons, judgments, rates)
+    print("  価格データ取得中...")
+    prices = get_prices()
+    path = save_all(news_data, cot, scores, reasons, judgments, rates, prices)
     print("\n"+"="*50)
     for cur, s in sorted(scores.items(), key=lambda x: -x[1]):
         print(f"  {cur}: {'█'*abs(s)+'░'*(5-abs(s))} {s:+d}")
