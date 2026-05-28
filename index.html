@@ -524,20 +524,44 @@ function renderTodayBar(){
     "2026-07-16":"★★ 米小売売上高","2026-07-28":"★★ 米GDP(速報)",
     "2026-07-29":"★★★ FOMC政策発表","2026-07-31":"★★ 米PCEデフレーター"
   };
-  const t=new Date();
-  const key=t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0');
+  function pad(n){return String(n).padStart(2,'0');}
+  function toKey(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+  function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+  function getDow(d){return ['日','月','火','水','木','金','土'][d.getDay()];}
+  const today=new Date();
+  const todayKey=toKey(today);
+  const weekEvents=[];
+  for(let i=1;i<=7;i++){
+    const d=addDays(today,i);
+    const k=toKey(d);
+    const wd=d.getDay();
+    if(wd===0||wd===6)continue;
+    const label=i===1?'明日':'今週'+getDow(d);
+    const events=[];
+    if(UK[k])events.push({cls:'hol-uk',text:'🇬🇧'+UK[k]});
+    if(US[k])events.push({cls:'hol-us',text:'🇺🇸'+US[k]});
+    if(IND[k]){const cls=IND[k].startsWith('★★★')?'ind-high':'ind-med';events.push({cls,text:IND[k]});}
+    if(events.length)weekEvents.push({label,events});
+    if(d.getDay()===5)break;
+  }
   const bar=document.getElementById('today-bar');
   if(!bar)return;
-  let tags='<span class="today-bar-label">📌 本日</span>';
-  let hasAny=false;
-  if(UK[key]){tags+='<span class="today-tag hol-uk">🇬🇧 '+UK[key]+'</span>';hasAny=true;}
-  if(US[key]){tags+='<span class="today-tag hol-us">🇺🇸 '+US[key]+'</span>';hasAny=true;}
-  if(IND[key]){
-    const cls=IND[key].startsWith('★★★')?'ind-high':'ind-med';
-    tags+='<span class="today-tag '+cls+'">'+IND[key]+'</span>';hasAny=true;
-  }
-  if(!hasAny) tags+='<span class="today-tag nothing">祝日・重要指標なし</span>';
-  bar.innerHTML=tags;
+  let html='<div style="width:100%"><div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:'+(weekEvents.length?'8px':'0')+'">';
+  html+='<span class="today-bar-label">📌 本日</span>';
+  let any=false;
+  if(UK[todayKey]){html+='<span class="today-tag hol-uk">🇬🇧'+UK[todayKey]+'</span>';any=true;}
+  if(US[todayKey]){html+='<span class="today-tag hol-us">🇺🇸'+US[todayKey]+'</span>';any=true;}
+  if(IND[todayKey]){const cls=IND[todayKey].startsWith('★★★')?'ind-high':'ind-med';html+='<span class="today-tag '+cls+'">'+IND[todayKey]+'</span>';any=true;}
+  if(!any)html+='<span class="today-tag nothing">祝日・重要指標なし</span>';
+  html+='</div>';
+  weekEvents.forEach(we=>{
+    html+='<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:5px">';
+    html+='<span class="today-bar-label" style="color:#3a4a5a">'+we.label+'</span>';
+    we.events.forEach(ev=>{html+='<span class="today-tag '+ev.cls+'" style="opacity:.8">'+ev.text+'</span>';});
+    html+='</div>';
+  });
+  html+='</div>';
+  bar.innerHTML=html;
 }
 
 // ── カレンダー描画 ──
