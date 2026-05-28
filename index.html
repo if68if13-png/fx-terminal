@@ -405,8 +405,8 @@ async function fetchMarkets(){
 }
 
 async function fetchAll(){
-  const s=renderTodayBar();
-  document.getElementById('status');
+  renderTodayBar();
+  const s=document.getElementById('status');
   s.textContent='🔄 更新中...';
   try{
     const t=Date.now();
