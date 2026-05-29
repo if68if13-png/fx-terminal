@@ -531,8 +531,14 @@ function renderTodayBar(){
   const today=new Date();
   const todayKey=toKey(today);
   const weekEvents=[];
-  for(let i=1;i<=7;i++){
+  // 今週の日曜〜土曜の範囲を計算
+  const dow=today.getDay(); // 0=日
+  const thisSun=addDays(today,-dow);   // 今週日曜
+  const thisSat=addDays(thisSun,6);    // 今週土曜
+  for(let i=1;i<=6;i++){
     const d=addDays(today,i);
+    // 今週土曜を超えたら終了
+    if(d>thisSat)break;
     const k=toKey(d);
     const wd=d.getDay();
     if(wd===0||wd===6)continue;
@@ -542,7 +548,6 @@ function renderTodayBar(){
     if(US[k])events.push({cls:'hol-us',text:'🇺🇸'+US[k]});
     if(IND[k]){const cls=IND[k].startsWith('★★★')?'ind-high':'ind-med';events.push({cls,text:IND[k]});}
     if(events.length)weekEvents.push({label,events});
-    if(d.getDay()===5)break;
   }
   const bar=document.getElementById('today-bar');
   if(!bar)return;
