@@ -60,16 +60,20 @@ def score(news_items, cot, rates={}):
     reasons = {k:[] for k in scores}
 
     # ── 中銀スタンス（金利差の将来方向）重み50% ──
-    cb_outlook = {
-        "USD": +1,   # FRB: Warsh就任でタカ派、利上げ織り込み41%
-        "JPY":  0,   # BOJ: 正常化継続だが超緩和圏、金利差は依然大きい
-        "EUR":  0,   # ECB: 中立、利下げ余地限定
-        "GBP": +1,   # BOE: タカ派継続、英10年債高水準
-        "AUD": -1,   # RBA: 利上げお預け感、利下げ方向
-        "NZD": +1,   # RBNZ: 木曜・金曜で大幅利上げ決定、金利差拡大方向
-        "CAD":  0,   # BOC: 方向感不明のため中立
-        "CHF":  0,   # SNB: 方向感不明のため中立
+    # admin.jsonから読み込み、なければデフォルト値を使用
+    default_cb = {
+        "USD": +1, "JPY":  0, "EUR":  0, "GBP": +1,
+        "AUD": -1, "NZD": +1, "CAD":  0, "CHF":  0,
     }
+    try:
+        admin_path = os.path.join(SAVE_DIR, "fx_admin.json")
+        with open(admin_path, "r", encoding="utf-8") as f:
+            admin_data = json.load(f)
+        cb_outlook = {k: int(v) for k, v in admin_data.get("cb_outlook", default_cb).items()}
+        print("  → admin.jsonからcb_outlook読み込み完了")
+    except Exception as e:
+        cb_outlook = default_cb
+        print(f"  → デフォルトcb_outlookを使用: {e}")
     for cur, outlook in cb_outlook.items():
         if outlook != 0:
             scores[cur] += outlook * 2

@@ -26,6 +26,93 @@ input[type="text"] { width: 100%; background: #0d1117; border: 1px solid #1a2332
 </div>
 
 <div class="section">
+  <h2>🏦 中銀スタンス（金利差の方向性）</h2>
+  <div style="font-size:.72rem;color:#4a5568;margin-bottom:12px">利上げ方向：+1 / 据え置き：0 / 利下げ方向：-1　※中銀イベント後に更新</div>
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇺🇸 USD（FRB）</label>
+      <select id="cb_USD" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇯🇵 JPY（BOJ）</label>
+      <select id="cb_JPY" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇪🇺 EUR（ECB）</label>
+      <select id="cb_EUR" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇬🇧 GBP（BOE）</label>
+      <select id="cb_GBP" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇦🇺 AUD（RBA）</label>
+      <select id="cb_AUD" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1" selected>-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇳🇿 NZD（RBNZ）</label>
+      <select id="cb_NZD" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1" selected>+1 利上げ方向</option>
+        <option value="0">0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇨🇦 CAD（BOC）</label>
+      <select id="cb_CAD" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+    <div>
+      <label style="font-size:.72rem;color:#00d4ff;display:block;margin-bottom:4px">🇨🇭 CHF（SNB）</label>
+      <select id="cb_CHF" style="width:100%;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:8px;font-size:.85rem">
+        <option value="2">+2 強く利上げ方向</option>
+        <option value="1">+1 利上げ方向</option>
+        <option value="0" selected>0 据え置き</option>
+        <option value="-1">-1 利下げ方向</option>
+        <option value="-2">-2 強く利下げ方向</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<div class="section">
   <h2>FedWatch 所感（週1回程度）</h2>
   <textarea id="fedwatch" rows="3" placeholder="例：6月据え置き96%確実。年末にかけて375-400への利上げ織り込みが強まっている。Warsh議長のタカ派姿勢が市場に浸透しつつある。"></textarea>
 </div>
@@ -58,7 +145,17 @@ function save() {
     diary_market: document.getElementById('diary_market').value,
     diary_trade:  document.getElementById('diary_trade').value,
     diary: document.getElementById('diary_work').value + '\n' + document.getElementById('diary_market').value + '\n' + document.getElementById('diary_trade').value,
-    updated: new Date().toLocaleDateString('ja-JP')
+    updated: new Date().toLocaleDateString('ja-JP'),
+    cb_outlook: {
+      USD: parseInt(document.getElementById('cb_USD').value),
+      JPY: parseInt(document.getElementById('cb_JPY').value),
+      EUR: parseInt(document.getElementById('cb_EUR').value),
+      GBP: parseInt(document.getElementById('cb_GBP').value),
+      AUD: parseInt(document.getElementById('cb_AUD').value),
+      NZD: parseInt(document.getElementById('cb_NZD').value),
+      CAD: parseInt(document.getElementById('cb_CAD').value),
+      CHF: parseInt(document.getElementById('cb_CHF').value),
+    }
   };
 
   fetch('http://localhost:8765/save', {
@@ -82,6 +179,13 @@ window.addEventListener('load', () => {
       if (data.diary_work)   document.getElementById('diary_work').value   = data.diary_work;
       if (data.diary_market) document.getElementById('diary_market').value = data.diary_market;
       if (data.diary_trade)  document.getElementById('diary_trade').value  = data.diary_trade;
+      if (data.cb_outlook) {
+        const cb = data.cb_outlook;
+        ['USD','JPY','EUR','GBP','AUD','NZD','CAD','CHF'].forEach(cur => {
+          const el = document.getElementById('cb_'+cur);
+          if (el && cb[cur] !== undefined) el.value = String(cb[cur]);
+        });
+      }
     })
     .catch(() => {});
 });
