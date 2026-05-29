@@ -55,11 +55,30 @@ def get_cot():
         print(f"  ⚠️ COT: {e}")
         return {}
 
-def score(news_items, cot):
+def score(news_items, cot, rates={}):
     scores = {k:0 for k in ["USD","JPY","EUR","GBP","AUD","NZD","CAD","CHF"]}
     reasons = {k:[] for k in scores}
+
+    # ── 中銀スタンス（金利差の将来方向）重み50% ──
+    cb_outlook = {
+        "USD": +1,   # FRB: Warsh就任でタカ派、利上げ織り込み41%
+        "JPY":  0,   # BOJ: 正常化継続だが超緩和圏、金利差は依然大きい
+        "EUR":  0,   # ECB: 中立、利下げ余地限定
+        "GBP": +1,   # BOE: タカ派継続、英10年債高水準
+        "AUD": -1,   # RBA: 利上げお預け感、利下げ方向
+        "NZD": +1,   # RBNZ: 木曜・金曜で大幅利上げ決定、金利差拡大方向
+        "CAD":  0,   # BOC: 方向感不明のため中立
+        "CHF":  0,   # SNB: 方向感不明のため中立
+    }
+    for cur, outlook in cb_outlook.items():
+        if outlook != 0:
+            scores[cur] += outlook * 2
+            label = "利上げ方向" if outlook > 0 else "利下げ方向"
+            reasons[cur].append(f"[中銀] {label} (金利差方向)")
+
+    # ── COT重み20% ──
     for cur, data in cot.items():
-        if abs(data.get("net",0)) > 50000:
+        if abs(data.get("net",0)) > 80000:
             s = 1 if data["net"]>0 else -1
             scores[cur] += s
             reasons[cur].append(f"[COT] {data['bias']} (ネット:{data['net']:+,})")
@@ -237,7 +256,7 @@ def main():
     rates = get_rates()
     print(f"  → {len([v for v in rates.values() if v is not None])}件")
     print("🧮 スコアリング中...")
-    scores, reasons = score(news_data, cot)
+    scores, reasons = score(news_data, cot, rates)
     judgments = judge(scores)
     print("💾 保存中...")
     print("  価格データ取得中...")
