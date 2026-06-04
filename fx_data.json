@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-04T16:50:31.611190",
-  "generated": "2026年06月04日 16:50",
+  "timestamp": "2026-06-04T23:03:49.536252",
+  "generated": "2026年06月04日 23:03",
   "scores": {
     "USD": 4,
-    "JPY": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
+      "diff": -5,
+      "base_score": -1,
       "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
+      "diff": 4,
       "base_score": 4,
-      "quote_score": 1
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
@@ -41,18 +41,18 @@
       "quote_score": 4
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Uptrend stays intact as RSI nears overbought territory",
-      "summary": "The Canadian Dollar (CAD) recovers some ground against the US Dollar (USD) on Thursday, with USD/CAD reversing earlier g"
+      "title": "Euro grinds higher as jobless claims clip USD before NFP",
+      "summary": "The Euro registers modest gains of 0.12% as traders remain optimistic about the outcome of US-Iran talks, which had been"
     },
     {
       "source": "FXStreet",
-      "title": "Euro gains ground as Israel-Lebanon ceasefire lifts risk appetite",
-      "summary": "EUR/USD edges higher on Thursday as signs of easing tensions in the Middle East reduce safe-haven demand for the US Doll"
+      "title": "NZD/USD stays muted as markets monitor Iran developments",
+      "summary": "The NZD/USD pair trades near the 0.5870 level on Friday, as the United States Dollar (USD) remains supported by cautious"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gains as Lebanon truce drama hits the US Dollar",
-      "summary": "The Pound Sterling (GBP) registers gains of over 0.16% on Thursday amid news that Israel and Lebanon agreed on a ceasefi"
+      "title": "Singapore Dollar Further losses capped by 1.2855 versus dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/SGD has broken to a two‑month high near 1.2840, with strong momentum "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar trims gains after Bullock’s hawkish tone",
-      "summary": "The AUD/USD pair trades near 0.7140 on Thursday as the US Dollar (USD) regains traction following the latest labor marke"
+      "title": "Forex Today: Investors look ahead to US NFP report",
+      "summary": "The US Dollar Index (DXY) fell toward 99.18 early Thursday before steadily climbing during the North American session to"
     },
     {
       "source": "FXStreet",
-      "title": "Oil: Middle East conflict reshapes outlook – BNY",
-      "summary": "Bob Savage highlights that the OECD now sees the Middle East conflict as the main driver of the global outlook, with sur"
+      "title": "Indonesian Rupiah: Tight liquidity and policy risks weigh versus US Dollar – MUFG",
+      "summary": "MUFG’s Lloyd Chan highlights that IDR is under particular pressure as rising US yields intersect with domestic policy un"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Focus on 160 level versus US Dollar and BoJ – Scotiabank",
-      "summary": "Scotiabank’s Analyst Team highlights that Japanese Yen gains are modest as USD/JPY hovers near the key 160 level, keepin"
+      "title": "Vietnam Dong: Inflation and trade headwinds build – Commerzbank",
+      "summary": "Commerzbank highlights that Vietnam’s May Consumer Price Index (CPI) rose to 5.6% year-on-year, the highest since Januar"
     },
     {
       "source": "FXStreet",
-      "title": "European Gas: Positioning signals upside risk – ING",
-      "summary": "ING highlights that investment funds in TTF gas remain relatively relaxed despite LNG supply disruptions in the Middle E"
+      "title": "Chinese Yuan: Neutral within defined band against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann report a sharp rebound in USD/CNH above 6.78, which invalidated their prior bearish"
     },
     {
-      "source": "FXStreet",
-      "title": "Bank of Canada: Data-dependent through USMCA review – TD Securities",
-      "summary": "TD Securities expects the Bank of Canada to stay data dependent despite USMCA uncertainty. The bank sees a high bar for "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen firms on BoJ tightening signals, US jobs data in focus",
-      "summary": "USD/JPY trades around 159.90 at the time of writing on Thursday, down 0.10% on the day. The pair is moving lower as the "
+      "source": "Investing",
+      "title": "Bitcoin slides to four-month low as Strategy sale, ETF outflows continue to weigh",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -192,19 +187,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar trims gains after Bullock’s hawkish t",
-      "[強気] Japanese Yen firms on BoJ tightening signals, US jobs d"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen firms on BoJ tightening signals, US jobs d"
+      "[強気] Singapore Dollar Further losses capped by 1.2855 versus",
+      "[強気] Vietnam Dong: Inflation and trade headwinds build – Com"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+262,332)",
-      "[強気] Australian Dollar trims gains after Bullock’s hawkish t"
+      "[COT] 🟢ロング優勢 (ネット:+262,332)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -224,39 +215,39 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.09094,
-      "prev_open": 159.93628,
-      "diff": 0.1547,
-      "diff_pct": 0.1
+      "today_open": 160.02733,
+      "prev_open": 160.09094,
+      "diff": -0.0636,
+      "diff_pct": -0.04
     },
     "EURUSD": {
-      "today_open": 1.15987,
-      "prev_open": 1.16317,
-      "diff": -0.0033,
-      "diff_pct": -0.28
+      "today_open": 1.16115,
+      "prev_open": 1.15987,
+      "diff": 0.0013,
+      "diff_pct": 0.11
     },
     "GBPUSD": {
-      "today_open": 1.34176,
-      "prev_open": 1.34645,
-      "diff": -0.0047,
-      "diff_pct": -0.35
+      "today_open": 1.34242,
+      "prev_open": 1.34176,
+      "diff": 0.0007,
+      "diff_pct": 0.05
     },
     "AUDUSD": {
-      "today_open": 0.71276,
-      "prev_open": 0.71803,
-      "diff": -0.0053,
-      "diff_pct": -0.74
+      "today_open": 0.71333,
+      "prev_open": 0.71276,
+      "diff": 0.0006,
+      "diff_pct": 0.08
     },
     "WTI": {
-      "today_open": 136.6,
+      "today_open": 136.67,
       "prev_open": 139.46001,
-      "diff": -2.86,
-      "diff_pct": -2.05
+      "diff": -2.79,
+      "diff_pct": -2.0
     },
     "SP500": {
-      "today_open": 752.06,
+      "today_open": 752.099976,
       "prev_open": 758.15002,
-      "diff": -6.09,
+      "diff": -6.05,
       "diff_pct": -0.8
     }
   }
