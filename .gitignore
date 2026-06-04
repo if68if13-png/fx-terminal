@@ -1,0 +1,10 @@
+# 自動生成されるMarkdownレポート（リポジトリには含めない）
+FX分析_*.md
+FX分析_最新.md
+
+# バックアップファイル
+*.bak
+
+# Python
+__pycache__/
+*.pyc

@@ -5,7 +5,7 @@ FX Terminal - 履歴記録スクリプト
 """
 import json, os, datetime
 
-ANALYSIS_DIR = os.path.expanduser("~/Documents/FX分析")
+ANALYSIS_DIR = os.environ.get("SAVE_DIR", os.path.dirname(os.path.abspath(__file__)))
 HISTORY_JSON = os.path.join(ANALYSIS_DIR, "fx_history.json")
 FX_DATA_JSON = os.path.join(ANALYSIS_DIR, "fx_data.json")
 OUTLOOK_JSON = os.path.join(ANALYSIS_DIR, "fx_outlook.json")

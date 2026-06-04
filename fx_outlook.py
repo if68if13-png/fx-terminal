@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import anthropic, json, datetime, os, re
 
-ANALYSIS_DIR = os.path.expanduser("~/Documents/FX分析")
+ANALYSIS_DIR = os.environ.get("SAVE_DIR", os.path.dirname(os.path.abspath(__file__)))
 FX_DATA_JSON = os.path.join(ANALYSIS_DIR, "fx_data.json")
 OUTLOOK_JSON = os.path.join(ANALYSIS_DIR, "fx_outlook.json")
 TARGET_PAIRS = ["USDJPY", "EURUSD", "GBPUSD", "AUDUSD", "WTI", "SP500"]
