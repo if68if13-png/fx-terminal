@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-04T10:26:31.759068",
-  "generated": "2026年06月04日 10:26",
+  "timestamp": "2026-06-04T16:50:31.611190",
+  "generated": "2026年06月04日 16:50",
   "scores": {
-    "USD": 5,
-    "JPY": 2,
-    "EUR": 1,
+    "USD": 4,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 5,
-      "quote_score": 2
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,52 +98,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Hawkish Fed pricing supports USD – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US labor market is stabilizing and inflation is gaining traction,"
+      "title": "USD/CAD Price Forecast: Uptrend stays intact as RSI nears overbought territory",
+      "summary": "The Canadian Dollar (CAD) recovers some ground against the US Dollar (USD) on Thursday, with USD/CAD reversing earlier g"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar bounces from eight-week lows as Middle East peace hopes soothe markets",
-      "summary": "The Canadian Dollar (CAD) keeps losing ground against the US Dollar (USD) on Thursday, but it has reversed most of the d"
+      "title": "Euro gains ground as Israel-Lebanon ceasefire lifts risk appetite",
+      "summary": "EUR/USD edges higher on Thursday as signs of easing tensions in the Middle East reduce safe-haven demand for the US Doll"
     },
     {
       "source": "FXStreet",
-      "title": "Euro climbs vs Yen as ECB tightening expectations clash with BoJ hike, intervention risks",
-      "summary": "EUR/JPY trades around 185.85 on Thursday at the time of writing, up 0.12% on the day. The cross is supported by the Euro"
+      "title": "British Pound gains as Lebanon truce drama hits the US Dollar",
+      "summary": "The Pound Sterling (GBP) registers gains of over 0.16% on Thursday amid news that Israel and Lebanon agreed on a ceasefi"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains flat, RBI's policy decision awaited",
-      "summary": "The Indian Rupee (INR) trades flat against the US Dollar (USD) on Thursday after a strong Wednesday. The USD/INR pair ho"
+      "title": "Australian Dollar trims gains after Bullock’s hawkish tone",
+      "summary": "The AUD/USD pair trades near 0.7140 on Thursday as the US Dollar (USD) regains traction following the latest labor marke"
     },
     {
       "source": "FXStreet",
-      "title": "ECB: Inflation expectations and household demand – BNY",
-      "summary": "BNY’s Geoff Yu highlights that the ECB is heading into its blackout period with a rate hike effectively locked in, as Eu"
+      "title": "Oil: Middle East conflict reshapes outlook – BNY",
+      "summary": "Bob Savage highlights that the OECD now sees the Middle East conflict as the main driver of the global outlook, with sur"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Pressured by wider spreads versus US Dollar – Societe Generale",
-      "summary": "Societe Generale strategists note USD/JPY trading just below 160 as hawkish comments from BoJ Governor Ueda fail to supp"
+      "title": "Japanese Yen: Focus on 160 level versus US Dollar and BoJ – Scotiabank",
+      "summary": "Scotiabank’s Analyst Team highlights that Japanese Yen gains are modest as USD/JPY hovers near the key 160 level, keepin"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures rise as traders weigh Middle East optimism over weak tech",
-      "summary": "Dow Jones futures advance 0.22% above 50,900, while S&amp;P 500 futures fall 0.28% to near 7,550. And Nasdaq 100 futures"
+      "title": "European Gas: Positioning signals upside risk – ING",
+      "summary": "ING highlights that investment funds in TTF gas remain relatively relaxed despite LNG supply disruptions in the Middle E"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds above one-week low vs softer USD; upside seems limited as Iran risks persist",
-      "summary": "The EUR/USD pair sticks to modest intraday gains through the first half of the European session, albeit it lacks follow-"
+      "title": "Bank of Canada: Data-dependent through USMCA review – TD Securities",
+      "summary": "TD Securities expects the Bank of Canada to stay data dependent despite USMCA uncertainty. The bank sees a high bar for "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen firms on BoJ tightening signals, US jobs data in focus",
+      "summary": "USD/JPY trades around 159.90 at the time of writing on Thursday, down 0.10% on the day. The pair is moving lower as the "
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slides to lowest level since late February on Strategy sale, Iran tensions",
+      "title": "NewGenIVF invests additional $4 million in K25.ai, adopts digital asset strategy",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Strategy’s Bitcoin sale not a game changer, Citi says",
+      "title": "Bitcoin slides to lowest level since late February on Strategy sale, Iran tensions",
       "summary": ""
     },
     {
@@ -187,25 +192,19 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: Hawkish Fed pricing supports USD – BBH",
-      "[強気] Indian Rupee remains flat, RBI's policy decision awaite",
-      "[強気] Japanese Yen: Pressured by wider spreads versus US Doll"
+      "[強気] Australian Dollar trims gains after Bullock’s hawkish t",
+      "[強気] Japanese Yen firms on BoJ tightening signals, US jobs d"
     ],
     "JPY": [
-      "[強気] Euro climbs vs Yen as ECB tightening expectations clash",
-      "[強気] Japanese Yen: Pressured by wider spreads versus US Doll"
-    ],
-    "EUR": [
-      "[強気] Euro climbs vs Yen as ECB tightening expectations clash",
-      "[強気] ECB: Inflation expectations and household demand – BNY",
-      "[弱気] Dow Jones futures rise as traders weigh Middle East opt"
+      "[強気] Japanese Yen firms on BoJ tightening signals, US jobs d"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+262,332)"
+      "[COT] 🟢ロング優勢 (ネット:+262,332)",
+      "[強気] Australian Dollar trims gains after Bullock’s hawkish t"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -249,16 +248,16 @@
       "diff_pct": -0.74
     },
     "WTI": {
-      "today_open": 139.46001,
-      "prev_open": 135.070007,
-      "diff": 4.39,
-      "diff_pct": 3.25
+      "today_open": 136.6,
+      "prev_open": 139.46001,
+      "diff": -2.86,
+      "diff_pct": -2.05
     },
     "SP500": {
-      "today_open": 758.15002,
-      "prev_open": 757.030029,
-      "diff": 1.12,
-      "diff_pct": 0.15
+      "today_open": 752.06,
+      "prev_open": 758.15002,
+      "diff": -6.09,
+      "diff_pct": -0.8
     }
   }
 }
