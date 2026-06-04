@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-04T10:17:51.975879",
-  "generated": "2026年06月04日 10:17",
+  "timestamp": "2026-06-04T10:26:31.759068",
+  "generated": "2026年06月04日 10:26",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 2,
     "EUR": 1,
     "GBP": 2,
@@ -15,30 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 4,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 5,
       "quote_score": 2
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
@@ -98,6 +98,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "US Dollar: Hawkish Fed pricing supports USD – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US labor market is stabilizing and inflation is gaining traction,"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar bounces from eight-week lows as Middle East peace hopes soothe markets",
+      "summary": "The Canadian Dollar (CAD) keeps losing ground against the US Dollar (USD) on Thursday, but it has reversed most of the d"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro climbs vs Yen as ECB tightening expectations clash with BoJ hike, intervention risks",
+      "summary": "EUR/JPY trades around 185.85 on Thursday at the time of writing, up 0.12% on the day. The cross is supported by the Euro"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee remains flat, RBI's policy decision awaited",
+      "summary": "The Indian Rupee (INR) trades flat against the US Dollar (USD) on Thursday after a strong Wednesday. The USD/INR pair ho"
+    },
+    {
+      "source": "FXStreet",
       "title": "ECB: Inflation expectations and household demand – BNY",
       "summary": "BNY’s Geoff Yu highlights that the ECB is heading into its blackout period with a rate hike effectively locked in, as Eu"
     },
@@ -115,26 +135,6 @@
       "source": "FXStreet",
       "title": "Euro holds above one-week low vs softer USD; upside seems limited as Iran risks persist",
       "summary": "The EUR/USD pair sticks to modest intraday gains through the first half of the European session, albeit it lacks follow-"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Copper: Pullback on macro and tariff risks – ING",
-      "summary": "ING's Commodities Strategists Warren Patterson and Ewa Manthey report that Copper prices fell back below $14,000/t after"
-    },
-    {
-      "source": "FXStreet",
-      "title": "\"Downward momentum is increasing\": Analysts say British Pound risks downturn unless it recovers soon",
-      "summary": "The British Pound (GBP) is trading relatively subdued against the US Dollar, shifting into a corrective and range-bound "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Brent Oil eases to levels near $96.00 after Israel and Lebanon ceasefire agreement",
-      "summary": "Crude prices show a moderate reversal on Thursday, with Brent crude, the global oil benchmark, trading around $96 per ba"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen outperforms amid hawkish BoJ prospects",
-      "summary": "The Japanese Yen (JPY) trades higher against its major currency peers during the European trading session on Thursday, w"
     },
     {
       "source": "Investing",
@@ -187,17 +187,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen: Pressured by wider spreads versus US Doll",
-      "[強気] Japanese Yen outperforms amid hawkish BoJ prospects"
+      "[強気] US Dollar: Hawkish Fed pricing supports USD – BBH",
+      "[強気] Indian Rupee remains flat, RBI's policy decision awaite",
+      "[強気] Japanese Yen: Pressured by wider spreads versus US Doll"
     ],
     "JPY": [
-      "[強気] Japanese Yen: Pressured by wider spreads versus US Doll",
-      "[強気] Japanese Yen outperforms amid hawkish BoJ prospects"
+      "[強気] Euro climbs vs Yen as ECB tightening expectations clash",
+      "[強気] Japanese Yen: Pressured by wider spreads versus US Doll"
     ],
     "EUR": [
+      "[強気] Euro climbs vs Yen as ECB tightening expectations clash",
       "[強気] ECB: Inflation expectations and household demand – BNY",
-      "[弱気] Dow Jones futures rise as traders weigh Middle East opt",
-      "[強気] Japanese Yen outperforms amid hawkish BoJ prospects"
+      "[弱気] Dow Jones futures rise as traders weigh Middle East opt"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
