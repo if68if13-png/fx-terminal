@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-05T09:40:29.668967",
-  "generated": "2026年06月05日 09:40",
+  "timestamp": "2026-06-05T16:27:32.825880",
+  "generated": "2026年06月05日 16:27",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
-    "GBP": 0,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,52 +98,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc appreciates against  US Dollar as traders await US Nonfarm Payrolls data",
-      "summary": "The Swiss Franc (CHF) extends gains against the US Dollar (USD) for the second consecutive day on Friday, with the USD/C"
+      "title": "British Pound breaks below 1.3400 as blowout NFP ignites US Dollar rally",
+      "summary": "The Pound Sterling (GBP) falls below the 1.3400 figure on Friday, registering losses of 0.37% against the US Dollar (USD"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Consumers watch jobs as savings shrink – UBS",
-      "summary": "UBS' Chief Economist Paul Donovan discusses how the latest US employment report may offer a weak and unreliable signal o"
+      "title": "Indian Rupee: RBI pause supports INR outlook – Societe Generale",
+      "summary": "Societe Generale analysts Kunal Kundu and Galvin Chia note that the Reserve Bank of India (RBI) Monetary Policy Committe"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Labour softness tempers BoE hikes – MUFG",
-      "summary": "MUFG’s Derek Halpenny highlights growing signs of United Kingdom (UK) labour market weakness, including a sharp HMRC job"
+      "title": "Gold slides over 2% as strong US jobs data boosts Treasury yields, US Dollar",
+      "summary": "Gold (XAU/USD) edges lower on Friday after the US Nonfarm Payrolls (NFP) report beat expectations, boosting the US Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee gains as RBI leaves Repo Rate steady, warns upside inflation risks",
-      "summary": "The Indian Rupee gains against the US Dollar (USD) after the Reserve Bank of India’s (RBI) monetary policy decision, wit"
+      "title": "Fed's Hammack says holding interest rates steady remains reasonable",
+      "summary": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that it remains reasonable to keep interest rate"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index Price Forecast: Trades lower around 99.30 ahead of US NFP data",
-      "summary": "The US Dollar (USD) trades lower against its major currency peers during the European trading session on Friday."
+      "title": "Silver tumbles below $69 as strong US jobs report boosts the US Dollar",
+      "summary": "Silver (XAG/USD) falls on Friday and trades around $68.90 at the time of writing, down 6.74% on the day. The white metal"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Consolidation inside tight range versus US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann now see USD/JPY in a neutral, range-trading phase after earlier upside momentum fad"
+      "title": "Euro area: Growth forecasts face modest downgrades – Nomura",
+      "summary": "Nomura analysts expects the European Central Bank's (ECB) June macroeconomic projections to incorporate higher market ra"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecasts: Pound returns above 215.00 amid broad-based Yen weakness",
-      "summary": "The Japanese Yen’s (JPY) mild recovery attempt seen during Friday’s Asian session has been short-lived."
+      "title": "Oil: Conflicting demand signals shape outlook – Commerzbank",
+      "summary": "Commerzbank’s Norman Liebke and Carsten Fritsch highlight that Brent and European gas have risen on renewed US–Iran tens"
     },
     {
       "source": "FXStreet",
-      "title": "Canada Unemployment Rate forecast to remain unchanged in May",
-      "summary": "Statistics Canada will release its Labour Force Survey on Friday, and markets are bracing for quite a steady print. The "
+      "title": "Euro drops to two-month low as strong US jobs data lifts Greenback",
+      "summary": "EUR/USD weakens on Friday as the US Dollar (USD) rallies following a stronger-than-expected US Nonfarm Payrolls (NFP) re"
     },
     {
       "source": "Investing",
       "title": "Bitcoin slides to four-month low as Strategy sale, ETF outflows continue to weigh",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "NewGenIVF invests additional $4 million in K25.ai, adopts digital asset strategy",
       "summary": ""
     },
     {
@@ -187,15 +182,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Swiss Franc appreciates against  US Dollar as traders a"
-    ],
-    "JPY": [
-      "[弱気] GBP/JPY Price Forecasts: Pound returns above 215.00 ami"
+      "[強気] Gold slides over 2% as strong US jobs data boosts Treas",
+      "[強気] Silver tumbles below $69 as strong US jobs report boost"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: Labour softness tempers BoE hikes – MUFG",
-      "[弱気] GBP/JPY Price Forecasts: Pound returns above 215.00 ami"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -203,9 +194,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc appreciates against  US Dollar as traders a"
     ]
   },
   "rates": {
@@ -246,16 +234,16 @@
       "diff_pct": 0.08
     },
     "WTI": {
-      "today_open": 136.67,
-      "prev_open": 139.46001,
-      "diff": -2.79,
-      "diff_pct": -2.0
+      "today_open": 134.87,
+      "prev_open": 136.67,
+      "diff": -1.8,
+      "diff_pct": -1.32
     },
     "SP500": {
-      "today_open": 752.099976,
-      "prev_open": 758.15002,
-      "diff": -6.05,
-      "diff_pct": -0.8
+      "today_open": 752.26,
+      "prev_open": 752.099976,
+      "diff": 0.16,
+      "diff_pct": 0.02
     }
   }
 }
