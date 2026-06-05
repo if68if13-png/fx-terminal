@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-05T16:27:32.825880",
-  "generated": "2026年06月05日 16:27",
+  "timestamp": "2026-06-05T23:01:16.569545",
+  "generated": "2026年06月05日 23:01",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,30 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -98,43 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound breaks below 1.3400 as blowout NFP ignites US Dollar rally",
-      "summary": "The Pound Sterling (GBP) falls below the 1.3400 figure on Friday, registering losses of 0.37% against the US Dollar (USD"
+      "title": "Philippine Peso: BSP tightening path supports PHP – UOB",
+      "summary": "UOB economists Julia Goh and Loke Siew Ting note that Philippine inflation unexpectedly eased in May but remains above t"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: RBI pause supports INR outlook – Societe Generale",
-      "summary": "Societe Generale analysts Kunal Kundu and Galvin Chia note that the Reserve Bank of India (RBI) Monetary Policy Committe"
+      "title": "New Zealand Dollar plunges to two-month lows after upbeat US NFP report",
+      "summary": "NZD/USD falls sharply towards the 0.5790 region on Friday as the US Dollar (USD) strengthened following a stronger-than-"
     },
     {
       "source": "FXStreet",
-      "title": "Gold slides over 2% as strong US jobs data boosts Treasury yields, US Dollar",
-      "summary": "Gold (XAU/USD) edges lower on Friday after the US Nonfarm Payrolls (NFP) report beat expectations, boosting the US Dolla"
+      "title": "Philippines: BSP seen staying hawkish on inflation – Standard Chartered",
+      "summary": "Standard Chartered economists Jonathan Koh and Edward Lee revise their Bangko Sentral ng Pilipinas (BSP) policy rate pat"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Hammack says holding interest rates steady remains reasonable",
-      "summary": "Federal Reserve Bank of Cleveland President Beth Hammack said on Friday that it remains reasonable to keep interest rate"
+      "title": "Forecasting the upcoming week: US Dollar ends week higher after strong NFP",
+      "summary": "The US Dollar (USD) rallied to near 100.10 on Friday, rising from a daily low of 99.16, after the US Nonfarm Payrolls (N"
     },
     {
       "source": "FXStreet",
-      "title": "Silver tumbles below $69 as strong US jobs report boosts the US Dollar",
-      "summary": "Silver (XAG/USD) falls on Friday and trades around $68.90 at the time of writing, down 6.74% on the day. The white metal"
+      "title": "Thai Baht: BoT seen holding rates as inflation stays supply-led – UOB",
+      "summary": "UOB’s Global Economics & Markets Research, led by Enrico Tanuwidjaja and Sathit Talaengsatya, argues that Thailand’s lat"
     },
     {
       "source": "FXStreet",
-      "title": "Euro area: Growth forecasts face modest downgrades – Nomura",
-      "summary": "Nomura analysts expects the European Central Bank's (ECB) June macroeconomic projections to incorporate higher market ra"
+      "title": "New Zealand Dollar heads for 3% weekly loss as robust US payrolls data lifts US Dollar",
+      "summary": "NZD/USD slips to its lowest level since April on Friday as the US Dollar (USD) receives fresh bids in the wake of solid "
     },
     {
       "source": "FXStreet",
-      "title": "Oil: Conflicting demand signals shape outlook – Commerzbank",
-      "summary": "Commerzbank’s Norman Liebke and Carsten Fritsch highlight that Brent and European gas have risen on renewed US–Iran tens"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro drops to two-month low as strong US jobs data lifts Greenback",
-      "summary": "EUR/USD weakens on Friday as the US Dollar (USD) rallies following a stronger-than-expected US Nonfarm Payrolls (NFP) re"
+      "title": "US yields rocket as stellar NFP sparks Fed hike bets",
+      "summary": "US Treasury yields skyrocket across the whole curve on Friday, with the 2-year Treasury note yield rising over 12 basis "
     },
     {
       "source": "Investing",
@@ -149,101 +144,103 @@
   ],
   "cot": {
     "CHF": {
-      "long": 105594,
-      "short": 68558,
-      "net": 37036,
+      "long": 111432,
+      "short": 67421,
+      "net": 44011,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 36678,
+      "long": 36953,
       "short": 484,
-      "net": 36194,
+      "net": 36469,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 21443,
-      "short": 2920,
-      "net": 18523,
+      "long": 21713,
+      "short": 2969,
+      "net": 18744,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 21443,
-      "short": 2920,
-      "net": 18523,
+      "long": 21713,
+      "short": 2969,
+      "net": 18744,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 302802,
-      "short": 40470,
-      "net": 262332,
+      "long": 305391,
+      "short": 41912,
+      "net": 263479,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold slides over 2% as strong US jobs data boosts Treas",
-      "[強気] Silver tumbles below $69 as strong US jobs report boost"
+      "[強気] New Zealand Dollar plunges to two-month lows after upbe",
+      "[強気] Forecasting the upcoming week: US Dollar ends week high",
+      "[強気] US yields rocket as stellar NFP sparks Fed hike bets"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+262,332)"
+      "[COT] 🟢ロング優勢 (ネット:+263,479)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar plunges to two-month lows after upbe"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.49,
+    "US_10Y": 4.47,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 1.98,
-    "DIFF_EURUSD": -1.49,
-    "DIFF_GBPUSD": 0.33,
-    "DIFF_AUDUSD": 0.47
+    "DIFF_USDJPY": 1.95,
+    "DIFF_EURUSD": -1.47,
+    "DIFF_GBPUSD": 0.35,
+    "DIFF_AUDUSD": 0.49
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.02733,
-      "prev_open": 160.09094,
-      "diff": -0.0636,
-      "diff_pct": -0.04
+      "today_open": 160.32301,
+      "prev_open": 160.02733,
+      "diff": 0.2957,
+      "diff_pct": 0.18
     },
     "EURUSD": {
-      "today_open": 1.16115,
-      "prev_open": 1.15987,
-      "diff": 0.0013,
-      "diff_pct": 0.11
+      "today_open": 1.15213,
+      "prev_open": 1.16115,
+      "diff": -0.009,
+      "diff_pct": -0.78
     },
     "GBPUSD": {
-      "today_open": 1.34242,
-      "prev_open": 1.34176,
-      "diff": 0.0007,
-      "diff_pct": 0.05
+      "today_open": 1.33388,
+      "prev_open": 1.34242,
+      "diff": -0.0085,
+      "diff_pct": -0.63
     },
     "AUDUSD": {
-      "today_open": 0.71333,
-      "prev_open": 0.71276,
-      "diff": 0.0006,
-      "diff_pct": 0.08
+      "today_open": 0.70425,
+      "prev_open": 0.71333,
+      "diff": -0.0091,
+      "diff_pct": -1.28
     },
     "WTI": {
-      "today_open": 134.87,
+      "today_open": 135.14,
       "prev_open": 136.67,
-      "diff": -1.8,
-      "diff_pct": -1.32
+      "diff": -1.53,
+      "diff_pct": -1.12
     },
     "SP500": {
-      "today_open": 752.26,
+      "today_open": 752.31,
       "prev_open": 752.099976,
-      "diff": 0.16,
-      "diff_pct": 0.02
+      "diff": 0.21,
+      "diff_pct": 0.03
     }
   }
 }
