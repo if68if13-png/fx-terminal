@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-04T23:03:49.536252",
-  "generated": "2026年06月04日 23:03",
+  "timestamp": "2026-06-05T09:40:29.668967",
+  "generated": "2026年06月05日 09:40",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
+    "USD": 1,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 0,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -98,38 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro grinds higher as jobless claims clip USD before NFP",
-      "summary": "The Euro registers modest gains of 0.12% as traders remain optimistic about the outcome of US-Iran talks, which had been"
+      "title": "Swiss Franc appreciates against  US Dollar as traders await US Nonfarm Payrolls data",
+      "summary": "The Swiss Franc (CHF) extends gains against the US Dollar (USD) for the second consecutive day on Friday, with the USD/C"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD stays muted as markets monitor Iran developments",
-      "summary": "The NZD/USD pair trades near the 0.5870 level on Friday, as the United States Dollar (USD) remains supported by cautious"
+      "title": "United States: Consumers watch jobs as savings shrink – UBS",
+      "summary": "UBS' Chief Economist Paul Donovan discusses how the latest US employment report may offer a weak and unreliable signal o"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar Further losses capped by 1.2855 versus dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/SGD has broken to a two‑month high near 1.2840, with strong momentum "
+      "title": "British Pound: Labour softness tempers BoE hikes – MUFG",
+      "summary": "MUFG’s Derek Halpenny highlights growing signs of United Kingdom (UK) labour market weakness, including a sharp HMRC job"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Investors look ahead to US NFP report",
-      "summary": "The US Dollar Index (DXY) fell toward 99.18 early Thursday before steadily climbing during the North American session to"
+      "title": "Indian Rupee gains as RBI leaves Repo Rate steady, warns upside inflation risks",
+      "summary": "The Indian Rupee gains against the US Dollar (USD) after the Reserve Bank of India’s (RBI) monetary policy decision, wit"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: Tight liquidity and policy risks weigh versus US Dollar – MUFG",
-      "summary": "MUFG’s Lloyd Chan highlights that IDR is under particular pressure as rising US yields intersect with domestic policy un"
+      "title": "US Dollar Index Price Forecast: Trades lower around 99.30 ahead of US NFP data",
+      "summary": "The US Dollar (USD) trades lower against its major currency peers during the European trading session on Friday."
     },
     {
       "source": "FXStreet",
-      "title": "Vietnam Dong: Inflation and trade headwinds build – Commerzbank",
-      "summary": "Commerzbank highlights that Vietnam’s May Consumer Price Index (CPI) rose to 5.6% year-on-year, the highest since Januar"
+      "title": "Japanese Yen: Consolidation inside tight range versus US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann now see USD/JPY in a neutral, range-trading phase after earlier upside momentum fad"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Neutral within defined band against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann report a sharp rebound in USD/CNH above 6.78, which invalidated their prior bearish"
+      "title": "GBP/JPY Price Forecasts: Pound returns above 215.00 amid broad-based Yen weakness",
+      "summary": "The Japanese Yen’s (JPY) mild recovery attempt seen during Friday’s Asian session has been short-lived."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canada Unemployment Rate forecast to remain unchanged in May",
+      "summary": "Statistics Canada will release its Labour Force Survey on Friday, and markets are bracing for quite a steady print. The "
     },
     {
       "source": "Investing",
@@ -139,11 +144,6 @@
     {
       "source": "Investing",
       "title": "NewGenIVF invests additional $4 million in K25.ai, adopts digital asset strategy",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slides to lowest level since late February on Strategy sale, Iran tensions",
       "summary": ""
     },
     {
@@ -187,11 +187,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar Further losses capped by 1.2855 versus",
-      "[強気] Vietnam Dong: Inflation and trade headwinds build – Com"
+      "[弱気] Swiss Franc appreciates against  US Dollar as traders a"
+    ],
+    "JPY": [
+      "[弱気] GBP/JPY Price Forecasts: Pound returns above 215.00 ami"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound: Labour softness tempers BoE hikes – MUFG",
+      "[弱気] GBP/JPY Price Forecasts: Pound returns above 215.00 ami"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -199,19 +203,22 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc appreciates against  US Dollar as traders a"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.46,
+    "US_10Y": 4.49,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 1.94,
-    "DIFF_EURUSD": -1.46,
-    "DIFF_GBPUSD": 0.36,
-    "DIFF_AUDUSD": 0.5
+    "DIFF_USDJPY": 1.98,
+    "DIFF_EURUSD": -1.49,
+    "DIFF_GBPUSD": 0.33,
+    "DIFF_AUDUSD": 0.47
   },
   "prices": {
     "USDJPY": {
