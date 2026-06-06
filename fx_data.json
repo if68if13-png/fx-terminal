@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-05T23:01:16.569545",
-  "generated": "2026年06月05日 23:01",
+  "timestamp": "2026-06-06T08:29:44.430040",
+  "generated": "2026年06月06日 08:29",
   "scores": {
     "USD": 5,
     "JPY": 0,
@@ -130,11 +130,6 @@
       "source": "FXStreet",
       "title": "US yields rocket as stellar NFP sparks Fed hike bets",
       "summary": "US Treasury yields skyrocket across the whole curve on Friday, with the 2-year Treasury note yield rising over 12 basis "
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slides to four-month low as Strategy sale, ETF outflows continue to weigh",
-      "summary": ""
     },
     {
       "source": "MarketWatch",
