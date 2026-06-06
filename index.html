@@ -237,8 +237,10 @@ function showPair(pair,btn){
   document.getElementById('pair-'+pair).classList.add('active');
 }
 function renderScores(d){
-  const sorted=Object.entries(d.scores||{}).sort((a,b)=>b[1]-a[1]);
-  const maxAbs=Math.max(...Object.values(d.scores||{1:1}).map(Math.abs),1);
+  const order=['USD','EUR','JPY','GBP','AUD','CAD','CHF','NZD'];
+  const scores=d.scores||{};
+  const sorted=order.filter(c=>c in scores).map(c=>[c,scores[c]]);
+  const maxAbs=Math.max(...Object.values(scores).map(Math.abs),1);
   document.getElementById('clist').innerHTML=sorted.map(([c,s])=>{
     const cls=s>0?'pos':s<0?'neg':'neu';
     const pct=Math.abs(s)/maxAbs*100;
