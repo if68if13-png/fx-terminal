@@ -1,62 +1,62 @@
 {
-  "overall": "FRB強気転換でUSD急伸。Kevin Warsh新議長就任。NFP好調で金利上昇、リスクオン局面も調整局面へ",
+  "overall": "USD強気一転。強いNFP後、Warsh新議長就任で政策転換期。リスクオン復帰の兆し。",
   "risk_mode": "リスクオン",
-  "key_risk": "Kevin Warsh議長の金融政策スタンス不透明性。インフレ再加速懸念。地政学的リスク顕在化によるUSD逆転リスク",
+  "key_risk": "Kevin Warsh新議長就任による政策スタンス不透明性。金融引き締め継続vs緩和転換の市場期待ギャップ",
   "cb_stance": {
-    "FRB": "タカ派/NFP好調でハイ金利継続。Warsh議長が強気基調示唆",
-    "BOJ": "中立/金利据置。円安圧力継続、政策調整は慎重",
-    "ECB": "中立/独インフレ安定。利下げ継続も限定的スタンス",
-    "RBA": "タカ派/豪インフレ粘着。金利維持方針で豪ドル下支え",
-    "BOE": "タカ派/英金利維持。インフレ警戒で利下げ慎重"
+    "FRB": "タカ派→中立へ転換。Warsh就任で政策不確実性。強いNFPで引き締め継続示唆",
+    "BOJ": "ハト派継続。2.515%の低金利維持。円安圧力継続中",
+    "ECB": "タカ派。2.996%金利。インフレ対抗継続。利下げ圧力小",
+    "RBA": "タカ派。4.96%金利維持。インフレ警戒継続中",
+    "BOE": "タカ派。4.82%金利。インフレ対抗継続。タイトニング堅持"
   },
   "pairs": {
     "USDJPY": {
-      "long_view": "上昇",
-      "long_reason": "FF金利3.63%vs日本2.515%で金利差拡大。WarshFRB強気。構造的円安継続",
-      "mid_view": "上昇",
-      "mid_reason": "NFP好調でUSD強気。金利差+1.95%で金利裁定買いUSDP続伸",
-      "short_view": "上昇",
-      "short_reason": "USD100超え。テクニカル上抜け。COT JPY ロング優勢も買い圧力継続"
+      "long_view": "上昇トレンド",
+      "long_reason": "1.95%の大きな金利差。BOJ据え置き・FRB高金利継続。円安圧力強い",
+      "mid_view": "上昇継続",
+      "mid_reason": "強いNFP・USD買い再開。JPYネット+18,744ロング。テクニカル上昇基調",
+      "short_view": "上昇加速",
+      "short_reason": "Warsh就任で政策安定感。USD+5強気。差+5評価。買い圧力強い"
     },
     "EURUSD": {
-      "long_view": "下落",
-      "long_reason": "US10年4.47% vs 独2.99%で金利差-1.47%拡大。ECB慎重、FRB強気で乖離",
-      "mid_view": "下落",
-      "mid_reason": "ドル高圧力強い。欧州インフレ鈍化で利下げ観測。金利差縮小プレッシャー",
-      "short_view": "下落",
-      "short_reason": "USD強気主導。EUR弱気。テク的に1.05割れ視野。NFP後ドル買い加速"
+      "long_view": "下降トレンド",
+      "long_reason": "-1.47%の逆金利差。ECB金利>FRB金利も相対的にUSD買い優位",
+      "mid_view": "下降継続",
+      "mid_reason": "NFP強気でUSD上昇。EUR金利差デメリット。COT+18,744でも売り圧力勝る",
+      "short_view": "下降加速",
+      "short_reason": "差-5強気ショート。USD+5トップシェア。ECB据え置き見通し。売り有利"
     },
     "GBPUSD": {
-      "long_view": "下落",
-      "long_reason": "英10年4.82% vs 米4.47%で金利差0.35%。BOE利下げ観測強まり、GBP重力加速",
-      "mid_view": "下落",
-      "mid_reason": "USD強気。BOE慎重スタンス。英インフレ減速で利下げ織り込み進む",
-      "short_view": "下落",
-      "short_reason": "NZD同様USD上昇圧力。GBP弱気。テク的に1.265割れ視野。BOE利下げベット"
+      "long_view": "下降トレンド",
+      "long_reason": "0.35%金利差でも、USD強気が勝る。相対的にGBP弱い。BOE金融政策限界",
+      "mid_view": "下降継続",
+      "mid_reason": "NZD+3上昇でGBP相対弱化。USD+5圧倒的強気。差-3評価でショート推奨",
+      "short_view": "下降加速",
+      "short_reason": "USD相対優位。NFPドル買い加速。GBP+2程度では対抗不足。売り有利"
     },
     "AUDUSD": {
-      "long_view": "下落",
-      "long_reason": "豪10年4.96% vs 米4.47%で金利差+0.49%も不十分。AUD売り圧力強い",
-      "mid_view": "下落",
-      "mid_reason": "USD強気主導。RBA維持方針も金利格差縮小。商品相場軟化でAUD重力",
-      "short_view": "下落",
-      "short_reason": "COT AUD ロング優勢も逆張り機能。USD騰勢強い。0.66割れ視野。NZD同調売り"
+      "long_view": "下降トレンド",
+      "long_reason": "0.49%金利差。AUD-1弱気。USD+5圧倒的強気で売り圧力大きい",
+      "mid_view": "下降継続",
+      "mid_reason": "差-6強気ショート最強評価。COT+263,479ロング多いが抵抗。米金利上昇が重し",
+      "short_view": "下降加速",
+      "short_reason": "差-6最強ショート。商品通貨売り。USD買い加速。リスクオフでAUD売り圧力"
     },
     "WTI": {
-      "long_view": "下落",
-      "long_reason": "USD強気でドル建て割高。OPEC減産限定的。地政学緩和で供給懸念後退",
-      "mid_view": "下落",
-      "mid_reason": "USD上昇でWTI売り圧力。需要減速懸念。景気後退警戒でエネルギー需要不安",
-      "short_view": "下落",
-      "short_reason": "80ドル割れ圏。テク的に下値探り。USD騰勢強く原油売り継続"
+      "long_view": "弱気",
+      "long_reason": "USD強気でドル建て原油割高。リスクオン復帰で景気需要増だが米生産増対抗困難",
+      "mid_view": "下降基調",
+      "mid_reason": "USD+5強気。実質金利上昇で投機買い萎縮。需給均衡取れず",
+      "short_view": "下降圧力",
+      "short_reason": "NFP強気でUSDインデックス上昇。原油投機資金流出。地政学リスク限定的"
     },
     "SP500": {
-      "long_view": "上昇",
-      "long_reason": "NFP好調で景気強気。ただしハイ金利継続で割引率圧力。企業益成長期待支援",
-      "mid_view": "上昇",
-      "mid_reason": "FRB強気政策で市場サポート。雇用堅調。ただしテク的に調整局面注意",
-      "short_view": "横ばい調整",
-      "short_reason": "高値警戒。金利上昇で利益確定圧力。VIX上昇兆候。短期調整リスク高い"
+      "long_view": "上昇トレンド",
+      "long_reason": "Warsh就任で政策安定感。強いNFPで景気堅調。企業業績堅実。リスクオン復帰",
+      "mid_view": "上昇継続",
+      "mid_reason": "USD強気でテック利益確定懸念も、全体的に景気楽観。PER妥当水準継続",
+      "short_view": "上昇加速",
+      "short_reason": "雇用堅調で消費支援。インフレ緩和期待。金利上限感。買い場認識"
     }
   },
   "updated": "2026年06月07日"
