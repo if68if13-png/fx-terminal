@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-09T16:28:31.651702",
-  "generated": "2026年06月09日 16:28",
+  "timestamp": "2026-06-09T23:14:27.124043",
+  "generated": "2026年06月09日 23:14",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
+      "summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Fros"
     },
@@ -92,48 +97,33 @@
       "summary": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M."
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by the Stephen M. Calk 2025 Trust",
-      "summary": "Federal Reserve Board announces approval of application by the Stephen M. Calk 2025 Trust"
+      "source": "FXStreet",
+      "title": "Japanese Yen round-trips Tokyo's record intervention just in time for CPI",
+      "summary": "Six weeks ago Japan reportedly spent a record sum dragging this pair off exactly this shelf."
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar slips as weak consumer confidence offsets strong China trade data",
-      "summary": "The AUD/USD pair falls to near 0.7040 on Tuesday, as the Australian Dollar (AUD) failed to gain support from stronger-th"
+      "title": "Australian Dollar tests six-week low as Trump rattles markets",
+      "summary": "The Aussie Dollar edges lower, some 0.25% against the Greenback on Tuesday as the market mood turned sour due to Trump's"
     },
     {
       "source": "FXStreet",
-      "title": "Euro gains against US Dollar as Middle East tensions ease, US CPI in focus",
-      "summary": "EUR/USD trades on the front foot on Tuesday as tentative signs of de-escalation in the Middle East conflict weigh on saf"
+      "title": "USD/CHF Price Forecast: US Dollar eyes 0.8000 as inverse head-and-shoulders breakout holds",
+      "summary": "The USD/CHF pair advances some 0.11% on Tuesday, trading near nine-week highs of 0.7991 as risk aversion boosted the Gre"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar holds steady as Middle East risks, BoC policy uncertainty cap moves",
-      "summary": "USD/CAD trades around 1.3950 on Tuesday at the time of writing after snapping a four-day winning streak."
+      "title": "Forex Today: US CPI in focus as US Dollar holds steady amid Middle East war escalation",
+      "summary": "The US Dollar Index (DXY) trades with a cautious tone near the 99.90 region on Tuesday as investors position ahead of We"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Flow-driven gains eye resistance – Scotiabank",
-      "summary": "Scotiabank’s Analyst Team notes Sterling is a moderate outperformer versus core majors, supported by broader risk appeti"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold struggles near March lows as hawkish Fed expectations weigh",
-      "summary": "Gold (XAU/USD) trades under modest pressure on Tuesday as a hawkish Federal Reserve (Fed) outlook offsets support from a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Uptrend against US Dollar intact amid trade surplus – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/CNH is falling toward support at its June multi-year low a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound gains as report of a BoJ bond-tapering pause weighs on the Japanese Yen",
-      "summary": "The British Pound (GBP) strengthens against the Japanese Yen (JPY) on Tuesday as easing tensions in the Middle East supp"
+      "title": "United States Dollar Index rebounds as Middle East peace hopes fade, US inflation data looms",
+      "summary": "The United States Dollar Index (DXY) trims earlier losses on Tuesday as traders swing between optimism and caution over "
     },
     {
       "source": "Investing",
-      "title": "Bitcoin dips to $62k as ETF outflows continue; Strategy buys the dip",
+      "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
       "summary": ""
     },
     {
@@ -206,51 +196,51 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.55,
+    "US_10Y": 4.56,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 2.03,
-    "DIFF_EURUSD": -1.55,
-    "DIFF_GBPUSD": 0.27,
-    "DIFF_AUDUSD": 0.41
+    "DIFF_USDJPY": 2.04,
+    "DIFF_EURUSD": -1.56,
+    "DIFF_GBPUSD": 0.26,
+    "DIFF_AUDUSD": 0.4
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.17897,
-      "prev_open": 160.23747,
-      "diff": -0.0585,
-      "diff_pct": -0.04
+      "today_open": 160.36908,
+      "prev_open": 160.17897,
+      "diff": 0.1901,
+      "diff_pct": 0.12
     },
     "EURUSD": {
-      "today_open": 1.15327,
-      "prev_open": 1.15171,
-      "diff": 0.0016,
-      "diff_pct": 0.14
+      "today_open": 1.15441,
+      "prev_open": 1.15327,
+      "diff": 0.0011,
+      "diff_pct": 0.1
     },
     "GBPUSD": {
-      "today_open": 1.33389,
-      "prev_open": 1.33358,
-      "diff": 0.0003,
-      "diff_pct": 0.02
+      "today_open": 1.33788,
+      "prev_open": 1.33389,
+      "diff": 0.004,
+      "diff_pct": 0.3
     },
     "AUDUSD": {
-      "today_open": 0.7045,
-      "prev_open": 0.70282,
-      "diff": 0.0017,
-      "diff_pct": 0.24
+      "today_open": 0.70276,
+      "prev_open": 0.7045,
+      "diff": -0.0017,
+      "diff_pct": -0.24
     },
     "WTI": {
-      "today_open": 131.97,
+      "today_open": 132.0099945,
       "prev_open": 134.95,
-      "diff": -2.98,
-      "diff_pct": -2.21
+      "diff": -2.94,
+      "diff_pct": -2.18
     },
     "SP500": {
-      "today_open": 743.64,
+      "today_open": 743.63,
       "prev_open": 743.35999,
-      "diff": 0.28,
+      "diff": 0.27,
       "diff_pct": 0.04
     }
   }
