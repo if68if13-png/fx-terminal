@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-06-09T09:36:33.989062",
-  "generated": "2026年06月09日 09:36",
+  "timestamp": "2026-06-09T16:28:31.651702",
+  "generated": "2026年06月09日 16:28",
   "scores": {
     "USD": 2,
-    "JPY": -1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
-    "CHF": -1
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -27,11 +20,11 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -41,11 +34,11 @@
       "quote_score": 2
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -53,6 +46,13 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,62 +98,62 @@
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Tech rebounds but breadth weak – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that US equities stabilised after Friday’s slump, with the NASDAQ and semiconductor stock"
+      "title": "Australian Dollar slips as weak consumer confidence offsets strong China trade data",
+      "summary": "The AUD/USD pair falls to near 0.7040 on Tuesday, as the Australian Dollar (AUD) failed to gain support from stronger-th"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar rebounds from two-month lows",
-      "summary": "USD/CAD halts its four-day winning streak, pulling back after reaching a two-month high of 1.39613 in the previous day a"
+      "title": "Euro gains against US Dollar as Middle East tensions ease, US CPI in focus",
+      "summary": "EUR/USD trades on the front foot on Tuesday as tentative signs of de-escalation in the Middle East conflict weigh on saf"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee rebounds as oil prices fall further",
-      "summary": "The Indian Rupee (INR) recovers against the US Dollar (USD) at open on Tuesday after a sharp decline the previous day. T"
+      "title": "Canadian Dollar holds steady as Middle East risks, BoC policy uncertainty cap moves",
+      "summary": "USD/CAD trades around 1.3950 on Tuesday at the time of writing after snapping a four-day winning streak."
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Weakens against Euro on softer Swiss rates – ING",
-      "summary": "ING’s Chris Turner notes EUR/CHF has drifted back to 0.92 as Swiss rates lag global moves and markets price three Europe"
+      "title": "British Pound: Flow-driven gains eye resistance – Scotiabank",
+      "summary": "Scotiabank’s Analyst Team notes Sterling is a moderate outperformer versus core majors, supported by broader risk appeti"
     },
     {
       "source": "FXStreet",
-      "title": "WTI Price Forecast: Slides further to near $88 as Trump sees deal with Iran soon",
-      "summary": "West Texas Intermediate (WTI), futures on NYMEX, is down 1.8% to near $88.10 during the European trading session on Tues"
+      "title": "Gold struggles near March lows as hawkish Fed expectations weigh",
+      "summary": "Gold (XAU/USD) trades under modest pressure on Tuesday as a hawkish Federal Reserve (Fed) outlook offsets support from a"
     },
     {
       "source": "FXStreet",
-      "title": "Israel issues evacuation order for residents of Lebanese city of Tyre",
-      "summary": "In Tuesday’s European session, Israeli army’s Arabic-language spokesperson, Avichay Adraee, has issued warning for resid"
+      "title": "Chinese Yuan: Uptrend against US Dollar intact amid trade surplus – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/CNH is falling toward support at its June multi-year low a"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Stalls below 0.8000 with bulls still in control",
-      "summary": "The US Dollar (USD) posts marginal losses against the Swiss Franc (CHF) on Tuesday, with bulls capped near the 0.8000 ps"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Current account gains contrast with weak JPY – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur highlights that USD/JPY has climbed back above 160, near multi-decade highs, even as Japan’s "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold flat lines below $4,350 as bulls remain on the sidelines amid hawkish Fed bets",
-      "summary": "Gold (XAU/USD) remains confined in a narrow range through the first half of the European session on Tuesday and remains "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Oil: War-risk pricing holds steady – Rabobank",
-      "summary": "Rabobank’s Global Strategist Michael Every notes that Oil prices were little changed after another sharp Middle East esc"
+      "title": "British Pound gains as report of a BoJ bond-tapering pause weighs on the Japanese Yen",
+      "summary": "The British Pound (GBP) strengthens against the Japanese Yen (JPY) on Tuesday as easing tensions in the Middle East supp"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin steady at $63k after Strategy buy; ETF outflows ease",
+      "title": "Bitcoin dips to $62k as ETF outflows continue; Strategy buys the dip",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Neura Closes Strategic Funding Round and Partnerships to Build Emotional AI with Persistent, User-Owned Memory",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin rebounds above $63k as Strategy buys the dip, Iran & Israel halt strikes",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy acquires 1,550 bitcoin",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,16 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Current account gains contrast with weak ",
-      "[強気] Gold flat lines below $4,350 as bulls remain on the sid"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Current account gains contrast with weak "
-    ],
-    "EUR": [
-      "[弱気] Swiss Franc: Weakens against Euro on softer Swiss rates",
-      "[強気] Gold flat lines below $4,350 as bulls remain on the sid"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,12 +202,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Japanese Yen: Current account gains contrast with weak "
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc: Weakens against Euro on softer Swiss rates"
     ]
   },
   "rates": {
@@ -257,16 +242,16 @@
       "diff_pct": 0.24
     },
     "WTI": {
-      "today_open": 134.95,
-      "prev_open": 135.14,
-      "diff": -0.19,
-      "diff_pct": -0.14
+      "today_open": 131.97,
+      "prev_open": 134.95,
+      "diff": -2.98,
+      "diff_pct": -2.21
     },
     "SP500": {
-      "today_open": 743.35999,
-      "prev_open": 752.31,
-      "diff": -8.95,
-      "diff_pct": -1.19
+      "today_open": 743.64,
+      "prev_open": 743.35999,
+      "diff": 0.28,
+      "diff_pct": 0.04
     }
   }
 }
