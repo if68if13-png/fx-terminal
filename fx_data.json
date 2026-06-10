@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-06-09T23:14:27.124043",
-  "generated": "2026年06月09日 23:14",
+  "timestamp": "2026-06-10T09:52:58.417073",
+  "generated": "2026年06月10日 09:52",
   "scores": {
     "USD": 2,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
       "base_score": -1,
       "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -37,22 +37,22 @@
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
+      "diff": -1,
+      "base_score": 1,
       "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -98,28 +98,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen round-trips Tokyo's record intervention just in time for CPI",
-      "summary": "Six weeks ago Japan reportedly spent a record sum dragging this pair off exactly this shelf."
+      "title": "BoC set to hold interest rate as inflation remains high but economy wobbles",
+      "summary": "The Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25% on Wednesday. This would be the f"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar tests six-week low as Trump rattles markets",
-      "summary": "The Aussie Dollar edges lower, some 0.25% against the Greenback on Tuesday as the market mood turned sour due to Trump's"
+      "title": "US Dollar: Core CPI focus keeps DXY supported – ING",
+      "summary": "ING’s Chris Turner notes the Dollar is holding recent gains as markets await the US May CPI report, with expectations th"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: US Dollar eyes 0.8000 as inverse head-and-shoulders breakout holds",
-      "summary": "The USD/CHF pair advances some 0.11% on Tuesday, trading near nine-week highs of 0.7991 as risk aversion boosted the Gre"
+      "title": "USD/CAD Price Forecast: Could rebound toward six-month highs near 1.4000",
+      "summary": "USD/CAD loses ground for the second consecutive day, trading around 1.3930 during the European hours on Wednesday. Howev"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US CPI in focus as US Dollar holds steady amid Middle East war escalation",
-      "summary": "The US Dollar Index (DXY) trades with a cautious tone near the 99.90 region on Tuesday as investors position ahead of We"
+      "title": "Gold languishes near March low, below $4,200 as traders await US CPI report",
+      "summary": "Gold (XAU/USD) maintains its heavily offered tone through the first half of the European session and currently trades ne"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index rebounds as Middle East peace hopes fade, US inflation data looms",
-      "summary": "The United States Dollar Index (DXY) trims earlier losses on Tuesday as traders swing between optimism and caution over "
+      "title": "Euro: Gains hinge on domestic demand – BNY",
+      "summary": "BNY’s Geoff Yu notes that recent EUR/USD support has come mainly from cross-border investors reducing hedges after the E"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Iran blames US for harming diplomatic process with continued ceasefire violations",
+      "summary": "Iran's Foreign Ministry spokesperson Esmaeil Baghaei said during the European trading session on Wednesday that Tehran n"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound refreshes weekly high vs broadly weaker JPY amid Mideast tensions",
+      "summary": "The GBP/JPY cross turns positive for the third straight day following an intraday dip to the 214.30-214.25 region and to"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Downside risks versus USD with BoC on hold – Societe Generale",
+      "summary": "Societe Generale analysts note USD/CAD has broken key technical resistance and could extend higher as the Bank of Canada"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Experts agree: Canadian Dollar’s downside pressure may be about to ease",
+      "summary": "The Canadian Dollar (CAD) is hovering near the upper boundaries of its year-to-date range against the US Dollar, underpe"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee gains despite renewed Middle East conflicts support oil prices",
+      "summary": "The Indian Rupee (INR) rises against the US Dollar (USD) on Wednesday after a flat opening. The USD/INR pair falls to ne"
     },
     {
       "source": "Investing",
@@ -129,21 +154,6 @@
     {
       "source": "Investing",
       "title": "Neura Closes Strategic Funding Round and Partnerships to Build Emotional AI with Persistent, User-Owned Memory",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin rebounds above $63k as Strategy buys the dip, Iran & Israel halt strikes",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy acquires 1,550 bitcoin",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -181,10 +191,20 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Euro: Gains hinge on domestic demand – BNY",
+      "[弱気] Experts agree: Canadian Dollar’s downside pressure may "
+    ],
+    "JPY": [
+      "[弱気] British Pound refreshes weekly high vs broadly weaker J"
+    ],
+    "EUR": [
+      "[強気] Euro: Gains hinge on domestic demand – BNY",
+      "[弱気] British Pound refreshes weekly high vs broadly weaker J"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound refreshes weekly high vs broadly weaker J"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -192,6 +212,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Experts agree: Canadian Dollar’s downside pressure may "
     ]
   },
   "rates": {
