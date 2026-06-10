@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-10T16:55:28.777432",
-  "generated": "2026年06月10日 16:55",
+  "timestamp": "2026-06-10T23:20:46.754413",
+  "generated": "2026年06月10日 23:20",
   "scores": {
-    "USD": 1,
-    "JPY": 1,
-    "EUR": 0,
-    "GBP": 2,
-    "AUD": -2,
+    "USD": 2,
+    "JPY": 0,
+    "EUR": 1,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": 3,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
       "base_score": 1,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,62 +98,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver price falls toward two‑month low as rising Fed hike bets pressure XAG/USD",
-      "summary": "Silver (XAG/USD) remains under pressure on Wednesday and trades around $64.70 at the time of writing, down 1.02% on the "
+      "title": "The British Pound Sterling is hawkish for all the wrong reasons",
+      "summary": "Pound Sterling was handed a gift on Wednesday and dropped it within the hour."
     },
     {
       "source": "FXStreet",
-      "title": "British Pound hovers near 1.3400 as hot US CPI weighs on the USD",
-      "summary": "The Pound Sterling rose by over 0.19% on Wednesday after US inflation matched estimates, though the headline Consumer Pr"
+      "title": "Japanese Yen drags a historic rate hike into intervention country",
+      "summary": "The Japanese Yen just logged its weakest close in nearly two years on the same day US inflation printed a fresh cycle hi"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar loses ground for fourth day as NAB forecasts future RBA rate cuts",
-      "summary": "The AUD/USD pair trades near 0.7020 on Wednesday, as the Australian Dollar (AUD) continues to lose value after the lates"
+      "title": "Forex Today: US Dollar rebounds after inflation data",
+      "summary": "The US Dollar Index (DXY) trades with a firmer tone above 100.00 after May inflation data highlighted persistent price p"
     },
     {
       "source": "FXStreet",
-      "title": "Gold falls over 3% as US inflation data sustains Fed hike expectations",
-      "summary": "Gold (XAU/USD) remains under pressure on Wednesday as the latest US inflation data broadly matched market expectations a"
+      "title": "Euro trades muted ahead of expected ECB rate hike",
+      "summary": "The EUR/USD pair trades near the 1.1550 region on Thursday as the Euro (EUR) remains little changed despite expectations"
     },
     {
       "source": "FXStreet",
-      "title": "Denmark: Core inflation rise as headline stays below Euro area – Nordea",
-      "summary": "Nordea’s Jan Størup Nielsen notes that Danish consumer prices rose 1.9% year-over-year in May, with core inflation at 2."
+      "title": "USD/JPY Price Forecast: US Dollar holds above 160 as RSI nears overbought, BoJ risk looms",
+      "summary": "The USD/JPY pair extends its gains for the second straight day on Wednesday, drifting higher above the 160.00 threshold,"
     },
     {
       "source": "FXStreet",
-      "title": "BoC's Macklem: The economy is not in recession",
-      "summary": "Bank of Canada (BoC) Governor Tiff Macklem took questions from reporters, offering markets a clearer sense of how the ce"
+      "title": "Swiss Franc eases as traders weigh US inflation data and geopolitical risks",
+      "summary": "The Swiss Franc (CHF) weakens against the US Dollar (USD) on Wednesday as renewed tensions between the United States and"
     },
     {
       "source": "FXStreet",
-      "title": "Euro steadies as markets digest US inflation data and await ECB decision",
-      "summary": "The Euro (EUR) holds modest gains against the US Dollar (USD) on Wednesday as the Greenback comes under modest pressure "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Bearish outlook against USD as BoJ hike priced – Scotiabank",
-      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret say the Japanese Yen (JPY) is soft and underperforming most G10 currencies d"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Uptrend seen intact into FOMC – TD Securities",
-      "summary": "TD Securities strategists note that a softer United States (US) core Consumer Price Index (CPI) print triggered only mod"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso: Softer carry but relative support – Rabobank",
-      "summary": "Rabobank strategists Molly Schwartz and Christian Lawrence discusses Mexico in its latest Mexican Peso (MXN) Market Musi"
+      "title": "Gold price crashes as Trump's strike threat sends Oil and yields higher",
+      "summary": "Gold (XAU/USD) price  collapses over 3% on Wednesday after the latest inflation report in the US showed prices remain el"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin subdued at $62k amid US-Iran escalation; May CPI meets expectations",
+      "title": "Bitcoin subdued under $62k amid U.S.-Iran escalation; May CPI meets expectations",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Neura Closes Strategic Funding Round and Partnerships to Build Emotional AI with Persistent, User-Owned Memory",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,73 +187,75 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar loses ground for fourth day as NAB fo",
-      "[強気] Japanese Yen: Bearish outlook against USD as BoJ hike p",
-      "[弱気] Mexican Peso: Softer carry but relative support – Rabob"
+      "[強気] Euro trades muted ahead of expected ECB rate hike",
+      "[弱気] Swiss Franc eases as traders weigh US inflation data an"
     ],
-    "JPY": [
-      "[強気] Japanese Yen: Bearish outlook against USD as BoJ hike p"
+    "EUR": [
+      "[強気] Euro trades muted ahead of expected ECB rate hike"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] The British Pound Sterling is hawkish for all the wrong"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+263,479)",
-      "[弱気] Australian Dollar loses ground for fourth day as NAB fo"
+      "[COT] 🟢ロング優勢 (ネット:+263,479)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc eases as traders weigh US inflation data an"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.56,
+    "US_10Y": 4.53,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 2.04,
-    "DIFF_EURUSD": -1.56,
-    "DIFF_GBPUSD": 0.26,
-    "DIFF_AUDUSD": 0.4
+    "DIFF_USDJPY": 2.02,
+    "DIFF_EURUSD": -1.53,
+    "DIFF_GBPUSD": 0.29,
+    "DIFF_AUDUSD": 0.43
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.36908,
-      "prev_open": 160.17897,
-      "diff": 0.1901,
-      "diff_pct": 0.12
+      "today_open": 160.57197,
+      "prev_open": 160.36908,
+      "diff": 0.2029,
+      "diff_pct": 0.13
     },
     "EURUSD": {
-      "today_open": 1.15441,
-      "prev_open": 1.15327,
-      "diff": 0.0011,
-      "diff_pct": 0.1
+      "today_open": 1.15359,
+      "prev_open": 1.15441,
+      "diff": -0.0008,
+      "diff_pct": -0.07
     },
     "GBPUSD": {
-      "today_open": 1.33788,
-      "prev_open": 1.33389,
-      "diff": 0.004,
-      "diff_pct": 0.3
+      "today_open": 1.33681,
+      "prev_open": 1.33788,
+      "diff": -0.0011,
+      "diff_pct": -0.08
     },
     "AUDUSD": {
-      "today_open": 0.70276,
-      "prev_open": 0.7045,
-      "diff": -0.0017,
-      "diff_pct": -0.24
+      "today_open": 0.69967,
+      "prev_open": 0.70276,
+      "diff": -0.0031,
+      "diff_pct": -0.44
     },
     "WTI": {
-      "today_open": 133.08,
+      "today_open": 132.925,
       "prev_open": 132.0099945,
-      "diff": 1.07,
-      "diff_pct": 0.81
+      "diff": 0.915,
+      "diff_pct": 0.69
     },
     "SP500": {
-      "today_open": 733.41,
+      "today_open": 733.39001,
       "prev_open": 743.63,
-      "diff": -10.22,
-      "diff_pct": -1.37
+      "diff": -10.24,
+      "diff_pct": -1.38
     }
   }
 }
