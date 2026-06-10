@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-10T09:52:58.417073",
-  "generated": "2026年06月10日 09:52",
+  "timestamp": "2026-06-10T16:55:28.777432",
+  "generated": "2026年06月10日 16:55",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 1,
+    "JPY": 1,
     "EUR": 0,
-    "GBP": 1,
-    "AUD": -1,
+    "GBP": 2,
+    "AUD": -2,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "base_score": -2,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,62 +98,62 @@
     },
     {
       "source": "FXStreet",
-      "title": "BoC set to hold interest rate as inflation remains high but economy wobbles",
-      "summary": "The Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25% on Wednesday. This would be the f"
+      "title": "Silver price falls toward two‑month low as rising Fed hike bets pressure XAG/USD",
+      "summary": "Silver (XAG/USD) remains under pressure on Wednesday and trades around $64.70 at the time of writing, down 1.02% on the "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Core CPI focus keeps DXY supported – ING",
-      "summary": "ING’s Chris Turner notes the Dollar is holding recent gains as markets await the US May CPI report, with expectations th"
+      "title": "British Pound hovers near 1.3400 as hot US CPI weighs on the USD",
+      "summary": "The Pound Sterling rose by over 0.19% on Wednesday after US inflation matched estimates, though the headline Consumer Pr"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Could rebound toward six-month highs near 1.4000",
-      "summary": "USD/CAD loses ground for the second consecutive day, trading around 1.3930 during the European hours on Wednesday. Howev"
+      "title": "Australian Dollar loses ground for fourth day as NAB forecasts future RBA rate cuts",
+      "summary": "The AUD/USD pair trades near 0.7020 on Wednesday, as the Australian Dollar (AUD) continues to lose value after the lates"
     },
     {
       "source": "FXStreet",
-      "title": "Gold languishes near March low, below $4,200 as traders await US CPI report",
-      "summary": "Gold (XAU/USD) maintains its heavily offered tone through the first half of the European session and currently trades ne"
+      "title": "Gold falls over 3% as US inflation data sustains Fed hike expectations",
+      "summary": "Gold (XAU/USD) remains under pressure on Wednesday as the latest US inflation data broadly matched market expectations a"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Gains hinge on domestic demand – BNY",
-      "summary": "BNY’s Geoff Yu notes that recent EUR/USD support has come mainly from cross-border investors reducing hedges after the E"
+      "title": "Denmark: Core inflation rise as headline stays below Euro area – Nordea",
+      "summary": "Nordea’s Jan Størup Nielsen notes that Danish consumer prices rose 1.9% year-over-year in May, with core inflation at 2."
     },
     {
       "source": "FXStreet",
-      "title": "Iran blames US for harming diplomatic process with continued ceasefire violations",
-      "summary": "Iran's Foreign Ministry spokesperson Esmaeil Baghaei said during the European trading session on Wednesday that Tehran n"
+      "title": "BoC's Macklem: The economy is not in recession",
+      "summary": "Bank of Canada (BoC) Governor Tiff Macklem took questions from reporters, offering markets a clearer sense of how the ce"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound refreshes weekly high vs broadly weaker JPY amid Mideast tensions",
-      "summary": "The GBP/JPY cross turns positive for the third straight day following an intraday dip to the 214.30-214.25 region and to"
+      "title": "Euro steadies as markets digest US inflation data and await ECB decision",
+      "summary": "The Euro (EUR) holds modest gains against the US Dollar (USD) on Wednesday as the Greenback comes under modest pressure "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Downside risks versus USD with BoC on hold – Societe Generale",
-      "summary": "Societe Generale analysts note USD/CAD has broken key technical resistance and could extend higher as the Bank of Canada"
+      "title": "Japanese Yen: Bearish outlook against USD as BoJ hike priced – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret say the Japanese Yen (JPY) is soft and underperforming most G10 currencies d"
     },
     {
       "source": "FXStreet",
-      "title": "Experts agree: Canadian Dollar’s downside pressure may be about to ease",
-      "summary": "The Canadian Dollar (CAD) is hovering near the upper boundaries of its year-to-date range against the US Dollar, underpe"
+      "title": "US Dollar: Uptrend seen intact into FOMC – TD Securities",
+      "summary": "TD Securities strategists note that a softer United States (US) core Consumer Price Index (CPI) print triggered only mod"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee gains despite renewed Middle East conflicts support oil prices",
-      "summary": "The Indian Rupee (INR) rises against the US Dollar (USD) on Wednesday after a flat opening. The USD/INR pair falls to ne"
+      "title": "Mexican Peso: Softer carry but relative support – Rabobank",
+      "summary": "Rabobank strategists Molly Schwartz and Christian Lawrence discusses Mexico in its latest Mexican Peso (MXN) Market Musi"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
+      "title": "Bitcoin subdued at $62k amid US-Iran escalation; May CPI meets expectations",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Neura Closes Strategic Funding Round and Partnerships to Build Emotional AI with Persistent, User-Owned Memory",
+      "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
       "summary": ""
     }
   ],
@@ -192,29 +192,23 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: Gains hinge on domestic demand – BNY",
-      "[弱気] Experts agree: Canadian Dollar’s downside pressure may "
+      "[弱気] Australian Dollar loses ground for fourth day as NAB fo",
+      "[強気] Japanese Yen: Bearish outlook against USD as BoJ hike p",
+      "[弱気] Mexican Peso: Softer carry but relative support – Rabob"
     ],
     "JPY": [
-      "[弱気] British Pound refreshes weekly high vs broadly weaker J"
-    ],
-    "EUR": [
-      "[強気] Euro: Gains hinge on domestic demand – BNY",
-      "[弱気] British Pound refreshes weekly high vs broadly weaker J"
+      "[強気] Japanese Yen: Bearish outlook against USD as BoJ hike p"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound refreshes weekly high vs broadly weaker J"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+263,479)"
+      "[COT] 🟢ロング優勢 (ネット:+263,479)",
+      "[弱気] Australian Dollar loses ground for fourth day as NAB fo"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Experts agree: Canadian Dollar’s downside pressure may "
     ]
   },
   "rates": {
@@ -255,16 +249,16 @@
       "diff_pct": -0.24
     },
     "WTI": {
-      "today_open": 132.0099945,
-      "prev_open": 134.95,
-      "diff": -2.94,
-      "diff_pct": -2.18
+      "today_open": 133.08,
+      "prev_open": 132.0099945,
+      "diff": 1.07,
+      "diff_pct": 0.81
     },
     "SP500": {
-      "today_open": 743.63,
-      "prev_open": 743.35999,
-      "diff": 0.27,
-      "diff_pct": 0.04
+      "today_open": 733.41,
+      "prev_open": 743.63,
+      "diff": -10.22,
+      "diff_pct": -1.37
     }
   }
 }
