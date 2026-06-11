@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-11T17:34:24.751380",
-  "generated": "2026年06月11日 17:34",
+  "timestamp": "2026-06-11T23:17:26.820647",
+  "generated": "2026年06月11日 23:17",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -8,7 +8,7 @@
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
@@ -98,48 +98,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Neutral tone within tight band against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a neutral stance on USD/CNH, expecting intraday consoli"
+      "title": "WTI retreats to $ 85 amid renewed optimism over the end of the Middle East conflict",
+      "summary": "West Texas Intermediate (WTI) trades around $85 early in the Asian session on Friday, its lowest since mid-April. The bl"
     },
     {
       "source": "FXStreet",
-      "title": "WTI retreats as US‑Iran diplomacy tempers supply fears ahead of Fed decision",
-      "summary": "West Texas Intermediate (WTI) trades around $89.50 on Thursday at the time of writing, down 0.86% on the day, as investo"
+      "title": "Japanese Yen gets a rescue Tokyo did not pay for",
+      "summary": "USD/JPY spent the entire session glued to the area around 160.50, and it took the cancellation of a war, rather than any"
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan Dollar: Tech outflows and rising inflation weigh on TWD – Commerzbank",
-      "summary": "Commerzbank notes that USD/TWD has risen for five consecutive sessions to 31.68, driven by foreign equity outflows as gl"
+      "title": "Australian Dollar rallies on a peace deal missing one signature",
+      "summary": "The Australian Dollar spent most of Thursday pinned beneath the 0.7000 handle while Washington and Tehran traded fire fo"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen struggles near 160.50 as intervention fears offset US Dollar strength",
-      "summary": "USD/JPY struggles for direction on Thursday as fears of intervention by Japanese authorities cap upside, even as the US "
+      "title": "Chinese Yuan: Oil shock and reserves strategy shape Yuan – Commerzbank",
+      "summary": "Commerzbank analysts report that USD/CNY is trading near 6.78, with their model implying a slightly stronger PBoC fixing"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls to two-month low after hot US PPI and steady jobless claims",
-      "summary": "The AUD/USD pair trades near the 0.6980 level on Thursday, hovering near a two-month low as the Australian Dollar (AUD) "
+      "title": "Gold surges as Trump signals weekend Iran accord",
+      "summary": "Gold prices rally sharply on Thursday after US President Donald Trump revealed that the US and Iran are close to agreein"
     },
     {
       "source": "FXStreet",
-      "title": "China: Export prices still damp global inflation – Standard Chartered",
-      "summary": "Standard Chartered economists Hunter Chan and Shuang Ding argue that higher Oil and AI-related goods prices have lifted "
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound slips as war-driven PPI fuels US Dollar rebound",
-      "summary": "The Pound Sterling (GBP) registers losses of 0.19% on Thursday after the latest US inflation report reflected the impact"
-    },
-    {
-      "source": "FXStreet",
-      "title": "LatAm FX: Carry resilience versus Fed repricing – BNY",
-      "summary": "BNY’s Geoff Yu says Latin American currencies remain relatively resilient even as iFlow data show declining positions in"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Bank of Japan: Gradual normalisation with higher JGB yields – ING",
-      "summary": "ING’s Min Joo Kang expects the Bank of Japan to deliver a 25bp rate hike in June, supported by resilient growth, negativ"
+      "title": "Forex Today: US Dollar retreats from ten-week high, ECB outlook weighs on Euro",
+      "summary": "The US Dollar Index (DXY) fell sharply to the 99.60 level after climbing to a three-month high earlier in the session, a"
     },
     {
       "source": "Investing",
@@ -154,6 +139,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,7 +181,9 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Australian Dollar rallies on a peace deal missing one s",
+      "[強気] Chinese Yuan: Oil shock and reserves strategy shape Yua"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -202,55 +194,58 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Chinese Yuan: Oil shock and reserves strategy shape Yua"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.53,
+    "US_10Y": 4.55,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 2.02,
-    "DIFF_EURUSD": -1.53,
-    "DIFF_GBPUSD": 0.29,
-    "DIFF_AUDUSD": 0.43
+    "DIFF_USDJPY": 2.03,
+    "DIFF_EURUSD": -1.55,
+    "DIFF_GBPUSD": 0.27,
+    "DIFF_AUDUSD": 0.41
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.57197,
-      "prev_open": 160.36908,
-      "diff": 0.2029,
-      "diff_pct": 0.13
+      "today_open": 159.96491,
+      "prev_open": 160.57197,
+      "diff": -0.6071,
+      "diff_pct": -0.38
     },
     "EURUSD": {
-      "today_open": 1.15359,
-      "prev_open": 1.15441,
-      "diff": -0.0008,
-      "diff_pct": -0.07
+      "today_open": 1.15792,
+      "prev_open": 1.15359,
+      "diff": 0.0043,
+      "diff_pct": 0.37
     },
     "GBPUSD": {
-      "today_open": 1.33681,
-      "prev_open": 1.33788,
-      "diff": -0.0011,
-      "diff_pct": -0.08
+      "today_open": 1.34163,
+      "prev_open": 1.33681,
+      "diff": 0.0048,
+      "diff_pct": 0.36
     },
     "AUDUSD": {
-      "today_open": 0.69967,
-      "prev_open": 0.70276,
-      "diff": -0.0031,
-      "diff_pct": -0.44
+      "today_open": 0.70515,
+      "prev_open": 0.69967,
+      "diff": 0.0055,
+      "diff_pct": 0.79
     },
     "WTI": {
-      "today_open": 134.33,
-      "prev_open": 132.925,
-      "diff": 1.405,
-      "diff_pct": 1.06
+      "today_open": 134.27,
+      "prev_open": 132.92999,
+      "diff": 1.34,
+      "diff_pct": 1.01
     },
     "SP500": {
-      "today_open": 728.8,
+      "today_open": 728.76001,
       "prev_open": 733.39001,
-      "diff": -4.59,
+      "diff": -4.63,
       "diff_pct": -0.63
     }
   }
