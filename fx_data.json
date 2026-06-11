@@ -1,17 +1,24 @@
 {
-  "timestamp": "2026-06-11T10:18:09.147903",
-  "generated": "2026年06月11日 10:18",
+  "timestamp": "2026-06-11T17:34:24.751380",
+  "generated": "2026年06月11日 17:34",
   "scores": {
     "USD": 2,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
@@ -20,7 +27,7 @@
       "quote_score": 0
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
       "base_score": 0,
@@ -34,28 +41,26 @@
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
+      "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
@@ -92,54 +97,54 @@
       "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M. Warsh is sworn in as the new chair",
-      "summary": "Federal Reserve Board names Jerome H. Powell as chair pro tempore; Powell will serve as chair pro tempore until Kevin M."
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Neutral tone within tight band against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a neutral stance on USD/CNH, expecting intraday consoli"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC caution limits gains against US Dollar – Commerzbank",
-      "summary": "Michael Pfister at Commerzbank notes the Bank of Canada (BoC) kept rates at 2.25% and sees little impetus for near-term "
+      "title": "WTI retreats as US‑Iran diplomacy tempers supply fears ahead of Fed decision",
+      "summary": "West Texas Intermediate (WTI) trades around $89.50 on Thursday at the time of writing, down 0.86% on the day, as investo"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains depressed near two-month lows in risk-off markets",
-      "summary": "The Australian Dollar (AUD) has given away previous gains and is trading lower for the third consecutive day against a s"
+      "title": "Taiwan Dollar: Tech outflows and rising inflation weigh on TWD – Commerzbank",
+      "summary": "Commerzbank notes that USD/TWD has risen for five consecutive sessions to 31.68, driven by foreign equity outflows as gl"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank expected to increase interest rates as markets look for hints of further hikes ahead",
-      "summary": "The European Central Bank (ECB) is set to announce its monetary policy decision at 12:15 GMT following its June meeting."
+      "title": "Japanese Yen struggles near 160.50 as intervention fears offset US Dollar strength",
+      "summary": "USD/JPY struggles for direction on Thursday as fears of intervention by Japanese authorities cap upside, even as the US "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Uptrend seen intact into FOMC – TD Securities",
-      "summary": "TD Securities strategists note that a softer core United Kingdom (UK) Consumer Price Index (CPI) print triggered initial"
+      "title": "Australian Dollar falls to two-month low after hot US PPI and steady jobless claims",
+      "summary": "The AUD/USD pair trades near the 0.6980 level on Thursday, hovering near a two-month low as the Australian Dollar (AUD) "
     },
     {
       "source": "FXStreet",
-      "title": "Bank of Canada: Policy hold as recession concerns linger – Rabobank",
-      "summary": "Rabobank’s Molly Schwartz and Christian Lawrence review the latest Bank of Canada (BoC) decision, noting policymakers ke"
+      "title": "China: Export prices still damp global inflation – Standard Chartered",
+      "summary": "Standard Chartered economists Hunter Chan and Shuang Ding argue that higher Oil and AI-related goods prices have lifted "
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Downside risk against US Dollar as ECB hikes – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights EUR/USD trading defensively near 1.1530 ahead of an expected 25 "
+      "title": "British Pound slips as war-driven PPI fuels US Dollar rebound",
+      "summary": "The Pound Sterling (GBP) registers losses of 0.19% on Thursday after the latest US inflation report reflected the impact"
     },
     {
       "source": "FXStreet",
-      "title": "Euro trades flat vs Yen as ECB guidance focus, intervention fears cap gains",
-      "summary": "EUR/JPY trades around 185.20 on Thursday at the time of writing, as market participants remain cautious ahead of the Eur"
+      "title": "LatAm FX: Carry resilience versus Fed repricing – BNY",
+      "summary": "BNY’s Geoff Yu says Latin American currencies remain relatively resilient even as iFlow data show declining positions in"
     },
     {
       "source": "FXStreet",
-      "title": "Turkish Lira: Hawkish CBRT tone but lira risks ahead – ING",
-      "summary": "ING’s Frantisek Taborsky expects the Central Bank of Turkey (CBRT) to keep its policy rate at 37%, maintaining a tight s"
+      "title": "Bank of Japan: Gradual normalisation with higher JGB yields – ING",
+      "summary": "ING’s Min Joo Kang expects the Bank of Japan to deliver a 25bp rate hike in June, supported by resilient growth, negativ"
     },
     {
-      "source": "FXStreet",
-      "title": "European Central Bank: Focus shifts to forward guidance – Commerzbank",
-      "summary": "Commerzbank’s Erik Liem expects the European Central Bank (ECB) to deliver a fully priced 25bp hike, leaving markets foc"
+      "source": "Investing",
+      "title": "BTCC Exchange Celebrates 15 Years: Built for the Long Game",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Neura Closes Strategic Funding Round and Partnerships to Build Emotional AI with Persistent, User-Owned Memory",
       "summary": ""
     }
   ],
@@ -191,28 +191,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar: BoC caution limits gains against US Do",
-      "[強気] Australian Dollar remains depressed near two-month lows",
-      "[弱気] US Dollar: Uptrend seen intact into FOMC – TD Securitie",
-      "[強気] Euro: Downside risk against US Dollar as ECB hikes – BB"
-    ],
-    "EUR": [
-      "[強気] Euro: Downside risk against US Dollar as ECB hikes – BB"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+263,479)",
-      "[強気] Australian Dollar remains depressed near two-month lows"
+      "[COT] 🟢ロング優勢 (ネット:+263,479)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar: BoC caution limits gains against US Do"
     ]
   },
   "rates": {
@@ -253,16 +242,16 @@
       "diff_pct": -0.44
     },
     "WTI": {
-      "today_open": 132.925,
-      "prev_open": 132.0099945,
-      "diff": 0.915,
-      "diff_pct": 0.69
+      "today_open": 134.33,
+      "prev_open": 132.925,
+      "diff": 1.405,
+      "diff_pct": 1.06
     },
     "SP500": {
-      "today_open": 733.39001,
-      "prev_open": 743.63,
-      "diff": -10.24,
-      "diff_pct": -1.38
+      "today_open": 728.8,
+      "prev_open": 733.39001,
+      "diff": -4.59,
+      "diff_pct": -0.63
     }
   }
 }
