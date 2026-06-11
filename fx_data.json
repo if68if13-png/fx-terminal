@@ -1,33 +1,33 @@
 {
-  "timestamp": "2026-06-10T23:20:46.754413",
-  "generated": "2026年06月10日 23:20",
+  "timestamp": "2026-06-11T10:18:09.147903",
+  "generated": "2026年06月11日 10:18",
   "scores": {
     "USD": 2,
     "JPY": 0,
     "EUR": 1,
-    "GBP": 3,
-    "AUD": -1,
+    "GBP": 2,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": -1
+    "CAD": -1,
+    "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
       "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
@@ -41,18 +41,18 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 3,
-      "quote_score": 2
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -98,38 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "The British Pound Sterling is hawkish for all the wrong reasons",
-      "summary": "Pound Sterling was handed a gift on Wednesday and dropped it within the hour."
+      "title": "Canadian Dollar: BoC caution limits gains against US Dollar – Commerzbank",
+      "summary": "Michael Pfister at Commerzbank notes the Bank of Canada (BoC) kept rates at 2.25% and sees little impetus for near-term "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen drags a historic rate hike into intervention country",
-      "summary": "The Japanese Yen just logged its weakest close in nearly two years on the same day US inflation printed a fresh cycle hi"
+      "title": "Australian Dollar remains depressed near two-month lows in risk-off markets",
+      "summary": "The Australian Dollar (AUD) has given away previous gains and is trading lower for the third consecutive day against a s"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar rebounds after inflation data",
-      "summary": "The US Dollar Index (DXY) trades with a firmer tone above 100.00 after May inflation data highlighted persistent price p"
+      "title": "European Central Bank expected to increase interest rates as markets look for hints of further hikes ahead",
+      "summary": "The European Central Bank (ECB) is set to announce its monetary policy decision at 12:15 GMT following its June meeting."
     },
     {
       "source": "FXStreet",
-      "title": "Euro trades muted ahead of expected ECB rate hike",
-      "summary": "The EUR/USD pair trades near the 1.1550 region on Thursday as the Euro (EUR) remains little changed despite expectations"
+      "title": "US Dollar: Uptrend seen intact into FOMC – TD Securities",
+      "summary": "TD Securities strategists note that a softer core United Kingdom (UK) Consumer Price Index (CPI) print triggered initial"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: US Dollar holds above 160 as RSI nears overbought, BoJ risk looms",
-      "summary": "The USD/JPY pair extends its gains for the second straight day on Wednesday, drifting higher above the 160.00 threshold,"
+      "title": "Bank of Canada: Policy hold as recession concerns linger – Rabobank",
+      "summary": "Rabobank’s Molly Schwartz and Christian Lawrence review the latest Bank of Canada (BoC) decision, noting policymakers ke"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc eases as traders weigh US inflation data and geopolitical risks",
-      "summary": "The Swiss Franc (CHF) weakens against the US Dollar (USD) on Wednesday as renewed tensions between the United States and"
+      "title": "Euro: Downside risk against US Dollar as ECB hikes – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights EUR/USD trading defensively near 1.1530 ahead of an expected 25 "
     },
     {
       "source": "FXStreet",
-      "title": "Gold price crashes as Trump's strike threat sends Oil and yields higher",
-      "summary": "Gold (XAU/USD) price  collapses over 3% on Wednesday after the latest inflation report in the US showed prices remain el"
+      "title": "Euro trades flat vs Yen as ECB guidance focus, intervention fears cap gains",
+      "summary": "EUR/JPY trades around 185.20 on Thursday at the time of writing, as market participants remain cautious ahead of the Eur"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Turkish Lira: Hawkish CBRT tone but lira risks ahead – ING",
+      "summary": "ING’s Frantisek Taborsky expects the Central Bank of Turkey (CBRT) to keep its policy rate at 37%, maintaining a tight s"
+    },
+    {
+      "source": "FXStreet",
+      "title": "European Central Bank: Focus shifts to forward guidance – Commerzbank",
+      "summary": "Commerzbank’s Erik Liem expects the European Central Bank (ECB) to deliver a fully priced 25bp hike, leaving markets foc"
     },
     {
       "source": "Investing",
@@ -144,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Neura Closes Strategic Funding Round and Partnerships to Build Emotional AI with Persistent, User-Owned Memory",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,25 +192,27 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro trades muted ahead of expected ECB rate hike",
-      "[弱気] Swiss Franc eases as traders weigh US inflation data an"
+      "[弱気] Canadian Dollar: BoC caution limits gains against US Do",
+      "[強気] Australian Dollar remains depressed near two-month lows",
+      "[弱気] US Dollar: Uptrend seen intact into FOMC – TD Securitie",
+      "[強気] Euro: Downside risk against US Dollar as ECB hikes – BB"
     ],
     "EUR": [
-      "[強気] Euro trades muted ahead of expected ECB rate hike"
+      "[強気] Euro: Downside risk against US Dollar as ECB hikes – BB"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] The British Pound Sterling is hawkish for all the wrong"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+263,479)"
+      "[COT] 🟢ロング優勢 (ネット:+263,479)",
+      "[強気] Australian Dollar remains depressed near two-month lows"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CHF": [
-      "[弱気] Swiss Franc eases as traders weigh US inflation data an"
+    "CAD": [
+      "[弱気] Canadian Dollar: BoC caution limits gains against US Do"
     ]
   },
   "rates": {
