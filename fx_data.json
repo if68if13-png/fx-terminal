@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-11T23:17:26.820647",
-  "generated": "2026年06月11日 23:17",
+  "timestamp": "2026-06-12T10:05:47.108765",
+  "generated": "2026年06月12日 10:05",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,33 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "WTI retreats to $ 85 amid renewed optimism over the end of the Middle East conflict",
-      "summary": "West Texas Intermediate (WTI) trades around $85 early in the Asian session on Friday, its lowest since mid-April. The bl"
+      "title": "New Zealand Dollar: Kiwi stays under pressure as growth lags – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur argues that the New Zealand Dollar faces ongoing headwinds as the Iran conflict, higher energ"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen gets a rescue Tokyo did not pay for",
-      "summary": "USD/JPY spent the entire session glued to the area around 160.50, and it took the cancellation of a war, rather than any"
+      "title": "Australian Dollar recovers modest intraday losses vs USD; lacks follow-through buying",
+      "summary": "The Australian Dollar (AUD) reverses an intraday dip to the 0.7020 area and climbs to the top end of its daily range dur"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar rallies on a peace deal missing one signature",
-      "summary": "The Australian Dollar spent most of Thursday pinned beneath the 0.7000 handle while Washington and Tehran traded fire fo"
+      "title": "Australian Dollar: Rebound tests 0.7060 resistance against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note AUD/USD’s sharp rebound from 0.6979 to 0.7055 has room "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Oil shock and reserves strategy shape Yuan – Commerzbank",
-      "summary": "Commerzbank analysts report that USD/CNY is trading near 6.78, with their model implying a slightly stronger PBoC fixing"
+      "title": "Indian Rupee recovers as US-Iran deal hopes drag oil prices",
+      "summary": "The Indian Rupee (INR) opens sharply higher against the US Dollar (USD) on Friday."
     },
     {
       "source": "FXStreet",
-      "title": "Gold surges as Trump signals weekend Iran accord",
-      "summary": "Gold prices rally sharply on Thursday after US President Donald Trump revealed that the US and Iran are close to agreein"
+      "title": "Gold flat lines above $4,200; bearish bias remains amid Iran uncertainty, Fed hike bets",
+      "summary": "Gold (XAU/USD) recovers modest intraday losses and turns flat during the first half of the European session on Thursday,"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar retreats from ten-week high, ECB outlook weighs on Euro",
-      "summary": "The US Dollar Index (DXY) fell sharply to the 99.60 level after climbing to a three-month high earlier in the session, a"
+      "title": "US Dollar: Bullish consensus faces reversal risks – Nomura",
+      "summary": "Nomura’s Dominic Bunning and colleagues note that while the Dollar bull case remains supported by strong US data, higher"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Iran says MoU with US requires finalization by relevant authorities",
+      "summary": "Iran’s Mehr news agency has reported in the European trade on Friday that the draft with the United States (US) regardin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro: ECB path tied to Middle East risks – MUFG",
+      "summary": "MUFG’s Lee Hardman reports that renewed optimism over a US-Iran deal has lifted the Euro against the Dollar, with EUR/US"
+    },
+    {
+      "source": "Investing",
+      "title": "Bybit Named to Fortune Crypto 100 as It Accelerates Its Vision for The New Financial Platform",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -134,11 +149,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin subdued under $62k amid U.S.-Iran escalation; May CPI meets expectations",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin dips below $62k as ETF outflows continue; Strategy buys the dip",
       "summary": ""
     },
     {
@@ -182,8 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar rallies on a peace deal missing one s",
-      "[強気] Chinese Yuan: Oil shock and reserves strategy shape Yua"
+      "[強気] US Dollar: Bullish consensus faces reversal risks – Nom"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -194,9 +203,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Chinese Yuan: Oil shock and reserves strategy shape Yua"
     ]
   },
   "rates": {
