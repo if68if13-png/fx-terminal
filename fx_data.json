@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-06-12T16:40:36.358153",
-  "generated": "2026年06月12日 16:40",
+  "timestamp": "2026-06-12T23:10:58.328599",
+  "generated": "2026年06月12日 23:10",
   "scores": {
     "USD": 1,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
-    "CAD": -1,
+    "NZD": 2,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
     {
       "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
       "base_score": -1,
       "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -50,9 +50,9 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -98,48 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver price firms on US Dollar weakness amid easing US-Iran haven demand",
-      "summary": "Silver (XAG/USD) trades around $67.50 on Friday at the time of writing, up 0.21% on the day. The white metal maintains a"
+      "title": "Forecasting the upcoming week: Fed, BoJ, BoE and RBA decisions take center stage",
+      "summary": "The US Dollar Index (DXY) lost ground during the week, down 0.27% to trade near the 99.80 level as investors prepared fo"
     },
     {
       "source": "FXStreet",
-      "title": "BoE seen holding rates as economists split on next move – RTRS",
-      "summary": "A Reuters poll found that the Bank of England is projected to keep the Bank Rate at 3.75% at the June 18 meeting, based "
+      "title": "United Kingdom: Growth resilience but softer inflation – Deutsche Bank",
+      "summary": "Deutsche Bank’s Sanjay Raja says the UK economy is tracking close to the Bank of England’s Scenario A, with stronger‑tha"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound stalls as UK GDP shrinks, diplomacy boosts risk mood",
-      "summary": "The Pound Sterling (GBP) turns negative against the US Dollar (USD) on Friday after UK data showed the economy contracte"
+      "title": "Gold clears $4,200 as optimism on Middle East deal dents inflation woes",
+      "summary": "Gold (XAU/USD) price consolidates above the $4,200 figure on Friday as market participants are optimistic about a potent"
     },
     {
       "source": "FXStreet",
-      "title": "US officials' comments on Iran negotiations put mild pressure on US Dollar",
-      "summary": "United States Vice President JD Vance said on Friday that Iran would not receive cash or released funds simply for signi"
+      "title": "South Korean Won: Supported by equities and hawkish BoK – BBH",
+      "summary": "Brown Brothers Harriman’s Elias Haddad highlights strong South Korean asset performance, with South Korean Won (KRW) out"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Steady against US Dollar before key BoE and data – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that the British Pound (GBP) is consolidating recent gains ar"
+      "title": "USD/CAD Price Forecast: RSI enters overbought territory as bears defend 1.4000",
+      "summary": "USD/CAD trades on the front foot on Friday as lower Oil prices weigh on the commodity-linked Canadian Dollar (CAD) amid "
     },
     {
       "source": "FXStreet",
-      "title": "Euro supported by hawkish ECB rhetoric as British Pound struggles after weak GDP",
-      "summary": "EUR/GBP holds firm on Friday, with the Euro (EUR) modestly outperforming the British Pound (GBP) as weak UK Gross Domest"
+      "title": "Japanese Yen: Weakness raises intervention concerns – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report USD/JPY is steady but elevated, with recent gains already s"
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Risk-on bounce but policy still key – ING",
-      "summary": "ING’s Frantisek Taborsky notes that headlines on a possible end to the US-Iran conflict triggered a risk-on move, helpin"
+      "title": "Euro holds steady against the US Dollar as markets await clarity on a possible US-Iran peace deal",
+      "summary": "EUR/USD fluctuates between modest gains and losses heading into the weekend as traders await Tehran's decision on a poss"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Overbought Dollar holds near 1.40 ceiling – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe that the Canadian Dollar (CAD) is weighed down by weaker O"
+      "title": "Chinese Yuan: Policy mix supports stability – Societe Generale",
+      "summary": "Societe Generale notes that Chinese inflation remains subdued, with May Consumer Price Index (CPI) at 1.2% and core at 1"
     },
     {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar dips as robust US sentiment, inflation data underpin US Dollar",
-      "summary": "NZD/USD trades around 0.5830 on Friday at the time of writing, down 0.15% on the day as the US Dollar (USD) maintains a "
+      "source": "Investing",
+      "title": "Bitcoin set to snap four-week losing streak; SpaceX becomes a top corporate holder",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -159,105 +159,102 @@
   ],
   "cot": {
     "CHF": {
-      "long": 111432,
-      "short": 67421,
-      "net": 44011,
+      "long": 115412,
+      "short": 72498,
+      "net": 42914,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 36953,
+      "long": 38480,
       "short": 484,
-      "net": 36469,
+      "net": 37996,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 21713,
-      "short": 2969,
-      "net": 18744,
+      "long": 25845,
+      "short": 3096,
+      "net": 22749,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 21713,
-      "short": 2969,
-      "net": 18744,
+      "long": 25845,
+      "short": 3096,
+      "net": 22749,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 305391,
-      "short": 41912,
-      "net": 263479,
+      "long": 314177,
+      "short": 66025,
+      "net": 248152,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Silver price firms on US Dollar weakness amid easing US",
-      "[弱気] Canadian Dollar: Overbought Dollar holds near 1.40 ceil",
-      "[強気] New Zealand Dollar dips as robust US sentiment, inflati"
+      "[弱気] Japanese Yen: Weakness raises intervention concerns – S"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Weakness raises intervention concerns – S"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+263,479)"
+      "[COT] 🟢ロング優勢 (ネット:+248,152)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar dips as robust US sentiment, inflati"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar: Overbought Dollar holds near 1.40 ceil"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.55,
+    "US_10Y": 4.45,
     "JP_10Y": 2.515,
     "DE_10Y": 2.9963157895,
     "GB_10Y": 4.8207,
     "AU_10Y": 4.96,
-    "DIFF_USDJPY": 2.03,
-    "DIFF_EURUSD": -1.55,
-    "DIFF_GBPUSD": 0.27,
-    "DIFF_AUDUSD": 0.41
+    "DIFF_USDJPY": 1.94,
+    "DIFF_EURUSD": -1.45,
+    "DIFF_GBPUSD": 0.37,
+    "DIFF_AUDUSD": 0.51
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.96491,
-      "prev_open": 160.57197,
-      "diff": -0.6071,
-      "diff_pct": -0.38
+      "today_open": 160.22267,
+      "prev_open": 159.96491,
+      "diff": 0.2578,
+      "diff_pct": 0.16
     },
     "EURUSD": {
-      "today_open": 1.15792,
-      "prev_open": 1.15359,
-      "diff": 0.0043,
-      "diff_pct": 0.37
+      "today_open": 1.15675,
+      "prev_open": 1.15792,
+      "diff": -0.0012,
+      "diff_pct": -0.1
     },
     "GBPUSD": {
-      "today_open": 1.34163,
-      "prev_open": 1.33681,
-      "diff": 0.0048,
-      "diff_pct": 0.36
+      "today_open": 1.34051,
+      "prev_open": 1.34163,
+      "diff": -0.0011,
+      "diff_pct": -0.08
     },
     "AUDUSD": {
-      "today_open": 0.70515,
-      "prev_open": 0.69967,
-      "diff": 0.0055,
-      "diff_pct": 0.79
+      "today_open": 0.70442,
+      "prev_open": 0.70515,
+      "diff": -0.0007,
+      "diff_pct": -0.1
     },
     "WTI": {
-      "today_open": 126.95,
+      "today_open": 127.029999,
       "prev_open": 134.27,
-      "diff": -7.32,
-      "diff_pct": -5.45
+      "diff": -7.24,
+      "diff_pct": -5.39
     },
     "SP500": {
-      "today_open": 740.74,
+      "today_open": 740.71002,
       "prev_open": 728.76001,
-      "diff": 11.98,
+      "diff": 11.95,
       "diff_pct": 1.64
     }
   }
