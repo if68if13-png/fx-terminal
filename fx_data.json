@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-15T11:57:35.545912",
-  "generated": "2026年06月15日 11:57",
+  "timestamp": "2026-06-15T18:22:16.043267",
+  "generated": "2026年06月15日 18:22",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 2,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "quote_score": 2
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "base_score": 0,
+      "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -98,52 +98,42 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold advances as US-Iran framework deal, weaker Dollar support rebound",
-      "summary": "Gold (XAU/USD) trades around $4,340 at the time of writing on Monday, up 2.86% on the day and extending the rebound that"
+      "title": "Gold explodes as US-Iran breakthrough crushes Oil prices",
+      "summary": "Gold (XAU/USD) rallies by more than 3% on Monday after the US and Iran reached a deal to end their conflict, easing infl"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Holds near 0.7090 with bullish pressure mounting",
-      "summary": "The Australian Dollar (AUD) trims previous gains against the US Dollar (USD) on Monday, as markets ponder the peace agre"
+      "title": "Australian Dollar rebounds as softer US Dollar supports risk sentiment",
+      "summary": "The AUD/USD pair rebounds near the 0.7080 region on Monday amid improved risk sentiment following reports of a prelimina"
     },
     {
       "source": "FXStreet",
-      "title": "The BoJ is about to hike: Why the Japanese Yen is still pinned near 160.00",
-      "summary": "The Japanese Yen (JPY) continues to trade firmly around the psychologically crucial 160.00 level against the US Dollar."
+      "title": "Oil: Strait of Hormuz reopening eases stress – BNY",
+      "summary": "BNY’s Bob Savage reports that the U.S.-Iran agreement to reopen the Strait of Hormuz has significantly reduced immediate"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Gradual upside path outlined – Rabobank",
-      "summary": "Rabobank’s FX Strategy team at RaboResearch Global Economics & Markets discusses how the Dollar initially benefited from"
+      "title": "Euro holds firm as traders assess US-Iran peace deal, Fed decision looms",
+      "summary": "EUR/USD holds firm on Monday as the US-Iran peace deal boosts risk appetite, reducing safe-haven demand for the US Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "Global Macro: Hawkish pivot shapes risk landscape – HSBC",
-      "summary": "HSBC Asset Management’s Investment Weekly highlights how higher Oil prices, China’s export surge and US AI investment ar"
+      "title": "Japanese Yen gains ground after downbeat US industrial output",
+      "summary": "The USD/JPY pair trades with a cautious tone as investors digest softer United States (US) industrial activity data whil"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds gains as risk appetite offsets downbeat Eurozone data",
-      "summary": "The Euro (EUR) maintains its positive tone against the US Dollar (USD) on Monday, with the EUR/USD pair trading near 10-"
+      "title": "New Zealand Dollar rises on US-Iran de-escalation ahead of Fed decision",
+      "summary": "NZD/USD trades around 0.5840 at the time of writing on Monday, up 0.17% on the day. The pair benefits from broad-based U"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Yen underperforms amid BoJ rate outlook uncertainty",
-      "summary": "The Japanese Yen (JPY) trades lower against its major currency peers during the European trading session on Monday, whil"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar advances as US-Iran framework boosts risk appetite ahead of RBA decision",
-      "summary": "AUD/USD trades around 0.7070 at the time of writing on Monday, up 0.35% on the day, benefiting from renewed risk appetit"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee holds strength on US-Iran deal finalization",
-      "summary": "The Indian Rupee (INR) trades strongly against the US Dollar (USD) in India's afternoon trading hours on Monday. The USD"
+      "title": "Gold climbs over 3% as US-Iran peace deal sends US Dollar, Oil prices lower",
+      "summary": "Gold (XAU/USD) starts the week on a positive note, rising more than 3% after the United States (US) and Iran reached a f"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin set to snap four-week losing streak; SpaceX becomes a top corporate holder",
+      "title": "Strategy sells shares, purchases bitcoin worth $100 million",
       "summary": ""
     },
     {
@@ -187,12 +177,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold advances as US-Iran framework deal, weaker Dollar ",
-      "[強気] Euro holds gains as risk appetite offsets downbeat Euro",
-      "[強気] Indian Rupee holds strength on US-Iran deal finalizatio"
+      "[強気] Japanese Yen gains ground after downbeat US industrial ",
+      "[弱気] New Zealand Dollar rises on US-Iran de-escalation ahead"
     ],
-    "EUR": [
-      "[強気] Euro holds gains as risk appetite offsets downbeat Euro"
+    "JPY": [
+      "[強気] Japanese Yen gains ground after downbeat US industrial "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -202,7 +191,8 @@
       "[COT] 🟢ロング優勢 (ネット:+248,152)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar rises on US-Iran de-escalation ahead"
     ]
   },
   "rates": {
@@ -243,16 +233,16 @@
       "diff_pct": -0.07
     },
     "WTI": {
-      "today_open": 127.029999,
-      "prev_open": 134.27,
-      "diff": -7.24,
-      "diff_pct": -5.39
+      "today_open": 119.97,
+      "prev_open": 127.029999,
+      "diff": -7.06,
+      "diff_pct": -5.56
     },
     "SP500": {
-      "today_open": 740.71002,
-      "prev_open": 728.76001,
-      "diff": 11.95,
-      "diff_pct": 1.64
+      "today_open": 751.83,
+      "prev_open": 740.71002,
+      "diff": 11.12,
+      "diff_pct": 1.5
     }
   }
 }
