@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-15T18:22:16.043267",
-  "generated": "2026年06月15日 18:22",
+  "timestamp": "2026-06-15T23:29:36.699997",
+  "generated": "2026年06月15日 23:29",
   "scores": {
     "USD": 2,
-    "JPY": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -20,6 +20,13 @@
       "quote_score": 2
     },
     {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
@@ -27,25 +34,11 @@
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -53,6 +46,13 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,6 +98,36 @@
     },
     {
       "source": "FXStreet",
+      "title": "The Bank of Japan can't save the Japanese Yen",
+      "summary": "USD/JPY is grinding into the Bank of Japan's (BoJ) June meeting above the 160.00 handle, a whisker from multi-decade hig"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar advances as Hormuz breakthrough sinks USD and Oil",
+      "summary": "The Australian Dollar registered gains of over 0.37% on Monday as the US and Iran agreed on a Memorandum of Understandin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar lifts off daily lows, Trump says Iran deal is signed",
+      "summary": "The US Dollar Index (DXY) lifted off 10-day lows to reach the 99.70 price zone even after Trump said it was “important t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Peace breaks out and the New Zealand Dollar pays for it",
+      "summary": "Monday played out as a textbook risk-on session, with global equities ripping higher and Crude Oil tumbling after Washin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: US Dollar retreats as inverted head-and-shoulders remains intact",
+      "summary": "USD/CHF retreats by over 0.34% on Monday amid most G8 FX currencies appreciating against the US Dollar, as the Middle Ea"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar weakens on US-Iran peace deal but remains supported by hawkish Fed outlook",
+      "summary": "The US Dollar (USD) trades on the back foot against its major peers on Monday as traders trim safe-haven positions amid "
+    },
+    {
+      "source": "FXStreet",
       "title": "Gold explodes as US-Iran breakthrough crushes Oil prices",
       "summary": "Gold (XAU/USD) rallies by more than 3% on Monday after the US and Iran reached a deal to end their conflict, easing infl"
     },
@@ -105,31 +135,6 @@
       "source": "FXStreet",
       "title": "Australian Dollar rebounds as softer US Dollar supports risk sentiment",
       "summary": "The AUD/USD pair rebounds near the 0.7080 region on Monday amid improved risk sentiment following reports of a prelimina"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Oil: Strait of Hormuz reopening eases stress – BNY",
-      "summary": "BNY’s Bob Savage reports that the U.S.-Iran agreement to reopen the Strait of Hormuz has significantly reduced immediate"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro holds firm as traders assess US-Iran peace deal, Fed decision looms",
-      "summary": "EUR/USD holds firm on Monday as the US-Iran peace deal boosts risk appetite, reducing safe-haven demand for the US Dolla"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen gains ground after downbeat US industrial output",
-      "summary": "The USD/JPY pair trades with a cautious tone as investors digest softer United States (US) industrial activity data whil"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar rises on US-Iran de-escalation ahead of Fed decision",
-      "summary": "NZD/USD trades around 0.5840 at the time of writing on Monday, up 0.17% on the day. The pair benefits from broad-based U"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold climbs over 3% as US-Iran peace deal sends US Dollar, Oil prices lower",
-      "summary": "Gold (XAU/USD) starts the week on a positive note, rising more than 3% after the United States (US) and Iran reached a f"
     },
     {
       "source": "Investing",
@@ -176,12 +181,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen gains ground after downbeat US industrial ",
-      "[弱気] New Zealand Dollar rises on US-Iran de-escalation ahead"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen gains ground after downbeat US industrial "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -191,57 +191,56 @@
       "[COT] 🟢ロング優勢 (ネット:+248,152)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar rises on US-Iran de-escalation ahead"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.45,
-    "JP_10Y": 2.515,
-    "DE_10Y": 2.9963157895,
-    "GB_10Y": 4.8207,
-    "AU_10Y": 4.96,
-    "DIFF_USDJPY": 1.94,
-    "DIFF_EURUSD": -1.45,
-    "DIFF_GBPUSD": 0.37,
+    "US_10Y": 4.48,
+    "JP_10Y": 2.65,
+    "DE_10Y": 3.0465,
+    "GB_10Y": 4.9416,
+    "AU_10Y": 4.99,
+    "DIFF_USDJPY": 1.83,
+    "DIFF_EURUSD": -1.43,
+    "DIFF_GBPUSD": 0.46,
     "DIFF_AUDUSD": 0.51
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.24642,
-      "prev_open": 160.22229,
-      "diff": 0.0241,
-      "diff_pct": 0.02
+      "today_open": 160.35774,
+      "prev_open": 160.24642,
+      "diff": 0.1113,
+      "diff_pct": 0.07
     },
     "EURUSD": {
-      "today_open": 1.15587,
-      "prev_open": 1.15697,
-      "diff": -0.0011,
-      "diff_pct": -0.1
+      "today_open": 1.15896,
+      "prev_open": 1.15587,
+      "diff": 0.0031,
+      "diff_pct": 0.27
     },
     "GBPUSD": {
-      "today_open": 1.34004,
-      "prev_open": 1.34065,
-      "diff": -0.0006,
-      "diff_pct": -0.04
+      "today_open": 1.34127,
+      "prev_open": 1.34004,
+      "diff": 0.0012,
+      "diff_pct": 0.09
     },
     "AUDUSD": {
-      "today_open": 0.70389,
-      "prev_open": 0.70443,
-      "diff": -0.0005,
-      "diff_pct": -0.07
+      "today_open": 0.70705,
+      "prev_open": 0.70389,
+      "diff": 0.0032,
+      "diff_pct": 0.45
     },
     "WTI": {
-      "today_open": 119.97,
+      "today_open": 119.84,
       "prev_open": 127.029999,
-      "diff": -7.06,
-      "diff_pct": -5.56
+      "diff": -7.19,
+      "diff_pct": -5.66
     },
     "SP500": {
-      "today_open": 751.83,
+      "today_open": 751.84998,
       "prev_open": 740.71002,
-      "diff": 11.12,
+      "diff": 11.14,
       "diff_pct": 1.5
     }
   }
