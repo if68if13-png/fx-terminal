@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-14T23:02:04.902865",
-  "generated": "2026年06月14日 23:02",
+  "timestamp": "2026-06-15T11:57:35.545912",
+  "generated": "2026年06月15日 11:57",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
-    "EUR": 0,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "base_score": 1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,52 +98,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: Fed, BoJ, BoE and RBA decisions take center stage",
-      "summary": "The US Dollar Index (DXY) lost ground during the week, down 0.27% to trade near the 99.80 level as investors prepared fo"
+      "title": "Gold advances as US-Iran framework deal, weaker Dollar support rebound",
+      "summary": "Gold (XAU/USD) trades around $4,340 at the time of writing on Monday, up 2.86% on the day and extending the rebound that"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Growth resilience but softer inflation – Deutsche Bank",
-      "summary": "Deutsche Bank’s Sanjay Raja says the UK economy is tracking close to the Bank of England’s Scenario A, with stronger‑tha"
+      "title": "AUD/USD Price Forecast: Holds near 0.7090 with bullish pressure mounting",
+      "summary": "The Australian Dollar (AUD) trims previous gains against the US Dollar (USD) on Monday, as markets ponder the peace agre"
     },
     {
       "source": "FXStreet",
-      "title": "Gold clears $4,200 as optimism on Middle East deal dents inflation woes",
-      "summary": "Gold (XAU/USD) price consolidates above the $4,200 figure on Friday as market participants are optimistic about a potent"
+      "title": "The BoJ is about to hike: Why the Japanese Yen is still pinned near 160.00",
+      "summary": "The Japanese Yen (JPY) continues to trade firmly around the psychologically crucial 160.00 level against the US Dollar."
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Supported by equities and hawkish BoK – BBH",
-      "summary": "Brown Brothers Harriman’s Elias Haddad highlights strong South Korean asset performance, with South Korean Won (KRW) out"
+      "title": "Euro: Gradual upside path outlined – Rabobank",
+      "summary": "Rabobank’s FX Strategy team at RaboResearch Global Economics & Markets discusses how the Dollar initially benefited from"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: RSI enters overbought territory as bears defend 1.4000",
-      "summary": "USD/CAD trades on the front foot on Friday as lower Oil prices weigh on the commodity-linked Canadian Dollar (CAD) amid "
+      "title": "Global Macro: Hawkish pivot shapes risk landscape – HSBC",
+      "summary": "HSBC Asset Management’s Investment Weekly highlights how higher Oil prices, China’s export surge and US AI investment ar"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Weakness raises intervention concerns – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report USD/JPY is steady but elevated, with recent gains already s"
+      "title": "Euro holds gains as risk appetite offsets downbeat Eurozone data",
+      "summary": "The Euro (EUR) maintains its positive tone against the US Dollar (USD) on Monday, with the EUR/USD pair trading near 10-"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds steady against the US Dollar as markets await clarity on a possible US-Iran peace deal",
-      "summary": "EUR/USD fluctuates between modest gains and losses heading into the weekend as traders await Tehran's decision on a poss"
+      "title": "USD/JPY Price Forecast: Yen underperforms amid BoJ rate outlook uncertainty",
+      "summary": "The Japanese Yen (JPY) trades lower against its major currency peers during the European trading session on Monday, whil"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Policy mix supports stability – Societe Generale",
-      "summary": "Societe Generale notes that Chinese inflation remains subdued, with May Consumer Price Index (CPI) at 1.2% and core at 1"
+      "title": "Australian Dollar advances as US-Iran framework boosts risk appetite ahead of RBA decision",
+      "summary": "AUD/USD trades around 0.7070 at the time of writing on Monday, up 0.35% on the day, benefiting from renewed risk appetit"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee holds strength on US-Iran deal finalization",
+      "summary": "The Indian Rupee (INR) trades strongly against the US Dollar (USD) in India's afternoon trading hours on Monday. The USD"
     },
     {
       "source": "Investing",
       "title": "Bitcoin set to snap four-week losing streak; SpaceX becomes a top corporate holder",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bybit Named to Fortune Crypto 100 as It Accelerates Its Vision for The New Financial Platform",
       "summary": ""
     },
     {
@@ -187,10 +187,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Weakness raises intervention concerns – S"
+      "[弱気] Gold advances as US-Iran framework deal, weaker Dollar ",
+      "[強気] Euro holds gains as risk appetite offsets downbeat Euro",
+      "[強気] Indian Rupee holds strength on US-Iran deal finalizatio"
     ],
-    "JPY": [
-      "[弱気] Japanese Yen: Weakness raises intervention concerns – S"
+    "EUR": [
+      "[強気] Euro holds gains as risk appetite offsets downbeat Euro"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
