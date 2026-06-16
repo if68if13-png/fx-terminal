@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-16T18:25:37.187732",
-  "generated": "2026年06月16日 18:25",
+  "timestamp": "2026-06-16T23:18:42.680593",
+  "generated": "2026年06月16日 23:18",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
+    "USD": 3,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": 0,
     "NZD": 2,
-    "CAD": 1,
-    "CHF": 0
+    "CAD": 0,
+    "CHF": 1
   },
   "pairs": [
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,42 +98,52 @@
     },
     {
       "source": "FXStreet",
+      "title": "British Pound Sterling coils before inflation and a Fed reckoning",
+      "summary": "GBP/USD spent Tuesday going almost nowhere, closing fractionally higher near the middle of a range it has refused to lea"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar trades sideways ahead of Fed rate decision",
+      "summary": "The NZD/USD pair trades sideways near the 0.5830 region on Wednesday, as the New Zealand Dollar (NZD) finds mild support"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/JPY Price Forecast: Tests 160.50 as RSI backs rally, intervention risks loom",
+      "summary": "The USD/JPY advances steadily on Tuesday as market participants brace for the Federal Reserve’s monetary policy decision"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: US Dollar keeps bullish bias despite dropping toward 200-day SMA",
+      "summary": "The USD/CHF pair retreats for the second straight day on Tuesday but remains above its current weekly low of 0.7921 amid"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar stays neutral as markets await Warsh’s first Fed decision",
+      "summary": "The US Dollar Index (DXY) trades with a weaker tone near the 99.50 level as investors prepare for the Federal Reserve’s "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold climbs as Oil rout softens Fed hike bets",
+      "summary": "Gold (XAU/USD) price rises over 0.81% on Tuesday as the US-Iran deal eased inflationary pressures, prompting traders to "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar slips as RBA pauses but keeps hawkish bias",
+      "summary": "The AUD/USD pair trades slightly lower near 0.7070 on Tuesday, as the Australian Dollar (AUD) struggles to extend gains "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG/USD clings to 200-day SMA as Fed takes center stage",
+      "summary": "Silver (XAG/USD) trades virtually unchanged on Tuesday around $70.00 after reclaiming its 200-day Simple Moving Average "
+    },
+    {
+      "source": "FXStreet",
       "title": "USD/CHF Price Forecast: Upside momentum fades after rejection at 0.8000",
       "summary": "USD/CHF extends losses for a second consecutive day on Tuesday as easing tensions between the United States (US) and Ira"
     },
     {
-      "source": "FXStreet",
-      "title": "Canadian Dollar holds near recent lows as soft Oil, Fed uncertainty lift USD/CAD",
-      "summary": "USD/CAD trades around 1.3990 on Tuesday at the time of writing, little changed on the day as markets adopt a cautious st"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Euro already hiked; now it waits on Warsh",
-      "summary": "EUR/USD has gone almost nowhere since the weekend's deal headlines, and Tuesday was more of the same: a dip that held ab"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen fails to gain support after BoJ hike",
-      "summary": "The USD/JPY pair rose slightly around the intervention zone of 160.40 on Tuesday, as the Japanese Yen (JPY) struggles to"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold holds firm above $4,300 with Fed decision, US-Iran deal in focus",
-      "summary": "Gold (XAU/USD) holds above the $4,300 mark on Tuesday as traders await further details on the peace framework between th"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound holds 1.3400 as Fed’s rate decision looms",
-      "summary": "The Pound Sterling (GBP) holds firm above the 1.3400 level on Tuesday as the US Dollar (USD) recovers some ground, even "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar gains after hawkish RBA hold as focus shifts to Federal Reserve",
-      "summary": "The Australian Dollar (AUD) strengthens against the US Dollar (USD) on Tuesday after the Reserve Bank of Australia (RBA)"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin pinned at $66k with focus on US-Iran peace, Fed meeting",
+      "title": "Bitcoin halts three-day positive run ahead of U.S.-Iran peace deal signing, Fed",
       "summary": ""
     },
     {
@@ -177,11 +187,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen fails to gain support after BoJ hike",
-      "[強気] Australian Dollar gains after hawkish RBA hold as focus"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen fails to gain support after BoJ hike"
+      "[強気] USD/CHF Price Forecast: US Dollar keeps bullish bias de",
+      "[弱気] Forex Today: US Dollar stays neutral as markets await W",
+      "[強気] Australian Dollar slips as RBA pauses but keeps hawkish"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -189,51 +197,51 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+248,152)",
-      "[強気] Australian Dollar gains after hawkish RBA hold as focus"
+      "[強気] Australian Dollar slips as RBA pauses but keeps hawkish"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CAD": [
-      "[強気] Japanese Yen fails to gain support after BoJ hike"
+    "CHF": [
+      "[強気] USD/CHF Price Forecast: US Dollar keeps bullish bias de"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.48,
+    "US_10Y": 4.47,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.83,
-    "DIFF_EURUSD": -1.43,
-    "DIFF_GBPUSD": 0.46,
-    "DIFF_AUDUSD": 0.51
+    "DIFF_USDJPY": 1.82,
+    "DIFF_EURUSD": -1.42,
+    "DIFF_GBPUSD": 0.47,
+    "DIFF_AUDUSD": 0.52
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.35774,
-      "prev_open": 160.24642,
-      "diff": 0.1113,
+      "today_open": 160.47372,
+      "prev_open": 160.35774,
+      "diff": 0.116,
       "diff_pct": 0.07
     },
     "EURUSD": {
-      "today_open": 1.15896,
-      "prev_open": 1.15587,
-      "diff": 0.0031,
-      "diff_pct": 0.27
+      "today_open": 1.16086,
+      "prev_open": 1.15896,
+      "diff": 0.0019,
+      "diff_pct": 0.16
     },
     "GBPUSD": {
-      "today_open": 1.34127,
-      "prev_open": 1.34004,
-      "diff": 0.0012,
-      "diff_pct": 0.09
+      "today_open": 1.34266,
+      "prev_open": 1.34127,
+      "diff": 0.0014,
+      "diff_pct": 0.1
     },
     "AUDUSD": {
-      "today_open": 0.70705,
-      "prev_open": 0.70389,
-      "diff": 0.0032,
-      "diff_pct": 0.45
+      "today_open": 0.70669,
+      "prev_open": 0.70705,
+      "diff": -0.0004,
+      "diff_pct": -0.06
     },
     "WTI": {
       "today_open": 116.34,
@@ -242,7 +250,7 @@
       "diff_pct": -2.92
     },
     "SP500": {
-      "today_open": 754.55,
+      "today_open": 754.54999,
       "prev_open": 751.84998,
       "diff": 2.7,
       "diff_pct": 0.36
