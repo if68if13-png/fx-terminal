@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-15T23:29:36.699997",
-  "generated": "2026年06月15日 23:29",
+  "timestamp": "2026-06-16T11:05:22.357061",
+  "generated": "2026年06月16日 11:05",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 5,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,43 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "The Bank of Japan can't save the Japanese Yen",
-      "summary": "USD/JPY is grinding into the Bank of Japan's (BoJ) June meeting above the 160.00 handle, a whisker from multi-decade hig"
+      "title": "Euro edges up above 1.1600 after positive ZEW Economic Sentiment data",
+      "summary": "The Euro (EUR) holds a moderately positive tone against the US Dollar (USD) on Tuesday, with the EUR/USD pair returning "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar advances as Hormuz breakthrough sinks USD and Oil",
-      "summary": "The Australian Dollar registered gains of over 0.37% on Monday as the US and Iran agreed on a Memorandum of Understandin"
+      "title": "Japanese Yen: Gradual BoJ tightening keeps currency under pressure – MUFG",
+      "summary": "MUFG’s Lee Hardman notes the Japanese Yen is little changed after the BoJ’s widely anticipated 0.25% rate hike to 1.00%,"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar lifts off daily lows, Trump says Iran deal is signed",
-      "summary": "The US Dollar Index (DXY) lifted off 10-day lows to reach the 99.70 price zone even after Trump said it was “important t"
+      "title": "NZD/USD Price Forecast: Clinging to 0.5800 support as risk appetite ebbs",
+      "summary": "The New Zealand Dollar (NZD) posts marginal losses against the US Dollar (USD) on Tuesday, trading at 0.5820 after bounc"
     },
     {
       "source": "FXStreet",
-      "title": "Peace breaks out and the New Zealand Dollar pays for it",
-      "summary": "Monday played out as a textbook risk-on session, with global equities ripping higher and Crude Oil tumbling after Washin"
+      "title": "Indian Rupee reflects strength on FIIs buying, lower oil prices",
+      "summary": "The Indian Rupee (INR) reflects strength against the US Dollar (USD) on Tuesday."
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: US Dollar retreats as inverted head-and-shoulders remains intact",
-      "summary": "USD/CHF retreats by over 0.34% on Monday amid most G8 FX currencies appreciating against the US Dollar, as the Middle Ea"
+      "title": "Canadian Dollar: Uptrend extends towards 1.4150 – Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux highlights that USD/CAD has broken above a key descending trendline and the upper bound"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar weakens on US-Iran peace deal but remains supported by hawkish Fed outlook",
-      "summary": "The US Dollar (USD) trades on the back foot against its major peers on Monday as traders trim safe-haven positions amid "
+      "title": "US Dollar: Fed focus offsets oil slide – ING",
+      "summary": "ING strategists Francesco Pesole, Chris Turner and Frantisek Taborsky note the Dollar is rallying again, supported by st"
     },
     {
-      "source": "FXStreet",
-      "title": "Gold explodes as US-Iran breakthrough crushes Oil prices",
-      "summary": "Gold (XAU/USD) rallies by more than 3% on Monday after the US and Iran reached a deal to end their conflict, easing infl"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar rebounds as softer US Dollar supports risk sentiment",
-      "summary": "The AUD/USD pair rebounds near the 0.7080 region on Monday amid improved risk sentiment following reports of a prelimina"
+      "source": "Investing",
+      "title": "Bitcoin steadies above $66k with focus on US-Iran peace, Fed meeting",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -181,7 +176,16 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Euro edges up above 1.1600 after positive ZEW Economic ",
+      "[強気] Japanese Yen: Gradual BoJ tightening keeps currency und",
+      "[強気] US Dollar: Fed focus offsets oil slide – ING"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Gradual BoJ tightening keeps currency und"
+    ],
+    "EUR": [
+      "[強気] Euro edges up above 1.1600 after positive ZEW Economic "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -192,6 +196,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] US Dollar: Fed focus offsets oil slide – ING"
     ]
   },
   "rates": {
