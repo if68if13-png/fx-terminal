@@ -1,57 +1,57 @@
 {
-  "timestamp": "2026-06-16T11:05:22.357061",
-  "generated": "2026年06月16日 11:05",
+  "timestamp": "2026-06-16T18:25:37.187732",
+  "generated": "2026年06月16日 18:25",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 1,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 1
+    "CAD": 1,
+    "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
-    },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
       "quote_score": 1
     }
   ],
@@ -98,42 +98,42 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro edges up above 1.1600 after positive ZEW Economic Sentiment data",
-      "summary": "The Euro (EUR) holds a moderately positive tone against the US Dollar (USD) on Tuesday, with the EUR/USD pair returning "
+      "title": "USD/CHF Price Forecast: Upside momentum fades after rejection at 0.8000",
+      "summary": "USD/CHF extends losses for a second consecutive day on Tuesday as easing tensions between the United States (US) and Ira"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Gradual BoJ tightening keeps currency under pressure – MUFG",
-      "summary": "MUFG’s Lee Hardman notes the Japanese Yen is little changed after the BoJ’s widely anticipated 0.25% rate hike to 1.00%,"
+      "title": "Canadian Dollar holds near recent lows as soft Oil, Fed uncertainty lift USD/CAD",
+      "summary": "USD/CAD trades around 1.3990 on Tuesday at the time of writing, little changed on the day as markets adopt a cautious st"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Clinging to 0.5800 support as risk appetite ebbs",
-      "summary": "The New Zealand Dollar (NZD) posts marginal losses against the US Dollar (USD) on Tuesday, trading at 0.5820 after bounc"
+      "title": "The Euro already hiked; now it waits on Warsh",
+      "summary": "EUR/USD has gone almost nowhere since the weekend's deal headlines, and Tuesday was more of the same: a dip that held ab"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee reflects strength on FIIs buying, lower oil prices",
-      "summary": "The Indian Rupee (INR) reflects strength against the US Dollar (USD) on Tuesday."
+      "title": "Japanese Yen fails to gain support after BoJ hike",
+      "summary": "The USD/JPY pair rose slightly around the intervention zone of 160.40 on Tuesday, as the Japanese Yen (JPY) struggles to"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Uptrend extends towards 1.4150 – Societe Generale",
-      "summary": "Societe Generale’s Kenneth Broux highlights that USD/CAD has broken above a key descending trendline and the upper bound"
+      "title": "Gold holds firm above $4,300 with Fed decision, US-Iran deal in focus",
+      "summary": "Gold (XAU/USD) holds above the $4,300 mark on Tuesday as traders await further details on the peace framework between th"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed focus offsets oil slide – ING",
-      "summary": "ING strategists Francesco Pesole, Chris Turner and Frantisek Taborsky note the Dollar is rallying again, supported by st"
+      "title": "British Pound holds 1.3400 as Fed’s rate decision looms",
+      "summary": "The Pound Sterling (GBP) holds firm above the 1.3400 level on Tuesday as the US Dollar (USD) recovers some ground, even "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar gains after hawkish RBA hold as focus shifts to Federal Reserve",
+      "summary": "The Australian Dollar (AUD) strengthens against the US Dollar (USD) on Tuesday after the Reserve Bank of Australia (RBA)"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin steadies above $66k with focus on US-Iran peace, Fed meeting",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells shares, purchases bitcoin worth $100 million",
+      "title": "Bitcoin pinned at $66k with focus on US-Iran peace, Fed meeting",
       "summary": ""
     },
     {
@@ -177,28 +177,25 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro edges up above 1.1600 after positive ZEW Economic ",
-      "[強気] Japanese Yen: Gradual BoJ tightening keeps currency und",
-      "[強気] US Dollar: Fed focus offsets oil slide – ING"
+      "[強気] Japanese Yen fails to gain support after BoJ hike",
+      "[強気] Australian Dollar gains after hawkish RBA hold as focus"
     ],
     "JPY": [
-      "[強気] Japanese Yen: Gradual BoJ tightening keeps currency und"
-    ],
-    "EUR": [
-      "[強気] Euro edges up above 1.1600 after positive ZEW Economic "
+      "[強気] Japanese Yen fails to gain support after BoJ hike"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+248,152)"
+      "[COT] 🟢ロング優勢 (ネット:+248,152)",
+      "[強気] Australian Dollar gains after hawkish RBA hold as focus"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CHF": [
-      "[強気] US Dollar: Fed focus offsets oil slide – ING"
+    "CAD": [
+      "[強気] Japanese Yen fails to gain support after BoJ hike"
     ]
   },
   "rates": {
@@ -239,16 +236,16 @@
       "diff_pct": 0.45
     },
     "WTI": {
-      "today_open": 119.84,
-      "prev_open": 127.029999,
-      "diff": -7.19,
-      "diff_pct": -5.66
+      "today_open": 116.34,
+      "prev_open": 119.84,
+      "diff": -3.5,
+      "diff_pct": -2.92
     },
     "SP500": {
-      "today_open": 751.84998,
-      "prev_open": 740.71002,
-      "diff": 11.14,
-      "diff_pct": 1.5
+      "today_open": 754.55,
+      "prev_open": 751.84998,
+      "diff": 2.7,
+      "diff_pct": 0.36
     }
   }
 }
