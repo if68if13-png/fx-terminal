@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-17T16:52:16.085311",
-  "generated": "2026年06月17日 16:52",
+  "timestamp": "2026-06-17T23:18:27.163119",
+  "generated": "2026年06月17日 23:18",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 1,
-    "EUR": 0,
-    "GBP": 3,
+    "EUR": 1,
+    "GBP": 2,
     "AUD": -1,
-    "NZD": 1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,47 +15,57 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
       "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
@@ -87,73 +97,63 @@
       "summary": "Federal Reserve Board issues enforcement action with former employee of Commerce Bank"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests public comment on a proposal to establish a \"payment account,\" which legally eligible financial institutions could use for the specific purpose of clearing and settling their payments",
-      "summary": "Federal Reserve Board requests public comment on a proposal to establish a &quot;payment account,&quot; which legally el"
-    },
-    {
-      "source": "Fed",
-      "title": "Minutes of the Federal Open Market Committee, April 28-29, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, April 28-29, 2026"
+      "source": "FXStreet",
+      "title": "Japanese Yen tumbles as Fed signals higher rate path",
+      "summary": "The Japanese Yen depreciated against the US Dollar on Wednesday after the US Federal Reserve delivered a hawkish hold, w"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve set to keep interest rates unchanged as Warsh era begins",
-      "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, another pivotal meeting "
+      "title": "British Pound double-teamed by soft CPI and a hawkish Fed",
+      "summary": "The British Pound (GBP) spent Wednesday absorbing blows from both sides of the Atlantic. Softer than expected UK inflati"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound slips as soft UK CPI clips BoE hike bets",
-      "summary": "The Pound Sterling (GBP) retreats towards 1.3400 against the US Dollar (USD) on Wednesday following the latest UK inflat"
+      "title": "Australian Dollar folds to a hawkish Fed with no data to lean on",
+      "summary": "The Australian Dollar went into Kevin Warsh's first Federal Reserve (Fed) decision as a high-beta currency with no domes"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar holds firm as Trump’s Iran comments reduce risk sentiment",
-      "summary": "The AUD/USD pair trades near 0.7070 with a neutral tone on Wednesday, as the Australian Dollar (AUD) benefits from impro"
+      "title": "Forex Today: US Dollar jumps after Warsh-led Fed holds rates, hints upcoming hike",
+      "summary": "The US Dollar Index (DXY) surged toward the 100.40 level on Wednesday after the Federal Reserve’s (Fed) June policy deci"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar weakens ahead of Fed decision as  confidence hits lowest since 2023",
-      "summary": "NZD/USD trades around 0.5820 on Wednesday at the time of writing, down 0.24% on the day as investors reduce risk exposur"
+      "title": "Gold implodes as the Warsh-led Fed fuels US Dollar surge",
+      "summary": "Gold (XAU/USD) price reverses course and collapses to two-day lows of $4,219 as the US Federal Reserve (Fed) tilts hawki"
     },
     {
       "source": "FXStreet",
-      "title": "The BoJ just hiked to 1.0%. Why is the Japanese Yen still falling?",
-      "summary": "The Japanese Yen (JPY) remains under pressure despite the Bank of Japan’s latest rate hike, with analysts highlighting t"
+      "title": "Warsh's Fed begins with a hawkish message and a promise of reform",
+      "summary": "The Federal Reserve (Fed) left interest rates unchanged at 3.50%-3.75% on Wednesday, but the bigger surprise came from t"
     },
     {
       "source": "FXStreet",
-      "title": "“A repeat of 2022’s inflation problems appear less likely”: ECB’s Sleijpen lowers temperature",
-      "summary": "European Central Bank (ECB) policymaker Olaf Sleijpen said in a speech at an event organized by the European Economics &"
+      "title": "British Pound craters as Warsh’s guidance void fuels US Dollar rally",
+      "summary": "The Pound Sterling tanked by over 1% on Wednesday after the Federal Reserve decided to maintain rates, but the dot-plot "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar holds near recent lows as Oil slump, Fed outlook weigh",
-      "summary": "USD/CAD trades around 1.4010 on Wednesday at the time of writing, gaining 0.10% on the day. The pair maintains a bullish"
+      "title": "Dow Jones Industrial Average surrenders a record as the Fed turns hawkish",
+      "summary": "The Dow Jones Industrial Average (DJIA) spent Wednesday morning printing another record, its third in a row, before runn"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar: Fed policy shifts and rate path – ABN AMRO",
-      "summary": "ABN AMRO economists discuss how a new chapter for the Federal Reserve could influence the US Dollar over coming months."
+      "title": "US Dollar Index storms higher as Warsh's Fed trades cuts for hikes",
+      "summary": "Kevin Warsh's first meeting as Federal Reserve (Fed) Chair held rates steady, exactly as expected, and then handed the D"
     },
     {
       "source": "FXStreet",
-      "title": "Euro retreats below 1.1600 with Kevin Warsh and the Fed in the spotlight",
-      "summary": "The Euro (EUR) posts moderate losses against the US Dollar (USD) on Wednesday, giving away some of the ground gained ove"
+      "title": "Euro routed as Warsh's Fed turns the dot plot upside down",
+      "summary": "Kevin Warsh's first meeting as Federal Reserve (Fed) Chair was billed as a quiet hold, and on the headline rate it deliv"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin little-changed at $65k with Fed meeting in focus; Uniswap surges",
+      "title": "Bitcoin slips as Fed’s updated dot plot shows hawkish tilt, hitting risk sentiment",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin halts three-day positive run ahead of U.S.-Iran peace deal signing, Fed",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,73 +192,82 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound slips as soft UK CPI clips BoE hike bets",
-      "[弱気] New Zealand Dollar weakens ahead of Fed decision as  co",
-      "[強気] Bitcoin little-changed at $65k with Fed meeting in focu"
+      "[強気] Japanese Yen tumbles as Fed signals higher rate path",
+      "[強気] British Pound double-teamed by soft CPI and a hawkish F",
+      "[強気] Australian Dollar folds to a hawkish Fed with no data t",
+      "[強気] Forex Today: US Dollar jumps after Warsh-led Fed holds ",
+      "[強気] Gold implodes as the Warsh-led Fed fuels US Dollar surg",
+      "[強気] Warsh's Fed begins with a hawkish message and a promise",
+      "[弱気] British Pound craters as Warsh’s guidance void fuels US",
+      "[強気] Dow Jones Industrial Average surrenders a record as the",
+      "[強気] Euro routed as Warsh's Fed turns the dot plot upside do"
     ],
     "JPY": [
-      "[強気] The BoJ just hiked to 1.0%. Why is the Japanese Yen sti"
+      "[強気] Japanese Yen tumbles as Fed signals higher rate path"
+    ],
+    "EUR": [
+      "[強気] Euro routed as Warsh's Fed turns the dot plot upside do"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound slips as soft UK CPI clips BoE hike bets"
+      "[強気] British Pound double-teamed by soft CPI and a hawkish F",
+      "[弱気] British Pound craters as Warsh’s guidance void fuels US"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+248,152)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar weakens ahead of Fed decision as  co"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.47,
+    "US_10Y": 4.43,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.82,
-    "DIFF_EURUSD": -1.42,
-    "DIFF_GBPUSD": 0.47,
-    "DIFF_AUDUSD": 0.52
+    "DIFF_USDJPY": 1.78,
+    "DIFF_EURUSD": -1.38,
+    "DIFF_GBPUSD": 0.51,
+    "DIFF_AUDUSD": 0.56
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.47372,
-      "prev_open": 160.35774,
-      "diff": 0.116,
-      "diff_pct": 0.07
+      "today_open": 160.66112,
+      "prev_open": 160.47372,
+      "diff": 0.1874,
+      "diff_pct": 0.12
     },
     "EURUSD": {
-      "today_open": 1.16086,
-      "prev_open": 1.15896,
-      "diff": 0.0019,
-      "diff_pct": 0.16
+      "today_open": 1.15016,
+      "prev_open": 1.16086,
+      "diff": -0.0107,
+      "diff_pct": -0.92
     },
     "GBPUSD": {
-      "today_open": 1.34266,
-      "prev_open": 1.34127,
-      "diff": 0.0014,
-      "diff_pct": 0.1
+      "today_open": 1.32957,
+      "prev_open": 1.34266,
+      "diff": -0.0131,
+      "diff_pct": -0.98
     },
     "AUDUSD": {
-      "today_open": 0.70669,
-      "prev_open": 0.70705,
-      "diff": -0.0004,
-      "diff_pct": -0.06
+      "today_open": 0.70141,
+      "prev_open": 0.70669,
+      "diff": -0.0053,
+      "diff_pct": -0.75
     },
     "WTI": {
-      "today_open": 115.43,
+      "today_open": 115.44,
       "prev_open": 116.34,
-      "diff": -0.91,
-      "diff_pct": -0.78
+      "diff": -0.9,
+      "diff_pct": -0.77
     },
     "SP500": {
-      "today_open": 751.32,
+      "today_open": 751.28998,
       "prev_open": 754.54999,
-      "diff": -3.23,
+      "diff": -3.26,
       "diff_pct": -0.43
     }
   }
