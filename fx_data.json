@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-06-17T10:49:44.209002",
-  "generated": "2026年06月17日 10:49",
+  "timestamp": "2026-06-17T16:52:16.085311",
+  "generated": "2026年06月17日 16:52",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
+    "USD": 3,
+    "JPY": 1,
+    "EUR": 0,
+    "GBP": 3,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
+      "quote_score": 3
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -98,52 +98,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Fed repricing and Iran peace deal – UOB",
-      "summary": "UOB Global Economics & Markets Research highlights that Gold advanced as expectations for another Fed hike this year eas"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve set to hold interest rates in Warsh's debut as chair",
+      "title": "Federal Reserve set to keep interest rates unchanged as Warsh era begins",
       "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, another pivotal meeting "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Cyclical bullishness takes over – ING",
-      "summary": "ING strategists highlight that cyclical drivers have reasserted themselves in FX, underpinning a stronger Dollar over th"
+      "title": "British Pound slips as soft UK CPI clips BoE hike bets",
+      "summary": "The Pound Sterling (GBP) retreats towards 1.3400 against the US Dollar (USD) on Wednesday following the latest UK inflat"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar: Warsh guidance shapes dollar outlook – MUFG",
-      "summary": "MUFG’s Derek Halpenny highlights that Fed Chair Kevin Warsh’s first post-FOMC press conference comes as Brent Oil has dr"
+      "title": "Australian Dollar holds firm as Trump’s Iran comments reduce risk sentiment",
+      "summary": "The AUD/USD pair trades near 0.7070 with a neutral tone on Wednesday, as the Australian Dollar (AUD) benefits from impro"
     },
     {
       "source": "FXStreet",
-      "title": "Silver price remains under pressure as Fed decision, US-Iran truce shape outlook",
-      "summary": "Silver (XAG/USD) trades around $69.85 on Wednesday at the time of writing, down 0.25% on the day. Traders remain cautiou"
+      "title": "New Zealand Dollar weakens ahead of Fed decision as  confidence hits lowest since 2023",
+      "summary": "NZD/USD trades around 0.5820 on Wednesday at the time of writing, down 0.24% on the day as investors reduce risk exposur"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: UK softness supports Dollar edge – BBH",
-      "summary": "Brown Brothers Harriman highlights GBP/USD trading around its 200-day moving average as UK Gilts outperform European bon"
+      "title": "The BoJ just hiked to 1.0%. Why is the Japanese Yen still falling?",
+      "summary": "The Japanese Yen (JPY) remains under pressure despite the Bank of Japan’s latest rate hike, with analysts highlighting t"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Euro struggles on hawkish ECB pricing – ING",
-      "summary": "ING’s FX team notes that a rate hike by the ECB is fully priced into EUR/USD, limiting upside for the Euro. They stress "
+      "title": "“A repeat of 2022’s inflation problems appear less likely”: ECB’s Sleijpen lowers temperature",
+      "summary": "European Central Bank (ECB) policymaker Olaf Sleijpen said in a speech at an event organized by the European Economics &"
     },
     {
       "source": "FXStreet",
-      "title": "Oil: Price collapse reshapes Fed risk view – MUFG",
-      "summary": "MUFG’s Derek Halpenny underlines that Brent Oil falling below USD 80 and a roughly 30% drop in crude over a month have s"
+      "title": "Canadian Dollar holds near recent lows as Oil slump, Fed outlook weigh",
+      "summary": "USD/CAD trades around 1.4010 on Wednesday at the time of writing, gaining 0.10% on the day. The pair maintains a bullish"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar: Fed focus and Warsh risk – BBH",
-      "summary": "Brown Brothers Harriman’s Elias Haddad notes Brent Oil is testing its 200-day moving average while the Dollar consolidat"
+      "title": "United States Dollar: Fed policy shifts and rate path – ABN AMRO",
+      "summary": "ABN AMRO economists discuss how a new chapter for the Federal Reserve could influence the US Dollar over coming months."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro retreats below 1.1600 with Kevin Warsh and the Fed in the spotlight",
+      "summary": "The Euro (EUR) posts moderate losses against the US Dollar (USD) on Wednesday, giving away some of the ground gained ove"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin steady at $65k with Fed meeting in focus; Uniswap surges",
+      "title": "Bitcoin little-changed at $65k with Fed meeting in focus; Uniswap surges",
       "summary": ""
     },
     {
@@ -192,22 +192,24 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: Cyclical bullishness takes over – ING",
-      "[強気] Euro: Euro struggles on hawkish ECB pricing – ING",
-      "[強気] Bitcoin steady at $65k with Fed meeting in focus; Unisw"
+      "[強気] British Pound slips as soft UK CPI clips BoE hike bets",
+      "[弱気] New Zealand Dollar weakens ahead of Fed decision as  co",
+      "[強気] Bitcoin little-changed at $65k with Fed meeting in focu"
     ],
-    "EUR": [
-      "[強気] Euro: Euro struggles on hawkish ECB pricing – ING"
+    "JPY": [
+      "[強気] The BoJ just hiked to 1.0%. Why is the Japanese Yen sti"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound slips as soft UK CPI clips BoE hike bets"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+248,152)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar weakens ahead of Fed decision as  co"
     ]
   },
   "rates": {
@@ -248,16 +250,16 @@
       "diff_pct": -0.06
     },
     "WTI": {
-      "today_open": 116.34,
-      "prev_open": 119.84,
-      "diff": -3.5,
-      "diff_pct": -2.92
+      "today_open": 115.43,
+      "prev_open": 116.34,
+      "diff": -0.91,
+      "diff_pct": -0.78
     },
     "SP500": {
-      "today_open": 754.54999,
-      "prev_open": 751.84998,
-      "diff": 2.7,
-      "diff_pct": 0.36
+      "today_open": 751.32,
+      "prev_open": 754.54999,
+      "diff": -3.23,
+      "diff_pct": -0.43
     }
   }
 }
