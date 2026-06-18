@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-17T23:18:27.163119",
-  "generated": "2026年06月17日 23:18",
+  "timestamp": "2026-06-18T10:16:23.723033",
+  "generated": "2026年06月18日 10:16",
   "scores": {
     "USD": 5,
-    "JPY": 1,
-    "EUR": 1,
-    "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "JPY": 0,
+    "EUR": 2,
+    "GBP": 1,
+    "AUD": 0,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
+      "diff": -5,
+      "base_score": 0,
       "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURUSD",
+      "pair": "GBPUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 1,
       "quote_score": 5
     },
     {
-      "pair": "GBPUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
       "base_score": 2,
       "quote_score": 5
     },
     {
+      "pair": "EURJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
       "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
       "base_score": 1,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,62 +98,62 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen tumbles as Fed signals higher rate path",
-      "summary": "The Japanese Yen depreciated against the US Dollar on Wednesday after the US Federal Reserve delivered a hawkish hold, w"
+      "title": "Gold Price Forecast: XAU/USD hesitates below $4,300 as Fed hiking bets rise",
+      "summary": "Gold (XAU/USD) shows marginal gains on Thursday, but remains close to weekly lows at $4,220."
     },
     {
       "source": "FXStreet",
-      "title": "British Pound double-teamed by soft CPI and a hawkish Fed",
-      "summary": "The British Pound (GBP) spent Wednesday absorbing blows from both sides of the Atlantic. Softer than expected UK inflati"
+      "title": "New Zealand Dollar dips as stronger growth, risk optimism fail to offset hawkish Fed",
+      "summary": "NZD/USD trades around 0.5765 at the time of writing on Thursday, down a modest 0.07% on the day. The pair struggles to e"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar folds to a hawkish Fed with no data to lean on",
-      "summary": "The Australian Dollar went into Kevin Warsh's first Federal Reserve (Fed) decision as a high-beta currency with no domes"
+      "title": "BoE expected to keep interest rate unchanged amid cooling inflation, weak growth",
+      "summary": "The Bank of England (BoE) is on track to leave the benchmark Bank Rate unchanged at 3.75% for the fourth consecutive tim"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar jumps after Warsh-led Fed holds rates, hints upcoming hike",
-      "summary": "The US Dollar Index (DXY) surged toward the 100.40 level on Wednesday after the Federal Reserve’s (Fed) June policy deci"
+      "title": "Euro: Range floor holds into ECB decisions – ING",
+      "summary": "ING’s Chris Turner argues EUR/USD’s test of 1.1500 after the hawkish FOMC is unlikely to extend much lower, with 1.14/1."
     },
     {
       "source": "FXStreet",
-      "title": "Gold implodes as the Warsh-led Fed fuels US Dollar surge",
-      "summary": "Gold (XAU/USD) price reverses course and collapses to two-day lows of $4,219 as the US Federal Reserve (Fed) tilts hawki"
+      "title": "Australian Dollar remains in positive territory after paring recent gains",
+      "summary": "AUD/USD pares its daily gains, remaining in the positive territory and trading around 0.7010 during the European hours o"
     },
     {
       "source": "FXStreet",
-      "title": "Warsh's Fed begins with a hawkish message and a promise of reform",
-      "summary": "The Federal Reserve (Fed) left interest rates unchanged at 3.50%-3.75% on Wednesday, but the bigger surprise came from t"
+      "title": "Gold slides below $4,300 as Fed bets counter Iran deal and lift USD closer to March high",
+      "summary": "Gold (XAU/USD) trims a part of its modest intraday gains and slides back below the $4,300 mark during the first half of "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound craters as Warsh’s guidance void fuels US Dollar rally",
-      "summary": "The Pound Sterling tanked by over 1% on Wednesday after the Federal Reserve decided to maintain rates, but the dot-plot "
+      "title": "Euro remains capped below 1.1525 weighed by post-Fed US Dollar strength",
+      "summary": "The Euro (EUR) is trading practically flat against the US Dollar (USD) on Thursday, changing hands at 1.1504 at the time"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones Industrial Average surrenders a record as the Fed turns hawkish",
-      "summary": "The Dow Jones Industrial Average (DJIA) spent Wednesday morning printing another record, its third in a row, before runn"
+      "title": "Indian Rupee advances on lower oil prices",
+      "summary": "The Indian Rupee (INR) gains ground after registering modest losses against the US Dollar (USD) on Thursday."
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index storms higher as Warsh's Fed trades cuts for hikes",
-      "summary": "Kevin Warsh's first meeting as Federal Reserve (Fed) Chair held rates steady, exactly as expected, and then handed the D"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro routed as Warsh's Fed turns the dot plot upside down",
-      "summary": "Kevin Warsh's first meeting as Federal Reserve (Fed) Chair was billed as a quiet hold, and on the headline rate it deliv"
+      "title": "United States Dollar: Fed hawkish shift supports higher Dollar – MUFG",
+      "summary": "MUFG’s Lee Hardman notes that the Fed’s latest policy update has lifted US rates and supported the Dollar, with the Doll"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips as Fed’s updated dot plot shows hawkish tilt, hitting risk sentiment",
+      "title": "JPMorgan: Bitcoin hash rate grows more sensitive to price moves",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin halts three-day positive run ahead of U.S.-Iran peace deal signing, Fed",
+      "title": "Cregis Accelerates European Expansion Following Growth Across APAC and the Middle East",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin falls to $63k on hawkish Fed signals; Iran peace deal offers limited cheer",
       "summary": ""
     }
   ],
@@ -192,33 +192,28 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen tumbles as Fed signals higher rate path",
-      "[強気] British Pound double-teamed by soft CPI and a hawkish F",
-      "[強気] Australian Dollar folds to a hawkish Fed with no data t",
-      "[強気] Forex Today: US Dollar jumps after Warsh-led Fed holds ",
-      "[強気] Gold implodes as the Warsh-led Fed fuels US Dollar surg",
-      "[強気] Warsh's Fed begins with a hawkish message and a promise",
-      "[弱気] British Pound craters as Warsh’s guidance void fuels US",
-      "[強気] Dow Jones Industrial Average surrenders a record as the",
-      "[強気] Euro routed as Warsh's Fed turns the dot plot upside do"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen tumbles as Fed signals higher rate path"
+      "[強気] New Zealand Dollar dips as stronger growth, risk optimi",
+      "[強気] Euro: Range floor holds into ECB decisions – ING",
+      "[強気] Australian Dollar remains in positive territory after p",
+      "[強気] United States Dollar: Fed hawkish shift supports higher",
+      "[強気] Bitcoin falls to $63k on hawkish Fed signals; Iran peac"
     ],
     "EUR": [
-      "[強気] Euro routed as Warsh's Fed turns the dot plot upside do"
+      "[強気] Euro: Range floor holds into ECB decisions – ING",
+      "[強気] Australian Dollar remains in positive territory after p"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound double-teamed by soft CPI and a hawkish F",
-      "[弱気] British Pound craters as Warsh’s guidance void fuels US"
+      "[弱気] BoE expected to keep interest rate unchanged amid cooli"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+248,152)"
+      "[COT] 🟢ロング優勢 (ネット:+248,152)",
+      "[強気] Australian Dollar remains in positive territory after p"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar dips as stronger growth, risk optimi"
     ]
   },
   "rates": {
