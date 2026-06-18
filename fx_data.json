@@ -1,61 +1,66 @@
 {
-  "timestamp": "2026-06-18T16:53:07.491521",
-  "generated": "2026年06月18日 16:53",
+  "timestamp": "2026-06-18T23:29:43.562509",
+  "generated": "2026年06月18日 23:29",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
-    "EUR": -2,
-    "GBP": 2,
+    "USD": 5,
+    "JPY": 0,
+    "EUR": 0,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 1
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -2,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
     },
     {
-      "pair": "EURJPY",
+      "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 3,
+      "quote_score": 5
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc."
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
@@ -97,63 +102,58 @@
       "summary": "Minutes of the Board's discount rate meeting on April 20 and 29, 2026"
     },
     {
-      "source": "Fed",
-      "title": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and the Federal Open Market Committee unanimously selects Warsh as its chairman",
-      "summary": "Kevin Warsh takes oath of office as chairman and a member of the Board of Governors of the Federal Reserve System, and t"
+      "source": "FXStreet",
+      "title": "Gold declines to near $4,200 as hawkish Fed stance offsets support from US-Iran peace deal",
+      "summary": "Gold price (XAU/USD) loses ground to near $4,210 during the early Asian session on Friday. The precious metal extends th"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens to two-month low as Fed rate bets lift US Dollar",
-      "summary": "EUR/USD trades around 1.1475 on Thursday at the time of writing, down 0.22% on the day and hovering near its lowest leve"
+      "title": "British Pound Sterling slides as cheaper Crude Oil masks the inflation pipeline",
+      "summary": "The Bank of England (BoE) delivered the hawkish hold the market expected on Thursday, and a second member of its Monetar"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar firms as US Jobless Claims point to steady labor market",
-      "summary": "The AUD/USD pair trades in a muted range near 0.7030 on Thursday, as the Australian Dollar (AUD) struggles to extend gai"
+      "title": "GBP/JPY Price Forecast: Sellers eye break below 100-day SMA",
+      "summary": "The GBP/JPY retreats during the North American session on Thursday, down 0.21% as the Pound Sterling depreciates, despit"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound slides as hawkish Fed overshadows BoE hold",
-      "summary": "The Pound Sterling (GBP) drops on Thursday during the North American session as traders continue to digest the Federal R"
+      "title": "Forex Today: US Dollar touches one-year high, Pound slips on BoE hold",
+      "summary": "The US Dollar Index (DXY) firmed near 100.80 on Thursday, a level it hadn’t seen since May 2025, after the Federal Reser"
     },
     {
       "source": "FXStreet",
-      "title": "Bank of England: Steady policy path – Deutsche Bank",
-      "summary": "Deutsche Bank’s Sanjay Raja reviews the latest Bank of England decision, noting Bank Rate was held at 3.75% as expected."
+      "title": "USD/CHF Price Forecast: US Dollar hits new YTD high past 0.8050",
+      "summary": "The USD/CHF pair rallies on Thursday to a new yearly high of 0.8059, surpassing March’s 31 previous peak of 2026 at 0.80"
     },
     {
       "source": "FXStreet",
-      "title": "Euro set for weakness as BoE, SNB, Norges Bank and Riksbank leave the ECB hiking alone",
-      "summary": "The Euro (EUR) is caught between a hawkish but isolated ECB, weaker regional growth prospects, and a US Dollar that is r"
+      "title": "British Pound slips as BoE holds rates, Fed’s cautious stance supports Greenback",
+      "summary": "The GBP/USD pair trades near a two-month close to the 1.3210 level on Thursday as the Pound Sterling (GBP) struggles to "
     },
     {
       "source": "FXStreet",
-      "title": "Can the US Dollar extend its Fed-driven rally?",
-      "summary": "The US Dollar (USD) has pushed higher, with the Dollar Index (DXY) climbing back above 100.00 in the wake of the Federal"
+      "title": "Japanese Yen hovers near 40-year lows as risks of intervention rise",
+      "summary": "The Japanese Yen (JPY) weakens on Thursday to a nearly two-year low against the US Dollar (USD), with the USD/JPY pair r"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen trades near two-year low on Fed hawkish bias, Japan intervention risk",
-      "summary": "USD/JPY trades around 160.85 on Thursday at the time of writing, up 0.12% on the day after reaching 160.95, its highest "
+      "title": "ECB’s Escriva sees energy inflation passing through to other sectors",
+      "summary": "European Central Bank (ECB) policymaker José Luis Escrivá said on Thursday that higher energy costs are spreading to ser"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Inflation risks and Bank Rate path – RaboResearch",
-      "summary": "RaboResearch Global Economics & Markets discusses the Bank of England’s decision to keep Bank Rate at 3.75% with a 7–2 s"
+      "title": "Dow Jones Industrial Average nurses its Warsh hangover",
+      "summary": "Wall Street's blue-chip index spent Thursday picking up the pieces of Wednesday's hawkish Federal Reserve (Fed) selloff,"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Range-bound trading bias outlined – NBC",
-      "summary": "National Bank of Canada (NBC) discusses USD/CAD, noting recent moves and the bank’s expectations for the pair. The repor"
+      "title": "Silver Price Forecast: XAG remains bearish below 200-day SMA, eyes on $61.50",
+      "summary": "Silver (XAG/USD) price retreats on Thursday by nearly 2% as the Greenback refreshes year-to-date (YTD) highs, spurred by"
     },
     {
       "source": "Investing",
-      "title": "Fed proposes customer ID rules for stablecoin issuers",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slips to $64k on hawkish Fed signals; Iran peace deal offers limited cheer",
+      "title": "Bitcoin falls below $63k as hawkish Fed rattles speculative assets like crypto",
       "summary": ""
     }
   ],
@@ -192,24 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro weakens to two-month low as Fed rate bets lift US ",
-      "[強気] British Pound slides as hawkish Fed overshadows BoE hol",
-      "[弱気] Euro set for weakness as BoE, SNB, Norges Bank and Riks",
-      "[強気] Can the US Dollar extend its Fed-driven rally?",
-      "[強気] Japanese Yen trades near two-year low on Fed hawkish bi",
-      "[強気] Bitcoin slips to $64k on hawkish Fed signals; Iran peac"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen trades near two-year low on Fed hawkish bi"
-    ],
-    "EUR": [
-      "[弱気] Euro weakens to two-month low as Fed rate bets lift US ",
-      "[弱気] Euro set for weakness as BoE, SNB, Norges Bank and Riks"
+      "[強気] Gold declines to near $4,200 as hawkish Fed stance offs",
+      "[強気] USD/CHF Price Forecast: US Dollar hits new YTD high pas",
+      "[強気] Dow Jones Industrial Average nurses its Warsh hangover",
+      "[強気] Silver Price Forecast: XAG remains bearish below 200-da",
+      "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound slides as hawkish Fed overshadows BoE hol",
-      "[弱気] Euro set for weakness as BoE, SNB, Norges Bank and Riks"
+      "[強気] British Pound Sterling slides as cheaper Crude Oil mask"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -219,56 +210,56 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
-      "[弱気] Euro set for weakness as BoE, SNB, Norges Bank and Riks"
+      "[強気] USD/CHF Price Forecast: US Dollar hits new YTD high pas"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.43,
+    "US_10Y": 4.49,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.78,
-    "DIFF_EURUSD": -1.38,
-    "DIFF_GBPUSD": 0.51,
-    "DIFF_AUDUSD": 0.56
+    "DIFF_USDJPY": 1.84,
+    "DIFF_EURUSD": -1.44,
+    "DIFF_GBPUSD": 0.45,
+    "DIFF_AUDUSD": 0.5
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.66112,
-      "prev_open": 160.47372,
-      "diff": 0.1874,
-      "diff_pct": 0.12
+      "today_open": 161.40205,
+      "prev_open": 160.66112,
+      "diff": 0.7409,
+      "diff_pct": 0.46
     },
     "EURUSD": {
-      "today_open": 1.15016,
-      "prev_open": 1.16086,
-      "diff": -0.0107,
-      "diff_pct": -0.92
+      "today_open": 1.14576,
+      "prev_open": 1.15016,
+      "diff": -0.0044,
+      "diff_pct": -0.38
     },
     "GBPUSD": {
-      "today_open": 1.32957,
-      "prev_open": 1.34266,
-      "diff": -0.0131,
-      "diff_pct": -0.98
+      "today_open": 1.32047,
+      "prev_open": 1.32957,
+      "diff": -0.0091,
+      "diff_pct": -0.68
     },
     "AUDUSD": {
-      "today_open": 0.70141,
-      "prev_open": 0.70669,
-      "diff": -0.0053,
-      "diff_pct": -0.75
+      "today_open": 0.70138,
+      "prev_open": 0.70141,
+      "diff": -0.0,
+      "diff_pct": -0.0
     },
     "WTI": {
-      "today_open": 112.495,
+      "today_open": 112.47,
       "prev_open": 115.44,
-      "diff": -2.945,
-      "diff_pct": -2.55
+      "diff": -2.97,
+      "diff_pct": -2.57
     },
     "SP500": {
-      "today_open": 747.765,
+      "today_open": 747.76001,
       "prev_open": 751.28998,
-      "diff": -3.525,
+      "diff": -3.53,
       "diff_pct": -0.47
     }
   }
