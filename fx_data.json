@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-18T23:29:43.562509",
-  "generated": "2026年06月18日 23:29",
+  "timestamp": "2026-06-19T10:21:21.064429",
+  "generated": "2026年06月19日 10:21",
   "scores": {
     "USD": 5,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -34,18 +34,18 @@
       "quote_score": 5
     },
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 3,
-      "quote_score": 5
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -103,57 +103,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold declines to near $4,200 as hawkish Fed stance offsets support from US-Iran peace deal",
-      "summary": "Gold price (XAU/USD) loses ground to near $4,210 during the early Asian session on Friday. The precious metal extends th"
+      "title": "USD/CHF Price Forecast: Fails ahead of 0.8100/YTD peak; bullish potential intact",
+      "summary": "The USD/CHF pair builds on this week's solid rebound from the 0.7900 mark and gains strong follow-through positive tract"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound Sterling slides as cheaper Crude Oil masks the inflation pipeline",
-      "summary": "The Bank of England (BoE) delivered the hawkish hold the market expected on Thursday, and a second member of its Monetar"
+      "title": "Global rates: Converging at slightly restrictive levels – Rabobank",
+      "summary": "Rabobank’s Global Daily stresses that unchanged rates in the UK and US contrast with recent hikes by the ECB and Bank of"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Sellers eye break below 100-day SMA",
-      "summary": "The GBP/JPY retreats during the North American session on Thursday, down 0.21% as the Pound Sterling depreciates, despit"
+      "title": "US Dollar Index: Breakout fuelled by hawkish Fed repricing – Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux highlights that the Dollar is in breakout territory after DXY moved above 101.00, suppo"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar touches one-year high, Pound slips on BoE hold",
-      "summary": "The US Dollar Index (DXY) firmed near 100.80 on Thursday, a level it hadn’t seen since May 2025, after the Federal Reser"
+      "title": "NZD/USD Price Forecast: Bears eye YTD low at 0.5680 amid US Dollar’s strength",
+      "summary": "The New Zealand Dollar (NZD) is showing the worst performance among major currencies on Friday, extending its decline ag"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: US Dollar hits new YTD high past 0.8050",
-      "summary": "The USD/CHF pair rallies on Thursday to a new yearly high of 0.8059, surpassing March’s 31 previous peak of 2026 at 0.80"
+      "title": "Japanese Yen: Uptrend intact as 162 resistance nears – Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux notes that USD/JPY has resumed its advance after holding a multi‑month trendline near 1"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound slips as BoE holds rates, Fed’s cautious stance supports Greenback",
-      "summary": "The GBP/USD pair trades near a two-month close to the 1.3210 level on Thursday as the Pound Sterling (GBP) struggles to "
+      "title": "Gold rebounds from one-week low; upside seems limited amid hawkish Fed, bullish USD",
+      "summary": "Gold (XAU/USD) recovers slightly from over a one-week low, touched earlier this Friday, though the upside potential seem"
     },
     {
-      "source": "FXStreet",
-      "title": "Japanese Yen hovers near 40-year lows as risks of intervention rise",
-      "summary": "The Japanese Yen (JPY) weakens on Thursday to a nearly two-year low against the US Dollar (USD), with the USD/JPY pair r"
-    },
-    {
-      "source": "FXStreet",
-      "title": "ECB’s Escriva sees energy inflation passing through to other sectors",
-      "summary": "European Central Bank (ECB) policymaker José Luis Escrivá said on Thursday that higher energy costs are spreading to ser"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dow Jones Industrial Average nurses its Warsh hangover",
-      "summary": "Wall Street's blue-chip index spent Thursday picking up the pieces of Wednesday's hawkish Federal Reserve (Fed) selloff,"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG remains bearish below 200-day SMA, eyes on $61.50",
-      "summary": "Silver (XAG/USD) price retreats on Thursday by nearly 2% as the Greenback refreshes year-to-date (YTD) highs, spurred by"
+      "source": "Investing",
+      "title": "Bitcoin falls to $62k, heads for weekly losses amid Iran uncertainty, rate jitters",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin falls below $63k as hawkish Fed rattles speculative assets like crypto",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Fed proposes customer ID rules for stablecoin issuers",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,15 +187,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold declines to near $4,200 as hawkish Fed stance offs",
-      "[強気] USD/CHF Price Forecast: US Dollar hits new YTD high pas",
-      "[強気] Dow Jones Industrial Average nurses its Warsh hangover",
-      "[強気] Silver Price Forecast: XAG remains bearish below 200-da",
+      "[強気] USD/CHF Price Forecast: Fails ahead of 0.8100/YTD peak;",
+      "[強気] US Dollar Index: Breakout fuelled by hawkish Fed repric",
+      "[強気] Gold rebounds from one-week low; upside seems limited a",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound Sterling slides as cheaper Crude Oil mask"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -210,7 +203,7 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
-      "[強気] USD/CHF Price Forecast: US Dollar hits new YTD high pas"
+      "[強気] USD/CHF Price Forecast: Fails ahead of 0.8100/YTD peak;"
     ]
   },
   "rates": {
