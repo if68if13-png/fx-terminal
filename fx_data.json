@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-19T16:29:58.663336",
-  "generated": "2026年06月19日 16:29",
+  "timestamp": "2026-06-19T22:48:32.824960",
+  "generated": "2026年06月19日 22:48",
   "scores": {
     "USD": 5,
-    "JPY": -1,
-    "EUR": 1,
-    "GBP": 3,
-    "AUD": -1,
+    "JPY": 1,
+    "EUR": 0,
+    "GBP": 2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 6,
-      "base_score": 5,
-      "quote_score": -1
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
+      "diff": -5,
+      "base_score": 0,
       "quote_score": 5
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 4,
-      "base_score": 3,
-      "quote_score": -1
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 3,
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
       "quote_score": 5
     },
     {
       "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar extends decline as Fed tightening expectations support US Dollar",
-      "summary": "NZD/USD trades around 0.5740 at the time of writing on Friday, down 0.28% on the day, as the US Dollar (USD) continues t"
+      "title": "Gold answers to the Fed, not the fear",
+      "summary": "Gold is supposed to be the asset you want when the world looks dangerous, which makes this week's price action quietly r"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound rebounds as holiday-thinned trade slows USD bulls",
-      "summary": "The Pound Sterling recovers some ground after reaching a three-month low on Friday at 1.3163, sponsored by the Fed’s haw"
+      "title": "The US Dollar remembers how to rally",
+      "summary": "The US Dollar Index (DXY) spent the back half of this week doing something most desks had written off six months ago: ra"
     },
     {
       "source": "FXStreet",
-      "title": "Euro steadies as the US Dollar eases, but hawkish Fed bets limit upside",
-      "summary": "EUR/USD stages a rebound on Friday as a pullback in the US Dollar (USD) helps the Euro (EUR) stabilize after recent loss"
+      "title": "Forecasting the upcoming week: US Dollar loses momentum ahead of key US inflation data",
+      "summary": "The week ahead will bring a fresh test for major currency pairs as investors digest the first Federal Reserve (Fed) poli"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Limited upside as policy diverges – Nordea",
-      "summary": "Nordea’s research suggests EUR/USD upside is constrained in coming months by interest rate differentials and relative gr"
+      "title": "Silver Price Forecast: XAG slides below 200-day SMA, bears target $61",
+      "summary": "Silver (XAG/USD) price tumbles for the third consecutive trading day, down over 3.32% on Friday, courtesy of broad US Do"
     },
     {
       "source": "FXStreet",
-      "title": "Gold heads for third weekly loss as hawkish Fed rate bets reinforce bearish trend",
-      "summary": "Gold (XAU/USD) remains under pressure on Friday as traders assess the latest news about the US-Iran peace deal and the F"
+      "title": "Australian Dollar trades little changed as hawkish Fed and RBA outlooks collide",
+      "summary": "AUD/USD trades little changed on Friday as hawkish policy signals from both the Federal Reserve (Fed) and the Reserve Ba"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Yield spreads keep pair elevated – Nordea",
-      "summary": "Nordea expects USD/JPY to remain high as wide US–Japan yield differentials persist and the Bank of Japan stays very acco"
+      "title": "Gold price extends selloff as Fed repricing lifts USD and yields",
+      "summary": "Gold (XAU/USD) price edges lower by some 1.69% on Friday, poised to end with losses for the third consecutive week.At th"
     },
     {
       "source": "FXStreet",
-      "title": "Global data: Flash PMIs and inflation focus – Deutsche Bank",
-      "summary": "Deutsche Bank’s Galina Pozdnyakova, Jim Reid and Luke Templeman highlight that next week’s main macro focus will be glob"
+      "title": "NZD/USD Price Forecast: Pair slumps further below 200-day SMA, eyes on 0.5700",
+      "summary": "The New Zealand Dollar (NZD) dives for the third consecutive day on Friday, down in the week by over 1.48%, after hittin"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar: Fed stance and data keep support – Nordea",
-      "summary": "Nordea analysts expect the Dollar to stay supported in coming months as the Federal Reserve maintains a relatively hawki"
+      "title": "Japanese Yen pares losses as US Dollar momentum fades despite hawkish Fed stance",
+      "summary": "The USD/JPY pair trades near 161.00 on Friday, easing slightly after reaching a two-year high of 161.81 on Thursday, and"
     },
     {
       "source": "Investing",
@@ -192,26 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound rebounds as holiday-thinned trade slows U",
-      "[強気] Euro steadies as the US Dollar eases, but hawkish Fed b",
-      "[強気] Gold heads for third weekly loss as hawkish Fed rate be",
-      "[弱気] Japanese Yen: Yield spreads keep pair elevated – Nordea",
-      "[強気] United States Dollar: Fed stance and data keep support ",
+      "[強気] The US Dollar remembers how to rally",
+      "[強気] Silver Price Forecast: XAG slides below 200-day SMA, be",
+      "[強気] Australian Dollar trades little changed as hawkish Fed ",
+      "[強気] Japanese Yen pares losses as US Dollar momentum fades d",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
     "JPY": [
-      "[弱気] Japanese Yen: Yield spreads keep pair elevated – Nordea"
-    ],
-    "EUR": [
-      "[強気] Euro steadies as the US Dollar eases, but hawkish Fed b"
+      "[強気] Japanese Yen pares losses as US Dollar momentum fades d"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound rebounds as holiday-thinned trade slows U"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+248,152)"
+      "[COT] 🟢ロング優勢 (ネット:+248,152)",
+      "[強気] Australian Dollar trades little changed as hawkish Fed "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -231,28 +227,28 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.40205,
-      "prev_open": 160.66112,
-      "diff": 0.7409,
-      "diff_pct": 0.46
+      "today_open": 161.30908,
+      "prev_open": 161.40205,
+      "diff": -0.093,
+      "diff_pct": -0.06
     },
     "EURUSD": {
-      "today_open": 1.14576,
-      "prev_open": 1.15016,
-      "diff": -0.0044,
-      "diff_pct": -0.38
+      "today_open": 1.14738,
+      "prev_open": 1.14576,
+      "diff": 0.0016,
+      "diff_pct": 0.14
     },
     "GBPUSD": {
-      "today_open": 1.32047,
-      "prev_open": 1.32957,
-      "diff": -0.0091,
-      "diff_pct": -0.68
+      "today_open": 1.32354,
+      "prev_open": 1.32047,
+      "diff": 0.0031,
+      "diff_pct": 0.23
     },
     "AUDUSD": {
-      "today_open": 0.70138,
-      "prev_open": 0.70141,
-      "diff": -0.0,
-      "diff_pct": -0.0
+      "today_open": 0.7011,
+      "prev_open": 0.70138,
+      "diff": -0.0003,
+      "diff_pct": -0.04
     },
     "WTI": {
       "today_open": 112.47,
