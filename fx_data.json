@@ -1,17 +1,24 @@
 {
-  "timestamp": "2026-06-19T10:21:21.064429",
-  "generated": "2026年06月19日 10:21",
+  "timestamp": "2026-06-19T16:29:58.663336",
+  "generated": "2026年06月19日 16:29",
   "scores": {
     "USD": 5,
-    "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "JPY": -1,
+    "EUR": 1,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 6,
+      "base_score": 5,
+      "quote_score": -1
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -20,39 +27,32 @@
       "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
+      "diff": -4,
+      "base_score": 1,
       "quote_score": 5
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 3,
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,37 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Fails ahead of 0.8100/YTD peak; bullish potential intact",
-      "summary": "The USD/CHF pair builds on this week's solid rebound from the 0.7900 mark and gains strong follow-through positive tract"
+      "title": "New Zealand Dollar extends decline as Fed tightening expectations support US Dollar",
+      "summary": "NZD/USD trades around 0.5740 at the time of writing on Friday, down 0.28% on the day, as the US Dollar (USD) continues t"
     },
     {
       "source": "FXStreet",
-      "title": "Global rates: Converging at slightly restrictive levels – Rabobank",
-      "summary": "Rabobank’s Global Daily stresses that unchanged rates in the UK and US contrast with recent hikes by the ECB and Bank of"
+      "title": "British Pound rebounds as holiday-thinned trade slows USD bulls",
+      "summary": "The Pound Sterling recovers some ground after reaching a three-month low on Friday at 1.3163, sponsored by the Fed’s haw"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: Breakout fuelled by hawkish Fed repricing – Societe Generale",
-      "summary": "Societe Generale’s Kenneth Broux highlights that the Dollar is in breakout territory after DXY moved above 101.00, suppo"
+      "title": "Euro steadies as the US Dollar eases, but hawkish Fed bets limit upside",
+      "summary": "EUR/USD stages a rebound on Friday as a pullback in the US Dollar (USD) helps the Euro (EUR) stabilize after recent loss"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Bears eye YTD low at 0.5680 amid US Dollar’s strength",
-      "summary": "The New Zealand Dollar (NZD) is showing the worst performance among major currencies on Friday, extending its decline ag"
+      "title": "Euro: Limited upside as policy diverges – Nordea",
+      "summary": "Nordea’s research suggests EUR/USD upside is constrained in coming months by interest rate differentials and relative gr"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Uptrend intact as 162 resistance nears – Societe Generale",
-      "summary": "Societe Generale’s Kenneth Broux notes that USD/JPY has resumed its advance after holding a multi‑month trendline near 1"
+      "title": "Gold heads for third weekly loss as hawkish Fed rate bets reinforce bearish trend",
+      "summary": "Gold (XAU/USD) remains under pressure on Friday as traders assess the latest news about the US-Iran peace deal and the F"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rebounds from one-week low; upside seems limited amid hawkish Fed, bullish USD",
-      "summary": "Gold (XAU/USD) recovers slightly from over a one-week low, touched earlier this Friday, though the upside potential seem"
+      "title": "Japanese Yen: Yield spreads keep pair elevated – Nordea",
+      "summary": "Nordea expects USD/JPY to remain high as wide US–Japan yield differentials persist and the Bank of Japan stays very acco"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Global data: Flash PMIs and inflation focus – Deutsche Bank",
+      "summary": "Deutsche Bank’s Galina Pozdnyakova, Jim Reid and Luke Templeman highlight that next week’s main macro focus will be glob"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar: Fed stance and data keep support – Nordea",
+      "summary": "Nordea analysts expect the Dollar to stay supported in coming months as the Federal Reserve maintains a relatively hawki"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls to $62k, heads for weekly losses amid Iran uncertainty, rate jitters",
+      "title": "Bitcoin on track for weekly losses amid Iran uncertainty, rate jitters",
       "summary": ""
     },
     {
@@ -144,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Fed proposes customer ID rules for stablecoin issuers",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,13 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] USD/CHF Price Forecast: Fails ahead of 0.8100/YTD peak;",
-      "[強気] US Dollar Index: Breakout fuelled by hawkish Fed repric",
-      "[強気] Gold rebounds from one-week low; upside seems limited a",
+      "[強気] British Pound rebounds as holiday-thinned trade slows U",
+      "[強気] Euro steadies as the US Dollar eases, but hawkish Fed b",
+      "[強気] Gold heads for third weekly loss as hawkish Fed rate be",
+      "[弱気] Japanese Yen: Yield spreads keep pair elevated – Nordea",
+      "[強気] United States Dollar: Fed stance and data keep support ",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
+    "JPY": [
+      "[弱気] Japanese Yen: Yield spreads keep pair elevated – Nordea"
+    ],
+    "EUR": [
+      "[強気] Euro steadies as the US Dollar eases, but hawkish Fed b"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound rebounds as holiday-thinned trade slows U"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -201,9 +215,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] USD/CHF Price Forecast: Fails ahead of 0.8100/YTD peak;"
     ]
   },
   "rates": {
