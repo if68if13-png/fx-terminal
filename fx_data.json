@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-06-20T08:50:04.240383",
-  "generated": "2026年06月20日 08:50",
+  "timestamp": "2026-06-20T15:42:29.045559",
+  "generated": "2026年06月20日 15:42",
   "scores": {
     "USD": 5,
     "JPY": 0,
     "EUR": 1,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -6,
+      "base_score": -1,
+      "quote_score": 5
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 5,
       "base_score": 5,
       "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
     },
     {
       "pair": "EURUSD",
@@ -137,11 +137,6 @@
       "summary": "Silver (XAG/USD) price tumbles for the third consecutive trading day, down over 3.32% on Friday, courtesy of broad US Do"
     },
     {
-      "source": "FXStreet",
-      "title": "Australian Dollar trades little changed as hawkish Fed and RBA outlooks collide",
-      "summary": "AUD/USD trades little changed on Friday as hawkish policy signals from both the Federal Reserve (Fed) and the Reserve Ba"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin on track for weekly losses amid Iran uncertainty, rate jitters",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Fed proposes customer ID rules for stablecoin issuers",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -194,7 +194,6 @@
       "[中銀] 利上げ方向 (金利差方向)",
       "[強気] The US Dollar remembers how to rally",
       "[強気] Silver Price Forecast: XAG slides below 200-day SMA, be",
-      "[強気] Australian Dollar trades little changed as hawkish Fed ",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
     "EUR": [
@@ -205,8 +204,7 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+248,152)",
-      "[強気] Australian Dollar trades little changed as hawkish Fed "
+      "[COT] 🟢ロング優勢 (ネット:+248,152)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
