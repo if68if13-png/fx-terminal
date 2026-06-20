@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-19T22:48:32.824960",
-  "generated": "2026年06月19日 22:48",
+  "timestamp": "2026-06-20T08:50:04.240383",
+  "generated": "2026年06月20日 08:50",
   "scores": {
     "USD": 5,
-    "JPY": 1,
-    "EUR": 0,
+    "JPY": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": 0,
     "NZD": 2,
@@ -13,11 +13,11 @@
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
     },
     {
       "pair": "AUDUSD",
@@ -27,11 +27,11 @@
       "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
@@ -41,18 +41,18 @@
       "quote_score": 5
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": 1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,6 +103,21 @@
     },
     {
       "source": "FXStreet",
+      "title": "The Canadian Dollar ditches Crude Oil for Gold",
+      "summary": "The textbook calls the Canadian Dollar a petro-currency, which means that with a Middle East war keeping Crude Oil bid, "
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Euro sinks on its own rate hike",
+      "summary": "The Euro did something this week that ought to be impossible: it fell in the same fortnight the European Central Bank (E"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Australian Dollar looks for an excuse to break ranks",
+      "summary": "The Australian Dollar spent this week as a passenger in someone else's trade."
+    },
+    {
+      "source": "FXStreet",
       "title": "Gold answers to the Fed, not the fear",
       "summary": "Gold is supposed to be the asset you want when the world looks dangerous, which makes this week's price action quietly r"
     },
@@ -125,21 +140,6 @@
       "source": "FXStreet",
       "title": "Australian Dollar trades little changed as hawkish Fed and RBA outlooks collide",
       "summary": "AUD/USD trades little changed on Friday as hawkish policy signals from both the Federal Reserve (Fed) and the Reserve Ba"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold price extends selloff as Fed repricing lifts USD and yields",
-      "summary": "Gold (XAU/USD) price edges lower by some 1.69% on Friday, poised to end with losses for the third consecutive week.At th"
-    },
-    {
-      "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Pair slumps further below 200-day SMA, eyes on 0.5700",
-      "summary": "The New Zealand Dollar (NZD) dives for the third consecutive day on Friday, down in the week by over 1.48%, after hittin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen pares losses as US Dollar momentum fades despite hawkish Fed stance",
-      "summary": "The USD/JPY pair trades near 161.00 on Friday, easing slightly after reaching a two-year high of 161.81 on Thursday, and"
     },
     {
       "source": "Investing",
@@ -195,11 +195,10 @@
       "[強気] The US Dollar remembers how to rally",
       "[強気] Silver Price Forecast: XAG slides below 200-day SMA, be",
       "[強気] Australian Dollar trades little changed as hawkish Fed ",
-      "[強気] Japanese Yen pares losses as US Dollar momentum fades d",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
-    "JPY": [
-      "[強気] Japanese Yen pares losses as US Dollar momentum fades d"
+    "EUR": [
+      "[強気] The Euro sinks on its own rate hike"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
