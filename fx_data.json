@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-21T15:48:10.262970",
-  "generated": "2026年06月21日 15:48",
+  "timestamp": "2026-06-21T23:04:24.359376",
+  "generated": "2026年06月21日 23:04",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
     "EUR": 1,
     "GBP": 2,
@@ -15,30 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": 1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -132,11 +132,6 @@
       "summary": "The week ahead will bring a fresh test for major currency pairs as investors digest the first Federal Reserve (Fed) poli"
     },
     {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG slides below 200-day SMA, bears target $61",
-      "summary": "Silver (XAG/USD) price tumbles for the third consecutive trading day, down over 3.32% on Friday, courtesy of broad US Do"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin on track for weekly losses amid Iran uncertainty, rate jitters",
       "summary": ""
@@ -188,7 +183,6 @@
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
       "[強気] The US Dollar remembers how to rally",
-      "[強気] Silver Price Forecast: XAG slides below 200-day SMA, be",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
     ],
     "EUR": [
@@ -219,28 +213,28 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.29988,
-      "prev_open": 161.30908,
-      "diff": -0.0092,
-      "diff_pct": -0.01
-    },
-    "EURUSD": {
-      "today_open": 1.14762,
-      "prev_open": 1.14738,
-      "diff": 0.0002,
-      "diff_pct": 0.02
-    },
-    "GBPUSD": {
-      "today_open": 1.32312,
-      "prev_open": 1.32354,
-      "diff": -0.0004,
+      "today_open": 161.25598,
+      "prev_open": 161.29988,
+      "diff": -0.0439,
       "diff_pct": -0.03
     },
+    "EURUSD": {
+      "today_open": 1.14656,
+      "prev_open": 1.14762,
+      "diff": -0.0011,
+      "diff_pct": -0.1
+    },
+    "GBPUSD": {
+      "today_open": 1.31983,
+      "prev_open": 1.32312,
+      "diff": -0.0033,
+      "diff_pct": -0.25
+    },
     "AUDUSD": {
-      "today_open": 0.70099,
-      "prev_open": 0.7011,
-      "diff": -0.0001,
-      "diff_pct": -0.01
+      "today_open": 0.70155,
+      "prev_open": 0.70099,
+      "diff": 0.0006,
+      "diff_pct": 0.09
     },
     "WTI": {
       "today_open": 112.47,
