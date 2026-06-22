@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-06-22T18:10:24.865117",
-  "generated": "2026年06月22日 18:10",
+  "timestamp": "2026-06-22T23:17:19.254202",
+  "generated": "2026年06月22日 23:17",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 3,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
-    },
-    {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Pressured against US Dollar as MAS tightening eyed – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that USD/SGD is trading with a bid tone on a firmer US Dollar ("
+      "title": "Euro falls as USD gains on Iran optimism, Lagarde tempers ECB hawks",
+      "summary": "The shared currency registered losses of 0.37% against the US Dollar on Monday late in the North American session amid p"
     },
     {
       "source": "FXStreet",
-      "title": "Gold price rises as Iran talks knock Oil lower",
-      "summary": "Gold (XAU/USD) price posts modest gains of 0.50% on Monday as talks between the US and Iran began on a positive note, dr"
+      "title": "New Zealand Dollar grinds lower as the Iran truce frays",
+      "summary": "The New Zealand Dollar closed lower for a fourth consecutive session on Monday, drifting toward the 0.5700 handle as a f"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar falls as hawkish Fed, fragile US-Iran truce boost the US Dollar",
-      "summary": "NZD/USD trades in negative territory around 0.5730 on Monday, extending its retreat for the fourth consecutive day. The "
+      "title": "New Zealand falls as a stronger US Dollar weighs on risk-sensitive currencies",
+      "summary": "The NZD/USD pair traded lower on Monday, hovering near a two-month low at the 0.5720 area, as the New Zealand Dollar (NZ"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysia: Price pressures and policy hold – UOB",
-      "summary": "UOB economists Julia Goh and Loke Siew Ting note Malaysia’s May headline inflation rose to 2.0% year-on-year, the highes"
+      "title": "Forex Today: US Dollar surges near recent highs as markets watch PCE inflation and Middle East",
+      "summary": "The US Dollar (USD) traded near the 101.00 level on a positive note on Monday, near the 13-month high of 101.13 reached "
     },
     {
       "source": "FXStreet",
-      "title": "Asia FX: Growth support versus Fed risks – MUFG",
-      "summary": "MUFG’s Michael Wan notes that Asian currencies should benefit from stronger regional growth differentials versus the US,"
+      "title": "Swiss Franc weakens vs Dollar, Euro as SNB gets relief",
+      "summary": "The Swiss Franc (CHF) loses ground against the US Dollar (USD) and the Euro (EUR) on Monday as risk appetite improves am"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls near 0.7000 ahead of US PCE inflation data",
-      "summary": "The AUD/USD pair fell near the 0.700 area on Monday, struggling to extend gains as investors remain cautious ahead of th"
+      "title": "Malaysian Ringgit: Stays pressured against US Dollar as trades cautiously – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that Malaysian Ringgit (MYR) has softened despite supporti"
     },
     {
       "source": "FXStreet",
-      "title": "Euro languishes near three-month lows against US Dollar despite progress in US-Iran talks",
-      "summary": "EUR/USD trades under pressure on Monday, extending losses from the previous week as expectations of a hawkish Federal Re"
+      "title": "United States Dollar Index rises, remains supported near 101.00",
+      "summary": "The US Dollar Index (DXY), which measures the value of the Greenback against a basket of major currencies, is trading ne"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range trade against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains supported around 1.29 as the Singa"
+      "title": "Mexican Peso weakens as Fed repricing lifts US Dollar ahead of Banxico",
+      "summary": "The Mexican Peso (MXN) posts a 0.34% loss on Monday as the Greenback recovers some ground, driven by the Federal Reserve"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin ticks up on positive U.S.-Iran talks, but gains capped by rate hike bets",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -150,103 +155,102 @@
       "source": "Investing",
       "title": "Bitcoin on track for weekly losses amid Iran uncertainty, rate jitters",
       "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 115412,
-      "short": 72498,
-      "net": 42914,
+      "long": 145747,
+      "short": 72838,
+      "net": 72909,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 38480,
-      "short": 484,
-      "net": 37996,
+      "long": 41213,
+      "short": 0,
+      "net": 41213,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 25845,
-      "short": 3096,
-      "net": 22749,
+      "long": 25086,
+      "short": 3140,
+      "net": 21946,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 25845,
-      "short": 3096,
-      "net": 22749,
+      "long": 25086,
+      "short": 3140,
+      "net": 21946,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 314177,
-      "short": 66025,
-      "net": 248152,
+      "long": 295545,
+      "short": 38032,
+      "net": 257513,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar falls as hawkish Fed, fragile US-Ira",
-      "[強気] Asia FX: Growth support versus Fed risks – MUFG",
-      "[強気] Euro languishes near three-month lows against US Dollar"
+      "[強気] New Zealand falls as a stronger US Dollar weighs on ris",
+      "[強気] Forex Today: US Dollar surges near recent highs as mark",
+      "[弱気] Swiss Franc weakens vs Dollar, Euro as SNB gets relief",
+      "[強気] Malaysian Ringgit: Stays pressured against US Dollar as"
     ],
     "EUR": [
-      "[強気] Euro languishes near three-month lows against US Dollar"
+      "[弱気] Swiss Franc weakens vs Dollar, Euro as SNB gets relief"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+248,152)"
+      "[COT] 🟢ロング優勢 (ネット:+257,513)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar falls as hawkish Fed, fragile US-Ira"
+      "[強気] New Zealand falls as a stronger US Dollar weighs on ris"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc weakens vs Dollar, Euro as SNB gets relief"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.49,
+    "US_10Y": 4.46,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.84,
-    "DIFF_EURUSD": -1.44,
-    "DIFF_GBPUSD": 0.45,
-    "DIFF_AUDUSD": 0.5
+    "DIFF_USDJPY": 1.81,
+    "DIFF_EURUSD": -1.41,
+    "DIFF_GBPUSD": 0.48,
+    "DIFF_AUDUSD": 0.53
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.25598,
-      "prev_open": 161.29988,
-      "diff": -0.0439,
-      "diff_pct": -0.03
+      "today_open": 161.61113,
+      "prev_open": 161.25598,
+      "diff": 0.3552,
+      "diff_pct": 0.22
     },
     "EURUSD": {
-      "today_open": 1.14656,
-      "prev_open": 1.14762,
-      "diff": -0.0011,
-      "diff_pct": -0.1
+      "today_open": 1.14289,
+      "prev_open": 1.14656,
+      "diff": -0.0037,
+      "diff_pct": -0.32
     },
     "GBPUSD": {
-      "today_open": 1.31983,
-      "prev_open": 1.32312,
-      "diff": -0.0033,
-      "diff_pct": -0.25
+      "today_open": 1.32505,
+      "prev_open": 1.31983,
+      "diff": 0.0052,
+      "diff_pct": 0.39
     },
     "AUDUSD": {
-      "today_open": 0.70155,
-      "prev_open": 0.70099,
-      "diff": 0.0006,
-      "diff_pct": 0.09
+      "today_open": 0.70006,
+      "prev_open": 0.70155,
+      "diff": -0.0015,
+      "diff_pct": -0.21
     },
     "WTI": {
       "today_open": 112.63,
@@ -255,7 +259,7 @@
       "diff_pct": 0.14
     },
     "SP500": {
-      "today_open": 747.7,
+      "today_open": 747.70001,
       "prev_open": 747.76001,
       "diff": -0.06,
       "diff_pct": -0.01
