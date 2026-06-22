@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-21T23:04:24.359376",
-  "generated": "2026年06月21日 23:04",
+  "timestamp": "2026-06-22T11:47:29.070478",
+  "generated": "2026年06月22日 11:47",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,30 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +41,17 @@
       "quote_score": 0
     },
     {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,33 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "The Canadian Dollar ditches Crude Oil for Gold",
-      "summary": "The textbook calls the Canadian Dollar a petro-currency, which means that with a Middle East war keeping Crude Oil bid, "
+      "title": "AUD/USD Price Forecast: Could slide to 0.6900 if breaks below 0.6980",
+      "summary": "The Australian Dollar (AUD) trades slightly lower at around 0.7003 against the US Dollar (USD) during the European tradi"
     },
     {
       "source": "FXStreet",
-      "title": "The Euro sinks on its own rate hike",
-      "summary": "The Euro did something this week that ought to be impossible: it fell in the same fortnight the European Central Bank (E"
+      "title": "British Pound jumps against the Japanese Yen as UK PM Starmer steps down",
+      "summary": "The British Pound (GBP) accelerates its recovery against the Japanese Yen (JPY)  on Monday to test levels above 214.00 a"
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar looks for an excuse to break ranks",
-      "summary": "The Australian Dollar spent this week as a passenger in someone else's trade."
+      "title": "Euro slips against British Pound after UK Prime Minister Starmer steps down",
+      "summary": "EUR/GBP comes under pressure on Monday as markets react positively to UK Prime Minister Keir Starmer's resignation, with"
     },
     {
       "source": "FXStreet",
-      "title": "Gold answers to the Fed, not the fear",
-      "summary": "Gold is supposed to be the asset you want when the world looks dangerous, which makes this week's price action quietly r"
+      "title": "Japanese Yen: BoJ tightening fails to lift Japanese Yen – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that the Bank of Japan’s (BoJ) 25 bp hike to 1.0% and confirmat"
     },
     {
       "source": "FXStreet",
-      "title": "The US Dollar remembers how to rally",
-      "summary": "The US Dollar Index (DXY) spent the back half of this week doing something most desks had written off six months ago: ra"
+      "title": "Canada CPI set to show sticky inflation in May",
+      "summary": "The publication of Canada’s May Consumer Price Index (CPI) figures on Monday will be the focus of attention."
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: US Dollar loses momentum ahead of key US inflation data",
-      "summary": "The week ahead will bring a fresh test for major currency pairs as investors digest the first Federal Reserve (Fed) poli"
+      "title": "Euro advances as Eurozone PMIs and Lagarde speeches take focus while Yen stays pressured",
+      "summary": "EUR/JPY advances toward 185.30 on Monday, gaining 0.16% at the time of writing, as markets prepare for the release of th"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Brent: Talks ease supply risk – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that Brent Oil has reversed earlier gains as progress in US–Iran talks reduces fears over"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold: Losses extend with higher-for-longer Fed – ING",
+      "summary": "ING strategists Warren Patterson and Ewa Manthey say Gold fell for a third straight session and week, losing over 2% as "
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound edges up above 1.3200 after PM Keir Starmer’s resignation",
+      "summary": "The British Pound (GBP) nudged up above 1.3200 against the  US Dollar (USD) on Monday and maintains a mild positive tone"
     },
     {
       "source": "Investing",
@@ -139,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin falls below $63k as hawkish Fed rattles speculative assets like crypto",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -182,11 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] The US Dollar remembers how to rally",
       "[強気] Bitcoin falls below $63k as hawkish Fed rattles specula"
-    ],
-    "EUR": [
-      "[強気] The Euro sinks on its own rate hike"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
