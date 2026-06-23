@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-23T09:32:59.532830",
-  "generated": "2026年06月23日 09:32",
+  "timestamp": "2026-06-23T16:24:26.945931",
+  "generated": "2026年06月23日 16:24",
   "scores": {
-    "USD": 2,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,37 +15,37 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Lane: A range of forward-looking signals point to inflationary pressures in coming months",
-      "summary": "European Central Bank (ECB) Chief Economist Philip Lane said at the European Parliament in Brussels that inflationary pr"
+      "title": "Gold languishes near $4,100 as US Dollar hits one-year highs, PMIs beat forecasts",
+      "summary": "Gold (XAU/USD) trades on the back foot on Tuesday, pressured by a stronger US Dollar (USD) and rising expectations that "
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures slip as Iran denies IAEA inspection claims",
-      "summary": "Dow Jones futures fall by 0.72%, trading near 51,750 during the European hours on Tuesday. However, S&amp;P 500 futures "
+      "title": "Reserve Bank of Australia: Slowing demand supports steady rates – TD Securities",
+      "summary": "TD Securities strategist Prashant Newnaha notes that softer S&amp;P Australia Flash Composite PMI data, including weaker"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Hovers near multi‑decade lows against US Dollar – Deutsche Bank",
-      "summary": "Deutsche Bank’s Early Morning Reid highlights that the Japanese Yen remains under pressure, trading close to 40‑year low"
+      "title": "Canadian Dollar falls to multi‑month low as Fed hike bets rise, Oil weighs",
+      "summary": "USD/CAD trades around 1.4190 on Tuesday at the time of writing, up 0.25% on the day and extending a four-day winning str"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom flash S&P Global Services PMI unexpectedly arrives lower at 48.7 in June vs. 50.0 estimates",
-      "summary": "Preliminary United Kingdom flash S&amp;P Global Services Purchasing Managers’ Index (PMI) declines at a faster pace to 4"
+      "title": "Euro drops below 1.1400 as hawkish Fed bets push the US Dollar to one-year highs",
+      "summary": "The Euro (EUR) extends losses against the US Dollar (USD) on Tuesday, with EUR/USD slipping below the 1.1400 mark, a sup"
     },
     {
       "source": "FXStreet",
-      "title": "Gold breaks below $4,100 as USD hits fresh high since May 2025 ahead of US PMIs",
-      "summary": "Gold (XAU/USD) breaks below the $4,100 mark, hitting its lowest level in nearly two weeks during the first half of the E"
+      "title": "Natural gas: Lower TTF path but winter risks – Rabobank",
+      "summary": "Rabobank’s energy strategists Joe DeLaura and Florence Schmit cut TTF Natural Gas forecasts on easing supply risks from "
     },
     {
       "source": "FXStreet",
-      "title": "The Canadian Dollar hits 14-month lows: Why higher inflation is unlikely to support the Loonie for now",
-      "summary": "The Canadian Dollar (CAD) is facing renewed pressure as USD/CAD extends its rally to 14-month highs, with Societe Genera"
+      "title": "Euro area: PMIs signal weak activity and sticky prices – Nomura",
+      "summary": "Nomura strategists note Euro area business activity stayed in contraction in June, with the composite PMI at 49.5 despit"
     },
     {
       "source": "FXStreet",
-      "title": "Euro trims gains against British Pound despite moderately positive Eurozone PMI data",
-      "summary": "The Euro (EUR) pares previous gains against the British Pound (GBP) on Tuesday."
+      "title": "British Pound: Fiscal worries cap recovery against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the British Pound (GBP) is softer versus the US Dollar (USD) "
+    },
+    {
+      "source": "FXStreet",
+      "title": "BoE’s Taylor: “We enter this shock with a very weak economy”",
+      "summary": "Bank of England (BoE) policymaker Alan Taylor said on Tuesday that keeping interest rates on hold for an extended period"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls to $63k as rate fears weigh; ETF outflows persist",
+      "title": "Ethereum Foundation cuts 20% of staff in sweeping restructure",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin retreats to $62k as rate fears weigh; ETF outflows persist",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin ticks up on positive U.S.-Iran talks, but gains capped by rate hike bets",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells MSTR shares via ATM, buys 520 bitcoins",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,10 +191,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Gold languishes near $4,100 as US Dollar hits one-year ",
+      "[強気] Euro drops below 1.1400 as hawkish Fed bets push the US"
+    ],
+    "EUR": [
+      "[強気] Euro drops below 1.1400 as hawkish Fed bets push the US",
+      "[弱気] Euro area: PMIs signal weak activity and sticky prices "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] BoE’s Taylor: “We enter this shock with a very weak eco"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -242,16 +249,16 @@
       "diff_pct": -0.21
     },
     "WTI": {
-      "today_open": 112.63,
-      "prev_open": 112.47,
-      "diff": 0.16,
-      "diff_pct": 0.14
+      "today_open": 110.87,
+      "prev_open": 112.63,
+      "diff": -1.76,
+      "diff_pct": -1.56
     },
     "SP500": {
-      "today_open": 747.70001,
-      "prev_open": 747.76001,
-      "diff": -0.06,
-      "diff_pct": -0.01
+      "today_open": 733.74,
+      "prev_open": 747.70001,
+      "diff": -13.96,
+      "diff_pct": -1.87
     }
   }
 }
