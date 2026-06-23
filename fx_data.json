@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-06-22T23:17:19.254202",
-  "generated": "2026年06月22日 23:17",
+  "timestamp": "2026-06-23T09:32:59.532830",
+  "generated": "2026年06月23日 09:32",
   "scores": {
-    "USD": 4,
+    "USD": 2,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +41,17 @@
       "quote_score": 0
     },
     {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro falls as USD gains on Iran optimism, Lagarde tempers ECB hawks",
-      "summary": "The shared currency registered losses of 0.37% against the US Dollar on Monday late in the North American session amid p"
+      "title": "ECB’s Lane: A range of forward-looking signals point to inflationary pressures in coming months",
+      "summary": "European Central Bank (ECB) Chief Economist Philip Lane said at the European Parliament in Brussels that inflationary pr"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar grinds lower as the Iran truce frays",
-      "summary": "The New Zealand Dollar closed lower for a fourth consecutive session on Monday, drifting toward the 0.5700 handle as a f"
+      "title": "Dow Jones futures slip as Iran denies IAEA inspection claims",
+      "summary": "Dow Jones futures fall by 0.72%, trading near 51,750 during the European hours on Tuesday. However, S&amp;P 500 futures "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand falls as a stronger US Dollar weighs on risk-sensitive currencies",
-      "summary": "The NZD/USD pair traded lower on Monday, hovering near a two-month low at the 0.5720 area, as the New Zealand Dollar (NZ"
+      "title": "Japanese Yen: Hovers near multi‑decade lows against US Dollar – Deutsche Bank",
+      "summary": "Deutsche Bank’s Early Morning Reid highlights that the Japanese Yen remains under pressure, trading close to 40‑year low"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar surges near recent highs as markets watch PCE inflation and Middle East",
-      "summary": "The US Dollar (USD) traded near the 101.00 level on a positive note on Monday, near the 13-month high of 101.13 reached "
+      "title": "United Kingdom flash S&P Global Services PMI unexpectedly arrives lower at 48.7 in June vs. 50.0 estimates",
+      "summary": "Preliminary United Kingdom flash S&amp;P Global Services Purchasing Managers’ Index (PMI) declines at a faster pace to 4"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc weakens vs Dollar, Euro as SNB gets relief",
-      "summary": "The Swiss Franc (CHF) loses ground against the US Dollar (USD) and the Euro (EUR) on Monday as risk appetite improves am"
+      "title": "Gold breaks below $4,100 as USD hits fresh high since May 2025 ahead of US PMIs",
+      "summary": "Gold (XAU/USD) breaks below the $4,100 mark, hitting its lowest level in nearly two weeks during the first half of the E"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysian Ringgit: Stays pressured against US Dollar as trades cautiously – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that Malaysian Ringgit (MYR) has softened despite supporti"
+      "title": "The Canadian Dollar hits 14-month lows: Why higher inflation is unlikely to support the Loonie for now",
+      "summary": "The Canadian Dollar (CAD) is facing renewed pressure as USD/CAD extends its rally to 14-month highs, with Societe Genera"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index rises, remains supported near 101.00",
-      "summary": "The US Dollar Index (DXY), which measures the value of the Greenback against a basket of major currencies, is trading ne"
+      "title": "Euro trims gains against British Pound despite moderately positive Eurozone PMI data",
+      "summary": "The Euro (EUR) pares previous gains against the British Pound (GBP) on Tuesday."
     },
     {
-      "source": "FXStreet",
-      "title": "Mexican Peso weakens as Fed repricing lifts US Dollar ahead of Banxico",
-      "summary": "The Mexican Peso (MXN) posts a 0.34% loss on Monday as the Greenback recovers some ground, driven by the Federal Reserve"
+      "source": "Investing",
+      "title": "Bitcoin falls to $63k as rate fears weigh; ETF outflows persist",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -152,8 +152,8 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin on track for weekly losses amid Iran uncertainty, rate jitters",
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,14 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand falls as a stronger US Dollar weighs on ris",
-      "[強気] Forex Today: US Dollar surges near recent highs as mark",
-      "[弱気] Swiss Franc weakens vs Dollar, Euro as SNB gets relief",
-      "[強気] Malaysian Ringgit: Stays pressured against US Dollar as"
-    ],
-    "EUR": [
-      "[弱気] Swiss Franc weakens vs Dollar, Euro as SNB gets relief"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -208,11 +201,7 @@
       "[COT] 🟢ロング優勢 (ネット:+257,513)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand falls as a stronger US Dollar weighs on ris"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc weakens vs Dollar, Euro as SNB gets relief"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
