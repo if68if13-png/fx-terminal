@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-06-23T16:24:26.945931",
-  "generated": "2026年06月23日 16:24",
+  "timestamp": "2026-06-23T23:02:33.369588",
+  "generated": "2026年06月23日 23:02",
   "scores": {
     "USD": 4,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
@@ -35,16 +35,16 @@
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
       "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
@@ -103,52 +103,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold languishes near $4,100 as US Dollar hits one-year highs, PMIs beat forecasts",
-      "summary": "Gold (XAU/USD) trades on the back foot on Tuesday, pressured by a stronger US Dollar (USD) and rising expectations that "
+      "title": "Canadian Dollar falls as USD strength, Oil weakness bite",
+      "summary": "The Loonie registers losses of 0.40% on Tuesday as the US Dollar refreshes year-to-date (YTD) highs, while falling Oil p"
     },
     {
       "source": "FXStreet",
-      "title": "Reserve Bank of Australia: Slowing demand supports steady rates – TD Securities",
-      "summary": "TD Securities strategist Prashant Newnaha notes that softer S&amp;P Australia Flash Composite PMI data, including weaker"
+      "title": "Forex Today: US Dollar surges to 13-month high as traders assess Global flash PMIs",
+      "summary": "The US Dollar Index (DXY) surged to a one-year high near 101.40 on Tuesday as investors digested the latest S&amp;P Glob"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar falls to multi‑month low as Fed hike bets rise, Oil weighs",
-      "summary": "USD/CAD trades around 1.4190 on Tuesday at the time of writing, up 0.25% on the day and extending a four-day winning str"
+      "title": "Swiss Franc falls vs US Dollar, climbs against Euro in mixed trade",
+      "summary": "The Swiss Franc (CHF) extends its losses for the fifth straight trading day against the US Dollar (USD), down 0.15% on T"
     },
     {
       "source": "FXStreet",
-      "title": "Euro drops below 1.1400 as hawkish Fed bets push the US Dollar to one-year highs",
-      "summary": "The Euro (EUR) extends losses against the US Dollar (USD) on Tuesday, with EUR/USD slipping below the 1.1400 mark, a sup"
+      "title": "United States Dollar Index climbs to its highest level since May 2025 on Fed hike bets",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback's value against a basket of six major currencies, extends its rall"
     },
     {
       "source": "FXStreet",
-      "title": "Natural gas: Lower TTF path but winter risks – Rabobank",
-      "summary": "Rabobank’s energy strategists Joe DeLaura and Florence Schmit cut TTF Natural Gas forecasts on easing supply risks from "
+      "title": "Gold price slides as AI rout fuels US Dollar flight",
+      "summary": "Gold (XAU/USD) price erases Monday’s gains, diving over 1.30% on Tuesday, pressured by broad US Dollar (USD) strength, d"
     },
     {
       "source": "FXStreet",
-      "title": "Euro area: PMIs signal weak activity and sticky prices – Nomura",
-      "summary": "Nomura strategists note Euro area business activity stayed in contraction in June, with the composite PMI at 49.5 despit"
+      "title": "South Korean Won: Weak KRW and hawkish BoK expectations – Commerzbank",
+      "summary": "Commerzbank highlights strong South Korean export momentum, led by semiconductors and petroleum, but notes that South Ko"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Fiscal worries cap recovery against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the British Pound (GBP) is softer versus the US Dollar (USD) "
+      "title": "Australian Dollar nears three-month low ahead of Australian CPI data",
+      "summary": "The AUD/USD fell sharply near the 0.6920 level on Tuesday, as investors await the upcoming Australian Consumer Price Ind"
     },
     {
       "source": "FXStreet",
-      "title": "BoE’s Taylor: “We enter this shock with a very weak economy”",
-      "summary": "Bank of England (BoE) policymaker Alan Taylor said on Tuesday that keeping interest rates on hold for an extended period"
+      "title": "Dow Jones Industrial Average green by default as chips crater",
+      "summary": "The Dow Jones Industrial Average (DJIA) held in the green through Tuesday even as the rest of the equity board bled. On "
     },
     {
       "source": "Investing",
-      "title": "Ethereum Foundation cuts 20% of staff in sweeping restructure",
+      "title": "Bitcoin falls to $62k on rate hike bets, global tech sell-off, and ETF outflows",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin retreats to $62k as rate fears weigh; ETF outflows persist",
+      "title": "Ethereum Foundation cuts 20% of staff in sweeping restructure",
       "summary": ""
     },
     {
@@ -192,16 +192,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold languishes near $4,100 as US Dollar hits one-year ",
-      "[強気] Euro drops below 1.1400 as hawkish Fed bets push the US"
-    ],
-    "EUR": [
-      "[強気] Euro drops below 1.1400 as hawkish Fed bets push the US",
-      "[弱気] Euro area: PMIs signal weak activity and sticky prices "
+      "[弱気] Canadian Dollar falls as USD strength, Oil weakness bit",
+      "[強気] Forex Today: US Dollar surges to 13-month high as trade",
+      "[強気] Gold price slides as AI rout fuels US Dollar flight",
+      "[強気] South Korean Won: Weak KRW and hawkish BoK expectations"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] BoE’s Taylor: “We enter this shock with a very weak eco"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -209,56 +206,59 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar falls as USD strength, Oil weakness bit"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.46,
+    "US_10Y": 4.51,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.81,
-    "DIFF_EURUSD": -1.41,
-    "DIFF_GBPUSD": 0.48,
-    "DIFF_AUDUSD": 0.53
+    "DIFF_USDJPY": 1.86,
+    "DIFF_EURUSD": -1.46,
+    "DIFF_GBPUSD": 0.43,
+    "DIFF_AUDUSD": 0.48
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.61113,
-      "prev_open": 161.25598,
-      "diff": 0.3552,
-      "diff_pct": 0.22
+      "today_open": 161.58135,
+      "prev_open": 161.61113,
+      "diff": -0.0298,
+      "diff_pct": -0.02
     },
     "EURUSD": {
-      "today_open": 1.14289,
-      "prev_open": 1.14656,
-      "diff": -0.0037,
-      "diff_pct": -0.32
+      "today_open": 1.13819,
+      "prev_open": 1.14289,
+      "diff": -0.0047,
+      "diff_pct": -0.41
     },
     "GBPUSD": {
-      "today_open": 1.32505,
-      "prev_open": 1.31983,
-      "diff": 0.0052,
-      "diff_pct": 0.39
+      "today_open": 1.3203,
+      "prev_open": 1.32505,
+      "diff": -0.0048,
+      "diff_pct": -0.36
     },
     "AUDUSD": {
-      "today_open": 0.70006,
-      "prev_open": 0.70155,
-      "diff": -0.0015,
-      "diff_pct": -0.21
+      "today_open": 0.69161,
+      "prev_open": 0.70006,
+      "diff": -0.0085,
+      "diff_pct": -1.21
     },
     "WTI": {
-      "today_open": 110.87,
+      "today_open": 110.92,
       "prev_open": 112.63,
-      "diff": -1.76,
-      "diff_pct": -1.56
+      "diff": -1.71,
+      "diff_pct": -1.52
     },
     "SP500": {
-      "today_open": 733.74,
+      "today_open": 733.81,
       "prev_open": 747.70001,
-      "diff": -13.96,
-      "diff_pct": -1.87
+      "diff": -13.89,
+      "diff_pct": -1.86
     }
   }
 }
