@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-24T16:13:13.050760",
-  "generated": "2026年06月24日 16:13",
+  "timestamp": "2026-06-24T23:00:28.421038",
+  "generated": "2026年06月24日 23:00",
   "scores": {
-    "USD": 1,
+    "USD": 5,
     "JPY": 0,
-    "EUR": -1,
-    "GBP": 1,
+    "EUR": 0,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,49 +13,54 @@
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recess"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
@@ -97,48 +102,43 @@
       "summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Frost Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Atlantic Union Bank and former employee of Fros"
+      "source": "FXStreet",
+      "title": "EUR/JPY Price Forecast: Tumbles below 100-day SMA, eyes on 183",
+      "summary": "The Euro retreated on Wednesday against the Japanese Yen, down 0.08% amid growing speculation that Japanese authorities "
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc hits a ten-month low as hawkish Fed bets lift the US Dollar",
-      "summary": "The Swiss Franc (CHF) slides to its weakest level in more than ten months on Wednesday as hawkish Federal Reserve (Fed) "
+      "title": "Japanese Yen sinks even after the BoJ hikes",
+      "summary": "USD/JPY spent Wednesday grinding higher again, which by rights should not be happening. The Bank of Japan (BoJ) raised i"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen holds near 162 as intervention risk remain",
-      "summary": "The Japanese Yen registers minimal losses against the US Dollar amid mixed risk appetite, with global equities fluctuati"
+      "title": "Singapore Dollar: Pressured in strong USD environment – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note USD/SGD has drifted higher on broad US Dollar (USD) strength and softer r"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Oversold slide targets 1.30 area against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the British Pound (GBP) is softer against the US Dollar (US"
+      "title": "Singapore Dollar: Downtrend targets 1.3000 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a constructive stance on USD/SGD after five consecutive"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens for third day as Fed hike repricing eclipses German IFO improvement",
-      "summary": "EUR/USD extends its decline on Wednesday and trades around 1.1340 at the time of writing, down 0.39% on the day, as the "
+      "title": "US Treasury yields slide as Hormuz reopening eases inflation fears",
+      "summary": "US Treasury yields fell across the curve on Wednesday after the reopening of the Strait of Hormuz, which eased inflation"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar stays pressured amid cooling Australian inflation",
-      "summary": "The AUD/USD pair remained under pressure, trading at 0.6890 near a three-month low on Wednesday as investors assessed Au"
+      "title": "Forex Today: US Dollar surges as traders await PCE inflation data",
+      "summary": "The US Dollar Index (DXY) trades near 101.60 on Wednesday, at a one-year high  as markets looked ahead to Thursday’s Uni"
     },
     {
       "source": "FXStreet",
-      "title": "Gold weakens to a seven-month low as Fed rate-hike bets boost the US Dollar",
-      "summary": "Gold (XAU/USD) falls on Wednesday, hitting a fresh seven-month low as hawkish Federal Reserve (Fed) expectations and a s"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Bearish bias with scope toward 1.12 against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight renewed Euro (EUR) weakness versus the Dollar (USD), dri"
+      "title": "US Dollar: Firm tone extends with stretched positioning – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the US Dollar (USD) is strengthening on a higher-for-longer F"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips below $62k amid little relief from rate fears, ETF outflows",
+      "title": "Bitcoin hovers under $61k amid falling tech stocks, rate fears, and ETF outflows",
       "summary": ""
     },
     {
@@ -152,8 +152,8 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin ticks up on positive U.S.-Iran talks, but gains capped by rate hike bets",
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,16 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: Oversold slide targets 1.30 area against",
-      "[弱気] Euro weakens for third day as Fed hike repricing eclips",
-      "[強気] Gold weakens to a seven-month low as Fed rate-hike bets"
-    ],
-    "EUR": [
-      "[弱気] Euro weakens for third day as Fed hike repricing eclips"
+      "[強気] Singapore Dollar: Pressured in strong USD environment –",
+      "[強気] Forex Today: US Dollar surges as traders await PCE infl",
+      "[強気] US Dollar: Firm tone extends with stretched positioning"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: Oversold slide targets 1.30 area against"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -213,52 +209,52 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.51,
+    "US_10Y": 4.5,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.86,
-    "DIFF_EURUSD": -1.46,
-    "DIFF_GBPUSD": 0.43,
-    "DIFF_AUDUSD": 0.48
+    "DIFF_USDJPY": 1.85,
+    "DIFF_EURUSD": -1.45,
+    "DIFF_GBPUSD": 0.44,
+    "DIFF_AUDUSD": 0.49
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.58135,
-      "prev_open": 161.61113,
-      "diff": -0.0298,
-      "diff_pct": -0.02
+      "today_open": 161.8119,
+      "prev_open": 161.58135,
+      "diff": 0.2306,
+      "diff_pct": 0.14
     },
     "EURUSD": {
-      "today_open": 1.13819,
-      "prev_open": 1.14289,
-      "diff": -0.0047,
-      "diff_pct": -0.41
+      "today_open": 1.1359,
+      "prev_open": 1.13819,
+      "diff": -0.0023,
+      "diff_pct": -0.2
     },
     "GBPUSD": {
-      "today_open": 1.3203,
-      "prev_open": 1.32505,
-      "diff": -0.0048,
-      "diff_pct": -0.36
+      "today_open": 1.31696,
+      "prev_open": 1.3203,
+      "diff": -0.0033,
+      "diff_pct": -0.25
     },
     "AUDUSD": {
-      "today_open": 0.69161,
-      "prev_open": 0.70006,
-      "diff": -0.0085,
-      "diff_pct": -1.21
+      "today_open": 0.69009,
+      "prev_open": 0.69161,
+      "diff": -0.0015,
+      "diff_pct": -0.22
     },
     "WTI": {
-      "today_open": 106.36,
+      "today_open": 106.29,
       "prev_open": 110.92,
-      "diff": -4.56,
-      "diff_pct": -4.11
+      "diff": -4.63,
+      "diff_pct": -4.17
     },
     "SP500": {
-      "today_open": 735.03,
+      "today_open": 735.16998,
       "prev_open": 733.81,
-      "diff": 1.22,
-      "diff_pct": 0.17
+      "diff": 1.36,
+      "diff_pct": 0.19
     }
   }
 }
