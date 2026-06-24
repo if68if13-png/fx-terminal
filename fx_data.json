@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-06-24T09:22:15.820965",
-  "generated": "2026年06月24日 09:22",
+  "timestamp": "2026-06-24T16:13:13.050760",
+  "generated": "2026年06月24日 16:13",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
+    "EUR": -1,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 1,
-      "quote_score": 3
+      "quote_score": 0
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 1,
-      "quote_score": 0
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,47 +103,42 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention risk tempers downside against US Dollar – MUFG",
-      "summary": "MUFG’s Lee Hardman highlights that USD/JPY is trading near recent highs but remains capped below the July 2024 peak of 1"
+      "title": "Swiss Franc hits a ten-month low as hawkish Fed bets lift the US Dollar",
+      "summary": "The Swiss Franc (CHF) slides to its weakest level in more than ten months on Wednesday as hawkish Federal Reserve (Fed) "
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: Faster easing path signalled – Standard Chartered",
-      "summary": "Standard Chartered’s Saabir Salad notes that the National Bank of Hungary (MNB) cut the base rate by 25 bps to 6.00%, in"
+      "title": "Japanese Yen holds near 162 as intervention risk remain",
+      "summary": "The Japanese Yen registers minimal losses against the US Dollar amid mixed risk appetite, with global equities fluctuati"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures slip on hawkish sentiment surrounding Fed outlook",
-      "summary": "Dow Jones futures fall by 0.13%, trading near 52,000 during the European hours on Wednesday. However, S&amp;P 500 future"
+      "title": "British Pound: Oversold slide targets 1.30 area against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the British Pound (GBP) is softer against the US Dollar (US"
     },
     {
       "source": "FXStreet",
-      "title": "Euro extends downfall against US Dollar amid firm Fed hike bets",
-      "summary": "The Euro (EUR) extends its losing streak against the US Dollar (USD) for the third trading day on Wednesday, trading 0.2"
+      "title": "Euro weakens for third day as Fed hike repricing eclipses German IFO improvement",
+      "summary": "EUR/USD extends its decline on Wednesday and trades around 1.1340 at the time of writing, down 0.39% on the day, as the "
     },
     {
       "source": "FXStreet",
-      "title": "Gold languishes near two-week low as USD hits 13-month top on Fed hike bets",
-      "summary": "Gold (XAU/USD) maintains its offered tone below the $4,100 mark through the first half of the European session, within s"
+      "title": "Australian Dollar stays pressured amid cooling Australian inflation",
+      "summary": "The AUD/USD pair remained under pressure, trading at 0.6890 near a three-month low on Wednesday as investors assessed Au"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Sharp selloff opens 0.6835 risk against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann highlight an abrupt 1.22% plunge in AUD/USD to 0.6908, leavi"
+      "title": "Gold weakens to a seven-month low as Fed rate-hike bets boost the US Dollar",
+      "summary": "Gold (XAU/USD) falls on Wednesday, hitting a fresh seven-month low as hawkish Federal Reserve (Fed) expectations and a s"
     },
     {
       "source": "FXStreet",
-      "title": "US equities: Tech-led setback weighs on indexes – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that United States (US) equities experienced a classic risk-off session, with major index"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD rebounds toward $62.00 after hitting fresh six-month lows",
-      "summary": "XAG/USD holds ground after registering over 5% losses in the previous day, trading around $61.70 per troy ounce during t"
+      "title": "Euro: Bearish bias with scope toward 1.12 against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight renewed Euro (EUR) weakness versus the Dollar (USD), dri"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin drops below $63k amid little relief from rate fears, ETF outflows",
+      "title": "Bitcoin slips below $62k amid little relief from rate fears, ETF outflows",
       "summary": ""
     },
     {
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Ethereum Foundation cuts 20% of staff in sweeping restructure",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin ticks up on positive U.S.-Iran talks, but gains capped by rate hike bets",
       "summary": ""
     }
   ],
@@ -192,13 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Dow Jones futures slip on hawkish sentiment surrounding"
+      "[弱気] British Pound: Oversold slide targets 1.30 area against",
+      "[弱気] Euro weakens for third day as Fed hike repricing eclips",
+      "[強気] Gold weakens to a seven-month low as Fed rate-hike bets"
     ],
     "EUR": [
-      "[強気] Dow Jones futures slip on hawkish sentiment surrounding"
+      "[弱気] Euro weakens for third day as Fed hike repricing eclips"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound: Oversold slide targets 1.30 area against"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -246,16 +249,16 @@
       "diff_pct": -1.21
     },
     "WTI": {
-      "today_open": 110.92,
-      "prev_open": 112.63,
-      "diff": -1.71,
-      "diff_pct": -1.52
+      "today_open": 106.36,
+      "prev_open": 110.92,
+      "diff": -4.56,
+      "diff_pct": -4.11
     },
     "SP500": {
-      "today_open": 733.81,
-      "prev_open": 747.70001,
-      "diff": -13.89,
-      "diff_pct": -1.86
+      "today_open": 735.03,
+      "prev_open": 733.81,
+      "diff": 1.22,
+      "diff_pct": 0.17
     }
   }
 }
