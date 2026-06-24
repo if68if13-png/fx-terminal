@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-06-23T23:02:33.369588",
-  "generated": "2026年06月23日 23:02",
+  "timestamp": "2026-06-24T09:22:15.820965",
+  "generated": "2026年06月24日 09:22",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +41,17 @@
       "quote_score": 0
     },
     {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar falls as USD strength, Oil weakness bite",
-      "summary": "The Loonie registers losses of 0.40% on Tuesday as the US Dollar refreshes year-to-date (YTD) highs, while falling Oil p"
+      "title": "Japanese Yen: Intervention risk tempers downside against US Dollar – MUFG",
+      "summary": "MUFG’s Lee Hardman highlights that USD/JPY is trading near recent highs but remains capped below the July 2024 peak of 1"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar surges to 13-month high as traders assess Global flash PMIs",
-      "summary": "The US Dollar Index (DXY) surged to a one-year high near 101.40 on Tuesday as investors digested the latest S&amp;P Glob"
+      "title": "Hungarian Forint: Faster easing path signalled – Standard Chartered",
+      "summary": "Standard Chartered’s Saabir Salad notes that the National Bank of Hungary (MNB) cut the base rate by 25 bps to 6.00%, in"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc falls vs US Dollar, climbs against Euro in mixed trade",
-      "summary": "The Swiss Franc (CHF) extends its losses for the fifth straight trading day against the US Dollar (USD), down 0.15% on T"
+      "title": "Dow Jones futures slip on hawkish sentiment surrounding Fed outlook",
+      "summary": "Dow Jones futures fall by 0.13%, trading near 52,000 during the European hours on Wednesday. However, S&amp;P 500 future"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index climbs to its highest level since May 2025 on Fed hike bets",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback's value against a basket of six major currencies, extends its rall"
+      "title": "Euro extends downfall against US Dollar amid firm Fed hike bets",
+      "summary": "The Euro (EUR) extends its losing streak against the US Dollar (USD) for the third trading day on Wednesday, trading 0.2"
     },
     {
       "source": "FXStreet",
-      "title": "Gold price slides as AI rout fuels US Dollar flight",
-      "summary": "Gold (XAU/USD) price erases Monday’s gains, diving over 1.30% on Tuesday, pressured by broad US Dollar (USD) strength, d"
+      "title": "Gold languishes near two-week low as USD hits 13-month top on Fed hike bets",
+      "summary": "Gold (XAU/USD) maintains its offered tone below the $4,100 mark through the first half of the European session, within s"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Weak KRW and hawkish BoK expectations – Commerzbank",
-      "summary": "Commerzbank highlights strong South Korean export momentum, led by semiconductors and petroleum, but notes that South Ko"
+      "title": "Australian Dollar: Sharp selloff opens 0.6835 risk against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann highlight an abrupt 1.22% plunge in AUD/USD to 0.6908, leavi"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar nears three-month low ahead of Australian CPI data",
-      "summary": "The AUD/USD fell sharply near the 0.6920 level on Tuesday, as investors await the upcoming Australian Consumer Price Ind"
+      "title": "US equities: Tech-led setback weighs on indexes – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that United States (US) equities experienced a classic risk-off session, with major index"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones Industrial Average green by default as chips crater",
-      "summary": "The Dow Jones Industrial Average (DJIA) held in the green through Tuesday even as the rest of the equity board bled. On "
+      "title": "Silver Price Forecast: XAG/USD rebounds toward $62.00 after hitting fresh six-month lows",
+      "summary": "XAG/USD holds ground after registering over 5% losses in the previous day, trading around $61.70 per troy ounce during t"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin drops below $63k amid little relief from rate fears, ETF outflows",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Ethereum Foundation cuts 20% of staff in sweeping restructure",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin ticks up on positive U.S.-Iran talks, but gains capped by rate hike bets",
       "summary": ""
     }
   ],
@@ -192,10 +192,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar falls as USD strength, Oil weakness bit",
-      "[強気] Forex Today: US Dollar surges to 13-month high as trade",
-      "[強気] Gold price slides as AI rout fuels US Dollar flight",
-      "[強気] South Korean Won: Weak KRW and hawkish BoK expectations"
+      "[強気] Dow Jones futures slip on hawkish sentiment surrounding"
+    ],
+    "EUR": [
+      "[強気] Dow Jones futures slip on hawkish sentiment surrounding"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,9 +206,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar falls as USD strength, Oil weakness bit"
     ]
   },
   "rates": {
