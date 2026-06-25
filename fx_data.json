@@ -1,37 +1,23 @@
 {
-  "timestamp": "2026-06-25T08:56:09.859901",
-  "generated": "2026年06月25日 08:56",
+  "timestamp": "2026-06-25T16:19:12.020832",
+  "generated": "2026年06月25日 16:19",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
-    "CHF": 1
+    "CAD": -1,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -56,6 +56,16 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
@@ -97,54 +107,44 @@
       "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at 4 p.m. EDT.",
-      "summary": "Federal Reserve Board announces that results from its annual bank stress test will be released on Wednesday, June 24, at"
+      "source": "FXStreet",
+      "title": "British Pound rebounds as USD bulls fade despite hot Core PCE",
+      "summary": "The Pound Sterling advances by 0.22% even though the US economy grew faster than previously reported in Q1 of 2026, whil"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Slide below $4,000 tests key supports – Societe Generale",
-      "summary": "Societe Generale analysts note that Gold has broken below its 200-day moving average and the March trough, triggering an"
+      "title": "Thai Baht: Long policy hold supports fragile recovery – UOB",
+      "summary": "UOB economists Enrico Tanuwidjaja and Sathit Talaengsatya note that the Bank of Thailand (BoT) kept its policy rate at 1"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: High USD/CAD seen as exaggerated – Commerzbank",
-      "summary": "Commerzbank’s Michael Pfister notes that USD/CAD has surged from below 1.36 to above 1.42 as falling Oil prices and risi"
+      "title": "Japanese Yen gains modestly against the US Dollar after US PCE data meets expectations",
+      "summary": "USD/JPY trades slightly lower on Thursday as the US Dollar (USD) eases after the latest US Personal Consumption Expendit"
     },
     {
       "source": "FXStreet",
-      "title": "Gold consolidates around $4,000, remains close to November 2025 lows ahead of US PCE data",
-      "summary": "Gold (XAU/USD) enters a bearish consolidation phase during the first half of the European session on Thursday and curren"
+      "title": "Canadian Dollar: BoC balances oil risks and weak growth – TD Securities",
+      "summary": "TD Securities strategists note the Bank of Canada’s (BoC) June Summary of Deliberations maintained its recent balancing "
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecasts: Pound bounces up to 213.40 with intervention risks increasing",
-      "summary": "The British Pound (GBP) trims losses against the Japanese Yen (JPY) on Thursday, with the GBP/JPY pair trading around 21"
+      "title": "Australian Dollar holds steady as US PCE inflation reinforces Fed caution",
+      "summary": "The AUD/USD pair trades muted near the 0.6900 area on Thursday, with the Aussie struggling to gain amid a pullback in th"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Stabilising above 1.1300 against US Dollar with risk driver – ING",
-      "summary": "ING’s Francesco Pesole says calmer markets are allowing the Euro (EUR) to pause against the strong US Dollar (USD), with"
+      "title": "Japanese Yen: Intervention risk near 162 against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report USD/JPY is steady ahead of Tokyo Consumer Price Index (CPI)"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD holds losses near $57.50 due to prevailing bearish bias",
-      "summary": "XAG/USD remains weaker for the third consecutive day, trading around $57.40 per troy ounce during the European hours on "
+      "title": "Canadian Dollar recovers as Oil prices rebound, US Dollar eases after PCE data",
+      "summary": "USD/CAD trades around 1.4205 on Thursday at the time of writing, down 0.21% on the day after recently reaching its highe"
     },
     {
-      "source": "FXStreet",
-      "title": "UK’s Reeves: Andy Burnham will be the next Prime Minister",
-      "summary": "United Kingdom (UK) Chancellor of the Exchequer Rachel Reeves confirms during the European trading session on Thursday t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: PCE shocks drive intraday moves against US Dollar – MUFG",
-      "summary": "MUFG analysts stress that USD/JPY is highly sensitive to United States (US) Personal Consumption Expenditures (PCE) Pric"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Consumer resilience and GDP under scrutiny – UBS",
-      "summary": "UBS’s Chief Economist Paul Donovan focuses on United States (US) consumers ahead of May income and spending data, stress"
+      "source": "Investing",
+      "title": "Bitcoin slumps below $60k after PCE inflation gauge hits highest level since 2023",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -192,13 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Canadian Dollar: High USD/CAD seen as exaggerated – Com",
-      "[強気] Euro: Stabilising above 1.1300 against US Dollar with r",
-      "[弱気] Silver Price Forecast: XAG/USD holds losses near $57.50"
-    ],
-    "EUR": [
-      "[強気] Euro: Stabilising above 1.1300 against US Dollar with r",
-      "[弱気] Silver Price Forecast: XAG/USD holds losses near $57.50"
+      "[弱気] Canadian Dollar: BoC balances oil risks and weak growth"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,10 +205,7 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CAD": [
-      "[強気] Canadian Dollar: High USD/CAD seen as exaggerated – Com"
-    ],
-    "CHF": [
-      "[強気] Euro: Stabilising above 1.1300 against US Dollar with r"
+      "[弱気] Canadian Dollar: BoC balances oil risks and weak growth"
     ]
   },
   "rates": {
@@ -255,16 +246,16 @@
       "diff_pct": -0.22
     },
     "WTI": {
-      "today_open": 106.29,
-      "prev_open": 110.92,
-      "diff": -4.63,
-      "diff_pct": -4.17
+      "today_open": 106.03,
+      "prev_open": 106.29,
+      "diff": -0.26,
+      "diff_pct": -0.24
     },
     "SP500": {
-      "today_open": 735.16998,
-      "prev_open": 733.81,
-      "diff": 1.36,
-      "diff_pct": 0.19
+      "today_open": 738.88,
+      "prev_open": 735.16998,
+      "diff": 3.71,
+      "diff_pct": 0.5
     }
   }
 }
