@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-06-24T23:00:28.421038",
-  "generated": "2026年06月24日 23:00",
+  "timestamp": "2026-06-25T08:56:09.859901",
+  "generated": "2026年06月25日 08:56",
   "scores": {
-    "USD": 5,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 0
+    "CAD": 1,
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
       "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -46,6 +39,13 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,38 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Tumbles below 100-day SMA, eyes on 183",
-      "summary": "The Euro retreated on Wednesday against the Japanese Yen, down 0.08% amid growing speculation that Japanese authorities "
+      "title": "Gold: Slide below $4,000 tests key supports – Societe Generale",
+      "summary": "Societe Generale analysts note that Gold has broken below its 200-day moving average and the March trough, triggering an"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen sinks even after the BoJ hikes",
-      "summary": "USD/JPY spent Wednesday grinding higher again, which by rights should not be happening. The Bank of Japan (BoJ) raised i"
+      "title": "Canadian Dollar: High USD/CAD seen as exaggerated – Commerzbank",
+      "summary": "Commerzbank’s Michael Pfister notes that USD/CAD has surged from below 1.36 to above 1.42 as falling Oil prices and risi"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Pressured in strong USD environment – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note USD/SGD has drifted higher on broad US Dollar (USD) strength and softer r"
+      "title": "Gold consolidates around $4,000, remains close to November 2025 lows ahead of US PCE data",
+      "summary": "Gold (XAU/USD) enters a bearish consolidation phase during the first half of the European session on Thursday and curren"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Downtrend targets 1.3000 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a constructive stance on USD/SGD after five consecutive"
+      "title": "GBP/JPY Price Forecasts: Pound bounces up to 213.40 with intervention risks increasing",
+      "summary": "The British Pound (GBP) trims losses against the Japanese Yen (JPY) on Thursday, with the GBP/JPY pair trading around 21"
     },
     {
       "source": "FXStreet",
-      "title": "US Treasury yields slide as Hormuz reopening eases inflation fears",
-      "summary": "US Treasury yields fell across the curve on Wednesday after the reopening of the Strait of Hormuz, which eased inflation"
+      "title": "Euro: Stabilising above 1.1300 against US Dollar with risk driver – ING",
+      "summary": "ING’s Francesco Pesole says calmer markets are allowing the Euro (EUR) to pause against the strong US Dollar (USD), with"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar surges as traders await PCE inflation data",
-      "summary": "The US Dollar Index (DXY) trades near 101.60 on Wednesday, at a one-year high  as markets looked ahead to Thursday’s Uni"
+      "title": "Silver Price Forecast: XAG/USD holds losses near $57.50 due to prevailing bearish bias",
+      "summary": "XAG/USD remains weaker for the third consecutive day, trading around $57.40 per troy ounce during the European hours on "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Firm tone extends with stretched positioning – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the US Dollar (USD) is strengthening on a higher-for-longer F"
+      "title": "UK’s Reeves: Andy Burnham will be the next Prime Minister",
+      "summary": "United Kingdom (UK) Chancellor of the Exchequer Rachel Reeves confirms during the European trading session on Thursday t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen: PCE shocks drive intraday moves against US Dollar – MUFG",
+      "summary": "MUFG analysts stress that USD/JPY is highly sensitive to United States (US) Personal Consumption Expenditures (PCE) Pric"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Consumer resilience and GDP under scrutiny – UBS",
+      "summary": "UBS’s Chief Economist Paul Donovan focuses on United States (US) consumers ahead of May income and spending data, stress"
     },
     {
       "source": "Investing",
@@ -144,16 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin falls to $62k on rate hike bets, global tech sell-off, and ETF outflows",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Ethereum Foundation cuts 20% of staff in sweeping restructure",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,9 +192,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Pressured in strong USD environment –",
-      "[強気] Forex Today: US Dollar surges as traders await PCE infl",
-      "[強気] US Dollar: Firm tone extends with stretched positioning"
+      "[強気] Canadian Dollar: High USD/CAD seen as exaggerated – Com",
+      "[強気] Euro: Stabilising above 1.1300 against US Dollar with r",
+      "[弱気] Silver Price Forecast: XAG/USD holds losses near $57.50"
+    ],
+    "EUR": [
+      "[強気] Euro: Stabilising above 1.1300 against US Dollar with r",
+      "[弱気] Silver Price Forecast: XAG/USD holds losses near $57.50"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,6 +209,12 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar: High USD/CAD seen as exaggerated – Com"
+    ],
+    "CHF": [
+      "[強気] Euro: Stabilising above 1.1300 against US Dollar with r"
     ]
   },
   "rates": {
