@@ -1,30 +1,37 @@
 {
-  "timestamp": "2026-06-26T08:58:37.518656",
-  "generated": "2026年06月26日 08:58",
+  "timestamp": "2026-06-26T16:10:58.074861",
+  "generated": "2026年06月26日 16:10",
   "scores": {
     "USD": 2,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -2,
+      "diff": -3,
+      "base_score": -1,
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
@@ -34,11 +41,11 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
@@ -46,13 +53,6 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Iran’s Foreign Ministry: US military presence in Gulf is source of insecurity and division in region",
-      "summary": "Iranian Foreign Ministry said during the European trading session on Friday that the joint statement by the United State"
+      "title": "Japan: Food and services signal steady inflation – Societe Generale",
+      "summary": "Societe Generale economists Reo Sakida and Jin Kenzaki analyze June Tokyo Consumer Price Index (CPI), noting that overal"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Steadies after sharp correction – ING",
-      "summary": "ING strategists Warren Patterson and Ewa Manthey observe that Gold stabilized after dropping below the $4,000/oz mark ea"
+      "title": "British Pound steadies against Japanese Yen as markets assess UK politics and Japan intervention risks",
+      "summary": "GBP/JPY trades in a narrow range on Friday as traders weigh the latest UK political developments against lingering inter"
     },
     {
       "source": "FXStreet",
-      "title": "162.00: Why the Japanese Yen is still trading near intervention levels despite inflation closing in on the BoJ target",
-      "summary": "The Japanese Yen (JPY) is finding a firmer fundamental floor as inflation in the Greater Tokyo Area edges closer to the "
+      "title": "Japanese Yen strengthens on BoJ hike expectations and rising intervention risks",
+      "summary": "USD/JPY edges lower on Friday and trades around 161.60 at the time of writing after once again failing to sustain a move"
     },
     {
       "source": "FXStreet",
-      "title": "Gold flat lines below $4,050 as Fed hike bets counter softer USD",
-      "summary": "Gold (XAU/USD) struggles to build on its intraday bounce of around $50 from the $3,983-$3982 region and flat lines below"
+      "title": "ECB: Another hike before eventual cuts – Commerzbank",
+      "summary": "Commerzbank strategists note that despite lower Oil and gas prices, European Central Bank (ECB) officials still signal a"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Struggles to build on move beyond 1.3200 amid bearish setup",
-      "summary": "The GBP/USD pair sticks to its positive bias for the second straight day, though it lacks bullish conviction and trades "
+      "title": "Japanese Yen: BoJ normalization supports JPY against US Dollar – MUFG",
+      "summary": "Lee Hardman at MUFG highlights that the Japanese Yen remains near year-to-date lows versus the US Dollar, with intervent"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Strength extends as growth holds – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur notes that despite easing Oil prices and lower inflation expectations, market pricing still a"
+      "title": "Malaysia: AI boom offsets energy shock risks – HSBC",
+      "summary": "HSBC strategists describe Malaysia as relatively resilient to elevated Oil prices thanks to its status as a net energy e"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Downward-sloping 20-day EMA backs further decline",
-      "summary": "The Australian Dollar (AUD) underperforms its major currency peers, trading 0.25% lower to near 0.6890 against the US Do"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Equities: Tech selloff spreads despite chip strength – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that tech weakness extended from the Magnificent 7 and Apple into Asian markets, weighing"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecasts: XAG/USD edges up, nearing $58 as the US Dollar takes a breather",
-      "summary": "Silver (XAG/USD) has bounced up from seven-month lows below $56.00 on Friday, to reach session highs at $57.80 at the mo"
+      "title": "Gold holds gains above $4,000 but eyes a fourth consecutive monthly decline",
+      "summary": "Gold (XAU/USD) holds above the $4,000 mark on Friday as the US Dollar (USD) softens following the latest US Personal Con"
     },
     {
       "source": "Investing",
       "title": "Bitcoin slips below $60k after PCE inflation gauge hits highest level since 2023",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "The DATA Foundation Launches to Tackle AI’s Multi-Billion Dollar Training Data Bottleneck",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin hovers under $61k amid falling tech stocks, rate fears, and ETF outflows",
       "summary": ""
     }
   ],
@@ -192,20 +192,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: Strength extends as growth holds – Commerzba",
-      "[弱気] AUD/USD Price Forecast: Downward-sloping 20-day EMA bac"
+      "[弱気] Japanese Yen: BoJ normalization supports JPY against US",
+      "[強気] Gold holds gains above $4,000 but eyes a fourth consecu"
     ],
-    "EUR": [
-      "[強気] US Dollar: Strength extends as growth holds – Commerzba",
-      "[弱気] AUD/USD Price Forecast: Downward-sloping 20-day EMA bac"
+    "JPY": [
+      "[弱気] Japanese Yen: BoJ normalization supports JPY against US"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+257,513)",
-      "[弱気] AUD/USD Price Forecast: Downward-sloping 20-day EMA bac"
+      "[COT] 🟢ロング優勢 (ネット:+257,513)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -249,16 +247,16 @@
       "diff_pct": 0.14
     },
     "WTI": {
-      "today_open": 106.029999,
-      "prev_open": 106.29,
-      "diff": -0.26,
-      "diff_pct": -0.24
+      "today_open": 105.87,
+      "prev_open": 106.029999,
+      "diff": -0.16,
+      "diff_pct": -0.15
     },
     "SP500": {
-      "today_open": 738.90997,
-      "prev_open": 735.16998,
-      "diff": 3.74,
-      "diff_pct": 0.51
+      "today_open": 728.92,
+      "prev_open": 738.90997,
+      "diff": -9.99,
+      "diff_pct": -1.35
     }
   }
 }
