@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-26T16:10:58.074861",
-  "generated": "2026年06月26日 16:10",
+  "timestamp": "2026-06-26T23:00:33.946773",
+  "generated": "2026年06月26日 23:00",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "quote_score": 4
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,38 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japan: Food and services signal steady inflation – Societe Generale",
-      "summary": "Societe Generale economists Reo Sakida and Jin Kenzaki analyze June Tokyo Consumer Price Index (CPI), noting that overal"
+      "title": "Singapore Dollar: Gains momentum against US Dollar – OCBC",
+      "summary": "OCBC’s FX strategists Sim Moh Siong and Christopher Wong highlight that USD/SGD has eased as US Dollar (USD) momentum so"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound steadies against Japanese Yen as markets assess UK politics and Japan intervention risks",
-      "summary": "GBP/JPY trades in a narrow range on Friday as traders weigh the latest UK political developments against lingering inter"
+      "title": "South Korea: Exports and inflation support rate hike path – DBS",
+      "summary": "DBS Group Research’s Ma Tieying expects South Korea’s June exports to remain very strong, with year-on-year growth aroun"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen strengthens on BoJ hike expectations and rising intervention risks",
-      "summary": "USD/JPY edges lower on Friday and trades around 161.60 at the time of writing after once again failing to sustain a move"
+      "title": "Chinese Yuan: Weakness against US Dollar seen as corrective – OCBC",
+      "summary": "OCBC’s FX strategists Sim Moh Siong and Christopher Wong note USD/CNH’s recent run-up has stalled, with the pair around "
     },
     {
       "source": "FXStreet",
-      "title": "ECB: Another hike before eventual cuts – Commerzbank",
-      "summary": "Commerzbank strategists note that despite lower Oil and gas prices, European Central Bank (ECB) officials still signal a"
+      "title": "Gold price rebounds as falling US yields weigh on US Dollar",
+      "summary": "Gold (XAU/USD) price recovers some ground on Friday, hitting a two-day high of $4,096 as the Greenback edges lower along"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: BoJ normalization supports JPY against US Dollar – MUFG",
-      "summary": "Lee Hardman at MUFG highlights that the Japanese Yen remains near year-to-date lows versus the US Dollar, with intervent"
+      "title": "Forecasting the upcoming week: US Dollar faces labor market test as NFP takes center stage",
+      "summary": "The upcoming week will bring a fresh test for major currency pairs as investors look ahead to key United States (US) lab"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysia: AI boom offsets energy shock risks – HSBC",
-      "summary": "HSBC strategists describe Malaysia as relatively resilient to elevated Oil prices thanks to its status as a net energy e"
+      "title": "Singapore Dollar: Range holds as consolidates against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note USD/SGD has stalled after a six-day advance, with the pair ea"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds gains above $4,000 but eyes a fourth consecutive monthly decline",
-      "summary": "Gold (XAU/USD) holds above the $4,000 mark on Friday as the US Dollar (USD) softens following the latest US Personal Con"
+      "title": "The Japanese Yen got its hike; Tokyo still has to do the rest",
+      "summary": "USD/JPY ended the week pressing the 162.00 handle, a whisker beneath its multi-decade high, and the more revealing detai"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin pegged under $60k, headed for weekly loss on ETF outflows, rate hike bets",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -150,112 +155,112 @@
       "source": "Investing",
       "title": "The DATA Foundation Launches to Tackle AI’s Multi-Billion Dollar Training Data Bottleneck",
       "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin hovers under $61k amid falling tech stocks, rate fears, and ETF outflows",
-      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 145747,
-      "short": 72838,
-      "net": 72909,
+      "long": 108626,
+      "short": 77272,
+      "net": 31354,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 41213,
+      "long": 36506,
       "short": 0,
-      "net": 41213,
+      "net": 36506,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 25086,
-      "short": 3140,
-      "net": 21946,
+      "long": 20036,
+      "short": 0,
+      "net": 20036,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 25086,
-      "short": 3140,
-      "net": 21946,
+      "long": 20036,
+      "short": 0,
+      "net": 20036,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 295545,
-      "short": 38032,
-      "net": 257513,
+      "long": 214349,
+      "short": 45523,
+      "net": 168826,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: BoJ normalization supports JPY against US",
-      "[強気] Gold holds gains above $4,000 but eyes a fourth consecu"
+      "[強気] South Korea: Exports and inflation support rate hike pa",
+      "[弱気] Chinese Yuan: Weakness against US Dollar seen as correc",
+      "[強気] Gold price rebounds as falling US yields weigh on US Do",
+      "[強気] The Japanese Yen got its hike; Tokyo still has to do th"
     ],
     "JPY": [
-      "[弱気] Japanese Yen: BoJ normalization supports JPY against US"
+      "[強気] The Japanese Yen got its hike; Tokyo still has to do th"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+257,513)"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] The Japanese Yen got its hike; Tokyo still has to do th"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.41,
+    "US_10Y": 4.4,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.76,
-    "DIFF_EURUSD": -1.36,
-    "DIFF_GBPUSD": 0.53,
-    "DIFF_AUDUSD": 0.58
+    "DIFF_USDJPY": 1.75,
+    "DIFF_EURUSD": -1.35,
+    "DIFF_GBPUSD": 0.54,
+    "DIFF_AUDUSD": 0.59
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.80706,
-      "prev_open": 161.8119,
-      "diff": -0.0048,
-      "diff_pct": -0.0
+      "today_open": 161.75381,
+      "prev_open": 161.80706,
+      "diff": -0.0533,
+      "diff_pct": -0.03
     },
     "EURUSD": {
-      "today_open": 1.13708,
-      "prev_open": 1.1359,
-      "diff": 0.0012,
-      "diff_pct": 0.11
+      "today_open": 1.13855,
+      "prev_open": 1.13708,
+      "diff": 0.0015,
+      "diff_pct": 0.13
     },
     "GBPUSD": {
-      "today_open": 1.31911,
-      "prev_open": 1.31696,
-      "diff": 0.0022,
-      "diff_pct": 0.17
+      "today_open": 1.31973,
+      "prev_open": 1.31911,
+      "diff": 0.0006,
+      "diff_pct": 0.05
     },
     "AUDUSD": {
-      "today_open": 0.69107,
-      "prev_open": 0.69009,
-      "diff": 0.001,
-      "diff_pct": 0.14
+      "today_open": 0.68949,
+      "prev_open": 0.69107,
+      "diff": -0.0016,
+      "diff_pct": -0.23
     },
     "WTI": {
-      "today_open": 105.87,
+      "today_open": 105.83,
       "prev_open": 106.029999,
-      "diff": -0.16,
-      "diff_pct": -0.15
+      "diff": -0.2,
+      "diff_pct": -0.19
     },
     "SP500": {
-      "today_open": 728.92,
+      "today_open": 728.94501,
       "prev_open": 738.90997,
-      "diff": -9.99,
+      "diff": -9.965,
       "diff_pct": -1.35
     }
   }
