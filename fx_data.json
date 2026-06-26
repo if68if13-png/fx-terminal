@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-25T23:11:11.637268",
-  "generated": "2026年06月25日 23:11",
+  "timestamp": "2026-06-26T08:58:37.518656",
+  "generated": "2026年06月26日 08:58",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
-    "GBP": 3,
-    "AUD": -1,
+    "GBP": 2,
+    "AUD": -2,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
       "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "base_score": -2,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 3,
-      "quote_score": 4
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso rises as Banxico's hawkish hold fuels Peso rally",
-      "summary": "The Mexican Peso posted gains of over 0.62% against the US Dollar on Thursday after the Banco de Mexico (Banxico) unanim"
+      "title": "Iran’s Foreign Ministry: US military presence in Gulf is source of insecurity and division in region",
+      "summary": "Iranian Foreign Ministry said during the European trading session on Friday that the joint statement by the United State"
     },
     {
       "source": "FXStreet",
-      "title": "Pound Sterling buckles in a leadership vacuum",
-      "summary": "Sterling spent the back half of June proving that a hawkish central bank counts for little when the government is fallin"
+      "title": "Gold: Steadies after sharp correction – ING",
+      "summary": "ING strategists Warren Patterson and Ewa Manthey observe that Gold stabilized after dropping below the $4,000/oz mark ea"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar wins the data and still cannot rally",
-      "summary": "The Australian Dollar spent Thursday doing the one thing it was not supposed to do after a strong labour report, which i"
+      "title": "162.00: Why the Japanese Yen is still trading near intervention levels despite inflation closing in on the BoJ target",
+      "summary": "The Japanese Yen (JPY) is finding a firmer fundamental floor as inflation in the Greater Tokyo Area edges closer to the "
     },
     {
       "source": "FXStreet",
-      "title": "Firm data isn't hot enough for the US Dollar",
-      "summary": "The US Dollar Index (DXY) had every excuse to extend on Thursday and declined instead. A firm batch of US data crossed t"
+      "title": "Gold flat lines below $4,050 as Fed hike bets counter softer USD",
+      "summary": "Gold (XAU/USD) struggles to build on its intraday bounce of around $50 from the $3,983-$3982 region and flat lines below"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar eases after PCE data, Yen remains near intervention zone",
-      "summary": "The US Dollar Index (DXY) lost momentum on Thursday, retreating toward the 101.40 area after a fresh batch of United Sta"
+      "title": "GBP/USD Price Forecast: Struggles to build on move beyond 1.3200 amid bearish setup",
+      "summary": "The GBP/USD pair sticks to its positive bias for the second straight day, though it lacks bullish conviction and trades "
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Williams: “Imperative” to return inflation to 2% target",
-      "summary": "Federal Reserve (Fed) Bank of New York President John Williams said in a speech released by text on Thursday that moneta"
+      "title": "US Dollar: Strength extends as growth holds – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes that despite easing Oil prices and lower inflation expectations, market pricing still a"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Weakness extends after breakout against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann highlight a sharp USD/CNH spike to 6.8195, now seen consolid"
+      "title": "AUD/USD Price Forecast: Downward-sloping 20-day EMA backs further decline",
+      "summary": "The Australian Dollar (AUD) underperforms its major currency peers, trading 0.25% lower to near 0.6890 against the US Do"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Goolsbee: “Inflation side of mandate is clearly the problem”",
-      "summary": "Federal Reserve (Fed) Bank of Chicago President Austan Goolsbee said on Thursday that inflation remains the central chal"
+      "title": "Equities: Tech selloff spreads despite chip strength – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that tech weakness extended from the Magnificent 7 and Apple into Asian markets, weighing"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecasts: XAG/USD edges up, nearing $58 as the US Dollar takes a breather",
+      "summary": "Silver (XAG/USD) has bounced up from seven-month lows below $56.00 on Friday, to reach session highs at $57.80 at the mo"
     },
     {
       "source": "Investing",
       "title": "Bitcoin slips below $60k after PCE inflation gauge hits highest level since 2023",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "The DATA Foundation Launches to Tackle AI’s Multi-Billion Dollar Training Data Bottleneck",
       "summary": ""
     }
   ],
@@ -192,21 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Mexican Peso rises as Banxico's hawkish hold fuels Peso",
-      "[強気] Australian Dollar wins the data and still cannot rally",
-      "[強気] Forex Today: US Dollar eases after PCE data, Yen remain",
-      "[弱気] Chinese Yuan: Weakness extends after breakout against U"
+      "[強気] US Dollar: Strength extends as growth holds – Commerzba",
+      "[弱気] AUD/USD Price Forecast: Downward-sloping 20-day EMA bac"
     ],
-    "JPY": [
-      "[強気] Forex Today: US Dollar eases after PCE data, Yen remain"
+    "EUR": [
+      "[強気] US Dollar: Strength extends as growth holds – Commerzba",
+      "[弱気] AUD/USD Price Forecast: Downward-sloping 20-day EMA bac"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Pound Sterling buckles in a leadership vacuum"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+257,513)"
+      "[COT] 🟢ロング優勢 (ネット:+257,513)",
+      "[弱気] AUD/USD Price Forecast: Downward-sloping 20-day EMA bac"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
