@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-26T23:00:33.946773",
-  "generated": "2026年06月26日 23:00",
+  "timestamp": "2026-06-27T08:32:20.631374",
+  "generated": "2026年06月27日 08:32",
   "scores": {
     "USD": 4,
     "JPY": 1,
@@ -108,6 +108,11 @@
     },
     {
       "source": "FXStreet",
+      "title": "Vietnam: Strong growth but rising inflation risks – HSBC",
+      "summary": "HSBC portrays Vietnam as one of Asia’s fastest-growing economies, supported by booming electronics exports and import-in"
+    },
+    {
+      "source": "FXStreet",
       "title": "Singapore Dollar: Gains momentum against US Dollar – OCBC",
       "summary": "OCBC’s FX strategists Sim Moh Siong and Christopher Wong highlight that USD/SGD has eased as US Dollar (USD) momentum so"
     },
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin slips below $60k after PCE inflation gauge hits highest level since 2023",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "The DATA Foundation Launches to Tackle AI’s Multi-Billion Dollar Training Data Bottleneck",
       "summary": ""
     }
   ],
@@ -258,9 +258,9 @@
       "diff_pct": -0.19
     },
     "SP500": {
-      "today_open": 728.94501,
+      "today_open": 728.95001,
       "prev_open": 738.90997,
-      "diff": -9.965,
+      "diff": -9.96,
       "diff_pct": -1.35
     }
   }
