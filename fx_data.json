@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-27T15:12:04.572467",
-  "generated": "2026年06月27日 15:12",
+  "timestamp": "2026-06-27T22:57:17.779339",
+  "generated": "2026年06月27日 22:57",
   "scores": {
     "USD": 4,
     "JPY": 1,
@@ -228,28 +228,28 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.75381,
-      "prev_open": 161.80706,
-      "diff": -0.0533,
-      "diff_pct": -0.03
+      "today_open": 161.7511,
+      "prev_open": 161.75381,
+      "diff": -0.0027,
+      "diff_pct": -0.0
     },
     "EURUSD": {
-      "today_open": 1.13855,
-      "prev_open": 1.13708,
-      "diff": 0.0015,
-      "diff_pct": 0.13
+      "today_open": 1.13889,
+      "prev_open": 1.13855,
+      "diff": 0.0003,
+      "diff_pct": 0.03
     },
     "GBPUSD": {
-      "today_open": 1.31973,
-      "prev_open": 1.31911,
-      "diff": 0.0006,
-      "diff_pct": 0.05
+      "today_open": 1.31976,
+      "prev_open": 1.31973,
+      "diff": 0.0,
+      "diff_pct": 0.0
     },
     "AUDUSD": {
-      "today_open": 0.68949,
-      "prev_open": 0.69107,
-      "diff": -0.0016,
-      "diff_pct": -0.23
+      "today_open": 0.68939,
+      "prev_open": 0.68949,
+      "diff": -0.0001,
+      "diff_pct": -0.01
     },
     "WTI": {
       "today_open": 105.83,
