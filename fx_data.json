@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-06-28T15:14:16.491105",
-  "generated": "2026年06月28日 15:14",
+  "timestamp": "2026-06-28T22:57:08.449386",
+  "generated": "2026年06月28日 22:57",
   "scores": {
     "USD": 4,
     "JPY": 1,
@@ -148,7 +148,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin holds above $60,000 as ETF outflows, Fed outlook weigh on sentiment",
+      "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment",
       "summary": ""
     },
     {
@@ -228,28 +228,28 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.7511,
-      "prev_open": 161.75381,
-      "diff": -0.0027,
-      "diff_pct": -0.0
+      "today_open": 161.73738,
+      "prev_open": 161.7511,
+      "diff": -0.0137,
+      "diff_pct": -0.01
     },
     "EURUSD": {
-      "today_open": 1.13889,
-      "prev_open": 1.13855,
-      "diff": 0.0003,
-      "diff_pct": 0.03
+      "today_open": 1.1394,
+      "prev_open": 1.13889,
+      "diff": 0.0005,
+      "diff_pct": 0.04
     },
     "GBPUSD": {
-      "today_open": 1.31976,
-      "prev_open": 1.31973,
-      "diff": 0.0,
-      "diff_pct": 0.0
+      "today_open": 1.32075,
+      "prev_open": 1.31976,
+      "diff": 0.001,
+      "diff_pct": 0.08
     },
     "AUDUSD": {
-      "today_open": 0.68939,
-      "prev_open": 0.68949,
-      "diff": -0.0001,
-      "diff_pct": -0.01
+      "today_open": 0.68879,
+      "prev_open": 0.68939,
+      "diff": -0.0006,
+      "diff_pct": -0.09
     },
     "WTI": {
       "today_open": 105.83,
