@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-06-28T22:57:08.449386",
-  "generated": "2026年06月28日 22:57",
+  "timestamp": "2026-06-29T10:50:51.065222",
+  "generated": "2026年06月29日 10:50",
   "scores": {
-    "USD": 4,
+    "USD": 2,
     "JPY": 1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -53,6 +46,13 @@
       "diff": 1,
       "base_score": 2,
       "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -108,43 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Vietnam: Strong growth but rising inflation risks – HSBC",
-      "summary": "HSBC portrays Vietnam as one of Asia’s fastest-growing economies, supported by booming electronics exports and import-in"
+      "title": "CEE FX: Pressure returns with stronger Dollar – ING",
+      "summary": "ING strategist Frantisek Taborsky notes that a stronger Dollar and lower Oil have led markets to outprice most rate hike"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Gains momentum against US Dollar – OCBC",
-      "summary": "OCBC’s FX strategists Sim Moh Siong and Christopher Wong highlight that USD/SGD has eased as US Dollar (USD) momentum so"
+      "title": "EUR/USD Price Forecasts: Struggling to regain 1.1400 amid geopolitical uncertainty",
+      "summary": "The Euro (EUR) ticks higher against the US Dollar (USD) on Monday but is struggling to confirm a move above 1.1400, with"
     },
     {
       "source": "FXStreet",
-      "title": "South Korea: Exports and inflation support rate hike path – DBS",
-      "summary": "DBS Group Research’s Ma Tieying expects South Korea’s June exports to remain very strong, with year-on-year growth aroun"
+      "title": "Euro: Shifts from selloff to consolidation against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang reports EUR/USD briefly spiked to 1.1434 before retreating, leaving intraday"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Weakness against US Dollar seen as corrective – OCBC",
-      "summary": "OCBC’s FX strategists Sim Moh Siong and Christopher Wong note USD/CNH’s recent run-up has stalled, with the pair around "
+      "title": "Japanese Yen: Data and BoJ Tankan to guide policy – Deutsche Bank",
+      "summary": "Deutsche Bank Research points to a busy week for Japan, with strong May retail sales already released and industrial pro"
     },
     {
       "source": "FXStreet",
-      "title": "Gold price rebounds as falling US yields weigh on US Dollar",
-      "summary": "Gold (XAU/USD) price recovers some ground on Friday, hitting a two-day high of $4,096 as the Greenback edges lower along"
+      "title": "Indian Rupee remains flat at the start of US NFP week",
+      "summary": "The Indian Rupee (INR) trades flat against the US Dollar (USD) after a long weekend on Monday."
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: US Dollar faces labor market test as NFP takes center stage",
-      "summary": "The upcoming week will bring a fresh test for major currency pairs as investors look ahead to key United States (US) lab"
+      "title": "USD/CAD Price Forecast: Might correct further to near 1.4140 as oscillators start cooling down",
+      "summary": "The USD/CAD pair trades flat at around 1.14195 during the European trading session on Monday. The Loonie pair consolidat"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range holds as consolidates against US Dollar – UOB",
-      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note USD/SGD has stalled after a six-day advance, with the pair ea"
+      "title": "Gold weakens on US-Iran de-escalation, expectations of Fed tightening",
+      "summary": "Gold (XAU/USD) trades around $4,050 at the time of writing on Monday, down 0.96% on the day, as investors slightly reduc"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen got its hike; Tokyo still has to do the rest",
-      "summary": "USD/JPY ended the week pressing the 162.00 handle, a whisker beneath its multi-decade high, and the more revealing detai"
+      "title": "Gold: Shallow rallies in two-way trading – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong argue Gold may struggle to attract a clear haven bid despite renewed US–Iran t"
     },
     {
       "source": "Investing",
@@ -192,13 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] South Korea: Exports and inflation support rate hike pa",
-      "[弱気] Chinese Yuan: Weakness against US Dollar seen as correc",
-      "[強気] Gold price rebounds as falling US yields weigh on US Do",
-      "[強気] The Japanese Yen got its hike; Tokyo still has to do th"
+      "[強気] CEE FX: Pressure returns with stronger Dollar – ING",
+      "[弱気] Gold weakens on US-Iran de-escalation, expectations of "
     ],
     "JPY": [
-      "[強気] The Japanese Yen got its hike; Tokyo still has to do th"
+      "[強気] Japanese Yen: Data and BoJ Tankan to guide policy – Deu"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,9 +207,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] The Japanese Yen got its hike; Tokyo still has to do th"
     ]
   },
   "rates": {
