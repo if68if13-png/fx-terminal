@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-06-29T10:50:51.065222",
-  "generated": "2026年06月29日 10:50",
+  "timestamp": "2026-06-29T16:50:19.995481",
+  "generated": "2026年06月29日 16:50",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 1,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,31 +13,31 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
       "quote_score": 1
     },
     {
       "pair": "EURJPY",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 2,
       "quote_score": 1
     },
     {
@@ -48,11 +48,11 @@
       "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Pressure returns with stronger Dollar – ING",
-      "summary": "ING strategist Frantisek Taborsky notes that a stronger Dollar and lower Oil have led markets to outprice most rate hike"
+      "title": "Euro strengthens as Eurozone sentiment improves ahead of German HICP",
+      "summary": "EUR/USD rose above 1.1420 in the American session on Monday as investors digested mixed Eurozone sentiment figures and l"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecasts: Struggling to regain 1.1400 amid geopolitical uncertainty",
-      "summary": "The Euro (EUR) ticks higher against the US Dollar (USD) on Monday but is struggling to confirm a move above 1.1400, with"
+      "title": "Canadian Dollar consolidates amid Oil price rebound, US labor data focus",
+      "summary": "USD/CAD trades around 1.4210 on Monday at the time of writing, as investors remain on the sidelines ahead of a series of"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Shifts from selloff to consolidation against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang reports EUR/USD briefly spiked to 1.1434 before retreating, leaving intraday"
+      "title": "Asian FX: Vulnerable under risk-off and stronger Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect Asian FX to start the week on a softer footing as AI-led equity losses "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Data and BoJ Tankan to guide policy – Deutsche Bank",
-      "summary": "Deutsche Bank Research points to a busy week for Japan, with strong May retail sales already released and industrial pro"
+      "title": "Australian Dollar slips near three-month low as traders await RBA Minutes",
+      "summary": "AUD/USD trades near the 0.6880 level on Monday, down from Friday's close as traders await fresh catalysts from Australia"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains flat at the start of US NFP week",
-      "summary": "The Indian Rupee (INR) trades flat against the US Dollar (USD) after a long weekend on Monday."
+      "title": "Euro: Range trading likely to persist against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note EUR/USD is holding within a short-term channel as markets awa"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Might correct further to near 1.4140 as oscillators start cooling down",
-      "summary": "The USD/CAD pair trades flat at around 1.14195 during the European trading session on Monday. The Loonie pair consolidat"
+      "title": "Silver declines as Middle East energy tensions, Fed policy uncertainty pressure prices",
+      "summary": "Silver (XAG/USD) is down 2.37% on Monday, trading around $57.75 at the time of writing, as investors reassess the impact"
     },
     {
       "source": "FXStreet",
-      "title": "Gold weakens on US-Iran de-escalation, expectations of Fed tightening",
-      "summary": "Gold (XAU/USD) trades around $4,050 at the time of writing on Monday, down 0.96% on the day, as investors slightly reduc"
+      "title": "Chinese Yuan: China slowdown weighs on CNY against US Dollar – Commerzbank",
+      "summary": "Commerzbank analysts Charlie Lay and Dr. Henry Hao highlight that China’s industrial profit growth slowed to 21.1% year-"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Shallow rallies in two-way trading – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong argue Gold may struggle to attract a clear haven bid despite renewed US–Iran t"
+      "title": "Japanese Yen: Japan export controls and strong sales support JPY risk premium – BNY",
+      "summary": "BNY’s Geoff Yu notes that China has expanded its export control list to include more Japanese entities, raising supply c"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment",
+      "title": "Strategy launches capital framework with $2.55B reserve and BTC sales plan",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin holds above $60,000 as Strategy’s funding model faces growing scrutiny",
+      "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment",
       "summary": ""
     }
   ],
@@ -192,11 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] CEE FX: Pressure returns with stronger Dollar – ING",
-      "[弱気] Gold weakens on US-Iran de-escalation, expectations of "
+      "[弱気] Euro strengthens as Eurozone sentiment improves ahead o",
+      "[強気] Asian FX: Vulnerable under risk-off and stronger Dollar",
+      "[弱気] Chinese Yuan: China slowdown weighs on CNY against US D"
     ],
     "JPY": [
-      "[強気] Japanese Yen: Data and BoJ Tankan to guide policy – Deu"
+      "[強気] Japanese Yen: Japan export controls and strong sales su"
+    ],
+    "EUR": [
+      "[弱気] Euro strengthens as Eurozone sentiment improves ahead o"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -247,16 +251,16 @@
       "diff_pct": -0.09
     },
     "WTI": {
-      "today_open": 105.83,
-      "prev_open": 106.029999,
-      "diff": -0.2,
-      "diff_pct": -0.19
+      "today_open": 106.65,
+      "prev_open": 105.83,
+      "diff": 0.82,
+      "diff_pct": 0.77
     },
     "SP500": {
-      "today_open": 728.95001,
-      "prev_open": 738.90997,
-      "diff": -9.96,
-      "diff_pct": -1.35
+      "today_open": 736.61,
+      "prev_open": 728.95001,
+      "diff": 7.66,
+      "diff_pct": 1.05
     }
   }
 }
