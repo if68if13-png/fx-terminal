@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-29T16:50:19.995481",
-  "generated": "2026年06月29日 16:50",
+  "timestamp": "2026-06-29T22:50:05.303448",
+  "generated": "2026年06月29日 22:50",
   "scores": {
-    "USD": 1,
-    "JPY": 1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro strengthens as Eurozone sentiment improves ahead of German HICP",
-      "summary": "EUR/USD rose above 1.1420 in the American session on Monday as investors digested mixed Eurozone sentiment figures and l"
+      "title": "Chinese Yuan: PBoC’s new tool signals mild strength – BNY",
+      "summary": "Geoff Yu at BNY highlights that the PBoC’s new overnight liquidity tool was launched at 1.25%, below consensus and the s"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar consolidates amid Oil price rebound, US labor data focus",
-      "summary": "USD/CAD trades around 1.4210 on Monday at the time of writing, as investors remain on the sidelines ahead of a series of"
+      "title": "GBP/JPY Price Forecast: Ascending triangle puts YTD high in play",
+      "summary": "The Pound Sterling advances against the Japanese Yen on Monday, up 0.59% amid fears for a possible intervention by Japan"
     },
     {
       "source": "FXStreet",
-      "title": "Asian FX: Vulnerable under risk-off and stronger Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect Asian FX to start the week on a softer footing as AI-led equity losses "
+      "title": "US Dollar: Fed-driven gains extend as DXY breaks range – HSBC",
+      "summary": "HSBC strategists highlight that the US Dollar (USD) has broken out of prior G10 ranges following an interim US–Iran peac"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar slips near three-month low as traders await RBA Minutes",
-      "summary": "AUD/USD trades near the 0.6880 level on Monday, down from Friday's close as traders await fresh catalysts from Australia"
+      "title": "Chinese Yuan: Range trade persists, downside risk intact against US Dollar – UOB",
+      "summary": "UOB’s Senior Technical Strategist Quek Ser Leang expects USD/CNH to remain confined in a tight near-term range, with the"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Range trading likely to persist against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note EUR/USD is holding within a short-term channel as markets awa"
+      "title": "Forex Today: US Dollar eases ahead of US jobs data, ECB Forum and China PMIs",
+      "summary": "The US Dollar Index (DXY) lost some momentum on Monday, trading near 101.10 but remaining close to recent highs, as inve"
     },
     {
       "source": "FXStreet",
-      "title": "Silver declines as Middle East energy tensions, Fed policy uncertainty pressure prices",
-      "summary": "Silver (XAG/USD) is down 2.37% on Monday, trading around $57.75 at the time of writing, as investors reassess the impact"
+      "title": "Japanese Yen: Dollar strength threatens APAC FX – BNY",
+      "summary": "BNY’s Geoff Yu highlights renewed US Dollar (USD) strength as a growing headwind for APAC (Asia-Pacific) currencies, wit"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: China slowdown weighs on CNY against US Dollar – Commerzbank",
-      "summary": "Commerzbank analysts Charlie Lay and Dr. Henry Hao highlight that China’s industrial profit growth slowed to 21.1% year-"
+      "title": "Euro: Political and growth risks point lower against US Dollar – HSBC",
+      "summary": "HSBC notes that dovish comments from European Central Bank (ECB) President Christine Lagarde and lower Oil prices now le"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Japan export controls and strong sales support JPY risk premium – BNY",
-      "summary": "BNY’s Geoff Yu notes that China has expanded its export control list to include more Japanese entities, raising supply c"
+      "title": "ECB’s Lagarde: ECB can raise rates to address inflation without fear",
+      "summary": "European Central Bank (ECB) President Christine Lagarde delivered an introductory speech at the ECB Forum on Central Ban"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Treasury yields steady as Fed hike bets offset Oil calm",
+      "summary": "US Treasury yields steadied on Monday during the North American session as tensions in the Middle East halted the declin"
     },
     {
       "source": "Investing",
       "title": "Strategy launches capital framework with $2.55B reserve and BTC sales plan",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin falls below $60,000 as ETF outflows, Fed outlook weigh on sentiment",
       "summary": ""
     }
   ],
@@ -192,15 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro strengthens as Eurozone sentiment improves ahead o",
-      "[強気] Asian FX: Vulnerable under risk-off and stronger Dollar",
-      "[弱気] Chinese Yuan: China slowdown weighs on CNY against US D"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen: Japan export controls and strong sales su"
+      "[強気] Chinese Yuan: Range trade persists, downside risk intac",
+      "[弱気] Euro: Political and growth risks point lower against US"
     ],
     "EUR": [
-      "[弱気] Euro strengthens as Eurozone sentiment improves ahead o"
+      "[弱気] Euro: Political and growth risks point lower against US"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,44 +207,47 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Chinese Yuan: PBoC’s new tool signals mild strength – B"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.4,
+    "US_10Y": 4.38,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.75,
-    "DIFF_EURUSD": -1.35,
-    "DIFF_GBPUSD": 0.54,
-    "DIFF_AUDUSD": 0.59
+    "DIFF_USDJPY": 1.73,
+    "DIFF_EURUSD": -1.33,
+    "DIFF_GBPUSD": 0.56,
+    "DIFF_AUDUSD": 0.61
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.73738,
-      "prev_open": 161.7511,
-      "diff": -0.0137,
-      "diff_pct": -0.01
+      "today_open": 161.94729,
+      "prev_open": 161.73738,
+      "diff": 0.2099,
+      "diff_pct": 0.13
     },
     "EURUSD": {
-      "today_open": 1.1394,
-      "prev_open": 1.13889,
-      "diff": 0.0005,
-      "diff_pct": 0.04
+      "today_open": 1.14245,
+      "prev_open": 1.1394,
+      "diff": 0.003,
+      "diff_pct": 0.26
     },
     "GBPUSD": {
-      "today_open": 1.32075,
-      "prev_open": 1.31976,
-      "diff": 0.001,
-      "diff_pct": 0.08
+      "today_open": 1.32596,
+      "prev_open": 1.32075,
+      "diff": 0.0052,
+      "diff_pct": 0.39
     },
     "AUDUSD": {
-      "today_open": 0.68879,
-      "prev_open": 0.68939,
-      "diff": -0.0006,
-      "diff_pct": -0.09
+      "today_open": 0.68867,
+      "prev_open": 0.68879,
+      "diff": -0.0001,
+      "diff_pct": -0.01
     },
     "WTI": {
       "today_open": 106.65,
@@ -257,10 +256,10 @@
       "diff_pct": 0.77
     },
     "SP500": {
-      "today_open": 736.61,
+      "today_open": 736.52502,
       "prev_open": 728.95001,
-      "diff": 7.66,
-      "diff_pct": 1.05
+      "diff": 7.575,
+      "diff_pct": 1.04
     }
   }
 }
