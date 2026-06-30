@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-30T09:28:09.093178",
-  "generated": "2026年06月30日 09:28",
+  "timestamp": "2026-06-30T16:20:45.368147",
+  "generated": "2026年06月30日 16:20",
   "scores": {
-    "USD": 3,
-    "JPY": 1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -15,56 +15,56 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
     },
     {
       "source": "Fed",
@@ -102,58 +102,58 @@
       "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces final rule that establishes data standards for certain information collections",
-      "summary": "Federal Reserve Board announces final rule that establishes data standards for certain information collections"
+      "source": "FXStreet",
+      "title": "Gold steadies after sliding to fresh seven-month low, Fed rate-hike bets weigh",
+      "summary": "Gold (XAU/USD) rebounds on Tuesday after falling to a fresh seven-month low of $3,941 in the Asian session, as dip buyer"
     },
     {
       "source": "FXStreet",
-      "title": "Gold flat lines below $4,050 as Fed hike bets and firmer USD cap recovery from YTD low",
-      "summary": "Gold (XAU/USD) struggles to build on its intraday recovery from the lowest level since November 2025, touched earlier th"
+      "title": "Silver Price Forecast: XAG/USD attempts to reclaim $60 as bearish trend persists",
+      "summary": "Silver (XAG/USD) edges higher on Tuesday as the US Dollar (USD) trims part of its intraday gains despite upbeat US econo"
     },
     {
       "source": "FXStreet",
-      "title": "BoJ’s Sato: De-escalation of Middle East conflict is welcome move, uncertainty remains",
-      "summary": "Japanese Prime Minister (PM) Sanae Takaichi's administration newly appointed Bank of Japan (BoJ) board member, Ayano Sat"
+      "title": "Canada: GDP data signal firmer second quarter – RBC",
+      "summary": "Royal Bank of Canada (RBC) economist Abbey Xu notes that Canadian Gross Domestic Product (GDP) rose 0.5% in April, beati"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Poised to extend gains beyond 0.8100 amid broadly firmer USD",
-      "summary": "The USD/CHF pair sticks to its modest intraday gains through the first half of the European session on Tuesday, with bul"
+      "title": "Fed’s Hammack: “Inflation is still too high, Fed may need to consider rate hikes”",
+      "summary": "Beth Hammack, President of the Federal Reserve (Fed) Bank of Cleveland,  told CNBC on Tuesday that the United States (US"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Devolution vision and economic trade-offs – Standard Chartered",
-      "summary": "Standard Chartered Bank’s Chief Economist for Europe and UK, Christopher Graham, reviews Andy Burnham’s plan to make dev"
+      "title": "United States: Labor stability tempers Fed hike risks – TD Securities",
+      "summary": "TD Securities’ macro team led by Oscar Munoz expects headline US Nonfarm Payrolls to slow to 80k in June, with 55k priva"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures gain on potential US-Iran talks, tech rally",
-      "summary": "The Dow Jones futures rise 0.08% to trade near 52,610, while S&amp;P 500 futures gain 0.10%, trading near 7,510. Tech-he"
+      "title": "European Central Bank: Hawkish bias sustained with one more hike – ING",
+      "summary": "ING’s Michiel Tukker and Benjamin Schroeder argue that reduced Oil sensitivity in rates and lingering uncertainty should"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention risks rise with Fed hawkishness – MUFG",
-      "summary": "MUFG’s Lee Hardman notes that USD/JPY has broken above its July 2024 high as the US Dollar strengthens on a hawkish Fede"
+      "title": "Euro: Resistance at 1.1450 caps upside against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s FX strategists report that EUR/USD is softer as regional inflation data point to downside risks for nationa"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Sintra seen validating hike expectations – ING",
-      "summary": "ING’s Francesco Pesole writes that European Central Bank (ECB) President Christine Lagarde’s opening remarks in Sintra w"
+      "title": "Norwegian Krone: Supported against Euro as NOK flows increase – Nordea",
+      "summary": "Nordea’s Senior Macro and FX Strategist Sara Midtgaard notes that the Norwegian Krone (NOK) weakened in June, with EUR/N"
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Sleijpen: Energy price retreat will have an impact on inflation",
-      "summary": "European Central Bank (ECB) policymaker and Dutch central bank chief Olaf Sleijpen said in the European trade on Tuesday"
-    },
-    {
-      "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: New Zealand Dollar holds near 0.5650 as bearish bias holds",
-      "summary": "NZD/USD gains ground for the second consecutive day, trading around 0.5660 during the Asian hours on Tuesday. Technical "
+      "title": "Canadian Dollar gains after Canada's GDP growth tops forecasts",
+      "summary": "USD/CAD trims its intraday gains on Tuesday as the Canadian Dollar (CAD) strengthens after the latest Canadian Gross Dom"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin pinned below $60k as rate jitters, ETF outflows persist",
+      "title": "Bitcoin weak below $60k as rate jitters, ETF outflows persist",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Crypto firms emerge as biggest corporate political spenders in 2026 U.S. midterms",
       "summary": ""
     }
   ],
@@ -192,10 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen: Intervention risks rise with Fed hawkishn"
+      "[強気] Silver Price Forecast: XAG/USD attempts to reclaim $60 ",
+      "[強気] Fed’s Hammack: “Inflation is still too high, Fed may ne"
     ],
-    "JPY": [
-      "[強気] Japanese Yen: Intervention risks rise with Fed hawkishn"
+    "EUR": [
+      "[強気] European Central Bank: Hawkish bias sustained with one ",
+      "[弱気] Norwegian Krone: Supported against Euro as NOK flows in"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -246,16 +248,16 @@
       "diff_pct": -0.01
     },
     "WTI": {
-      "today_open": 106.65,
-      "prev_open": 105.83,
-      "diff": 0.82,
-      "diff_pct": 0.77
+      "today_open": 108.04,
+      "prev_open": 106.65,
+      "diff": 1.39,
+      "diff_pct": 1.3
     },
     "SP500": {
-      "today_open": 736.52502,
-      "prev_open": 728.95001,
-      "diff": 7.575,
-      "diff_pct": 1.04
+      "today_open": 741.31,
+      "prev_open": 736.52502,
+      "diff": 4.785,
+      "diff_pct": 0.65
     }
   }
 }
