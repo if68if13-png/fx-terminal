@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-29T22:50:05.303448",
-  "generated": "2026年06月29日 22:50",
+  "timestamp": "2026-06-30T09:28:09.093178",
+  "generated": "2026年06月30日 09:28",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": -1,
+    "USD": 3,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: PBoC’s new tool signals mild strength – BNY",
-      "summary": "Geoff Yu at BNY highlights that the PBoC’s new overnight liquidity tool was launched at 1.25%, below consensus and the s"
+      "title": "Gold flat lines below $4,050 as Fed hike bets and firmer USD cap recovery from YTD low",
+      "summary": "Gold (XAU/USD) struggles to build on its intraday recovery from the lowest level since November 2025, touched earlier th"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Ascending triangle puts YTD high in play",
-      "summary": "The Pound Sterling advances against the Japanese Yen on Monday, up 0.59% amid fears for a possible intervention by Japan"
+      "title": "BoJ’s Sato: De-escalation of Middle East conflict is welcome move, uncertainty remains",
+      "summary": "Japanese Prime Minister (PM) Sanae Takaichi's administration newly appointed Bank of Japan (BoJ) board member, Ayano Sat"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed-driven gains extend as DXY breaks range – HSBC",
-      "summary": "HSBC strategists highlight that the US Dollar (USD) has broken out of prior G10 ranges following an interim US–Iran peac"
+      "title": "USD/CHF Price Forecast: Poised to extend gains beyond 0.8100 amid broadly firmer USD",
+      "summary": "The USD/CHF pair sticks to its modest intraday gains through the first half of the European session on Tuesday, with bul"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Range trade persists, downside risk intact against US Dollar – UOB",
-      "summary": "UOB’s Senior Technical Strategist Quek Ser Leang expects USD/CNH to remain confined in a tight near-term range, with the"
+      "title": "United Kingdom: Devolution vision and economic trade-offs – Standard Chartered",
+      "summary": "Standard Chartered Bank’s Chief Economist for Europe and UK, Christopher Graham, reviews Andy Burnham’s plan to make dev"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar eases ahead of US jobs data, ECB Forum and China PMIs",
-      "summary": "The US Dollar Index (DXY) lost some momentum on Monday, trading near 101.10 but remaining close to recent highs, as inve"
+      "title": "Dow Jones futures gain on potential US-Iran talks, tech rally",
+      "summary": "The Dow Jones futures rise 0.08% to trade near 52,610, while S&amp;P 500 futures gain 0.10%, trading near 7,510. Tech-he"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Dollar strength threatens APAC FX – BNY",
-      "summary": "BNY’s Geoff Yu highlights renewed US Dollar (USD) strength as a growing headwind for APAC (Asia-Pacific) currencies, wit"
+      "title": "Japanese Yen: Intervention risks rise with Fed hawkishness – MUFG",
+      "summary": "MUFG’s Lee Hardman notes that USD/JPY has broken above its July 2024 high as the US Dollar strengthens on a hawkish Fede"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Political and growth risks point lower against US Dollar – HSBC",
-      "summary": "HSBC notes that dovish comments from European Central Bank (ECB) President Christine Lagarde and lower Oil prices now le"
+      "title": "Euro: Sintra seen validating hike expectations – ING",
+      "summary": "ING’s Francesco Pesole writes that European Central Bank (ECB) President Christine Lagarde’s opening remarks in Sintra w"
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Lagarde: ECB can raise rates to address inflation without fear",
-      "summary": "European Central Bank (ECB) President Christine Lagarde delivered an introductory speech at the ECB Forum on Central Ban"
+      "title": "ECB’s Sleijpen: Energy price retreat will have an impact on inflation",
+      "summary": "European Central Bank (ECB) policymaker and Dutch central bank chief Olaf Sleijpen said in the European trade on Tuesday"
     },
     {
       "source": "FXStreet",
-      "title": "US Treasury yields steady as Fed hike bets offset Oil calm",
-      "summary": "US Treasury yields steadied on Monday during the North American session as tensions in the Middle East halted the declin"
+      "title": "NZD/USD Price Forecast: New Zealand Dollar holds near 0.5650 as bearish bias holds",
+      "summary": "NZD/USD gains ground for the second consecutive day, trading around 0.5660 during the Asian hours on Tuesday. Technical "
     },
     {
       "source": "Investing",
-      "title": "Strategy launches capital framework with $2.55B reserve and BTC sales plan",
+      "title": "Bitcoin pinned below $60k as rate jitters, ETF outflows persist",
       "summary": ""
     }
   ],
@@ -192,11 +192,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Chinese Yuan: Range trade persists, downside risk intac",
-      "[弱気] Euro: Political and growth risks point lower against US"
+      "[強気] Japanese Yen: Intervention risks rise with Fed hawkishn"
     ],
-    "EUR": [
-      "[弱気] Euro: Political and growth risks point lower against US"
+    "JPY": [
+      "[強気] Japanese Yen: Intervention risks rise with Fed hawkishn"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -207,9 +206,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Chinese Yuan: PBoC’s new tool signals mild strength – B"
     ]
   },
   "rates": {
