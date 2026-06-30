@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-06-30T16:20:45.368147",
-  "generated": "2026年06月30日 16:20",
+  "timestamp": "2026-06-30T23:04:50.520507",
+  "generated": "2026年06月30日 23:04",
   "scores": {
     "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "AUD": 0,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -28,6 +21,13 @@
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 0,
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold steadies after sliding to fresh seven-month low, Fed rate-hike bets weigh",
-      "summary": "Gold (XAU/USD) rebounds on Tuesday after falling to a fresh seven-month low of $3,941 in the Asian session, as dip buyer"
+      "title": "Singapore: Growth profile raised – DBS",
+      "summary": "DBS Group Research economist Chua Han Teng upgrades Singapore’s Gross Domestic Product (GDP) outlook, noting that Singap"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD attempts to reclaim $60 as bearish trend persists",
-      "summary": "Silver (XAG/USD) edges higher on Tuesday as the US Dollar (USD) trims part of its intraday gains despite upbeat US econo"
+      "title": "Silver Price Forecast: XAG trapped below $60 as bears eye $55",
+      "summary": "Silver price advances by over 1.50% on Tuesday, even as US Treasury yields rise and the US Dollar remains firm. Concerns"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: GDP data signal firmer second quarter – RBC",
-      "summary": "Royal Bank of Canada (RBC) economist Abbey Xu notes that Canadian Gross Domestic Product (GDP) rose 0.5% in April, beati"
+      "title": "Chinese Yuan: Range trade persists, downside risk intact against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that USD/CNH remains confined to a tight range, with the Dollar expect"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Hammack: “Inflation is still too high, Fed may need to consider rate hikes”",
-      "summary": "Beth Hammack, President of the Federal Reserve (Fed) Bank of Cleveland,  told CNBC on Tuesday that the United States (US"
+      "title": "Forex Today: US Dollar neutral as Fed rate hike bets stay alive",
+      "summary": "The US Dollar Index (DXY) traded on a neutral stance near the 101.20 level on Tuesday as investors digested mixed United"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Labor stability tempers Fed hike risks – TD Securities",
-      "summary": "TD Securities’ macro team led by Oscar Munoz expects headline US Nonfarm Payrolls to slow to 80k in June, with 55k priva"
+      "title": "Gold rises above $4,000 yet poised for an 11% monthly loss",
+      "summary": "Gold (XAU/USD) price posts modest gains of 0.35% on Tuesday, set to end the month with losses of over 11% after retreati"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank: Hawkish bias sustained with one more hike – ING",
-      "summary": "ING’s Michiel Tukker and Benjamin Schroeder argue that reduced Oil sensitivity in rates and lingering uncertainty should"
+      "title": "USD/CHF Price Forecast: US Dollar holds key support, bulls eye YTD high",
+      "summary": "The USD/CHF pair holds firm around 0.8070 on Tuesday, after losing 0.29% on Monday, supported by broad US Dollar (USD) w"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Resistance at 1.1450 caps upside against US Dollar – Scotiabank",
-      "summary": "Scotiabank’s FX strategists report that EUR/USD is softer as regional inflation data point to downside risks for nationa"
+      "title": "NZD/USD Price Forecast: Recovery faces resistance at 0.5700",
+      "summary": "The New Zealand Dollar (NZD) edges higher against the US Dollar (USD) on Tuesday, supported by upbeat New Zealand busine"
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Supported against Euro as NOK flows increase – Nordea",
-      "summary": "Nordea’s Senior Macro and FX Strategist Sara Midtgaard notes that the Norwegian Krone (NOK) weakened in June, with EUR/N"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar gains after Canada's GDP growth tops forecasts",
-      "summary": "USD/CAD trims its intraday gains on Tuesday as the Canadian Dollar (CAD) strengthens after the latest Canadian Gross Dom"
+      "title": "Australian Dollar advances as hawkish RBA Minutes meet firmer US confidence data",
+      "summary": "AUD/USD trades higher near 0.6915 on Tuesday as investors digest the latest Reserve Bank of Australia (RBA) Meeting Minu"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Crypto firms emerge as biggest corporate political spenders in 2026 U.S. midterms",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy launches capital framework with $2.55B reserve and BTC sales plan",
       "summary": ""
     }
   ],
@@ -192,22 +192,25 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver Price Forecast: XAG/USD attempts to reclaim $60 ",
-      "[強気] Fed’s Hammack: “Inflation is still too high, Fed may ne"
-    ],
-    "EUR": [
-      "[強気] European Central Bank: Hawkish bias sustained with one ",
-      "[弱気] Norwegian Krone: Supported against Euro as NOK flows in"
+      "[強気] Forex Today: US Dollar neutral as Fed rate hike bets st",
+      "[弱気] USD/CHF Price Forecast: US Dollar holds key support, bu",
+      "[強気] NZD/USD Price Forecast: Recovery faces resistance at 0.",
+      "[強気] Australian Dollar advances as hawkish RBA Minutes meet "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)",
+      "[強気] Australian Dollar advances as hawkish RBA Minutes meet "
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Recovery faces resistance at 0."
+    ],
+    "CHF": [
+      "[弱気] USD/CHF Price Forecast: US Dollar holds key support, bu"
     ]
   },
   "rates": {
@@ -224,39 +227,39 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 161.94729,
-      "prev_open": 161.73738,
-      "diff": 0.2099,
-      "diff_pct": 0.13
+      "today_open": 162.58723,
+      "prev_open": 161.94729,
+      "diff": 0.6399,
+      "diff_pct": 0.4
     },
     "EURUSD": {
-      "today_open": 1.14245,
-      "prev_open": 1.1394,
-      "diff": 0.003,
-      "diff_pct": 0.26
+      "today_open": 1.14215,
+      "prev_open": 1.14245,
+      "diff": -0.0003,
+      "diff_pct": -0.03
     },
     "GBPUSD": {
-      "today_open": 1.32596,
-      "prev_open": 1.32075,
-      "diff": 0.0052,
-      "diff_pct": 0.39
+      "today_open": 1.32603,
+      "prev_open": 1.32596,
+      "diff": 0.0001,
+      "diff_pct": 0.01
     },
     "AUDUSD": {
-      "today_open": 0.68867,
-      "prev_open": 0.68879,
-      "diff": -0.0001,
-      "diff_pct": -0.01
+      "today_open": 0.69194,
+      "prev_open": 0.68867,
+      "diff": 0.0033,
+      "diff_pct": 0.48
     },
     "WTI": {
-      "today_open": 108.04,
+      "today_open": 108.15,
       "prev_open": 106.65,
-      "diff": 1.39,
-      "diff_pct": 1.3
+      "diff": 1.5,
+      "diff_pct": 1.41
     },
     "SP500": {
-      "today_open": 741.31,
-      "prev_open": 736.52502,
-      "diff": 4.785,
+      "today_open": 741.28998,
+      "prev_open": 736.53003,
+      "diff": 4.76,
       "diff_pct": 0.65
     }
   }
