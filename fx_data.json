@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-01T09:39:37.749817",
-  "generated": "2026年07月01日 09:39",
+  "timestamp": "2026-07-01T16:21:49.751380",
+  "generated": "2026年07月01日 16:21",
   "scores": {
-    "USD": 2,
-    "JPY": 1,
-    "EUR": -1,
-    "GBP": 2,
-    "AUD": -1,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 0,
+    "GBP": 3,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 3,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar weakens against firmer USD as bears eye YTD low amid falling Oil prices",
-      "summary": "The USD/CAD pair attracts fresh buyers following the previous day's modest pullback from the vicinity of mid-1.4200s, or"
+      "title": "British Pound climbs on soft US data despite Warsh’s hawkish tilt",
+      "summary": "The Pound Sterling (GBP) registers a 0.14% gain on Wednesday amid broad US Dollar (USD) strength and comments by the Fed"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Traders test intervention resolve – Societe Generale",
-      "summary": "Societe Generale strategists underline that USD/JPY upside remains intact despite strong Japanese data, with 165 cited a"
+      "title": "Warsh stays on message as inflation remains the Fed's top priority",
+      "summary": "At the ECB Forum in Sintra, Fed Chair Kevin Warsh largely followed the script, offering little to change the market’s cu"
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone flash HICP cools faster-than-expected to 2.8% in June",
-      "summary": "Eurozone’s preliminary Harmonized Index of Consumer Prices (HICP) data for June arrives at 2.8% Year-on-Year (YoY), lowe"
+      "title": "Australian Dollar  as stronger US Dollar offsets cautious Aussie outlook",
+      "summary": "AUD/USD fell to 0.6900 on Wednesday and is now trading cautiously as investors digest mixed United States (US) economic "
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Nagel: I will keep options open for July and September decisions",
-      "summary": "European Central Bank (ECB) Governing Council Member and President of the Deutsche Bundesbank, Joachim Nagel, said durin"
+      "title": "Euro pares losses amid softer-than-expected US data and Warsh's remarks",
+      "summary": "EUR/USD pares some of its losses on Wednesday as softer-than-expected US economic data and remarks from Federal Reserve "
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Sideways bias within defined band against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang highlights that EUR/USD price action offers few fresh clues after a dip to 1.1381 and rebound to 1."
+      "title": "Colombia: Hawkish BanRep tightening bias – Societe Generale",
+      "summary": "Societe Generale’s Dev Ashish notes that Banco de la República delivered a larger-than-expected 75bp hike to 12%, reinfo"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen trades marginally higher amid intervention fears",
-      "summary": "The Japanese Yen (JPY) trades slightly higher against a majority of its currency peers, but edges lower to near 162.66 a"
+      "title": "Silver rebounds above $60 as softer US data, Warsh remarks weigh on the US Dollar",
+      "summary": "Silver (XAG/USD) rebounds on Wednesday and trades around $60.35, up 3.19% at the time of writing. The white metal is sup"
     },
     {
       "source": "FXStreet",
-      "title": "Czech Koruna: CNB signals pause after fine-tuning hike – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose interprets Czech National Bank (CNB) deputy governor Eva Zamrazilova’s remarks as signalling t"
+      "title": "India: Nowcast points to slower expansion – DBS",
+      "summary": "DBS' Senior Economist Radhika Rao with data support from Daisy Sharma, highlights that India’s real Gross Domestic Produ"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures struggle ahead of ISM Manufacturing PMI data",
-      "summary": "The Dow Jones futures decline 0.34% to trade near 52,500, while S&amp;P 500 futures gain 0.35%, trading near 7,520. Mean"
+      "title": "Canada: Solid Q2 rebound supports cautious outlook – NBC",
+      "summary": "National Bank of Canada's (NBC) Kyle Dahms notes that the Canadian economy began Q2 on a stronger-than-expected footing,"
     },
     {
       "source": "FXStreet",
-      "title": "Copper: Fed focus and Iran talks steer prices – ING",
-      "summary": "ING’s commodities team reports that industrial metals, led by Copper, gained as markets monitored US-Iran talks and ship"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold hangs near YTD low, below $4,000 as bears await Fed Chair Warsh's speech",
-      "summary": "Gold (XAU/USD) maintains its offered tone for the third straight day and trades below the $4,000 psychological mark thro"
+      "title": "United Kingdom: Balanced inflation and politics risk – HSBC",
+      "summary": "HSBC’s Willem Sels and Lucia Ku note that UK inflation remains above target but see risks as more balanced after the US-"
     },
     {
       "source": "Investing",
-      "title": "Utorg Obtains MiCA License as July 1 Deadline Forces Much of the Industry Out of Europe",
+      "title": "Bitcoin muted at $59k, nears 22-mth low after deep qtrly losses on rate jitters",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Crypto Tax Made Easy Helps Cut Client’s IRS Audit Exposure From $1.55 Million to Approximately $148K",
       "summary": ""
     }
   ],
@@ -192,27 +192,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar weakens against firmer USD as bears eye",
-      "[強気] Japanese Yen: Traders test intervention resolve – Socie"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen: Traders test intervention resolve – Socie"
-    ],
-    "EUR": [
-      "[弱気] Canadian Dollar weakens against firmer USD as bears eye"
+      "[強気] British Pound climbs on soft US data despite Warsh’s ha",
+      "[強気] Australian Dollar  as stronger US Dollar offsets cautio",
+      "[弱気] Silver rebounds above $60 as softer US data, Warsh rema"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound climbs on soft US data despite Warsh’s ha"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)",
+      "[強気] Australian Dollar  as stronger US Dollar offsets cautio"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar weakens against firmer USD as bears eye"
     ]
   },
   "rates": {
@@ -253,16 +247,16 @@
       "diff_pct": 0.48
     },
     "WTI": {
-      "today_open": 108.15,
-      "prev_open": 106.65,
-      "diff": 1.5,
-      "diff_pct": 1.41
+      "today_open": 104.59,
+      "prev_open": 108.15,
+      "diff": -3.56,
+      "diff_pct": -3.29
     },
     "SP500": {
-      "today_open": 741.28998,
-      "prev_open": 736.53003,
-      "diff": 4.76,
-      "diff_pct": 0.65
+      "today_open": 744.97,
+      "prev_open": 741.28998,
+      "diff": 3.68,
+      "diff_pct": 0.5
     }
   }
 }
