@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-06-30T23:04:50.520507",
-  "generated": "2026年06月30日 23:04",
+  "timestamp": "2026-07-01T09:39:37.749817",
+  "generated": "2026年07月01日 09:39",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 2,
+    "JPY": 1,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 3,
-    "CAD": 0,
-    "CHF": -1
+    "AUD": -1,
+    "NZD": 2,
+    "CAD": -1,
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore: Growth profile raised – DBS",
-      "summary": "DBS Group Research economist Chua Han Teng upgrades Singapore’s Gross Domestic Product (GDP) outlook, noting that Singap"
+      "title": "Canadian Dollar weakens against firmer USD as bears eye YTD low amid falling Oil prices",
+      "summary": "The USD/CAD pair attracts fresh buyers following the previous day's modest pullback from the vicinity of mid-1.4200s, or"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG trapped below $60 as bears eye $55",
-      "summary": "Silver price advances by over 1.50% on Tuesday, even as US Treasury yields rise and the US Dollar remains firm. Concerns"
+      "title": "Japanese Yen: Traders test intervention resolve – Societe Generale",
+      "summary": "Societe Generale strategists underline that USD/JPY upside remains intact despite strong Japanese data, with 165 cited a"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Range trade persists, downside risk intact against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that USD/CNH remains confined to a tight range, with the Dollar expect"
+      "title": "Eurozone flash HICP cools faster-than-expected to 2.8% in June",
+      "summary": "Eurozone’s preliminary Harmonized Index of Consumer Prices (HICP) data for June arrives at 2.8% Year-on-Year (YoY), lowe"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar neutral as Fed rate hike bets stay alive",
-      "summary": "The US Dollar Index (DXY) traded on a neutral stance near the 101.20 level on Tuesday as investors digested mixed United"
+      "title": "ECB’s Nagel: I will keep options open for July and September decisions",
+      "summary": "European Central Bank (ECB) Governing Council Member and President of the Deutsche Bundesbank, Joachim Nagel, said durin"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rises above $4,000 yet poised for an 11% monthly loss",
-      "summary": "Gold (XAU/USD) price posts modest gains of 0.35% on Tuesday, set to end the month with losses of over 11% after retreati"
+      "title": "Euro: Sideways bias within defined band against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang highlights that EUR/USD price action offers few fresh clues after a dip to 1.1381 and rebound to 1."
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: US Dollar holds key support, bulls eye YTD high",
-      "summary": "The USD/CHF pair holds firm around 0.8070 on Tuesday, after losing 0.29% on Monday, supported by broad US Dollar (USD) w"
+      "title": "Japanese Yen trades marginally higher amid intervention fears",
+      "summary": "The Japanese Yen (JPY) trades slightly higher against a majority of its currency peers, but edges lower to near 162.66 a"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Recovery faces resistance at 0.5700",
-      "summary": "The New Zealand Dollar (NZD) edges higher against the US Dollar (USD) on Tuesday, supported by upbeat New Zealand busine"
+      "title": "Czech Koruna: CNB signals pause after fine-tuning hike – Commerzbank",
+      "summary": "Commerzbank’s Tatha Ghose interprets Czech National Bank (CNB) deputy governor Eva Zamrazilova’s remarks as signalling t"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar advances as hawkish RBA Minutes meet firmer US confidence data",
-      "summary": "AUD/USD trades higher near 0.6915 on Tuesday as investors digest the latest Reserve Bank of Australia (RBA) Meeting Minu"
+      "title": "Dow Jones futures struggle ahead of ISM Manufacturing PMI data",
+      "summary": "The Dow Jones futures decline 0.34% to trade near 52,500, while S&amp;P 500 futures gain 0.35%, trading near 7,520. Mean"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Copper: Fed focus and Iran talks steer prices – ING",
+      "summary": "ING’s commodities team reports that industrial metals, led by Copper, gained as markets monitored US-Iran talks and ship"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold hangs near YTD low, below $4,000 as bears await Fed Chair Warsh's speech",
+      "summary": "Gold (XAU/USD) maintains its offered tone for the third straight day and trades below the $4,000 psychological mark thro"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin weak below $60k as rate jitters, ETF outflows persist",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Crypto firms emerge as biggest corporate political spenders in 2026 U.S. midterms",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy launches capital framework with $2.55B reserve and BTC sales plan",
+      "title": "Utorg Obtains MiCA License as July 1 Deadline Forces Much of the Industry Out of Europe",
       "summary": ""
     }
   ],
@@ -192,25 +192,27 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Forex Today: US Dollar neutral as Fed rate hike bets st",
-      "[弱気] USD/CHF Price Forecast: US Dollar holds key support, bu",
-      "[強気] NZD/USD Price Forecast: Recovery faces resistance at 0.",
-      "[強気] Australian Dollar advances as hawkish RBA Minutes meet "
+      "[弱気] Canadian Dollar weakens against firmer USD as bears eye",
+      "[強気] Japanese Yen: Traders test intervention resolve – Socie"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Traders test intervention resolve – Socie"
+    ],
+    "EUR": [
+      "[弱気] Canadian Dollar weakens against firmer USD as bears eye"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)",
-      "[強気] Australian Dollar advances as hawkish RBA Minutes meet "
+      "[COT] 🟢ロング優勢 (ネット:+168,826)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Recovery faces resistance at 0."
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CHF": [
-      "[弱気] USD/CHF Price Forecast: US Dollar holds key support, bu"
+    "CAD": [
+      "[弱気] Canadian Dollar weakens against firmer USD as bears eye"
     ]
   },
   "rates": {
