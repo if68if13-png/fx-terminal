@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-02T11:34:11.837442",
-  "generated": "2026年07月02日 11:34",
+  "timestamp": "2026-07-02T14:02:11.707983",
+  "generated": "2026年07月02日 14:02",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": -1,
+    "USD": -2,
+    "JPY": -2,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": -2,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 0
+    "CAD": -1,
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "diff": 4,
+      "base_score": 2,
+      "quote_score": -2
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 4,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -2
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "pair": "EURUSD",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 0,
+      "quote_score": -2
     },
     {
       "pair": "EURJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 0,
+      "quote_score": -2
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "diff": 0,
+      "base_score": -2,
+      "quote_score": -2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -2,
+      "quote_score": -2
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound surges against US Dollar ahead of US NFP data",
-      "summary": "The British Pound (GBP) trades 0.5% higher to near 1.3340 against the US Dollar (USD) during the European trading sessio"
+      "title": "New Zealand Dollar: RBNZ governance and housing signals – BNY",
+      "summary": "Geoff Yu reports that the RBNZ will keep its Monetary Policy Committee at six members ahead of the November election, af"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Labor focus softens – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur notes that the US Nonfarm Payrolls release is unlikely to have the market impact it once did,"
+      "title": "Canadian Dollar gains as weaker US jobs data pressure US Dollar",
+      "summary": "USD/CAD falls to 1.4180 on Thursday, down 0.26% on the day after dropping to 1.4150, its lowest level in more than a wee"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens vs British Pound as softer Eurozone inflation, divided ECB weigh",
-      "summary": "EUR/GBP trades around 0.8550 on Thursday, down 0.21% on the day, as the Euro (EUR) remains under pressure against the Br"
+      "title": "Gold climbs as weak US NFP sends the US Dollar to a two-week low",
+      "summary": "Gold (XAU/USD) trades on the front foot on Thursday as the US Dollar (USD) weakens amid rumors of a potential interventi"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Dollar finds support at previous resistance area around 161.00",
-      "summary": "The Japanese Yen (JPY) staged a sharp rebound against the US Dollar (USD) on Friday, raising speculation about potential"
+      "title": "US Dollar: Softer jobs and inflation outlook weigh on rate expectations – Commerzbank",
+      "summary": "Commerzbank’s Bernd Weidensteiner highlights that US nonfarm payrolls rose only 57,000 in June, far below consensus, wit"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: State-bank selling caps gains – Societe Generale",
-      "summary": "Societe Generale highlights that state-controlled banks in India have been actively selling Dollars for a second day aft"
+      "title": "Eurozone: Minimum reserves debate reshapes liquidity – ING",
+      "summary": "ING strategists Benjamin Schroeder and Michiel Tukker discuss how a potential increase in the Minimum Reserve Requiremen"
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Mixed PMI and inflation keep zloty capped – ING",
-      "summary": "Frantisek Taborsky at ING notes diverging PMI signals in Central Europe, with strong Czech sentiment and weaker Poland, "
+      "title": "Swiss Franc gains as disappointing US Nonfarm Payrolls pressure the US Dollar",
+      "summary": "USD/CHF weakens sharply on Thursday as the US Dollar (USD) comes under broad selling pressure following a weaker-than-ex"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: Upside potential builds – UOB",
-      "summary": "UOB strategist Quek Ser Leang highlights a constructive technical backdrop for the US Dollar Index (DXY), noting similar"
+      "title": "Fed's Daly: There is a scenario where Fed has to fight inflation",
+      "summary": "While speaking  at a Banco de España conference in Santander, Spain, San Francisco Federal Reserve President Mary Daly s"
     },
     {
       "source": "FXStreet",
-      "title": "RBNZ: Policy pace and July hike – TD Securities",
-      "summary": "TD Securities’ Prashant Newnaha expects the Reserve Bank of New Zealand (RBNZ) to raise the Official Cash Rate (OCR)  by"
+      "title": "Germany: Bureaucracy cuts and tax tweaks – Commerzbank",
+      "summary": "Commerzbank’s Dr. Ralph Solveen reviews Germany’s new reform package agreed by CDU/CSU and SPD, focusing on bureaucracy "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar weakens after trade deficit, Japanese Yen lifted by intervention risks",
+      "summary": "AUD/JPY declines by 0.61% on Thursday, trading around 111.40 at the time of writing."
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Initial Jobless Claims dropped to 215K last week",
+      "summary": "According to a report from the US Department of Labour (DOL) released on Thursday, the number of US citizens submitting "
     },
     {
       "source": "Investing",
       "title": "Crypto Tax Made Easy Helps Cut Client’s IRS Audit Exposure From $1.55 Million to Approximately $148K",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Utorg Obtains MiCA License as July 1 Deadline Forces Much of the Industry Out of Europe",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Crypto firms emerge as biggest corporate political spenders in 2026 U.S. midterms",
       "summary": ""
     }
   ],
@@ -192,24 +192,31 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound surges against US Dollar ahead of US NFP "
+      "[弱気] Canadian Dollar gains as weaker US jobs data pressure U",
+      "[弱気] Gold climbs as weak US NFP sends the US Dollar to a two",
+      "[弱気] Swiss Franc gains as disappointing US Nonfarm Payrolls ",
+      "[弱気] Australian Dollar weakens after trade deficit, Japanese"
     ],
-    "EUR": [
-      "[強気] British Pound surges against US Dollar ahead of US NFP ",
-      "[弱気] Euro weakens vs British Pound as softer Eurozone inflat",
-      "[弱気] CEE FX: Mixed PMI and inflation keep zloty capped – ING"
+    "JPY": [
+      "[弱気] Gold climbs as weak US NFP sends the US Dollar to a two",
+      "[弱気] Australian Dollar weakens after trade deficit, Japanese"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound surges against US Dollar ahead of US NFP ",
-      "[弱気] Euro weakens vs British Pound as softer Eurozone inflat"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)",
+      "[弱気] Australian Dollar weakens after trade deficit, Japanese"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar gains as weaker US jobs data pressure U"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc gains as disappointing US Nonfarm Payrolls "
     ]
   },
   "rates": {
