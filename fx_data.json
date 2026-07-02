@@ -1,36 +1,50 @@
 {
-  "timestamp": "2026-07-02T14:02:11.707983",
-  "generated": "2026年07月02日 14:02",
+  "timestamp": "2026-07-02T16:49:48.969434",
+  "generated": "2026年07月02日 16:49",
   "scores": {
-    "USD": -2,
+    "USD": -5,
     "JPY": -2,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -2,
-    "NZD": 2,
-    "CAD": -1,
-    "CHF": -1
+    "NZD": 1,
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "GBPUSD",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 2,
+      "diff": 6,
+      "base_score": 1,
+      "quote_score": -5
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 0,
+      "quote_score": -5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -5,
       "quote_score": -2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": -2,
+      "quote_score": -5
     },
     {
       "pair": "GBPJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 2,
-      "quote_score": -2
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 0,
+      "diff": 3,
+      "base_score": 1,
       "quote_score": -2
     },
     {
@@ -39,23 +53,14 @@
       "diff": 2,
       "base_score": 0,
       "quote_score": -2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -2,
-      "quote_score": -2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -2,
-      "quote_score": -2
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions w"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
@@ -97,63 +102,58 @@
       "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effectiv"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
+      "source": "FXStreet",
+      "title": "Asian FX: Scope for sharp rebound on US pressure – BNY",
+      "summary": "BNY’s Geoff Yu notes that clients have largely capitulated on Japanese Yen (JPY) and South Korean Won (KRW) longs as the"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ governance and housing signals – BNY",
-      "summary": "Geoff Yu reports that the RBNZ will keep its Monetary Policy Committee at six members ahead of the November election, af"
+      "title": "Australian Dollar rises as weak US NFP weighs on the US Dollar",
+      "summary": "The AUD/USD pair climbed near the 0.6930 area on Thursday as the US Dollar (USD) came under pressure following softer-th"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar gains as weaker US jobs data pressure US Dollar",
-      "summary": "USD/CAD falls to 1.4180 on Thursday, down 0.26% on the day after dropping to 1.4150, its lowest level in more than a wee"
+      "title": "New Zealand Dollar advances as weaker US employment data weighs on US Dollar",
+      "summary": "NZD/USD rises 0.59% on Thursday to trade around 0.5705 at the time of writing, supported by a sharp decline in the US Do"
     },
     {
       "source": "FXStreet",
-      "title": "Gold climbs as weak US NFP sends the US Dollar to a two-week low",
-      "summary": "Gold (XAU/USD) trades on the front foot on Thursday as the US Dollar (USD) weakens amid rumors of a potential interventi"
+      "title": "British Pound rallies as weak NFP smashes Fed hike bets",
+      "summary": "The Pound Sterling (GBP) registers solid gains against the US Dollar (USD) on Thursday after the latest US employment re"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Softer jobs and inflation outlook weigh on rate expectations – Commerzbank",
-      "summary": "Commerzbank’s Bernd Weidensteiner highlights that US nonfarm payrolls rose only 57,000 in June, far below consensus, wit"
+      "title": "Germany: Reform drive supports growth narrative – ING",
+      "summary": "ING’s Carsten Brzeski analyses a new German government reform package focused on cutting red tape, increasing labour mar"
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone: Minimum reserves debate reshapes liquidity – ING",
-      "summary": "ING strategists Benjamin Schroeder and Michiel Tukker discuss how a potential increase in the Minimum Reserve Requiremen"
+      "title": "Silver Price Forecast: Weak NFP pushes XAG to the top of its weekly range",
+      "summary": "Silver (XAG/USD) climbs to the top of its weekly trading range on Thursday as the US Dollar (USD) slides to a two-week l"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc gains as disappointing US Nonfarm Payrolls pressure the US Dollar",
-      "summary": "USD/CHF weakens sharply on Thursday as the US Dollar (USD) comes under broad selling pressure following a weaker-than-ex"
+      "title": "Federal Reserve: Jobs slowdown supports steady rates – Commerzbank",
+      "summary": "Commerzbank’s Bernd Weidensteiner notes that weaker US employment data for June and downward revisions to prior months r"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Daly: There is a scenario where Fed has to fight inflation",
-      "summary": "While speaking  at a Banco de España conference in Santander, Spain, San Francisco Federal Reserve President Mary Daly s"
+      "title": "Japanese Yen rebounds on softer US payrolls, intervention risks",
+      "summary": "USD/JPY falls 0.92% on Thursday and trades around 161.05 at the time of writing after a much weaker-than-expected US emp"
     },
     {
-      "source": "FXStreet",
-      "title": "Germany: Bureaucracy cuts and tax tweaks – Commerzbank",
-      "summary": "Commerzbank’s Dr. Ralph Solveen reviews Germany’s new reform package agreed by CDU/CSU and SPD, focusing on bureaucracy "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar weakens after trade deficit, Japanese Yen lifted by intervention risks",
-      "summary": "AUD/JPY declines by 0.61% on Thursday, trading around 111.40 at the time of writing."
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Initial Jobless Claims dropped to 215K last week",
-      "summary": "According to a report from the US Department of Labour (DOL) released on Thursday, the number of US citizens submitting "
+      "source": "Investing",
+      "title": "Bitcoin jumps to $62,000 as weak US jobs data eases rate-hike fears",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Crypto Tax Made Easy Helps Cut Client’s IRS Audit Exposure From $1.55 Million to Approximately $148K",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,31 +192,30 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar gains as weaker US jobs data pressure U",
-      "[弱気] Gold climbs as weak US NFP sends the US Dollar to a two",
-      "[弱気] Swiss Franc gains as disappointing US Nonfarm Payrolls ",
-      "[弱気] Australian Dollar weakens after trade deficit, Japanese"
+      "[弱気] Asian FX: Scope for sharp rebound on US pressure – BNY",
+      "[弱気] Australian Dollar rises as weak US NFP weighs on the US",
+      "[弱気] New Zealand Dollar advances as weaker US employment dat",
+      "[弱気] British Pound rallies as weak NFP smashes Fed hike bets",
+      "[弱気] Silver Price Forecast: Weak NFP pushes XAG to the top o",
+      "[弱気] Federal Reserve: Jobs slowdown supports steady rates – ",
+      "[弱気] Japanese Yen rebounds on softer US payrolls, interventi"
     ],
     "JPY": [
-      "[弱気] Gold climbs as weak US NFP sends the US Dollar to a two",
-      "[弱気] Australian Dollar weakens after trade deficit, Japanese"
+      "[弱気] Asian FX: Scope for sharp rebound on US pressure – BNY",
+      "[弱気] Japanese Yen rebounds on softer US payrolls, interventi"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound rallies as weak NFP smashes Fed hike bets"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+168,826)",
-      "[弱気] Australian Dollar weakens after trade deficit, Japanese"
+      "[弱気] Australian Dollar rises as weak US NFP weighs on the US"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar gains as weaker US jobs data pressure U"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc gains as disappointing US Nonfarm Payrolls "
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar advances as weaker US employment dat"
     ]
   },
   "rates": {
