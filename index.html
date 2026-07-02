@@ -124,6 +124,9 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <span class="slabel">通貨強弱スコア</span>
   <div class="score-grid" id="clist"></div>
 
+  <span class="slabel" style="margin-top:14px">💶 EUR/USD 目線</span>
+  <div id="eurusd-horizon"></div>
+
   <span class="slabel" style="margin-top:14px">🗓 今週の予定</span>
   <div class="today-bar" id="today-bar">
     <span class="today-bar-label">📌 本日</span>
@@ -260,6 +263,19 @@ function renderReasons(d){
     items.push(...list.map(r=>'<div class="nitem"><span style="color:#00d4ff;font-size:.68rem">'+c+'</span> <span style="font-size:.75rem">'+r+'</span></div>'));
   document.getElementById('rlist').innerHTML=items.join('')||'<div style="color:#4a5568;font-size:.78rem">根拠データなし</div>';
 }
+function renderEurUsdHorizon(outlook){
+  const el=document.getElementById('eurusd-horizon');
+  if(!el)return;
+  const p=(outlook.pairs||{})['EURUSD']||{};
+  const adminPairs=(window.ADMIN&&window.ADMIN.long_reasons)||{};
+  const lc=dirClass(p.long_view),mc=dirClass(p.mid_view),sc=dirClass(p.short_view);
+  const longReason=adminPairs['EURUSD']||p.long_reason||'';
+  el.innerHTML='<div class="horizon-grid">'
+    +'<div class="hcard"><div class="hlabel">長期</div><div class="hview '+lc+'">'+(p.long_view||'—')+'</div><div class="hreason">'+longReason+'</div></div>'
+    +'<div class="hcard"><div class="hlabel">中期 / 1ヶ月</div><div class="hview '+mc+'">'+(p.mid_view||'—')+'</div><div class="hreason">'+(p.mid_reason||'')+'</div></div>'
+    +'<div class="hcard"><div class="hlabel">短期 / 今週</div><div class="hview '+sc+'">'+(p.short_view||'—')+'</div><div class="hreason">'+(p.short_reason||'')+'</div></div>'
+    +'</div>';
+}
 function renderPairs(outlook,fdata){
   const pairs=['USDJPY','EURUSD','GBPUSD','AUDUSD'];
   const adminPairs=(window.ADMIN&&window.ADMIN.long_reasons)||{};
@@ -395,7 +411,7 @@ async function fetchAll(){
     const d1=await r1.json();
     const outlook=r2.ok?await r2.json():{};
     const d2=r3&&r3.ok?await r3.json():{};
-    renderScores(d1);renderCot(d1);renderNews(d1);renderReasons(d1);renderAdmin(d2);renderOutlook(outlook);renderPairs(outlook,d1);renderRates(d1);
+    renderScores(d1);renderCot(d1);renderNews(d1);renderReasons(d1);renderAdmin(d2);renderOutlook(outlook);renderPairs(outlook,d1);renderEurUsdHorizon(outlook);renderRates(d1);
     s.textContent='✅ '+d1.generated;
   }catch(e){s.textContent='📦 保存データ表示中';}
 }
