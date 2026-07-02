@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-01T23:06:11.560287",
-  "generated": "2026年07月01日 23:06",
+  "timestamp": "2026-07-02T11:34:11.837442",
+  "generated": "2026年07月02日 11:34",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,11 +13,25 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 3
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
@@ -27,31 +41,17 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen dares Tokyo to defend a line it won't name",
-      "summary": "The Japanese Yen has done something close to remarkable and been punished for it anyway."
+      "title": "British Pound surges against US Dollar ahead of US NFP data",
+      "summary": "The British Pound (GBP) trades 0.5% higher to near 1.3340 against the US Dollar (USD) during the European trading sessio"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Breaks range, bulls eye 216 as RSI is bullish",
-      "summary": "The Pound Sterling rises against the Japanese Yen, up 0.17% on Wednesday, despite Japanese authorities' threats to inter"
+      "title": "US Dollar: Labor focus softens – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes that the US Nonfarm Payrolls release is unlikely to have the market impact it once did,"
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar bides its time between Beijing and Washington",
-      "summary": "The Australian Dollar has spent the past two weeks doing very little, and that stillness is the whole story."
+      "title": "Euro weakens vs British Pound as softer Eurozone inflation, divided ECB weigh",
+      "summary": "EUR/GBP trades around 0.8550 on Thursday, down 0.21% on the day, as the Euro (EUR) remains under pressure against the Br"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Consolidates against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang notes USD/CNH slipped to 6.7865 before rebounding, with oversold conditions suggesting limited furt"
+      "title": "USD/JPY Price Forecast: Dollar finds support at previous resistance area around 161.00",
+      "summary": "The Japanese Yen (JPY) staged a sharp rebound against the US Dollar (USD) on Friday, raising speculation about potential"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG trades sideways below $60 as RSI bounce eyes breakout",
-      "summary": "Silver (XAG/USD) price extended its gains for the second consecutive day on Wednesday, up by over 1.25%, yet it remains "
+      "title": "Indian Rupee: State-bank selling caps gains – Societe Generale",
+      "summary": "Societe Generale highlights that state-controlled banks in India have been actively selling Dollars for a second day aft"
     },
     {
       "source": "FXStreet",
-      "title": "Banxico Survey: Private economists expect lower inflation in Mexico",
-      "summary": "On Wednesday, the Bank of Mexico (Banxico) reported that private analysts reduced their inflation expectations for the e"
+      "title": "CEE FX: Mixed PMI and inflation keep zloty capped – ING",
+      "summary": "Frantisek Taborsky at ING notes diverging PMI signals in Central Europe, with strong Czech sentiment and weaker Poland, "
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar holds firm on mixed US data, central bank remarks and NFP caution",
-      "summary": "The US Dollar Index (DXY) held near the 101.40 area, supported by resilient manufacturing activity and elevated long-ter"
+      "title": "US Dollar Index: Upside potential builds – UOB",
+      "summary": "UOB strategist Quek Ser Leang highlights a constructive technical backdrop for the US Dollar Index (DXY), noting similar"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Rangebound against US Dollar – Societe Generale",
-      "summary": "Societe Generale analysts observe that USD/KRW stalled after meeting interim resistance around 1561 in June and now look"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso tumbles as USMCA uncertainty rattles MXN",
-      "summary": "The Mexican Peso (MXN) loses ground versus the Greenback on Wednesday amid growing speculation about the cancellation of"
-    },
-    {
-      "source": "FXStreet",
-      "title": "BoC’s Macklem: Inflation is clearly above target",
-      "summary": "Speaking at a policy panel at the European Central Bank’s (ECB) Forum on Central Banking on Wednesday, Bank of Canada (B"
+      "title": "RBNZ: Policy pace and July hike – TD Securities",
+      "summary": "TD Securities’ Prashant Newnaha expects the Reserve Bank of New Zealand (RBNZ) to raise the Official Cash Rate (OCR)  by"
     },
     {
       "source": "Investing",
       "title": "Crypto Tax Made Easy Helps Cut Client’s IRS Audit Exposure From $1.55 Million to Approximately $148K",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Utorg Obtains MiCA License as July 1 Deadline Forces Much of the Industry Out of Europe",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Crypto firms emerge as biggest corporate political spenders in 2026 U.S. midterms",
       "summary": ""
     }
   ],
@@ -192,10 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Forex Today: US Dollar holds firm on mixed US data, cen"
+      "[強気] British Pound surges against US Dollar ahead of US NFP "
+    ],
+    "EUR": [
+      "[強気] British Pound surges against US Dollar ahead of US NFP ",
+      "[弱気] Euro weakens vs British Pound as softer Eurozone inflat",
+      "[弱気] CEE FX: Mixed PMI and inflation keep zloty capped – ING"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound surges against US Dollar ahead of US NFP ",
+      "[弱気] Euro weakens vs British Pound as softer Eurozone inflat"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -217,42 +224,5 @@
     "DIFF_GBPUSD": 0.5,
     "DIFF_AUDUSD": 0.55
   },
-  "prices": {
-    "USDJPY": {
-      "today_open": 162.60795,
-      "prev_open": 162.58723,
-      "diff": 0.0207,
-      "diff_pct": 0.01
-    },
-    "EURUSD": {
-      "today_open": 1.13784,
-      "prev_open": 1.14215,
-      "diff": -0.0043,
-      "diff_pct": -0.38
-    },
-    "GBPUSD": {
-      "today_open": 1.32758,
-      "prev_open": 1.32603,
-      "diff": 0.0015,
-      "diff_pct": 0.11
-    },
-    "AUDUSD": {
-      "today_open": 0.68934,
-      "prev_open": 0.69194,
-      "diff": -0.0026,
-      "diff_pct": -0.38
-    },
-    "WTI": {
-      "today_open": 104.55,
-      "prev_open": 108.15,
-      "diff": -3.6,
-      "diff_pct": -3.33
-    },
-    "SP500": {
-      "today_open": 745.0,
-      "prev_open": 741.28998,
-      "diff": 3.71,
-      "diff_pct": 0.5
-    }
-  }
+  "prices": {}
 }
