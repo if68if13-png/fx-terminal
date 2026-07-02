@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-02T16:49:48.969434",
-  "generated": "2026年07月02日 16:49",
+  "timestamp": "2026-07-02T19:25:27.474594",
+  "generated": "2026年07月02日 19:25",
   "scores": {
-    "USD": -5,
-    "JPY": -2,
+    "USD": -1,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 1,
+    "GBP": 2,
     "AUD": -2,
-    "NZD": 1,
+    "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
       "pair": "GBPUSD",
       "direction": "強くロング",
-      "diff": 6,
-      "base_score": 1,
-      "quote_score": -5
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 0,
-      "quote_score": -5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -5,
-      "quote_score": -2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くロング",
       "diff": 3,
-      "base_score": -2,
-      "quote_score": -5
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 1,
-      "quote_score": -2
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -2,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 0,
-      "quote_score": -2
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,6 +103,31 @@
     },
     {
       "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: A shooting star forms, bear's eye 0.8000",
+      "summary": "The USD/CHF recoils from two-day highs at 0.8120 after weaker-than-expected US data weighed on the Greenback, which trad"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold surges as weak US NFP knocks US Dollar",
+      "summary": "Gold (XAU/USD) price soars over 2% on Thursday after the latest US employment report reduced the chances of a Federal Re"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar weakens after softer US jobs data",
+      "summary": "The US Dollar Index (DXY) came under pressure near the 100.90 level after the latest United States (US) employment repor"
+    },
+    {
+      "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Bearish bias persists below 0.7000",
+      "summary": "The Australian Dollar (AUD) trades on the front foot against the US Dollar (USD) on Thursday as a weaker-than-expected U"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index retreats after US economy adds just 57K jobs in June",
+      "summary": "The US Dollar Index (DXY) trades under pressure on Thursday as weaker-than-expected US Nonfarm Payrolls (NFP) data dent "
+    },
+    {
+      "source": "FXStreet",
       "title": "Asian FX: Scope for sharp rebound on US pressure – BNY",
       "summary": "BNY’s Geoff Yu notes that clients have largely capitulated on Japanese Yen (JPY) and South Korean Won (KRW) longs as the"
     },
@@ -112,43 +137,13 @@
       "summary": "The AUD/USD pair climbed near the 0.6930 area on Thursday as the US Dollar (USD) came under pressure following softer-th"
     },
     {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar advances as weaker US employment data weighs on US Dollar",
-      "summary": "NZD/USD rises 0.59% on Thursday to trade around 0.5705 at the time of writing, supported by a sharp decline in the US Do"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound rallies as weak NFP smashes Fed hike bets",
-      "summary": "The Pound Sterling (GBP) registers solid gains against the US Dollar (USD) on Thursday after the latest US employment re"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Germany: Reform drive supports growth narrative – ING",
-      "summary": "ING’s Carsten Brzeski analyses a new German government reform package focused on cutting red tape, increasing labour mar"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: Weak NFP pushes XAG to the top of its weekly range",
-      "summary": "Silver (XAG/USD) climbs to the top of its weekly trading range on Thursday as the US Dollar (USD) slides to a two-week l"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Jobs slowdown supports steady rates – Commerzbank",
-      "summary": "Commerzbank’s Bernd Weidensteiner notes that weaker US employment data for June and downward revisions to prior months r"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen rebounds on softer US payrolls, intervention risks",
-      "summary": "USD/JPY falls 0.92% on Thursday and trades around 161.05 at the time of writing after a much weaker-than-expected US emp"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin jumps to $62,000 as weak US jobs data eases rate-hike fears",
+      "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Crypto Tax Made Easy Helps Cut Client’s IRS Audit Exposure From $1.55 Million to Approximately $148K",
+      "title": "Bitcoin jumps to $62,000 as weak US jobs data eases rate-hike fears",
       "summary": ""
     },
     {
@@ -192,21 +187,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] USD/CHF Price Forecast: A shooting star forms, bear's e",
+      "[強気] Gold surges as weak US NFP knocks US Dollar",
+      "[弱気] Forex Today: US Dollar weakens after softer US jobs dat",
       "[弱気] Asian FX: Scope for sharp rebound on US pressure – BNY",
-      "[弱気] Australian Dollar rises as weak US NFP weighs on the US",
-      "[弱気] New Zealand Dollar advances as weaker US employment dat",
-      "[弱気] British Pound rallies as weak NFP smashes Fed hike bets",
-      "[弱気] Silver Price Forecast: Weak NFP pushes XAG to the top o",
-      "[弱気] Federal Reserve: Jobs slowdown supports steady rates – ",
-      "[弱気] Japanese Yen rebounds on softer US payrolls, interventi"
+      "[弱気] Australian Dollar rises as weak US NFP weighs on the US"
     ],
     "JPY": [
-      "[弱気] Asian FX: Scope for sharp rebound on US pressure – BNY",
-      "[弱気] Japanese Yen rebounds on softer US payrolls, interventi"
+      "[弱気] Asian FX: Scope for sharp rebound on US pressure – BNY"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound rallies as weak NFP smashes Fed hike bets"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -214,8 +205,10 @@
       "[弱気] Australian Dollar rises as weak US NFP weighs on the US"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar advances as weaker US employment dat"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] USD/CHF Price Forecast: A shooting star forms, bear's e"
     ]
   },
   "rates": {
