@@ -124,9 +124,7 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <span class="slabel">通貨強弱スコア</span>
   <div class="score-grid" id="clist"></div>
 
-  <span class="slabel" style="margin-top:14px">📊 前日始値→当日始値</span>
-  <div id="price-diff-grid" style="display:grid;grid-template-columns:repeat(2,1fr);gap:6px;margin-top:8px"></div>
-
+  <span class="slabel" style="margin-top:14px">🗓 今週の予定</span>
   <div class="today-bar" id="today-bar">
     <span class="today-bar-label">📌 本日</span>
     <span class="today-tag nothing">読込中...</span>
@@ -334,35 +332,6 @@ function renderAdmin(d){
   document.getElementById('diary-empty').style.display=(dw||dm||dt)?'none':'block';
   document.getElementById('diary-empty').textContent=(dw||dm||dt)?'':(d.diary||'日記なし');
 }
-async function fetchPriceDiff(){
-  try{
-    const r=await fetch('fx_data.json?t='+Date.now());
-    if(!r.ok) return;
-    const d=await r.json();
-    const prices=d.prices||{};
-    const labels={
-      "USDJPY":"USD/JPY","EURUSD":"EUR/USD","GBPUSD":"GBP/USD","AUDUSD":"AUD/USD",
-      "WTI":"WTI原油(USO)","SP500":"S&P500(SPY)"
-    };
-    const el=document.getElementById('price-diff-grid');
-    if(!el) return;
-    let html='';
-    for(const [key,label] of Object.entries(labels)){
-      const p=prices[key];
-      if(!p){ html+=`<div style="background:#161b22;border-radius:6px;padding:8px"><div style="font-size:.65rem;color:#4a5568">${label}</div><div style="font-size:.75rem;color:#555">データなし</div></div>`; continue; }
-      const plus=p.diff_pct>=0;
-      const color=plus?'#3fb950':'#f85149';
-      const arrow=plus?'▲':'▼';
-      html+=`<div style="background:#161b22;border-radius:6px;padding:8px">
-        <div style="font-size:.65rem;color:#4a5568;margin-bottom:3px">${label}</div>
-        <div style="font-size:.8rem;font-weight:700;color:${color}">${arrow} ${Math.abs(p.diff_pct).toFixed(2)}%</div>
-        <div style="font-size:.62rem;color:#555;margin-top:2px">${p.prev_open} → ${p.today_open}</div>
-      </div>`;
-    }
-    el.innerHTML=html;
-  }catch(e){ console.error('pricediff error',e); }
-}
-
 async function fetchMarkets(){
   try{
     const r=await fetch('fx_outlook.json?t='+Date.now());
@@ -506,7 +475,6 @@ async function fetchHistory(){
 
 window.addEventListener('load',fetchAll);
 window.addEventListener('load',fetchMarkets);
-window.addEventListener('load',fetchPriceDiff);
 window.addEventListener('load',fetchHistory);
 setInterval(fetchAll,30*60*1000);
 
@@ -635,7 +603,8 @@ function renderTodayBar(){
     const dows=['日','月','火','水','木','金','土'];
     const months=[
       new Date(today.getFullYear(),today.getMonth(),1),
-      new Date(today.getFullYear(),today.getMonth()+1,1)
+      new Date(today.getFullYear(),today.getMonth()+1,1),
+      new Date(today.getFullYear(),today.getMonth()+2,1)
     ];
 
     months.forEach(ms=>{
