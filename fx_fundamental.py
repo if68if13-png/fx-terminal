@@ -263,8 +263,7 @@ def main():
     scores, reasons = score(news_data, cot, rates)
     judgments = judge(scores)
     print("💾 保存中...")
-    print("  価格データ取得中...")
-    prices = get_prices()
+    prices = {}
     path = save_all(news_data, cot, scores, reasons, judgments, rates, prices)
     print("\n"+"="*50)
     for cur, s in sorted(scores.items(), key=lambda x: -x[1]):
