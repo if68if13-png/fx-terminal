@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-03T03:19:45.910878",
-  "generated": "2026年07月03日 03:19",
+  "timestamp": "2026-07-03T09:19:15.932276",
+  "generated": "2026年07月03日 09:19",
   "scores": {
-    "USD": 0,
+    "USD": -1,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 1,
-    "AUD": -2,
-    "NZD": 3,
-    "CAD": -1,
-    "CHF": 0
+    "EUR": -1,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
+    "CAD": 0,
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     },
     {
-      "pair": "EURJPY",
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar remains firm above 0.5700 after Chinese services PMI data",
-      "summary": "The NZD/USD pair gathers strength to around 0.5705 during the Asian trading hours on Friday. The New Zealand (NZD) remai"
+      "title": "Australian Dollar: Consolidation within broader band against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang notes that AUD/USD’s abrupt jump to 0.6943 was not sustained, leaving the pair likely to consolidat"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains on the front foot vs weaker USD after China Services PMI",
-      "summary": "The AUD/USD pair turns positive for the second straight day following a modest Asian session downtick to the 0.6910 regi"
+      "title": "USD/JPY Price Forecast: Seems vulnerable near two-week low, below 23.6% Fibo. at 161.00",
+      "summary": "The USD/JPY pair turns lower for the second straight day following an intraday uptick to mid-161.00s and drops to a more"
     },
     {
       "source": "FXStreet",
-      "title": "China’s RatingDog Services PMI eases in June: What 54.1 means for Australian Dollar",
-      "summary": "China's Services Purchasing Managers' Index (PMI) declined to 54.1 in June from 54.4 in May, the latest data published b"
+      "title": "Japanese Yen: Softer jobs data supports yen – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay and Dr. Henry Hao note that weaker US non-farm payrolls and reduced Fed rate hike expectations"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar declines on falling oil prices",
-      "summary": "USD/CAD inches higher after registering modest losses in the previous day, trading around 1.4190 during the Asian hours "
+      "title": "Gold stays on track to snap four-week losing streak amid fading Fed hike bets, weak USD",
+      "summary": "Gold (XAU/USD) retains its bullish bias for the third straight day and traders near a one-and-a-half-week high during th"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen reverses modest Asian session losses against USD as intervention risks loom",
-      "summary": "The USD/JPY pair attracts fresh sellers following a modest Asian session uptick to the 161.50 region and turns lower for"
+      "title": "S&P 500: Dovish repricing lifts breadth – Deutsche Bank",
+      "summary": "Deutsche Bank strategists Jim Reid and colleagues note that a softer US jobs report reduced expectations for further Fed"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.8047 vs. 6.8088 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8047 compa"
+      "title": "US Dollar Index: Jobs setback limits downside – ING",
+      "summary": "ING’s Francesco Pesole notes that softer US jobs data has weakened the Dollar but does not expect this alone to extend U"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound strengthens to near 1.3350 as cooling US labor market weighs US Dollar",
-      "summary": "The GBP/USD pair trades with mild gains near 1.3350 during the early Asian trading hours on Friday. The US Dollar (USD) "
+      "title": "British Pound holds firm near 1.3380 amid broad-based US Dollar weakness",
+      "summary": "The British Pound (GBP) appreciates against the US Dollar (USD) on Friday, on track for a 1.3% appreciation this week, i"
     },
     {
       "source": "FXStreet",
-      "title": "Euro softens below 1.1450 as softer Eurozone inflation trims ECB hike bets",
-      "summary": "The EUR/USD pair declines to around 1.1420 during the early Asian session on Thursday, pressured by a soft Eurozone infl"
+      "title": "Euro rises to near 1.1455 against US Dollar as weak US NFP batters US Dollar",
+      "summary": "The Euro (EUR) is up 0.16% to near 1.1455 against the US Dollar (USD) during the European trading session on Friday. The"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro advances against Canadian Dollar ahead of HCOB PMI data",
+      "summary": "EUR/CAD gains ground for the second successive day, trading around 1.6230 during the European hours on Friday. The curre"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Federal Reserve: Minutes watched as Fed holds – Wells Fargo",
+      "summary": "Wells Fargo Economics, led by Tom Porcelli and colleagues, expects the June FOMC minutes to clarify what might push a di"
     },
     {
       "source": "Investing",
       "title": "Bitcoin rises 2%, briefly tops $62k as weak U.S. jobs data eases rate hike fears",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,26 +192,25 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar remains firm above 0.5700 after Chin",
-      "[弱気] Australian Dollar remains on the front foot vs weaker U",
-      "[弱気] Canadian Dollar declines on falling oil prices",
-      "[弱気] British Pound strengthens to near 1.3350 as cooling US "
+      "[弱気] Gold stays on track to snap four-week losing streak ami",
+      "[弱気] S&P 500: Dovish repricing lifts breadth – Deutsche Bank",
+      "[弱気] US Dollar Index: Jobs setback limits downside – ING"
+    ],
+    "EUR": [
+      "[弱気] Gold stays on track to snap four-week losing streak ami"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound strengthens to near 1.3350 as cooling US "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)",
-      "[弱気] Australian Dollar remains on the front foot vs weaker U"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar remains firm above 0.5700 after Chin"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CAD": [
-      "[弱気] Canadian Dollar declines on falling oil prices"
+    "CHF": [
+      "[弱気] US Dollar Index: Jobs setback limits downside – ING"
     ]
   },
   "rates": {
