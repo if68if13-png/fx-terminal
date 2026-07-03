@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-07-03T09:19:15.932276",
-  "generated": "2026年07月03日 09:19",
+  "timestamp": "2026-07-03T14:05:41.903159",
+  "generated": "2026年07月03日 14:05",
   "scores": {
-    "USD": -1,
+    "USD": 0,
     "JPY": 0,
     "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": -1
+    "CAD": -1,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "GBPUSD",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
@@ -27,7 +27,14 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": -1,
@@ -41,18 +48,11 @@
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Consolidation within broader band against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang notes that AUD/USD’s abrupt jump to 0.6943 was not sustained, leaving the pair likely to consolidat"
+      "title": "Japanese Yen: Intervention risk elevated on holidays – ING",
+      "summary": "ING’s Francesco Pesole notes USD/JPY volatility and suggests an initial move lower may already have involved FX interven"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Seems vulnerable near two-week low, below 23.6% Fibo. at 161.00",
-      "summary": "The USD/JPY pair turns lower for the second straight day following an intraday uptick to mid-161.00s and drops to a more"
+      "title": "Gold eyes first weekly gain in five weeks as weak US NFP delays Fed hike bets",
+      "summary": "Gold (XAU/USD) extends gains on Friday as weaker-than-expected US Nonfarm Payrolls (NFP) data released on Thursday batte"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Softer jobs data supports yen – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay and Dr. Henry Hao note that weaker US non-farm payrolls and reduced Fed rate hike expectations"
+      "title": "Gold: Price rebound seen as corrective – Commerzbank",
+      "summary": "Commerzbank’s Carsten Fritsch notes that the Gold price has rebounded toward USD 4,200 per ounce after steep second-quar"
     },
     {
       "source": "FXStreet",
-      "title": "Gold stays on track to snap four-week losing streak amid fading Fed hike bets, weak USD",
-      "summary": "Gold (XAU/USD) retains its bullish bias for the third straight day and traders near a one-and-a-half-week high during th"
+      "title": "Canadian Dollar edges lower amid falling Oil, softer US jobs data",
+      "summary": "USD/CAD trades higher on Friday, rising 0.13% to near 1.4200 at the time of writing. The pair remains supported as persi"
     },
     {
       "source": "FXStreet",
-      "title": "S&P 500: Dovish repricing lifts breadth – Deutsche Bank",
-      "summary": "Deutsche Bank strategists Jim Reid and colleagues note that a softer US jobs report reduced expectations for further Fed"
+      "title": "Euro consolidates against the British Pound after sliding to a one-year low",
+      "summary": "EUR/GBP trades in a narrow range on Friday, with the Euro (EUR) modestly outperforming the British Pound (GBP) as seller"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: Jobs setback limits downside – ING",
-      "summary": "ING’s Francesco Pesole notes that softer US jobs data has weakened the Dollar but does not expect this alone to extend U"
+      "title": "European Central Bank: Reserve hike talk seen as cost move – Rabobank",
+      "summary": "Rabobank strategists Bas van Geffen and Lyn Graham-Taylor note that the European Central Bank (ECB) is reportedly consid"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds firm near 1.3380 amid broad-based US Dollar weakness",
-      "summary": "The British Pound (GBP) appreciates against the US Dollar (USD) on Friday, on track for a 1.3% appreciation this week, i"
+      "title": "Euro: Energy risks support ECB bias – MUFG",
+      "summary": "MUFG’s Derek Halpenny notes that EUR/USD could benefit from US Dollar weakness and a still-hawkish European Central Bank"
     },
     {
       "source": "FXStreet",
-      "title": "Euro rises to near 1.1455 against US Dollar as weak US NFP batters US Dollar",
-      "summary": "The Euro (EUR) is up 0.16% to near 1.1455 against the US Dollar (USD) during the European trading session on Friday. The"
+      "title": "South African Rand: ZAR gains as sukuk plans outlined – Societe Generale",
+      "summary": "Societe Generale strategists note that South Africa’s National Treasury will tap existing rand-denominated sukuk bonds a"
     },
     {
       "source": "FXStreet",
-      "title": "Euro advances against Canadian Dollar ahead of HCOB PMI data",
-      "summary": "EUR/CAD gains ground for the second successive day, trading around 1.6230 during the European hours on Friday. The curre"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Minutes watched as Fed holds – Wells Fargo",
-      "summary": "Wells Fargo Economics, led by Tom Porcelli and colleagues, expects the June FOMC minutes to clarify what might push a di"
+      "title": "EUR/USD Price Forecast: Euro stalls below 1.1475 despite US Dollar weakness",
+      "summary": "The Euro (EUR) trades higher for the second consecutive day on Friday, with the US Dollar (USD) on its back foot in the "
     },
     {
       "source": "Investing",
       "title": "Bitcoin rises 2%, briefly tops $62k as weak U.S. jobs data eases rate hike fears",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
       "summary": ""
     }
   ],
@@ -192,12 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold stays on track to snap four-week losing streak ami",
-      "[弱気] S&P 500: Dovish repricing lifts breadth – Deutsche Bank",
-      "[弱気] US Dollar Index: Jobs setback limits downside – ING"
+      "[弱気] Canadian Dollar edges lower amid falling Oil, softer US",
+      "[弱気] EUR/USD Price Forecast: Euro stalls below 1.1475 despit"
     ],
     "EUR": [
-      "[弱気] Gold stays on track to snap four-week losing streak ami"
+      "[弱気] EUR/USD Price Forecast: Euro stalls below 1.1475 despit"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,8 +208,8 @@
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CHF": [
-      "[弱気] US Dollar Index: Jobs setback limits downside – ING"
+    "CAD": [
+      "[弱気] Canadian Dollar edges lower amid falling Oil, softer US"
     ]
   },
   "rates": {
