@@ -1,43 +1,22 @@
 {
-  "timestamp": "2026-07-03T19:23:50.933799",
-  "generated": "2026年07月03日 19:23",
+  "timestamp": "2026-07-03T22:05:20.385281",
+  "generated": "2026年07月03日 22:05",
   "scores": {
-    "USD": -3,
+    "USD": 0,
     "JPY": 0,
-    "EUR": -2,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": -1
   },
   "pairs": [
     {
       "pair": "GBPUSD",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 2,
-      "quote_score": -3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -3,
-      "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": -1,
-      "quote_score": -3
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
@@ -50,9 +29,30 @@
     {
       "pair": "EURUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": -2,
-      "quote_score": -3
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,13 +103,38 @@
     },
     {
       "source": "FXStreet",
+      "title": "Forecasting the upcoming week: US Dollar's resilience faces Fed minutes and jobless claims",
+      "summary": "The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Range trade bias stays neutral against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang notes that USD/CNH has seen a slight pickup in downward momentum, but still expects the pair to rem"
+    },
+    {
+      "source": "FXStreet",
+      "title": "NZD/USD Price Forecast: Rebounds above 0.5700, bears guard 0.5750",
+      "summary": "The Kiwi Dollar clears the 0.5700 figure on Friday, clings to gains of over 0.22% against the Greenback after hitting a "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Seen consolidating in range against US Dollar – Commerzbank",
+      "summary": "Commerzbank highlights that strong Singapore manufacturing and electronics PMIs underpin a constructive growth outlook, "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Bulls extend gains on PMI resilience – Societe Generale",
+      "summary": "Societe Generale notes that stronger-than-expected China PMI data suggest slow but steady growth, reducing urgency for t"
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen holds steady amid US Independence Day holiday",
       "summary": "The USD/JPY pair posts modest gains on Friday amid thin trading due to the US Independence Day holiday. The US Dollar (U"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: Reclaims $60 as RSI recovery targets $65 breakout",
-      "summary": "Silver prices reclaim the $60.00 mark for the second straight day and extend their weekly gains to over 5.50%, trading a"
+      "title": "Silver Price Forecast: XAG reclaims $60 as RSI recovery targets $65 breakout",
+      "summary": "Silver (XAG/USD) prices reclaim the $60.00 mark for the second straight day on Friday, extending their weekly gains to o"
     },
     {
       "source": "FXStreet",
@@ -127,33 +152,8 @@
       "summary": "USD/CHF heads for its first weekly loss in five weeks as weaker-than-expected US Nonfarm Payrolls (NFP) data released on"
     },
     {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Range bias with key levels against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang notes that USD/SGD’s sharp drop toward 1.2900 looks overdone, but the pair may still test support n"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound holds weekly gains as Fed hike doubts deepen",
-      "summary": "The British Pound (GBP) steadies against the US Dollar (USD) on Friday, but it is poised to end the week with gains of o"
-    },
-    {
-      "source": "FXStreet",
-      "title": "WTI Crude Oil advances on softer US jobs data and lingering Middle East tensions",
-      "summary": "West Texas Intermediate (WTI) trades around $68.65 at the time of writing on Friday, up 0.30% on the day, recovering par"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro struggles to extend gains as traders reassess Fed and ECB outlook",
-      "summary": "EUR/USD holds onto modest gains on Friday but struggles to extend its advance as the US Dollar (USD) stabilizes followin"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin rises 2%, briefly tops $62k as weak U.S. jobs data eases rate hike fears",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
       "summary": ""
     }
   ],
@@ -192,15 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Silver Price Forecast: Reclaims $60 as RSI recovery tar",
+      "[弱気] Forecasting the upcoming week: US Dollar's resilience f",
+      "[強気] Singapore Dollar: Seen consolidating in range against U",
+      "[強気] Chinese Yuan: Bulls extend gains on PMI resilience – So",
+      "[弱気] Silver Price Forecast: XAG reclaims $60 as RSI recovery",
       "[弱気] Euro: Slightly reduced upside as policy paths diverge –",
-      "[弱気] Swiss Franc eyes first weekly gain in five weeks as wea",
-      "[弱気] WTI Crude Oil advances on softer US jobs data and linge",
-      "[弱気] Euro struggles to extend gains as traders reassess Fed "
+      "[弱気] Swiss Franc eyes first weekly gain in five weeks as wea"
     ],
     "EUR": [
-      "[弱気] Euro: Slightly reduced upside as policy paths diverge –",
-      "[弱気] Euro struggles to extend gains as traders reassess Fed "
+      "[弱気] Euro: Slightly reduced upside as policy paths diverge –"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,6 +211,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Chinese Yuan: Bulls extend gains on PMI resilience – So"
     ],
     "CHF": [
       "[弱気] Swiss Franc eyes first weekly gain in five weeks as wea"
