@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-07-02T22:06:50.997010",
-  "generated": "2026年07月02日 22:06",
+  "timestamp": "2026-07-03T03:19:45.910878",
+  "generated": "2026年07月03日 03:19",
   "scores": {
-    "USD": 1,
+    "USD": 0,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
-    "AUD": -1,
-    "NZD": 1,
-    "CAD": 0,
-    "CHF": -1
+    "GBP": 1,
+    "AUD": -2,
+    "NZD": 3,
+    "CAD": -1,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "base_score": -2,
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar rises as softer US jobs data weighs on the US Dollar",
-      "summary": "The NZD/USD pair advanced toward the 0.5700 level on Thursday as the US Dollar (USD) weakened following softer-than-expe"
+      "title": "New Zealand Dollar remains firm above 0.5700 after Chinese services PMI data",
+      "summary": "The NZD/USD pair gathers strength to around 0.5705 during the Asian trading hours on Friday. The New Zealand (NZD) remai"
     },
     {
       "source": "FXStreet",
-      "title": "Pound Sterling holds the line, on loan from a cracking Dollar",
-      "summary": "The Pound bounced off the long-term support line that has repeatedly held near its seven-month lows, clawing back toward"
+      "title": "Australian Dollar remains on the front foot vs weaker USD after China Services PMI",
+      "summary": "The AUD/USD pair turns positive for the second straight day following a modest Asian session downtick to the 0.6910 regi"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen bounces as Tokyo stops telegraphing its punches",
-      "summary": "The Japanese Yen (JPY) rebounded from four-decade lows on Thursday, a move that owed nothing to the Bank of Japan (BoJ)."
+      "title": "China’s RatingDog Services PMI eases in June: What 54.1 means for Australian Dollar",
+      "summary": "China's Services Purchasing Managers' Index (PMI) declined to 54.1 in June from 54.4 in May, the latest data published b"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Semiconductor risk and inflation dynamics – BNY",
-      "summary": "BNY’s report underscores heavy selling in South Korean semiconductor stocks and warns, via the OECD’s 2026 survey, that "
+      "title": "Canadian Dollar declines on falling oil prices",
+      "summary": "USD/CAD inches higher after registering modest losses in the previous day, trading around 1.4190 during the Asian hours "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: PMI resilience but trade risks grow – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay and Dr. Henry Hao report that China’s private manufacturing PMI eased slightly to 51.7 but sti"
+      "title": "Japanese Yen reverses modest Asian session losses against USD as intervention risks loom",
+      "summary": "The USD/JPY pair attracts fresh sellers following a modest Asian session uptick to the 161.50 region and turns lower for"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range bias holds near recent lows against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD closed at 1.2960 after a volatile session, with intraday swing"
+      "title": "PBOC sets USD/CNY reference rate at 6.8047 vs. 6.8088 previous",
+      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8047 compa"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Shooting star forms, bears eye 0.8000",
-      "summary": "The USD/CHF pair recoils on Thursday from a three-day high of 0.8120 after weaker-than-expected US data weighed on the G"
+      "title": "British Pound strengthens to near 1.3350 as cooling US labor market weighs US Dollar",
+      "summary": "The GBP/USD pair trades with mild gains near 1.3350 during the early Asian trading hours on Friday. The US Dollar (USD) "
     },
     {
       "source": "FXStreet",
-      "title": "Gold surges as weak US NFP knocks US Dollar",
-      "summary": "Gold (XAU/USD) price soars over 2% on Thursday after the latest US employment report reduced the chances of a Federal Re"
+      "title": "Euro softens below 1.1450 as softer Eurozone inflation trims ECB hike bets",
+      "summary": "The EUR/USD pair declines to around 1.1420 during the early Asian session on Thursday, pressured by a soft Eurozone infl"
     },
     {
       "source": "Investing",
@@ -192,23 +192,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar rises as softer US jobs data weighs ",
-      "[弱気] USD/CHF Price Forecast: Shooting star forms, bears eye ",
-      "[強気] Gold surges as weak US NFP knocks US Dollar"
+      "[強気] New Zealand Dollar remains firm above 0.5700 after Chin",
+      "[弱気] Australian Dollar remains on the front foot vs weaker U",
+      "[弱気] Canadian Dollar declines on falling oil prices",
+      "[弱気] British Pound strengthens to near 1.3350 as cooling US "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound strengthens to near 1.3350 as cooling US "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)",
+      "[弱気] Australian Dollar remains on the front foot vs weaker U"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar rises as softer US jobs data weighs "
+      "[強気] New Zealand Dollar remains firm above 0.5700 after Chin"
     ],
-    "CHF": [
-      "[弱気] USD/CHF Price Forecast: Shooting star forms, bears eye "
+    "CAD": [
+      "[弱気] Canadian Dollar declines on falling oil prices"
     ]
   },
   "rates": {
