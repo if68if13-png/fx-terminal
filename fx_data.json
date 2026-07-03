@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-03T14:05:41.903159",
-  "generated": "2026年07月03日 14:05",
+  "timestamp": "2026-07-03T16:24:40.017872",
+  "generated": "2026年07月03日 16:24",
   "scores": {
-    "USD": 0,
-    "JPY": 0,
-    "EUR": -1,
+    "USD": 1,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
-    "CAD": -1,
+    "AUD": 0,
+    "NZD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "AUDUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention risk elevated on holidays – ING",
-      "summary": "ING’s Francesco Pesole notes USD/JPY volatility and suggests an initial move lower may already have involved FX interven"
+      "title": "British Pound holds weekly gains as Fed hike doubts deepen",
+      "summary": "The British Pound steadied against the US Dollar on Friday, but it is poised to end the week with gains of over 1% as in"
     },
     {
       "source": "FXStreet",
-      "title": "Gold eyes first weekly gain in five weeks as weak US NFP delays Fed hike bets",
-      "summary": "Gold (XAU/USD) extends gains on Friday as weaker-than-expected US Nonfarm Payrolls (NFP) data released on Thursday batte"
+      "title": "Australian Dollar rises after upbeat PMIs improve sentiment",
+      "summary": "The AUD/USD pair climbs near the 0.6940 level on Friday as the US Dollar (USD) remains under pressure following softer-t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Price rebound seen as corrective – Commerzbank",
-      "summary": "Commerzbank’s Carsten Fritsch notes that the Gold price has rebounded toward USD 4,200 per ounce after steep second-quar"
+      "title": "New Zealand Dollar strengthens as weaker US labor market weighs on US Dollar",
+      "summary": "NZD/USD trades around 0.5710 at the time of writing on Friday, up 0.21% on the day, supported by improved risk sentiment"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar edges lower amid falling Oil, softer US jobs data",
-      "summary": "USD/CAD trades higher on Friday, rising 0.13% to near 1.4200 at the time of writing. The pair remains supported as persi"
+      "title": "Japanese Yen: Intervention risk rises at multi-decade lows – ABN AMRO",
+      "summary": "ABN AMRO’s Georgette Boele warns that USD/JPY trading near multi-decade highs has heightened the risk of intervention in"
     },
     {
       "source": "FXStreet",
-      "title": "Euro consolidates against the British Pound after sliding to a one-year low",
-      "summary": "EUR/GBP trades in a narrow range on Friday, with the Euro (EUR) modestly outperforming the British Pound (GBP) as seller"
+      "title": "Japanese Yen weakens against the US Dollar as traders monitor intervention risks",
+      "summary": "USD/JPY rebounds on Friday after falling nearly 0.90% the previous day, amid speculation that Japanese authorities may h"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank: Reserve hike talk seen as cost move – Rabobank",
-      "summary": "Rabobank strategists Bas van Geffen and Lyn Graham-Taylor note that the European Central Bank (ECB) is reportedly consid"
+      "title": "Bank of Japan: Wage data backs rates hike path – Wells Fargo",
+      "summary": "Wells Fargo Economics expects Japan’s May labor cash earnings to confirm a sustained wage-price cycle, supporting Bank o"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Energy risks support ECB bias – MUFG",
-      "summary": "MUFG’s Derek Halpenny notes that EUR/USD could benefit from US Dollar weakness and a still-hawkish European Central Bank"
+      "title": "Bank of England : DMP expectations and MPC stance – TD Securities",
+      "summary": "TD Securities strategists highlight that the June United Kingdom (UK) Decision Maker Panel (DMP) survey shows one‑year i"
     },
     {
       "source": "FXStreet",
-      "title": "South African Rand: ZAR gains as sukuk plans outlined – Societe Generale",
-      "summary": "Societe Generale strategists note that South Africa’s National Treasury will tap existing rand-denominated sukuk bonds a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Euro stalls below 1.1475 despite US Dollar weakness",
-      "summary": "The Euro (EUR) trades higher for the second consecutive day on Friday, with the US Dollar (USD) on its back foot in the "
+      "title": "Euro area: Indirect inflation effects still pending – Societe Generale",
+      "summary": "Societe Generale economists Sam Cartwright, Michel Martinez and Jorge Garayo note that Euro area inflation has not yet s"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Strategy’s bitcoin trading policy creates risks for broader markets, says JPMorgan",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,24 +192,24 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar edges lower amid falling Oil, softer US",
-      "[弱気] EUR/USD Price Forecast: Euro stalls below 1.1475 despit"
+      "[強気] Australian Dollar rises after upbeat PMIs improve senti",
+      "[弱気] New Zealand Dollar strengthens as weaker US labor marke",
+      "[弱気] Japanese Yen weakens against the US Dollar as traders m"
     ],
-    "EUR": [
-      "[弱気] EUR/USD Price Forecast: Euro stalls below 1.1475 despit"
+    "JPY": [
+      "[弱気] Japanese Yen weakens against the US Dollar as traders m"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)"
+      "[COT] 🟢ロング優勢 (ネット:+168,826)",
+      "[強気] Australian Dollar rises after upbeat PMIs improve senti"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar edges lower amid falling Oil, softer US"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar strengthens as weaker US labor marke"
     ]
   },
   "rates": {
