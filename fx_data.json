@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-07-06T15:34:23.348703",
-  "generated": "2026年07月06日 15:34",
+  "timestamp": "2026-07-06T19:58:22.966173",
+  "generated": "2026年07月06日 19:58",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 2,
+    "AUD": -1,
+    "NZD": 4,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -6,
+      "base_score": -1,
+      "quote_score": 5
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
-      "pair": "AUDUSD",
+      "pair": "GBPUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,107 +103,104 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar trades sideways after softer Australian inflation",
-      "summary": "AUD/USD trades with a cautious tone, sideways near the 0.6930 level on Monday after Australian inflation data showed fur"
+      "title": "New Zealand Dollar pressured by hawkish Fed tone",
+      "summary": "NZD/USD trades under pressure near the 0.5700 level as the US Dollar (USD) remains supported by hawkish-leaning comments"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Sideways trade within defined band against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang indicates USD/CNH has seen a slight softening in momentum but remains confin"
+      "title": "Gold slips as firm US yields cap post-NFP rebound",
+      "summary": "Gold (XAU/USD) price retreats by some 0.50% on Monday as the Greenback remains steady despite traders repricing a less h"
     },
     {
       "source": "FXStreet",
-      "title": "LatAm FX: Rotation favors equities and carry – BNY",
-      "summary": "BNY’s Geoff Yu notes that crowded exposure to Latin American (LatAm) bonds is unwinding as higher U.S. yields drive a do"
+      "title": "United States Dollar Index trims gains as Fed hike bets fade",
+      "summary": "The US Dollar Index (DXY) trims its gains on Monday after opening the week on a firmer note, as traders await greater cl"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD struggles below key SMAs despite easing Fed hike bets",
-      "summary": "Silver (XAG/USD) pauses a four-day winning streak on Monday as buyers take a breather following last week's 5.55% rally."
+      "title": "New Zealand Dollar: Hawkish RBNZ risks and range trading – Rabobank",
+      "summary": "Rabobank’s FX Strategy team discusses the New Zealand Dollar (NZD) ahead of the July 8 Reserve Bank of New Zealand (RBNZ"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar dips despite rising Oil prices amid firm US Dollar",
-      "summary": "USD/CAD extends its advance for a second consecutive day and trades around 1.4230 at the time of writing on Monday, up 0"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Soft tone against US Dollar with stable ECB expectations – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note EUR/USD around 1.1418 trading softer against the US Dollar, t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar retreats toward 0.6900 amid renewed signs of cooling inflation",
-      "summary": "The Australian Dollar (AUD) is confronting a notable shift in market momentum as fresh domestic data points to cooling i"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States: Sideways growth, sticky inflation – TD Securities",
-      "summary": "TD Securities projects US output growth to move sideways in 2026, slightly below trend, with Real Gross Domestic Product"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold trades lower as Fed interest rate outlook remains in focus",
+      "title": "Gold consolidates below $4,200 as traders reassess Fed interest rate outlook",
       "summary": "Gold (XAU/USD) consolidates losses on Monday as a firmer US Dollar (USD) and mild profit-taking cap gains following last"
     },
     {
       "source": "FXStreet",
-      "title": "Germany: Gradual industrial recovery prospects – Commerzbank",
-      "summary": "Commerzbank’s Dr. Marco Wagner notes that German manufacturing orders rose 1.9% in May, or 1.0% excluding large orders, "
+      "title": "Swiss Franc dips amid unemployment surprise and strong US Dollar",
+      "summary": "USD/CHF gains 0.37% on Monday, trading around 0.8060 at the time of writing, as the US Dollar (USD) rebounds despite sli"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen falls toward multi-decade lows on US Dollar strength",
+      "summary": "USD/JPY trades around 162.30 on Monday at the time of writing, up 0.58% on the day, extending its rebound after last wee"
     },
     {
       "source": "Investing",
       "title": "Strategy reports $8.32B bitcoin loss and sells BTC to fund dividends",
       "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 108626,
-      "short": 77272,
-      "net": 31354,
+      "long": 105912,
+      "short": 74658,
+      "net": 31254,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 36506,
+      "long": 36757,
       "short": 0,
-      "net": 36506,
+      "net": 36757,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 20036,
+      "long": 19879,
       "short": 0,
-      "net": 20036,
+      "net": 19879,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 20036,
+      "long": 19879,
       "short": 0,
-      "net": 20036,
+      "net": 19879,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 214349,
-      "short": 45523,
-      "net": 168826,
+      "long": 215837,
+      "short": 52629,
+      "net": 163208,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar trades sideways after softer Australi"
+      "[強気] New Zealand Dollar pressured by hawkish Fed tone",
+      "[強気] Gold slips as firm US yields cap post-NFP rebound",
+      "[強気] New Zealand Dollar: Hawkish RBNZ risks and range tradin",
+      "[強気] Swiss Franc dips amid unemployment surprise and strong "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,826)",
-      "[強気] Australian Dollar trades sideways after softer Australi"
+      "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar pressured by hawkish Fed tone",
+      "[強気] New Zealand Dollar: Hawkish RBNZ risks and range tradin"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc dips amid unemployment surprise and strong "
     ]
   },
   "rates": {
