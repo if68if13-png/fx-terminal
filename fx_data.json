@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-05T22:02:17.425911",
-  "generated": "2026年07月05日 22:02",
+  "timestamp": "2026-07-06T03:36:20.880061",
+  "generated": "2026年07月06日 03:36",
   "scores": {
-    "USD": 0,
-    "JPY": 0,
-    "EUR": -1,
+    "USD": -1,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": 1,
-    "CHF": -1
+    "NZD": 1,
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "GBPUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,6 +103,31 @@
     },
     {
       "source": "FXStreet",
+      "title": "New Zealand Dollar declines as NZIER splits on July decision",
+      "summary": "NZD/USD depreciates after two days of gains, trading around 0.5690 during the Asian hours on Monday. The pair loses grou"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen weakens under high import costs despite JGB yield hitting 30-year highs",
+      "summary": "USD/JPY extends its gains for the second successive day, trading around 161.70 during the Asian hours on Monday. The Jap"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.8066 vs. 6.8047 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8066 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro consolidates below mid-1.1400s as Hormuz risks support safe-haven USD",
+      "summary": "The EUR/USD pair kicks off the new week on a subdued note and oscillates in a narrow band below mid-1.1400s during the A"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar declines following TD-MI Inflation Gauge data",
+      "summary": "AUD/USD declines after two days of gains, trading around 0.6930 during the Asian hours on Monday. The currency pair lose"
+    },
+    {
+      "source": "FXStreet",
       "title": "Forecasting the upcoming week: US Dollar's resilience faces Fed minutes and jobless claims",
       "summary": "The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holi"
     },
@@ -112,48 +137,13 @@
       "summary": "UOB’s Quek Ser Leang notes that USD/CNH has seen a slight pickup in downward momentum, but still expects the pair to rem"
     },
     {
-      "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Rebounds above 0.5700, bears guard 0.5750",
-      "summary": "The Kiwi Dollar clears the 0.5700 figure on Friday, clings to gains of over 0.22% against the Greenback after hitting a "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Seen consolidating in range against US Dollar – Commerzbank",
-      "summary": "Commerzbank highlights that strong Singapore manufacturing and electronics PMIs underpin a constructive growth outlook, "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Bulls extend gains on PMI resilience – Societe Generale",
-      "summary": "Societe Generale notes that stronger-than-expected China PMI data suggest slow but steady growth, reducing urgency for t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen holds steady amid US Independence Day holiday",
-      "summary": "The USD/JPY pair posts modest gains on Friday amid thin trading due to the US Independence Day holiday. The US Dollar (U"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG reclaims $60 as RSI recovery targets $65 breakout",
-      "summary": "Silver (XAG/USD) prices reclaim the $60.00 mark for the second straight day on Friday, extending their weekly gains to o"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold price climbs as weak NFP cool Fed hike bets",
-      "summary": "Gold (XAU/USD) price rises by more than 1% on Friday as investors digest a softer-than-expected US jobs report, trimming"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Slightly reduced upside as policy paths diverge – ABN AMRO",
-      "summary": "ABN AMRO’s Bill Diviney expects the US Dollar to weaken broadly but notes slightly less upside for EUR/USD after revisin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc eyes first weekly gain in five weeks as weak NFP delays Fed hikes",
-      "summary": "USD/CHF heads for its first weekly loss in five weeks as weaker-than-expected US Nonfarm Payrolls (NFP) data released on"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin slips as institutional inflows, corporate strategies remain in focus",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,15 +182,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Forecasting the upcoming week: US Dollar's resilience f",
-      "[強気] Singapore Dollar: Seen consolidating in range against U",
-      "[強気] Chinese Yuan: Bulls extend gains on PMI resilience – So",
-      "[弱気] Silver Price Forecast: XAG reclaims $60 as RSI recovery",
-      "[弱気] Euro: Slightly reduced upside as policy paths diverge –",
-      "[弱気] Swiss Franc eyes first weekly gain in five weeks as wea"
+      "[弱気] New Zealand Dollar declines as NZIER splits on July dec",
+      "[弱気] Japanese Yen weakens under high import costs despite JG",
+      "[弱気] Forecasting the upcoming week: US Dollar's resilience f"
     ],
-    "EUR": [
-      "[弱気] Euro: Slightly reduced upside as policy paths diverge –"
+    "JPY": [
+      "[弱気] Japanese Yen weakens under high import costs despite JG"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -210,13 +197,8 @@
       "[COT] 🟢ロング優勢 (ネット:+168,826)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Chinese Yuan: Bulls extend gains on PMI resilience – So"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc eyes first weekly gain in five weeks as wea"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar declines as NZIER splits on July dec"
     ]
   },
   "rates": {
