@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-07-06T19:58:22.966173",
-  "generated": "2026年07月06日 19:58",
+  "timestamp": "2026-07-06T22:13:42.685706",
+  "generated": "2026年07月06日 22:13",
   "scores": {
     "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 4,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "Singapore Dollar: Range trade persists against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD has seen downward momentum slow after last week’s sharp drop, "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Pound Sterling rallies into its own coronation",
+      "summary": "GBP/USD has quietly put together eight consecutive higher daily closes, a grind from near 1.3150 that has delivered the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar stays neutral as Fed’s Waller reinforces inflation commitment",
+      "summary": "The US Dollar Index (DXY) remains neutral near the 100.90 level at the end of the American session on Monday as investor"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar rises as softer Fed bets offset resilient US data",
+      "summary": "The Australian Dollar (AUD) extends its rally into a third straight trading session, up 0.25% on Monday, as investors ad"
+    },
+    {
+      "source": "FXStreet",
       "title": "New Zealand Dollar pressured by hawkish Fed tone",
       "summary": "NZD/USD trades under pressure near the 0.5700 level as the US Dollar (USD) remains supported by hawkish-leaning comments"
     },
@@ -115,26 +135,6 @@
       "source": "FXStreet",
       "title": "United States Dollar Index trims gains as Fed hike bets fade",
       "summary": "The US Dollar Index (DXY) trims its gains on Monday after opening the week on a firmer note, as traders await greater cl"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar: Hawkish RBNZ risks and range trading – Rabobank",
-      "summary": "Rabobank’s FX Strategy team discusses the New Zealand Dollar (NZD) ahead of the July 8 Reserve Bank of New Zealand (RBNZ"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold consolidates below $4,200 as traders reassess Fed interest rate outlook",
-      "summary": "Gold (XAU/USD) consolidates losses on Monday as a firmer US Dollar (USD) and mild profit-taking cap gains following last"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc dips amid unemployment surprise and strong US Dollar",
-      "summary": "USD/CHF gains 0.37% on Monday, trading around 0.8060 at the time of writing, as the US Dollar (USD) rebounds despite sli"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen falls toward multi-decade lows on US Dollar strength",
-      "summary": "USD/JPY trades around 162.30 on Monday at the time of writing, up 0.58% on the day, extending its rebound after last wee"
     },
     {
       "source": "Investing",
@@ -182,10 +182,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Forex Today: US Dollar stays neutral as Fed’s Waller re",
       "[強気] New Zealand Dollar pressured by hawkish Fed tone",
-      "[強気] Gold slips as firm US yields cap post-NFP rebound",
-      "[強気] New Zealand Dollar: Hawkish RBNZ risks and range tradin",
-      "[強気] Swiss Franc dips amid unemployment surprise and strong "
+      "[強気] Gold slips as firm US yields cap post-NFP rebound"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -196,24 +195,20 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar pressured by hawkish Fed tone",
-      "[強気] New Zealand Dollar: Hawkish RBNZ risks and range tradin"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc dips amid unemployment surprise and strong "
+      "[強気] New Zealand Dollar pressured by hawkish Fed tone"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.48,
+    "US_10Y": 4.49,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.83,
-    "DIFF_EURUSD": -1.43,
-    "DIFF_GBPUSD": 0.46,
-    "DIFF_AUDUSD": 0.51
+    "DIFF_USDJPY": 1.84,
+    "DIFF_EURUSD": -1.44,
+    "DIFF_GBPUSD": 0.45,
+    "DIFF_AUDUSD": 0.5
   },
   "prices": {}
 }
