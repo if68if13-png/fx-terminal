@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-06T03:36:20.880061",
-  "generated": "2026年07月06日 03:36",
+  "timestamp": "2026-07-06T10:23:27.547328",
+  "generated": "2026年07月06日 10:23",
   "scores": {
-    "USD": -1,
-    "JPY": -1,
-    "EUR": 0,
+    "USD": 4,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,38 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar declines as NZIER splits on July decision",
-      "summary": "NZD/USD depreciates after two days of gains, trading around 0.5690 during the Asian hours on Monday. The pair loses grou"
+      "title": "Euro: Fiscal questions with disinflation progress – BNY",
+      "summary": "BNY’s Geoff Yu argues that European disinflation is allowing focus to shift from emergency inflation control toward grow"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen weakens under high import costs despite JGB yield hitting 30-year highs",
-      "summary": "USD/JPY extends its gains for the second successive day, trading around 161.70 during the Asian hours on Monday. The Jap"
+      "title": "Euro holds gains against Japanese Yen following Eurozone Retail Sales",
+      "summary": "EUR/JPY continues to gain ground for the second successive day, trading around 185.30 during the European hours on Monda"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.8066 vs. 6.8047 previous",
-      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8066 compa"
+      "title": "United States Dollar Index (DXY) Price Forecast: Retakes 101.00 amid bullish setup",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, regains positive traction at the s"
     },
     {
       "source": "FXStreet",
-      "title": "Euro consolidates below mid-1.1400s as Hormuz risks support safe-haven USD",
-      "summary": "The EUR/USD pair kicks off the new week on a subdued note and oscillates in a narrow band below mid-1.1400s during the A"
+      "title": "Eurozone Retail Sales rises 0.2% MoM in May, misses 0.3% estimates",
+      "summary": "Eurozone Retail Sales rise at a moderate pace of 0.2% Month-on-Month (MoM) in May against the estimates of 0.3%. In Apri"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar declines following TD-MI Inflation Gauge data",
-      "summary": "AUD/USD declines after two days of gains, trading around 0.6930 during the Asian hours on Monday. The currency pair lose"
+      "title": "Japanese Yen: New lows risk against US Dollar – Societe Generale",
+      "summary": "Societe Generale strategists note USD/JPY has pulled back after testing resistance near 162.80 but is still holding abov"
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: US Dollar's resilience faces Fed minutes and jobless claims",
-      "summary": "The upcoming week will bring a fresh test for major currency pairs as investors return from the US Independence Day holi"
+      "title": "Euro drifts lower as investors’ cautiousness offsets upbeat German factory data",
+      "summary": "The Euro (EUR) shows a moderately negative stance against the US Dollar (USD) on Monday, in a calm start of the week."
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Range trade bias stays neutral against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang notes that USD/CNH has seen a slight pickup in downward momentum, but still expects the pair to rem"
+      "title": "Dow Jones futures advance ahead of ISM Services PMI",
+      "summary": "The Dow Jones futures gain 0.18% to trade above 53,280, while S&amp;P 500 futures rise 0.46%, trading near 7,560. Meanwh"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro: Upside bias capped by nearby resistance against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang highlights that EUR/USD remains in a short-term range, with flat momentum in"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin climbs above $63k as Fed rate hike fears ease",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -182,12 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar declines as NZIER splits on July dec",
-      "[弱気] Japanese Yen weakens under high import costs despite JG",
-      "[弱気] Forecasting the upcoming week: US Dollar's resilience f"
+      "[強気] Euro drifts lower as investors’ cautiousness offsets up",
+      "[強気] Bitcoin climbs above $63k as Fed rate hike fears ease"
     ],
     "JPY": [
-      "[弱気] Japanese Yen weakens under high import costs despite JG"
+      "[強気] Euro holds gains against Japanese Yen following Eurozon"
+    ],
+    "EUR": [
+      "[強気] Euro holds gains against Japanese Yen following Eurozon",
+      "[弱気] Eurozone Retail Sales rises 0.2% MoM in May, misses 0.3",
+      "[強気] Euro drifts lower as investors’ cautiousness offsets up"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -197,8 +211,7 @@
       "[COT] 🟢ロング優勢 (ネット:+168,826)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar declines as NZIER splits on July dec"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
