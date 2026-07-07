@@ -1,57 +1,57 @@
 {
-  "timestamp": "2026-07-07T19:55:56.888601",
-  "generated": "2026年07月07日 19:55",
+  "timestamp": "2026-07-07T22:11:09.340833",
+  "generated": "2026年07月07日 22:11",
   "scores": {
-    "USD": 0,
-    "JPY": -1,
-    "EUR": 0,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,33 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen stays subdued below 161.90 as Fed caution limits Dollar weakness",
-      "summary": "USD/JPY trades slightly negative below the 161.90 area as the Japanese Yen (JPY) finds modest support, while the US Doll"
+      "title": "Euro watches its best arguments sink in the Strait of Hormuz",
+      "summary": "The Euro spent Tuesday assembling the sort of case that should buy a currency a bid: hawkish-leaning remarks from an unl"
     },
     {
       "source": "FXStreet",
-      "title": "Gold stalls below $4,200 as inflation fears rise",
-      "summary": "Gold (XAU/USD) price retreats by 0.44% on Tuesday as the yellow metal fails to clear $4,200 amid rising US consumer infl"
+      "title": "GBP/JPY Price Forecast: Struggles at 217.00, recoils towards 216.50",
+      "summary": "The GBP/JPY reverses course on Tuesday, loses 0.24% as the Japanese Yen recovered some ground against most G8 FX currenc"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar sees through its own record surplus",
-      "summary": "Canada delivered the kind of trade headline that should have put a firm bid under the Loonie, and the currency barely no"
+      "title": "New Zealand Dollar slips ahead of RBNZ rate decision",
+      "summary": "NZD/USD loses ground near the 0.5680 level as investors look ahead to Wednesday’s Reserve Bank of New Zealand (RBNZ) pol"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range consolidation holds against US Dollar – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay highlights that USD/SGD has been stable around 1.2920, with SGD NEER estimated at roughly +0.8"
+      "title": "British Pound Sterling Runs Out of American Bad News After Nine Straight Days",
+      "summary": "The Pound's nine-session march against the Dollar ended on Tuesday, and it took exactly one geopolitical headline to fin"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Buyers retain the upper hand even as momentum weakens",
-      "summary": "USD/CAD edges lower on Tuesday even as the US Dollar (USD) holds firm, with the Canadian Dollar (CAD) drawing support fr"
+      "title": "Singapore Dollar: Upside risk stays contained against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD closed almost unchanged near 1.2924, but short-term momentum h"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc's rebound runs on empty",
-      "summary": "There is a certain honesty to a currency with nothing to say for itself, and the Swiss Franc spent Tuesday doing exactly"
+      "title": "RBNZ set to raise interest rate in potential déjà vu of May’s knife-edge decision",
+      "summary": "The Reserve Bank of New Zealand (RBNZ) is widely expected to raise the Official Cash Rate (OCR) by 25 basis points (bps)"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar steadies as Williams keeps inflation caution alive",
+      "summary": "The US Dollar Index (DXY) trades near the 101.00 area, recovering modestly after two days of running in place as investo"
     },
     {
       "source": "Investing",
@@ -182,11 +187,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen stays subdued below 161.90 as Fed caution ",
-      "[弱気] USD/CAD Price Forecast: Buyers retain the upper hand ev"
+      "[強気] Euro watches its best arguments sink in the Strait of H"
     ],
-    "JPY": [
-      "[弱気] Japanese Yen stays subdued below 161.90 as Fed caution "
+    "EUR": [
+      "[強気] Euro watches its best arguments sink in the Strait of H"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -197,22 +201,19 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] USD/CAD Price Forecast: Buyers retain the upper hand ev"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.49,
+    "US_10Y": 4.48,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.84,
-    "DIFF_EURUSD": -1.44,
-    "DIFF_GBPUSD": 0.45,
-    "DIFF_AUDUSD": 0.5
+    "DIFF_USDJPY": 1.83,
+    "DIFF_EURUSD": -1.43,
+    "DIFF_GBPUSD": 0.46,
+    "DIFF_AUDUSD": 0.51
   },
   "prices": {}
 }
