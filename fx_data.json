@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-06T22:13:42.685706",
-  "generated": "2026年07月06日 22:13",
+  "timestamp": "2026-07-07T03:27:26.224662",
+  "generated": "2026年07月07日 03:27",
   "scores": {
-    "USD": 5,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 3,
+    "AUD": -2,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,30 +15,9 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
       "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "base_score": -2,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -46,6 +25,27 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -103,38 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range trade persists against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD has seen downward momentum slow after last week’s sharp drop, "
+      "title": "Japanese Yen strengthens amid looming intervention risks; lacks bullish conviction",
+      "summary": "The USD/JPY pair extends the previous day's late pullback from the vicinity of mid-162.00s and attracts some follow-thro"
     },
     {
       "source": "FXStreet",
-      "title": "Pound Sterling rallies into its own coronation",
-      "summary": "GBP/USD has quietly put together eight consecutive higher daily closes, a grind from near 1.3150 that has delivered the "
+      "title": "British Pound gains as easing Fed hike bets weigh on US Dollar",
+      "summary": "GBP/USD continues its winning streak for the ninth consecutive day, trading around 1.3390 during the Asian hours on Tues"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar stays neutral as Fed’s Waller reinforces inflation commitment",
-      "summary": "The US Dollar Index (DXY) remains neutral near the 100.90 level at the end of the American session on Monday as investor"
+      "title": "PBOC sets USD/CNY reference rate at 6.8054 vs. 6.8066 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8054 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar rises as softer Fed bets offset resilient US data",
-      "summary": "The Australian Dollar (AUD) extends its rally into a third straight trading session, up 0.25% on Monday, as investors ad"
+      "title": "Euro extends the range play above 1.1400 as Hormuz risks support USD",
+      "summary": "The EUR/USD pair extends its sideways consolidative price move during the Asian session on Tuesday, though it manages to"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar pressured by hawkish Fed tone",
-      "summary": "NZD/USD trades under pressure near the 0.5700 level as the US Dollar (USD) remains supported by hawkish-leaning comments"
+      "title": "Australian Dollar declines as ANZ–Indeed Job Ads drop in June",
+      "summary": "AUD/USD inches lower after two days of gains, trading around 0.6950 during the Asian hours on Tuesday. The Australian Do"
     },
     {
       "source": "FXStreet",
-      "title": "Gold slips as firm US yields cap post-NFP rebound",
-      "summary": "Gold (XAU/USD) price retreats by some 0.50% on Monday as the Greenback remains steady despite traders repricing a less h"
+      "title": "GBP/JPY Price Forecast: Rallies and hits 18-year highs above 217.00",
+      "summary": "The British Pound rallies to an 18-year high against the Japanese Yen, registering solid gains of over 0.77% as the GBP/"
     },
     {
-      "source": "FXStreet",
-      "title": "United States Dollar Index trims gains as Fed hike bets fade",
-      "summary": "The US Dollar Index (DXY) trims its gains on Monday after opening the week on a firmer note, as traders await greater cl"
+      "source": "Investing",
+      "title": "Bitcoin tops $64k as Trump’s ’big crypto guy’ comment offsets Strategy sale",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -182,20 +182,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Forex Today: US Dollar stays neutral as Fed’s Waller re",
-      "[強気] New Zealand Dollar pressured by hawkish Fed tone",
-      "[強気] Gold slips as firm US yields cap post-NFP rebound"
+      "[弱気] Australian Dollar declines as ANZ–Indeed Job Ads drop i"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+163,208)"
+      "[COT] 🟢ロング優勢 (ネット:+163,208)",
+      "[弱気] Australian Dollar declines as ANZ–Indeed Job Ads drop i"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar pressured by hawkish Fed tone"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
