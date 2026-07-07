@@ -1,23 +1,37 @@
 {
-  "timestamp": "2026-07-07T03:27:26.224662",
-  "generated": "2026年07月07日 03:27",
+  "timestamp": "2026-07-07T09:42:15.339153",
+  "generated": "2026年07月07日 09:42",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -27,25 +41,11 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,33 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen strengthens amid looming intervention risks; lacks bullish conviction",
-      "summary": "The USD/JPY pair extends the previous day's late pullback from the vicinity of mid-162.00s and attracts some follow-thro"
+      "title": "Indian Rupee bounces back as oil prices remain broadly lower",
+      "summary": "The Indian Rupee (INR) gains against the US Dollar (USD) in India's afternoon trading hours on Tuesday."
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gains as easing Fed hike bets weigh on US Dollar",
-      "summary": "GBP/USD continues its winning streak for the ninth consecutive day, trading around 1.3390 during the Asian hours on Tues"
+      "title": "United States Dollar Index firms as Hormuz tensions boost safe-haven demand",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is holding gain"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.8054 vs. 6.8066 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.8054 compa"
+      "title": "Hungarian Forint: Dovish inflation path supports more cuts – ING",
+      "summary": "Frantisek Taborsky at ING highlights Hungarian inflation falling to 1.7%, below market and National Bank of Hungary (NBH"
     },
     {
       "source": "FXStreet",
-      "title": "Euro extends the range play above 1.1400 as Hormuz risks support USD",
-      "summary": "The EUR/USD pair extends its sideways consolidative price move during the Asian session on Tuesday, though it manages to"
+      "title": "WTI Price Forecast: More downside is likely if Oil falls below $67",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trades 1% higher to near $69.40 during the European trading session on "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar declines as ANZ–Indeed Job Ads drop in June",
-      "summary": "AUD/USD inches lower after two days of gains, trading around 0.6950 during the Asian hours on Tuesday. The Australian Do"
+      "title": "Gold remains depressed near daily low amid rising US bond yields, USD uptick",
+      "summary": "Gold (XAU/USD) retains intraday negative bias through the early European session on Tuesday, though it holds above the $"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Rallies and hits 18-year highs above 217.00",
-      "summary": "The British Pound rallies to an 18-year high against the Japanese Yen, registering solid gains of over 0.77% as the GBP/"
+      "title": "Australian Dollar: Upside risks grow toward 0.6980 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes AUD/USD rebounded strongly from 0.6923 to 0.6959, with rapidly increas"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Loonie constrained near term – NBC",
+      "summary": "National Bank of Canada ’s (NBC) Stéfane Marion and Kyle Dahms describe the Canadian Dollar (CAD) as caught between impr"
     },
     {
       "source": "Investing",
@@ -182,7 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar declines as ANZ–Indeed Job Ads drop i"
+      "[強気] Australian Dollar: Upside risks grow toward 0.6980 agai"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -190,7 +195,7 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+163,208)",
-      "[弱気] Australian Dollar declines as ANZ–Indeed Job Ads drop i"
+      "[強気] Australian Dollar: Upside risks grow toward 0.6980 agai"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
