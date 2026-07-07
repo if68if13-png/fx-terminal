@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-07T09:42:15.339153",
-  "generated": "2026年07月07日 09:42",
+  "timestamp": "2026-07-07T14:35:41.385358",
+  "generated": "2026年07月07日 14:35",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
@@ -41,18 +41,18 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,38 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee bounces back as oil prices remain broadly lower",
-      "summary": "The Indian Rupee (INR) gains against the US Dollar (USD) in India's afternoon trading hours on Tuesday."
+      "title": "Fed’s Williams: “Monetary policy is in a good place”",
+      "summary": "Federal Reserve (Fed) Bank of New York President John Williams said on Tuesday that the United States (US) economy conti"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index firms as Hormuz tensions boost safe-haven demand",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is holding gain"
+      "title": "Japanese Yen: Japan denies rate-pressure claims as data mixed – BNY",
+      "summary": "Geoff Yu notes Japan’s Growth Strategy Minister Minoru Kiuchi rejected reports that the government is trying to push int"
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: Dovish inflation path supports more cuts – ING",
-      "summary": "Frantisek Taborsky at ING highlights Hungarian inflation falling to 1.7%, below market and National Bank of Hungary (NBH"
+      "title": "Gold rebounds modestly despite hawkish Fed rhetoric",
+      "summary": "Gold (XAU/USD) stages a modest rebound on Tuesday as a subdued US Dollar (USD) lends support, although doubts over the F"
     },
     {
       "source": "FXStreet",
-      "title": "WTI Price Forecast: More downside is likely if Oil falls below $67",
-      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trades 1% higher to near $69.40 during the European trading session on "
+      "title": "Canadian Dollar: Consolidation with stretched USD positioning – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is effectively flat versus the US D"
     },
     {
       "source": "FXStreet",
-      "title": "Gold remains depressed near daily low amid rising US bond yields, USD uptick",
-      "summary": "Gold (XAU/USD) retains intraday negative bias through the early European session on Tuesday, though it holds above the $"
+      "title": "Polish Zloty: Dovish NBP tone risks downside – ING",
+      "summary": "ING economists Rafal Benecki and Adam Antoniak argue that reduced prospects of further tightening by the European Centra"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Upside risks grow toward 0.6980 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes AUD/USD rebounded strongly from 0.6923 to 0.6959, with rapidly increas"
+      "title": "Euro holds steady as traders assess Fed and ECB interest rate paths",
+      "summary": "EUR/USD trades in a narrow range on Tuesday as traders await greater clarity on the Federal Reserve's (Fed) and European"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Loonie constrained near term – NBC",
-      "summary": "National Bank of Canada ’s (NBC) Stéfane Marion and Kyle Dahms describe the Canadian Dollar (CAD) as caught between impr"
+      "title": "Japanese Yen: Fiscal unease and BoJ path – MUFG",
+      "summary": "MUFG’s Lee Hardman notes the Japanese Yen (JPY) has firmed slightly, pulling USD/JPY back from 162.18 to 161.68, as comm"
     },
     {
       "source": "Investing",
@@ -187,15 +187,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar: Upside risks grow toward 0.6980 agai"
+      "[強気] Gold rebounds modestly despite hawkish Fed rhetoric",
+      "[弱気] Polish Zloty: Dovish NBP tone risks downside – ING"
+    ],
+    "EUR": [
+      "[弱気] Polish Zloty: Dovish NBP tone risks downside – ING"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+163,208)",
-      "[強気] Australian Dollar: Upside risks grow toward 0.6980 agai"
+      "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
