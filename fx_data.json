@@ -1,61 +1,66 @@
 {
-  "timestamp": "2026-07-07T17:14:09.514229",
-  "generated": "2026年07月07日 17:14",
+  "timestamp": "2026-07-07T19:55:56.888601",
+  "generated": "2026年07月07日 19:55",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 0,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 1
+    "CAD": -1,
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "GBPJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
+      "summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money launderi"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
@@ -68,13 +73,13 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
     },
     {
       "source": "Fed",
@@ -97,44 +102,34 @@
       "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-      "summary": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effectiv"
+      "source": "FXStreet",
+      "title": "Japanese Yen stays subdued below 161.90 as Fed caution limits Dollar weakness",
+      "summary": "USD/JPY trades slightly negative below the 161.90 area as the Japanese Yen (JPY) finds modest support, while the US Doll"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound slips as Hormuz attacks revive USD demand",
-      "summary": "The Pound Sterling retreats against the US Dollar on Tuesday as tensions in the Middle East rise, following reports of a"
+      "title": "Gold stalls below $4,200 as inflation fears rise",
+      "summary": "Gold (XAU/USD) price retreats by 0.44% on Tuesday as the yellow metal fails to clear $4,200 amid rising US consumer infl"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Upside bias against US Dollar as ECB repriced – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is slightly softer versus the US Dollar (USD"
+      "title": "Canadian Dollar sees through its own record surplus",
+      "summary": "Canada delivered the kind of trade headline that should have put a firm bid under the Loonie, and the currency barely no"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls amid cautious Fedspeak",
-      "summary": "AUD/USD declines toward 0.6940 as the Australian Dollar (AUD) loses momentum, while the US Dollar (USD) remains supporte"
+      "title": "Singapore Dollar: Range consolidation holds against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay highlights that USD/SGD has been stable around 1.2920, with SGD NEER estimated at roughly +0.8"
     },
     {
       "source": "FXStreet",
-      "title": "Silver falls below $61 as markets await Fed minutes",
-      "summary": "Silver (XAG/USD) extends its decline for a second consecutive day on Tuesday, trading around $60.70 at the time of writi"
+      "title": "USD/CAD Price Forecast: Buyers retain the upper hand even as momentum weakens",
+      "summary": "USD/CAD edges lower on Tuesday even as the US Dollar (USD) holds firm, with the Canadian Dollar (CAD) drawing support fr"
     },
     {
       "source": "FXStreet",
-      "title": "NY Fed inflation expectations jump despite lower gas prices",
-      "summary": "The New York Fed Survey of Consumer Expectations shows that Americans are growing worried about the high cost of living,"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc eases as hawkish Fed outlook supports US Dollar",
-      "summary": "USD/CHF holds modest gains on Tuesday as traders balance softer US labor market data against hawkish Federal Reserve (Fe"
-    },
-    {
-      "source": "FXStreet",
-      "title": "National Bank of Poland: Wait-and-see stance holds – ING",
-      "summary": "ING economists Rafal Benecki and Adam Antoniak expect the National Bank of Poland (NBP) to keep interest rates unchanged"
+      "title": "Swiss Franc's rebound runs on empty",
+      "summary": "There is a certain honesty to a currency with nothing to say for itself, and the Swiss Franc spent Tuesday doing exactly"
     },
     {
       "source": "Investing",
@@ -187,11 +182,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: Upside bias against US Dollar as ECB repriced – S",
-      "[強気] Swiss Franc eases as hawkish Fed outlook supports US Do"
+      "[弱気] Japanese Yen stays subdued below 161.90 as Fed caution ",
+      "[弱気] USD/CAD Price Forecast: Buyers retain the upper hand ev"
     ],
-    "EUR": [
-      "[強気] Euro: Upside bias against US Dollar as ECB repriced – S"
+    "JPY": [
+      "[弱気] Japanese Yen stays subdued below 161.90 as Fed caution "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -203,8 +198,8 @@
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CHF": [
-      "[強気] Swiss Franc eases as hawkish Fed outlook supports US Do"
+    "CAD": [
+      "[弱気] USD/CAD Price Forecast: Buyers retain the upper hand ev"
     ]
   },
   "rates": {
