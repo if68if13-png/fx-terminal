@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-07-07T14:35:41.385358",
-  "generated": "2026年07月07日 14:35",
+  "timestamp": "2026-07-07T17:14:09.514229",
+  "generated": "2026年07月07日 17:14",
   "scores": {
-    "USD": 2,
+    "USD": 4,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
+    },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 4
     },
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -43,16 +50,9 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
     }
   ],
   "news": [
@@ -103,38 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Williams: “Monetary policy is in a good place”",
-      "summary": "Federal Reserve (Fed) Bank of New York President John Williams said on Tuesday that the United States (US) economy conti"
+      "title": "British Pound slips as Hormuz attacks revive USD demand",
+      "summary": "The Pound Sterling retreats against the US Dollar on Tuesday as tensions in the Middle East rise, following reports of a"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Japan denies rate-pressure claims as data mixed – BNY",
-      "summary": "Geoff Yu notes Japan’s Growth Strategy Minister Minoru Kiuchi rejected reports that the government is trying to push int"
+      "title": "Euro: Upside bias against US Dollar as ECB repriced – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is slightly softer versus the US Dollar (USD"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rebounds modestly despite hawkish Fed rhetoric",
-      "summary": "Gold (XAU/USD) stages a modest rebound on Tuesday as a subdued US Dollar (USD) lends support, although doubts over the F"
+      "title": "Australian Dollar falls amid cautious Fedspeak",
+      "summary": "AUD/USD declines toward 0.6940 as the Australian Dollar (AUD) loses momentum, while the US Dollar (USD) remains supporte"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Consolidation with stretched USD positioning – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is effectively flat versus the US D"
+      "title": "Silver falls below $61 as markets await Fed minutes",
+      "summary": "Silver (XAG/USD) extends its decline for a second consecutive day on Tuesday, trading around $60.70 at the time of writi"
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: Dovish NBP tone risks downside – ING",
-      "summary": "ING economists Rafal Benecki and Adam Antoniak argue that reduced prospects of further tightening by the European Centra"
+      "title": "NY Fed inflation expectations jump despite lower gas prices",
+      "summary": "The New York Fed Survey of Consumer Expectations shows that Americans are growing worried about the high cost of living,"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds steady as traders assess Fed and ECB interest rate paths",
-      "summary": "EUR/USD trades in a narrow range on Tuesday as traders await greater clarity on the Federal Reserve's (Fed) and European"
+      "title": "Swiss Franc eases as hawkish Fed outlook supports US Dollar",
+      "summary": "USD/CHF holds modest gains on Tuesday as traders balance softer US labor market data against hawkish Federal Reserve (Fe"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Fiscal unease and BoJ path – MUFG",
-      "summary": "MUFG’s Lee Hardman notes the Japanese Yen (JPY) has firmed slightly, pulling USD/JPY back from 162.18 to 161.68, as comm"
+      "title": "National Bank of Poland: Wait-and-see stance holds – ING",
+      "summary": "ING economists Rafal Benecki and Adam Antoniak expect the National Bank of Poland (NBP) to keep interest rates unchanged"
     },
     {
       "source": "Investing",
@@ -187,11 +187,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold rebounds modestly despite hawkish Fed rhetoric",
-      "[弱気] Polish Zloty: Dovish NBP tone risks downside – ING"
+      "[強気] Euro: Upside bias against US Dollar as ECB repriced – S",
+      "[強気] Swiss Franc eases as hawkish Fed outlook supports US Do"
     ],
     "EUR": [
-      "[弱気] Polish Zloty: Dovish NBP tone risks downside – ING"
+      "[強気] Euro: Upside bias against US Dollar as ECB repriced – S"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -202,6 +202,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc eases as hawkish Fed outlook supports US Do"
     ]
   },
   "rates": {
