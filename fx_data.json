@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-07-08T02:44:19.999751",
-  "generated": "2026年07月08日 02:44",
+  "timestamp": "2026-07-08T05:52:15.909144",
+  "generated": "2026年07月08日 05:52",
   "scores": {
     "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 3,
+    "AUD": 0,
+    "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -28,6 +21,13 @@
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
       "base_score": 0,
@@ -103,43 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar declines as safe-haven demand lifts US Dollar",
-      "summary": "USD/CAD inches higher after registering minor losses in the previous day, trading around 1.4200 during the Asian hours o"
+      "title": "Silver climbs above $60.00 despite US–Iran tensions, Fed minutes in focus",
+      "summary": "Silver price (XAG/USD) attracts some buyers to near $60.35, snapping the two-day losing streak during the early European"
     },
     {
       "source": "FXStreet",
-      "title": "Euro struggles above 1.1400 as fresh US strikes on Iran support USD ahead of FOMC Minutes",
-      "summary": "The EUR/USD pair defends the 1.1400 mark during the Asian session on Wednesday, though it struggles to attract any meani"
+      "title": "Gold edges higher amid subdued USD demand; hawkish Fed and US-Iran tensions to cap gains",
+      "summary": "Gold (XAU/USD) edges higher during the Asian session on Wednesday and, for now, seems to have snapped a two-day losing s"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.8077 vs. 6.8054 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8077 co"
+      "title": "AUD/USD Price Forecast: Hawkish remarks from RBA’s Hunter lift Australian Dollar",
+      "summary": "The Australian Dollar (AUD) trades 0.23% higher to near 0.6943 against the US Dollar (USD) during the Asian trading sess"
     },
     {
       "source": "FXStreet",
-      "title": "RBNZ decision too close to call despite interest-rate hike expectations",
-      "summary": "The Reserve Bank of New Zealand (RBNZ) is widely expected to raise the Official Cash Rate (OCR) by 25 basis points (bps)"
+      "title": "Breman Speech: RBNZ Governor speaks on policy outlook after raising interest rate",
+      "summary": "Reserve Bank of New Zealand’s (RBNZ) Governor Anna Breman presents the prepared remarks on the Monetary Policy Review (M"
     },
     {
       "source": "FXStreet",
-      "title": "RBA’s Hunter: Board will intervene as necessary to bring inflation back to target",
-      "summary": "Reserve Bank of Australia (RBA) Assistant Governor Sarah Hunter said on Wednesday that the central bank will act as need"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen edges higher as intervention fears return",
-      "summary": "The USD/JPY pair trades with mild losses near 162.35 during the early Asian session on Wednesday. The Japanese Yen (JPY)"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar drops as Hormuz strikes spark US Dollar rush",
-      "summary": "The Australian Dollar retreats to two-day lows during the week, down 0.39%, as the US Dollar surges amid rising tensions"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Range trade holds with modest downside against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang notes that the US Dollar against the Chinese Yuan has stayed within the previously flagged range, w"
+      "title": "Swiss Franc weakens as US Dollar advances on renewing US-Iran tensions",
+      "summary": "USD/CHF extends its gains for the third successive day, trading around 0.8090 during the Asian hours on Wednesday. The p"
     },
     {
       "source": "Investing",
@@ -192,7 +177,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar drops as Hormuz strikes spark US Doll"
+      "[強気] Gold edges higher amid subdued USD demand; hawkish Fed ",
+      "[強気] AUD/USD Price Forecast: Hawkish remarks from RBA’s Hunt",
+      "[弱気] Swiss Franc weakens as US Dollar advances on renewing U"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -200,12 +187,13 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+163,208)",
-      "[弱気] RBA’s Hunter: Board will intervene as necessary to brin",
-      "[強気] Australian Dollar drops as Hormuz strikes spark US Doll"
+      "[強気] AUD/USD Price Forecast: Hawkish remarks from RBA’s Hunt"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] RBNZ decision too close to call despite interest-rate h"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc weakens as US Dollar advances on renewing U"
     ]
   },
   "rates": {
