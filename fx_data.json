@@ -1,61 +1,66 @@
 {
-  "timestamp": "2026-07-08T16:39:39.467830",
-  "generated": "2026年07月08日 16:39",
+  "timestamp": "2026-07-08T19:26:03.234177",
+  "generated": "2026年07月08日 19:26",
   "scores": {
-    "USD": 5,
-    "JPY": -1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
-    "CAD": -1,
-    "CHF": 2
+    "NZD": 2,
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 6,
-      "base_score": 5,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
@@ -73,13 +78,13 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
     },
     {
       "source": "Fed",
@@ -97,63 +102,58 @@
       "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc."
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company"
+      "source": "FXStreet",
+      "title": "Japenese Yen falls as Fed minutes revive tightening bets",
+      "summary": "The Japanese Yen depreciated by over 0.26% within familiar levels, as the Fed’s last meeting minutes showed that the maj"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds firm as Hormuz shock lifts Oil, Dollar",
-      "summary": "The Pound Sterling posted modest gains during the North American session amid growing tensions in the Middle East and US"
+      "title": "EUR/USD Price Forecast: Bears retain control within descending channel",
+      "summary": "EUR/USD holds firm on Wednesday after reversing earlier losses triggered by renewed tensions between the United States ("
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index climbs as Middle East tensions, Fed rate hike bets lift demand",
-      "summary": "The US Dollar Index (DXY) consolidates modest gains on Wednesday as traders assess renewed tensions between the United S"
+      "title": "Singapore Dollar: Short-term losses versus upside risks against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD is edging higher after a period of tight consolidation, with i"
     },
     {
       "source": "FXStreet",
-      "title": "Fed Minutes to reveal more about the Warsh era",
-      "summary": "The United States (US) Federal Reserve (Fed) will release the Minutes of the June 16-17 Federal Open Market Committee (F"
+      "title": "US Dollar Index shrugs at unanimous Fed hold that reads anything but unanimous",
+      "summary": "The US Dollar Index (DXY) spent Wednesday travelling in circles, grinding around 101.00 after the Minutes of the June 16"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Oil shock weighs JPY against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight renewed weakness in the Japanese Yen (JPY), which is und"
+      "title": "Breaking: FOMC Minutes lean toward higher-for-longer narrative",
+      "summary": "The June FOMC Minutes reinforced the Fed’s cautious approach as policymakers unanimously agreed to maintain interest rat"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ hike underpins kiwi – ING",
-      "summary": "ING’s Francesco Pesole reports that the Reserve Bank of New Zealand (RBNZ) raised rates to 2.50%, delivering a more hawk"
+      "title": "New Zealand Dollar: RBNZ tightening supports upside – ABN AMRO",
+      "summary": "ABN AMRO’s Georgette Boele reports that the Reserve Bank of New Zealand lifted its policy rate by 25 bp to 2.5% and sign"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains pressured amid Trump comments",
-      "summary": "AUD/USD trades under pressure near 0.6920 on Wednesday, even after the US Dollar (USD) held firm amid geopolitical risk "
+      "title": "Gold slips as Trump’s Iran warning lifts US Dollar",
+      "summary": "Gold (XAU/USD) price dives over 1.30% on Wednesday as tensions in the Middle East bolstered the Greenback after US Presi"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Market watching Burnham – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses UK political dynamics, noting Burnham’s likely unchallenged path to"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Recovery eyes 1.36 against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the British Pound (GBP) is slightly softer but supported by a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar Index: Hawkish Fed minutes may support greenback – ING",
-      "summary": "ING’s Francesco Pesole notes that recent equity jitters and firm Oil prices have underlined the Dollar’s safe-haven appe"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold slides as renewed US-Iran tensions revive Fed rate hike bets, FOMC Minutes loom",
-      "summary": "Gold (XAU/USD) sees a sharp move lower on Wednesday after US President Donald Trump declared that the ceasefire deal wit"
+      "title": "Silver Price Forecast: XAG extends lower low sequence, eyes on $55",
+      "summary": "Silver prices collapse nearly 2.50% on Wednesday as risk aversion drives traders towards buying the US Dollar, to the de"
     },
     {
       "source": "Investing",
       "title": "Bitcoin tops $64k as Trump’s ’big crypto guy’ comment offsets Strategy sale",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy reports $8.32B bitcoin loss and sells BTC to fund dividends",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,16 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar Index climbs as Middle East tensio",
-      "[強気] Fed Minutes to reveal more about the Warsh era",
-      "[弱気] Japanese Yen: Oil shock weighs JPY against US Dollar – ",
-      "[強気] New Zealand Dollar: RBNZ hike underpins kiwi – ING",
-      "[強気] US Dollar Index: Hawkish Fed minutes may support greenb",
-      "[強気] Gold slides as renewed US-Iran tensions revive Fed rate"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Oil shock weighs JPY against US Dollar – "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -210,15 +201,7 @@
       "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: RBNZ hike underpins kiwi – ING"
-    ],
-    "CAD": [
-      "[弱気] Japanese Yen: Oil shock weighs JPY against US Dollar – "
-    ],
-    "CHF": [
-      "[強気] New Zealand Dollar: RBNZ hike underpins kiwi – ING",
-      "[強気] US Dollar Index: Hawkish Fed minutes may support greenb"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
