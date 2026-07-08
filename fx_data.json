@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-07-08T11:05:15.358800",
-  "generated": "2026年07月08日 11:05",
+  "timestamp": "2026-07-08T14:09:15.571448",
+  "generated": "2026年07月08日 14:09",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 3,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": 0,
+    "NZD": 3,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: FOMC minutes to highlight hawkish debate – TD Securities",
-      "summary": "TD Securities strategists preview the June Federal Open Market Committee (FOMC) Minutes, expecting more insight into the"
+      "title": "Canadian Dollar: Rebound meets strong USD resistance – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that the Canadian Dollar (CAD) has held up well through recen"
     },
     {
       "source": "FXStreet",
-      "title": "Gold declines as Trump scraps Iran memorandum, markets await Fed minutes",
-      "summary": "Gold (XAU/USD) trades around $4,050 on Wednesday, down 1.40% on the day at the time of writing, as investors favor the U"
+      "title": "Gold steadies as markets assess US-Iran tensions, FOMC minutes awaited",
+      "summary": "Gold (XAU/USD) steadies after coming under heavy selling pressure earlier on Wednesday as Reuters reported that US Presi"
     },
     {
       "source": "FXStreet",
-      "title": "US equities: Inflation tilt persists – BNY",
-      "summary": "Geoff Yu at BNY highlights that client flows into United States (US) equities remain geared to inflation risk, even as d"
+      "title": "Fed Minutes to shed light on Warsh's first meeting as Chair",
+      "summary": "The United States (US) Federal Reserve (Fed) will release the Minutes of the June 16-17 Federal Open Market Committee (F"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Euro hesitates above 1.1400 as geopolitical risks mount",
-      "summary": "The Euro (EUR) shows marginal losses against the US Dollar (USD) on Wednesday and has returned to levels just above 1.14"
+      "title": "United States: Inflation expectations edge higher as oil rises – DBS",
+      "summary": "DBS Group Research’s Philip Wee reports that the New York Fed’s June Survey of Consumer Expectations showed 1-year infla"
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Escrivá: Central bank to keep all options on a meeting-by-meeting basis",
-      "summary": "European Central Bank (ECB) policymaker and Governor of the Bank of Spain, José Luis Escrivá, said on Wednesday that the"
+      "title": "Canada: Trade surplus at four-year high – NBC",
+      "summary": "National Bank of Canada’s (NBC) strategist Alexandra Ducharme reports Canada’s merchandise trade surplus hit a four-year"
     },
     {
       "source": "FXStreet",
-      "title": "India: Cheaper Oil supports FY27 deficit target – Standard Chartered",
-      "summary": "Standard Chartered economists Anubhuti Sahay and Saurav Anand assess India’s FY27 fiscal deficit outlook, highlighting h"
+      "title": "Japanese Yen falls as renewed US-Iran tensions boost the US Dollar, Oil prices",
+      "summary": "USD/JPY edges higher on Wednesday as renewed escalation in the Middle East boosts demand for the US Dollar (USD) and lif"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee plummets as US Dollar bounces back, oil prices surge",
-      "summary": "The Indian Rupee (INR) plunges against the US Dollar (USD) in India's afternoon trading hours on Wednesday. The USD/INR "
+      "title": "British Pound: Pound resilience faces political risks – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley highlights that the British Pound (GBP) has been a strong G10 performer this "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls toward $58.00 as Trump declares Iran truce “finished”",
-      "summary": "Silver price (XAG/USD) extends its losses for the third consecutive day, trading around $58.30 per troy ounce during the"
+      "title": "Euro: Political risks but downside bias – ING",
+      "summary": "Francesco Pesole at ING discusses Euro resilience despite French political developments, including Marine Le Pen’s 2027 "
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar: RBNZ hawkish path supports currency – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that the Reserve Bank of New Zealand (RBNZ) delivered a 25 bps hike"
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Strategy reports $8.32B bitcoin loss and sells BTC to fund dividends",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,18 +192,24 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: FOMC minutes to highlight hawkish debate – T",
-      "[強気] Indian Rupee plummets as US Dollar bounces back, oil pr"
+      "[強気] Canadian Dollar: Rebound meets strong USD resistance – ",
+      "[強気] Fed Minutes to shed light on Warsh's first meeting as C",
+      "[強気] New Zealand Dollar: RBNZ hawkish path supports currency"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound: Pound resilience faces political risks –"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar: RBNZ hawkish path supports currency"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar: Rebound meets strong USD resistance – "
     ]
   },
   "rates": {
