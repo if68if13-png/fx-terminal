@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-08T05:52:15.909144",
-  "generated": "2026年07月08日 05:52",
+  "timestamp": "2026-07-08T08:29:13.371427",
+  "generated": "2026年07月08日 08:29",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
+    "USD": 1,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
+      "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,28 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver climbs above $60.00 despite US–Iran tensions, Fed minutes in focus",
-      "summary": "Silver price (XAG/USD) attracts some buyers to near $60.35, snapping the two-day losing streak during the early European"
+      "title": "EU Foreign Affairs Chief Kallas condemns Iran’s attacks on Bahrain and Kuwait",
+      "summary": "European Union (EU) Foreign Affairs Chief Kaja Kallas said during the European trading session on Wednesday that exchang"
     },
     {
       "source": "FXStreet",
-      "title": "Gold edges higher amid subdued USD demand; hawkish Fed and US-Iran tensions to cap gains",
-      "summary": "Gold (XAU/USD) edges higher during the Asian session on Wednesday and, for now, seems to have snapped a two-day losing s"
+      "title": "Gold holds above $4,100 as traders await FOMC Minutes amid US-Iran tensions",
+      "summary": "Gold (XAU/USD) struggles to capitalize on modest intraday gains, though it manages to hold above the $4,100 mark through"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Hawkish remarks from RBA’s Hunter lift Australian Dollar",
-      "summary": "The Australian Dollar (AUD) trades 0.23% higher to near 0.6943 against the US Dollar (USD) during the Asian trading sess"
+      "title": "Polish Zloty: Neutral MPC guidance points to underperformance – Commerzbank",
+      "summary": "Tatha Ghose at Commerzbank expects Poland’s NBP to leave rates at 3.75%, with forwards already reflecting this. With inf"
     },
     {
       "source": "FXStreet",
-      "title": "Breman Speech: RBNZ Governor speaks on policy outlook after raising interest rate",
-      "summary": "Reserve Bank of New Zealand’s (RBNZ) Governor Anna Breman presents the prepared remarks on the Monetary Policy Review (M"
+      "title": "Forex Today: Markets await FOMC Minutes while tensions in Middle East escalate",
+      "summary": "Here is what you need to know on Wednesday, July 8:"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc weakens as US Dollar advances on renewing US-Iran tensions",
-      "summary": "USD/CHF extends its gains for the third successive day, trading around 0.8090 during the Asian hours on Wednesday. The p"
+      "title": "Japanese Yen: Weak tone within defined trading band against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang highlights that USD/JPY is trading firmly after a sharp rise, with intraday "
+    },
+    {
+      "source": "FXStreet",
+      "title": "WTI slips below $72.00 despite renewing supply concerns",
+      "summary": "West Texas Intermediate (WTI) oil price inches lower after paring daily gains, trading around $71.70 per barrel during t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index holds in range amid ongoing hopes of a negotiated end to the war",
+      "summary": "The US Dollar Index (DXY) pulls back to levels a few pips shy of 101.00 during Wednesday’s European session, after being"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar: RBNZ hike seen as moderate tightening – MUFG",
+      "summary": "MUFG’s Derek Halpenny reports that the New Zealand Dollar strengthened after the RBNZ raised its policy rate by 25 bps t"
     },
     {
       "source": "Investing",
@@ -177,23 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold edges higher amid subdued USD demand; hawkish Fed ",
-      "[強気] AUD/USD Price Forecast: Hawkish remarks from RBA’s Hunt",
-      "[弱気] Swiss Franc weakens as US Dollar advances on renewing U"
+      "[弱気] Japanese Yen: Weak tone within defined trading band aga"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Weak tone within defined trading band aga"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+163,208)",
-      "[強気] AUD/USD Price Forecast: Hawkish remarks from RBA’s Hunt"
+      "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc weakens as US Dollar advances on renewing U"
     ]
   },
   "rates": {
