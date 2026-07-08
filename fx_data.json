@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-08T08:29:13.371427",
-  "generated": "2026年07月08日 08:29",
+  "timestamp": "2026-07-08T11:05:15.358800",
+  "generated": "2026年07月08日 11:05",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "EU Foreign Affairs Chief Kallas condemns Iran’s attacks on Bahrain and Kuwait",
-      "summary": "European Union (EU) Foreign Affairs Chief Kaja Kallas said during the European trading session on Wednesday that exchang"
+      "title": "US Dollar: FOMC minutes to highlight hawkish debate – TD Securities",
+      "summary": "TD Securities strategists preview the June Federal Open Market Committee (FOMC) Minutes, expecting more insight into the"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds above $4,100 as traders await FOMC Minutes amid US-Iran tensions",
-      "summary": "Gold (XAU/USD) struggles to capitalize on modest intraday gains, though it manages to hold above the $4,100 mark through"
+      "title": "Gold declines as Trump scraps Iran memorandum, markets await Fed minutes",
+      "summary": "Gold (XAU/USD) trades around $4,050 on Wednesday, down 1.40% on the day at the time of writing, as investors favor the U"
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: Neutral MPC guidance points to underperformance – Commerzbank",
-      "summary": "Tatha Ghose at Commerzbank expects Poland’s NBP to leave rates at 3.75%, with forwards already reflecting this. With inf"
+      "title": "US equities: Inflation tilt persists – BNY",
+      "summary": "Geoff Yu at BNY highlights that client flows into United States (US) equities remain geared to inflation risk, even as d"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Markets await FOMC Minutes while tensions in Middle East escalate",
-      "summary": "Here is what you need to know on Wednesday, July 8:"
+      "title": "EUR/USD Price Forecast: Euro hesitates above 1.1400 as geopolitical risks mount",
+      "summary": "The Euro (EUR) shows marginal losses against the US Dollar (USD) on Wednesday and has returned to levels just above 1.14"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Weak tone within defined trading band against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang highlights that USD/JPY is trading firmly after a sharp rise, with intraday "
+      "title": "ECB’s Escrivá: Central bank to keep all options on a meeting-by-meeting basis",
+      "summary": "European Central Bank (ECB) policymaker and Governor of the Bank of Spain, José Luis Escrivá, said on Wednesday that the"
     },
     {
       "source": "FXStreet",
-      "title": "WTI slips below $72.00 despite renewing supply concerns",
-      "summary": "West Texas Intermediate (WTI) oil price inches lower after paring daily gains, trading around $71.70 per barrel during t"
+      "title": "India: Cheaper Oil supports FY27 deficit target – Standard Chartered",
+      "summary": "Standard Chartered economists Anubhuti Sahay and Saurav Anand assess India’s FY27 fiscal deficit outlook, highlighting h"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds in range amid ongoing hopes of a negotiated end to the war",
-      "summary": "The US Dollar Index (DXY) pulls back to levels a few pips shy of 101.00 during Wednesday’s European session, after being"
+      "title": "Indian Rupee plummets as US Dollar bounces back, oil prices surge",
+      "summary": "The Indian Rupee (INR) plunges against the US Dollar (USD) in India's afternoon trading hours on Wednesday. The USD/INR "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ hike seen as moderate tightening – MUFG",
-      "summary": "MUFG’s Derek Halpenny reports that the New Zealand Dollar strengthened after the RBNZ raised its policy rate by 25 bps t"
+      "title": "Silver Price Forecast: XAG/USD falls toward $58.00 as Trump declares Iran truce “finished”",
+      "summary": "Silver price (XAG/USD) extends its losses for the third consecutive day, trading around $58.30 per troy ounce during the"
     },
     {
       "source": "Investing",
@@ -192,10 +192,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Weak tone within defined trading band aga"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Weak tone within defined trading band aga"
+      "[強気] US Dollar: FOMC minutes to highlight hawkish debate – T",
+      "[強気] Indian Rupee plummets as US Dollar bounces back, oil pr"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
