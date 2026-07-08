@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-07T22:11:09.340833",
-  "generated": "2026年07月07日 22:11",
+  "timestamp": "2026-07-08T02:44:19.999751",
+  "generated": "2026年07月08日 02:44",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -28,9 +28,9 @@
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
       "quote_score": 3
     },
     {
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,38 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro watches its best arguments sink in the Strait of Hormuz",
-      "summary": "The Euro spent Tuesday assembling the sort of case that should buy a currency a bid: hawkish-leaning remarks from an unl"
+      "title": "Canadian Dollar declines as safe-haven demand lifts US Dollar",
+      "summary": "USD/CAD inches higher after registering minor losses in the previous day, trading around 1.4200 during the Asian hours o"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Struggles at 217.00, recoils towards 216.50",
-      "summary": "The GBP/JPY reverses course on Tuesday, loses 0.24% as the Japanese Yen recovered some ground against most G8 FX currenc"
+      "title": "Euro struggles above 1.1400 as fresh US strikes on Iran support USD ahead of FOMC Minutes",
+      "summary": "The EUR/USD pair defends the 1.1400 mark during the Asian session on Wednesday, though it struggles to attract any meani"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar slips ahead of RBNZ rate decision",
-      "summary": "NZD/USD loses ground near the 0.5680 level as investors look ahead to Wednesday’s Reserve Bank of New Zealand (RBNZ) pol"
+      "title": "PBOC sets USD/CNY reference rate at 6.8077 vs. 6.8054 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.8077 co"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound Sterling Runs Out of American Bad News After Nine Straight Days",
-      "summary": "The Pound's nine-session march against the Dollar ended on Tuesday, and it took exactly one geopolitical headline to fin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Upside risk stays contained against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD closed almost unchanged near 1.2924, but short-term momentum h"
-    },
-    {
-      "source": "FXStreet",
-      "title": "RBNZ set to raise interest rate in potential déjà vu of May’s knife-edge decision",
+      "title": "RBNZ decision too close to call despite interest-rate hike expectations",
       "summary": "The Reserve Bank of New Zealand (RBNZ) is widely expected to raise the Official Cash Rate (OCR) by 25 basis points (bps)"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar steadies as Williams keeps inflation caution alive",
-      "summary": "The US Dollar Index (DXY) trades near the 101.00 area, recovering modestly after two days of running in place as investo"
+      "title": "RBA’s Hunter: Board will intervene as necessary to bring inflation back to target",
+      "summary": "Reserve Bank of Australia (RBA) Assistant Governor Sarah Hunter said on Wednesday that the central bank will act as need"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen edges higher as intervention fears return",
+      "summary": "The USD/JPY pair trades with mild losses near 162.35 during the early Asian session on Wednesday. The Japanese Yen (JPY)"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar drops as Hormuz strikes spark US Dollar rush",
+      "summary": "The Australian Dollar retreats to two-day lows during the week, down 0.39%, as the US Dollar surges amid rising tensions"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Range trade holds with modest downside against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang notes that the US Dollar against the Chinese Yuan has stayed within the previously flagged range, w"
     },
     {
       "source": "Investing",
@@ -187,20 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro watches its best arguments sink in the Strait of H"
-    ],
-    "EUR": [
-      "[強気] Euro watches its best arguments sink in the Strait of H"
+      "[強気] Australian Dollar drops as Hormuz strikes spark US Doll"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+163,208)"
+      "[COT] 🟢ロング優勢 (ネット:+163,208)",
+      "[弱気] RBA’s Hunter: Board will intervene as necessary to brin",
+      "[強気] Australian Dollar drops as Hormuz strikes spark US Doll"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] RBNZ decision too close to call despite interest-rate h"
     ]
   },
   "rates": {
