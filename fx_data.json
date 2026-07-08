@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-07-08T14:09:15.571448",
-  "generated": "2026年07月08日 14:09",
+  "timestamp": "2026-07-08T16:39:39.467830",
+  "generated": "2026年07月08日 16:39",
   "scores": {
     "USD": 5,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 3,
-    "CAD": 1,
-    "CHF": 0
+    "CAD": -1,
+    "CHF": 2
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 6,
+      "base_score": 5,
+      "quote_score": -1
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -6,
       "base_score": -1,
       "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -34,25 +34,25 @@
       "quote_score": 5
     },
     {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
+    },
+    {
       "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 3,
-      "quote_score": 5
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Rebound meets strong USD resistance – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that the Canadian Dollar (CAD) has held up well through recen"
+      "title": "British Pound holds firm as Hormuz shock lifts Oil, Dollar",
+      "summary": "The Pound Sterling posted modest gains during the North American session amid growing tensions in the Middle East and US"
     },
     {
       "source": "FXStreet",
-      "title": "Gold steadies as markets assess US-Iran tensions, FOMC minutes awaited",
-      "summary": "Gold (XAU/USD) steadies after coming under heavy selling pressure earlier on Wednesday as Reuters reported that US Presi"
+      "title": "United States Dollar Index climbs as Middle East tensions, Fed rate hike bets lift demand",
+      "summary": "The US Dollar Index (DXY) consolidates modest gains on Wednesday as traders assess renewed tensions between the United S"
     },
     {
       "source": "FXStreet",
-      "title": "Fed Minutes to shed light on Warsh's first meeting as Chair",
+      "title": "Fed Minutes to reveal more about the Warsh era",
       "summary": "The United States (US) Federal Reserve (Fed) will release the Minutes of the June 16-17 Federal Open Market Committee (F"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Inflation expectations edge higher as oil rises – DBS",
-      "summary": "DBS Group Research’s Philip Wee reports that the New York Fed’s June Survey of Consumer Expectations showed 1-year infla"
+      "title": "Japanese Yen: Oil shock weighs JPY against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight renewed weakness in the Japanese Yen (JPY), which is und"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Trade surplus at four-year high – NBC",
-      "summary": "National Bank of Canada’s (NBC) strategist Alexandra Ducharme reports Canada’s merchandise trade surplus hit a four-year"
+      "title": "New Zealand Dollar: RBNZ hike underpins kiwi – ING",
+      "summary": "ING’s Francesco Pesole reports that the Reserve Bank of New Zealand (RBNZ) raised rates to 2.50%, delivering a more hawk"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen falls as renewed US-Iran tensions boost the US Dollar, Oil prices",
-      "summary": "USD/JPY edges higher on Wednesday as renewed escalation in the Middle East boosts demand for the US Dollar (USD) and lif"
+      "title": "Australian Dollar remains pressured amid Trump comments",
+      "summary": "AUD/USD trades under pressure near 0.6920 on Wednesday, even after the US Dollar (USD) held firm amid geopolitical risk "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Pound resilience faces political risks – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley highlights that the British Pound (GBP) has been a strong G10 performer this "
+      "title": "United Kingdom: Market watching Burnham – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses UK political dynamics, noting Burnham’s likely unchallenged path to"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Political risks but downside bias – ING",
-      "summary": "Francesco Pesole at ING discusses Euro resilience despite French political developments, including Marine Le Pen’s 2027 "
+      "title": "British Pound: Recovery eyes 1.36 against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the British Pound (GBP) is slightly softer but supported by a"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ hawkish path supports currency – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that the Reserve Bank of New Zealand (RBNZ) delivered a 25 bps hike"
+      "title": "US Dollar Index: Hawkish Fed minutes may support greenback – ING",
+      "summary": "ING’s Francesco Pesole notes that recent equity jitters and firm Oil prices have underlined the Dollar’s safe-haven appe"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold slides as renewed US-Iran tensions revive Fed rate hike bets, FOMC Minutes loom",
+      "summary": "Gold (XAU/USD) sees a sharp move lower on Wednesday after US President Donald Trump declared that the ceasefire deal wit"
     },
     {
       "source": "Investing",
       "title": "Bitcoin tops $64k as Trump’s ’big crypto guy’ comment offsets Strategy sale",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy reports $8.32B bitcoin loss and sells BTC to fund dividends",
       "summary": ""
     }
   ],
@@ -192,13 +192,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Canadian Dollar: Rebound meets strong USD resistance – ",
-      "[強気] Fed Minutes to shed light on Warsh's first meeting as C",
-      "[強気] New Zealand Dollar: RBNZ hawkish path supports currency"
+      "[強気] United States Dollar Index climbs as Middle East tensio",
+      "[強気] Fed Minutes to reveal more about the Warsh era",
+      "[弱気] Japanese Yen: Oil shock weighs JPY against US Dollar – ",
+      "[強気] New Zealand Dollar: RBNZ hike underpins kiwi – ING",
+      "[強気] US Dollar Index: Hawkish Fed minutes may support greenb",
+      "[強気] Gold slides as renewed US-Iran tensions revive Fed rate"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Oil shock weighs JPY against US Dollar – "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Pound resilience faces political risks –"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -206,10 +211,14 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: RBNZ hawkish path supports currency"
+      "[強気] New Zealand Dollar: RBNZ hike underpins kiwi – ING"
     ],
     "CAD": [
-      "[強気] Canadian Dollar: Rebound meets strong USD resistance – "
+      "[弱気] Japanese Yen: Oil shock weighs JPY against US Dollar – "
+    ],
+    "CHF": [
+      "[強気] New Zealand Dollar: RBNZ hike underpins kiwi – ING",
+      "[強気] US Dollar Index: Hawkish Fed minutes may support greenb"
     ]
   },
   "rates": {

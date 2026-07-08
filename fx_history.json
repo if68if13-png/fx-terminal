@@ -1,78 +1,78 @@
 [
   {
     "date": "2026-07-08",
-    "overall": "USD強気継続も米-Iran緊張でリスク・オフ傾向。Fed議事録待ち。金利差がペア主導。",
-    "risk": "リスクオフ | US-Iran緊張激化による地政学リスク。Fed議事録(Warsh初会合)の政策シグナル発信。",
+    "overall": "ドル強気・リスクオフムード。中東地政学緊張でセーフヘイブン需要、Fed利上げベット再燃。",
+    "risk": "リスクオフ | US-Iran緊張激化、Trump大統領による即時行動宣言。中東紛争拡大による原油急騰・供給危機リスク。",
     "pairs": {
       "USDJPY": {
-        "long_view": "上昇トレンド",
-        "long_reason": "金利差1.83%拡大。USD+5スコア。JPY COT買い越しも金利差優位。",
-        "mid_view": "上昇継続",
-        "mid_reason": "米-Iran緊張でドル買い。FF3.63%維持でUSD支持。ペア判定強くロング。",
-        "short_view": "買い優勢",
-        "short_reason": "リスク・オフでドル買戻し。150円台からの上昇トレンド継続局面。"
+        "long_view": "上昇",
+        "long_reason": "金利差+1.83%継続。セーフヘイブン需要でドル買い。ペア判定+6で最強ロング圧力。",
+        "mid_view": "上昇",
+        "mid_reason": "中東ショックによるリスクオフ加速。USD +5強気スコア。JPY -1弱気スコア。",
+        "short_view": "上昇",
+        "short_reason": "Hormuz海峡油価上昇でドル買い。FedWatch利上げ再検討論。テクニカル上昇トレンド堅調。"
       },
       "EURUSD": {
-        "long_view": "下降トレンド",
-        "long_reason": "金利差-1.43%で独劣位。EUR+0スコア。政治リスク重し。",
-        "mid_view": "下降継続",
-        "mid_reason": "仏極右の2027見通しで構造的EUR弱気。ECB一段の利下げ示唆も重し。",
-        "short_view": "売り優勢",
-        "short_reason": "ペア判定強くショート。USD買いとEUR売りの二重圧力継続。"
+        "long_view": "下降",
+        "long_reason": "金利差-1.43%マイナス。ECB政策トーン中立。EUR +0 vs USD +5で競争劣位。",
+        "mid_view": "下降",
+        "mid_reason": "ペア判定-5強いショート圧力。ユーロウィークネス継続。米国インフレ圧力増加。",
+        "short_view": "下降",
+        "short_reason": "中東地政学でドル買いユーロ売り。COT EUR ロング+19K程度で強気限定。"
       },
       "GBPUSD": {
-        "long_view": "堅調",
-        "long_reason": "GBP+3スコア。金利差+0.46%。政治リスク限定的。",
-        "mid_view": "横ばい～弱気",
-        "mid_reason": "USD強気が効く。金利差小さく、GBP政治リスク存在。",
-        "short_view": "売り優勢",
-        "short_reason": "ペア判定ショート優勢。USD買いと1.27-1.29レンジ下限意識。"
+        "long_view": "上昇",
+        "long_reason": "金利差+0.46%プラス。Burnham政治動向好感。COT GBP +36K強気。",
+        "mid_view": "上昇",
+        "mid_reason": "ペア判定-3弱ショートだが、GBP +2強気スコア。1.36上値目標探索。",
+        "short_view": "上昇",
+        "short_reason": "Hormuz ショック でGBPもセーフヘイブン買い。ただし上値重い推移予想。"
       },
       "AUDUSD": {
-        "long_view": "下降トレンド",
-        "long_reason": "AUD-1スコア。COT買越し多いも金利差+0.51%不足。商品安懸念。",
-        "mid_view": "下降継続",
-        "mid_reason": "USD強気。リスク・オフで豪売り。鉱物価格下落圧力。",
-        "short_view": "売り優勢",
-        "short_reason": "ペア判定強くショート。0.67割れ視野。中国景気鈍化懸念重し。"
+        "long_view": "下降",
+        "long_reason": "金利差+0.51%プラス も AUD -1弱気スコア。原油急騰で豪ドル売圧力。",
+        "mid_view": "下降",
+        "mid_reason": "ペア判定-6強いショート。AUD ロング優勢(+163K)も トランプ不確実性で売り。",
+        "short_view": "下降",
+        "short_reason": "0.6920割れ継続。中東ショックでコモディティ通貨売り圧力。資源国リスク回避。"
       },
       "WTI": {
-        "long_view": "上昇トレンド",
-        "long_reason": "US-Iran緊張激化が主因。供給リスク・プレミアム拡大。OPEC+減産継続。",
-        "mid_view": "上昇継続",
-        "mid_reason": "地政学リスク顕在化。中東情勢悪化がサポート。80ドル超え目処。",
-        "short_view": "買い優勢",
-        "short_reason": "イランの報復懸念で需給逼迫想定。短期スパイク可能性高い。"
+        "long_view": "上昇",
+        "long_reason": "US-Iran緊張激化。Trump即時行動宣言で供給危機シナリオ台頭。Hormuz海峡リスク。",
+        "mid_view": "上昇",
+        "mid_reason": "中東地政学リスクプレミアム急上昇。OPEC+ 減産政策も継続。原油需給逼迫。",
+        "short_view": "上昇",
+        "short_reason": "Trump大統領による強硬姿勢。ceasefire破棄宣言で即時買い圧力。1-2週間は上昇基調。"
       },
       "SP500": {
-        "long_view": "堅調",
-        "long_reason": "ストレステスト良好。銀行セクター信頼性保証。Bitcon上昇でTech需要継続。",
-        "mid_view": "買い堅調",
-        "mid_reason": "企業業績良好局面。トランプ政策期待(暗号資産フレンドリー)継続。",
-        "short_view": "リスク・オフ調整局面",
-        "short_reason": "Iran緊張とインフレ期待上昇で利益確定売り。不確実性高まり。"
+        "long_view": "上昇",
+        "long_reason": "Fed stress test 合格(大手銀行堅調)。利上げ再検討も企業収益支援。長期構造的強気。",
+        "mid_view": "中立",
+        "mid_reason": "中東ショックで短期的ボラティリティ上昇。Bitcoin +64k等リスク資産モメンタム健全。",
+        "short_view": "下降",
+        "short_reason": "地政学リスク増大で短期調整圧力。原油高→製造コスト上昇懸念。利益圧迫シナリオ。"
       }
     },
     "scores": {
       "USD": 5,
-      "JPY": 0,
+      "JPY": -1,
       "EUR": 0,
-      "GBP": 3,
+      "GBP": 2,
       "AUD": -1,
       "NZD": 3,
-      "CAD": 1,
-      "CHF": 0
+      "CAD": -1,
+      "CHF": 2
     },
     "memo": "\n\n\n",
     "diary_work": "",
     "diary_market": "",
     "diary_trade": "\n",
     "cb_stance": {
-      "FRB": "中立/ストレステスト良好も金利据置き継続シグナル",
-      "BOJ": "ハト派/金利差(1.83%)でUSD支持継続。利上げペース緩い",
-      "ECB": "ハト派/政治リスク(仏極右)で慎重。金利差-1.43%でEUR弱圧力",
-      "RBA": "タカ派/RBNZ追随で利上げ継続。金利差+0.51%で豪支持",
-      "BOE": "中立/GBPは値動き堅調も政治リスク。金利差+0.46%"
+      "FRB": "タカ派 / 中東ショックと強インフレ圧力で利上げベット再浮上。Fed Minutes注視。",
+      "BOJ": "ハト派 / 金利据置継続。ドル高・JPY安圧力が継続中。",
+      "ECB": "中立 / 金利据置継続。ユーロウィークネス継続、差金利マイナス。",
+      "RBA": "タカ派 / 4.99%高い金利維持。豪ドル支援材料も供給ショック懸念で重し。",
+      "BOE": "タカ派 / 4.94%金利維持。GBP1.36上値目標もトランプ政策不確実性で停滞。"
     }
   },
   {
