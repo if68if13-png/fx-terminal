@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-08T19:26:03.234177",
-  "generated": "2026年07月08日 19:26",
+  "timestamp": "2026-07-08T22:06:26.394338",
+  "generated": "2026年07月08日 22:06",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
+    "USD": 3,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 3,
+      "quote_score": -1
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,43 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japenese Yen falls as Fed minutes revive tightening bets",
-      "summary": "The Japanese Yen depreciated by over 0.26% within familiar levels, as the Fed’s last meeting minutes showed that the maj"
+      "title": "The Australian Dollar flatlines while everyone else has a war to trade",
+      "summary": "AUD/USD trades pinned between 0.6900 and 0.6950 on Wednesday, essentially unchanged and printing the kind of indecision "
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Bears retain control within descending channel",
-      "summary": "EUR/USD holds firm on Wednesday after reversing earlier losses triggered by renewed tensions between the United States ("
+      "title": "Japanese Yen: Market probes intervention risk – ABN AMRO",
+      "summary": "Georgette Boele at ABN AMRO highlights persistent weakness in the Japanese Yen as investors test authorities’ tolerance "
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Short-term losses versus upside risks against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD is edging higher after a period of tight consolidation, with i"
+      "title": "USD/CHF Price Forecast: False breakout at 0.8100 triggers pullback",
+      "summary": "The USD/CHF pair recoils after reaching a five-day high of 0.8108 on Wednesday, edging down some 0.02% as risk appetite "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index shrugs at unanimous Fed hold that reads anything but unanimous",
-      "summary": "The US Dollar Index (DXY) spent Wednesday travelling in circles, grinding around 101.00 after the Minutes of the June 16"
+      "title": "Forex Today: US Dollar struggles despite hawkish FOMC Minutes",
+      "summary": "The US Dollar Index (DXY) trades near the 101.00 region on Wednesday as investors digest the Federal Open Market Committ"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: FOMC Minutes lean toward higher-for-longer narrative",
-      "summary": "The June FOMC Minutes reinforced the Fed’s cautious approach as policymakers unanimously agreed to maintain interest rat"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ tightening supports upside – ABN AMRO",
-      "summary": "ABN AMRO’s Georgette Boele reports that the Reserve Bank of New Zealand lifted its policy rate by 25 bp to 2.5% and sign"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold slips as Trump’s Iran warning lifts US Dollar",
-      "summary": "Gold (XAU/USD) price dives over 1.30% on Wednesday as tensions in the Middle East bolstered the Greenback after US Presi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG extends lower low sequence, eyes on $55",
-      "summary": "Silver prices collapse nearly 2.50% on Wednesday as risk aversion drives traders towards buying the US Dollar, to the de"
+      "title": "Thai Baht: Range-bound after inflation data against dollar – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay highlights that USD/THB edged higher as Thai inflation data support a steady policy stance. La"
     },
     {
       "source": "Investing",
@@ -191,10 +176,15 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Forex Today: US Dollar struggles despite hawkish FOMC M"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Market probes intervention risk – ABN AMR"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Japanese Yen: Market probes intervention risk – ABN AMR"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -206,15 +196,15 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.48,
+    "US_10Y": 4.55,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.83,
-    "DIFF_EURUSD": -1.43,
-    "DIFF_GBPUSD": 0.46,
-    "DIFF_AUDUSD": 0.51
+    "DIFF_USDJPY": 1.9,
+    "DIFF_EURUSD": -1.5,
+    "DIFF_GBPUSD": 0.39,
+    "DIFF_AUDUSD": 0.44
   },
   "prices": {}
 }
