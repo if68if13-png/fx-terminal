@@ -1,37 +1,23 @@
 {
-  "timestamp": "2026-07-09T03:20:51.683686",
-  "generated": "2026年07月09日 03:20",
+  "timestamp": "2026-07-09T09:40:33.646254",
+  "generated": "2026年07月09日 09:40",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -103,33 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD rebounds above $58.00 despite inflation fears",
-      "summary": "Silver price (XAG/USD) inches higher after three days of losses, trading around $58.30 per troy ounce during the Asian h"
+      "title": "Euro advances against Canadian Dollar on strong German trade, weak oil",
+      "summary": "EUR/CAD gains ground after two days of losses, trading around 1.6210 during the European hours on Thursday. The currency"
     },
     {
       "source": "FXStreet",
-      "title": "Euro sticks to positive bias above 1.1400 vs USD; Mideast tensions cap gains",
-      "summary": "The EUR/USD pair attracts some buyers for the second straight day, though it lacks follow-through and remains confined w"
+      "title": "Euro: ECB hawkish repricing with bond selloff – Deutsche Bank",
+      "summary": "Deutsche Bank Research’s Early Morning Reid notes that European assets are sensitive to the renewed energy shock. Market"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar steadies following Chinese CPI data",
-      "summary": "AUD/USD gains ground after remaining flat in the previous day, trading around 0.6930 during the Asian hours on Thursday."
+      "title": "US Dollar Index: Fed hawks supported by energy spike – ING",
+      "summary": "ING’s Chris Turner notes that higher Oil prices and Gulf tensions have driven a bigger reaction in rates than in FX, wit"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar holds ground despite softer China’s CPI data",
-      "summary": "NZD/USD extends its gains for the second successive day, trading around 0.5720 during the Asian hours on Thursday. The p"
+      "title": "US Dollar: Constructive outlook as Oil risks build – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note renewed Middle East tensions and higher Oil prices are lifting the US Dol"
     },
     {
       "source": "FXStreet",
-      "title": "China’s CPI inflation falls to 1.0% YoY in June, vs 1.1% expected",
-      "summary": "China’s Consumer Price Index (CPI) climbed 1.0% in June from a year ago after arriving at a rise of 1.2% in May, the Nat"
+      "title": "Australian Dollar steadies above 0.6900 as markets price a negotiated end to Iran’s war",
+      "summary": "The Australian Dollar (AUD) keeps trading sideways against the US Dollar (USD) on Thursday, showing a surprising resilie"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.8036 vs. 6.8077 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.8036 comp"
+      "title": "Gold clings to gains on weaker USD; bearish bias remains amid Iran risks, Fed hike bets",
+      "summary": "Gold (XAU/USD) maintains its bid tone above the $4,100 mark through the first half of the European session on Thursday a"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen remains pressured close to 40-year lows as intervention risks linger",
+      "summary": "The Japanese Yen (JPY) remains locked in a high-stakes standoff against the US Dollar, testing the ultimate limits of To"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee bounces back as investors digest higher oil prices",
+      "summary": "The Indian Rupee (INR) opens higher against the US Dollar (USD) on Thursday. The USD/INR pair drops to near 95.40 as the"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Dow Jones futures advance due to tech, AI rally",
+      "summary": "Dow Jones futures gain 0.17% to trade around 52,710 during European trading hours on Thursday. Meanwhile, S&amp;P 500 fu"
     },
     {
       "source": "Investing",
@@ -139,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Strategy reports $8.32B bitcoin loss and sells BTC to fund dividends",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -182,7 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar holds ground despite softer China’s "
+      "[弱気] Gold clings to gains on weaker USD; bearish bias remain"
+    ],
+    "EUR": [
+      "[強気] Euro: ECB hawkish repricing with bond selloff – Deutsch",
+      "[弱気] Gold clings to gains on weaker USD; bearish bias remain"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -192,8 +206,7 @@
       "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar holds ground despite softer China’s "
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
