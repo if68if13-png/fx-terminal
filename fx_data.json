@@ -1,23 +1,37 @@
 {
-  "timestamp": "2026-07-09T09:40:33.646254",
-  "generated": "2026年07月09日 09:40",
+  "timestamp": "2026-07-09T15:11:08.121225",
+  "generated": "2026年07月09日 15:11",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -27,25 +41,11 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -56,6 +56,11 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc."
+    },
     {
       "source": "Fed",
       "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
@@ -78,13 +83,13 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+      "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
     },
     {
       "source": "Fed",
@@ -97,54 +102,49 @@
       "summary": "Federal Reserve notes with deep sadness the passing of Alan Greenspan"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc."
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Range consolidation after recent retreat against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang notes that after a prior rise in USD/CNH, upward momentum has now faded, with the pair expected to "
     },
     {
       "source": "FXStreet",
-      "title": "Euro advances against Canadian Dollar on strong German trade, weak oil",
-      "summary": "EUR/CAD gains ground after two days of losses, trading around 1.6210 during the European hours on Thursday. The currency"
+      "title": "Euro holds firm as traders assess geopolitical risks, interest rate outlook",
+      "summary": "EUR/USD holds modest gains on Thursday, supported by some softness in the US Dollar (USD) as markets assess renewed host"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: ECB hawkish repricing with bond selloff – Deutsche Bank",
-      "summary": "Deutsche Bank Research’s Early Morning Reid notes that European assets are sensitive to the renewed energy shock. Market"
+      "title": "South Korean Won: Gains hinge on supportive flows against US Dollar – OCBC",
+      "summary": "Christopher Wong notes that Korean Won strength remains largely flow-driven, with USD/KRW dropping below 1,500 on offsho"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: Fed hawks supported by energy spike – ING",
-      "summary": "ING’s Chris Turner notes that higher Oil prices and Gulf tensions have driven a bigger reaction in rates than in FX, wit"
+      "title": "Fed’s Williams: Inflation is still 'far too high'",
+      "summary": "Federal Reserve (Fed) Bank of New York President John Williams said in the Future of Market Liquidity and Functioning Wo"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Constructive outlook as Oil risks build – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note renewed Middle East tensions and higher Oil prices are lifting the US Dol"
+      "title": "Canadian Dollar remains rangebound as weaker US Dollar offsets lower Oil prices",
+      "summary": "USD/CAD trades around 1.4170 on Thursday at the time of writing, virtually unchanged on the day, as weakness in the US D"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar steadies above 0.6900 as markets price a negotiated end to Iran’s war",
-      "summary": "The Australian Dollar (AUD) keeps trading sideways against the US Dollar (USD) on Thursday, showing a surprising resilie"
+      "title": "United States: Participation drop masks slack – ABN AMRO",
+      "summary": "ABN AMRO’s Rogier Quaedvlieg highlights that US labour-market conditions are weaker than headline unemployment suggests,"
     },
     {
       "source": "FXStreet",
-      "title": "Gold clings to gains on weaker USD; bearish bias remains amid Iran risks, Fed hike bets",
-      "summary": "Gold (XAU/USD) maintains its bid tone above the $4,100 mark through the first half of the European session on Thursday a"
+      "title": "India: Tactical duration opportunity on rates – DBS",
+      "summary": "DBS Group Research economist Sherilyn Chew notes that renewed geopolitical risk has lifted yields across Asia, but sees "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen remains pressured close to 40-year lows as intervention risks linger",
-      "summary": "The Japanese Yen (JPY) remains locked in a high-stakes standoff against the US Dollar, testing the ultimate limits of To"
+      "title": "Gold firms but lacks momentum amid US-Iran tensions, hawkish Fed bets",
+      "summary": "Gold (XAU/USD) firms on Thursday as a mildly softer US Dollar (USD) and a modest pullback in US Treasury yields help the"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee bounces back as investors digest higher oil prices",
-      "summary": "The Indian Rupee (INR) opens higher against the US Dollar (USD) on Thursday. The USD/INR pair drops to near 95.40 as the"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dow Jones futures advance due to tech, AI rally",
-      "summary": "Dow Jones futures gain 0.17% to trade around 52,710 during European trading hours on Thursday. Meanwhile, S&amp;P 500 fu"
+      "title": "Fed: Hawkish minutes keep upside rate risks – ING",
+      "summary": "ING strategists Michiel Tukker and Benjamin Schroeder note that the Federal Reserve’s June minutes confirmed a more hawk"
     },
     {
       "source": "Investing",
@@ -192,11 +192,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold clings to gains on weaker USD; bearish bias remain"
-    ],
-    "EUR": [
-      "[強気] Euro: ECB hawkish repricing with bond selloff – Deutsch",
-      "[弱気] Gold clings to gains on weaker USD; bearish bias remain"
+      "[弱気] Canadian Dollar remains rangebound as weaker US Dollar ",
+      "[強気] Gold firms but lacks momentum amid US-Iran tensions, ha",
+      "[強気] Fed: Hawkish minutes keep upside rate risks – ING"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -207,6 +205,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar remains rangebound as weaker US Dollar "
     ]
   },
   "rates": {
