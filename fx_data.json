@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-07-08T22:06:26.394338",
-  "generated": "2026年07月08日 22:06",
+  "timestamp": "2026-07-09T03:20:51.683686",
+  "generated": "2026年07月09日 03:20",
   "scores": {
     "USD": 3,
-    "JPY": -1,
+    "JPY": 0,
     "EUR": 0,
-    "GBP": 1,
+    "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 3,
-      "quote_score": -1
-    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": -1,
       "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -34,25 +34,25 @@
       "quote_score": 3
     },
     {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
-    },
-    {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,28 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar flatlines while everyone else has a war to trade",
-      "summary": "AUD/USD trades pinned between 0.6900 and 0.6950 on Wednesday, essentially unchanged and printing the kind of indecision "
+      "title": "Silver Price Forecast: XAG/USD rebounds above $58.00 despite inflation fears",
+      "summary": "Silver price (XAG/USD) inches higher after three days of losses, trading around $58.30 per troy ounce during the Asian h"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Market probes intervention risk – ABN AMRO",
-      "summary": "Georgette Boele at ABN AMRO highlights persistent weakness in the Japanese Yen as investors test authorities’ tolerance "
+      "title": "Euro sticks to positive bias above 1.1400 vs USD; Mideast tensions cap gains",
+      "summary": "The EUR/USD pair attracts some buyers for the second straight day, though it lacks follow-through and remains confined w"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: False breakout at 0.8100 triggers pullback",
-      "summary": "The USD/CHF pair recoils after reaching a five-day high of 0.8108 on Wednesday, edging down some 0.02% as risk appetite "
+      "title": "Australian Dollar steadies following Chinese CPI data",
+      "summary": "AUD/USD gains ground after remaining flat in the previous day, trading around 0.6930 during the Asian hours on Thursday."
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar struggles despite hawkish FOMC Minutes",
-      "summary": "The US Dollar Index (DXY) trades near the 101.00 region on Wednesday as investors digest the Federal Open Market Committ"
+      "title": "New Zealand Dollar holds ground despite softer China’s CPI data",
+      "summary": "NZD/USD extends its gains for the second successive day, trading around 0.5720 during the Asian hours on Thursday. The p"
     },
     {
       "source": "FXStreet",
-      "title": "Thai Baht: Range-bound after inflation data against dollar – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay highlights that USD/THB edged higher as Thai inflation data support a steady policy stance. La"
+      "title": "China’s CPI inflation falls to 1.0% YoY in June, vs 1.1% expected",
+      "summary": "China’s Consumer Price Index (CPI) climbed 1.0% in June from a year ago after arriving at a rise of 1.2% in May, the Nat"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.8036 vs. 6.8077 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.8036 comp"
     },
     {
       "source": "Investing",
@@ -177,21 +182,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Forex Today: US Dollar struggles despite hawkish FOMC M"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Market probes intervention risk – ABN AMR"
+      "[強気] New Zealand Dollar holds ground despite softer China’s "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Market probes intervention risk – ABN AMR"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar holds ground despite softer China’s "
     ]
   },
   "rates": {
