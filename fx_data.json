@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-09T22:25:39.768262",
-  "generated": "2026年07月09日 22:25",
+  "timestamp": "2026-07-10T03:22:49.715678",
+  "generated": "2026年07月10日 03:22",
   "scores": {
     "USD": 4,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 3,
     "AUD": 0,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,9 +15,9 @@
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
+      "diff": 5,
       "base_score": 4,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
@@ -34,25 +34,25 @@
       "quote_score": 4
     },
     {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 3,
+      "quote_score": -1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 3,
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,38 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: Rebounds towards $60, but lower-low structure holds",
-      "summary": "Silver price surged by over 2.70% on Thursday, climbing near $60.00 as US Treasury yields retreated and the US Dollar do"
+      "title": "Australian Dollar edges higher to near 0.6950 on RBA hawkish rhetoric",
+      "summary": "The AUD/USD pair attracts some buyers to near 0.6950 during the Asian trading hours on Friday. The Australian Dollar (AU"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar firms as US Dollar softens",
-      "summary": "AUD/USD trades higher near the 0.6940 area on Thursday, as the Australian Dollar (AUD) benefits from a softer US Dollar "
+      "title": "New Zealand Dollar extends hawkish RBNZ-inspired rally; hits three-week high vs weaker USD",
+      "summary": "The NZD/USD pair gains strong follow-through positive traction for the third straight day and rallies to an over three-w"
     },
     {
       "source": "FXStreet",
-      "title": "Fed unveils Warsh task forces to lead broad review",
-      "summary": "The US Federal Reserve (Fed) unveiled on Thursday the members of the task forces announced by Fed Chair Kevin Warsh at h"
+      "title": "Japanese Yen rallies against weaker USD amid looming intervention risks",
+      "summary": "The USD/JPY pair meets with a heavy supply during the Asian session on Friday and weakens below the 162.00 mark as trade"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso gains as risk appetite improves, weighs on USD",
-      "summary": "The Mexican Peso (MXN) registers solid gains of over 0.22% against the US Dollar (USD) on Thursday as risk appetite impr"
+      "title": "British Pound gains traction above 1.3400 as markets bet on BoE rate hikes",
+      "summary": "The GBP/USD pair gathers strength to around 1.3430 during the Asian trading hours on Friday. The British Pound (GBP) edg"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Yen eyes BoJ and key resistance zone against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe the Japanese Yen trading broadly in line with G10 peers, w"
+      "title": "PBOC sets USD/CNY reference rate at 6.7989 vs. 6.8036 previous",
+      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7989 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone: Energy shock keeps pressure on ECB – Nordea",
-      "summary": "Jan von Gerich highlights that Eurozone inflation risks remain skewed to the upside due to a persistent energy shock lin"
+      "title": "Euro nudges higher above 1.1400 as traders ramp up their bets on ECB hikes",
+      "summary": "The EUR/USD pair posts modest gains around 1.1430 during the early Asian session on Friday, bolstered by a softer US Dol"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range bias holds above 1.2890 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that USD/SGD’s mild downward pressure has eased, with the pair expecte"
+      "title": "Japan’s Kiuchi: Government consistently signals policy commitment to fiscal sustainability",
+      "summary": "Japan's Economy Minister Minoru Kiuchi said on Friday that the government consistently signals policy commitment to fisc"
     },
     {
       "source": "Investing",
@@ -187,19 +187,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver Price Forecast: Rebounds towards $60, but lower-",
-      "[強気] Australian Dollar firms as US Dollar softens"
+      "[強気] Australian Dollar edges higher to near 0.6950 on RBA ha",
+      "[強気] New Zealand Dollar extends hawkish RBNZ-inspired rally;",
+      "[弱気] Japanese Yen rallies against weaker USD amid looming in",
+      "[強気] British Pound gains traction above 1.3400 as markets be"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen rallies against weaker USD amid looming in"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound gains traction above 1.3400 as markets be"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+163,208)",
-      "[強気] Australian Dollar firms as US Dollar softens"
+      "[強気] Australian Dollar edges higher to near 0.6950 on RBA ha"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar extends hawkish RBNZ-inspired rally;"
     ]
   },
   "rates": {
