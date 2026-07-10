@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-10T03:22:49.715678",
-  "generated": "2026年07月10日 03:22",
+  "timestamp": "2026-07-10T09:36:03.144782",
+  "generated": "2026年07月10日 09:36",
   "scores": {
-    "USD": 4,
-    "JPY": -1,
-    "EUR": 0,
-    "GBP": 3,
-    "AUD": 0,
-    "NZD": 3,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 1,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 4,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 3,
-      "quote_score": -1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 3,
-      "quote_score": 4
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "base_score": 1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,38 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar edges higher to near 0.6950 on RBA hawkish rhetoric",
-      "summary": "The AUD/USD pair attracts some buyers to near 0.6950 during the Asian trading hours on Friday. The Australian Dollar (AU"
+      "title": "BoJ will likely revise 2026 GDP forecast higher in Q2 report",
+      "summary": "According to sources, the Bank of Japan (BoJ) may revise up the fiscal 2026 economic growth forecast in the quarterly re"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar extends hawkish RBNZ-inspired rally; hits three-week high vs weaker USD",
-      "summary": "The NZD/USD pair gains strong follow-through positive traction for the third straight day and rallies to an over three-w"
+      "title": "Euro: Yield spreads hint at recovery against US Dollar – MUFG",
+      "summary": "MUFG’s Derek Halpenny highlights that European Central Bank (ECB) minutes added little new information but confirmed ope"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen rallies against weaker USD amid looming intervention risks",
-      "summary": "The USD/JPY pair meets with a heavy supply during the Asian session on Friday and weakens below the 162.00 mark as trade"
+      "title": "British Pound surrenders early gains as US Dollar regains ground",
+      "summary": "The British Pound (GBP) gives back its early gains and turns almost flat around 1.3410 against the US Dollar (USD) durin"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gains traction above 1.3400 as markets bet on BoE rate hikes",
-      "summary": "The GBP/USD pair gathers strength to around 1.3430 during the Asian trading hours on Friday. The British Pound (GBP) edg"
+      "title": "Federal Reserve: No near-term hikes signalled – Commerzbank",
+      "summary": "Commerzbank’s Dr. Christoph Balz and Bernd Weidensteiner interpret recent data and Fed communications as pointing to sta"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7989 vs. 6.8036 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7989 compa"
+      "title": "USD/JPY Price Forecast: Dollar finds resistance at the 161.75 previous support",
+      "summary": "The US Dollar (USD) holds losses below 161.75 against the Japanese Yen (JPY) on Friday following a 100-pip reversal earl"
     },
     {
       "source": "FXStreet",
-      "title": "Euro nudges higher above 1.1400 as traders ramp up their bets on ECB hikes",
-      "summary": "The EUR/USD pair posts modest gains around 1.1430 during the early Asian session on Friday, bolstered by a softer US Dol"
+      "title": "Gold seems vulnerable near $4,100 as USD rebounds amid Fed hike bets and Iran risks",
+      "summary": "Gold (XAU/USD) touches a fresh low during the first half of the European session on Friday, with bears looking to extend"
     },
     {
       "source": "FXStreet",
-      "title": "Japan’s Kiuchi: Government consistently signals policy commitment to fiscal sustainability",
-      "summary": "Japan's Economy Minister Minoru Kiuchi said on Friday that the government consistently signals policy commitment to fisc"
+      "title": "Equities: Risk of renewed rates volatility – BNY",
+      "summary": "BNY strategist David Tam warns that a renewed rise in rates volatility, as measured by the MOVE Index, could pressure U."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Jobs and BoC caution shape outlook – ING",
+      "summary": "ING’s Francesco Pesole highlights that Canada’s June jobs report is expected to show a sharp slowdown in hiring and a pi"
     },
     {
       "source": "Investing",
@@ -187,26 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar edges higher to near 0.6950 on RBA ha",
-      "[強気] New Zealand Dollar extends hawkish RBNZ-inspired rally;",
-      "[弱気] Japanese Yen rallies against weaker USD amid looming in",
-      "[強気] British Pound gains traction above 1.3400 as markets be"
+      "[強気] Euro: Yield spreads hint at recovery against US Dollar "
     ],
-    "JPY": [
-      "[弱気] Japanese Yen rallies against weaker USD amid looming in"
+    "EUR": [
+      "[強気] Euro: Yield spreads hint at recovery against US Dollar "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound gains traction above 1.3400 as markets be"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+163,208)",
-      "[強気] Australian Dollar edges higher to near 0.6950 on RBA ha"
+      "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar extends hawkish RBNZ-inspired rally;"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
