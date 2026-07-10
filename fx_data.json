@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-07-10T16:56:32.114115",
-  "generated": "2026年07月10日 16:56",
+  "timestamp": "2026-07-10T19:27:51.842429",
+  "generated": "2026年07月10日 19:27",
   "scores": {
-    "USD": 4,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "base_score": -1,
+      "quote_score": 2
     },
     {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
@@ -50,9 +43,16 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,6 +103,31 @@
     },
     {
       "source": "FXStreet",
+      "title": "United States Dollar Index little changed as traders weigh geopolitics and Fed outlook",
+      "summary": "The US Dollar Index (DXY) trades within a volatile range on Friday as a sparse US economic calendar leaves traders watch"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro trades flat despite soft European inflation",
+      "summary": "EUR/USD trades in a muted fashion near the 1.1430 area on Friday, as a weaker US Dollar (USD) helps the pair hold onto m"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Crude Oil fades another war spike as the ceasefire dies its daily death",
+      "summary": "West Texas Intermediate (WTI) Crude Oil trades at $70.98 on Friday, down 1%, after a European-morning climb to $72.83 me"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound holds firm as Trump ceasefire shock tests USD",
+      "summary": "The Pound Sterling (GBP) holds firm on Friday during the North American session as risk appetite deteriorated after US P"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Federal Reserve: Monetary policy report cites “high inflation” due to tariffs",
+      "summary": "The Federal Reserve (Fed) released its monetary policy report on Friday , in which the US central bank acknowledged that"
+    },
+    {
+      "source": "FXStreet",
       "title": "Silver edges lower despite Middle East tensions as Fed rate hike bets limit recovery",
       "summary": "Silver (XAG/USD) trades slightly lower on Friday, hovering around $59.90 at the time of writing, down a modest 0.08% on "
     },
@@ -122,38 +147,13 @@
       "summary": "AUD/USD advances toward the 0.6960 area on Friday, supported by a softer US Dollar (USD) and renewed strength in the Chi"
     },
     {
-      "source": "FXStreet",
-      "title": "Gold heads for weekly loss as Middle East uncertanity, Fed hike fears cap recovery",
-      "summary": "Gold (XAU/USD) trades on the back foot on Friday, struggling to build on the previous day's gains and heading for a week"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro eases from one-week high as traders assess Middle East developments",
-      "summary": "EUR/USD trims gains on Friday as the US Dollar (USD) rebounds while traders digest the latest developments in the Middle"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen rises as Japan urges pension funds to invest in domestic assets",
-      "summary": "USD/JPY falls toward 161.80 on Friday, down 0.37% at the time of writing, as the Japanese Yen (JPY) benefits from an une"
-    },
-    {
-      "source": "FXStreet",
-      "title": "European Central Bank: One more hike base case as data soften – OCBC",
-      "summary": "OCBC strategists Christopher Wong and Sim Moh Siong note that the European Central Bank's (ECB) June minutes justified t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "China: Growth slowdown with uneven momentum – DBS",
-      "summary": "DBS economists Radhika Rao and Mo Ji project China’s Gross Domestic Product (GDP) growth to slow from 5.0% year-on-year "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canada: Labour market steadying with modest improvement – RBC",
-      "summary": "Royal Bank of Canada (RBC) economist Nathan Janzen notes that Canadian labour markets showed further signs of stabilisat"
+      "source": "Investing",
+      "title": "TrueDAO Raises $10 million in Strategic Funding to Accelerate AI-Powered Financial Infrastructure",
+      "summary": ""
     },
     {
       "source": "Investing",
-      "title": "TrueDAO Raises $10 million in Strategic Funding to Accelerate AI-Powered Financial Infrastructure",
+      "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
       "summary": ""
     }
   ],
@@ -192,11 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver edges lower despite Middle East tensions as Fed ",
-      "[強気] Gold heads for weekly loss as Middle East uncertanity, "
+      "[弱気] Euro trades flat despite soft European inflation",
+      "[強気] Silver edges lower despite Middle East tensions as Fed "
     ],
     "EUR": [
-      "[強気] European Central Bank: One more hike base case as data "
+      "[弱気] Euro trades flat despite soft European inflation"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -207,6 +207,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Euro trades flat despite soft European inflation"
     ]
   },
   "rates": {
