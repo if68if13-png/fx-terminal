@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-10T09:36:03.144782",
-  "generated": "2026年07月10日 09:36",
+  "timestamp": "2026-07-10T14:27:45.516029",
+  "generated": "2026年07月10日 14:27",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -28,9 +28,9 @@
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
       "quote_score": 3
     },
     {
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,52 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "BoJ will likely revise 2026 GDP forecast higher in Q2 report",
-      "summary": "According to sources, the Bank of Japan (BoJ) may revise up the fiscal 2026 economic growth forecast in the quarterly re"
+      "title": "Mexico: Softer CPI backs dovish Banxico case – Societe Generale",
+      "summary": "Societe Generale analysts Dev Ashish and Brendan McKenna note that Mexico’s June inflation data surprised to the downsid"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Yield spreads hint at recovery against US Dollar – MUFG",
-      "summary": "MUFG’s Derek Halpenny highlights that European Central Bank (ECB) minutes added little new information but confirmed ope"
+      "title": "New Zealand Dollar: Constructive outlook faces yield constraints – OCBC",
+      "summary": "OCBC strategists Christopher Wong and Sim Moh Siong note that the New Zealand Dollar (NZD) outperformed after stronger m"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound surrenders early gains as US Dollar regains ground",
-      "summary": "The British Pound (GBP) gives back its early gains and turns almost flat around 1.3410 against the US Dollar (USD) durin"
+      "title": "GBP/JPY Price Forecast: Bulls remain in control with RSI and MACD in positive territory",
+      "summary": "GBP/JPY trades under pressure on Friday after comments from Japan's Finance Minister Satsuki Katayama boosted the Japane"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: No near-term hikes signalled – Commerzbank",
-      "summary": "Commerzbank’s Dr. Christoph Balz and Bernd Weidensteiner interpret recent data and Fed communications as pointing to sta"
+      "title": "Breaking: Canada's Unemployment Rate declined to 6.5% in June",
+      "summary": "Statistics Canada reported on Friday that the Unemployment Rate decreased to 6.5% in June, below market expectations and"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Dollar finds resistance at the 161.75 previous support",
-      "summary": "The US Dollar (USD) holds losses below 161.75 against the Japanese Yen (JPY) on Friday following a 100-pip reversal earl"
+      "title": "United States: New methodology trims  Core PCE inflation – Wells Fargo",
+      "summary": "Wells Fargo economists Tom Porcelli and Sarah House discuss upcoming BEA changes to the Personal Consumption Expenditure"
     },
     {
       "source": "FXStreet",
-      "title": "Gold seems vulnerable near $4,100 as USD rebounds amid Fed hike bets and Iran risks",
-      "summary": "Gold (XAU/USD) touches a fresh low during the first half of the European session on Friday, with bears looking to extend"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Equities: Risk of renewed rates volatility – BNY",
-      "summary": "BNY strategist David Tam warns that a renewed rise in rates volatility, as measured by the MOVE Index, could pressure U."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Jobs and BoC caution shape outlook – ING",
-      "summary": "ING’s Francesco Pesole highlights that Canada’s June jobs report is expected to show a sharp slowdown in hiring and a pi"
+      "title": "Indian Rupee: Stabilisation but recovery hurdles against US Dollar – OCBC",
+      "summary": "OCBC strategists Christopher Wong and Sim Moh Siong observe that the Indian Rupee (INR) faced depreciation pressure as O"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin tops $64k as Trump’s ’big crypto guy’ comment offsets Strategy sale",
+      "title": "TrueDAO Raises $10 million in Strategic Funding to Accelerate AI-Powered Financial Infrastructure",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Strategy reports $8.32B bitcoin loss and sells BTC to fund dividends",
+      "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin tops $64k as Trump’s ’big crypto guy’ comment offsets Strategy sale",
       "summary": ""
     },
     {
@@ -192,10 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: Yield spreads hint at recovery against US Dollar "
-    ],
-    "EUR": [
-      "[強気] Euro: Yield spreads hint at recovery against US Dollar "
+      "[強気] New Zealand Dollar: Constructive outlook faces yield co"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,7 +197,8 @@
       "[COT] 🟢ロング優勢 (ネット:+163,208)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar: Constructive outlook faces yield co"
     ]
   },
   "rates": {
