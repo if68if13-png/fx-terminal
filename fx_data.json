@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-10T19:27:51.842429",
-  "generated": "2026年07月10日 19:27",
+  "timestamp": "2026-07-10T22:03:38.283875",
+  "generated": "2026年07月10日 22:03",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -41,18 +41,18 @@
       "quote_score": 0
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index little changed as traders weigh geopolitics and Fed outlook",
+      "title": "Singapore: Resilient GDP and strong NODX – DBS",
+      "summary": "DBS economists Radhika Rao and Mo Ji forecast Singapore’s advance 2Q26 Gross Domestic Product (GDP) growth at 5.8% year-"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Taiwan Dollar: CBC inflation risks support against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s report on Taiwan notes that stronger inflation, with core CPI at 2.5%, is likely to push the CBC towards a"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forecasting the upcoming week: US CPI and Warsh testimony to test the Dollar’s recovery",
+      "summary": "The upcoming week will bring a major test for the US Dollar (USD), with investors focusing on the United States Consumer"
+    },
+    {
+      "source": "FXStreet",
+      "title": "South Korean Won: Rate hike support from exports and inflation – DBS",
+      "summary": "DBS economists Radhika Rao and Mo Ji expect the Bank of Korea (BoK) to raise its base rate to 2.75% from 2.50% in July, "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Malaysian Ringgit: Range-bound outlook holds against US Dollar – MUFG",
+      "summary": "MUFG’s Lloyd Chan notes Bank Negara Malaysia (BNM) kept the Overnight Policy Rate (OPR) at 2.75% and expects it to stay "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Reflation gap weighs against US Dollar – Commerzbank",
+      "summary": "Commerzbank analysts highlight that China’s June Consumer Price Index (CPI) slowed to 1.0% year-on-year while Producer P"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index steady as traders weigh geopolitics, Fed outlook",
       "summary": "The US Dollar Index (DXY) trades within a volatile range on Friday as a sparse US economic calendar leaves traders watch"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro trades flat despite soft European inflation",
-      "summary": "EUR/USD trades in a muted fashion near the 1.1430 area on Friday, as a weaker US Dollar (USD) helps the pair hold onto m"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Crude Oil fades another war spike as the ceasefire dies its daily death",
-      "summary": "West Texas Intermediate (WTI) Crude Oil trades at $70.98 on Friday, down 1%, after a European-morning climb to $72.83 me"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound holds firm as Trump ceasefire shock tests USD",
-      "summary": "The Pound Sterling (GBP) holds firm on Friday during the North American session as risk appetite deteriorated after US P"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Monetary policy report cites “high inflation” due to tariffs",
-      "summary": "The Federal Reserve (Fed) released its monetary policy report on Friday , in which the US central bank acknowledged that"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver edges lower despite Middle East tensions as Fed rate hike bets limit recovery",
-      "summary": "Silver (XAG/USD) trades slightly lower on Friday, hovering around $59.90 at the time of writing, down a modest 0.08% on "
-    },
-    {
-      "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Recovery extends, but overhead SMAs cap upside",
-      "summary": "NZD/USD remains on the front foot on Friday and is heading for a second consecutive weekly gain after the Reserve Bank o"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Range-bound trade outlook against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang notes USD/SGD remains range-bound, with intraday action expected between 1.2905 and 1.2940 as recen"
-    },
-    {
-      "source": "FXStreet",
-      "title": "AUD/USD climbs as Chinese Yuan strength supports the Aussie",
-      "summary": "AUD/USD advances toward the 0.6960 area on Friday, supported by a softer US Dollar (USD) and renewed strength in the Chi"
     },
     {
       "source": "Investing",
@@ -155,74 +145,72 @@
       "source": "Investing",
       "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
       "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 105912,
-      "short": 74658,
-      "net": 31254,
+      "long": 107672,
+      "short": 74273,
+      "net": 33399,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 36757,
-      "short": 0,
-      "net": 36757,
+      "long": 38402,
+      "short": 884,
+      "net": 37518,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 19879,
+      "long": 20046,
       "short": 0,
-      "net": 19879,
+      "net": 20046,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 19879,
+      "long": 20046,
       "short": 0,
-      "net": 19879,
+      "net": 20046,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 215837,
-      "short": 52629,
-      "net": 163208,
+      "long": 204837,
+      "short": 43854,
+      "net": 160983,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro trades flat despite soft European inflation",
-      "[強気] Silver edges lower despite Middle East tensions as Fed "
-    ],
-    "EUR": [
-      "[弱気] Euro trades flat despite soft European inflation"
+      "[強気] Taiwan Dollar: CBC inflation risks support against US D"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+163,208)"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Euro trades flat despite soft European inflation"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.56,
+    "US_10Y": 4.54,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.91,
-    "DIFF_EURUSD": -1.51,
-    "DIFF_GBPUSD": 0.38,
-    "DIFF_AUDUSD": 0.43
+    "DIFF_USDJPY": 1.89,
+    "DIFF_EURUSD": -1.49,
+    "DIFF_GBPUSD": 0.4,
+    "DIFF_AUDUSD": 0.45
   },
   "prices": {}
 }
