@@ -1,23 +1,37 @@
 {
-  "timestamp": "2026-07-13T06:20:27.370087",
-  "generated": "2026年07月13日 06:20",
+  "timestamp": "2026-07-13T12:06:34.360367",
+  "generated": "2026年07月13日 12:06",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -27,25 +41,11 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,33 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds steady above mid-216.00s as Iran risks and rate gap weigh on JPY",
-      "summary": "The GBP/JPY cross rebounds a few pips following an Asian session dip to mid-216.00s on Monday, stalling its modest pullb"
+      "title": "Canadian Dollar: Supported against US Dollar by steady BoC outlook – BNY",
+      "summary": "BNY’s Geoff Yu notes that the Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25%, with m"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee opens sharpy lower amid higher US Dollar, oil prices",
-      "summary": "The Indian Rupee (INR) opens significantly lower against the US Dollar (USD) on Monday. The USD/INR jumps to over a six-"
+      "title": "GBP/USD Price Forecast: Bounces back to near 1.3400 as US Dollar turns upside down",
+      "summary": "The British Pound (GBP) recovers its early losses and flattens around 1.3400 against the US Dollar (USD) during the Euro"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Softens below 112.50, bearish tone prevails",
-      "summary": "The AUD/JPY cross trades in negative territory around 112.25 during the early European trading hours on Monday."
+      "title": "US Dollar: Fed data focus supports modest gains – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US Dollar (USD) traded mixed, but expects USD to edge slightly hi"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah declines on increased risk aversion",
-      "summary": "USD/IDR gains ground after registering losses in the previous day, trading around 18,180 during the Asian hours on Monda"
+      "title": "Kiwi nears 0.5800 as RBNZ tightening hopes offset risk aversion",
+      "summary": "The New Zealand Dollar (NZD) retraced previous losses against the US Dollar (USD) on Monday and trades higher for the fo"
     },
     {
       "source": "FXStreet",
-      "title": "Gold slides back closer to $4,050 as Iran risks and Fed hike bets boost USD",
-      "summary": "Gold (XAU/USD) opens with a modest bearish gap at the start of a new week and slides back closer to the $4,050 level dur"
+      "title": "Gold declines as renewed US-Iran hostilities boost Oil prices, Fed rate hike bets",
+      "summary": "Gold (XAU/USD) starts the week on the back foot as renewed tensions in the Middle East lift Oil prices and bring inflati"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc weakens as US Dollar rises on safe-haven demand",
-      "summary": "USD/CHF gains ground for the second successive day, trading around 0.8100 during the Asian hours on Monday. The pair app"
+      "title": "Swiss Franc: ECB support limits gains against euro – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses EUR/CHF performance since the Iran war, noting that the Swiss Natio"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Polish Zloty: Dovish NBP pressures PLN against Euro  – ING",
+      "summary": "ING strategist Frantisek Taborsky says Central and Eastern European FX will be driven by secondary data and policy expec"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee weakens amid surging Oil prices, India's CPI rises strongly",
+      "summary": "The Indian Rupee (INR) trades significantly lower against the US Dollar (USD) on Monday. The USD/INR jumps to over a six"
+    },
+    {
+      "source": "FXStreet",
+      "title": "India’s retail CPI rises strongly by 4.38% in June, beats 4.3% estimates",
+      "summary": "India’s retail Consumer Price Index (CPI) rises at an annualized pace of 4.38% in June, stronger than 4.3% estimates and"
     },
     {
       "source": "Investing",
@@ -139,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -182,7 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Swiss Franc weakens as US Dollar rises on safe-haven de"
+      "[強気] Gold declines as renewed US-Iran hostilities boost Oil "
+    ],
+    "EUR": [
+      "[強気] Swiss Franc: ECB support limits gains against euro – Ra",
+      "[弱気] Polish Zloty: Dovish NBP pressures PLN against Euro  – "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -195,7 +209,7 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
-      "[弱気] Swiss Franc weakens as US Dollar rises on safe-haven de"
+      "[強気] Swiss Franc: ECB support limits gains against euro – Ra"
     ]
   },
   "rates": {
