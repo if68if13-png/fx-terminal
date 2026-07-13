@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-13T17:12:51.220148",
-  "generated": "2026年07月13日 17:12",
+  "timestamp": "2026-07-13T21:57:13.729385",
+  "generated": "2026年07月13日 21:57",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 4,
+    "JPY": -1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": 1,
-    "CHF": -1
+    "NZD": 3,
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "diff": 5,
+      "base_score": 4,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,38 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls as US-Iran tensions weigh on risk sentiment",
-      "summary": "AUD/USD trades lower near 0.6930 on Monday, retreating from an opening level of around 0.6950 as escalating tensions bet"
+      "title": "Euro slides as Waller warning, Iran strikes lift US Dollar",
+      "summary": "The shared currency begins the week on a lower note, down 0.31% as risk aversion fueled flows towards the US Dollar amid"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc drops to a more than two-week low against the US Dollar",
-      "summary": "The Swiss Franc (CHF) weakens against the US Dollar (USD) on Monday as traders react to renewed hostilities in the Middl"
+      "title": "Chinese Yuan: Consolidation after sharper drop against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/CNH fell more than expected to 6.7766 before rebounding, with the sha"
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Positioning signals recovery optionality – BNY",
-      "summary": "BNY’s Geoff Yu highlights that Emerging Markets (EM) equity positioning is heavily skewed toward South Korea and Taiwan,"
+      "title": "Singapore Dollar: Upside risks with CPI and Warsh in view – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong observe that USD/SGD has turned slightly softer, tracking Renminbi ("
     },
     {
       "source": "FXStreet",
-      "title": "British Pound falls as Oil shock boosts the US Dollar",
-      "summary": "The Pound Sterling begins the week on a lower note, as over-the-weekend developments in the Middle East fueled inflation"
+      "title": "Forex Today: US Dollar surges as Hormuz tensions send Oil to one-month high",
+      "summary": "The US Dollar Index (DXY) surges toward 101.30, gaining around 0.3% as escalating tensions between the United States (US"
     },
     {
       "source": "FXStreet",
-      "title": "Gold eyes $4,000 as renewed US-Iran hostilities boost Oil prices, Fed rate hike bets",
-      "summary": "Gold (XAU/USD) starts the week on the back foot as renewed tensions in the Middle East lift Oil prices and bring inflati"
+      "title": "Malaysian Ringgit: Stable as BNM holds rates – Commerzbank",
+      "summary": "Commerzbank’s Dr. Henry Hao and Moses Lim note that Bank Negara Malaysia (BNM) kept the OPR at 2.75% for a sixth straigh"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar gains as Oil prices surge on Middle East supply risks",
-      "summary": "The Canadian Dollar (CAD) outperforms most of its major peers on Monday as renewed tensions in the Middle East push Oil "
+      "title": "NZD/USD Price Forecast: Kiwi holds below 200-day as bears target 0.5700",
+      "summary": "The New Zealand Dollar recoiled during Monday’s North American session, down 0.12%, as the Greenback posted gains versus"
     },
     {
       "source": "FXStreet",
-      "title": "President Trump declares US ‘Guardian of the Hormuz Strait’",
-      "summary": "United States (US) President Donald Trump announced that the Strait of Hormuz is open and will remain accessible to inte"
+      "title": "Chinese Yuan: Stronger fix guides gradual RMB gains – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that USD/CNH dipped after a stronger USD/CNY fix below 6.8"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG downtrend accelerates, eyes on $55.00",
+      "summary": "Silver price remains below $60.00 as the week begins, diving nearly 4% on Monday amid tensions in the Middle East. Hawki"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen falls as Hormuz tensions and policy concerns weigh",
+      "summary": "USD/JPY trades higher near 162.40 on Monday as the Japanese Yen (JPY) weakens amid escalating tensions between the Unite"
     },
     {
       "source": "Investing",
@@ -144,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,9 +192,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Swiss Franc drops to a more than two-week low against t",
-      "[強気] Gold eyes $4,000 as renewed US-Iran hostilities boost O",
-      "[強気] Canadian Dollar gains as Oil prices surge on Middle Eas"
+      "[強気] Euro slides as Waller warning, Iran strikes lift US Dol",
+      "[強気] Forex Today: US Dollar surges as Hormuz tensions send O",
+      "[強気] NZD/USD Price Forecast: Kiwi holds below 200-day as bea",
+      "[強気] Chinese Yuan: Stronger fix guides gradual RMB gains – O",
+      "[強気] Silver Price Forecast: XAG downtrend accelerates, eyes ",
+      "[弱気] Japanese Yen falls as Hormuz tensions and policy concer"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen falls as Hormuz tensions and policy concer"
+    ],
+    "EUR": [
+      "[強気] Euro slides as Waller warning, Iran strikes lift US Dol"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -199,26 +213,21 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Canadian Dollar gains as Oil prices surge on Middle Eas"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc drops to a more than two-week low against t"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Kiwi holds below 200-day as bea"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.54,
+    "US_10Y": 4.56,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.89,
-    "DIFF_EURUSD": -1.49,
-    "DIFF_GBPUSD": 0.4,
-    "DIFF_AUDUSD": 0.45
+    "DIFF_USDJPY": 1.91,
+    "DIFF_EURUSD": -1.51,
+    "DIFF_GBPUSD": 0.38,
+    "DIFF_AUDUSD": 0.43
   },
   "prices": {}
 }
