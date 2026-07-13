@@ -1,37 +1,23 @@
 {
-  "timestamp": "2026-07-13T02:50:30.565315",
-  "generated": "2026年07月13日 02:50",
+  "timestamp": "2026-07-13T06:20:27.370087",
+  "generated": "2026年07月13日 06:20",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -103,38 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Retreats further from multi-week top but holds above 0.6900",
-      "summary": "The AUD/USD pair builds on its modest weekly bearish gap opening and retreats further from a two-and-a-half-week top, ne"
+      "title": "British Pound holds steady above mid-216.00s as Iran risks and rate gap weigh on JPY",
+      "summary": "The GBP/JPY cross rebounds a few pips following an Asian session dip to mid-216.00s on Monday, stalling its modest pullb"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds above 101.00 on Middle East tensions",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is remaining st"
+      "title": "Indian Rupee opens sharpy lower amid higher US Dollar, oil prices",
+      "summary": "The Indian Rupee (INR) opens significantly lower against the US Dollar (USD) on Monday. The USD/INR jumps to over a six-"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar edges lower as US launches new wave of strikes against Iran",
-      "summary": "The USD/CAD pair gains traction to near 1.4165, snapping the four-day losing streak during the Asian trading hours on Mo"
+      "title": "AUD/JPY Price Forecast: Softens below 112.50, bearish tone prevails",
+      "summary": "The AUD/JPY cross trades in negative territory around 112.25 during the early European trading hours on Monday."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen weakens vs USD as Iran tensions and rate gap counter intervention risks",
-      "summary": "The USD/JPY pair builds on Friday's late rebound from the 161.30-161.25 region and gains strong positive traction at the"
+      "title": "Indonesian Rupiah declines on increased risk aversion",
+      "summary": "USD/IDR gains ground after registering losses in the previous day, trading around 18,180 during the Asian hours on Monda"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar declines as safe-haven demand lifts US Dollar",
-      "summary": "NZD/USD depreciates after three days of losses, trading around 0.5750 during the Asian hours on Monday. The currency pai"
+      "title": "Gold slides back closer to $4,050 as Iran risks and Fed hike bets boost USD",
+      "summary": "Gold (XAU/USD) opens with a modest bearish gap at the start of a new week and slides back closer to the $4,050 level dur"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7972 vs. 6.7989 previous",
-      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7972 compa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold falls below $4,100 as fresh US-Iran strikes stoke inflation fears",
-      "summary": "Gold price (XAU/USD) attracts some sellers to near $4,070 during the early Asian trading hours on Monday. The precious m"
+      "title": "Swiss Franc weakens as US Dollar rises on safe-haven demand",
+      "summary": "USD/CHF gains ground for the second successive day, trading around 0.8100 during the Asian hours on Monday. The pair app"
     },
     {
       "source": "Investing",
@@ -187,7 +182,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar Index holds above 101.00 on Middle"
+      "[弱気] Swiss Franc weakens as US Dollar rises on safe-haven de"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -198,6 +193,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc weakens as US Dollar rises on safe-haven de"
     ]
   },
   "rates": {
