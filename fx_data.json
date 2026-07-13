@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-13T12:06:34.360367",
-  "generated": "2026年07月13日 12:06",
+  "timestamp": "2026-07-13T17:12:51.220148",
+  "generated": "2026年07月13日 17:12",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -8,8 +8,8 @@
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 1
+    "CAD": 1,
+    "CHF": -1
   },
   "pairs": [
     {
@@ -103,57 +103,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Supported against US Dollar by steady BoC outlook – BNY",
-      "summary": "BNY’s Geoff Yu notes that the Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25%, with m"
+      "title": "Australian Dollar falls as US-Iran tensions weigh on risk sentiment",
+      "summary": "AUD/USD trades lower near 0.6930 on Monday, retreating from an opening level of around 0.6950 as escalating tensions bet"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Bounces back to near 1.3400 as US Dollar turns upside down",
-      "summary": "The British Pound (GBP) recovers its early losses and flattens around 1.3400 against the US Dollar (USD) during the Euro"
+      "title": "Swiss Franc drops to a more than two-week low against the US Dollar",
+      "summary": "The Swiss Franc (CHF) weakens against the US Dollar (USD) on Monday as traders react to renewed hostilities in the Middl"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed data focus supports modest gains – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US Dollar (USD) traded mixed, but expects USD to edge slightly hi"
+      "title": "Equities: Positioning signals recovery optionality – BNY",
+      "summary": "BNY’s Geoff Yu highlights that Emerging Markets (EM) equity positioning is heavily skewed toward South Korea and Taiwan,"
     },
     {
       "source": "FXStreet",
-      "title": "Kiwi nears 0.5800 as RBNZ tightening hopes offset risk aversion",
-      "summary": "The New Zealand Dollar (NZD) retraced previous losses against the US Dollar (USD) on Monday and trades higher for the fo"
+      "title": "British Pound falls as Oil shock boosts the US Dollar",
+      "summary": "The Pound Sterling begins the week on a lower note, as over-the-weekend developments in the Middle East fueled inflation"
     },
     {
       "source": "FXStreet",
-      "title": "Gold declines as renewed US-Iran hostilities boost Oil prices, Fed rate hike bets",
+      "title": "Gold eyes $4,000 as renewed US-Iran hostilities boost Oil prices, Fed rate hike bets",
       "summary": "Gold (XAU/USD) starts the week on the back foot as renewed tensions in the Middle East lift Oil prices and bring inflati"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: ECB support limits gains against euro – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses EUR/CHF performance since the Iran war, noting that the Swiss Natio"
+      "title": "Canadian Dollar gains as Oil prices surge on Middle East supply risks",
+      "summary": "The Canadian Dollar (CAD) outperforms most of its major peers on Monday as renewed tensions in the Middle East push Oil "
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: Dovish NBP pressures PLN against Euro  – ING",
-      "summary": "ING strategist Frantisek Taborsky says Central and Eastern European FX will be driven by secondary data and policy expec"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee weakens amid surging Oil prices, India's CPI rises strongly",
-      "summary": "The Indian Rupee (INR) trades significantly lower against the US Dollar (USD) on Monday. The USD/INR jumps to over a six"
-    },
-    {
-      "source": "FXStreet",
-      "title": "India’s retail CPI rises strongly by 4.38% in June, beats 4.3% estimates",
-      "summary": "India’s retail Consumer Price Index (CPI) rises at an annualized pace of 4.38% in June, stronger than 4.3% estimates and"
+      "title": "President Trump declares US ‘Guardian of the Hormuz Strait’",
+      "summary": "United States (US) President Donald Trump announced that the Strait of Hormuz is open and will remain accessible to inte"
     },
     {
       "source": "Investing",
-      "title": "TrueDAO Raises $10 million in Strategic Funding to Accelerate AI-Powered Financial Infrastructure",
+      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,11 +187,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold declines as renewed US-Iran hostilities boost Oil "
-    ],
-    "EUR": [
-      "[強気] Swiss Franc: ECB support limits gains against euro – Ra",
-      "[弱気] Polish Zloty: Dovish NBP pressures PLN against Euro  – "
+      "[弱気] Swiss Franc drops to a more than two-week low against t",
+      "[強気] Gold eyes $4,000 as renewed US-Iran hostilities boost O",
+      "[強気] Canadian Dollar gains as Oil prices surge on Middle Eas"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -208,8 +201,11 @@
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
+    "CAD": [
+      "[強気] Canadian Dollar gains as Oil prices surge on Middle Eas"
+    ],
     "CHF": [
-      "[強気] Swiss Franc: ECB support limits gains against euro – Ra"
+      "[弱気] Swiss Franc drops to a more than two-week low against t"
     ]
   },
   "rates": {
