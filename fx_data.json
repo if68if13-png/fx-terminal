@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-14T13:44:35.689521",
-  "generated": "2026年07月14日 13:44",
+  "timestamp": "2026-07-14T16:15:31.317651",
+  "generated": "2026年07月14日 16:15",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 3,
     "CAD": 0,
@@ -15,36 +15,36 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ hawkish repricing supports Kiwi – MUFG",
-      "summary": "MUFG’s Lee Hardman reports the New Zealand Dollar is the top G10 performer overnight, helped by a hawkish shift in RBNZ "
+      "title": "US President Trump: Strait of Hormuz open to all shipping except Iran",
+      "summary": "United States (US) President Donald Trump reiterated in a Truth Social post on Tuesday, “The Strait of Hormuz is open to"
     },
     {
       "source": "FXStreet",
-      "title": "Fed Chair Warsh to note they have no tolerance for persistently elevated inflation",
-      "summary": "According to the prepared remarks that Federal Reserve (Fed) Chairman Kevin Warsh will deliver during his testimony on t"
+      "title": "Fed Chair Warsh reaffirms they will deliver price stability",
+      "summary": "While testifying on the Semiannual Monetary Policy Report before the US House Financial Services Committee, Federal Rese"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: US CPI inflation declines to 3.5% in June vs. 3.8% expected",
-      "summary": "Annual inflation in the United States (US), as measured by the change in the Consumer Price Index (CPI), declined to 3.5"
+      "title": "Australian Dollar surges amid soft US inflation",
+      "summary": "AUD/USD trades sharply higher near 0.6990 on Tuesday, approaching the psychological 0.7000 level as the US Dollar (USD) "
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Rate support at risk against US Dollar with energy shock – ING",
-      "summary": "ING’s Francesco Pesole argues that the EUR/USD short-term rate differential is currently supporting the Euro as Gulf ten"
+      "title": "Canadian Dollar climbs to four-week high on soft US CPI, rising Oil prices",
+      "summary": "The Canadian Dollar (CAD) strengthens sharply against the US Dollar (USD) on Tuesday, drawing support from softer-than-e"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Buyers defend 216.50 as bullish trend continues",
-      "summary": "GBP/JPY trades in a narrow range on Tuesday as market sentiment remains fragile amid escalating tensions between the US "
+      "title": "Natural gas: European prices climb on Gulf risks – ING",
+      "summary": "ING’s Warren Patterson and Ewa Manthey report that European natural gas benchmarks are rising as Middle East development"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: JGB outperformance and repatriation story – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes USD/JPY is trading near a 40‑year high above 162.00 while Japanese Go"
+      "title": "Gold rises 2% as soft US CPI cools Fed rate-hike bets",
+      "summary": "Gold (XAU/USD) rebounds sharply on Tuesday, erasing losses recorded on the previous day after softer-than-expected US in"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar hits fresh three-month highs as central banks divergence hurts the Aussie",
-      "summary": "The New Zealand Dollar (NZD) extended gains against the Aussie Dollar (AUD) on Tuesday."
+      "title": "New Zealand Dollar soars to one-month high as US CPI undershoots",
+      "summary": "NZD/USD jumps to a one-month high on Tuesday as traders digest the latest US inflation data, which came in softer than e"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Inflation risks skewed to downside – Commerzbank",
-      "summary": "Commerzbank’s Michael Pfister argues recent US Dollar strength rests on increasingly hawkish Federal Reserve expectation"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Dollar Index holds correction near 101.10, eyes on inflation data",
-      "summary": "The US Dollar (USD) holds its early corrective move in Tuesday’s European session ahead of the United States (US) Consum"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Brent: Refined products risk contrasts resilient crude – Rabobank",
-      "summary": "Rabobank strategists Joe DeLaura and Florence Schmit keep their Brent Oil forecasts broadly unchanged, projecting $80/bb"
+      "title": "Why Japan's massive foreign assets could be the Japanese Yen's long-awaited catalyst",
+      "summary": "The Japanese Yen (JPY) continues to trade in defensive territory, with the USD/JPY pair pinned near a historic 40-year h"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin pinned at $62.7k as markets gauge Iran tensions, rate fears",
+      "title": "Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,17 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: RBNZ hawkish repricing supports Kiw",
-      "[強気] Japanese Yen: JGB outperformance and repatriation story",
-      "[強気] US Dollar: Inflation risks skewed to downside – Commerz"
-    ],
-    "JPY": [
-      "[弱気] GBP/JPY Price Forecast: Buyers defend 216.50 as bullish",
-      "[強気] Japanese Yen: JGB outperformance and repatriation story"
+      "[強気] Gold rises 2% as soft US CPI cools Fed rate-hike bets",
+      "[強気] New Zealand Dollar soars to one-month high as US CPI un"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] GBP/JPY Price Forecast: Buyers defend 216.50 as bullish"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -210,7 +204,7 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: RBNZ hawkish repricing supports Kiw"
+      "[強気] New Zealand Dollar soars to one-month high as US CPI un"
     ]
   },
   "rates": {
