@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-07-14T10:46:31.370757",
-  "generated": "2026年07月14日 10:46",
+  "timestamp": "2026-07-14T13:44:35.689521",
+  "generated": "2026年07月14日 13:44",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 3,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -103,52 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: Gulf re-escalation favours Kiwi outperformance – ING",
-      "summary": "ING strategist Francesco Pesole notes that the New Zealand Dollar is the best-performing G10 currency since early week, "
+      "title": "New Zealand Dollar: RBNZ hawkish repricing supports Kiwi – MUFG",
+      "summary": "MUFG’s Lee Hardman reports the New Zealand Dollar is the top G10 performer overnight, helped by a hawkish shift in RBNZ "
     },
     {
       "source": "FXStreet",
-      "title": "Fed: Guidance, reaction function and rates – BNY",
-      "summary": "BNY Markets strategists John Velis and David Tam discuss new Federal Reserve (Fed) task forces and focus on the Communic"
+      "title": "Fed Chair Warsh to note they have no tolerance for persistently elevated inflation",
+      "summary": "According to the prepared remarks that Federal Reserve (Fed) Chairman Kevin Warsh will deliver during his testimony on t"
     },
     {
       "source": "FXStreet",
-      "title": "Oil: Hormuz risk repricing lifts prices – Rabobank",
-      "summary": "Rabobank's Michael Every highlights a sharp Oil rally ahead of United States (US) Consumer Price Index (CPI) and Fed Cha"
+      "title": "Breaking: US CPI inflation declines to 3.5% in June vs. 3.8% expected",
+      "summary": "Annual inflation in the United States (US), as measured by the change in the Consumer Price Index (CPI), declined to 3.5"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD holds above $58.00 despite ongoing bearish bias",
-      "summary": "XAG/USD gains ground after two days of losses, trading around $58.10 per troy ounce during the European hours on Tuesday"
+      "title": "Euro: Rate support at risk against US Dollar with energy shock – ING",
+      "summary": "ING’s Francesco Pesole argues that the EUR/USD short-term rate differential is currently supporting the Euro as Gulf ten"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: Oil rebound clouds INR gains against US Dollar – DBS",
-      "summary": "DBS Group Research economist Radhika Rao notes India’s onshore markets are closely watching global geopolitical risks as"
+      "title": "GBP/JPY Price Forecast: Buyers defend 216.50 as bullish trend continues",
+      "summary": "GBP/JPY trades in a narrow range on Tuesday as market sentiment remains fragile amid escalating tensions between the US "
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Slides to 162.00 as constructive setup favors bulls before US CPI",
-      "summary": "The USD/JPY pair remains on the back foot through the first half of the European session on Tuesday. Intervention risks "
+      "title": "Japanese Yen: JGB outperformance and repatriation story – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes USD/JPY is trading near a 40‑year high above 162.00 while Japanese Go"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: DXY could reach 102 as Gulf tensions persist - ING",
-      "summary": "ING strategists Francesco Pesole, Frantisek Taborsky and Chris Turner note that higher Crude and Gulf tensions are not y"
+      "title": "New Zealand Dollar hits fresh three-month highs as central banks divergence hurts the Aussie",
+      "summary": "The New Zealand Dollar (NZD) extended gains against the Aussie Dollar (AUD) on Tuesday."
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Inflation risks skewed to downside – Commerzbank",
+      "summary": "Commerzbank’s Michael Pfister argues recent US Dollar strength rests on increasingly hawkish Federal Reserve expectation"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index holds correction near 101.10, eyes on inflation data",
+      "summary": "The US Dollar (USD) holds its early corrective move in Tuesday’s European session ahead of the United States (US) Consum"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Brent: Refined products risk contrasts resilient crude – Rabobank",
+      "summary": "Rabobank strategists Joe DeLaura and Florence Schmit keep their Brent Oil forecasts broadly unchanged, projecting $80/bb"
     },
     {
       "source": "Investing",
       "title": "Bitcoin pinned at $62.7k as markets gauge Iran tensions, rate fears",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,10 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: Gulf re-escalation favours Kiwi out"
+      "[強気] New Zealand Dollar: RBNZ hawkish repricing supports Kiw",
+      "[強気] Japanese Yen: JGB outperformance and repatriation story",
+      "[強気] US Dollar: Inflation risks skewed to downside – Commerz"
+    ],
+    "JPY": [
+      "[弱気] GBP/JPY Price Forecast: Buyers defend 216.50 as bullish",
+      "[強気] Japanese Yen: JGB outperformance and repatriation story"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] GBP/JPY Price Forecast: Buyers defend 216.50 as bullish"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -198,10 +210,7 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: Gulf re-escalation favours Kiwi out"
-    ],
-    "CHF": [
-      "[強気] New Zealand Dollar: Gulf re-escalation favours Kiwi out"
+      "[強気] New Zealand Dollar: RBNZ hawkish repricing supports Kiw"
     ]
   },
   "rates": {
