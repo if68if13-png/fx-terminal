@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-14T19:20:41.490390",
-  "generated": "2026年07月14日 19:20",
+  "timestamp": "2026-07-14T21:58:02.569104",
+  "generated": "2026年07月14日 21:58",
   "scores": {
-    "USD": 5,
-    "JPY": 1,
-    "EUR": 0,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
+      "title": "GBP/JPY Price Forecast: Hold above 217.00, next target is 218.00",
+      "summary": "The British Pound registers gains against the Japanese Yen on Tuesday, rising by over 0.12% to 217.04, with the cross-pa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Range consolidation holds against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH remains in a consolidation phase, w"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Downward bias holds within tight range against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note that USD/SGD stayed firm on Monday, closing at 1.2945 after t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar falls after soft CPI, Oil and Gold rally",
+      "summary": "The US Dollar Index (DXY) fell around 0.4% to 100.90 on Tuesday after softer-than-expected United States (US) inflation "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro gains as softer US inflation weighs on US Dollar",
+      "summary": "EUR/USD trades higher near 1.1420 on Tuesday as the US Dollar (USD) weakens following softer-than-expected United States"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Trade surplus cushions yuan against US Dollar – Commerzbank",
+      "summary": "Dr. Henry Hao at Commerzbank reports a strong upside surprise in China’s June trade data, with exports up 27% and import"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: Pair pulls below 0.8100 but remains bullish",
+      "summary": "The USD/CHF tumbles by 0.70% on Tuesday, trading at 0.8093, as the latest US inflation report prompted market participan"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: Supported by ratings yet constrained against US Dollar – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that S&amp;P’s affirmation of Indonesia’s BBB/A-2 ratings with "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold price jumps as US inflation knocks the US Dollar off its pedestal",
+      "summary": "Gold price surges by some 1.50% on Tuesday as US consumer inflation data came in below estimates, easing pressure on the"
+    },
+    {
+      "source": "FXStreet",
       "title": "Singapore: Growth forecast lifted as AI tailwinds persist – UOB",
       "summary": "UOB’s Jester Koh raises Singapore’s 2026 GDP growth forecast to 4.8% from 4.0% after strong 1H26 performance, with manuf"
     },
     {
-      "source": "FXStreet",
-      "title": "Fed’s Goolsbee: June CPI inflation data was “surprisingly benign”",
-      "summary": "Federal Reserve (Fed) Bank of Chicago President Austan Goolsbee said on Tuesday that the June Consumer Price Index (CPI)"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Dollar Index slips as soft US CPI dents Fed rate-hike bets",
-      "summary": "The US Dollar Index (DXY) comes under selling pressure on Tuesday after softer-than-expected United States (US) inflatio"
-    },
-    {
-      "source": "FXStreet",
-      "title": "China: Trade data upside surprise with AI demand – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that China’s latest trade figures significantly beat expectations, with both exports and "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen rises as cool US CPI slashes bets on Fed rate hikes",
-      "summary": "The Japanese Yen registers gains of over 0.31% against the US Dollar as traders trim hawkish bets following a softer-tha"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: Soft US inflation lifts XAG/USD, but downside bias remains",
-      "summary": "Silver (XAG/USD) trades on the front foot on Tuesday as softer-than-expected US inflation data tempers expectations of a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dow Jones Industrial Average sits out the disinflation party",
-      "summary": "The June Consumer Price Index (CPI) fell 0.4% on the month against consensus for a 0.1% decline, following May's 0.5% in"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US President Trump: Strait of Hormuz open to all shipping except Iran",
-      "summary": "United States (US) President Donald Trump reiterated in a Truth Social post on Tuesday, “The Strait of Hormuz is open to"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed Chair Warsh reaffirms they will deliver price stability",
-      "summary": "While testifying on the Semiannual Monetary Policy Report before the US House Financial Services Committee, Federal Rese"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar surges amid soft US inflation",
-      "summary": "AUD/USD trades sharply higher near 0.6990 on Tuesday, approaching the psychological 0.7000 level as the US Dollar (USD) "
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears",
+      "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
       "summary": ""
     }
   ],
@@ -192,12 +192,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar Index slips as soft US CPI dents F",
-      "[強気] Japanese Yen rises as cool US CPI slashes bets on Fed r",
-      "[強気] Silver Price Forecast: Soft US inflation lifts XAG/USD,"
+      "[弱気] Forex Today: US Dollar falls after soft CPI, Oil and Go",
+      "[弱気] Euro gains as softer US inflation weighs on US Dollar",
+      "[強気] Chinese Yuan: Trade surplus cushions yuan against US Do",
+      "[強気] USD/CHF Price Forecast: Pair pulls below 0.8100 but rem",
+      "[強気] Gold price jumps as US inflation knocks the US Dollar o"
     ],
-    "JPY": [
-      "[強気] Japanese Yen rises as cool US CPI slashes bets on Fed r"
+    "EUR": [
+      "[弱気] Euro gains as softer US inflation weighs on US Dollar"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -208,19 +210,22 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] USD/CHF Price Forecast: Pair pulls below 0.8100 but rem"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.56,
+    "US_10Y": 4.62,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
     "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.91,
-    "DIFF_EURUSD": -1.51,
-    "DIFF_GBPUSD": 0.38,
-    "DIFF_AUDUSD": 0.43
+    "DIFF_USDJPY": 1.97,
+    "DIFF_EURUSD": -1.57,
+    "DIFF_GBPUSD": 0.32,
+    "DIFF_AUDUSD": 0.37
   },
   "prices": {}
 }
