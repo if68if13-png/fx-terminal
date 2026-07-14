@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-13T21:57:13.729385",
-  "generated": "2026年07月13日 21:57",
+  "timestamp": "2026-07-14T02:31:43.685879",
+  "generated": "2026年07月14日 02:31",
   "scores": {
-    "USD": 4,
-    "JPY": -1,
-    "EUR": 1,
+    "USD": 2,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": -2,
     "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 4,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
+      "diff": -4,
+      "base_score": -2,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro slides as Waller warning, Iran strikes lift US Dollar",
-      "summary": "The shared currency begins the week on a lower note, down 0.31% as risk aversion fueled flows towards the US Dollar amid"
+      "title": "Euro posts modest gains above 1.1350 as traders await US CPI inflation release",
+      "summary": "The EUR/USD pair posts modest gains near 1.1385 during the Asian trading hours on Tuesday. Nonetheless, the potential up"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Consolidation after sharper drop against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/CNH fell more than expected to 6.7766 before rebounding, with the sha"
+      "title": "Canadian Dollar gains on higher oil prices",
+      "summary": "USD/CAD continues its losing streak after remaining flat in the previous day, trading around 1.4150 during the Asian hou"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Upside risks with CPI and Warsh in view – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong observe that USD/SGD has turned slightly softer, tracking Renminbi ("
+      "title": "New Zealand Dollar rallies as RBNZ's Conway fuels rate hike bets",
+      "summary": "The NZD/USD pair attracts some dip-buyers during the Asian session on Tuesday, stalling the previous day's retracement s"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar surges as Hormuz tensions send Oil to one-month high",
-      "summary": "The US Dollar Index (DXY) surges toward 101.30, gaining around 0.3% as escalating tensions between the United States (US"
+      "title": "PBOC sets USD/CNY reference rate at 6.7990 vs. 6.7972 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7990 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysian Ringgit: Stable as BNM holds rates – Commerzbank",
-      "summary": "Commerzbank’s Dr. Henry Hao and Moses Lim note that Bank Negara Malaysia (BNM) kept the OPR at 2.75% for a sixth straigh"
+      "title": "Australian Dollar weakens to near 0.6900 as US launches more strikes against Iran",
+      "summary": "The AUD/USD pair trades with mild losses around 0.6915 during the early Asian session on Tuesday. Ongoing geopolitical t"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Kiwi holds below 200-day as bears target 0.5700",
-      "summary": "The New Zealand Dollar recoiled during Monday’s North American session, down 0.12%, as the Greenback posted gains versus"
+      "title": "Iranian missiles hit two UAE tankers in Hormuz — Reuters",
+      "summary": "The United Arab Emirates (UAE) Ministry of Defence said that two UAE national tankers, the Mombasa and Al Bahiyah, were "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Stronger fix guides gradual RMB gains – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that USD/CNH dipped after a stronger USD/CNY fix below 6.8"
+      "title": "Gold tumbles below $4,000 on Trump’s Iran port blockade move, US CPI data looms",
+      "summary": "Gold price (XAU/USD) remains under selling pressure near $3,995 during the early Asian session on Tuesday. The precious "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG downtrend accelerates, eyes on $55.00",
-      "summary": "Silver price remains below $60.00 as the week begins, diving nearly 4% on Monday amid tensions in the Middle East. Hawki"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen falls as Hormuz tensions and policy concerns weigh",
-      "summary": "USD/JPY trades higher near 162.40 on Monday as the Japanese Yen (JPY) weakens amid escalating tensions between the Unite"
+      "title": "RBNZ's Conway: Inflation to return to 2% over medium term",
+      "summary": "Reserve Bank of New Zealand (RBNZ) Chief Economist Paul Conway said on Tuesday that the central bank is not discussing a"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,29 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro slides as Waller warning, Iran strikes lift US Dol",
-      "[強気] Forex Today: US Dollar surges as Hormuz tensions send O",
-      "[強気] NZD/USD Price Forecast: Kiwi holds below 200-day as bea",
-      "[強気] Chinese Yuan: Stronger fix guides gradual RMB gains – O",
-      "[強気] Silver Price Forecast: XAG downtrend accelerates, eyes ",
-      "[弱気] Japanese Yen falls as Hormuz tensions and policy concer"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen falls as Hormuz tensions and policy concer"
-    ],
-    "EUR": [
-      "[強気] Euro slides as Waller warning, Iran strikes lift US Dol"
+      "[強気] New Zealand Dollar rallies as RBNZ's Conway fuels rate ",
+      "[弱気] Australian Dollar weakens to near 0.6900 as US launches"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)",
+      "[弱気] Australian Dollar weakens to near 0.6900 as US launches"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Kiwi holds below 200-day as bea"
+      "[強気] New Zealand Dollar rallies as RBNZ's Conway fuels rate "
     ]
   },
   "rates": {
