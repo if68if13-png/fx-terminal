@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-14T08:05:53.022711",
-  "generated": "2026年07月14日 08:05",
+  "timestamp": "2026-07-14T10:46:31.370757",
+  "generated": "2026年07月14日 10:46",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 3,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Eyes on US inflation data and Fed Chair Warsh testimony as Oil prices surge",
-      "summary": "Here is what you need to know on Tuesday, July 14:"
+      "title": "New Zealand Dollar: Gulf re-escalation favours Kiwi outperformance – ING",
+      "summary": "ING strategist Francesco Pesole notes that the New Zealand Dollar is the best-performing G10 currency since early week, "
     },
     {
       "source": "FXStreet",
-      "title": "Oil: Hormuz tensions drive price surge – ING",
-      "summary": "ING strategists Warren Patterson and Ewa Manthey highlight sharply higher Oil prices as US–Iran tensions escalate and ve"
+      "title": "Fed: Guidance, reaction function and rates – BNY",
+      "summary": "BNY Markets strategists John Velis and David Tam discuss new Federal Reserve (Fed) task forces and focus on the Communic"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar treads water above 0.6900, amid the risk-off market mood",
-      "summary": "The Australian Dollar (AUD) posts moderate gains against the US Dollar on Tuesday, bouncing to the 0.6930 area from sess"
+      "title": "Oil: Hormuz risk repricing lifts prices – Rabobank",
+      "summary": "Rabobank's Michael Every highlights a sharp Oil rally ahead of United States (US) Consumer Price Index (CPI) and Fed Cha"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Advance has ended with range trade likely against US Dollar – UOB",
-      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann highlight that GBP/USD gapped lower, dropping to 1.3343 and closin"
+      "title": "Silver Price Forecast: XAG/USD holds above $58.00 despite ongoing bearish bias",
+      "summary": "XAG/USD gains ground after two days of losses, trading around $58.10 per troy ounce during the European hours on Tuesday"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index Price Forecast: Holds above 101.00 ahead of US CPI, Fed's Warsh",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, sticks to modest intraday losses t"
+      "title": "Indian Rupee: Oil rebound clouds INR gains against US Dollar – DBS",
+      "summary": "DBS Group Research economist Radhika Rao notes India’s onshore markets are closely watching global geopolitical risks as"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Data-dependent Fed stance and volatile pricing – BNY",
-      "summary": "BNY Markets’ John Velis and David Tam note that June Consumer Price Index (CPI) is expected to show softer headline infl"
+      "title": "USD/JPY Price Forecast: Slides to 162.00 as constructive setup favors bulls before US CPI",
+      "summary": "The USD/JPY pair remains on the back foot through the first half of the European session on Tuesday. Intervention risks "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Asset flows and valuation support – DBS",
-      "summary": "DBS Group Research economist Chang Wei Liang analyses long-term Japanese Yen valuation using DBS’s DEER framework, highl"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee slumps as US considers itself rightful recipient of Hormuz toll fees",
-      "summary": "The Indian Rupee trades significantly lower against the US Dollar (USD) on Tuesday. The USD/INR pair posts a fresh seven"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound drifts higher to near 1.3350 ahead US CPI data",
-      "summary": "The GBP/USD pair gains ground to around 1.3355 during the early European trading hours on Tuesday."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Equities: Chip slump and oil surge weigh – Deutsche Bank",
-      "summary": "Deutsche Bank strategists report that US equities, particularly tech and semiconductor names, sold off as Oil prices spi"
+      "title": "US Dollar Index: DXY could reach 102 as Gulf tensions persist - ING",
+      "summary": "ING strategists Francesco Pesole, Frantisek Taborsky and Chris Turner note that higher Crude and Gulf tensions are not y"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin flat at $62.7k as markets gauge Iran tensions, rate fears",
+      "title": "Bitcoin pinned at $62.7k as markets gauge Iran tensions, rate fears",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,11 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Forex Today: Eyes on US inflation data and Fed Chair Wa",
-      "[弱気] Indian Rupee slumps as US considers itself rightful rec"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Asset flows and valuation support – DBS"
+      "[強気] New Zealand Dollar: Gulf re-escalation favours Kiwi out"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,7 +197,11 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar: Gulf re-escalation favours Kiwi out"
+    ],
+    "CHF": [
+      "[強気] New Zealand Dollar: Gulf re-escalation favours Kiwi out"
     ]
   },
   "rates": {
