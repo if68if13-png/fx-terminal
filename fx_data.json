@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-14T16:15:31.317651",
-  "generated": "2026年07月14日 16:15",
+  "timestamp": "2026-07-14T19:20:41.490390",
+  "generated": "2026年07月14日 19:20",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
+    "USD": 5,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,47 +15,52 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
@@ -88,18 +93,48 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
-    },
-    {
-      "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
       "summary": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc."
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
-      "summary": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recess"
+      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore: Growth forecast lifted as AI tailwinds persist – UOB",
+      "summary": "UOB’s Jester Koh raises Singapore’s 2026 GDP growth forecast to 4.8% from 4.0% after strong 1H26 performance, with manuf"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed’s Goolsbee: June CPI inflation data was “surprisingly benign”",
+      "summary": "Federal Reserve (Fed) Bank of Chicago President Austan Goolsbee said on Tuesday that the June Consumer Price Index (CPI)"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index slips as soft US CPI dents Fed rate-hike bets",
+      "summary": "The US Dollar Index (DXY) comes under selling pressure on Tuesday after softer-than-expected United States (US) inflatio"
+    },
+    {
+      "source": "FXStreet",
+      "title": "China: Trade data upside surprise with AI demand – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that China’s latest trade figures significantly beat expectations, with both exports and "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen rises as cool US CPI slashes bets on Fed rate hikes",
+      "summary": "The Japanese Yen registers gains of over 0.31% against the US Dollar as traders trim hawkish bets following a softer-tha"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: Soft US inflation lifts XAG/USD, but downside bias remains",
+      "summary": "Silver (XAG/USD) trades on the front foot on Tuesday as softer-than-expected US inflation data tempers expectations of a"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Dow Jones Industrial Average sits out the disinflation party",
+      "summary": "The June Consumer Price Index (CPI) fell 0.4% on the month against consensus for a 0.1% decline, following May's 0.5% in"
     },
     {
       "source": "FXStreet",
@@ -117,43 +152,8 @@
       "summary": "AUD/USD trades sharply higher near 0.6990 on Tuesday, approaching the psychological 0.7000 level as the US Dollar (USD) "
     },
     {
-      "source": "FXStreet",
-      "title": "Canadian Dollar climbs to four-week high on soft US CPI, rising Oil prices",
-      "summary": "The Canadian Dollar (CAD) strengthens sharply against the US Dollar (USD) on Tuesday, drawing support from softer-than-e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Natural gas: European prices climb on Gulf risks – ING",
-      "summary": "ING’s Warren Patterson and Ewa Manthey report that European natural gas benchmarks are rising as Middle East development"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold rises 2% as soft US CPI cools Fed rate-hike bets",
-      "summary": "Gold (XAU/USD) rebounds sharply on Tuesday, erasing losses recorded on the previous day after softer-than-expected US in"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar soars to one-month high as US CPI undershoots",
-      "summary": "NZD/USD jumps to a one-month high on Tuesday as traders digest the latest US inflation data, which came in softer than e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Why Japan's massive foreign assets could be the Japanese Yen's long-awaited catalyst",
-      "summary": "The Japanese Yen (JPY) continues to trade in defensive territory, with the USD/JPY pair pinned near a historic 40-year h"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin climbs to $63.8k on cool CPI data, but gains limited amid Iran, rate fears",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,8 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold rises 2% as soft US CPI cools Fed rate-hike bets",
-      "[強気] New Zealand Dollar soars to one-month high as US CPI un"
+      "[強気] United States Dollar Index slips as soft US CPI dents F",
+      "[強気] Japanese Yen rises as cool US CPI slashes bets on Fed r",
+      "[強気] Silver Price Forecast: Soft US inflation lifts XAG/USD,"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen rises as cool US CPI slashes bets on Fed r"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -203,8 +207,7 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar soars to one-month high as US CPI un"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
