@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-14T05:31:18.955212",
-  "generated": "2026年07月14日 05:31",
+  "timestamp": "2026-07-14T08:05:53.022711",
+  "generated": "2026年07月14日 08:05",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
+    "USD": 2,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,52 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Hits four-week top on hawkish RBNZ; eyes 0.5810-0.5820 confluence",
-      "summary": "The NZD/USD pair catches aggressive bids during the Asian session on Tuesday and jumps to a nearly four-week top in the "
+      "title": "Forex Today: Eyes on US inflation data and Fed Chair Warsh testimony as Oil prices surge",
+      "summary": "Here is what you need to know on Tuesday, July 14:"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc advances as US Dollar slips despite Fed rate hike odds",
-      "summary": "USD/CHF declines after two days of gains, trading around 0.8140 during the Asian hours on Tuesday. Traders will likely o"
+      "title": "Oil: Hormuz tensions drive price surge – ING",
+      "summary": "ING strategists Warren Patterson and Ewa Manthey highlight sharply higher Oil prices as US–Iran tensions escalate and ve"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Gains ground to near 185.00, holding modest bullish bias above key support",
-      "summary": "The EUR/JPY cross trades in positive territory around 184.90 during the early European trading hours on Tuesday."
+      "title": "Australian Dollar treads water above 0.6900, amid the risk-off market mood",
+      "summary": "The Australian Dollar (AUD) posts moderate gains against the US Dollar on Tuesday, bouncing to the 0.6930 area from sess"
     },
     {
       "source": "FXStreet",
-      "title": "WTI Price Forecast: Advances to four-week top, near $80.00 on Hormuz supply risks",
-      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – is seen building on the previous day's strong move up"
+      "title": "British Pound: Advance has ended with range trade likely against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann highlight that GBP/USD gapped lower, dropping to 1.3343 and closin"
     },
     {
       "source": "FXStreet",
-      "title": "Gold bounces off two-week low as USD bulls turn cautious ahead of US CPI, Fed's Warsh",
-      "summary": "Gold (XAU/USD) recovers slightly from a nearly two-week low, touched during the Asian session on Tuesday, and climbs bac"
+      "title": "United States Dollar Index Price Forecast: Holds above 101.00 ahead of US CPI, Fed's Warsh",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, sticks to modest intraday losses t"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index declines despite rising safe-haven demand, Fed rate hike odds",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is losing groun"
+      "title": "US Dollar: Data-dependent Fed stance and volatile pricing – BNY",
+      "summary": "BNY Markets’ John Velis and David Tam note that June Consumer Price Index (CPI) is expected to show softer headline infl"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound strengthens above 1.3350 ahead of US CPI data",
-      "summary": "The GBP/USD pair trades in positive territory around 1.3360 during the Asian trading hours on Tuesday. However, the pote"
+      "title": "Japanese Yen: Asset flows and valuation support – DBS",
+      "summary": "DBS Group Research economist Chang Wei Liang analyses long-term Japanese Yen valuation using DBS’s DEER framework, highl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee slumps as US considers itself rightful recipient of Hormuz toll fees",
+      "summary": "The Indian Rupee trades significantly lower against the US Dollar (USD) on Tuesday. The USD/INR pair posts a fresh seven"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound drifts higher to near 1.3350 ahead US CPI data",
+      "summary": "The GBP/USD pair gains ground to around 1.3355 during the early European trading hours on Tuesday."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Equities: Chip slump and oil surge weigh – Deutsche Bank",
+      "summary": "Deutsche Bank strategists report that US equities, particularly tech and semiconductor names, sold off as Oil prices spi"
     },
     {
       "source": "Investing",
-      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin outlook hinges on clarity around Strategy’s new approach: analyst",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "title": "Bitcoin flat at $62.7k as markets gauge Iran tensions, rate fears",
       "summary": ""
     }
   ],
@@ -187,9 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Hits four-week top on hawkish R",
-      "[強気] Swiss Franc advances as US Dollar slips despite Fed rat",
-      "[強気] United States Dollar Index declines despite rising safe"
+      "[強気] Forex Today: Eyes on US inflation data and Fed Chair Wa",
+      "[弱気] Indian Rupee slumps as US considers itself rightful rec"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Asset flows and valuation support – DBS"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -199,11 +206,7 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Hits four-week top on hawkish R"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc advances as US Dollar slips despite Fed rat"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
