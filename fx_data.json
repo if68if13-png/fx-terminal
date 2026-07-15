@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-15T19:12:43.162450",
-  "generated": "2026年07月15日 19:12",
+  "timestamp": "2026-07-15T22:01:58.137847",
+  "generated": "2026年07月15日 22:01",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": -1,
-      "quote_score": -1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "Thai Baht: Limited gains as Oil stays elevated – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that USD/THB fell after the post-US Consumer Price Index (CPI) decline in"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Consolidation bias holds within tight band against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note USD/SGD reversed its New York-session plunge after softer Uni"
+    },
+    {
+      "source": "FXStreet",
+      "title": "China: Q2 growth slowdown raises policy pressure – Commerzbank",
+      "summary": "Commerzbank’s Dr. Henry Hao notes that China’s Q2 2026 GDP growth slowed to 4.3% year-on-year, below Beijing’s 4.5%-5% t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar extends decline as softer PPI lifts major currencies and Gold",
+      "summary": "The US Dollar Index (DXY) falls 0.5% toward 100.40 as softer-than-expected United States (US) wholesale inflation reinfo"
+    },
+    {
+      "source": "FXStreet",
       "title": "Asia FX: Softer USD offset by high Oil – OCBC",
       "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect Asian FX to trade with a better tone after softer United States (US) co"
     },
@@ -122,31 +142,6 @@
       "summary": "EUR/USD trades higher near the 1.1450 area on Wednesday as the US Dollar (USD) weakens following softer-than-expected Un"
     },
     {
-      "source": "FXStreet",
-      "title": "Silver slips as hawkish Fed outlook persists despite soft US inflation data",
-      "summary": "Silver (XAG/USD) trades on the back foot on Wednesday, struggling to capitalize on a weaker US Dollar (USD) as hawkish F"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dow Jones Industrial Average toasts peak inflation, then drops the glass",
-      "summary": "The Dow Jones Industrial Average (DJIA) spent most of Wednesday rewarding the disinflation trade and the final two hours"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen strengthens modestly but remains near multi-decade lows",
-      "summary": "The Japanese Yen (JPY) holds modest gains against the US Dollar (USD) on Wednesday but struggles to extend its recovery "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed Chair Warsh: Inflation will not be permanent",
-      "summary": "Federal Reserve (Fed) Chair Kevin Warsh said on Wednesday that current inflation pressure will not be permanent, while a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound rallies as soft US PPI hits US Dollar",
-      "summary": "The Pound Sterling rises by some 0.60% against the US Dollar after the latest Producer Price Index (PPI) in the US showe"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -193,11 +193,7 @@
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
       "[強気] $4,000 under siege: Buyers losing the battle on Gold",
-      "[弱気] Euro elevates as softer US PPI weighs on the Dollar",
-      "[弱気] Japanese Yen strengthens modestly but remains near mult"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen strengthens modestly but remains near mult"
+      "[弱気] Euro elevates as softer US PPI weighs on the Dollar"
     ],
     "EUR": [
       "[弱気] Euro elevates as softer US PPI weighs on the Dollar"
@@ -211,30 +207,23 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Japanese Yen strengthens modestly but remains near mult"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
-    "US_10Y": 4.62,
+    "US_FF": null,
+    "US_10Y": null,
     "JP_10Y": 2.65,
-    "DE_10Y": 3.0465,
+    "DE_10Y": null,
     "GB_10Y": 4.9416,
-    "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.97,
-    "DIFF_EURUSD": -1.57,
-    "DIFF_GBPUSD": 0.32,
-    "DIFF_AUDUSD": 0.37
+    "AU_10Y": 4.99
   },
   "prices": {
     "USDJPY": {
-      "today_open": 162.26797,
-      "today_close": 162.03874,
-      "prev_close": 162.27224,
-      "diff": -0.2335,
-      "diff_pct": -0.14
+      "today_open": 162.19713,
+      "today_close": 162.13421,
+      "prev_close": 162.19604,
+      "diff": -0.0618,
+      "diff_pct": -0.04
     }
   }
 }
