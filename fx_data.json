@@ -1,29 +1,43 @@
 {
-  "timestamp": "2026-07-15T16:23:06.618624",
-  "generated": "2026年07月15日 16:23",
+  "timestamp": "2026-07-15T19:12:43.162450",
+  "generated": "2026年07月15日 19:12",
   "scores": {
     "USD": 1,
-    "JPY": 1,
-    "EUR": 0,
+    "JPY": -1,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
       "quote_score": 1
     },
     {
@@ -36,23 +50,9 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,6 +103,41 @@
     },
     {
       "source": "FXStreet",
+      "title": "Asia FX: Softer USD offset by high Oil – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect Asian FX to trade with a better tone after softer United States (US) co"
+    },
+    {
+      "source": "FXStreet",
+      "title": "$4,000 under siege: Buyers losing the battle on Gold",
+      "summary": "The US Dollar (USD) is under strong selling pressure on Wednesday, yet action around XAU/USD is muted."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold price slips as Iran escalation overshadows soft US PPI",
+      "summary": "The Gold price turns negative on Wednesday, even though the last two US inflation reports showed that prices are droppin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro elevates as softer US PPI weighs on the Dollar",
+      "summary": "EUR/USD trades higher near the 1.1450 area on Wednesday as the US Dollar (USD) weakens following softer-than-expected Un"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver slips as hawkish Fed outlook persists despite soft US inflation data",
+      "summary": "Silver (XAG/USD) trades on the back foot on Wednesday, struggling to capitalize on a weaker US Dollar (USD) as hawkish F"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Dow Jones Industrial Average toasts peak inflation, then drops the glass",
+      "summary": "The Dow Jones Industrial Average (DJIA) spent most of Wednesday rewarding the disinflation trade and the final two hours"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen strengthens modestly but remains near multi-decade lows",
+      "summary": "The Japanese Yen (JPY) holds modest gains against the US Dollar (USD) on Wednesday but struggles to extend its recovery "
+    },
+    {
+      "source": "FXStreet",
       "title": "Fed Chair Warsh: Inflation will not be permanent",
       "summary": "Federal Reserve (Fed) Chair Kevin Warsh said on Wednesday that current inflation pressure will not be permanent, while a"
     },
@@ -112,48 +147,13 @@
       "summary": "The Pound Sterling rises by some 0.60% against the US Dollar after the latest Producer Price Index (PPI) in the US showe"
     },
     {
-      "source": "FXStreet",
-      "title": "BoC's Macklem: Canadian Dollar weakness not a factor in rate decisions",
-      "summary": "The Bank of Canada (BoC) left its policy rate unchanged at 2.25% on Wednesday, as widely anticipated. Governor Tiff Mack"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold steadies as traders balance soft US inflation data against rising Oil prices",
-      "summary": "Gold (XAU/USD) steadies on Wednesday, erasing intraday losses after softer-than-expected US Producer Price Index (PPI) d"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed Chair Warsh: One-time change in prices isn't necessarily inflationary",
-      "summary": "Federal Reserve (Fed) Chair Kevin Warsh said on Wednesday that recent inflation figures provide an imperfect measure of "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Policy urgency and mixed data – BNY",
-      "summary": "BNY’s Geoff Yu highlights Japanese Prime Minister Sanae Takaichi’s warning that Japan must build a strong economy now, r"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar shows little reaction to Bank of Canada interest rate decision",
-      "summary": "USD/CAD trades flat on Wednesday as traders show a limited reaction to the latest Bank of Canada (BoC) monetary policy a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Energy risks cap upside against US Dollar – ING",
-      "summary": "Chris Turner at ING says EUR/USD rallied on softer US CPI but warns that rising Oil and European natural gas prices limi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Williams: June CPI consistent with progress on inflation",
-      "summary": "Federal Reserve (Fed) Bank of New York President John Williams said on Wednesday that the latest United States (US) Cons"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar rises amid softer US PPI",
-      "summary": "AUD/USD trades higher near the 0.7000 level on Wednesday as the Australian Dollar (AUD) benefits from broad US Dollar (U"
+      "source": "Investing",
+      "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
+      "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
+      "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
       "summary": ""
     }
   ],
@@ -192,40 +192,49 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar rises amid softer US PPI"
+      "[強気] $4,000 under siege: Buyers losing the battle on Gold",
+      "[弱気] Euro elevates as softer US PPI weighs on the Dollar",
+      "[弱気] Japanese Yen strengthens modestly but remains near mult"
     ],
     "JPY": [
-      "[強気] Japanese Yen: Policy urgency and mixed data – BNY"
+      "[弱気] Japanese Yen strengthens modestly but remains near mult"
+    ],
+    "EUR": [
+      "[弱気] Euro elevates as softer US PPI weighs on the Dollar"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)",
-      "[弱気] Australian Dollar rises amid softer US PPI"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Japanese Yen strengthens modestly but remains near mult"
     ]
   },
   "rates": {
     "US_FF": 3.63,
     "US_10Y": 4.62,
     "JP_10Y": 2.65,
-    "DE_10Y": null,
+    "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
-    "AU_10Y": null,
+    "AU_10Y": 4.99,
     "DIFF_USDJPY": 1.97,
-    "DIFF_GBPUSD": 0.32
+    "DIFF_EURUSD": -1.57,
+    "DIFF_GBPUSD": 0.32,
+    "DIFF_AUDUSD": 0.37
   },
   "prices": {
     "USDJPY": {
       "today_open": 162.26797,
-      "today_close": 162.16594,
+      "today_close": 162.03874,
       "prev_close": 162.27224,
-      "diff": -0.1063,
-      "diff_pct": -0.07
+      "diff": -0.2335,
+      "diff_pct": -0.14
     }
   }
 }
