@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-15T08:11:14.011446",
-  "generated": "2026年07月15日 08:11",
+  "timestamp": "2026-07-15T10:50:24.187689",
+  "generated": "2026年07月15日 10:50",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
-    "AUD": 0,
+    "EUR": 1,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ hawkish tone supports gains – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong highlight that the New Zealand Dollar (NZD) continues to outperform G10 peers,"
+      "title": "Canadian Dollar: BoC caution limits CAD losses against US Dollar – MUFG",
+      "summary": "MUFG’s Derek Halpenny reports that the Canadian Dollar (CAD) has benefited from weaker United States (US) Consumer Price"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee gains support as traders dial down hawkish Fed bets",
+      "title": "British Pound: Modest UK growth and Bailey’s cautious stance – TD Securities",
+      "summary": "TD Securities projects UK GDP to grow 0.1% month-on-month in May, led by services and strong retail sales, while manufac"
+    },
+    {
+      "source": "FXStreet",
+      "title": "BoC set to keep interest rates steady for sixth consecutive meeting",
+      "summary": "The Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25% on Wednesday. This would be the s"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro gives away gains as Eurozone Industrial Production disappoints",
+      "summary": "The Euro (EUR) has given away previous gains against the US Dollar (USD) on Wednesday, with the EUR/USD pair retreating "
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States: Cool CPI provides temporary relief for rates – DBS",
+      "summary": "DBS Group Research economist Samuel Tse and Senior Rates Strategist Eugene Leow analyse USD rates after softer June CPI "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee holds early support as traders trim hawkish Fed bets",
       "summary": "The Indian Rupee (INR) gains ground against the US Dollar (USD) on Wednesday after rising significantly in the last thre"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Bulls await breakout above 0.5840-0.5845 confluence on weaker USD",
-      "summary": "The NZD/USD pair holds steady above the 0.5800 mark through the early European session on Wednesday and, for now, seems "
+      "title": "Silver Price Forecast: XAG/USD drops to near $58 even as traders scale back hawkish Fed bets",
+      "summary": "Silver price (XAG/USD) is down 0.6% to near $58.00 during the European trading session on Wednesday."
     },
     {
       "source": "FXStreet",
-      "title": "Brent: Stable prices follow short squeeze – Rabobank",
-      "summary": "Rabobank strategist Michael Every notes Brent Oil holding steady around $85-86 per barrel after an aggressive short sque"
+      "title": "CEE FX: US inflation relief supports koruna and forint – ING",
+      "summary": "Frantisek Taborsky at ING says lower US inflation and reduced Fed hike expectations bring relief to CEE FX, despite high"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index Price Forecast: Remains below 101.00 near ascending channel bottom",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar strengthens to near 0.7000 as soft US CPI tempers Fed tightening bets",
-      "summary": "The AUD/USD pair gathers strength to around 0.6990 during the early European trading hours on Wednesday. The US Dollar ("
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro snaps three-day losing streak against Canadian Dollar, BoC policy eyed",
-      "summary": "The Euro (EUR) bounces back against the Canadian Dollar (CAD) after a three-day losing streak, trading 0.13% higher to n"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Advance stalled with neutral range view against US Dollar – UOB",
-      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann highlight that GBP/USD’s late-month advance has stalled, with the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Long positioning faces reality check – DBS",
-      "summary": "DBS Group Research economist Philip Wee warns that speculative long positions in the US Dollar (USD) look vulnerable aft"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold: Rebound needs softer Oil and data – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong report that Gold has rebounded from sub-4000 levels after softer United States"
+      "title": "Eurozone Industrial Production unexpectedly declines 0.2% in May",
+      "summary": "The Eurozone industrial sector activity declines by 0.2% in May, while it was expected to rise at the same pace, accordi"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin rebounds to near $65k as rate jitters ease; Iran tensions limit gains",
+      "title": "Bitcoin climbs near $65k as rate jitters ease; Iran tensions limit gains",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
       "summary": ""
     }
   ],
@@ -192,27 +192,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: RBNZ hawkish tone supports gains – ",
-      "[強気] Indian Rupee gains support as traders dial down hawkish",
-      "[弱気] NZD/USD Price Forecast: Bulls await breakout above 0.58",
-      "[強気] Australian Dollar strengthens to near 0.7000 as soft US"
+      "[弱気] Canadian Dollar: BoC caution limits CAD losses against ",
+      "[強気] Indian Rupee holds early support as traders trim hawkis",
+      "[強気] Silver Price Forecast: XAG/USD drops to near $58 even a"
     ],
     "EUR": [
-      "[弱気] NZD/USD Price Forecast: Bulls await breakout above 0.58",
-      "[強気] Australian Dollar strengthens to near 0.7000 as soft US"
+      "[強気] Silver Price Forecast: XAG/USD drops to near $58 even a"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound: Modest UK growth and Bailey’s cautious s"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)",
-      "[強気] Australian Dollar strengthens to near 0.7000 as soft US"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: RBNZ hawkish tone supports gains – ",
-      "[弱気] NZD/USD Price Forecast: Bulls await breakout above 0.58"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar: BoC caution limits CAD losses against "
     ]
   },
   "rates": {
@@ -230,10 +229,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.26797,
-      "today_close": 162.30151,
+      "today_close": 162.4143,
       "prev_close": 162.27224,
-      "diff": 0.0293,
-      "diff_pct": 0.02
+      "diff": 0.1421,
+      "diff_pct": 0.09
     }
   }
 }
