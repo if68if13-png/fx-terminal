@@ -1,57 +1,57 @@
 {
-  "timestamp": "2026-07-15T05:32:08.160784",
-  "generated": "2026年07月15日 05:32",
+  "timestamp": "2026-07-15T08:11:14.011446",
+  "generated": "2026年07月15日 08:11",
   "scores": {
-    "USD": 2,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 1,
-    "GBP": 3,
-    "AUD": -1,
+    "EUR": 0,
+    "GBP": 2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 3,
-      "quote_score": 2
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,52 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro edges higher against British Pound as oil surge lifts ECB rate expectations",
-      "summary": "The EUR/GBP cross gains momentum to near 0.8535 during the early European trading hours on Wednesday. Traders ramp up be"
+      "title": "New Zealand Dollar: RBNZ hawkish tone supports gains – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong highlight that the New Zealand Dollar (NZD) continues to outperform G10 peers,"
     },
     {
       "source": "FXStreet",
-      "title": "ECB's Kocher: Ready to take monetary policy action at any time if needed",
-      "summary": "European Central Bank (ECB) Governing Council member Martin Kocher said on Wednesday that the central bank prepared to i"
+      "title": "Indian Rupee gains support as traders dial down hawkish Fed bets",
+      "summary": "The Indian Rupee (INR) gains ground against the US Dollar (USD) on Wednesday after rising significantly in the last thre"
     },
     {
       "source": "FXStreet",
-      "title": "Gold remains depressed as bears shrug off weaker USD amid Fed hike bets",
-      "summary": "Gold (XAU/USD) sticks to modest intraday losses through the Asian session on Wednesday, though it lacks follow-through a"
+      "title": "NZD/USD Price Forecast: Bulls await breakout above 0.5840-0.5845 confluence on weaker USD",
+      "summary": "The NZD/USD pair holds steady above the 0.5800 mark through the early European session on Wednesday and, for now, seems "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound advances as US Dollar remains subdued following inflation data",
-      "summary": "GBP/USD rises for the second consecutive day, trading around 1.3400 during the Asian hours on Wednesday."
+      "title": "Brent: Stable prices follow short squeeze – Rabobank",
+      "summary": "Rabobank strategist Michael Every notes Brent Oil holding steady around $85-86 per barrel after an aggressive short sque"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Gains traction above 113.00, bullish trend stays firm above 100-day SMA",
-      "summary": "The AUD/JPY cross trades in positive territory around 113.25 during the early European trading hours on Wednesday. The J"
+      "title": "US Dollar Index Price Forecast: Remains below 101.00 near ascending channel bottom",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah firms after S&P Global reaffirms stable grade rating",
-      "summary": "USD/IDR loses ground for the second consecutive day, trading around 18,110 during the Asian hours on Wednesday. The pair"
+      "title": "Australian Dollar strengthens to near 0.7000 as soft US CPI tempers Fed tightening bets",
+      "summary": "The AUD/USD pair gathers strength to around 0.6990 during the early European trading hours on Wednesday. The US Dollar ("
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index stays below 101 as traders trim hawkish Fed bets",
-      "summary": "The US Dollar (USD) underperforms its major currency peers as traders have trimmed Federal Reserve (Fed) interest rate h"
+      "title": "Euro snaps three-day losing streak against Canadian Dollar, BoC policy eyed",
+      "summary": "The Euro (EUR) bounces back against the Canadian Dollar (CAD) after a three-day losing streak, trading 0.13% higher to n"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound: Advance stalled with neutral range view against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann highlight that GBP/USD’s late-month advance has stalled, with the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Long positioning faces reality check – DBS",
+      "summary": "DBS Group Research economist Philip Wee warns that speculative long positions in the US Dollar (USD) look vulnerable aft"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold: Rebound needs softer Oil and data – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong report that Gold has rebounded from sub-4000 levels after softer United States"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells MSTR shares worth $466.7M, made no bitcoin purchases",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "title": "Bitcoin rebounds to near $65k as rate jitters ease; Iran tensions limit gains",
       "summary": ""
     }
   ],
@@ -187,22 +192,27 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold remains depressed as bears shrug off weaker USD am",
-      "[強気] United States Dollar Index stays below 101 as traders t"
+      "[強気] New Zealand Dollar: RBNZ hawkish tone supports gains – ",
+      "[強気] Indian Rupee gains support as traders dial down hawkish",
+      "[弱気] NZD/USD Price Forecast: Bulls await breakout above 0.58",
+      "[強気] Australian Dollar strengthens to near 0.7000 as soft US"
     ],
     "EUR": [
-      "[強気] Euro edges higher against British Pound as oil surge li"
+      "[弱気] NZD/USD Price Forecast: Bulls await breakout above 0.58",
+      "[強気] Australian Dollar strengthens to near 0.7000 as soft US"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro edges higher against British Pound as oil surge li"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)",
+      "[強気] Australian Dollar strengthens to near 0.7000 as soft US"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar: RBNZ hawkish tone supports gains – ",
+      "[弱気] NZD/USD Price Forecast: Bulls await breakout above 0.58"
     ]
   },
   "rates": {
@@ -220,10 +230,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.26797,
-      "today_close": 162.21066,
+      "today_close": 162.30151,
       "prev_close": 162.27224,
-      "diff": -0.0616,
-      "diff_pct": -0.04
+      "diff": 0.0293,
+      "diff_pct": 0.02
     }
   }
 }
