@@ -1,44 +1,51 @@
 {
-  "timestamp": "2026-07-15T10:50:24.187689",
-  "generated": "2026年07月15日 10:50",
+  "timestamp": "2026-07-15T13:44:23.100445",
+  "generated": "2026年07月15日 13:44",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 1,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": -1,
+    "NZD": 3,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": 1,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -46,13 +53,6 @@
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC caution limits CAD losses against US Dollar – MUFG",
-      "summary": "MUFG’s Derek Halpenny reports that the Canadian Dollar (CAD) has benefited from weaker United States (US) Consumer Price"
+      "title": "United States annual producer inflation drops to 5.5% in June vs. 6.2% expected",
+      "summary": "Producer inflation in the United States, as measured by the change in the Producer Price Index (PPI), declined to 5.5% o"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Modest UK growth and Bailey’s cautious stance – TD Securities",
-      "summary": "TD Securities projects UK GDP to grow 0.1% month-on-month in May, led by services and strong retail sales, while manufac"
+      "title": "China: Growth outlook steady with policy support – Standard Chartered",
+      "summary": "Standard Chartered economists Hunter Chan and Shuang Ding note that China’s Q2 Gross Domestic Product (GDP) growth slowe"
     },
     {
       "source": "FXStreet",
-      "title": "BoC set to keep interest rates steady for sixth consecutive meeting",
+      "title": "Canadian Dollar: Tentative flow reversal before BoC – BNY",
+      "summary": "BNY’s Geoff Yu highlights that selling of Canadian Dollar (CAD) accounts has eased ahead of the Bank of Canada (BoC) mee"
+    },
+    {
+      "source": "FXStreet",
+      "title": "BoC expected to keep interest rates unchanged as inflation pressures remain contained",
       "summary": "The Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25% on Wednesday. This would be the s"
     },
     {
       "source": "FXStreet",
-      "title": "Euro gives away gains as Eurozone Industrial Production disappoints",
-      "summary": "The Euro (EUR) has given away previous gains against the US Dollar (USD) on Wednesday, with the EUR/USD pair retreating "
+      "title": "Norwegian Krone: Softer inflation but Norges Bank still hawkish – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights broad Norwegian Krone (NOK) underperformance after Norway’s unde"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Cool CPI provides temporary relief for rates – DBS",
-      "summary": "DBS Group Research economist Samuel Tse and Senior Rates Strategist Eugene Leow analyse USD rates after softer June CPI "
+      "title": "Gold eases as soft US CPI fails to dent the Fed's hawkish outlook",
+      "summary": "Gold (XAU/USD) trades on the back foot on Wednesday as the US Dollar (USD) and US Treasury yields rebound after coming u"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee holds early support as traders trim hawkish Fed bets",
+      "title": "US Dollar: Fed expectations weigh on Dollar – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes that softer US inflation has reduced expectations for Federal Reserve rate hikes and pr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound dips below 1.3400, turns negative on the day as US Dollar picks up",
+      "summary": "The British Pound (GBP) has retraced previous gains against the US Dollar (USD) on Wednesday, returning to the 1.3390 ar"
+    },
+    {
+      "source": "FXStreet",
+      "title": "NZD/USD Price Forecast: Holds onto Tuesday’s gains amid risk-on mood",
+      "summary": "The New Zealand Dollar (NZD) clings to Tuesday’s gains around 0.5820 during the European trading session on Wednesday. T"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee holds early ground as traders dial down hawkish Fed bets",
       "summary": "The Indian Rupee (INR) gains ground against the US Dollar (USD) on Wednesday after rising significantly in the last thre"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD drops to near $58 even as traders scale back hawkish Fed bets",
-      "summary": "Silver price (XAG/USD) is down 0.6% to near $58.00 during the European trading session on Wednesday."
-    },
-    {
-      "source": "FXStreet",
-      "title": "CEE FX: US inflation relief supports koruna and forint – ING",
-      "summary": "Frantisek Taborsky at ING says lower US inflation and reduced Fed hike expectations bring relief to CEE FX, despite high"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Eurozone Industrial Production unexpectedly declines 0.2% in May",
-      "summary": "The Eurozone industrial sector activity declines by 0.2% in May, while it was expected to rise at the same pace, accordi"
     },
     {
       "source": "Investing",
       "title": "Bitcoin climbs near $65k as rate jitters ease; Iran tensions limit gains",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
       "summary": ""
     }
   ],
@@ -192,26 +192,24 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar: BoC caution limits CAD losses against ",
-      "[強気] Indian Rupee holds early support as traders trim hawkis",
-      "[強気] Silver Price Forecast: XAG/USD drops to near $58 even a"
+      "[強気] Gold eases as soft US CPI fails to dent the Fed's hawki",
+      "[強気] US Dollar: Fed expectations weigh on Dollar – Commerzba",
+      "[強気] NZD/USD Price Forecast: Holds onto Tuesday’s gains amid",
+      "[強気] Indian Rupee holds early ground as traders dial down ha"
     ],
     "EUR": [
-      "[強気] Silver Price Forecast: XAG/USD drops to near $58 even a"
+      "[強気] NZD/USD Price Forecast: Holds onto Tuesday’s gains amid"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Modest UK growth and Bailey’s cautious s"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar: BoC caution limits CAD losses against "
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Holds onto Tuesday’s gains amid"
     ]
   },
   "rates": {
@@ -229,10 +227,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.26797,
-      "today_close": 162.4143,
+      "today_close": 162.22407,
       "prev_close": 162.27224,
-      "diff": 0.1421,
-      "diff_pct": 0.09
+      "diff": -0.0482,
+      "diff_pct": -0.03
     }
   }
 }
