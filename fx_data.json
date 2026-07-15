@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-15T13:44:23.100445",
-  "generated": "2026年07月15日 13:44",
+  "timestamp": "2026-07-15T16:23:06.618624",
+  "generated": "2026年07月15日 16:23",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 1,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 3,
+    "AUD": -2,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
+      "diff": -3,
+      "base_score": -2,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
       "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
       "base_score": 1,
-      "quote_score": 0
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States annual producer inflation drops to 5.5% in June vs. 6.2% expected",
-      "summary": "Producer inflation in the United States, as measured by the change in the Producer Price Index (PPI), declined to 5.5% o"
+      "title": "Fed Chair Warsh: Inflation will not be permanent",
+      "summary": "Federal Reserve (Fed) Chair Kevin Warsh said on Wednesday that current inflation pressure will not be permanent, while a"
     },
     {
       "source": "FXStreet",
-      "title": "China: Growth outlook steady with policy support – Standard Chartered",
-      "summary": "Standard Chartered economists Hunter Chan and Shuang Ding note that China’s Q2 Gross Domestic Product (GDP) growth slowe"
+      "title": "British Pound rallies as soft US PPI hits US Dollar",
+      "summary": "The Pound Sterling rises by some 0.60% against the US Dollar after the latest Producer Price Index (PPI) in the US showe"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Tentative flow reversal before BoC – BNY",
-      "summary": "BNY’s Geoff Yu highlights that selling of Canadian Dollar (CAD) accounts has eased ahead of the Bank of Canada (BoC) mee"
+      "title": "BoC's Macklem: Canadian Dollar weakness not a factor in rate decisions",
+      "summary": "The Bank of Canada (BoC) left its policy rate unchanged at 2.25% on Wednesday, as widely anticipated. Governor Tiff Mack"
     },
     {
       "source": "FXStreet",
-      "title": "BoC expected to keep interest rates unchanged as inflation pressures remain contained",
-      "summary": "The Bank of Canada (BoC) is widely expected to keep its policy rate unchanged at 2.25% on Wednesday. This would be the s"
+      "title": "Gold steadies as traders balance soft US inflation data against rising Oil prices",
+      "summary": "Gold (XAU/USD) steadies on Wednesday, erasing intraday losses after softer-than-expected US Producer Price Index (PPI) d"
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Softer inflation but Norges Bank still hawkish – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights broad Norwegian Krone (NOK) underperformance after Norway’s unde"
+      "title": "Fed Chair Warsh: One-time change in prices isn't necessarily inflationary",
+      "summary": "Federal Reserve (Fed) Chair Kevin Warsh said on Wednesday that recent inflation figures provide an imperfect measure of "
     },
     {
       "source": "FXStreet",
-      "title": "Gold eases as soft US CPI fails to dent the Fed's hawkish outlook",
-      "summary": "Gold (XAU/USD) trades on the back foot on Wednesday as the US Dollar (USD) and US Treasury yields rebound after coming u"
+      "title": "Japanese Yen: Policy urgency and mixed data – BNY",
+      "summary": "BNY’s Geoff Yu highlights Japanese Prime Minister Sanae Takaichi’s warning that Japan must build a strong economy now, r"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed expectations weigh on Dollar – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur notes that softer US inflation has reduced expectations for Federal Reserve rate hikes and pr"
+      "title": "Canadian Dollar shows little reaction to Bank of Canada interest rate decision",
+      "summary": "USD/CAD trades flat on Wednesday as traders show a limited reaction to the latest Bank of Canada (BoC) monetary policy a"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound dips below 1.3400, turns negative on the day as US Dollar picks up",
-      "summary": "The British Pound (GBP) has retraced previous gains against the US Dollar (USD) on Wednesday, returning to the 1.3390 ar"
+      "title": "Euro: Energy risks cap upside against US Dollar – ING",
+      "summary": "Chris Turner at ING says EUR/USD rallied on softer US CPI but warns that rising Oil and European natural gas prices limi"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Holds onto Tuesday’s gains amid risk-on mood",
-      "summary": "The New Zealand Dollar (NZD) clings to Tuesday’s gains around 0.5820 during the European trading session on Wednesday. T"
+      "title": "Fed’s Williams: June CPI consistent with progress on inflation",
+      "summary": "Federal Reserve (Fed) Bank of New York President John Williams said on Wednesday that the latest United States (US) Cons"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee holds early ground as traders dial down hawkish Fed bets",
-      "summary": "The Indian Rupee (INR) gains ground against the US Dollar (USD) on Wednesday after rising significantly in the last thre"
+      "title": "Australian Dollar rises amid softer US PPI",
+      "summary": "AUD/USD trades higher near the 0.7000 level on Wednesday as the Australian Dollar (AUD) benefits from broad US Dollar (U"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin climbs near $65k as rate jitters ease; Iran tensions limit gains",
+      "title": "Bitcoin climbs to $65k as PPI wholesale inflation falls; Iran tensions limit gains",
       "summary": ""
     }
   ],
@@ -192,45 +192,40 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold eases as soft US CPI fails to dent the Fed's hawki",
-      "[強気] US Dollar: Fed expectations weigh on Dollar – Commerzba",
-      "[強気] NZD/USD Price Forecast: Holds onto Tuesday’s gains amid",
-      "[強気] Indian Rupee holds early ground as traders dial down ha"
+      "[弱気] Australian Dollar rises amid softer US PPI"
     ],
-    "EUR": [
-      "[強気] NZD/USD Price Forecast: Holds onto Tuesday’s gains amid"
+    "JPY": [
+      "[強気] Japanese Yen: Policy urgency and mixed data – BNY"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)",
+      "[弱気] Australian Dollar rises amid softer US PPI"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Holds onto Tuesday’s gains amid"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
     "US_10Y": 4.62,
     "JP_10Y": 2.65,
-    "DE_10Y": 3.0465,
+    "DE_10Y": null,
     "GB_10Y": 4.9416,
-    "AU_10Y": 4.99,
+    "AU_10Y": null,
     "DIFF_USDJPY": 1.97,
-    "DIFF_EURUSD": -1.57,
-    "DIFF_GBPUSD": 0.32,
-    "DIFF_AUDUSD": 0.37
+    "DIFF_GBPUSD": 0.32
   },
   "prices": {
     "USDJPY": {
       "today_open": 162.26797,
-      "today_close": 162.22407,
+      "today_close": 162.16594,
       "prev_close": 162.27224,
-      "diff": -0.0482,
-      "diff_pct": -0.03
+      "diff": -0.1063,
+      "diff_pct": -0.07
     }
   }
 }
