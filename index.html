@@ -583,6 +583,11 @@ async function loadNotes(){
   renderNoteHistory();
 }
 
+async function persistNotes(message){
+  const result=await ghPutFile(NOTES_PATH, notesCache, notesSha, message);
+  notesSha=result.content.sha;
+}
+
 async function saveNote(){
   if(!getGhToken()){ setupNoteToken(); if(!getGhToken()) return; }
   const text=document.getElementById('note-textarea').value;
@@ -599,12 +604,28 @@ async function saveNote(){
   if(idx>=0) notesCache[idx]=entry; else notesCache.unshift(entry);
   notesCache.sort((a,b)=> a.date<b.date?1:-1);
   try{
-    const result=await ghPutFile(NOTES_PATH, notesCache, notesSha, `相場ノート更新 ${today}`);
-    notesSha=result.content.sha;
+    await persistNotes(`相場ノート更新 ${today}`);
     const msg=document.getElementById('note-save-msg');
     msg.style.display='block';
     setTimeout(()=>msg.style.display='none',2500);
     renderNoteHistory();
+  }catch(e){
+    if(e.message==='NO_TOKEN'){ setupNoteToken(); return; }
+    alert('保存に失敗しました: '+e.message);
+  }
+}
+
+async function saveOldNote(date){
+  if(!getGhToken()){ setupNoteToken(); if(!getGhToken()) return; }
+  const idx=notesCache.findIndex(n=>n.date===date);
+  if(idx<0) return;
+  const textEl=document.getElementById('note-edit-'+date);
+  if(!textEl) return;
+  notesCache[idx]={...notesCache[idx], text:textEl.value, updated:new Date().toISOString()};
+  try{
+    await persistNotes(`相場ノート更新 ${date}`);
+    const msgEl=document.getElementById('note-edit-msg-'+date);
+    if(msgEl){ msgEl.style.display='block'; setTimeout(()=>msgEl.style.display='none',2500); }
   }catch(e){
     if(e.message==='NO_TOKEN'){ setupNoteToken(); return; }
     alert('保存に失敗しました: '+e.message);
@@ -627,7 +648,9 @@ function renderNoteHistory(){
         <div style="color:#4a5568;font-size:.8rem" id="arr-${id}">▶</div>
       </div>
       <div id="${id}" style="display:none;margin-top:8px">
-        <div class="diary-text">${safeText}</div>
+        <textarea id="note-edit-${n.date}" rows="8" style="width:100%;min-height:160px;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:10px;font-size:.8rem;line-height:1.6;resize:vertical;font-family:inherit">${safeText}</textarea>
+        <button class="refresh-btn" style="margin-top:8px;width:100%" onclick="saveOldNote('${n.date}')">💾 更新を保存</button>
+        <div id="note-edit-msg-${n.date}" style="font-size:.7rem;color:#00ff88;margin-top:6px;display:none">✅ 保存しました</div>
         ${priceLine}
       </div>
     </div>`;
