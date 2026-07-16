@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-16T16:17:18.114227",
-  "generated": "2026年07月16日 16:17",
+  "timestamp": "2026-07-16T19:11:58.757667",
+  "generated": "2026年07月16日 19:11",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
+    "USD": 4,
+    "JPY": 1,
     "EUR": 1,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -97,19 +97,34 @@
       "summary": "Federal Reserve issues initial findings from its 2025 triennial payments study"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc."
+      "source": "FXStreet",
+      "title": "Gold loses track of $4,000, drops as Oil shock revives Fed bets",
+      "summary": "Gold price drops over 1.80% as tensions between the US and Iran fuel fears of a possible Oil supply disruption, driving "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound pulls back as solid US data revives the US Dollar",
-      "summary": "The Pound Sterling trims some of its Wednesday gains versus the US Dollar, dives by over 0.28% after solid US data and a"
+      "title": "British Pound: Dips against US Dollar seen as buying opportunity – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note GBP/USD is slightly weaker as it gives back part of yesterday"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro edges lower against the Japanese Yen despite ECB rate hike expectations",
+      "summary": "EUR/JPY trades around 185.80 at the time of writing on Thursday, little changed on the day after reaching a one-month hi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "NZD/USD Price Forecast: Buyers retain upper hand near one-month highs",
+      "summary": "NZD/USD fluctuates between minor gains and losses on Thursday as the Reserve Bank of New Zealand’s (RBNZ) hawkish stance"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound pulls back as solid US data revives the Greenback",
+      "summary": "The Pound Sterling trims some of its Wednesday gains versus the US Dollar, down by over 0.48% following solid US data. T"
     },
     {
       "source": "FXStreet",
       "title": "Crude Oil watches the Houthis aim at the last export route that still works",
-      "summary": "West Texas Intermediate (WTI) spent Thursday's European morning grinding down to 78.37 before ripping nearly two dollars"
+      "summary": "West Texas Intermediate (WTI) Oil spent Thursday's European morning grinding down to 78.37 before ripping nearly two dol"
     },
     {
       "source": "FXStreet",
@@ -127,33 +142,18 @@
       "summary": "AUD/USD trades slightly higher near the 0.7010 area on Thursday, extending its recent recovery as the US Dollar (USD) st"
     },
     {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Gains eye 1.3981 against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report USD/CAD is flat after the Bank of Canada (BoC) left policy "
-    },
-    {
-      "source": "FXStreet",
-      "title": "European Central Bank: Rate hike risk returns with Oil – ING",
-      "summary": "ING’s Carsten Brzeski argues that the European Central Bank is likely to keep rates unchanged next week but a surprise h"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: BoE hikes not seen bullish – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights that United Kingdom (UK) May Gross Domestic Product (GDP) slight"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The BoC holds at 2.25% and removes hike language: Why the Canadian Dollar could remain stuck",
-      "summary": "The Canadian Dollar (CAD) has entered a consolidation phase against the US Dollar (USD) following a volatile week."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Eurozone: Energy shock risks for  inflation – Rabobank",
-      "summary": "Rabobank’s Bas van Geffen says renewed US-Iran hostilities have shifted Eurozone inflation risks upward. June’s softer-t"
+      "source": "Investing",
+      "title": "Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions",
+      "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions",
+      "title": "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
       "summary": ""
     }
   ],
@@ -192,21 +192,25 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Buyers retain upper hand near o",
       "[強気] Gold tests $4,000 as energy-driven inflation fears keep"
     ],
+    "JPY": [
+      "[強気] Euro edges lower against the Japanese Yen despite ECB r"
+    ],
     "EUR": [
-      "[強気] European Central Bank: Rate hike risk returns with Oil "
+      "[強気] Euro edges lower against the Japanese Yen despite ECB r"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: BoE hikes not seen bullish – BBH"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Buyers retain upper hand near o"
     ]
   },
   "rates": {
@@ -224,10 +228,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.19713,
-      "today_close": 162.47254,
+      "today_close": 162.41505,
       "prev_close": 162.19604,
-      "diff": 0.2765,
-      "diff_pct": 0.17
+      "diff": 0.219,
+      "diff_pct": 0.14
     }
   }
 }
