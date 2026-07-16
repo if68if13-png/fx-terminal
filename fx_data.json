@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-07-16T05:41:36.507638",
-  "generated": "2026年07月16日 05:41",
+  "timestamp": "2026-07-16T11:01:30.864177",
+  "generated": "2026年07月16日 11:01",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
-    "CAD": 0,
+    "EUR": 2,
+    "GBP": 3,
+    "AUD": -2,
+    "NZD": 3,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
+      "diff": -5,
+      "base_score": -2,
       "quote_score": 3
     },
     {
@@ -27,32 +27,32 @@
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": 2,
       "quote_score": 3
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -103,38 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee extends decline amid elevated oil prices",
-      "summary": "The Indian Rupee (INR) opens lower against the US Dollar (USD), extending its losing streak for the third trading day on"
+      "title": "British Pound rallies to multi-month highs on reports of Mahmood appointment",
+      "summary": "The British Pound (GBP) has staged a broad-based rally across major currency pairs, hitting multi-month highs against bo"
     },
     {
       "source": "FXStreet",
-      "title": "Gold sticks to modest losses as energy-driven inflation fears revive hawkish Fed bets",
-      "summary": "Gold (XAU/USD) maintains its offered tone through the Asian session on Wednesday and currently trades near the previous "
+      "title": "Euro rises vs British Pound amid hawkish ECB comments, mixed UK economic data",
+      "summary": "EUR/GBP trades around 0.8485 on Thursday, up 0.24% at the time of writing, as investors digest a mixed batch of UK econo"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Maintains constructive uptrend above 1.3500 despite mild losses",
-      "summary": "The GBP/USD pair trades with mild losses around 1.3535 during the early European trading hours on Thursday."
+      "title": "Australian Dollar consolidates gains as dwindling Fed hiking hopes hurt the US Dollar",
+      "summary": "The Australian Dollar (AUD) trades practically flat against a weaker US Dollar (USD) on Thursday as investors pare back "
     },
     {
       "source": "FXStreet",
-      "title": "BoJ Quarterly Survey: 90.4% of Japanese households anticipate price increases in a year",
-      "summary": "The Bank of Japan (BoJ) quarterly survey in June showed on Thursday that 90.4% of Japanese households expect prices to r"
+      "title": "US Dollar: Losing more ground – ING",
+      "summary": "ING strategists Francesco Pesole, Frantisek Taborsky and Chris Turner note the Dollar remains under pressure after softe"
     },
     {
       "source": "FXStreet",
-      "title": "Euro consolidates near four-week top, above mid-1.1400s amid mixed Fed cues, geopolitics",
-      "summary": "The EUR/USD pair holds steady above the 1.1450 level during the Asian session on Thursday and consolidates its strong ga"
+      "title": "Euro remains stronger against Canadian Dollar following Eurozone Trade Balance data",
+      "summary": "EUR/CAD extends its gains for the second successive day, trading around 1.6100 during the European hours on Thursday."
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Declines below 113.50, while maintaining bullish near‑term structure",
-      "summary": "The AUD/JPY cross trades in negative territory around 113.45 during the early European trading hours on Thursday. Verbal"
+      "title": "New Zealand Dollar: Kiwi vulnerable to softer data – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes that the New Zealand Dollar has recovered about 2 cents since the latest rate hike, wit"
     },
     {
-      "source": "FXStreet",
-      "title": "Indonesian Rupiah weakens as higher oil import costs stretch the trade balance",
-      "summary": "USD/IDR gains ground after two days of losses, trading around 18,100 during the Asian hours on Thursday. The pair holds "
+      "source": "Investing",
+      "title": "Bitcoin muted at $64k as markets parse cooling rate jitters, Iran tensions",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -187,43 +187,46 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold sticks to modest losses as energy-driven inflation",
-      "[強気] Euro consolidates near four-week top, above mid-1.1400s",
-      "[弱気] Indonesian Rupiah weakens as higher oil import costs st"
+      "[弱気] Australian Dollar consolidates gains as dwindling Fed h",
+      "[強気] Euro remains stronger against Canadian Dollar following",
+      "[強気] New Zealand Dollar: Kiwi vulnerable to softer data – Co"
     ],
     "EUR": [
-      "[強気] Euro consolidates near four-week top, above mid-1.1400s"
+      "[強気] Euro rises vs British Pound amid hawkish ECB comments, ",
+      "[強気] Euro remains stronger against Canadian Dollar following"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Euro rises vs British Pound amid hawkish ECB comments, "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)",
+      "[弱気] Australian Dollar consolidates gains as dwindling Fed h"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar: Kiwi vulnerable to softer data – Co"
+    ],
+    "CAD": [
+      "[強気] Euro remains stronger against Canadian Dollar following"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
-    "US_10Y": 4.58,
+    "US_FF": null,
+    "US_10Y": null,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
-    "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.93,
-    "DIFF_EURUSD": -1.53,
-    "DIFF_GBPUSD": 0.36,
-    "DIFF_AUDUSD": 0.41
+    "AU_10Y": 4.99
   },
   "prices": {
     "USDJPY": {
       "today_open": 162.19713,
-      "today_close": 162.14131,
+      "today_close": 162.16125,
       "prev_close": 162.19604,
-      "diff": -0.0547,
-      "diff_pct": -0.03
+      "diff": -0.0348,
+      "diff_pct": -0.02
     }
   }
 }
