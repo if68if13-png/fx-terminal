@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-16T19:11:58.757667",
-  "generated": "2026年07月16日 19:11",
+  "timestamp": "2026-07-16T22:04:07.686430",
+  "generated": "2026年07月16日 22:04",
   "scores": {
     "USD": 4,
-    "JPY": 1,
+    "JPY": 0,
     "EUR": 1,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -22,9 +22,9 @@
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
+      "diff": 4,
       "base_score": 4,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -42,17 +42,17 @@
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 1,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,52 +98,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold loses track of $4,000, drops as Oil shock revives Fed bets",
-      "summary": "Gold price drops over 1.80% as tensions between the US and Iran fuel fears of a possible Oil supply disruption, driving "
+      "title": "GBP/JPY Price Forecast: Retreats from 18-year high, struggles at 220",
+      "summary": "The GBP/JPY retreats some 0.34% on Thursday after the pair reached a new 18-year high of 219.62 on Wednesday. Neverthele"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Dips against US Dollar seen as buying opportunity – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note GBP/USD is slightly weaker as it gives back part of yesterday"
+      "title": "Chinese Yuan: Upside bias toward 6.7600 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann highlight that USD/CNH downside momentum continues to build "
     },
     {
       "source": "FXStreet",
-      "title": "Euro edges lower against the Japanese Yen despite ECB rate hike expectations",
-      "summary": "EUR/JPY trades around 185.80 at the time of writing on Thursday, little changed on the day after reaching a one-month hi"
+      "title": "South Korean Won: Hawkish BoK and equity correction support – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the Korean Won (KRW) is outperforming, supported by a hawkish 25 bps "
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Buyers retain upper hand near one-month highs",
-      "summary": "NZD/USD fluctuates between minor gains and losses on Thursday as the Reserve Bank of New Zealand’s (RBNZ) hawkish stance"
+      "title": "Thai Baht: Overvaluation points to weakness against US Dollar - MUFG",
+      "summary": "MUFG’s Lloyd Chan notes that softer US inflation data has weakened the Dollar and lowered Fed rate hike expectations, bu"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound pulls back as solid US data revives the Greenback",
-      "summary": "The Pound Sterling trims some of its Wednesday gains versus the US Dollar, down by over 0.48% following solid US data. T"
+      "title": "Forex Today: US Dollar rises on resilient labor data, while Oil and Gold fall",
+      "summary": "The US Dollar Index (DXY) rises toward 100.80, gaining around 0.3% as stronger-than-expected United States labor-market "
     },
     {
       "source": "FXStreet",
-      "title": "Crude Oil watches the Houthis aim at the last export route that still works",
-      "summary": "West Texas Intermediate (WTI) Oil spent Thursday's European morning grinding down to 78.37 before ripping nearly two dol"
+      "title": "Singapore Dollar: Further upside risk builds against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD downside momentum has intensified after a "
     },
     {
       "source": "FXStreet",
-      "title": "Gold tests $4,000 as energy-driven inflation fears keep Fed rate hike bets in play",
-      "summary": "Gold (XAU/USD) edges lower on Thursday as traders look past back-to-back, softer-than-expected US inflation reports and "
+      "title": "Mexican Peso drops as risk aversion underpins the US Dollar",
+      "summary": "The Mexican Peso depreciated by about 0.30% on Thursday as market participants turned risk-averse amid an escalation of "
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc falls as Middle East tensions keep Fed rate hike expectations alive",
-      "summary": "The Swiss Franc (CHF) weakens against the US Dollar (USD) on Thursday as the Greenback regains its footing following a t"
+      "title": "Chinese Yuan: Gradual gains with capped upside against US Dollar – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that USD/CNY has extended its decline on softer United States ("
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar holds above 0.7000 as US Retail Sales lose momentum",
-      "summary": "AUD/USD trades slightly higher near the 0.7010 area on Thursday, extending its recent recovery as the US Dollar (USD) st"
+      "title": "Euro falls as strong US jobless claims support US Dollar",
+      "summary": "EUR/USD trades lower near the 1.1440 area on Thursday, retreating around 0.2% as the US Dollar (USD) gains support from "
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions",
+      "title": "Bitcoin dips amid slide in tech stocks, U.S.-Iran tensions, and hawkish rate cues",
       "summary": ""
     },
     {
@@ -192,14 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Buyers retain upper hand near o",
-      "[強気] Gold tests $4,000 as energy-driven inflation fears keep"
-    ],
-    "JPY": [
-      "[強気] Euro edges lower against the Japanese Yen despite ECB r"
+      "[強気] Forex Today: US Dollar rises on resilient labor data, w",
+      "[強気] Euro falls as strong US jobless claims support US Dolla"
     ],
     "EUR": [
-      "[強気] Euro edges lower against the Japanese Yen despite ECB r"
+      "[強気] Euro falls as strong US jobless claims support US Dolla"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,29 +206,28 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Buyers retain upper hand near o"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.58,
-    "JP_10Y": 2.65,
-    "DE_10Y": 3.0465,
-    "GB_10Y": 4.9416,
-    "AU_10Y": 4.99,
-    "DIFF_USDJPY": 1.93,
-    "DIFF_EURUSD": -1.53,
-    "DIFF_GBPUSD": 0.36,
-    "DIFF_AUDUSD": 0.41
+    "US_10Y": 4.55,
+    "JP_10Y": 2.67,
+    "DE_10Y": 2.97,
+    "GB_10Y": 4.796,
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 1.88,
+    "DIFF_EURUSD": -1.58,
+    "DIFF_GBPUSD": 0.25,
+    "DIFF_AUDUSD": 0.28
   },
   "prices": {
     "USDJPY": {
-      "today_open": 162.19713,
-      "today_close": 162.41505,
-      "prev_close": 162.19604,
-      "diff": 0.219,
-      "diff_pct": 0.14
+      "today_open": 162.37441,
+      "today_close": 162.33332,
+      "prev_close": 162.37882,
+      "diff": -0.0455,
+      "diff_pct": -0.03
     }
   }
 }
