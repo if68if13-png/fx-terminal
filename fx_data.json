@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-16T02:38:21.005449",
-  "generated": "2026年07月16日 02:38",
+  "timestamp": "2026-07-16T05:41:36.507638",
+  "generated": "2026年07月16日 05:41",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 1,
+    "EUR": 1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -14,44 +14,44 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index struggles near 100.50, multi-week low amid fading Fed hike bets",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, is seen consolidating around the 1"
+      "title": "Indian Rupee extends decline amid elevated oil prices",
+      "summary": "The Indian Rupee (INR) opens lower against the US Dollar (USD), extending its losing streak for the third trading day on"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen strengthens on intervention warning, cooling US inflation",
-      "summary": "The USD/JPY pair loses ground to near 162.15 during the Asian trading hours on Thursday. The Japanese Yen (JPY) strength"
+      "title": "Gold sticks to modest losses as energy-driven inflation fears revive hawkish Fed bets",
+      "summary": "Gold (XAU/USD) maintains its offered tone through the Asian session on Wednesday and currently trades near the previous "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls to near $57.00 amid Middle East tensions",
-      "summary": "Silver price (XAG/USD) extends its losses for the second successive day, trading around $57.00 per troy ounce during the"
+      "title": "GBP/USD Price Forecast: Maintains constructive uptrend above 1.3500 despite mild losses",
+      "summary": "The GBP/USD pair trades with mild losses around 1.3535 during the early European trading hours on Thursday."
     },
     {
       "source": "FXStreet",
-      "title": "British Pound weakens below 1.3550 on renewed US strikes on Iran",
-      "summary": "The GBP/USD pair declines to near 1.3530 during the early Asian session on Thursday. The British Pound (GBP) weakens aga"
+      "title": "BoJ Quarterly Survey: 90.4% of Japanese households anticipate price increases in a year",
+      "summary": "The Bank of Japan (BoJ) quarterly survey in June showed on Thursday that 90.4% of Japanese households expect prices to r"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar consolidates near four-week top vs USD; elevated oil prices favor bulls",
-      "summary": "The USD/CAD pair is seen oscillating in a range during the Asian session on Thursday and consolidating its recent losses"
+      "title": "Euro consolidates near four-week top, above mid-1.1400s amid mixed Fed cues, geopolitics",
+      "summary": "The EUR/USD pair holds steady above the 1.1450 level during the Asian session on Thursday and consolidates its strong ga"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7909 vs. 6.7910 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7909 comp"
+      "title": "AUD/JPY Price Forecast: Declines below 113.50, while maintaining bullish near‑term structure",
+      "summary": "The AUD/JPY cross trades in negative territory around 113.45 during the early European trading hours on Thursday. Verbal"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains subdued as Consumer Inflation Expectations fall in July",
-      "summary": "AUD/USD loses ground after two days of gains, trading around 0.7000 during the Asian hours on Thursday."
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar drops as Middle East conflict escalates",
-      "summary": "NZD/USD inches lower after two days of gains, trading around 0.5840 during the Asian hours on Thursday. Traders are adop"
+      "title": "Indonesian Rupiah weakens as higher oil import costs stretch the trade balance",
+      "summary": "USD/IDR gains ground after two days of losses, trading around 18,100 during the Asian hours on Thursday. The pair holds "
     },
     {
       "source": "Investing",
@@ -192,11 +187,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound weakens below 1.3550 on renewed US strike"
+      "[強気] Gold sticks to modest losses as energy-driven inflation",
+      "[強気] Euro consolidates near four-week top, above mid-1.1400s",
+      "[弱気] Indonesian Rupiah weakens as higher oil import costs st"
+    ],
+    "EUR": [
+      "[強気] Euro consolidates near four-week top, above mid-1.1400s"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound weakens below 1.3550 on renewed US strike"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -221,10 +220,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.19713,
-      "today_close": 162.10533,
+      "today_close": 162.14131,
       "prev_close": 162.19604,
-      "diff": -0.0907,
-      "diff_pct": -0.06
+      "diff": -0.0547,
+      "diff_pct": -0.03
     }
   }
 }
