@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-16T11:01:30.864177",
-  "generated": "2026年07月16日 11:01",
+  "timestamp": "2026-07-16T13:51:30.002047",
+  "generated": "2026年07月16日 13:51",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 2,
-    "GBP": 3,
-    "AUD": -2,
-    "NZD": 3,
-    "CAD": 1,
+    "EUR": 1,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -2,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,37 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound rallies to multi-month highs on reports of Mahmood appointment",
-      "summary": "The British Pound (GBP) has staged a broad-based rally across major currency pairs, hitting multi-month highs against bo"
+      "title": "British Pound: Fiscal tightrope shapes outlook – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that hopes of a fiscally conservative Chancellor under inc"
     },
     {
       "source": "FXStreet",
-      "title": "Euro rises vs British Pound amid hawkish ECB comments, mixed UK economic data",
-      "summary": "EUR/GBP trades around 0.8485 on Thursday, up 0.24% at the time of writing, as investors digest a mixed batch of UK econo"
+      "title": "British Pound eases against Yen after hitting highest level since 2007",
+      "summary": "GBP/JPY trades with a mild negative bias on Thursday, taking a breather after climbing to its highest level since Decemb"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar consolidates gains as dwindling Fed hiking hopes hurt the US Dollar",
-      "summary": "The Australian Dollar (AUD) trades practically flat against a weaker US Dollar (USD) on Thursday as investors pare back "
+      "title": "US Initial Jobless Claims dropped to 208K last week",
+      "summary": "According to a report from the US Department of Labor (DOL) released on Thursday, the number of US citizens submitting n"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Losing more ground – ING",
-      "summary": "ING strategists Francesco Pesole, Frantisek Taborsky and Chris Turner note the Dollar remains under pressure after softe"
+      "title": "US Dollar Index: Decline seen overdone – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US Dollar (USD) has steadied near a one‑month low after softer Un"
     },
     {
       "source": "FXStreet",
-      "title": "Euro remains stronger against Canadian Dollar following Eurozone Trade Balance data",
-      "summary": "EUR/CAD extends its gains for the second successive day, trading around 1.6100 during the European hours on Thursday."
+      "title": "Canadian Dollar: BoC hold and guidance shift – TD Securities",
+      "summary": "TD Securities notes the Bank of Canada (BoC) kept its policy rate at 2.25% and softened guidance by removing references "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: Kiwi vulnerable to softer data – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur notes that the New Zealand Dollar has recovered about 2 cents since the latest rate hike, wit"
+      "title": "European Central Bank: Hawkish hold bias – Rabobank",
+      "summary": "Rabobank’s Bas van Geffen expects the ECB to keep the deposit rate at 2.25% in July, judging a hike as a tail risk that "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro: Policy divergence and carry flows – BNY",
+      "summary": "BNY’s Geoff Yu says iFlow Carry is beginning to resemble its 2023 upswing. Neutral positioning in carry currencies, incl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver tumbles as energy-driven inflation fears keep rate outlook elevated",
+      "summary": "Silver (XAG/USD) falls toward $56.70 at the time of writing on Thursday, down 1.85% on the day. The white metal comes un"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin muted at $64k as markets parse cooling rate jitters, Iran tensions",
+      "title": "Bitcoin slips to $64.2k as markets parse cooling rate jitters, Iran tensions",
       "summary": ""
     },
     {
@@ -144,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,46 +192,44 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar consolidates gains as dwindling Fed h",
-      "[強気] Euro remains stronger against Canadian Dollar following",
-      "[強気] New Zealand Dollar: Kiwi vulnerable to softer data – Co"
+      "[弱気] Canadian Dollar: BoC hold and guidance shift – TD Secur"
     ],
     "EUR": [
-      "[強気] Euro rises vs British Pound amid hawkish ECB comments, ",
-      "[強気] Euro remains stronger against Canadian Dollar following"
+      "[強気] European Central Bank: Hawkish hold bias – Rabobank"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro rises vs British Pound amid hawkish ECB comments, "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)",
-      "[弱気] Australian Dollar consolidates gains as dwindling Fed h"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: Kiwi vulnerable to softer data – Co"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CAD": [
-      "[強気] Euro remains stronger against Canadian Dollar following"
+      "[弱気] Canadian Dollar: BoC hold and guidance shift – TD Secur"
     ]
   },
   "rates": {
-    "US_FF": null,
-    "US_10Y": null,
+    "US_FF": 3.63,
+    "US_10Y": 4.58,
     "JP_10Y": 2.65,
     "DE_10Y": 3.0465,
     "GB_10Y": 4.9416,
-    "AU_10Y": 4.99
+    "AU_10Y": 4.99,
+    "DIFF_USDJPY": 1.93,
+    "DIFF_EURUSD": -1.53,
+    "DIFF_GBPUSD": 0.36,
+    "DIFF_AUDUSD": 0.41
   },
   "prices": {
     "USDJPY": {
       "today_open": 162.19713,
-      "today_close": 162.16125,
+      "today_close": 162.29713,
       "prev_close": 162.19604,
-      "diff": -0.0348,
-      "diff_pct": -0.02
+      "diff": 0.1011,
+      "diff_pct": 0.06
     }
   }
 }
