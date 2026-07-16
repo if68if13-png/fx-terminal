@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import anthropic, json, datetime, os, re
+import anthropic, json, datetime, os, re, time
 
 ANALYSIS_DIR = os.environ.get("SAVE_DIR", os.path.dirname(os.path.abspath(__file__)))
 FX_DATA_JSON = os.path.join(ANALYSIS_DIR, "fx_data.json")
@@ -129,15 +129,27 @@ def build_prompt(data):
   "updated": "{today}"
 }}"""
 
-def get_outlook(data):
+def get_outlook(data, retries=3):
+    """Claude分析を取得。API一時エラーやJSON崩れに備えてリトライし、
+    それでも失敗したら例外を投げずNoneを返す（呼び出し側で前回データを維持する）。"""
     client = anthropic.Anthropic()
-    msg = client.messages.create(
-        model="claude-haiku-4-5-20251001",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": build_prompt(data)}]
-    )
-    raw = re.sub(r'```json|```', '', msg.content[0].text).strip()
-    return json.loads(raw)
+    last_err = None
+    for attempt in range(1, retries + 1):
+        try:
+            msg = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=4000,
+                messages=[{"role": "user", "content": build_prompt(data)}]
+            )
+            raw = re.sub(r'```json|```', '', msg.content[0].text).strip()
+            return json.loads(raw)
+        except Exception as e:
+            last_err = e
+            print(f"  ⚠️ 分析取得失敗 (試行{attempt}/{retries}): {e}")
+            if attempt < retries:
+                time.sleep(5 * attempt)
+    print(f"  ❌ {retries}回試しても分析を取得できませんでした: {last_err}")
+    return None
 
 def main():
     print("\n" + "="*50)
@@ -149,6 +161,9 @@ def main():
     print(f"  ニュース: {len(data.get('news',[]))}件 / COT: {len(data.get('cot',{}))}通貨")
     print("  Claude分析中...")
     outlook = get_outlook(data)
+    if outlook is None:
+        print("  ⚠️ 分析取得に失敗したため、既存のfx_outlook.jsonを維持して終了します（次回の自動更新で再試行されます）")
+        return
     os.makedirs(ANALYSIS_DIR, exist_ok=True)
     with open(OUTLOOK_JSON, "w", encoding="utf-8") as f:
         json.dump(outlook, f, ensure_ascii=False, indent=2)
