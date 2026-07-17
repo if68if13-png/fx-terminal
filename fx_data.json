@@ -1,37 +1,23 @@
 {
-  "timestamp": "2026-07-17T13:38:33.606623",
-  "generated": "2026年07月17日 13:38",
+  "timestamp": "2026-07-17T16:16:09.636641",
+  "generated": "2026年07月17日 16:16",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 1,
+    "AUD": -2,
+    "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": -2,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -98,52 +98,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "European gas: Prices stay elevated as supply tightens – Commerzbank",
-      "summary": "Norman Liebke at Commerzbank expects European gas prices to remain high in the near term, even if the Strait of Hormuz r"
+      "title": "Australian Dollar recovers as mixed US data weakens the US Dollar",
+      "summary": "AUD/USD trades higher near 0.6980 on Friday, recovering from an initial decline as the US Dollar (USD) loses ground foll"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Energy shock may delay renewed downtrend – MUFG",
-      "summary": "MUFG’s Derek Halpenny notes that ongoing Middle East conflict, stronger United States (US) data and crude Oil risks are "
+      "title": "British Pound: Burnham policy hopes underpin Sterling against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret notes GBP/USD is lower on the day and well off its one-year high reached on "
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: Under pressure against Euro but story intact – ING",
-      "summary": "ING’s Frantisek Taborsky reports a broad risk-off move in Central and Eastern Europe (CEE), with elevated Oil and higher"
+      "title": "Japanese Yen struggles as higher Oil prices and a wide US-Japan rate gap weigh",
+      "summary": "USD/JPY trades flat on Friday, holding near four-decade highs as the Japanese Yen struggles to attract buyers amid persi"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar weakens as US strikes on Iran fuel risk aversion",
-      "summary": "NZD/USD declines on Friday, trading around 0.5830 at the time of writing, down 0.19% on the day, as investors seek safe-"
+      "title": "Canada: Inflation divergence shapes BoC outlook – RBC",
+      "summary": "Royal Bank of Canada (RBC) economists Nathan Janzen and Abbey Xu expect Canada’s June Consumer Price Index to show headl"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank: September hike risk assessed – Societe Generale",
-      "summary": "Societe Generale’s Anatoli Anenkov expects no policy change at next week’s European Central Bank (ECB) meeting, with the"
+      "title": "US Dollar: Risk-off support and DXY downside risks – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret note the US Dollar (USD) is broadly firmer as risk aversion dominates, with "
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Sideways trading extends with 1.1480 holding bulls",
-      "summary": "The Euro (EUR) records mild losses against the US Dollar (USD) for the second consecutive day on Friday. The EUR/USD pai"
+      "title": "Swiss Franc holds gains against US Dollar as Middle East tensions outweigh upbeat US data",
+      "summary": "USD/CHF trades around 0.8070 at the time of writing on Friday, down 0.22% on the day. The pair remains under pressure as"
     },
     {
       "source": "FXStreet",
-      "title": "Gold steadies below $4,000 as hawkish Fed outlook caps recovery",
-      "summary": "Gold (XAU/USD) holds firm on Friday but lacks bullish momentum as rising Oil prices revive inflation concerns and reinfo"
+      "title": "Global FX: Divergent central bank paths and Oil – Wells Fargo",
+      "summary": "Wells Fargo Economics has raised its global Gross Domestic Product (GDP) forecast to 2.7% for 2026 and trimmed global Co"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Sterling rally against Euro looks stretched - TD Securities",
-      "summary": "TD Securities’ Macro Research team, led by Howard Du with contributions from Jayati Bharadwaj and Linda Cheng, argues th"
+      "title": "Fed’s Hammack: Persistently high inflation is the bigger concern",
+      "summary": "Federal Reserve (Fed) Bank of Cleveland President Beth Hammack said in a LinkedIn post on Friday that inflation pressure"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Steadies on risk-off flows – BBH",
-      "summary": "Brown Brothers Harriman’s Elias Haddad notes that the Dollar has recovered part of this week’s losses as a tech-led equi"
+      "title": "Euro: Modest pullback before ECB decision against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret report EUR/USD trading slightly lower in quiet conditions as markets look ah"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin dips below $63k as rate jitters, Iran tensions weigh",
+      "title": "Bitcoin slides below $63k as rate jitters, Iran tensions weigh",
       "summary": ""
     },
     {
@@ -192,20 +192,23 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: Energy shock may delay renewed downtrend – M",
-      "[弱気] New Zealand Dollar weakens as US strikes on Iran fuel r",
-      "[強気] Gold steadies below $4,000 as hawkish Fed outlook caps "
+      "[弱気] Australian Dollar recovers as mixed US data weakens the",
+      "[弱気] US Dollar: Risk-off support and DXY downside risks – Sc",
+      "[強気] Swiss Franc holds gains against US Dollar as Middle Eas"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)"
+      "[COT] 🟢ロング優勢 (ネット:+160,983)",
+      "[弱気] Australian Dollar recovers as mixed US data weakens the"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar weakens as US strikes on Iran fuel r"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc holds gains against US Dollar as Middle Eas"
     ]
   },
   "rates": {
@@ -223,10 +226,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.37441,
-      "today_close": 162.37284,
+      "today_close": 162.47455,
       "prev_close": 162.37882,
-      "diff": -0.006,
-      "diff_pct": -0.0
+      "diff": 0.0957,
+      "diff_pct": 0.06
     }
   }
 }
