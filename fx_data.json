@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-17T16:16:09.636641",
-  "generated": "2026年07月17日 16:16",
+  "timestamp": "2026-07-17T19:09:41.192972",
+  "generated": "2026年07月17日 19:09",
   "scores": {
     "USD": 1,
     "JPY": 0,
@@ -9,7 +9,7 @@
     "AUD": -2,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
@@ -98,6 +98,36 @@
     },
     {
       "source": "FXStreet",
+      "title": "Forecasting the coming week: ECB decision, UK inflation, and global PMIs to drive markets",
+      "summary": "The upcoming week will be dominated by the European Central Bank’s (ECB) interest rate decision, United Kingdom (UK) inf"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold climbs as Iran war premium revives Fed hike risk",
+      "summary": "Gold edges higher by some 0.92% on Friday as the US-Iran conflict boosted energy prices, which ultimately drive inflatio"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: Bulls pause below 0.8150 as momentum fades",
+      "summary": "USD/CHF trades with a downside bias on Friday as the Swiss Franc (CHF) outperforms its major peers, while the US Dollar "
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar Index holds as mixed US data limits upside",
+      "summary": "The US Dollar Index (DXY) trades nearly unchanged around 100.70 on Friday after surrendering part of its initial advance"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro steadies as markets weigh ECB and Fed interest rate expectations",
+      "summary": "EUR/USD trades flat on Friday as traders reassess the inflationary impact of surging Oil prices amid escalating tensions"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound slips for second straight day as Oil spike revives inflation fears",
+      "summary": "The Pound Sterling retreats during the North American session, down 0.22% against the Greenback, as geopolitical tension"
+    },
+    {
+      "source": "FXStreet",
       "title": "Australian Dollar recovers as mixed US data weakens the US Dollar",
       "summary": "AUD/USD trades higher near 0.6980 on Friday, recovering from an initial decline as the US Dollar (USD) loses ground foll"
     },
@@ -105,41 +135,6 @@
       "source": "FXStreet",
       "title": "British Pound: Burnham policy hopes underpin Sterling against US Dollar – Scotiabank",
       "summary": "Scotiabank’s Shaun Osborne and Eric Theoret notes GBP/USD is lower on the day and well off its one-year high reached on "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen struggles as higher Oil prices and a wide US-Japan rate gap weigh",
-      "summary": "USD/JPY trades flat on Friday, holding near four-decade highs as the Japanese Yen struggles to attract buyers amid persi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canada: Inflation divergence shapes BoC outlook – RBC",
-      "summary": "Royal Bank of Canada (RBC) economists Nathan Janzen and Abbey Xu expect Canada’s June Consumer Price Index to show headl"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Risk-off support and DXY downside risks – Scotiabank",
-      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret note the US Dollar (USD) is broadly firmer as risk aversion dominates, with "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc holds gains against US Dollar as Middle East tensions outweigh upbeat US data",
-      "summary": "USD/CHF trades around 0.8070 at the time of writing on Friday, down 0.22% on the day. The pair remains under pressure as"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Global FX: Divergent central bank paths and Oil – Wells Fargo",
-      "summary": "Wells Fargo Economics has raised its global Gross Domestic Product (GDP) forecast to 2.7% for 2026 and trimmed global Co"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Hammack: Persistently high inflation is the bigger concern",
-      "summary": "Federal Reserve (Fed) Bank of Cleveland President Beth Hammack said in a LinkedIn post on Friday that inflation pressure"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Modest pullback before ECB decision against US Dollar – Scotiabank",
-      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret report EUR/USD trading slightly lower in quiet conditions as markets look ah"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,9 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar recovers as mixed US data weakens the",
-      "[弱気] US Dollar: Risk-off support and DXY downside risks – Sc",
-      "[強気] Swiss Franc holds gains against US Dollar as Middle Eas"
+      "[弱気] Australian Dollar recovers as mixed US data weakens the"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,9 +204,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc holds gains against US Dollar as Middle Eas"
     ]
   },
   "rates": {
@@ -226,10 +221,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.37441,
-      "today_close": 162.47455,
+      "today_close": 162.44948,
       "prev_close": 162.37882,
-      "diff": 0.0957,
-      "diff_pct": 0.06
+      "diff": 0.0707,
+      "diff_pct": 0.04
     }
   }
 }
