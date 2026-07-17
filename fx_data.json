@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-17T19:09:41.192972",
-  "generated": "2026年07月17日 19:09",
+  "timestamp": "2026-07-17T21:54:54.225423",
+  "generated": "2026年07月17日 21:54",
   "scores": {
-    "USD": 1,
-    "JPY": 0,
+    "USD": 3,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
     },
     {
-      "pair": "EURUSD",
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
       "base_score": 0,
       "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 2,
       "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
@@ -98,6 +98,16 @@
     },
     {
       "source": "FXStreet",
+      "title": "Japanese Yen: Verbal intervention fails to move JPY against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret note USD/JPY is little changed despite strong verbal intervention from Finan"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Range trade holds near recent lows against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note USD/SGD has stabilised after an earlier sell-"
+    },
+    {
+      "source": "FXStreet",
       "title": "Forecasting the coming week: ECB decision, UK inflation, and global PMIs to drive markets",
       "summary": "The upcoming week will be dominated by the European Central Bank’s (ECB) interest rate decision, United Kingdom (UK) inf"
     },
@@ -122,19 +132,9 @@
       "summary": "EUR/USD trades flat on Friday as traders reassess the inflationary impact of surging Oil prices amid escalating tensions"
     },
     {
-      "source": "FXStreet",
-      "title": "British Pound slips for second straight day as Oil spike revives inflation fears",
-      "summary": "The Pound Sterling retreats during the North American session, down 0.22% against the Greenback, as geopolitical tension"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar recovers as mixed US data weakens the US Dollar",
-      "summary": "AUD/USD trades higher near 0.6980 on Friday, recovering from an initial decline as the US Dollar (USD) loses ground foll"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Burnham policy hopes underpin Sterling against US Dollar – Scotiabank",
-      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret notes GBP/USD is lower on the day and well off its one-year high reached on "
+      "source": "Investing",
+      "title": "Numerai Completes Third Strategic NMR Buyback, Bringing Total Repurchases to $3.2 Million",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -159,48 +159,51 @@
   ],
   "cot": {
     "CHF": {
-      "long": 107672,
-      "short": 74273,
-      "net": 33399,
+      "long": 108412,
+      "short": 73626,
+      "net": 34786,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 38402,
-      "short": 884,
-      "net": 37518,
+      "long": 38598,
+      "short": 414,
+      "net": 38184,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 20046,
+      "long": 20915,
       "short": 0,
-      "net": 20046,
+      "net": 20915,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 20046,
+      "long": 20915,
       "short": 0,
-      "net": 20046,
+      "net": 20915,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 204837,
-      "short": 43854,
-      "net": 160983,
+      "long": 208457,
+      "short": 49977,
+      "net": 158480,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar recovers as mixed US data weakens the"
+      "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+160,983)",
-      "[弱気] Australian Dollar recovers as mixed US data weakens the"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)",
+      "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -208,23 +211,23 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.55,
+    "US_10Y": 4.57,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.88,
-    "DIFF_EURUSD": -1.58,
-    "DIFF_GBPUSD": 0.25,
-    "DIFF_AUDUSD": 0.28
+    "DIFF_USDJPY": 1.9,
+    "DIFF_EURUSD": -1.6,
+    "DIFF_GBPUSD": 0.23,
+    "DIFF_AUDUSD": 0.26
   },
   "prices": {
     "USDJPY": {
-      "today_open": 162.37441,
-      "today_close": 162.44948,
-      "prev_close": 162.37882,
-      "diff": 0.0707,
-      "diff_pct": 0.04
+      "today_open": 162.411,
+      "today_close": 162.44626,
+      "prev_close": 162.41068,
+      "diff": 0.0356,
+      "diff_pct": 0.02
     }
   }
 }
