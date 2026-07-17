@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-17T02:40:33.905321",
-  "generated": "2026年07月17日 02:40",
+  "timestamp": "2026-07-17T05:43:06.372391",
+  "generated": "2026年07月17日 05:43",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,23 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -41,17 +48,10 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -98,28 +98,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls to near $55.50 amid interest rate concerns",
-      "summary": "Silver price (XAG/USD) remains subdued for the third successive day, trading around $55.50 per troy ounce during the Asi"
+      "title": "EUR/USD Price Forecast: Stays pressured below mid-1.1400s after failing near 200-SMA on H4",
+      "summary": "The EUR/USD pair ticks lower for the second straight day on Friday as energy-driven inflation fears revive US Federal Re"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7934 vs. 6.7909 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7934 compa"
+      "title": "Forex Today: US Dollar rebounds as US-Iran tensions flare up",
+      "summary": "Here is what you need to know on Friday, July 17:"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar rises amid sticky inflation fears, escalating Middle East tensions",
-      "summary": "NZD/USD inches higher after posting minor losses in the previous day, trading around 0.5840 during the Asian hours on Fr"
+      "title": "AUD/JPY Price Forecast: Softens below 113.50 on fresh intervention rhetoric, while staying bullish",
+      "summary": "The AUD/JPY cross trades in negative territory around 113.35 during the early European trading hours on Friday. Fears of"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index consolidates above 100.50 as traders look to Trump's speech",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, is seen oscillating in a narrow ra"
+      "title": "Canadian Dollar holds near one-month top as bullish oil offsets Fed hike bets and firm USD",
+      "summary": "The USD/CAD pair struggles to capitalize on the overnight bounce from the vicinity of the 1.4000 psychological mark, or "
     },
     {
       "source": "FXStreet",
-      "title": "Euro flatlines near 1.1450 amid renewed Hormuz hostilities",
-      "summary": "The EUR/USD pair holds steady around 1.1445 during the early Asian session on Friday. Traders continue to digest the dev"
+      "title": "Gold recovers from monthly low; hawkish Fed outlook and firm USD to limit gains",
+      "summary": "Gold (XAU/USD) attracts some buyers during the Asian session on Friday, reversing a part of the previous day's losses ba"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc steadies against Dollar as US-Iran tensions counter shifting Fed outlook",
+      "summary": "USD/CHF holds ground after registering modest gains in the previous day, trading around 0.8090 during the Asian hours on"
     },
     {
       "source": "Investing",
@@ -177,7 +182,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar rises amid sticky inflation fears, e"
+      "[強気] EUR/USD Price Forecast: Stays pressured below mid-1.140",
+      "[強気] Gold recovers from monthly low; hawkish Fed outlook and"
+    ],
+    "EUR": [
+      "[強気] EUR/USD Price Forecast: Stays pressured below mid-1.140"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -187,8 +196,7 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar rises amid sticky inflation fears, e"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -206,10 +214,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.37441,
-      "today_close": 162.42581,
+      "today_close": 162.37853,
       "prev_close": 162.37882,
-      "diff": 0.047,
-      "diff_pct": 0.03
+      "diff": -0.0003,
+      "diff_pct": -0.0
     }
   }
 }
