@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-07-17T05:43:06.372391",
-  "generated": "2026年07月17日 05:43",
+  "timestamp": "2026-07-17T08:10:27.902763",
+  "generated": "2026年07月17日 08:10",
   "scores": {
-    "USD": 4,
+    "USD": 0,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": -2,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": 0,
+    "NZD": 1,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -2,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "pair": "GBPUSD",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "EURJPY",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": -2,
+      "quote_score": 0
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +41,17 @@
       "quote_score": 0
     },
     {
-      "pair": "EURJPY",
+      "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -98,33 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Stays pressured below mid-1.1400s after failing near 200-SMA on H4",
-      "summary": "The EUR/USD pair ticks lower for the second straight day on Friday as energy-driven inflation fears revive US Federal Re"
+      "title": "Indian Rupee edges higher, elevated oil prices keep upside limited",
+      "summary": "The Indian Rupee (INR) opens marginally higher against the US Dollar (USD) while entering the weekend. The USD/INR pair "
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar rebounds as US-Iran tensions flare up",
-      "summary": "Here is what you need to know on Friday, July 17:"
+      "title": "Euro steadies against Canadian Dollar ahead of Eurozone HICP inflation data",
+      "summary": "EUR/CAD remains flat after experiencing volatility, trading around 1.6070 during the early European hours on Friday. The"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Softens below 113.50 on fresh intervention rhetoric, while staying bullish",
-      "summary": "The AUD/JPY cross trades in negative territory around 113.35 during the early European trading hours on Friday. Fears of"
+      "title": "British Pound: Pullback pauses within near-term range against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Christopher Wong note GBP/USD has corrected sharply from recen"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar holds near one-month top as bullish oil offsets Fed hike bets and firm USD",
-      "summary": "The USD/CAD pair struggles to capitalize on the overnight bounce from the vicinity of the 1.4000 psychological mark, or "
+      "title": "New Zealand Dollar declines below 0.5850 as US launches wave of strikes against Iran",
+      "summary": "The NZD/USD pair edges lower to around 0.5840 during the early European session on Friday. The New Zealand Dollar (NZD) "
     },
     {
       "source": "FXStreet",
-      "title": "Gold recovers from monthly low; hawkish Fed outlook and firm USD to limit gains",
-      "summary": "Gold (XAU/USD) attracts some buyers during the Asian session on Friday, reversing a part of the previous day's losses ba"
+      "title": "AUD/USD Price Forecast: More upside likely amid stabilization above 20-day EMA",
+      "summary": "The Australian Dollar (AUD) trades marginally lower against the US Dollar (USD) at around 0.6990 during the European tra"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc steadies against Dollar as US-Iran tensions counter shifting Fed outlook",
-      "summary": "USD/CHF holds ground after registering modest gains in the previous day, trading around 0.8090 during the Asian hours on"
+      "title": "Gold sticks to modest recovery gains near $4,000; not out of the woods amid Fed hike bets",
+      "summary": "Gold (XAU/USD) sticks to its modest recovery gains around the $4,000 psychological mark heading into the European sessio"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro: Looking for direction against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes EUR/USD is struggling for clear direction as the Iran conflict, Oil prices, and divergi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japan’s Katayama says no change in stance that BoJ decides specific monetary policy",
+      "summary": "Japan’s Finance Minister Satsuki Katayama said on Friday that there’s no change to the government's stance that specific"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin dips below $63k as rate jitters, Iran tensions weigh",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -139,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin heads for best day since mid-April as soft CPI data eases rate hike bets",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -182,11 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] EUR/USD Price Forecast: Stays pressured below mid-1.140",
-      "[強気] Gold recovers from monthly low; hawkish Fed outlook and"
+      "[弱気] Euro steadies against Canadian Dollar ahead of Eurozone",
+      "[弱気] New Zealand Dollar declines below 0.5850 as US launches"
     ],
     "EUR": [
-      "[強気] EUR/USD Price Forecast: Stays pressured below mid-1.140"
+      "[弱気] Euro steadies against Canadian Dollar ahead of Eurozone",
+      "[弱気] New Zealand Dollar declines below 0.5850 as US launches"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -196,7 +207,11 @@
       "[COT] 🟢ロング優勢 (ネット:+160,983)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar declines below 0.5850 as US launches"
+    ],
+    "CAD": [
+      "[弱気] Euro steadies against Canadian Dollar ahead of Eurozone"
     ]
   },
   "rates": {
@@ -214,10 +229,10 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.37441,
-      "today_close": 162.37853,
+      "today_close": 162.29003,
       "prev_close": 162.37882,
-      "diff": -0.0003,
-      "diff_pct": -0.0
+      "diff": -0.0888,
+      "diff_pct": -0.05
     }
   }
 }
