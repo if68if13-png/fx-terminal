@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-07-17T21:54:54.225423",
-  "generated": "2026年07月17日 21:54",
+  "timestamp": "2026-07-18T02:31:39.035182",
+  "generated": "2026年07月18日 02:31",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 1,
     "EUR": 0,
     "GBP": 2,
@@ -15,30 +15,30 @@
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
       "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
@@ -98,6 +98,16 @@
     },
     {
       "source": "FXStreet",
+      "title": "Chinese Yuan: Consolidation holds upside bias against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note that USD/CNH is currently consolidating in a "
+    },
+    {
+      "source": "FXStreet",
+      "title": "South Korea: Faster hiking path – DBS",
+      "summary": "DBS Group Research economist Ma Tieying analyzes the latest Bank of Korea (BoK) decision, noting a hawkish shift as the "
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen: Verbal intervention fails to move JPY against US Dollar – Scotiabank",
       "summary": "Scotiabank’s Shaun Osborne and Eric Theoret note USD/JPY is little changed despite strong verbal intervention from Finan"
     },
@@ -117,28 +127,13 @@
       "summary": "Gold edges higher by some 0.92% on Friday as the US-Iran conflict boosted energy prices, which ultimately drive inflatio"
     },
     {
-      "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Bulls pause below 0.8150 as momentum fades",
-      "summary": "USD/CHF trades with a downside bias on Friday as the Swiss Franc (CHF) outperforms its major peers, while the US Dollar "
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar Index holds as mixed US data limits upside",
-      "summary": "The US Dollar Index (DXY) trades nearly unchanged around 100.70 on Friday after surrendering part of its initial advance"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro steadies as markets weigh ECB and Fed interest rate expectations",
-      "summary": "EUR/USD trades flat on Friday as traders reassess the inflationary impact of surging Oil prices amid escalating tensions"
-    },
-    {
       "source": "Investing",
-      "title": "Numerai Completes Third Strategic NMR Buyback, Bringing Total Repurchases to $3.2 Million",
+      "title": "Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slides below $63k as rate jitters, Iran tensions weigh",
+      "title": "Numerai Completes Third Strategic NMR Buyback, Bringing Total Repurchases to $3.2 Million",
       "summary": ""
     },
     {
@@ -192,6 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Chinese Yuan: Consolidation holds upside bias against U",
       "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
     ],
     "JPY": [
@@ -224,10 +220,44 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.411,
-      "today_close": 162.44626,
+      "today_close": 162.41017,
       "prev_close": 162.41068,
-      "diff": 0.0356,
-      "diff_pct": 0.02
+      "diff": -0.0005,
+      "diff_pct": -0.0
+    }
+  },
+  "technicals": {
+    "USDJPY": {
+      "latest": 162.41017,
+      "sma20": 162.0419,
+      "sma50": 161.2157,
+      "sma200": 158.5159,
+      "vs_sma20": "上",
+      "vs_sma50": "上",
+      "vs_sma200": "上",
+      "rsi14": 50.9,
+      "high20": 162.8446,
+      "low20": 160.6012,
+      "high60": 162.8446,
+      "low60": 158.5851,
+      "chg5d_pct": -0.03,
+      "chg20d_pct": 0.41
+    },
+    "EURUSD": {
+      "latest": 1.14376,
+      "sma20": 1.1425,
+      "sma50": 1.1481,
+      "sma200": 1.1642,
+      "vs_sma20": "上",
+      "vs_sma50": "下",
+      "vs_sma200": "下",
+      "rsi14": 44.1,
+      "high20": 1.1482,
+      "low20": 1.1361,
+      "high60": 1.1686,
+      "low60": 1.1324,
+      "chg5d_pct": 0.5,
+      "chg20d_pct": 0.37
     }
   }
 }
