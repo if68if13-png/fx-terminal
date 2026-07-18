@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-18T07:50:49.587055",
-  "generated": "2026年07月18日 07:50",
+  "timestamp": "2026-07-18T10:18:49.080675",
+  "generated": "2026年07月18日 10:18",
   "scores": {
     "USD": 4,
     "JPY": 1,
@@ -142,11 +142,6 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin turns marginally lower as soft U.S. Inflation data offset by Iran tensions",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -220,17 +215,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.411,
-      "today_close": 162.40779,
+      "today_close": 162.41119,
       "prev_close": 162.41068,
-      "diff": -0.0029,
-      "diff_pct": -0.0
+      "diff": 0.0005,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.40779,
-      "sma20": 162.0417,
-      "sma50": 161.2156,
+      "latest": 162.41119,
+      "sma20": 162.0419,
+      "sma50": 161.2157,
       "sma200": 158.5159,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -244,7 +239,7 @@
       "chg20d_pct": 0.41
     },
     "EURUSD": {
-      "latest": 1.14382,
+      "latest": 1.14384,
       "sma20": 1.1425,
       "sma50": 1.1481,
       "sma200": 1.1642,
