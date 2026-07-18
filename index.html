@@ -37,6 +37,17 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
 .overall-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
 .overall-text{font-size:.9rem;color:#c9d1d9;line-height:1.5}
 .horizon-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.htab-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:10px}
+.htab{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:12px 8px;text-align:center;cursor:pointer;transition:.15s}
+.htab.active{border-color:#00d4ff;background:#00d4ff0d}
+.htab-label{font-size:.65rem;color:#4a5568;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+.htab-view{font-size:.85rem;font-weight:700}
+.htab-view.bull{color:#00d4ff}
+.htab-view.bear{color:#ff4466}
+.htab-view.neu{color:#888}
+.hdetail-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.hdetail-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.hdetail-text{font-size:.82rem;color:#c9d1d9;line-height:1.6}
 .hcard{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:12px 10px;text-align:center}
 .hlabel{font-size:.65rem;color:#4a5568;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
 .hview{font-size:.85rem;font-weight:700;margin-bottom:4px}
@@ -126,7 +137,8 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <div class="score-grid" id="clist"></div>
 
   <span class="slabel" style="margin-top:14px">💶 EUR/USD 目線</span>
-  <div id="eurusd-horizon"></div>
+  <div class="htab-row" id="eurusd-horizon-tabs"></div>
+  <div id="eurusd-horizon-detail"></div>
 
   <span class="slabel" style="margin-top:14px">🗓 今週の予定</span>
   <div class="today-bar" id="today-bar">
@@ -284,17 +296,44 @@ function renderReasons(d){
     items.push(...list.map(r=>'<div class="nitem"><span style="color:#00d4ff;font-size:.68rem">'+c+'</span> <span style="font-size:.75rem">'+r+'</span></div>'));
   document.getElementById('rlist').innerHTML=items.join('')||'<div style="color:#4a5568;font-size:.78rem">根拠データなし</div>';
 }
+let eurusdHorizonTab='long';
+function selectEurUsdHorizonTab(tab){
+  eurusdHorizonTab=tab;
+  renderEurUsdHorizonUI();
+}
 function renderEurUsdHorizon(outlook){
-  const el=document.getElementById('eurusd-horizon');
-  if(!el)return;
   const p=(outlook.pairs||{})['EURUSD']||{};
   const adminPairs=(window.ADMIN&&window.ADMIN.long_reasons)||{};
-  const lc=dirClass(p.long_view),mc=dirClass(p.mid_view),sc=dirClass(p.short_view);
-  const longReason=adminPairs['EURUSD']||p.long_reason||'';
-  el.innerHTML='<div class="horizon-grid">'
-    +'<div class="hcard"><div class="hlabel">長期</div><div class="hview '+lc+'">'+(p.long_view||'—')+'</div><div class="hreason">'+longReason+'</div></div>'
-    +'<div class="hcard"><div class="hlabel">中期 / 1ヶ月</div><div class="hview '+mc+'">'+(p.mid_view||'—')+'</div><div class="hreason">'+(p.mid_reason||'')+'</div></div>'
-    +'<div class="hcard"><div class="hlabel">短期 / 今週</div><div class="hview '+sc+'">'+(p.short_view||'—')+'</div><div class="hreason">'+(p.short_reason||'')+'</div></div>'
+  window.EURUSD_OUTLOOK={
+    long_view:p.long_view, long_reason: adminPairs['EURUSD']||p.long_reason||'',
+    mid_view:p.mid_view, mid_reason:p.mid_reason||'',
+    short_view:p.short_view, short_reason:p.short_reason||'',
+  };
+  renderEurUsdHorizonUI();
+}
+function renderEurUsdHorizonUI(){
+  const tabsEl=document.getElementById('eurusd-horizon-tabs');
+  const detailEl=document.getElementById('eurusd-horizon-detail');
+  if(!tabsEl||!detailEl) return;
+  const p=window.EURUSD_OUTLOOK||{};
+  const tabs=[
+    {key:'long',  label:'長期',        view:p.long_view,  reason:p.long_reason},
+    {key:'mid',   label:'中期 / 1ヶ月', view:p.mid_view,   reason:p.mid_reason},
+    {key:'short', label:'短期 / 今週',  view:p.short_view, reason:p.short_reason},
+  ];
+  tabsEl.innerHTML=tabs.map(t=>{
+    const cls=dirClass(t.view);
+    const arrow=cls==='bull'?'↑':cls==='bear'?'↓':'→';
+    const active=t.key===eurusdHorizonTab?' active':'';
+    return '<div class="htab'+active+'" onclick="selectEurUsdHorizonTab(\''+t.key+'\')">'
+      +'<div class="htab-label">'+t.label+'</div>'
+      +'<div class="htab-view '+cls+'">'+arrow+' '+(t.view||'—')+'</div>'
+      +'</div>';
+  }).join('');
+  const current=tabs.find(t=>t.key===eurusdHorizonTab)||tabs[0];
+  detailEl.innerHTML='<div class="hdetail-card">'
+    +'<div class="hdetail-label">'+current.label+'の根拠</div>'
+    +'<div class="hdetail-text">'+(current.reason||'根拠データなし')+'</div>'
     +'</div>';
 }
 function renderPairs(outlook,fdata){
