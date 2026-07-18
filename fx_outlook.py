@@ -4,7 +4,7 @@ import anthropic, json, datetime, os, re, time
 ANALYSIS_DIR = os.environ.get("SAVE_DIR", os.path.dirname(os.path.abspath(__file__)))
 FX_DATA_JSON = os.path.join(ANALYSIS_DIR, "fx_data.json")
 OUTLOOK_JSON = os.path.join(ANALYSIS_DIR, "fx_outlook.json")
-TARGET_PAIRS = ["USDJPY", "EURUSD", "GBPUSD", "AUDUSD", "WTI", "SP500"]
+TARGET_PAIRS = ["USDJPY", "EURUSD"]
 
 def load_fundamental_data():
     if not os.path.exists(FX_DATA_JSON):
@@ -20,13 +20,35 @@ def load_admin_data():
     with open(admin_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
+def format_technicals(technicals, pair):
+    t = technicals.get(pair)
+    if not t:
+        return "データ取得できず（次回自動更新まで方向感の判断は保留してください）"
+    parts = [f"現在値: {t.get('latest','—')}"]
+    if t.get("sma20") is not None:
+        parts.append(f"SMA20: {t['sma20']}（価格はSMA20の{t.get('vs_sma20','—')}）")
+    if t.get("sma50") is not None:
+        parts.append(f"SMA50: {t['sma50']}（価格はSMA50の{t.get('vs_sma50','—')}）")
+    if t.get("sma200") is not None:
+        parts.append(f"SMA200: {t['sma200']}（価格はSMA200の{t.get('vs_sma200','—')}）")
+    if t.get("rsi14") is not None:
+        parts.append(f"RSI(14): {t['rsi14']}")
+    if t.get("low20") is not None:
+        parts.append(f"直近20日レンジ: {t['low20']}〜{t['high20']}")
+    if t.get("low60") is not None:
+        parts.append(f"直近60日レンジ: {t['low60']}〜{t['high60']}")
+    if t.get("chg5d_pct") is not None:
+        parts.append(f"5日変化率: {t['chg5d_pct']:+.2f}%")
+    if t.get("chg20d_pct") is not None:
+        parts.append(f"20日変化率: {t['chg20d_pct']:+.2f}%")
+    return " / ".join(parts)
+
 def build_prompt(data):
     today = datetime.datetime.now().strftime("%Y年%m月%d日")
     news_text = "\n".join(f"- [{n.get('source','')}] {n.get('title','')} / {n.get('summary','')[:150]}" for n in data.get("news",[])[:20]) or "なし"
     cot_text = "\n".join(f"- {c}: net {d.get('net',0):+,} ({d.get('bias','')})" for c,d in data.get("cot",{}).items()) or "取得なし"
     scores = data.get("scores", {})
     score_text = "\n".join(f"- {c}: {s:+d}" for c,s in sorted(scores.items(), key=lambda x:-x[1]))
-    pair_text = "\n".join(f"- {p['pair']}: {p['direction']} (差{p.get('diff',0):+d})" for p in data.get("pairs",[]))
     admin = load_admin_data()
     fedwatch = admin.get("fedwatch", "")
     admin_text = f"FedWatch: {fedwatch}" if fedwatch else "（未入力）"
@@ -35,12 +57,11 @@ def build_prompt(data):
 - 米10年債: {rates.get('US_10Y','N/A')}%
 - 日本10年債: {rates.get('JP_10Y','N/A')}%
 - 独10年債: {rates.get('DE_10Y','N/A')}%
-- 英10年債: {rates.get('GB_10Y','N/A')}%
-- 豪10年債: {rates.get('AU_10Y','N/A')}%
 - USDJPY金利差(米-日): {rates.get('DIFF_USDJPY','N/A')}%
-- EURUSD金利差(独-米): {rates.get('DIFF_EURUSD','N/A')}%
-- GBPUSD金利差(英-米): {rates.get('DIFF_GBPUSD','N/A')}%
-- AUDUSD金利差(豪-米): {rates.get('DIFF_AUDUSD','N/A')}%"""
+- EURUSD金利差(独-米): {rates.get('DIFF_EURUSD','N/A')}%"""
+    technicals = data.get("technicals", {})
+    usdjpy_tech = format_technicals(technicals, "USDJPY")
+    eurusd_tech = format_technicals(technicals, "EURUSD")
     return f"""あなたはFXスイングトレード専門のシニアアナリストです。
 今日は{today}です。以下の実データをもとに分析してください。
 
@@ -59,10 +80,16 @@ def build_prompt(data):
 【実際の金利データ（FRED）】
 {rates_text}
 
-【ペア判定】
-{pair_text}
+【USD/JPY テクニカル指標】
+{usdjpy_tech}
 
-対象: USDJPY/EURUSD/GBPUSD/AUDUSD のスイングトレード向けに分析。WTI原油・S&P500についても長期/中期/短期の方向性を分析。
+【EUR/USD テクニカル指標】
+{eurusd_tech}
+
+overall・risk_mode・key_risk・cb_stanceは、上記のニュース・COT・金利データなどファンダメンタルズ全般を踏まえて判断してください。
+
+pairs（USDJPY, EURUSDの2つのみ）のlong_view/mid_view/short_viewとその根拠(reason)は、【テクニカル指標】のみを根拠にしてください。ニュースや金利差などのファンダメンタルズは考慮しないでください。目安として、長期(long)はSMA200との位置関係、中期(mid)はSMA50との位置関係と60日レンジ、短期(short)はSMA20・RSI(14)・直近20日レンジを中心に判断してください。reasonには根拠となった具体的な数値（SMA・RSIの値など）を必ず含めてください。
+
 以下のJSON形式のみで返答。説明文・マークダウン不要:
 
 {{
@@ -72,58 +99,24 @@ def build_prompt(data):
   "cb_stance": {{
     "FRB": "タカ派/中立/ハト派+理由(30字)",
     "BOJ": "タカ派/中立/ハト派+理由(30字)",
-    "ECB": "タカ派/中立/ハト派+理由(30字)",
-    "RBA": "タカ派/中立/ハト派+理由(30字)",
-    "BOE": "タカ派/中立/ハト派+理由(30字)"
+    "ECB": "タカ派/中立/ハト派+理由(30字)"
   }},
   "pairs": {{
     "USDJPY": {{
-      "long_view": "長期方向",
-      "long_reason": "根拠(50字)",
-      "mid_view": "中期方向",
-      "mid_reason": "根拠(50字)",
-      "short_view": "短期方向",
-      "short_reason": "根拠(50字)"
+      "long_view": "長期方向(テクニカル)",
+      "long_reason": "根拠(50字、SMA200等の数値を含める)",
+      "mid_view": "中期方向(テクニカル)",
+      "mid_reason": "根拠(50字、SMA50等の数値を含める)",
+      "short_view": "短期方向(テクニカル)",
+      "short_reason": "根拠(50字、SMA20・RSI等の数値を含める)"
     }},
     "EURUSD": {{
-      "long_view": "長期方向",
-      "long_reason": "根拠(50字)",
-      "mid_view": "中期方向",
-      "mid_reason": "根拠(50字)",
-      "short_view": "短期方向",
-      "short_reason": "根拠(50字)"
-    }},
-    "GBPUSD": {{
-      "long_view": "長期方向",
-      "long_reason": "根拠(50字)",
-      "mid_view": "中期方向",
-      "mid_reason": "根拠(50字)",
-      "short_view": "短期方向",
-      "short_reason": "根拠(50字)"
-    }},
-    "AUDUSD": {{
-      "long_view": "長期方向",
-      "long_reason": "根拠(50字)",
-      "mid_view": "中期方向",
-      "mid_reason": "根拠(50字)",
-      "short_view": "短期方向",
-      "short_reason": "根拠(50字)"
-    }},
-    "WTI": {{
-      "long_view": "長期方向",
-      "long_reason": "根拠(50字) ※原油需給・地政学・OPEC政策を考慮",
-      "mid_view": "中期方向",
-      "mid_reason": "根拠(50字)",
-      "short_view": "短期方向",
-      "short_reason": "根拠(50字)"
-    }},
-    "SP500": {{
-      "long_view": "長期方向",
-      "long_reason": "根拠(50字) ※FRB政策・企業業績・景気サイクルを考慮",
-      "mid_view": "中期方向",
-      "mid_reason": "根拠(50字)",
-      "short_view": "短期方向",
-      "short_reason": "根拠(50字)"
+      "long_view": "長期方向(テクニカル)",
+      "long_reason": "根拠(50字、SMA200等の数値を含める)",
+      "mid_view": "中期方向(テクニカル)",
+      "mid_reason": "根拠(50字、SMA50等の数値を含める)",
+      "short_view": "短期方向(テクニカル)",
+      "short_reason": "根拠(50字、SMA20・RSI等の数値を含める)"
     }}
   }},
   "updated": "{today}"

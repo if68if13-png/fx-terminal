@@ -166,7 +166,85 @@ def get_prices():
         print(f"  ⚠️ USDJPY価格取得失敗: {e}")
     return prices
 
-def save_all(news_items, cot, scores, reasons, judgments, rates={}, prices={}):
+def get_technicals():
+    """Twelve DataからUSD/JPY・EUR/USDの日足OHLCを取得し、
+    短期(SMA20)・中期(SMA50)・長期(SMA200)のテクニカル指標を算出。
+    短中長期分析(テクニカルベース)で使用。"""
+    api_key = os.environ.get("TWELVE_DATA_API_KEY", "")
+    if not api_key:
+        print("  ⚠️ TWELVE_DATA_API_KEY未設定")
+        return {}
+
+    symbols = {"USDJPY": "USD/JPY", "EURUSD": "EUR/USD"}
+    technicals = {}
+    import requests
+
+    def calc_rsi(closes_chrono, period=14):
+        # closes_chrono: 古い→新しい の順、period+1件以上必要
+        if len(closes_chrono) < period + 1:
+            return None
+        gains, losses = [], []
+        for i in range(1, period + 1):
+            diff = closes_chrono[i] - closes_chrono[i - 1]
+            gains.append(max(diff, 0))
+            losses.append(max(-diff, 0))
+        avg_gain = sum(gains) / period
+        avg_loss = sum(losses) / period
+        if avg_loss == 0:
+            return 100.0
+        rs = avg_gain / avg_loss
+        return round(100 - (100 / (1 + rs)), 1)
+
+    for key, symbol in symbols.items():
+        try:
+            r = requests.get("https://api.twelvedata.com/time_series", params={
+                "symbol":     symbol,
+                "interval":   "1day",
+                "outputsize": 210,
+                "apikey":     api_key,
+            }, timeout=15)
+            d = r.json()
+            vals = d.get("values", [])
+            if len(vals) < 30:
+                print(f"  ⚠️ {key} テクニカル: データ不足({len(vals)}件)")
+                continue
+
+            closes = [float(v["close"]) for v in vals]  # 新しい→古い
+            highs  = [float(v["high"])  for v in vals]
+            lows   = [float(v["low"])   for v in vals]
+            latest = closes[0]
+
+            def sma(n):
+                if len(closes) < n:
+                    return None
+                return round(sum(closes[:n]) / n, 4)
+
+            sma20, sma50, sma200 = sma(20), sma(50), sma(200)
+            rsi14 = calc_rsi(list(reversed(closes[:30])), 14)
+            high20, low20 = round(max(highs[:20]), 4), round(min(lows[:20]), 4)
+            high60, low60 = (round(max(highs[:60]), 4), round(min(lows[:60]), 4)) if len(highs) >= 60 else (None, None)
+
+            def vs_sma(sma_val):
+                if sma_val is None:
+                    return None
+                return "上" if latest > sma_val else "下"
+
+            technicals[key] = {
+                "latest": latest,
+                "sma20": sma20, "sma50": sma50, "sma200": sma200,
+                "vs_sma20": vs_sma(sma20), "vs_sma50": vs_sma(sma50), "vs_sma200": vs_sma(sma200),
+                "rsi14": rsi14,
+                "high20": high20, "low20": low20,
+                "high60": high60, "low60": low60,
+                "chg5d_pct":  round((latest - closes[5])  / closes[5]  * 100, 2) if len(closes) > 5  else None,
+                "chg20d_pct": round((latest - closes[20]) / closes[20] * 100, 2) if len(closes) > 20 else None,
+            }
+            print(f"  {key}: 終値{latest} RSI{rsi14} SMA20/50/200={sma20}/{sma50}/{sma200}")
+        except Exception as e:
+            print(f"  ⚠️ {key} テクニカル取得失敗: {e}")
+    return technicals
+
+def save_all(news_items, cot, scores, reasons, judgments, rates={}, prices={}, technicals={}):
     now = datetime.datetime.now()
     ts = now.strftime("%Y%m%d_%H%M")
     md = f"# FX分析レポート\n**生成:** {now.strftime('%Y年%m月%d日 %H:%M')}\n\n"
@@ -191,6 +269,7 @@ def save_all(news_items, cot, scores, reasons, judgments, rates={}, prices={}):
         "reasons": {cur: lst for cur, lst in reasons.items() if lst},
         "rates": rates,
         "prices": prices,
+        "technicals": technicals,
     }
     with open(f"{SAVE_DIR}/fx_data.json","w",encoding="utf-8") as f:
         json.dump(json_data, f, ensure_ascii=False, indent=2)
@@ -260,8 +339,10 @@ def main():
     judgments = judge(scores)
     print("💹 USD/JPY価格取得中...")
     prices = get_prices()
+    print("📐 テクニカル指標算出中...")
+    technicals = get_technicals()
     print("💾 保存中...")
-    path = save_all(news_data, cot, scores, reasons, judgments, rates, prices)
+    path = save_all(news_data, cot, scores, reasons, judgments, rates, prices, technicals)
     print("\n"+"="*50)
     for cur, s in sorted(scores.items(), key=lambda x: -x[1]):
         print(f"  {cur}: {'█'*abs(s)+'░'*(5-abs(s))} {s:+d}")
