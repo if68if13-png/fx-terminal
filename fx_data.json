@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-19T21:53:22.795793",
-  "generated": "2026年07月19日 21:53",
+  "timestamp": "2026-07-20T03:15:13.938894",
+  "generated": "2026年07月20日 03:15",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,33 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Consolidation holds upside bias against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note that USD/CNH is currently consolidating in a "
+      "title": "Silver Price Forecast: XAG/USD rises toward $57.00 despite Fed hike bets",
+      "summary": "Silver price (XAG/USD) gains ground for the second successive day, trading around $56.80 per troy ounce during the Asian"
     },
     {
       "source": "FXStreet",
-      "title": "South Korea: Faster hiking path – DBS",
-      "summary": "DBS Group Research economist Ma Tieying analyzes the latest Bank of Korea (BoK) decision, noting a hawkish shift as the "
+      "title": "United States Dollar Index struggles to lure buyers despite Iran tensions, Fed hike bets",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, struggles to capitalize on a modes"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Verbal intervention fails to move JPY against US Dollar – Scotiabank",
-      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret note USD/JPY is little changed despite strong verbal intervention from Finan"
+      "title": "Canadian Dollar edges higher to near 1.4000 as crude oil gains",
+      "summary": "The USD/CAD pair extends its downside to near 1.4005 during the Asian trading hours on Monday. Rising crude oil prices p"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range trade holds near recent lows against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note USD/SGD has stabilised after an earlier sell-"
+      "title": "Japanese Yen hangs near four-decade low as bears turn cautious amid intervention risks",
+      "summary": "The USD/JPY pair seesaws between tepid gains/minor losses during the Asian session on Monday and currently trades just b"
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the coming week: ECB decision, UK inflation, and global PMIs to drive markets",
-      "summary": "The upcoming week will be dominated by the European Central Bank’s (ECB) interest rate decision, United Kingdom (UK) inf"
+      "title": "New Zealand Dollar remains subdued following PBoC policy decision",
+      "summary": "NZD/USD remains in negative territory for the third consecutive day, trading around 0.5840 during the Asian hours on Mon"
     },
     {
       "source": "FXStreet",
-      "title": "Gold climbs as Iran war premium revives Fed hike risk",
-      "summary": "Gold edges higher by some 0.92% on Friday as the US-Iran conflict boosted energy prices, which ultimately drive inflatio"
+      "title": "PBOC sets USD/CNY reference rate at 6.7948 vs. 6.7934 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7948 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC holds Loan Prime Rates steady in July",
+      "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Mon"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro bulls remain on the sidelines as USD gains on US-Iran tensions and inflation fears",
+      "summary": "The EUR/USD pair kicks off the new week on a softer note, though it lacks follow-through selling, warranting caution bef"
     },
     {
       "source": "Investing",
@@ -181,20 +191,14 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Chinese Yuan: Consolidation holds upside bias against U",
-      "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)",
-      "[強気] Japanese Yen: Verbal intervention fails to move JPY aga"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -215,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.43392,
-      "today_close": 162.41692,
+      "today_close": 162.36167,
       "prev_close": 162.44271,
-      "diff": -0.0258,
-      "diff_pct": -0.02
+      "diff": -0.081,
+      "diff_pct": -0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.41692,
-      "sma20": 162.0591,
-      "sma50": 161.3406,
-      "sma200": 158.5747,
+      "latest": 162.36167,
+      "sma20": 162.0563,
+      "sma50": 161.3395,
+      "sma200": 158.5744,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -235,12 +239,12 @@
       "low20": 160.6012,
       "high60": 162.8446,
       "low60": 158.7112,
-      "chg5d_pct": 0.14,
-      "chg20d_pct": -0.1
+      "chg5d_pct": 0.1,
+      "chg20d_pct": -0.14
     },
     "EURUSD": {
-      "latest": 1.14354,
-      "sma20": 1.1426,
+      "latest": 1.14408,
+      "sma20": 1.1427,
       "sma50": 1.1472,
       "sma200": 1.1638,
       "vs_sma20": "上",
@@ -251,8 +255,8 @@
       "low20": 1.1361,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.24,
-      "chg20d_pct": 0.12
+      "chg5d_pct": -0.2,
+      "chg20d_pct": 0.17
     }
   }
 }
