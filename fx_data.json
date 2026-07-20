@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-20T16:24:07.683021",
-  "generated": "2026年07月20日 16:24",
+  "timestamp": "2026-07-20T19:44:16.023875",
+  "generated": "2026年07月20日 19:44",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,38 +98,33 @@
     },
     {
       "source": "FXStreet",
+      "title": "China: Chinese AI models challenge US-led economics – Deutsche Bank",
+      "summary": "Deutsche Bank strategists analyses China’s AI (Artificial intelligence) ecosystem, noting that Chinese models are rapidl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold edges lower as Middle East conflict boosts the US Dollar",
+      "summary": "Gold price edges down some 0.19% on Monday as hostilities between the US and Iran extended, following a short-lived truc"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Copper: Speculators rebuild longs on tight supply – TD Securities",
+      "summary": "TD Securities’ commodity strategy team highlights that, after a five‑week reduction in Copper longs, speculators have re"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar falls as softer Canadian inflation weighs on the Loonie",
+      "summary": "USD/CAD trades higher near the 1.4060 area on Monday, recovering from below 1.4000 as the Canadian Dollar (CAD) weakens "
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index advances as Middle East tensions drive demand",
+      "summary": "The US Dollar Index (DXY) edges higher on Monday as heightened tensions in the Middle East drive demand for the safe-hav"
+    },
+    {
+      "source": "FXStreet",
       "title": "Australian Dollar holds as PBOC stands firm",
       "summary": "AUD/USD trades around the 0.7000 area on Monday, holding near recent highs after recovering from last week’s decline."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro loses momentum as US Dollar recovers from intraday lows",
-      "summary": "EUR/USD edges lower on Monday after reversing earlier gains as markets swing between risk-on and risk-off sentiment. At "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen weakens as renewed Middle East tensions lift US Dollar",
-      "summary": "USD/JPY trades around 162.55 on Monday at the time of writing, up 0.10% on the day. After an initial pullback in the US "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Rate divergence weighs CAD against US Dollar – TD Securities",
-      "summary": "TD Securities strategists note that softer Canadian Consumer Price Index (CPI) is lifting USD/CAD as rate divergence rem"
-    },
-    {
-      "source": "FXStreet",
-      "title": "LatAm FX: Carry supports resilience against US Dollar - BNY",
-      "summary": "BNY’s Geoff Yu sees Latin American currencies underpinned by strong balance-of-payments positions and attractive carry, "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar: Carry and growth support potential rebound – HSBC",
-      "summary": "HSBC strategists argue AUD/USD has room to rise into 2027, supported by Australia’s relatively high cash and government "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold: Fed risks and Dollar strength cap upside – TD Securities",
-      "summary": "TD Securities’ commodity strategists, led by Bart Melek, note that Gold investors have sharply reduced long exposure as "
     },
     {
       "source": "Investing",
@@ -187,11 +182,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen weakens as renewed Middle East tensions li",
-      "[強気] LatAm FX: Carry supports resilience against US Dollar -"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen weakens as renewed Middle East tensions li"
+      "[弱気] Canadian Dollar falls as softer Canadian inflation weig"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -202,6 +193,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar falls as softer Canadian inflation weig"
     ]
   },
   "rates": {
@@ -219,18 +213,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.43392,
-      "today_close": 162.54586,
+      "today_close": 162.49016,
       "prev_close": 162.44271,
-      "diff": 0.1031,
-      "diff_pct": 0.06
+      "diff": 0.0474,
+      "diff_pct": 0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.54586,
-      "sma20": 162.0655,
-      "sma50": 161.3431,
-      "sma200": 158.5753,
+      "latest": 162.49016,
+      "sma20": 162.0628,
+      "sma50": 161.342,
+      "sma200": 158.575,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -239,11 +233,11 @@
       "low20": 160.6012,
       "high60": 162.8446,
       "low60": 158.7112,
-      "chg5d_pct": 0.22,
-      "chg20d_pct": -0.02
+      "chg5d_pct": 0.18,
+      "chg20d_pct": -0.06
     },
     "EURUSD": {
-      "latest": 1.14164,
+      "latest": 1.14172,
       "sma20": 1.1425,
       "sma50": 1.1471,
       "sma200": 1.1638,
@@ -255,8 +249,8 @@
       "low20": 1.1361,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.41,
-      "chg20d_pct": -0.05
+      "chg5d_pct": -0.4,
+      "chg20d_pct": -0.04
     }
   }
 }
