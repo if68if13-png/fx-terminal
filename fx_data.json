@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-20T09:14:48.020090",
-  "generated": "2026年07月20日 09:14",
+  "timestamp": "2026-07-20T14:06:55.350520",
+  "generated": "2026年07月20日 14:06",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
-    "EUR": -2,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,25 +13,25 @@
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -41,18 +41,18 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,62 +98,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Forms Symmetrical Triangle near multi-decade highs",
-      "summary": "The Japanese Yen (JPY) trades marginally higher against the US Dollar (USD) during the European trading session on Monda"
+      "title": "Australian Dollar: Labor data seen reinforcing RBA pause – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects Australia’s June labor force report to show a modest 15k job gain a"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Energy and spreads shape near-term path – ING",
-      "summary": "ING’s Chris Turner highlights that with Brent above $90, EUR/USD might normally trade below 1.14, but tighter correlatio"
+      "title": "New Zealand Dollar: RBNZ tightening cycle underpins Kiwi – HSBC",
+      "summary": "HSBC strategists see NZD/USD supported by New Zealand’s strengthening growth data and an aggressive Reserve Bank of New "
     },
     {
       "source": "FXStreet",
-      "title": "Gold bulls seem hesitant as reviving Fed hike bets counter USD weakness",
-      "summary": "Gold (XAU/USD) sticks to its modest intraday gains through the first half of the European session on Monday amid a softe"
+      "title": "Silver climbs near $57 despite renewed Fed rate hike expectations",
+      "summary": "Silver (XAG/USD) advances toward $56.90 per troy ounce on Monday at the time of writing, gaining 1.6% on the day. The pr"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar holds near monthly highs with Inflation data in the spotlight",
-      "summary": "The Canadian Dollar (CAD) holds gains near one-month highs against the US Dollar (USD) on Monday."
+      "title": "Euro: Policy divergence supports gains against US Dollar - DBS",
+      "summary": "DBS Group Research’s Philip Wee argues that the Euro (EUR) may find support in coming weeks as markets reassess geopolit"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc remains on the front foot against USD as traders eyes geopolitics, Fed bets",
-      "summary": "The USD/CHF pair turns lower for the second straight day following an intraday uptick to the 0.8100 neighborhood and tou"
+      "title": "Breaking: Canada's headline CPI rose by 2.8% YoY in June",
+      "summary": "Canada’s inflation has cooled a tad in June, with the Consumer Price Index (CPI) rising 2.8% from a year earlier, coming"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Soft inflation supports extended BoC pause – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad looks for Canada June headline Consumer Price Index (CPI) to slow to 2.9% y"
+      "title": "Norwegian Krone: Range trading view holds against Euro – Rabobank",
+      "summary": "Rabobank’s Jane Foley notes that softer Norwegian inflation has tempered expectations for further Norges Bank tightening"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gains as Andy Burnham to become new Prime Minister",
-      "summary": "GBP/USD gains ground after two days of losses, trading around 1.3470 during the European hours on Monday."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Brent: Geopolitical risks drive the biggest gain since April – Deutsche Bank",
-      "summary": "Deutsche Bank strategists highlight a sharp rebound in Brent Oil as US–Iran tensions escalate, with Brent posting its bi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar looks to build on strength above 0.7000 vs a weaker USD",
-      "summary": "The AUD/USD pair hits a fresh daily high during the early part of the European session on Monday, with bulls now looking"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar: Uptrend risk intact above 0.6950 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes AUD/USD slipped below prior consolidation but still trades within 0.69"
+      "title": "European Central Bank: Oil risks support a September rate hike – Commerzbank",
+      "summary": "Commerzbank’s rates team expects higher oil prices and weak growth signals to shape Thursday’s European Central Bank (EC"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin down slightly to $64k with Iran tensions, rate jitters in focus",
+      "title": "Bitcoin little-changed at $64k with Iran tensions, rate jitters in focus",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells MSTR shares, holds 843,775 bitcoin as of July 19, made no bitcoin purchases",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,22 +187,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold bulls seem hesitant as reviving Fed hike bets coun",
-      "[弱気] Australian Dollar looks to build on strength above 0.70",
-      "[強気] Australian Dollar: Uptrend risk intact above 0.6950 aga"
-    ],
-    "EUR": [
-      "[弱気] Gold bulls seem hesitant as reviving Fed hike bets coun",
-      "[弱気] Australian Dollar looks to build on strength above 0.70"
+      "[強気] Silver climbs near $57 despite renewed Fed rate hike ex"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)",
-      "[弱気] Australian Dollar looks to build on strength above 0.70",
-      "[強気] Australian Dollar: Uptrend risk intact above 0.6950 aga"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -228,18 +215,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.43392,
-      "today_close": 162.38628,
+      "today_close": 162.48613,
       "prev_close": 162.44271,
-      "diff": -0.0564,
-      "diff_pct": -0.03
+      "diff": 0.0434,
+      "diff_pct": 0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.38628,
-      "sma20": 162.0576,
-      "sma50": 161.3399,
-      "sma200": 158.5745,
+      "latest": 162.48613,
+      "sma20": 162.0626,
+      "sma50": 161.3419,
+      "sma200": 158.575,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -248,15 +235,15 @@
       "low20": 160.6012,
       "high60": 162.8446,
       "low60": 158.7112,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": -0.12
+      "chg5d_pct": 0.18,
+      "chg20d_pct": -0.06
     },
     "EURUSD": {
-      "latest": 1.14349,
-      "sma20": 1.1426,
-      "sma50": 1.1472,
+      "latest": 1.14158,
+      "sma20": 1.1425,
+      "sma50": 1.1471,
       "sma200": 1.1638,
-      "vs_sma20": "上",
+      "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 45.5,
@@ -264,8 +251,8 @@
       "low20": 1.1361,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.25,
-      "chg20d_pct": 0.11
+      "chg5d_pct": -0.41,
+      "chg20d_pct": -0.05
     }
   }
 }
