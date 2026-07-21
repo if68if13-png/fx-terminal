@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-21T05:51:42.187527",
-  "generated": "2026年07月21日 05:51",
+  "timestamp": "2026-07-21T08:29:42.161080",
+  "generated": "2026年07月21日 08:29",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 1,
+    "JPY": -1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -98,23 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee gains on Middle East peace hopes",
+      "title": "UK PM Burnham’s first fiscal policy pledge comes on trial",
+      "summary": "A statement from United Kingdom (UK) lawmaker Darren Jones, an ally of former prime minister (PM) Keir Starmer, that the"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen weakens against US Dollar despite easing risk aversion",
+      "summary": "USD/JPY gains ground for the fourth successive day, trading around 162.60 during the European hours on Tuesday. Japanese"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc ticks up, but US Dollar dips remain contained amid risk-off markets",
+      "summary": "The Swiss Franc (CHF) has trimmed some losses against the US Dollar (USD) on Tuesday, as USD/CHF bulls failed to find ac"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar struggles to extend rebound as focus remains on Middle East",
+      "summary": "Here is what you need to know on Tuesday, July 21:"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen: Pressured within 161.30–163.00 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang sees USD/JPY holding a firmer tone, with intraday action likely confined to "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee rebounds as oil prices correct on Mideast peace hopes",
       "summary": "The Indian Rupee (INR) opens higher against the US Dollar on Tuesday. The USD/INR pair corrects to near 96.34 from its t"
     },
     {
       "source": "FXStreet",
-      "title": "WTI declines toward $82.00 as traders digest US-Iran developments",
-      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $82.00 during the early European trading ho"
+      "title": "Euro rebounds from multi-day low as carry trade undermines JPY; focus remains on ECB",
+      "summary": "The EUR/JPY cross attracts some dip-buyers on Tuesday, snapping a three-day losing streak and stalling its recent retrac"
     },
     {
       "source": "FXStreet",
-      "title": "Gold looks to build on strength beyond $4,050 as subdued USD demand counters Fed hike bets",
-      "summary": "Gold (XAU/USD) builds on Asian session gains and spikes to a multi-day high above the $4,050 level in the last hour, tho"
+      "title": "British Pound: Rally seen fading against Euro – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong flag renewed United Kingdom (UK) fiscal concerns under Prime Minister Andy Bur"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Gains ground above 113.50, bullish trend holds above 100-day SMA",
-      "summary": "The AUD/JPY cross trades in positive territory around 113.85 during the early European session on Tuesday. The Australia"
+      "title": "AUD/USD Price Forecast: Further upside likely towards 0.7100",
+      "summary": "The Australian Dollar (AUD) outperforms its major currency peers, trading 0.28% higher to near 0.7018 against the US Dol"
     },
     {
       "source": "Investing",
@@ -124,11 +149,6 @@
     {
       "source": "Investing",
       "title": "Strategy sells MSTR shares, holds 843,775 bitcoin as of July 19, made no bitcoin purchases",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat for the week as rate concerns, Iran tensions offset inflation data",
       "summary": ""
     },
     {
@@ -171,7 +191,14 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Japanese Yen weakens against US Dollar despite easing r"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen weakens against US Dollar despite easing r"
+    ],
+    "EUR": [
+      "[弱気] Japanese Yen weakens against US Dollar despite easing r"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -199,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.50647,
-      "today_close": 162.49229,
+      "today_close": 162.65671,
       "prev_close": 162.50821,
-      "diff": -0.0159,
-      "diff_pct": -0.01
+      "diff": 0.1485,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.49229,
-      "sma20": 162.0579,
-      "sma50": 161.3987,
-      "sma200": 158.604,
+      "latest": 162.65671,
+      "sma20": 162.0661,
+      "sma50": 161.402,
+      "sma200": 158.6049,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -219,12 +246,12 @@
       "low20": 160.6012,
       "high60": 162.8446,
       "low60": 158.7112,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": -0.07
+      "chg5d_pct": 0.17,
+      "chg20d_pct": 0.03
     },
     "EURUSD": {
-      "latest": 1.14193,
-      "sma20": 1.1427,
+      "latest": 1.14241,
+      "sma20": 1.1428,
       "sma50": 1.1467,
       "sma200": 1.1637,
       "vs_sma20": "下",
@@ -235,8 +262,8 @@
       "low20": 1.1375,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.21,
-      "chg20d_pct": 0.36
+      "chg5d_pct": -0.17,
+      "chg20d_pct": 0.4
     }
   }
 }
