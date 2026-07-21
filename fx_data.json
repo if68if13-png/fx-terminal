@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-21T16:22:59.000019",
-  "generated": "2026年07月21日 16:22",
+  "timestamp": "2026-07-21T19:22:58.561341",
+  "generated": "2026年07月21日 19:22",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 2,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,43 +15,43 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -98,43 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "India: Weather-driven inflation risks – Standard Chartered",
-      "summary": "Standard Chartered Bank economist Saurav Anand highlights rising inflation risks for India as deficient monsoon rains an"
+      "title": "Gold price rallies amid Gulf war strikes, strong US Dollar",
+      "summary": "Gold price surges on Tuesday during the North American session, up by more than 1.50% amid continued missile strikes bet"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY climbs above 163.00 for the first time since 1986",
-      "summary": "USD/JPY trades higher near 163.00 on Tuesday after briefly reaching 163.04, marking its first move above the 163.00 leve"
+      "title": "United States Dollar Index hits one-week high as US-Iran tensions intensify",
+      "summary": "The US Dollar Index (DXY) extends its gains on Tuesday as renewed tensions between the United States and Iran show no si"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar retreats from a monthly high",
-      "summary": "AUD/USD trades lower near the 0.7010 area on Tuesday, although the pair has retreated from its four-week high. The Austr"
+      "title": "Indonesian Rupiah: Tentative stabilisation with key levels against US Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong see USD/IDR easing modestly from recent highs, helped by S&amp;P’s rating affi"
     },
     {
       "source": "FXStreet",
-      "title": "Euro slips as war boosts US Dollar despite upbeat ZEW surveys",
-      "summary": "EUR/USD edges lower on Tuesday as the US Dollar (USD) strengthens amid continued strikes between the US and Iran. At the"
+      "title": "Singapore Dollar: Range-bound trading holds near-term against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang expects USD/SGD to stay confined to tight ranges in the near term, with intr"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Tariff shock weighs as Trump raises duties – BNY",
-      "summary": "BNY’s Geoff Yu explains that new 50% U.S. tariffs on selected Canadian goods are a direct trade shock, with Washington c"
+      "title": "British Pound: Fiscal shield tests gilt and FX credibility – BNY",
+      "summary": "BNY’s Geoff Yu argues that Prime Minister Andy Burnham’s removal of Value Added Tax (VAT) on household electricity is a "
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Range-bound against US Dollar ahead of ECB – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight the Euro (EUR) trading quietly against the US Dollar (US"
+      "title": "British Pound drops as geopolitical risk premium revives USD",
+      "summary": "The Pound Sterling loses some ground against the US Dollar, down by 0.48%, as risk appetite in the foreign exchange mark"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Fiscal uncertainty caps upside against US Dollar – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights that the sell-off in gilts and British Pound (GBP) has stabilize"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Mean reversion faces tariff headwinds – Societe Generale",
-      "summary": "Societe Generale strategists note that softer June inflation in Canada has stalled the Canadian Dollar’s (CAD) rebound f"
+      "title": "USD/CHF Price Forecast: Buyers hold the upper hand above 0.8000",
+      "summary": "USD/CHF edges higher as escalating tensions in the Middle East support the US Dollar (USD), with buyers eyeing a breakou"
     },
     {
       "source": "Investing",
@@ -187,12 +182,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro slips as war boosts US Dollar despite upbeat ZEW s",
-      "[強気] Euro: Range-bound against US Dollar ahead of ECB – Scot"
-    ],
-    "EUR": [
-      "[強気] Euro slips as war boosts US Dollar despite upbeat ZEW s",
-      "[強気] Euro: Range-bound against US Dollar ahead of ECB – Scot"
+      "[強気] Gold price rallies amid Gulf war strikes, strong US Dol"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -220,31 +210,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.50647,
-      "today_close": 163.02533,
+      "today_close": 163.19206,
       "prev_close": 162.50821,
-      "diff": 0.5171,
-      "diff_pct": 0.32
+      "diff": 0.6839,
+      "diff_pct": 0.42
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.02533,
-      "sma20": 162.0846,
-      "sma50": 161.4093,
-      "sma200": 158.6067,
+      "latest": 163.19206,
+      "sma20": 162.0929,
+      "sma50": 161.4127,
+      "sma200": 158.6075,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 56.6,
-      "high20": 163.0418,
+      "high20": 163.2426,
       "low20": 160.6012,
-      "high60": 163.0418,
+      "high60": 163.2426,
       "low60": 158.7112,
-      "chg5d_pct": 0.4,
-      "chg20d_pct": 0.26
+      "chg5d_pct": 0.5,
+      "chg20d_pct": 0.36
     },
     "EURUSD": {
-      "latest": 1.14083,
+      "latest": 1.14031,
       "sma20": 1.1427,
       "sma50": 1.1467,
       "sma200": 1.1637,
@@ -256,8 +246,8 @@
       "low20": 1.1375,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.3,
-      "chg20d_pct": 0.26
+      "chg5d_pct": -0.35,
+      "chg20d_pct": 0.22
     }
   }
 }
