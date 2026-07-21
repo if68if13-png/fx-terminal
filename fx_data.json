@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-07-21T19:22:58.561341",
-  "generated": "2026年07月21日 19:22",
+  "timestamp": "2026-07-21T22:03:52.532229",
+  "generated": "2026年07月21日 22:03",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,38 +98,38 @@
     },
     {
       "source": "FXStreet",
+      "title": "Chinese Yuan: Upside bias holds near 6.7600 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang notes that USD/CNH retains a downside bias in both the 24-hour and 1–3 week horizo"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar rises as Middle East tensions lift Oil",
+      "summary": "The US Dollar (USD) advances on Tuesday as escalating tensions between the United States (US) and Iran push energy price"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Federal Reserve seen holding rates next week amid Oil shock ‒ Reuters",
+      "summary": "A Reuters poll revealed that the Federal Reserve is most likely to keep interest rates unchanged for the rest of the yea"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen tumbles to 40-year low as US Dollar safe-haven rush deepens",
+      "summary": "The USD/JPY extends its rally on Tuesday, hitting 40-year highs above 163.00 as the Greenback continues to gain ground v"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canada's Loonie meets another 50% tariff",
+      "summary": "USD/CAD trades just above the 1.4100 handle into the North American afternoon, up around a fifth of one percent and on t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: AI exports support SGD against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Moses Lim and Dr. Henry Hao note that Singapore’s June non-oil domestic exports (NODX) growth moderated to"
+    },
+    {
+      "source": "FXStreet",
       "title": "Gold price rallies amid Gulf war strikes, strong US Dollar",
       "summary": "Gold price surges on Tuesday during the North American session, up by more than 1.50% amid continued missile strikes bet"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Dollar Index hits one-week high as US-Iran tensions intensify",
-      "summary": "The US Dollar Index (DXY) extends its gains on Tuesday as renewed tensions between the United States and Iran show no si"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indonesian Rupiah: Tentative stabilisation with key levels against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong see USD/IDR easing modestly from recent highs, helped by S&amp;P’s rating affi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Range-bound trading holds near-term against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang expects USD/SGD to stay confined to tight ranges in the near term, with intr"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Fiscal shield tests gilt and FX credibility – BNY",
-      "summary": "BNY’s Geoff Yu argues that Prime Minister Andy Burnham’s removal of Value Added Tax (VAT) on household electricity is a "
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound drops as geopolitical risk premium revives USD",
-      "summary": "The Pound Sterling loses some ground against the US Dollar, down by 0.48%, as risk appetite in the foreign exchange mark"
-    },
-    {
-      "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Buyers hold the upper hand above 0.8000",
-      "summary": "USD/CHF edges higher as escalating tensions in the Middle East support the US Dollar (USD), with buyers eyeing a breakou"
     },
     {
       "source": "Investing",
@@ -182,6 +182,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Chinese Yuan: Upside bias holds near 6.7600 against US ",
+      "[強気] Singapore Dollar: AI exports support SGD against US Dol",
       "[強気] Gold price rallies amid Gulf war strikes, strong US Dol"
     ],
     "GBP": [
@@ -197,57 +199,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.55,
+    "US_10Y": 4.6,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.88,
-    "DIFF_EURUSD": -1.58,
-    "DIFF_GBPUSD": 0.25,
-    "DIFF_AUDUSD": 0.28
+    "DIFF_USDJPY": 1.93,
+    "DIFF_EURUSD": -1.63,
+    "DIFF_GBPUSD": 0.2,
+    "DIFF_AUDUSD": 0.23
   },
   "prices": {
     "USDJPY": {
-      "today_open": 162.50647,
-      "today_close": 163.19206,
-      "prev_close": 162.50821,
-      "diff": 0.6839,
-      "diff_pct": 0.42
+      "today_open": 163.20844,
+      "today_close": 163.17181,
+      "prev_close": 163.20868,
+      "diff": -0.0369,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.19206,
-      "sma20": 162.0929,
-      "sma50": 161.4127,
-      "sma200": 158.6075,
+      "latest": 163.17181,
+      "sma20": 162.1962,
+      "sma50": 161.4777,
+      "sma200": 158.6392,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 56.6,
-      "high20": 163.2426,
+      "rsi14": 57.2,
+      "high20": 163.2455,
       "low20": 160.6012,
-      "high60": 163.2426,
+      "high60": 163.2455,
       "low60": 158.7112,
-      "chg5d_pct": 0.5,
-      "chg20d_pct": 0.36
+      "chg5d_pct": 0.47,
+      "chg20d_pct": 1.27
     },
     "EURUSD": {
-      "latest": 1.14031,
-      "sma20": 1.1427,
-      "sma50": 1.1467,
-      "sma200": 1.1637,
+      "latest": 1.13998,
+      "sma20": 1.1425,
+      "sma50": 1.1462,
+      "sma200": 1.1635,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 52.4,
+      "rsi14": 56.5,
       "high20": 1.1482,
-      "low20": 1.1375,
+      "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.35,
-      "chg20d_pct": 0.22
+      "chg5d_pct": -0.33,
+      "chg20d_pct": -0.3
     }
   }
 }
