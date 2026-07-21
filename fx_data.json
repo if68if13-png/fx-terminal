@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-21T02:43:21.617958",
-  "generated": "2026年07月21日 02:43",
+  "timestamp": "2026-07-21T05:51:42.187527",
+  "generated": "2026年07月21日 05:51",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -98,33 +98,23 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar rises above 0.5850 as hotter CPI data bolsters case for more RBNZ rate hikes",
-      "summary": "The NZD/USD pair attracts some buyers to around 0.5865 during the early Asian trading hours on Tuesday. The New Zealand "
+      "title": "Indian Rupee gains on Middle East peace hopes",
+      "summary": "The Indian Rupee (INR) opens higher against the US Dollar on Tuesday. The USD/INR pair corrects to near 96.34 from its t"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7917 vs. 6.7948 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7917 compa"
+      "title": "WTI declines toward $82.00 as traders digest US-Iran developments",
+      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $82.00 during the early European trading ho"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar falls to one-week low vs USD on divergent BoC-Fed bets, Trump tariffs",
-      "summary": "The USD/CAD pair is seen buying on the previous day's solid rebound from the 1.4000 psychological mark, or its lowest le"
+      "title": "Gold looks to build on strength beyond $4,050 as subdued USD demand counters Fed hike bets",
+      "summary": "Gold (XAU/USD) builds on Asian session gains and spikes to a multi-day high above the $4,050 level in the last hour, tho"
     },
     {
       "source": "FXStreet",
-      "title": "Euro declines to near 1.1400 as US launches fresh strikes on Iran",
-      "summary": "The EUR/USD pair posts modest losses around 1.1410 during the early Asian trading hours on Tuesday. Renewed tensions bet"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: CPI and MAS in focus – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong expect USD/SGD to remain largely driven by broader US Dollar (USD) d"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Japanese Yen is stuck in a stalemate nobody can afford to break",
-      "summary": "USD/JPY changes hands near 162.50 on Monday after a session range of barely 40 pips, wedged between a floor just above 1"
+      "title": "AUD/JPY Price Forecast: Gains ground above 113.50, bullish trend holds above 100-day SMA",
+      "summary": "The AUD/JPY cross trades in positive territory around 113.85 during the early European session on Tuesday. The Australia"
     },
     {
       "source": "Investing",
@@ -181,8 +171,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar rises above 0.5850 as hotter CPI dat"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -192,8 +181,7 @@
       "[COT] 🟢ロング優勢 (ネット:+158,480)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar rises above 0.5850 as hotter CPI dat"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -211,18 +199,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.50647,
-      "today_close": 162.50205,
+      "today_close": 162.49229,
       "prev_close": 162.50821,
-      "diff": -0.0062,
-      "diff_pct": -0.0
+      "diff": -0.0159,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.50205,
-      "sma20": 162.0584,
-      "sma50": 161.3989,
-      "sma200": 158.6041,
+      "latest": 162.49229,
+      "sma20": 162.0579,
+      "sma50": 161.3987,
+      "sma200": 158.604,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -231,11 +219,11 @@
       "low20": 160.6012,
       "high60": 162.8446,
       "low60": 158.7112,
-      "chg5d_pct": 0.08,
-      "chg20d_pct": -0.06
+      "chg5d_pct": 0.07,
+      "chg20d_pct": -0.07
     },
     "EURUSD": {
-      "latest": 1.1415,
+      "latest": 1.14193,
       "sma20": 1.1427,
       "sma50": 1.1467,
       "sma200": 1.1637,
@@ -247,8 +235,8 @@
       "low20": 1.1375,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.25,
-      "chg20d_pct": 0.32
+      "chg5d_pct": -0.21,
+      "chg20d_pct": 0.36
     }
   }
 }
