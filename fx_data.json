@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-21T11:09:09.176681",
-  "generated": "2026年07月21日 11:09",
+  "timestamp": "2026-07-21T13:50:59.455238",
+  "generated": "2026年07月21日 13:50",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -98,43 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: CPI focus supports Sterling against US Dollar – Societe Generale",
-      "summary": "Societe Generale strategists note that dip buying in Sterling has kept GBP/USD trading above its 200-day moving average "
+      "title": "Canadian Dollar: Tariff risks cap gains against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) has recovered overnight losses vers"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Energy shock and Japan policy risks – MUFG",
-      "summary": "MUFG’s Lee Hardman notes USD/JPY is holding just below year-to-date highs as a negative energy price shock weighs on the"
+      "title": "Gold climbs as buyers defend $4,000, hawkish Fed expectations limit upside",
+      "summary": "Gold (XAU/USD) edges higher on Tuesday as buying interest around the $4,000 psychological level supports prices, while t"
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: MNB easing on lower inflation – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose expects the central bank of Hungary Magyar Nemzeti Bank (MNB) to cut its base rate by 25bp to "
+      "title": "Euro gains against British Pound as Burnham’s fiscal stance weighs",
+      "summary": "EUR/GBP gains on Tuesday as doubts over the UK’s fiscal outlook weigh on the British Pound (GBP) following Andy Burnham’"
     },
     {
       "source": "FXStreet",
-      "title": "Euro edges up to 1.1420 as Eurozone Economic Sentiment beats expectations",
-      "summary": "The Euro (EUR) edges up against the US Dollar (USD) on Tuesday, returning to levels just above 1.1420 after a three-day "
+      "title": "New Zealand Dollar: CPI supports further RBNZ hikes – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports NZD/USD has rallied toward a seven-week high after New Zealand Q2 C"
     },
     {
       "source": "FXStreet",
-      "title": "Czech Koruna: CNB stance supports CZK against Euro – ING",
-      "summary": "EMEA (Europe, the Middle East, and Africa) strategist Frantisek Taborsky at ING says regional data in Poland and the Cze"
+      "title": "US ADP Employment Change 4-week average drops to 16.5K",
+      "summary": "Private-sector hiring in the US has further cooled in early July. According to the NER Pulse, the weekly companion to th"
     },
     {
       "source": "FXStreet",
-      "title": "Oil: Escalation risks and Dollar support – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong highlight rising geopolitical risks around Middle East supply routes, warning "
+      "title": "Turkish Lira: Rising inflation expectations pressure TRY – Commerzbank",
+      "summary": "Tatha Ghose at Commerzbank highlights that Turkey’s market-based inflation expectations for 2026 and 12 months ahead hav"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Tests nine-day EMA support near 1.3400",
-      "summary": "GBP/USD remains weaker for the fourth consecutive day, trading around 1.3430 during the European hours on Tuesday. The t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Sterling trades in a broad range against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang judges GBP/USD price action as range-bound after an unexpected intraday spik"
+      "title": "British Pound extends losses nearing 1.3400 as markets await Burnham’s policies",
+      "summary": "The British Pound (GBP) is one of the weakest performers among major currencies, extending its reversal against the US D"
     },
     {
       "source": "Investing",
@@ -187,16 +182,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro edges up to 1.1420 as Eurozone Economic Sentiment ",
-      "[弱気] GBP/USD Price Forecast: Tests nine-day EMA support near"
-    ],
-    "EUR": [
-      "[強気] Euro edges up to 1.1420 as Eurozone Economic Sentiment ",
-      "[弱気] GBP/USD Price Forecast: Tests nine-day EMA support near"
+      "[強気] Gold climbs as buyers defend $4,000, hawkish Fed expect",
+      "[弱気] British Pound extends losses nearing 1.3400 as markets "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] GBP/USD Price Forecast: Tests nine-day EMA support near"
+      "[弱気] British Pound extends losses nearing 1.3400 as markets "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -221,31 +212,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 162.50647,
-      "today_close": 162.69726,
+      "today_close": 162.82995,
       "prev_close": 162.50821,
-      "diff": 0.1891,
-      "diff_pct": 0.12
+      "diff": 0.3217,
+      "diff_pct": 0.2
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 162.69726,
-      "sma20": 162.0681,
-      "sma50": 161.4028,
-      "sma200": 158.6051,
+      "latest": 162.82995,
+      "sma20": 162.0748,
+      "sma50": 161.4054,
+      "sma200": 158.6057,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 56.6,
-      "high20": 162.7451,
+      "high20": 162.8414,
       "low20": 160.6012,
       "high60": 162.8446,
       "low60": 158.7112,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": 0.06
+      "chg5d_pct": 0.28,
+      "chg20d_pct": 0.14
     },
     "EURUSD": {
-      "latest": 1.14209,
+      "latest": 1.14111,
       "sma20": 1.1427,
       "sma50": 1.1467,
       "sma200": 1.1637,
@@ -257,8 +248,8 @@
       "low20": 1.1375,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.19,
-      "chg20d_pct": 0.37
+      "chg5d_pct": -0.28,
+      "chg20d_pct": 0.29
     }
   }
 }
