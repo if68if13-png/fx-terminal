@@ -1,44 +1,23 @@
 {
-  "timestamp": "2026-07-22T02:41:04.134382",
-  "generated": "2026年07月22日 02:41",
+  "timestamp": "2026-07-22T05:51:06.073784",
+  "generated": "2026年07月22日 05:51",
   "scores": {
-    "USD": 5,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
-    "CHF": 0
+    "CAD": 0,
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +27,31 @@
       "quote_score": 0
     },
     {
-      "pair": "EURJPY",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -98,38 +98,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar edges higher amid bullish oil prices; upside potential seems limited",
-      "summary": "The USD/CAD pair struggles to capitalize on its strong weekly gains registered over the past two days and edges lower du"
+      "title": "Swiss Franc weakens as risk aversion support US Dollar",
+      "summary": "USD/CHF continues its winning streak for the third successive day, trading around 0.8130 during the Asian hours on Wedne"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar declines as safe-haven demand lifts US Dollar",
-      "summary": "NZD/USD depreciates after opening at a bullish gap, remaining in the positive territory and trading around 0.5830 during"
+      "title": "WTI Price Forecast: Rises to near $85.00 on supply disruption, but remains capped below 100-day SMA",
+      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $84.90 during the early European trading ho"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar strengthens above 0.7000 on RBA hawkish stance",
-      "summary": "The AUD/USD pair gathers strength to near 0.7010 during the early Asian trading hours on Wednesday. The Australian Dolla"
+      "title": "UK CPI set to show inflation slowed in June, bolstering case for BoE rate hold",
+      "summary": "The UK Office for National Statistics (ONS) will release the June Consumer Price Index (CPI) figures on Wednesday at 06:"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7933 vs. 6.7917 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7933 co"
+      "title": "British Pound bounces off one-week low vs USD amid Iran diplomacy hopes, ahead of UK CPI",
+      "summary": "The GBP/USD pair edges higher during the Asian session on Wednesday, snapping a four-day losing streak to the 1.3360 are"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen bears turn cautious near four-decade low amid looming intervention risks",
-      "summary": "The USD/JPY enters a bullish consolidation phase during the Asian session on Wednesday and holds steady above the 163.00"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro holds gains above 1.1400 on hawkish ECB expectations despite US-Iran tensions",
-      "summary": "The EUR/USD pair trades with mild gains around 1.1405 during the early Asian session on Wednesday. A hawkish tone from t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Iran says interests of US and its allies will be targeted if US strikes Iran's nuclear sites",
-      "summary": "Iran's top joint military command said that Tehran will expand its strikes and target the US and its allies' interests a"
+      "title": "Silver Price Forecast: XAG/USD rises to near $60.00 despite surging inflation fears",
+      "summary": "Silver price (XAG/USD) gains ground for the fourth successive day, trading around $59.70 per troy ounce during the Asian"
     },
     {
       "source": "Investing",
@@ -182,26 +172,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Canadian Dollar edges higher amid bullish oil prices; u",
-      "[強気] Australian Dollar strengthens above 0.7000 on RBA hawki",
-      "[強気] Euro holds gains above 1.1400 on hawkish ECB expectatio"
-    ],
-    "EUR": [
-      "[強気] Euro holds gains above 1.1400 on hawkish ECB expectatio"
+      "[弱気] Swiss Franc weakens as risk aversion support US Dollar"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)",
-      "[強気] Australian Dollar strengthens above 0.7000 on RBA hawki"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CAD": [
-      "[強気] Canadian Dollar edges higher amid bullish oil prices; u"
+    "CHF": [
+      "[弱気] Swiss Franc weakens as risk aversion support US Dollar"
     ]
   },
   "rates": {
@@ -219,18 +203,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.20844,
-      "today_close": 163.1113,
+      "today_close": 163.16257,
       "prev_close": 163.20868,
-      "diff": -0.0974,
-      "diff_pct": -0.06
+      "diff": -0.0461,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.1113,
-      "sma20": 162.1931,
-      "sma50": 161.4765,
-      "sma200": 158.6389,
+      "latest": 163.16257,
+      "sma20": 162.1957,
+      "sma50": 161.4775,
+      "sma200": 158.6391,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -239,11 +223,11 @@
       "low20": 160.6012,
       "high60": 163.2455,
       "low60": 158.7112,
-      "chg5d_pct": 0.43,
-      "chg20d_pct": 1.23
+      "chg5d_pct": 0.46,
+      "chg20d_pct": 1.27
     },
     "EURUSD": {
-      "latest": 1.14064,
+      "latest": 1.14072,
       "sma20": 1.1425,
       "sma50": 1.1462,
       "sma200": 1.1635,
