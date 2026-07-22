@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-22T19:20:22.874439",
-  "generated": "2026年07月22日 19:20",
+  "timestamp": "2026-07-22T22:03:45.943292",
+  "generated": "2026年07月22日 22:03",
   "scores": {
     "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -98,48 +98,28 @@
     },
     {
       "source": "FXStreet",
+      "title": "New Zealand Dollar stalls after hotter-than-expected inflation",
+      "summary": "NZD/USD trades lower near the 0.5820 area on Wednesday, extending its recent pullback as the New Zealand Dollar (NZD) st"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australia unemployment rate set to steady at 4.4% in June, signaling strong job market",
+      "summary": "Australia will publish the June monthly employment report on Thursday at 01:30 GMT, and market participants expect a mod"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar softens as oil and gold rally, ECB decision and Australian jobs loom",
+      "summary": "The US Dollar trades slightly lower on Wednesday as markets remain cautious amid escalating tensions surrounding Iran an"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Downside risk persists against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD is trading just above 1.29 after a quiet sessio"
+    },
+    {
+      "source": "FXStreet",
       "title": "Euro elevates ahead of ECB decision and Japanese inflation data",
       "summary": "EUR/JPY trades marginally higher near the 186.20 area on Wednesday as the Japanese Yen (JPY) remains under pressure near"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold price breaks higher as US Dollar weakness fuels rally",
-      "summary": "Gold price (XAU/USD) surges over 1.50% on Wednesday, cracks a key resistance trendline and hits a new two-week high as t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD struggles to build momentum above $60.00",
-      "summary": "Silver (XAG/USD) trades with modest gains on Wednesday, supported by a slight pullback in the US Dollar (USD). However, "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro gains against British Pound after mixed UK inflation report, ECB decision looms",
-      "summary": "EUR/GBP edges higher on Wednesday as a mixed UK inflation report weighs modestly on the British Pound (GBP). At the time"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Dow Jones Industrial Average rallies as escalation gets a price list",
-      "summary": "The Dow Jones Industrial Average (DJIA) trades near 52,400 on Wednesday, up around 200 points and on track for a second "
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound steadies as cooler UK CPI meets Oil shock",
-      "summary": "The Pound Sterling holds firm during the North American session as UK inflation data dipped, easing pressure on the Bank"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar finds support from rising Oil prices, softer Greenback",
-      "summary": "USD/CAD edges lower on Wednesday as a mildly softer US Dollar (USD) and rising Oil prices help the Canadian Dollar (CAD)"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar weakens as risk aversion overshadows hawkish RBNZ outlook",
-      "summary": "NZD/USD trades around 0.5815 on Wednesday at the time of writing, down 0.16% on the day."
-    },
-    {
-      "source": "FXStreet",
-      "title": "China: Fiscal execution to support growth – Standard Chartered",
-      "summary": "Standard Chartered economists Carol Liao and Shuang Ding argue that China’s July Politburo meeting will prioritise imple"
     },
     {
       "source": "Investing",
@@ -187,7 +167,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver Price Forecast: XAG/USD struggles to build momen"
+      "[強気] New Zealand Dollar stalls after hotter-than-expected in"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -197,62 +177,63 @@
       "[COT] 🟢ロング優勢 (ネット:+158,480)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar stalls after hotter-than-expected in"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.6,
+    "US_10Y": 4.63,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.93,
-    "DIFF_EURUSD": -1.63,
-    "DIFF_GBPUSD": 0.2,
-    "DIFF_AUDUSD": 0.23
+    "DIFF_USDJPY": 1.96,
+    "DIFF_EURUSD": -1.66,
+    "DIFF_GBPUSD": 0.17,
+    "DIFF_AUDUSD": 0.2
   },
   "prices": {
     "USDJPY": {
-      "today_open": 163.20844,
-      "today_close": 163.14198,
-      "prev_close": 163.20868,
-      "diff": -0.0667,
-      "diff_pct": -0.04
+      "today_open": 163.16343,
+      "today_close": 163.13206,
+      "prev_close": 163.16135,
+      "diff": -0.0293,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.14198,
-      "sma20": 162.1947,
-      "sma50": 161.4771,
-      "sma200": 158.639,
+      "latest": 163.13206,
+      "sma20": 162.2837,
+      "sma50": 161.5383,
+      "sma200": 158.6705,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 57.2,
+      "rsi14": 60.3,
       "high20": 163.3126,
-      "low20": 160.6012,
+      "low20": 160.6444,
       "high60": 163.3126,
-      "low60": 158.7112,
-      "chg5d_pct": 0.45,
-      "chg20d_pct": 1.25
+      "low60": 158.7515,
+      "chg5d_pct": 0.43,
+      "chg20d_pct": 1.09
     },
     "EURUSD": {
-      "latest": 1.14113,
-      "sma20": 1.1425,
-      "sma50": 1.1462,
-      "sma200": 1.1635,
+      "latest": 1.14093,
+      "sma20": 1.1424,
+      "sma50": 1.1458,
+      "sma200": 1.1633,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 56.5,
+      "rsi14": 63.7,
       "high20": 1.1482,
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.23,
-      "chg20d_pct": -0.2
+      "chg5d_pct": -0.26,
+      "chg20d_pct": -0.24
     }
   }
 }
