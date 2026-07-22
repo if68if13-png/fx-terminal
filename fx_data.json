@@ -1,17 +1,24 @@
 {
-  "timestamp": "2026-07-22T11:10:11.745338",
-  "generated": "2026年07月22日 11:10",
+  "timestamp": "2026-07-22T13:54:52.856862",
+  "generated": "2026年07月22日 13:54",
   "scores": {
     "USD": 2,
-    "JPY": 0,
-    "EUR": 1,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
-    "CHF": 1
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -20,32 +27,25 @@
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
       "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
@@ -98,57 +98,42 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Drifting toward ECB test – ING",
-      "summary": "Chris Turner at ING notes EUR/USD has held up relatively well despite energy price gains and wider natural gas prices."
+      "title": "US Dollar: Range-bound gains and episodic strength – TD Securities",
+      "summary": "TD Securities strategists expect modest US Dollar (USD) strength in Q3 2026 as positioning has room to rebuild."
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds near five-week highs against Yen despite BoJ tightening rumours",
-      "summary": "The Euro (EUR) reversed earlier gains against the Japanese Yen (JPY) on Wednesday, following hawkish comments by Bank of"
+      "title": "Euro struggles to extend gains as Middle East tensions support the US Dollar",
+      "summary": "EUR/USD trades around 1.1415 at the time of writing on Wednesday, up 0.15% on the day, but its recovery remains limited "
     },
     {
       "source": "FXStreet",
-      "title": "World Bank warns of risks of global slowdown, renewed inflation",
-      "summary": "The World Bank warned that the global economy is only \"a few months\" away from a worst-case scenario in which global gro"
+      "title": "Gold hits two-week high as traders weigh Middle East risks, Fed outlook",
+      "summary": "Gold (XAU/USD) climbs to a two-week high on Wednesday as bargain hunters step in near the $4,000 mark, while traders wei"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee falls back as oil prices rally further",
-      "summary": "The Indian Rupee (INR) opens lower against the US Dollar (USD) on Wednesday after a slight relief the previous day. The "
+      "title": "Japanese Yen: BoJ hints at faster hikes – BNY",
+      "summary": "BNY’s Geoff Yu notes that Bank of Japan (BoJ) officials are reported open to raising rates faster than economists expect"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Trade tariffs to reshape FX volatility – MUFG",
-      "summary": "Derek Halpenny at MUFG explains that US trade tariff uncertainty is set to re-emerge as Section 122 measures expire and "
+      "title": "United Kingdom: Core CPI resilience complicates BoE path – Nomura",
+      "summary": "Nomura strategists analyse the latest United Kingdom (UK) June inflation data, noting headline Consumer Price Index (CPI"
     },
     {
       "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD holds gains above $4,100 undaunted by risk-off markets",
-      "summary": "Gold (XAU/USD) extends gains for the fourth consecutive day on Wednesday, standing comfortably above $4,100, unfazed by "
+      "title": "Hungarian Forint: NBH easing path shapes HUF prospects – ING",
+      "summary": "ING strategist Frantisek Taborsky reports the National Bank of Hungary (MNB) cut rates to 5.75% and confirmed dovish gui"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Technical outlook weakens against US Dollar – Societe Generale",
-      "summary": "Societe Generale analysts highlight USD/JPY trading in breakout territory above 163 for the first time in nearly four de"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc edges higher as US-Iran tensions, higher Swiss yields sustain support",
-      "summary": "USD/CHF trades around 0.8120 at the time of writing on Wednesday, down a modest 0.09% on the day, but remains supported "
-    },
-    {
-      "source": "FXStreet",
-      "title": "UK inflation cools and fiscal concerns grow: Why the British Pound is surrendering recent gains",
-      "summary": "The British Pound (GBP) is facing renewed downward pressure across major currency pairs, forfeiting its recent gains as "
+      "title": "Bank of England: Wait-and-see stance holds – Societe Generale",
+      "summary": "Societe Generale economist Sam Cartwright analyzes June United Kingdom (UK) inflation, noting headline Consumer Price In"
     },
     {
       "source": "Investing",
       "title": "Bitcoin tops $65k, but escalating Iran tensions and rate jitters cap gains",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells MSTR shares, holds 843,775 bitcoin as of July 19, made no bitcoin purchases",
       "summary": ""
     },
     {
@@ -191,16 +176,10 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Technical outlook weakens against US Doll",
-      "[強気] Swiss Franc edges higher as US-Iran tensions, higher Sw"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "JPY": [
-      "[強気] Euro holds near five-week highs against Yen despite BoJ",
-      "[弱気] Japanese Yen: Technical outlook weakens against US Doll"
-    ],
-    "EUR": [
-      "[強気] Euro holds near five-week highs against Yen despite BoJ"
+      "[弱気] Japanese Yen: BoJ hints at faster hikes – BNY"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,12 +190,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Japanese Yen: Technical outlook weakens against US Doll"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc edges higher as US-Iran tensions, higher Sw"
     ]
   },
   "rates": {
@@ -234,18 +207,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.20844,
-      "today_close": 163.00922,
+      "today_close": 163.05534,
       "prev_close": 163.20868,
-      "diff": -0.1995,
-      "diff_pct": -0.12
+      "diff": -0.1533,
+      "diff_pct": -0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.00922,
-      "sma20": 162.188,
-      "sma50": 161.4745,
-      "sma200": 158.6384,
+      "latest": 163.05534,
+      "sma20": 162.1903,
+      "sma50": 161.4754,
+      "sma200": 158.6386,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -254,11 +227,11 @@
       "low20": 160.6012,
       "high60": 163.3126,
       "low60": 158.7112,
-      "chg5d_pct": 0.37,
-      "chg20d_pct": 1.17
+      "chg5d_pct": 0.4,
+      "chg20d_pct": 1.2
     },
     "EURUSD": {
-      "latest": 1.14043,
+      "latest": 1.14151,
       "sma20": 1.1425,
       "sma50": 1.1462,
       "sma200": 1.1635,
@@ -270,8 +243,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.29,
-      "chg20d_pct": -0.26
+      "chg5d_pct": -0.2,
+      "chg20d_pct": -0.17
     }
   }
 }
