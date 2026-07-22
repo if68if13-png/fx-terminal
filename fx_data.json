@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-22T16:19:55.508660",
-  "generated": "2026年07月22日 16:19",
+  "timestamp": "2026-07-22T19:20:22.874439",
+  "generated": "2026年07月22日 19:20",
   "scores": {
     "USD": 3,
-    "JPY": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
@@ -20,6 +20,13 @@
       "quote_score": 3
     },
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
@@ -27,11 +34,11 @@
       "quote_score": 3
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -43,16 +50,9 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,8 +98,33 @@
     },
     {
       "source": "FXStreet",
+      "title": "Euro elevates ahead of ECB decision and Japanese inflation data",
+      "summary": "EUR/JPY trades marginally higher near the 186.20 area on Wednesday as the Japanese Yen (JPY) remains under pressure near"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold price breaks higher as US Dollar weakness fuels rally",
+      "summary": "Gold price (XAU/USD) surges over 1.50% on Wednesday, cracks a key resistance trendline and hits a new two-week high as t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG/USD struggles to build momentum above $60.00",
+      "summary": "Silver (XAG/USD) trades with modest gains on Wednesday, supported by a slight pullback in the US Dollar (USD). However, "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro gains against British Pound after mixed UK inflation report, ECB decision looms",
+      "summary": "EUR/GBP edges higher on Wednesday as a mixed UK inflation report weighs modestly on the British Pound (GBP). At the time"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Dow Jones Industrial Average rallies as escalation gets a price list",
+      "summary": "The Dow Jones Industrial Average (DJIA) trades near 52,400 on Wednesday, up around 200 points and on track for a second "
+    },
+    {
+      "source": "FXStreet",
       "title": "British Pound steadies as cooler UK CPI meets Oil shock",
-      "summary": "The Pound Sterling holds firm during the North American session, as UK inflation data dipped, easing pressure on the Ban"
+      "summary": "The Pound Sterling holds firm during the North American session as UK inflation data dipped, easing pressure on the Bank"
     },
     {
       "source": "FXStreet",
@@ -115,31 +140,6 @@
       "source": "FXStreet",
       "title": "China: Fiscal execution to support growth – Standard Chartered",
       "summary": "Standard Chartered economists Carol Liao and Shuang Ding argue that China’s July Politburo meeting will prioritise imple"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar steadies ahead of Australian employment data",
-      "summary": "AUD/USD trades near 0.7000 on Wednesday, recovering from an intraday pullback but remaining marginally lower on the day."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen struggles near four-decade lows despite hawkish BoJ signals",
-      "summary": "The Japanese Yen (JPY) gives up earlier gains on Wednesday, failing to capitalize on hawkish signals from the Bank of Ja"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Bank of Japan: Gradual tightening and external shocks – Rabobank",
-      "summary": "Rabobank’s FX Strategy team reviews Bank of Japan policy, noting that the slow rate-hike pace reflects exceptional shock"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Range-bound gains and episodic strength – TD Securities",
-      "summary": "TD Securities strategists expect modest US Dollar (USD) strength in Q3 2026 as positioning has room to rebuild."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro struggles to extend gains as Iran war supports US Dollar",
-      "summary": "EUR/USD trades around 1.1415 at the time of writing on Wednesday, up 0.15% on the day, but its recovery remains limited "
     },
     {
       "source": "Investing",
@@ -187,10 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen struggles near four-decade lows despite ha"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen struggles near four-decade lows despite ha"
+      "[強気] Silver Price Forecast: XAG/USD struggles to build momen"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -201,9 +198,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Japanese Yen struggles near four-decade lows despite ha"
     ]
   },
   "rates": {
@@ -221,18 +215,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.20844,
-      "today_close": 163.11227,
+      "today_close": 163.14198,
       "prev_close": 163.20868,
-      "diff": -0.0964,
-      "diff_pct": -0.06
+      "diff": -0.0667,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.11227,
-      "sma20": 162.1932,
-      "sma50": 161.4765,
-      "sma200": 158.6389,
+      "latest": 163.14198,
+      "sma20": 162.1947,
+      "sma50": 161.4771,
+      "sma200": 158.639,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -241,11 +235,11 @@
       "low20": 160.6012,
       "high60": 163.3126,
       "low60": 158.7112,
-      "chg5d_pct": 0.43,
-      "chg20d_pct": 1.23
+      "chg5d_pct": 0.45,
+      "chg20d_pct": 1.25
     },
     "EURUSD": {
-      "latest": 1.14066,
+      "latest": 1.14113,
       "sma20": 1.1425,
       "sma50": 1.1462,
       "sma200": 1.1635,
@@ -257,8 +251,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.27,
-      "chg20d_pct": -0.24
+      "chg5d_pct": -0.23,
+      "chg20d_pct": -0.2
     }
   }
 }
