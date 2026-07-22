@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-22T13:54:52.856862",
-  "generated": "2026年07月22日 13:54",
+  "timestamp": "2026-07-22T16:19:55.508660",
+  "generated": "2026年07月22日 16:19",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 3,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "quote_score": 3
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,38 +98,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "British Pound steadies as cooler UK CPI meets Oil shock",
+      "summary": "The Pound Sterling holds firm during the North American session, as UK inflation data dipped, easing pressure on the Ban"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar finds support from rising Oil prices, softer Greenback",
+      "summary": "USD/CAD edges lower on Wednesday as a mildly softer US Dollar (USD) and rising Oil prices help the Canadian Dollar (CAD)"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar weakens as risk aversion overshadows hawkish RBNZ outlook",
+      "summary": "NZD/USD trades around 0.5815 on Wednesday at the time of writing, down 0.16% on the day."
+    },
+    {
+      "source": "FXStreet",
+      "title": "China: Fiscal execution to support growth – Standard Chartered",
+      "summary": "Standard Chartered economists Carol Liao and Shuang Ding argue that China’s July Politburo meeting will prioritise imple"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar steadies ahead of Australian employment data",
+      "summary": "AUD/USD trades near 0.7000 on Wednesday, recovering from an intraday pullback but remaining marginally lower on the day."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen struggles near four-decade lows despite hawkish BoJ signals",
+      "summary": "The Japanese Yen (JPY) gives up earlier gains on Wednesday, failing to capitalize on hawkish signals from the Bank of Ja"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Bank of Japan: Gradual tightening and external shocks – Rabobank",
+      "summary": "Rabobank’s FX Strategy team reviews Bank of Japan policy, noting that the slow rate-hike pace reflects exceptional shock"
+    },
+    {
+      "source": "FXStreet",
       "title": "US Dollar: Range-bound gains and episodic strength – TD Securities",
       "summary": "TD Securities strategists expect modest US Dollar (USD) strength in Q3 2026 as positioning has room to rebuild."
     },
     {
       "source": "FXStreet",
-      "title": "Euro struggles to extend gains as Middle East tensions support the US Dollar",
+      "title": "Euro struggles to extend gains as Iran war supports US Dollar",
       "summary": "EUR/USD trades around 1.1415 at the time of writing on Wednesday, up 0.15% on the day, but its recovery remains limited "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold hits two-week high as traders weigh Middle East risks, Fed outlook",
-      "summary": "Gold (XAU/USD) climbs to a two-week high on Wednesday as bargain hunters step in near the $4,000 mark, while traders wei"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: BoJ hints at faster hikes – BNY",
-      "summary": "BNY’s Geoff Yu notes that Bank of Japan (BoJ) officials are reported open to raising rates faster than economists expect"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United Kingdom: Core CPI resilience complicates BoE path – Nomura",
-      "summary": "Nomura strategists analyse the latest United Kingdom (UK) June inflation data, noting headline Consumer Price Index (CPI"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Hungarian Forint: NBH easing path shapes HUF prospects – ING",
-      "summary": "ING strategist Frantisek Taborsky reports the National Bank of Hungary (MNB) cut rates to 5.75% and confirmed dovish gui"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Bank of England: Wait-and-see stance holds – Societe Generale",
-      "summary": "Societe Generale economist Sam Cartwright analyzes June United Kingdom (UK) inflation, noting headline Consumer Price In"
     },
     {
       "source": "Investing",
@@ -176,10 +186,11 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Japanese Yen struggles near four-decade lows despite ha"
     ],
     "JPY": [
-      "[弱気] Japanese Yen: BoJ hints at faster hikes – BNY"
+      "[強気] Japanese Yen struggles near four-decade lows despite ha"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -190,6 +201,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Japanese Yen struggles near four-decade lows despite ha"
     ]
   },
   "rates": {
@@ -207,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.20844,
-      "today_close": 163.05534,
+      "today_close": 163.11227,
       "prev_close": 163.20868,
-      "diff": -0.1533,
-      "diff_pct": -0.09
+      "diff": -0.0964,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.05534,
-      "sma20": 162.1903,
-      "sma50": 161.4754,
-      "sma200": 158.6386,
+      "latest": 163.11227,
+      "sma20": 162.1932,
+      "sma50": 161.4765,
+      "sma200": 158.6389,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -227,11 +241,11 @@
       "low20": 160.6012,
       "high60": 163.3126,
       "low60": 158.7112,
-      "chg5d_pct": 0.4,
-      "chg20d_pct": 1.2
+      "chg5d_pct": 0.43,
+      "chg20d_pct": 1.23
     },
     "EURUSD": {
-      "latest": 1.14151,
+      "latest": 1.14066,
       "sma20": 1.1425,
       "sma50": 1.1462,
       "sma200": 1.1635,
@@ -243,8 +257,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.2,
-      "chg20d_pct": -0.17
+      "chg5d_pct": -0.27,
+      "chg20d_pct": -0.24
     }
   }
 }
