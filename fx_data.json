@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-07-21T22:03:52.532229",
-  "generated": "2026年07月21日 22:03",
+  "timestamp": "2026-07-22T02:41:04.134382",
+  "generated": "2026年07月22日 02:41",
   "scores": {
     "USD": 5,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -27,10 +20,17 @@
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": 0,
+      "quote_score": 5
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
       "quote_score": 5
     },
     {
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -98,38 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Upside bias holds near 6.7600 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s Quek Ser Leang notes that USD/CNH retains a downside bias in both the 24-hour and 1–3 week horizo"
+      "title": "Canadian Dollar edges higher amid bullish oil prices; upside potential seems limited",
+      "summary": "The USD/CAD pair struggles to capitalize on its strong weekly gains registered over the past two days and edges lower du"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar rises as Middle East tensions lift Oil",
-      "summary": "The US Dollar (USD) advances on Tuesday as escalating tensions between the United States (US) and Iran push energy price"
+      "title": "New Zealand Dollar declines as safe-haven demand lifts US Dollar",
+      "summary": "NZD/USD depreciates after opening at a bullish gap, remaining in the positive territory and trading around 0.5830 during"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve seen holding rates next week amid Oil shock ‒ Reuters",
-      "summary": "A Reuters poll revealed that the Federal Reserve is most likely to keep interest rates unchanged for the rest of the yea"
+      "title": "Australian Dollar strengthens above 0.7000 on RBA hawkish stance",
+      "summary": "The AUD/USD pair gathers strength to near 0.7010 during the early Asian trading hours on Wednesday. The Australian Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen tumbles to 40-year low as US Dollar safe-haven rush deepens",
-      "summary": "The USD/JPY extends its rally on Tuesday, hitting 40-year highs above 163.00 as the Greenback continues to gain ground v"
+      "title": "PBOC sets USD/CNY reference rate at 6.7933 vs. 6.7917 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7933 co"
     },
     {
       "source": "FXStreet",
-      "title": "Canada's Loonie meets another 50% tariff",
-      "summary": "USD/CAD trades just above the 1.4100 handle into the North American afternoon, up around a fifth of one percent and on t"
+      "title": "Japanese Yen bears turn cautious near four-decade low amid looming intervention risks",
+      "summary": "The USD/JPY enters a bullish consolidation phase during the Asian session on Wednesday and holds steady above the 163.00"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: AI exports support SGD against US Dollar – Commerzbank",
-      "summary": "Commerzbank’s Moses Lim and Dr. Henry Hao note that Singapore’s June non-oil domestic exports (NODX) growth moderated to"
+      "title": "Euro holds gains above 1.1400 on hawkish ECB expectations despite US-Iran tensions",
+      "summary": "The EUR/USD pair trades with mild gains around 1.1405 during the early Asian session on Wednesday. A hawkish tone from t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold price rallies amid Gulf war strikes, strong US Dollar",
-      "summary": "Gold price surges on Tuesday during the North American session, up by more than 1.50% amid continued missile strikes bet"
+      "title": "Iran says interests of US and its allies will be targeted if US strikes Iran's nuclear sites",
+      "summary": "Iran's top joint military command said that Tehran will expand its strikes and target the US and its allies' interests a"
     },
     {
       "source": "Investing",
@@ -182,19 +182,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Chinese Yuan: Upside bias holds near 6.7600 against US ",
-      "[強気] Singapore Dollar: AI exports support SGD against US Dol",
-      "[強気] Gold price rallies amid Gulf war strikes, strong US Dol"
+      "[強気] Canadian Dollar edges higher amid bullish oil prices; u",
+      "[強気] Australian Dollar strengthens above 0.7000 on RBA hawki",
+      "[強気] Euro holds gains above 1.1400 on hawkish ECB expectatio"
+    ],
+    "EUR": [
+      "[強気] Euro holds gains above 1.1400 on hawkish ECB expectatio"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)",
+      "[強気] Australian Dollar strengthens above 0.7000 on RBA hawki"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar edges higher amid bullish oil prices; u"
     ]
   },
   "rates": {
@@ -212,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.20844,
-      "today_close": 163.17181,
+      "today_close": 163.1113,
       "prev_close": 163.20868,
-      "diff": -0.0369,
-      "diff_pct": -0.02
+      "diff": -0.0974,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.17181,
-      "sma20": 162.1962,
-      "sma50": 161.4777,
-      "sma200": 158.6392,
+      "latest": 163.1113,
+      "sma20": 162.1931,
+      "sma50": 161.4765,
+      "sma200": 158.6389,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -232,11 +239,11 @@
       "low20": 160.6012,
       "high60": 163.2455,
       "low60": 158.7112,
-      "chg5d_pct": 0.47,
-      "chg20d_pct": 1.27
+      "chg5d_pct": 0.43,
+      "chg20d_pct": 1.23
     },
     "EURUSD": {
-      "latest": 1.13998,
+      "latest": 1.14064,
       "sma20": 1.1425,
       "sma50": 1.1462,
       "sma200": 1.1635,
@@ -248,8 +255,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": -0.3
+      "chg5d_pct": -0.27,
+      "chg20d_pct": -0.24
     }
   }
 }
