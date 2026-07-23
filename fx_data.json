@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-23T14:01:50.594875",
-  "generated": "2026年07月23日 14:01",
+  "timestamp": "2026-07-23T16:26:26.091792",
+  "generated": "2026年07月23日 16:26",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
+    "USD": 3,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
       "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,53 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold falls as Middle East tensions lift Oil prices, Fed rate hike bets",
-      "summary": "Gold (XAU/USD) loses ground on Thursday, snapping a four-day winning streak as the US Dollar (USD) rebounds, while Oil p"
+      "title": "Gold falls as Iran war lifts Oil prices, Fed rate hike bets",
+      "summary": "Gold (XAU/USD) loses ground on Thursday, snapping a four-day winning streak as the US Dollar (USD) rebounds, while the w"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound slides as Gulf War risk fuels US Dollar rally",
+      "summary": "The Pound Sterling drops by over 0.40% against the Greenback as risk aversion weighs on most G8 currencies amid the esca"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen falls near multi-decade low",
+      "summary": "USD/JPY trades above163.90 on Thursday as the US Dollar (USD) strengthens following significantly better-than-expected U"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States:  PCE Methodology tweaks seen as marginal – TD Securities",
+      "summary": "TD Securities economists Eli Nir and Oscar Munoz analyze upcoming BEA methodology changes to United States (US) Personal"
+    },
+    {
+      "source": "FXStreet",
+      "title": "European Central Bank: Hiking cycle continues at slower pace – Nordea",
+      "summary": "Nordea strategists Jan von Gerich, Tuuli Koivu and Anders Svendsen note that the European Central Bank (ECB) kept its de"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Natural Gas: High prices sustain European power – Rabobank",
+      "summary": "Rabobank’s Florence Schmit notes TTF natural gas has risen above €60/MWh as Middle Eastern supply disruptions intensify."
     },
     {
       "source": "FXStreet",
       "title": "Federal Reserve: Hike pricing questioned – TD Securities",
       "summary": "TD Securities’ Gennadiy Goldberg and Molly Brooks note that market pricing for Fed hikes has risen alongside higher Oil "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro slips against British Pound as ECB keeps interest rates unchanged",
-      "summary": "The Euro (EUR) trades under pressure against the British Pound (GBP) as traders assess the European Central Bank’s (ECB)"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso: Slightly stronger MXN outlook – Commerzbank",
-      "summary": "Commerzbank strategist Michael Pfister argues that Banxico’s recent rate cuts were broadly justified by moderating infla"
-    },
-    {
-      "source": "FXStreet",
-      "title": "ECB Press Conference: Lagarde speaks on policy outlook after leaving key rates unchanged",
-      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Lagarde speech: Some asked whether we should consider a hike",
-      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Lagarde speech: Energy shock could intensify further",
-      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United Kingdom: Risks for Sterling – ING",
-      "summary": "ING’s economists describe United Kingdom (UK) public finances as strained by rising spending pressures and high debt int"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Lagarde speech: Indicators suggest economic activity will remain modest",
-      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
-    },
-    {
-      "source": "FXStreet",
-      "title": "163.00: Why the Japanese Yen is trading at historic lows despite BoJ hike speculation",
-      "summary": "The Japanese Yen (JPY) continues to trade at historic lows, with USD/JPY pressing past year-to-date highs above the 163."
     },
     {
       "source": "MarketWatch",
@@ -187,11 +172,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold falls as Middle East tensions lift Oil prices, Fed",
-      "[強気] 163.00: Why the Japanese Yen is trading at historic low"
-    ],
-    "JPY": [
-      "[強気] 163.00: Why the Japanese Yen is trading at historic low"
+      "[強気] Gold falls as Iran war lifts Oil prices, Fed rate hike "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,42 +186,45 @@
     ]
   },
   "rates": {
-    "US_FF": null,
+    "US_FF": 3.63,
     "US_10Y": 4.63,
-    "JP_10Y": null,
-    "DE_10Y": null,
+    "JP_10Y": 2.67,
+    "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": null,
-    "DIFF_GBPUSD": 0.17
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 1.96,
+    "DIFF_EURUSD": -1.66,
+    "DIFF_GBPUSD": 0.17,
+    "DIFF_AUDUSD": 0.2
   },
   "prices": {
     "USDJPY": {
       "today_open": 163.16343,
-      "today_close": 163.9528,
+      "today_close": 163.78901,
       "prev_close": 163.16135,
-      "diff": 0.7914,
-      "diff_pct": 0.49
+      "diff": 0.6277,
+      "diff_pct": 0.38
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.9528,
-      "sma20": 162.3247,
-      "sma50": 161.5547,
-      "sma200": 158.6746,
+      "latest": 163.78901,
+      "sma20": 162.3165,
+      "sma50": 161.5514,
+      "sma200": 158.6738,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 60.3,
-      "high20": 163.9564,
+      "high20": 163.9801,
       "low20": 160.6444,
-      "high60": 163.9564,
+      "high60": 163.9801,
       "low60": 158.7515,
-      "chg5d_pct": 0.94,
-      "chg20d_pct": 1.6
+      "chg5d_pct": 0.84,
+      "chg20d_pct": 1.5
     },
     "EURUSD": {
-      "latest": 1.13737,
+      "latest": 1.13755,
       "sma20": 1.1422,
       "sma50": 1.1458,
       "sma200": 1.1633,
@@ -249,11 +233,11 @@
       "vs_sma200": "下",
       "rsi14": 63.7,
       "high20": 1.1482,
-      "low20": 1.1369,
+      "low20": 1.1364,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.57,
-      "chg20d_pct": -0.55
+      "chg5d_pct": -0.55,
+      "chg20d_pct": -0.53
     }
   }
 }
