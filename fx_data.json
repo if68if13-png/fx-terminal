@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-07-23T19:18:39.800534",
-  "generated": "2026年07月23日 19:18",
+  "timestamp": "2026-07-23T22:03:56.085095",
+  "generated": "2026年07月23日 22:03",
   "scores": {
     "USD": 5,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 2,
+    "AUD": 1,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
@@ -20,14 +20,14 @@
       "quote_score": 0
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": 0,
       "quote_score": 5
     },
     {
-      "pair": "EURUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 1,
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -98,38 +98,43 @@
     },
     {
       "source": "FXStreet",
+      "title": "Indonesian Rupiah: BI may still need to tighten – MUFG",
+      "summary": "MUFG’s Lloyd Chan reports that Bank Indonesia kept its policy rate at 5.75%, surprising expectations for a hike, as rece"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar falls as strong US labor data supports the Dollar",
+      "summary": "NZD/USD trades lower near the 0.5770 area on Thursday as the US Dollar (USD) strengthens following better-than-expected "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Sideways range holds against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann expect USD/SGD to remain directionless in the near term, with intr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar rises as strong labor data and Middle East tensions lift Oil",
+      "summary": "Here is what you need to know for Friday, July 24:"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: BI uses incentives over hikes – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay reports Bank Indonesia kept the BI Rate at 5.75%, choosing targeted capital-flow incentives ov"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar trades under pressure amid strong US data",
+      "summary": "AUD/USD trades lower near the 0.6970 area on Thursday, giving back earlier gains as the US Dollar (USD) strengthens on t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG lower highs structure holds, bears eye $55",
+      "summary": "Silver price dives over 3.80% on Thursday as the precious metals segment tumbles amid overall US Dollar strength and hei"
+    },
+    {
+      "source": "FXStreet",
       "title": "AUD/USD Price Forecast: Bulls struggle below the 50-day SMA",
       "summary": "AUD/USD edges lower on Thursday as a stronger US Dollar (USD) outweighs support from stronger-than-expected Australian e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Holds near fair value against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is tracking the broader US Dollar ("
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc hits 13-month low as rising Oil prices boost bets on Fed hike",
-      "summary": "USD/CHF climbs to its highest level since June 2025 on Thursday, supported by a broadly stronger US Dollar (USD) as the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold tumbles as sellers target $4,000",
-      "summary": "Gold price (XAU/USD) loses nearly 2% on Thursday as the US Dollar stages a comeback amid growing speculation that the Wh"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Bears target a break below 1.1350 support",
-      "summary": "EUR/USD trades on the back foot on Thursday as the expanding war in the Middle East pushes Oil prices higher and fuels h"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold falls as Iran war lifts Oil prices, Fed rate hike bets",
-      "summary": "Gold (XAU/USD) loses ground on Thursday, snapping a four-day winning streak as the US Dollar (USD) rebounds, while the w"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound slides as Gulf war risk fuels US Dollar rally",
-      "summary": "The Pound Sterling drops by over 0.40% against the Greenback as risk aversion weighs on most G8 currencies amid the esca"
     },
     {
       "source": "MarketWatch",
@@ -172,13 +177,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] AUD/USD Price Forecast: Bulls struggle below the 50-day",
-      "[強気] Swiss Franc hits 13-month low as rising Oil prices boos",
-      "[強気] EUR/USD Price Forecast: Bears target a break below 1.13",
-      "[強気] Gold falls as Iran war lifts Oil prices, Fed rate hike "
-    ],
-    "EUR": [
-      "[強気] EUR/USD Price Forecast: Bears target a break below 1.13"
+      "[強気] New Zealand Dollar falls as strong US labor data suppor",
+      "[強気] Forex Today: US Dollar rises as strong labor data and M",
+      "[強気] Australian Dollar trades under pressure amid strong US ",
+      "[強気] AUD/USD Price Forecast: Bulls struggle below the 50-day"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -186,67 +188,66 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+158,480)",
+      "[強気] Australian Dollar trades under pressure amid strong US ",
       "[強気] AUD/USD Price Forecast: Bulls struggle below the 50-day"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc hits 13-month low as rising Oil prices boos"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar falls as strong US labor data suppor"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.63,
+    "US_10Y": 4.67,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.96,
-    "DIFF_EURUSD": -1.66,
-    "DIFF_GBPUSD": 0.17,
-    "DIFF_AUDUSD": 0.2
+    "DIFF_USDJPY": 2.0,
+    "DIFF_EURUSD": -1.7,
+    "DIFF_GBPUSD": 0.13,
+    "DIFF_AUDUSD": 0.16
   },
   "prices": {
     "USDJPY": {
-      "today_open": 163.16343,
-      "today_close": 163.82423,
-      "prev_close": 163.16135,
-      "diff": 0.6629,
-      "diff_pct": 0.41
+      "today_open": 163.8666,
+      "today_close": 163.83928,
+      "prev_close": 163.87039,
+      "diff": -0.0311,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.82423,
-      "sma20": 162.3183,
-      "sma50": 161.5521,
-      "sma200": 158.674,
+      "latest": 163.83928,
+      "sma20": 162.4435,
+      "sma50": 161.6293,
+      "sma200": 158.7122,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 60.3,
+      "rsi14": 57.0,
       "high20": 163.9801,
       "low20": 160.6444,
       "high60": 163.9801,
-      "low60": 158.7515,
+      "low60": 158.8661,
       "chg5d_pct": 0.86,
       "chg20d_pct": 1.52
     },
     "EURUSD": {
-      "latest": 1.1376,
-      "sma20": 1.1422,
-      "sma50": 1.1458,
-      "sma200": 1.1633,
+      "latest": 1.13782,
+      "sma20": 1.1419,
+      "sma50": 1.1453,
+      "sma200": 1.1631,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 63.7,
+      "rsi14": 64.0,
       "high20": 1.1482,
       "low20": 1.1364,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.55,
+      "chg5d_pct": -0.47,
       "chg20d_pct": -0.53
     }
   }
