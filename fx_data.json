@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-07-23T05:54:56.012216",
-  "generated": "2026年07月23日 05:54",
+  "timestamp": "2026-07-23T08:31:12.152425",
+  "generated": "2026年07月23日 08:31",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": 0,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +41,17 @@
       "quote_score": 0
     },
     {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Reflects strength ahead of ECB’s policy decision",
-      "summary": "The Euro (EUR) is up 0.15% at around 1.1430 against the US Dollar (USD) during the early European trading session on Thu"
+      "title": "Australian Dollar: RBA tone may turn hawkish – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur highlights a strong Australian labor market, with 76,000 jobs added and participation back ne"
     },
     {
       "source": "FXStreet",
-      "title": "Gold extends range play above $4,100 as inflation fears lift Fed hike bets and cap gains",
-      "summary": "Gold (XAU/USD) consolidates above the $4,100 round figure through the Asian session on Thursday and, for now, seems to h"
+      "title": "WTI extends rally towards $90 as Middle East energy supply risks intensify",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, extends its winning streak for the fifth trading day on Thursday, is up"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee ticks up on possible RBI’s intervention",
-      "summary": "The Indian Rupee (INR) opens marginally higher against the US Dollar (USD) on Thursday on possible Reserve Bank of India"
+      "title": "NZD/USD Price Forecast: Tests levels sub-0.5800 as bulls run out of steam",
+      "summary": "The New Zealand Dollar (NZD) extends losses for the third consecutive day against the US Dollar (USD) on Thursday, with "
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah steadies as traders weigh BI’s decision of holding rates",
-      "summary": "USD/IDR moves little after posting minor gains in the previous day, trading around 17,960 during the Asian hours on Thur"
+      "title": "South African Rand: Hawkish SARB could strengthen ZAR – Societe Generale",
+      "summary": "Societe Generale strategists expect a 25bp rate hike in South Africa after a sharp June inflation surprise, with Headlin"
     },
     {
       "source": "FXStreet",
-      "title": "WTI Price Forecast: Tests 6-week highs near $87.50, while bearish bias holds below 100-day SMA",
-      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $87.50 during the early European trading ho"
+      "title": "Forex Today: Focus shifts to ECB rate call, while tensions remain high in Middle East",
+      "summary": "Here is what you need to know on Thursday, July 23:"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Looks to build on upbeat Aussie jobs data-led gains above 0.7000",
-      "summary": "The AUD/USD pair catches fresh bids during the Asian session on Thursday following the release of the upbeat Australian "
+      "title": "Australian Dollar remains steady following improved employment data",
+      "summary": "AUD/USD holds ground after registering minor gains in the previous day, trading around 0.7000 during the European hours "
     },
     {
       "source": "FXStreet",
-      "title": "BoJ to raise rates again by December — Reuters poll",
-      "summary": "According to a majority of economists in a Reuters poll, the Bank of Japan (BoJ) will raise its interest rate again by t"
+      "title": "European Central Bank set to hold interest rates amid cooling inflation and weaker growth",
+      "summary": "The European Central Bank (ECB) is expected to hold the interest rate on the main refinancing operations and the deposit"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen edges higher amid intervention risks; remains close to four-decade low vs USD",
-      "summary": "The USD/JPY pair ticks lower during the Asian session on Thursday as bulls opt to move to the sidelines amid speculation"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar strengthens above 0.5800 on RBNZ hawkish outlook",
-      "summary": "The NZD/USD pair gains ground to near 0.5820, snapping the two-day losing streak during the early European session on Th"
+      "title": "Brent: Energy risk premium rises – RaboResearch",
+      "summary": "Rabobank strategist Michael Every warns that escalating conflict around Hormuz and the Red Sea could push Brent above it"
     },
     {
       "source": "MarketWatch",
@@ -182,11 +177,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] AUD/USD Price Forecast: Looks to build on upbeat Aussie",
-      "[強気] New Zealand Dollar strengthens above 0.5800 on RBNZ haw"
+      "[強気] Australian Dollar: RBA tone may turn hawkish – Commerzb"
     ],
     "EUR": [
-      "[強気] New Zealand Dollar strengthens above 0.5800 on RBNZ haw"
+      "[弱気] European Central Bank set to hold interest rates amid c"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -194,11 +188,10 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+158,480)",
-      "[強気] AUD/USD Price Forecast: Looks to build on upbeat Aussie"
+      "[強気] Australian Dollar: RBA tone may turn hawkish – Commerzb"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar strengthens above 0.5800 on RBNZ haw"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -216,35 +209,35 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.16343,
-      "today_close": 163.10025,
+      "today_close": 163.38515,
       "prev_close": 163.16135,
-      "diff": -0.0611,
-      "diff_pct": -0.04
+      "diff": 0.2238,
+      "diff_pct": 0.14
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.10025,
-      "sma20": 162.2821,
-      "sma50": 161.5376,
-      "sma200": 158.6703,
+      "latest": 163.38515,
+      "sma20": 162.2963,
+      "sma50": 161.5433,
+      "sma200": 158.6718,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 60.3,
-      "high20": 163.3126,
+      "high20": 163.4175,
       "low20": 160.6444,
-      "high60": 163.3126,
+      "high60": 163.4175,
       "low60": 158.7515,
-      "chg5d_pct": 0.42,
-      "chg20d_pct": 1.07
+      "chg5d_pct": 0.59,
+      "chg20d_pct": 1.25
     },
     "EURUSD": {
-      "latest": 1.143,
-      "sma20": 1.1425,
+      "latest": 1.14165,
+      "sma20": 1.1424,
       "sma50": 1.1459,
       "sma200": 1.1633,
-      "vs_sma20": "上",
+      "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 63.7,
@@ -252,8 +245,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.08,
-      "chg20d_pct": -0.06
+      "chg5d_pct": -0.19,
+      "chg20d_pct": -0.17
     }
   }
 }
