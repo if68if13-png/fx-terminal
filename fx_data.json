@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-07-23T11:10:26.395185",
-  "generated": "2026年07月23日 11:10",
+  "timestamp": "2026-07-23T14:01:50.594875",
+  "generated": "2026年07月23日 14:01",
   "scores": {
     "USD": 4,
-    "JPY": 0,
-    "EUR": 2,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 0,
       "quote_score": 4
     },
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -42,17 +42,17 @@
     },
     {
       "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,48 +98,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Retail sales set to beat consensus – TD Securities",
-      "summary": "TD Securities strategists look for Canadian Retail Sales to rise 1.1% month-on-month in May, slightly above the 1.0% con"
+      "title": "Gold falls as Middle East tensions lift Oil prices, Fed rate hike bets",
+      "summary": "Gold (XAU/USD) loses ground on Thursday, snapping a four-day winning streak as the US Dollar (USD) rebounds, while Oil p"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds losses below 1.3400 as PM Burnam stokes fiscal worries",
-      "summary": "The British Pound (GBP) consolidates losses below 1.3400 against the US Dollar (USD) on Thursday, on track for a 0.6% we"
+      "title": "Federal Reserve: Hike pricing questioned – TD Securities",
+      "summary": "TD Securities’ Gennadiy Goldberg and Molly Brooks note that market pricing for Fed hikes has risen alongside higher Oil "
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee attracts slight bids on RBI’s possible intervention",
-      "summary": "The Indian Rupee (INR) trades marginally higher against the US Dollar (USD) on Thursday on possible Reserve Bank of Indi"
+      "title": "Euro slips against British Pound as ECB keeps interest rates unchanged",
+      "summary": "The Euro (EUR) trades under pressure against the British Pound (GBP) as traders assess the European Central Bank’s (ECB)"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank set to hold interest rates; Lagarde eyed for clues on likely September hike",
-      "summary": "The European Central Bank (ECB) is expected to hold the interest rate on the main refinancing operations and the deposit"
+      "title": "Mexican Peso: Slightly stronger MXN outlook – Commerzbank",
+      "summary": "Commerzbank strategist Michael Pfister argues that Banxico’s recent rate cuts were broadly justified by moderating infla"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Euro trims gains but holds above previous highs at 186.32",
-      "summary": "The Euro (EUR) is giving away previous gains against the Japanese Yen (JPY) on Thursday, as investors position for the E"
+      "title": "ECB Press Conference: Lagarde speaks on policy outlook after leaving key rates unchanged",
+      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
     },
     {
       "source": "FXStreet",
-      "title": "Turkish Lira: High carry stays attractive as easing delayed – ING",
-      "summary": "ING’s Frantisek Taborsky expects the Central Bank of the Republic of Türkiye (CBRT) to keep its 37.00% rate unchanged, w"
+      "title": "Lagarde speech: Some asked whether we should consider a hike",
+      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank: Oil-driven risks to policy path – Societe Generale",
-      "summary": "Societe Generale strategists note that Oil and Natural Gas prices have surged since the June European Central Bank (ECB)"
+      "title": "Lagarde speech: Energy shock could intensify further",
+      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Jobs strength keeps RBA hike priced – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes AUD/USD is consolidating near 0.7000 after strong Australia employmen"
+      "title": "United Kingdom: Risks for Sterling – ING",
+      "summary": "ING’s economists describe United Kingdom (UK) public finances as strained by rising spending pressures and high debt int"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: ECB seen hiking in September – Commerzbank",
-      "summary": "Commerzbank’s Antje Praefcke argues the European Central Bank (ECB) can delay action today but will keep a hawkish tone "
+      "title": "Lagarde speech: Indicators suggest economic activity will remain modest",
+      "summary": "Christine Lagarde, President of the European Central Bank (ECB), explains the ECB's decision to leave key rates unchange"
+    },
+    {
+      "source": "FXStreet",
+      "title": "163.00: Why the Japanese Yen is trading at historic lows despite BoJ hike speculation",
+      "summary": "The Japanese Yen (JPY) continues to trade at historic lows, with USD/JPY pressing past year-to-date highs above the 163."
     },
     {
       "source": "MarketWatch",
@@ -182,66 +187,61 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Canadian Dollar: Retail sales set to beat consensus – T",
-      "[強気] Australian Dollar: Jobs strength keeps RBA hike priced "
+      "[強気] Gold falls as Middle East tensions lift Oil prices, Fed",
+      "[強気] 163.00: Why the Japanese Yen is trading at historic low"
     ],
-    "EUR": [
-      "[強気] European Central Bank: Oil-driven risks to policy path ",
-      "[強気] Euro: ECB seen hiking in September – Commerzbank"
+    "JPY": [
+      "[強気] 163.00: Why the Japanese Yen is trading at historic low"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)",
-      "[強気] Australian Dollar: Jobs strength keeps RBA hike priced "
+      "[COT] 🟢ロング優勢 (ネット:+158,480)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
+    "US_FF": null,
     "US_10Y": 4.63,
-    "JP_10Y": 2.67,
-    "DE_10Y": 2.97,
+    "JP_10Y": null,
+    "DE_10Y": null,
     "GB_10Y": 4.796,
-    "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.96,
-    "DIFF_EURUSD": -1.66,
-    "DIFF_GBPUSD": 0.17,
-    "DIFF_AUDUSD": 0.2
+    "AU_10Y": null,
+    "DIFF_GBPUSD": 0.17
   },
   "prices": {
     "USDJPY": {
       "today_open": 163.16343,
-      "today_close": 163.3718,
+      "today_close": 163.9528,
       "prev_close": 163.16135,
-      "diff": 0.2105,
-      "diff_pct": 0.13
+      "diff": 0.7914,
+      "diff_pct": 0.49
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.3718,
-      "sma20": 162.2957,
-      "sma50": 161.543,
-      "sma200": 158.6717,
+      "latest": 163.9528,
+      "sma20": 162.3247,
+      "sma50": 161.5547,
+      "sma200": 158.6746,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 60.3,
-      "high20": 163.4352,
+      "high20": 163.9564,
       "low20": 160.6444,
-      "high60": 163.4352,
+      "high60": 163.9564,
       "low60": 158.7515,
-      "chg5d_pct": 0.58,
-      "chg20d_pct": 1.24
+      "chg5d_pct": 0.94,
+      "chg20d_pct": 1.6
     },
     "EURUSD": {
-      "latest": 1.1405,
-      "sma20": 1.1424,
+      "latest": 1.13737,
+      "sma20": 1.1422,
       "sma50": 1.1458,
       "sma200": 1.1633,
       "vs_sma20": "下",
@@ -249,11 +249,11 @@
       "vs_sma200": "下",
       "rsi14": 63.7,
       "high20": 1.1482,
-      "low20": 1.1378,
+      "low20": 1.1369,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.29,
-      "chg20d_pct": -0.27
+      "chg5d_pct": -0.57,
+      "chg20d_pct": -0.55
     }
   }
 }
