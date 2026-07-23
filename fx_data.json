@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-07-22T22:03:45.943292",
-  "generated": "2026年07月22日 22:03",
+  "timestamp": "2026-07-23T02:46:44.437214",
+  "generated": "2026年07月23日 02:46",
   "scores": {
     "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -28,6 +21,13 @@
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
       "base_score": 0,
@@ -98,33 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar stalls after hotter-than-expected inflation",
-      "summary": "NZD/USD trades lower near the 0.5820 area on Wednesday, extending its recent pullback as the New Zealand Dollar (NZD) st"
+      "title": "British Pound nudges higher above 1.3350 despite Middle East turmoil",
+      "summary": "The GBP/USD pair rebounds to near 1.3385 during the Asian trading hours on Thursday. However, the potential upside for t"
     },
     {
       "source": "FXStreet",
-      "title": "Australia unemployment rate set to steady at 4.4% in June, signaling strong job market",
-      "summary": "Australia will publish the June monthly employment report on Thursday at 01:30 GMT, and market participants expect a mod"
+      "title": "Australia’s Unemployment Rate steadies at 4.4% in June, as expected",
+      "summary": "Australia’s Unemployment Rate stayed at 4.4% in June, according to the official data released by the Australian Bureau o"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar softens as oil and gold rally, ECB decision and Australian jobs loom",
-      "summary": "The US Dollar trades slightly lower on Wednesday as markets remain cautious amid escalating tensions surrounding Iran an"
+      "title": "Australian Dollar gathers strength above 0.7000 on resilient labor data",
+      "summary": "The AUD/USD pair holds positive ground near 0.7010 during the Asian trading hours on Thursday. The Australian Dollar (AU"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Downside risk persists against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD is trading just above 1.29 after a quiet sessio"
+      "title": "Australian Dollar hits one-week top vs New Zealand Dollar on upbeat Aussie jobs data",
+      "summary": "The AUD/NZD cross attracts fresh buyers following the release of the monthly Australian jobs report and climbs to a one-"
     },
     {
       "source": "FXStreet",
-      "title": "Euro elevates ahead of ECB decision and Japanese inflation data",
-      "summary": "EUR/JPY trades marginally higher near the 186.20 area on Wednesday as the Japanese Yen (JPY) remains under pressure near"
+      "title": "Australian Dollar gains against Japanese Yen following employment data",
+      "summary": "AUD/JPY gains ground after recovering daily losses, trading around 114.30 during the Asian hour on Thursday. The currenc"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin tops $65k, but escalating Iran tensions and rate jitters cap gains",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Japan’s Katayama: Ready to take decisive action on foreign exchange as needed",
+      "summary": "Japanese Finance Minister Satsuki Katayama reiterated on Thursday that his government was “ready to take decisive action"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7906 vs. 6.7933 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7906 comp"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar holds gains vs soft USD as rallying oil prices counter trade risks",
+      "summary": "The USD/CAD pair remains on the defensive below the 1.4100 mark during the Asian session on Thursday amid a combination "
+    },
+    {
+      "source": "FXStreet",
+      "title": "WTI climbs above $87.00 as Middle East conflict threatens key choke points",
+      "summary": "West Texas Intermediate (WTI) oil price extends gains for the fifth consecutive day, trading around $87.30 per barrel du"
     },
     {
       "source": "MarketWatch",
@@ -167,18 +182,19 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar stalls after hotter-than-expected in"
+      "[強気] Australian Dollar hits one-week top vs New Zealand Doll"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)",
+      "[強気] Australian Dollar hits one-week top vs New Zealand Doll"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar stalls after hotter-than-expected in"
+      "[強気] Australian Dollar hits one-week top vs New Zealand Doll"
     ]
   },
   "rates": {
@@ -196,18 +212,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.16343,
-      "today_close": 163.13206,
+      "today_close": 163.08622,
       "prev_close": 163.16135,
-      "diff": -0.0293,
-      "diff_pct": -0.02
+      "diff": -0.0751,
+      "diff_pct": -0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.13206,
-      "sma20": 162.2837,
-      "sma50": 161.5383,
-      "sma200": 158.6705,
+      "latest": 163.08622,
+      "sma20": 162.2814,
+      "sma50": 161.5373,
+      "sma200": 158.6703,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -216,15 +232,15 @@
       "low20": 160.6444,
       "high60": 163.3126,
       "low60": 158.7515,
-      "chg5d_pct": 0.43,
-      "chg20d_pct": 1.09
+      "chg5d_pct": 0.41,
+      "chg20d_pct": 1.06
     },
     "EURUSD": {
-      "latest": 1.14093,
-      "sma20": 1.1424,
-      "sma50": 1.1458,
+      "latest": 1.14259,
+      "sma20": 1.1425,
+      "sma50": 1.1459,
       "sma200": 1.1633,
-      "vs_sma20": "下",
+      "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 63.7,
@@ -232,8 +248,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.26,
-      "chg20d_pct": -0.24
+      "chg5d_pct": -0.11,
+      "chg20d_pct": -0.09
     }
   }
 }
