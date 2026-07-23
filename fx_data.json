@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-23T08:31:12.152425",
-  "generated": "2026年07月23日 08:31",
+  "timestamp": "2026-07-23T11:10:26.395185",
+  "generated": "2026年07月23日 11:10",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 2,
     "GBP": 2,
     "AUD": 0,
     "NZD": 2,
@@ -13,45 +13,45 @@
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "EURJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 3
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -98,43 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA tone may turn hawkish – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur highlights a strong Australian labor market, with 76,000 jobs added and participation back ne"
+      "title": "Canadian Dollar: Retail sales set to beat consensus – TD Securities",
+      "summary": "TD Securities strategists look for Canadian Retail Sales to rise 1.1% month-on-month in May, slightly above the 1.0% con"
     },
     {
       "source": "FXStreet",
-      "title": "WTI extends rally towards $90 as Middle East energy supply risks intensify",
-      "summary": "West Texas Intermediate (WTI), futures on NYMEX, extends its winning streak for the fifth trading day on Thursday, is up"
+      "title": "British Pound holds losses below 1.3400 as PM Burnam stokes fiscal worries",
+      "summary": "The British Pound (GBP) consolidates losses below 1.3400 against the US Dollar (USD) on Thursday, on track for a 0.6% we"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Tests levels sub-0.5800 as bulls run out of steam",
-      "summary": "The New Zealand Dollar (NZD) extends losses for the third consecutive day against the US Dollar (USD) on Thursday, with "
+      "title": "Indian Rupee attracts slight bids on RBI’s possible intervention",
+      "summary": "The Indian Rupee (INR) trades marginally higher against the US Dollar (USD) on Thursday on possible Reserve Bank of Indi"
     },
     {
       "source": "FXStreet",
-      "title": "South African Rand: Hawkish SARB could strengthen ZAR – Societe Generale",
-      "summary": "Societe Generale strategists expect a 25bp rate hike in South Africa after a sharp June inflation surprise, with Headlin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forex Today: Focus shifts to ECB rate call, while tensions remain high in Middle East",
-      "summary": "Here is what you need to know on Thursday, July 23:"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar remains steady following improved employment data",
-      "summary": "AUD/USD holds ground after registering minor gains in the previous day, trading around 0.7000 during the European hours "
-    },
-    {
-      "source": "FXStreet",
-      "title": "European Central Bank set to hold interest rates amid cooling inflation and weaker growth",
+      "title": "European Central Bank set to hold interest rates; Lagarde eyed for clues on likely September hike",
       "summary": "The European Central Bank (ECB) is expected to hold the interest rate on the main refinancing operations and the deposit"
     },
     {
       "source": "FXStreet",
-      "title": "Brent: Energy risk premium rises – RaboResearch",
-      "summary": "Rabobank strategist Michael Every warns that escalating conflict around Hormuz and the Red Sea could push Brent above it"
+      "title": "EUR/JPY Price Forecast: Euro trims gains but holds above previous highs at 186.32",
+      "summary": "The Euro (EUR) is giving away previous gains against the Japanese Yen (JPY) on Thursday, as investors position for the E"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Turkish Lira: High carry stays attractive as easing delayed – ING",
+      "summary": "ING’s Frantisek Taborsky expects the Central Bank of the Republic of Türkiye (CBRT) to keep its 37.00% rate unchanged, w"
+    },
+    {
+      "source": "FXStreet",
+      "title": "European Central Bank: Oil-driven risks to policy path – Societe Generale",
+      "summary": "Societe Generale strategists note that Oil and Natural Gas prices have surged since the June European Central Bank (ECB)"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar: Jobs strength keeps RBA hike priced – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes AUD/USD is consolidating near 0.7000 after strong Australia employmen"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro: ECB seen hiking in September – Commerzbank",
+      "summary": "Commerzbank’s Antje Praefcke argues the European Central Bank (ECB) can delay action today but will keep a hawkish tone "
     },
     {
       "source": "MarketWatch",
@@ -177,10 +182,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar: RBA tone may turn hawkish – Commerzb"
+      "[強気] Canadian Dollar: Retail sales set to beat consensus – T",
+      "[強気] Australian Dollar: Jobs strength keeps RBA hike priced "
     ],
     "EUR": [
-      "[弱気] European Central Bank set to hold interest rates amid c"
+      "[強気] European Central Bank: Oil-driven risks to policy path ",
+      "[強気] Euro: ECB seen hiking in September – Commerzbank"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -188,7 +195,7 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+158,480)",
-      "[強気] Australian Dollar: RBA tone may turn hawkish – Commerzb"
+      "[強気] Australian Dollar: Jobs strength keeps RBA hike priced "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,33 +216,33 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.16343,
-      "today_close": 163.38515,
+      "today_close": 163.3718,
       "prev_close": 163.16135,
-      "diff": 0.2238,
-      "diff_pct": 0.14
+      "diff": 0.2105,
+      "diff_pct": 0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.38515,
-      "sma20": 162.2963,
-      "sma50": 161.5433,
-      "sma200": 158.6718,
+      "latest": 163.3718,
+      "sma20": 162.2957,
+      "sma50": 161.543,
+      "sma200": 158.6717,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 60.3,
-      "high20": 163.4175,
+      "high20": 163.4352,
       "low20": 160.6444,
-      "high60": 163.4175,
+      "high60": 163.4352,
       "low60": 158.7515,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": 1.25
+      "chg5d_pct": 0.58,
+      "chg20d_pct": 1.24
     },
     "EURUSD": {
-      "latest": 1.14165,
+      "latest": 1.1405,
       "sma20": 1.1424,
-      "sma50": 1.1459,
+      "sma50": 1.1458,
       "sma200": 1.1633,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -245,8 +252,8 @@
       "low20": 1.1378,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.19,
-      "chg20d_pct": -0.17
+      "chg5d_pct": -0.29,
+      "chg20d_pct": -0.27
     }
   }
 }
