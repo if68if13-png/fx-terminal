@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-07-23T16:26:26.091792",
-  "generated": "2026年07月23日 16:26",
+  "timestamp": "2026-07-23T19:18:39.800534",
+  "generated": "2026年07月23日 19:18",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -41,17 +48,10 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -98,38 +98,38 @@
     },
     {
       "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Bulls struggle below the 50-day SMA",
+      "summary": "AUD/USD edges lower on Thursday as a stronger US Dollar (USD) outweighs support from stronger-than-expected Australian e"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Holds near fair value against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is tracking the broader US Dollar ("
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc hits 13-month low as rising Oil prices boost bets on Fed hike",
+      "summary": "USD/CHF climbs to its highest level since June 2025 on Thursday, supported by a broadly stronger US Dollar (USD) as the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold tumbles as sellers target $4,000",
+      "summary": "Gold price (XAU/USD) loses nearly 2% on Thursday as the US Dollar stages a comeback amid growing speculation that the Wh"
+    },
+    {
+      "source": "FXStreet",
+      "title": "EUR/USD Price Forecast: Bears target a break below 1.1350 support",
+      "summary": "EUR/USD trades on the back foot on Thursday as the expanding war in the Middle East pushes Oil prices higher and fuels h"
+    },
+    {
+      "source": "FXStreet",
       "title": "Gold falls as Iran war lifts Oil prices, Fed rate hike bets",
       "summary": "Gold (XAU/USD) loses ground on Thursday, snapping a four-day winning streak as the US Dollar (USD) rebounds, while the w"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound slides as Gulf War risk fuels US Dollar rally",
+      "title": "British Pound slides as Gulf war risk fuels US Dollar rally",
       "summary": "The Pound Sterling drops by over 0.40% against the Greenback as risk aversion weighs on most G8 currencies amid the esca"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen falls near multi-decade low",
-      "summary": "USD/JPY trades above163.90 on Thursday as the US Dollar (USD) strengthens following significantly better-than-expected U"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States:  PCE Methodology tweaks seen as marginal – TD Securities",
-      "summary": "TD Securities economists Eli Nir and Oscar Munoz analyze upcoming BEA methodology changes to United States (US) Personal"
-    },
-    {
-      "source": "FXStreet",
-      "title": "European Central Bank: Hiking cycle continues at slower pace – Nordea",
-      "summary": "Nordea strategists Jan von Gerich, Tuuli Koivu and Anders Svendsen note that the European Central Bank (ECB) kept its de"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Natural Gas: High prices sustain European power – Rabobank",
-      "summary": "Rabobank’s Florence Schmit notes TTF natural gas has risen above €60/MWh as Middle Eastern supply disruptions intensify."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Hike pricing questioned – TD Securities",
-      "summary": "TD Securities’ Gennadiy Goldberg and Molly Brooks note that market pricing for Fed hikes has risen alongside higher Oil "
     },
     {
       "source": "MarketWatch",
@@ -172,17 +172,27 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] AUD/USD Price Forecast: Bulls struggle below the 50-day",
+      "[強気] Swiss Franc hits 13-month low as rising Oil prices boos",
+      "[強気] EUR/USD Price Forecast: Bears target a break below 1.13",
       "[強気] Gold falls as Iran war lifts Oil prices, Fed rate hike "
+    ],
+    "EUR": [
+      "[強気] EUR/USD Price Forecast: Bears target a break below 1.13"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+158,480)"
+      "[COT] 🟢ロング優勢 (ネット:+158,480)",
+      "[強気] AUD/USD Price Forecast: Bulls struggle below the 50-day"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc hits 13-month low as rising Oil prices boos"
     ]
   },
   "rates": {
@@ -200,18 +210,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.16343,
-      "today_close": 163.78901,
+      "today_close": 163.82423,
       "prev_close": 163.16135,
-      "diff": 0.6277,
-      "diff_pct": 0.38
+      "diff": 0.6629,
+      "diff_pct": 0.41
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.78901,
-      "sma20": 162.3165,
-      "sma50": 161.5514,
-      "sma200": 158.6738,
+      "latest": 163.82423,
+      "sma20": 162.3183,
+      "sma50": 161.5521,
+      "sma200": 158.674,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -220,11 +230,11 @@
       "low20": 160.6444,
       "high60": 163.9801,
       "low60": 158.7515,
-      "chg5d_pct": 0.84,
-      "chg20d_pct": 1.5
+      "chg5d_pct": 0.86,
+      "chg20d_pct": 1.52
     },
     "EURUSD": {
-      "latest": 1.13755,
+      "latest": 1.1376,
       "sma20": 1.1422,
       "sma50": 1.1458,
       "sma200": 1.1633,
