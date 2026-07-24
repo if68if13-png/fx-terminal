@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-24T13:46:11.203196",
-  "generated": "2026年07月24日 13:46",
+  "timestamp": "2026-07-24T16:42:42.975108",
+  "generated": "2026年07月24日 16:42",
   "scores": {
-    "USD": 1,
-    "JPY": 1,
-    "EUR": 2,
-    "GBP": 2,
+    "USD": 5,
+    "JPY": 0,
+    "EUR": 1,
+    "GBP": 4,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "diff": -1,
+      "base_score": 4,
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
       "base_score": 1,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "South African Rand: Weakness resumes after SARB surprise – Societe Generale",
-      "summary": "Societe Generale analysts report USD/ZAR has broken above a multi-month descending trend line and reclaimed its 200-day "
+      "title": "US Dollar: Softer yields curb gains ahead of FOMC – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret say broad US Dollar (USD) gains are moderating as United States (U"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: BoJ repricing may limit JPY losses against US Dollar - BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that USD/JPY is consolidating just below a multi-decade high as Japan"
+      "title": "Euro: Choppy range view holds against US Dollar – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley describes EUR/USD as wary after the July European Central Bank (ECB) meeting."
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank: September hike risk rises with oil and PMIs – Commerzbank",
-      "summary": "Commerzbank analysts highlight that ECB President Lagarde has opened the door to a September rate hike, with sources sug"
+      "title": "British Pound rises as Oil slide softens USD, Fed hike bets increase",
+      "summary": "The Pound Sterling advances by some 0.20% on Friday as Oil prices tumble, weighing on the US Dollar, while the US-Iran c"
     },
     {
       "source": "FXStreet",
-      "title": "Euro pauses near 12-week high against Yen despite upbeat Eurozone PMI",
-      "summary": "EUR/JPY consolidates modest losses on Friday as fresh data from Japan and the Eurozone fails to generate a strong market"
+      "title": "Swiss Franc gains slightly against US Dollar as Oil prices ease",
+      "summary": "USD/CHF trades flat on Friday as a pullback in Oil prices weighs modestly on the US Dollar (USD) and US Treasury yields."
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Energy shock keeps risks elevated – Rabobank",
-      "summary": "Rabobank's Senior Macro Strategist Stefan Koopman notes UK headline CPI fell to 2.6% in June, below the MPC’s forecast, "
+      "title": "British Pound: Strong UK data fail to lift GBP against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the British Pound (GBP) is slightly higher versus the US Do"
     },
     {
       "source": "FXStreet",
-      "title": "Economists agree: Bank of England to stay on hold amid easing inflation outlook",
-      "summary": "The Bank of England (BoE) is expected to keep its interest rate unchanged at 3.75% at its July 30 monetary policy meetin"
+      "title": "Japanese Yen stays under pressure as resilient US economy supports the Dollar",
+      "summary": "USD/JPY edges lower on Friday, trading around 163.70, down 0.09% on the day at the time of writing, after hitting a fres"
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Higher rates to stabilise regional currencies – ING",
-      "summary": "ING’s Frantisek Taborsky reports that surging Oil and gas prices triggered a sharp hawkish repricing of policy paths in "
+      "title": "Singapore Dollar: MAS stance supports relative resilience – MUFG",
+      "summary": "Lloyd Chan at MUFG highlights that Singapore’s June inflation data stayed benign, with modest upticks in headline and co"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD recovers as the US Dollar eases",
-      "summary": "Silver (XAG/USD) trades around $58.55 at the time of writing on Friday, up 2.24% on the day, benefiting from a modest pu"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US S&P Global PMI expected to highlight resilient business activity in July",
-      "summary": "S&amp;P Global will release the July flash Purchasing Managers Indices (PMIs) for the United States (US) on Friday. Thes"
+      "title": "British Pound: Strong PMIs and retail rebound in focus – TD Securities",
+      "summary": "TD Securities notes that the UK Composite PMI climbed back into expansion at 52.1 in July, led by Manufacturing strength"
     },
     {
       "source": "MarketWatch",
@@ -182,17 +177,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] South African Rand: Weakness resumes after SARB surpris"
-    ],
-    "JPY": [
-      "[強気] Euro pauses near 12-week high against Yen despite upbea"
+      "[強気] Euro: Choppy range view holds against US Dollar – Rabob",
+      "[強気] Swiss Franc gains slightly against US Dollar as Oil pri",
+      "[強気] British Pound: Strong UK data fail to lift GBP against "
     ],
     "EUR": [
-      "[強気] European Central Bank: September hike risk rises with o",
-      "[強気] Euro pauses near 12-week high against Yen despite upbea"
+      "[強気] Euro: Choppy range view holds against US Dollar – Rabob"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound: Strong UK data fail to lift GBP against ",
+      "[強気] British Pound: Strong PMIs and retail rebound in focus "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -200,6 +195,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc gains slightly against US Dollar as Oil pri"
     ]
   },
   "rates": {
@@ -217,18 +215,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.8666,
-      "today_close": 163.84602,
+      "today_close": 163.75381,
       "prev_close": 163.87039,
-      "diff": -0.0244,
-      "diff_pct": -0.01
+      "diff": -0.1166,
+      "diff_pct": -0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.84602,
-      "sma20": 162.4439,
-      "sma50": 161.6294,
-      "sma200": 158.7122,
+      "latest": 163.75381,
+      "sma20": 162.4392,
+      "sma50": 161.6276,
+      "sma200": 158.7118,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -237,11 +235,11 @@
       "low20": 160.6444,
       "high60": 163.9801,
       "low60": 158.8661,
-      "chg5d_pct": 0.86,
-      "chg20d_pct": 1.53
+      "chg5d_pct": 0.81,
+      "chg20d_pct": 1.47
     },
     "EURUSD": {
-      "latest": 1.13723,
+      "latest": 1.1381,
       "sma20": 1.1419,
       "sma50": 1.1453,
       "sma200": 1.1631,
@@ -253,8 +251,8 @@
       "low20": 1.1364,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.52,
-      "chg20d_pct": -0.58
+      "chg5d_pct": -0.44,
+      "chg20d_pct": -0.5
     }
   }
 }
