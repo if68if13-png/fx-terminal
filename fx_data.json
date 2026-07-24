@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-07-24T16:42:42.975108",
-  "generated": "2026年07月24日 16:42",
+  "timestamp": "2026-07-24T19:25:17.661363",
+  "generated": "2026年07月24日 19:25",
   "scores": {
-    "USD": 5,
+    "USD": 3,
     "JPY": 0,
     "EUR": 1,
-    "GBP": 4,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 1,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 4,
-      "quote_score": 5
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,43 +98,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "NZD/USD Price Forecast: Tests 0.5800 as bullish momentum fades",
+      "summary": "The New Zealand Dollar gains over 0.30% against the US Dollar, poised to test key resistance levels, with the 50-day Sim"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Thai Baht: Oil shock and dovish BoT keep THB pressured against US Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that the Thai Baht (THB) is trading near its weakest level in more than a"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro falls even amid strong Eurozone PMIs",
+      "summary": "EUR/USD trades lower near the 1.1370 area on Friday, struggling despite stronger-than-expected Eurozone business-activit"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold gains despite firm US Dollar",
+      "summary": "Gold price (XAU/USD) drifts higher on Friday as the Greenback stands firm, even as growing speculation that the US-Iran "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: BI pause seen as hawkish hold – UOB",
+      "summary": "UOB Global Economics & Markets Research notes that Bank Indonesia kept its policy rate at 5.75%, opting to let earlier t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG/USD consolidates as bulls struggle to clear the 21-day SMA",
+      "summary": "Silver (XAG/USD) edges higher on Friday as a pullback in Oil prices pushes US Treasury yields lower, while the US Dollar"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Dow Jones Industrial Average buys a rumour and sleeps through a tariff regime",
+      "summary": "The index that spent this week absorbing a war premium trades near 52,000 on Friday, around 325 points to the good side,"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Hawkish MAS stance supports SGD – MUFG",
+      "summary": "MUFG’s Lloyd Chan expects MAS to keep policy unchanged at the July meeting while maintaining a tightening bias, distingu"
+    },
+    {
+      "source": "FXStreet",
       "title": "US Dollar: Softer yields curb gains ahead of FOMC – Scotiabank",
       "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret say broad US Dollar (USD) gains are moderating as United States (U"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Choppy range view holds against US Dollar – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley describes EUR/USD as wary after the July European Central Bank (ECB) meeting."
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound rises as Oil slide softens USD, Fed hike bets increase",
-      "summary": "The Pound Sterling advances by some 0.20% on Friday as Oil prices tumble, weighing on the US Dollar, while the US-Iran c"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc gains slightly against US Dollar as Oil prices ease",
-      "summary": "USD/CHF trades flat on Friday as a pullback in Oil prices weighs modestly on the US Dollar (USD) and US Treasury yields."
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Strong UK data fail to lift GBP against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the British Pound (GBP) is slightly higher versus the US Do"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen stays under pressure as resilient US economy supports the Dollar",
-      "summary": "USD/JPY edges lower on Friday, trading around 163.70, down 0.09% on the day at the time of writing, after hitting a fres"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: MAS stance supports relative resilience – MUFG",
-      "summary": "Lloyd Chan at MUFG highlights that Singapore’s June inflation data stayed benign, with modest upticks in headline and co"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Strong PMIs and retail rebound in focus – TD Securities",
-      "summary": "TD Securities notes that the UK Composite PMI climbed back into expansion at 52.1 in July, led by Manufacturing strength"
     },
     {
       "source": "MarketWatch",
@@ -177,17 +182,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: Choppy range view holds against US Dollar – Rabob",
-      "[強気] Swiss Franc gains slightly against US Dollar as Oil pri",
-      "[強気] British Pound: Strong UK data fail to lift GBP against "
+      "[弱気] Thai Baht: Oil shock and dovish BoT keep THB pressured ",
+      "[強気] Euro falls even amid strong Eurozone PMIs",
+      "[強気] Singapore Dollar: Hawkish MAS stance supports SGD – MUF"
     ],
     "EUR": [
-      "[強気] Euro: Choppy range view holds against US Dollar – Rabob"
+      "[強気] Euro falls even amid strong Eurozone PMIs"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Strong UK data fail to lift GBP against ",
-      "[強気] British Pound: Strong PMIs and retail rebound in focus "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -195,9 +198,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc gains slightly against US Dollar as Oil pri"
     ]
   },
   "rates": {
@@ -215,18 +215,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.8666,
-      "today_close": 163.75381,
+      "today_close": 163.84252,
       "prev_close": 163.87039,
-      "diff": -0.1166,
-      "diff_pct": -0.07
+      "diff": -0.0279,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.75381,
-      "sma20": 162.4392,
-      "sma50": 161.6276,
-      "sma200": 158.7118,
+      "latest": 163.84252,
+      "sma20": 162.4437,
+      "sma50": 161.6293,
+      "sma200": 158.7122,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -235,11 +235,11 @@
       "low20": 160.6444,
       "high60": 163.9801,
       "low60": 158.8661,
-      "chg5d_pct": 0.81,
-      "chg20d_pct": 1.47
+      "chg5d_pct": 0.86,
+      "chg20d_pct": 1.53
     },
     "EURUSD": {
-      "latest": 1.1381,
+      "latest": 1.13707,
       "sma20": 1.1419,
       "sma50": 1.1453,
       "sma200": 1.1631,
@@ -251,8 +251,8 @@
       "low20": 1.1364,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.44,
-      "chg20d_pct": -0.5
+      "chg5d_pct": -0.53,
+      "chg20d_pct": -0.59
     }
   }
 }
