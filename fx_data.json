@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-24T11:04:27.229403",
-  "generated": "2026年07月24日 11:04",
+  "timestamp": "2026-07-24T13:46:11.203196",
+  "generated": "2026年07月24日 13:46",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
+    "USD": 1,
+    "JPY": 1,
     "EUR": 2,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -14,45 +14,45 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,48 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "“Still see probability of rate hike higher than hold”: ECB’s Simkus expresses hawkish bias on rates",
-      "summary": "European Central Bank (ECB) Governing Council member and head of Lithuania's central bank, Gediminas Simkus, said during"
+      "title": "South African Rand: Weakness resumes after SARB surprise – Societe Generale",
+      "summary": "Societe Generale analysts report USD/ZAR has broken above a multi-month descending trend line and reclaimed its 200-day "
     },
     {
       "source": "FXStreet",
-      "title": "US S&P Global PMI expected to show steady business growth in July",
-      "summary": "S&amp;P Global will release the July flash Purchasing Managers' Indices (PMIs) for the United States (US) on Friday. The"
+      "title": "Japanese Yen: BoJ repricing may limit JPY losses against US Dollar - BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that USD/JPY is consolidating just below a multi-decade high as Japan"
     },
     {
       "source": "FXStreet",
-      "title": "Turkish Lira: Tight CBRT funding offers marginal support – Commerzbank",
-      "summary": "According to Commerzbank’s Tatha Ghose, the Central Bank of the Republic of Türkiye (CBRT) kept its one-week repo rate a"
+      "title": "European Central Bank: September hike risk rises with oil and PMIs – Commerzbank",
+      "summary": "Commerzbank analysts highlight that ECB President Lagarde has opened the door to a September rate hike, with sources sug"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds steady vs British Pound after stronger Eurozone, UK data",
-      "summary": "EUR/GBP trades around 0.8550 at the time of writing on Friday, remaining broadly stable despite a series of stronger-tha"
+      "title": "Euro pauses near 12-week high against Yen despite upbeat Eurozone PMI",
+      "summary": "EUR/JPY consolidates modest losses on Friday as fresh data from Japan and the Eurozone fails to generate a strong market"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee holds early gains as RBI intervenes again",
-      "summary": "The Indian Rupee gains strongly after a flat opening against the US Dollar (USD) on Friday. The USD/INR pair declines to"
+      "title": "United Kingdom: Energy shock keeps risks elevated – Rabobank",
+      "summary": "Rabobank's Senior Macro Strategist Stefan Koopman notes UK headline CPI fell to 2.6% in June, below the MPC’s forecast, "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed expectations keep upside in focus – ING",
-      "summary": "ING’s Chris Turner notes the US Dollar (USD) is supported as higher energy prices fuel expectations of further central b"
+      "title": "Economists agree: Bank of England to stay on hold amid easing inflation outlook",
+      "summary": "The Bank of England (BoE) is expected to keep its interest rate unchanged at 3.75% at its July 30 monetary policy meetin"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound retreats from 1.3340 as bright UK data fails to offset risk aversion",
-      "summary": "The British Pound (GBP) remains depressed near three-week lows against the US Dollar (USD) on Friday, with upside attemp"
+      "title": "CEE FX: Higher rates to stabilise regional currencies – ING",
+      "summary": "ING’s Frantisek Taborsky reports that surging Oil and gas prices triggered a sharp hawkish repricing of policy paths in "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen remains pinned near 40-year low as Fed-BoJ rate gap keeps carry trade active",
-      "summary": "The USD/JPY pair edges lower on Friday as bulls turn cautious in anticipation of a potential government intervention to "
+      "title": "Silver Price Forecast: XAG/USD recovers as the US Dollar eases",
+      "summary": "Silver (XAG/USD) trades around $58.55 at the time of writing on Friday, up 2.24% on the day, benefiting from a modest pu"
     },
     {
       "source": "FXStreet",
-      "title": "Gold climbs above $4,050 on retreating USD; upside seems limited amid Fed hike bets",
-      "summary": "Gold (XAU/USD) builds on its modest intraday bounce and climbs back above the $4,050 level, hitting a fresh daily high d"
+      "title": "US S&P Global PMI expected to highlight resilient business activity in July",
+      "summary": "S&amp;P Global will release the July flash Purchasing Managers Indices (PMIs) for the United States (US) on Friday. Thes"
     },
     {
       "source": "MarketWatch",
@@ -182,15 +182,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Indian Rupee holds early gains as RBI intervenes again"
+      "[弱気] South African Rand: Weakness resumes after SARB surpris"
+    ],
+    "JPY": [
+      "[強気] Euro pauses near 12-week high against Yen despite upbea"
     ],
     "EUR": [
-      "[強気] “Still see probability of rate hike higher than hold”: ",
-      "[強気] Euro holds steady vs British Pound after stronger Euroz"
+      "[強気] European Central Bank: September hike risk rises with o",
+      "[強気] Euro pauses near 12-week high against Yen despite upbea"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro holds steady vs British Pound after stronger Euroz"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -201,28 +203,32 @@
     ]
   },
   "rates": {
-    "US_FF": null,
-    "US_10Y": null,
-    "JP_10Y": null,
-    "DE_10Y": null,
-    "GB_10Y": null,
-    "AU_10Y": null
+    "US_FF": 3.63,
+    "US_10Y": 4.67,
+    "JP_10Y": 2.67,
+    "DE_10Y": 2.97,
+    "GB_10Y": 4.796,
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 2.0,
+    "DIFF_EURUSD": -1.7,
+    "DIFF_GBPUSD": 0.13,
+    "DIFF_AUDUSD": 0.16
   },
   "prices": {
     "USDJPY": {
       "today_open": 163.8666,
-      "today_close": 163.77892,
+      "today_close": 163.84602,
       "prev_close": 163.87039,
-      "diff": -0.0915,
-      "diff_pct": -0.06
+      "diff": -0.0244,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.77892,
-      "sma20": 162.4405,
-      "sma50": 161.6281,
-      "sma200": 158.7119,
+      "latest": 163.84602,
+      "sma20": 162.4439,
+      "sma50": 161.6294,
+      "sma200": 158.7122,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -231,14 +237,14 @@
       "low20": 160.6444,
       "high60": 163.9801,
       "low60": 158.8661,
-      "chg5d_pct": 0.82,
-      "chg20d_pct": 1.49
+      "chg5d_pct": 0.86,
+      "chg20d_pct": 1.53
     },
     "EURUSD": {
-      "latest": 1.1384,
-      "sma20": 1.142,
+      "latest": 1.13723,
+      "sma20": 1.1419,
       "sma50": 1.1453,
-      "sma200": 1.1632,
+      "sma200": 1.1631,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -247,8 +253,8 @@
       "low20": 1.1364,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.42,
-      "chg20d_pct": -0.47
+      "chg5d_pct": -0.52,
+      "chg20d_pct": -0.58
     }
   }
 }
