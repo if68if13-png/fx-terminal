@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-07-26T06:06:29.050255",
-  "generated": "2026年07月26日 06:06",
+  "timestamp": "2026-07-26T10:44:47.690280",
+  "generated": "2026年07月26日 10:44",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -142,6 +142,11 @@
       "summary": "UOB Global Economics & Markets Research notes that Bank Indonesia kept its policy rate at 5.75%, opting to let earlier t"
     },
     {
+      "source": "Investing",
+      "title": "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision",
+      "summary": ""
+    },
+    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -214,15 +219,15 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.85403,
-      "today_close": 163.85277,
+      "today_close": 163.85327,
       "prev_close": 163.8532,
-      "diff": -0.0004,
-      "diff_pct": -0.0
+      "diff": 0.0001,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.85277,
+      "latest": 163.85327,
       "sma20": 162.6577,
       "sma50": 161.7704,
       "sma200": 158.7839,
@@ -238,7 +243,7 @@
       "chg20d_pct": 1.08
     },
     "EURUSD": {
-      "latest": 1.13737,
+      "latest": 1.13746,
       "sma20": 1.1412,
       "sma50": 1.1447,
       "sma200": 1.1628,
@@ -250,8 +255,8 @@
       "low20": 1.1364,
       "high60": 1.1686,
       "low60": 1.1324,
-      "chg5d_pct": -0.21,
-      "chg20d_pct": -0.59
+      "chg5d_pct": -0.2,
+      "chg20d_pct": -0.58
     }
   }
 }
