@@ -879,6 +879,54 @@ function renderTodayBar(){
 
   const _orig=window.showTab;
   window.showTab=function(id){_orig(id);if(id==='p6')buildCalendar();};
+  /* ===== 追加カレンダー(fx_calendar_extra.json)を IND へ統合 : calendar-extra ===== */
+  (function(){
+    function starRank(s){ var m = /^(\u2605+)/.exec(String(s)); return m ? m[1].length : 0; }
+    function byStar(a, b){ return starRank(b) - starRank(a); }
+  
+    /* 既存エントリの型を調べる。buildCalendar が配列前提か文字列前提かを判定する */
+    function detectShape(obj){
+      for(var k in obj){
+        if(Object.prototype.hasOwnProperty.call(obj, k) && obj[k] != null){
+          return Array.isArray(obj[k]) ? 'array' : 'string';
+        }
+      }
+      return 'array';
+    }
+  
+    fetch('fx_calendar_extra.json?t=' + Date.now(), { cache: 'no-store' })
+      .then(function(r){ if(!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(function(d){
+        var shape = detectShape(IND), added = 0;
+        (d.events || []).forEach(function(e){
+          if(!e.date || !e.short) return;
+          var cur = IND[e.date];
+          var isArr = Array.isArray(cur) || (cur == null && shape === 'array');
+          if(isArr){
+            var arr = Array.isArray(cur) ? cur : (cur == null || cur === '' ? [] : [cur]);
+            if(arr.indexOf(e.short) < 0){ arr.push(e.short); arr.sort(byStar); added++; }
+            IND[e.date] = arr;
+          } else {
+            var parts = (cur == null || cur === '') ? [] : String(cur).split(' / ');
+            if(parts.indexOf(e.short) < 0){
+              parts.push(e.short);
+              parts.sort(byStar);
+              IND[e.date] = parts.join(' / ');
+              added++;
+            }
+          }
+        });
+        console.log('[calendar-extra] ' + added + '件を追加 (形式:' + shape + ') / 生成 '
+                    + (d.generated_at_jst || '?'));
+        /* IND を読む描画関数を再実行。片方が失敗しても もう片方は動かす */
+        try { if(typeof buildCalendar === 'function') buildCalendar(); }
+        catch(x){ console.warn('[calendar-extra] buildCalendar 失敗:', x.message); }
+        try { if(typeof renderTodayBar === 'function') renderTodayBar(); }
+        catch(x){ console.warn('[calendar-extra] renderTodayBar 失敗:', x.message); }
+      })
+      .catch(function(err){ console.warn('[calendar-extra] 読み込み失敗:', err.message); });
+  })();
+  /* ===== calendar-extra ここまで ===== */
   buildCalendar();
   renderTodayBar();
 })();

@@ -34,6 +34,9 @@ jobs:
           python fx_outlook.py
           python fx_history.py
 
+      - name: Update calendar extra (BOJ/ECB/CPI/PMI/Mag7)
+        run: python fx_calendar_extra.py
+        continue-on-error: true
       - name: Commit and push
         run: |
           git config user.name "github-actions"
