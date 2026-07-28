@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-28T19:24:41.364041",
-  "generated": "2026年07月28日 19:24",
+  "timestamp": "2026-07-28T22:04:35.313463",
+  "generated": "2026年07月28日 22:04",
   "scores": {
     "USD": 2,
-    "JPY": 1,
-    "EUR": -1,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,13 +13,6 @@
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
@@ -27,25 +20,25 @@
       "quote_score": 2
     },
     {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -53,6 +46,13 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,6 +98,41 @@
     },
     {
       "source": "FXStreet",
+      "title": "Singapore Dollar: MAS tightening keeps pair under pressure – Commerzbank",
+      "summary": "Commerzbank analysts highlight that the Monetary Authority of Singapore (MAS) unexpectedly tightened policy for a second"
+    },
+    {
+      "source": "FXStreet",
+      "title": "NZD/USD holds ahead of the Fed's decision",
+      "summary": "NZD/USD trades nearly unchanged around the 0.5785 area on Tuesday, struggling to extend its earlier recovery despite a m"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Brazilian Real: BRL seen weaker into year-end – Rabobank",
+      "summary": "Rabobank’s strategists Mauricio Une and Renan Alves note that tensions between the United States (US) and Iran have ease"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States: Supercore and measurement debates shape Fed path – BNY",
+      "summary": "BNY strategists John Velis and David Tam see elevated US supercore inflation as a key argument for further tightening bu"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar eases ahead of Fed as Oil and Gold extend losses",
+      "summary": "The US Dollar (USD) trades slightly lower on Tuesday as investors reduce some exposure ahead of Wednesday’s Federal Rese"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso advances within range against the US Dollar",
+      "summary": "USD/MXN trades around 17.40 on Tuesday, posting modest losses for a third consecutive session. The US Dollar (USD) retai"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver: Forecast cut but deficit supports upside – Commerzbank",
+      "summary": "Commerzbank’s Norman Liebke reports that Silver has fallen from USD 70 to USD 57.50 per troy ounce and that the bank has"
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen holds as markets await Tokyo inflation data",
       "summary": "USD/JPY trades slightly higher near the 163.80 area on Tuesday, remaining close to multi-decade highs as the Japanese Ye"
     },
@@ -107,33 +142,8 @@
       "summary": "The Swiss Franc (CHF) steadies against the US Dollar (USD) on Tuesday as the Greenback gives up its early gains, with tr"
     },
     {
-      "source": "FXStreet",
-      "title": "The Euro is not rallying, the British Pound Sterling is being demoted",
-      "summary": "The Euro is on track for its eighth gain in nine sessions against the Pound, and the explanation that would normally cov"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver loses ground as hopes for US-Iran deal improve risk appetite",
-      "summary": "Silver (XAG/USD) trades around $57.40 on Tuesday at the time of writing, down 1.7% on the day. The white metal is under "
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar Index eases from tops, back to 101.30 ahead of Fed",
-      "summary": "The Greenback, when tracked by the US Dollar Index (DXY), abandons the area of monthly peaks and recedes toward the 101."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro skyrockets amid softer US confidence",
-      "summary": "EUR/USD trades higher near the 1.1400 area on Tuesday, gaining around 0.3% as the US Dollar (USD) weakens following soft"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold: Hawkish Fed delays Gold recovery path – Commerzbank",
-      "summary": "Commerzbank’s Carsten Fritsch and Thu Lan Nguyen note that the Gold price has dropped nearly 30% from its January record"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin retreats to 10-day low near $63k as tech sell-off, Fed uncertainty weigh",
+      "title": "Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty",
       "summary": ""
     },
     {
@@ -181,15 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro skyrockets amid softer US confidence",
-      "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba"
-    ],
-    "JPY": [
-      "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba"
-    ],
-    "EUR": [
-      "[弱気] Euro skyrockets amid softer US confidence"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -204,57 +206,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.69,
+    "US_10Y": 4.65,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.02,
-    "DIFF_EURUSD": -1.72,
-    "DIFF_GBPUSD": 0.11,
-    "DIFF_AUDUSD": 0.14
+    "DIFF_USDJPY": 1.98,
+    "DIFF_EURUSD": -1.68,
+    "DIFF_GBPUSD": 0.15,
+    "DIFF_AUDUSD": 0.18
   },
   "prices": {
     "USDJPY": {
-      "today_open": 163.7486,
-      "today_close": 163.84486,
-      "prev_close": 163.74729,
-      "diff": 0.0976,
-      "diff_pct": 0.06
+      "today_open": 163.86113,
+      "today_close": 163.83943,
+      "prev_close": 163.86954,
+      "diff": -0.0301,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.84486,
-      "sma20": 162.7886,
-      "sma50": 161.9096,
-      "sma200": 158.8464,
+      "latest": 163.83943,
+      "sma20": 162.8619,
+      "sma50": 161.9795,
+      "sma200": 158.8762,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 54.7,
+      "rsi14": 46.9,
       "high20": 164.0881,
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": -0.02,
-      "chg20d_pct": 0.74
+      "chg5d_pct": -0.01,
+      "chg20d_pct": 0.89
     },
     "EURUSD": {
-      "latest": 1.13901,
-      "sma20": 1.1409,
-      "sma50": 1.1442,
-      "sma200": 1.1626,
+      "latest": 1.13906,
+      "sma20": 1.1407,
+      "sma50": 1.1438,
+      "sma200": 1.1625,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 39.6,
+      "rsi14": 49.9,
       "high20": 1.1482,
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": 0.11,
-      "chg20d_pct": -0.23
+      "chg5d_pct": 0.16,
+      "chg20d_pct": -0.35
     }
   }
 }
