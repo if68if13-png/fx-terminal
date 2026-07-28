@@ -1,29 +1,22 @@
 {
-  "timestamp": "2026-07-28T14:07:27.735630",
-  "generated": "2026年07月28日 14:07",
+  "timestamp": "2026-07-28T16:40:17.898544",
+  "generated": "2026年07月28日 16:40",
   "scores": {
     "USD": 3,
-    "JPY": 0,
-    "EUR": 0,
+    "JPY": 1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": 0,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
+      "diff": -4,
+      "base_score": -1,
       "quote_score": 3
     },
     {
@@ -34,11 +27,18 @@
       "quote_score": 3
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -48,11 +48,11 @@
       "quote_score": 3
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,48 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Why hot Australian inflation could reignite the Reserve Bank of Australia hike debate",
-      "summary": "The Australian Dollar (AUD) is balancing stickier-than-expected domestic inflation against broader global market volatil"
+      "title": "The Euro is not rallying, the British Pound Sterling is being demoted",
+      "summary": "The Euro is on track for its eighth gain in nine sessions against the Pound, and the explanation that would normally cov"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Weak performance tied to carry and Gold – TD Securities",
-      "summary": "TD Securities strategists argue that the Swiss Franc’s (CHF) underperformance since the February 2026 Iran shock reflect"
+      "title": "Silver loses ground as hopes for US-Iran deal improve risk appetite",
+      "summary": "Silver (XAG/USD) trades around $57.40 on Tuesday at the time of writing, down 1.7% on the day. The white metal is under "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA pause risk weighs on Aussie – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that Australian Dollar (AUD) is underperforming after Reserve Bank "
+      "title": "US Dollar Index eases from tops, back to 101.30 ahead of Fed",
+      "summary": "The Greenback, when tracked by the US Dollar Index (DXY), abandons the area of monthly peaks and recedes toward the 101."
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Limited upside for CAD against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note USD/CAD is trading near fair value around 1.4115, with the Ca"
+      "title": "Euro skyrockets amid softer US confidence",
+      "summary": "EUR/USD trades higher near the 1.1400 area on Tuesday, gaining around 0.3% as the US Dollar (USD) weakens following soft"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Political risks and BoE stance shape outlook – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses British Pound (GBP) prospects around UK welfare reform, shifting vo"
+      "title": "Gold: Hawkish Fed delays Gold recovery path – Commerzbank",
+      "summary": "Commerzbank’s Carsten Fritsch and Thu Lan Nguyen note that the Gold price has dropped nearly 30% from its January record"
     },
     {
       "source": "FXStreet",
-      "title": "Copper: Tight supply underpins constructive outlook – ING",
-      "summary": "ING strategists Warren Patterson and Ewa Manthey highlight that Copper has extended its July gains as easing Middle East"
+      "title": "Australian Dollar holds onto losses after Bullock keeps further rate hikes on the table",
+      "summary": "AUD/USD trades lower near the 0.6970 area on Tuesday, falling around 0.3% as the Australian Dollar (AUD) comes under pre"
     },
     {
       "source": "FXStreet",
-      "title": "$4,000: Gold’s key support faces a crucial Fed test",
-      "summary": "Gold (XAU/USD) trades on the back foot on Tuesday, pressured by a firmer US Dollar (USD), even as Oil prices extend thei"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Scenarios into FOMC – DBS",
-      "summary": "DBS Group Research economist Eugene Leow notes that investors remain cautious on upcoming FOMC decisions, with markets p"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro nears three-week high against British Pound on UK fiscal concerns, BoE outlook",
-      "summary": "EUR/GBP holds firm on Tuesday, extending its recovery from the more than one-year low touched earlier this month as dive"
+      "title": "British Pound: Bearish reversal extends before BoE – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report GBP/USD is extending its bearish reversal toward early-July"
     },
     {
       "source": "Investing",
@@ -192,7 +182,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar: RBA pause risk weighs on Aussie – BB"
+      "[弱気] Euro skyrockets amid softer US confidence",
+      "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba",
+      "[強気] Australian Dollar holds onto losses after Bullock keeps"
+    ],
+    "JPY": [
+      "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba"
+    ],
+    "EUR": [
+      "[弱気] Euro skyrockets amid softer US confidence"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -200,13 +198,10 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+164,490)",
-      "[強気] Australian Dollar: RBA pause risk weighs on Aussie – BB"
+      "[強気] Australian Dollar holds onto losses after Bullock keeps"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc: Weak performance tied to carry and Gold – "
     ]
   },
   "rates": {
@@ -224,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.7486,
-      "today_close": 163.83751,
+      "today_close": 163.70025,
       "prev_close": 163.74729,
-      "diff": 0.0902,
-      "diff_pct": 0.06
+      "diff": -0.047,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.83751,
-      "sma20": 162.7883,
-      "sma50": 161.9094,
-      "sma200": 158.8464,
+      "latest": 163.70025,
+      "sma20": 162.7814,
+      "sma50": 161.9067,
+      "sma200": 158.8457,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -244,13 +239,13 @@
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": -0.02,
-      "chg20d_pct": 0.74
+      "chg5d_pct": -0.1,
+      "chg20d_pct": 0.65
     },
     "EURUSD": {
-      "latest": 1.13749,
-      "sma20": 1.1409,
-      "sma50": 1.1441,
+      "latest": 1.1403,
+      "sma20": 1.141,
+      "sma50": 1.1442,
       "sma200": 1.1626,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -260,8 +255,8 @@
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": -0.37
+      "chg5d_pct": 0.22,
+      "chg20d_pct": -0.12
     }
   }
 }
