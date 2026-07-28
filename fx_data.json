@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-07-28T16:40:17.898544",
-  "generated": "2026年07月28日 16:40",
+  "timestamp": "2026-07-28T19:24:41.364041",
+  "generated": "2026年07月28日 19:24",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 1,
     "EUR": -1,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
@@ -15,23 +15,16 @@
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -41,11 +34,11 @@
       "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -53,6 +46,13 @@
       "diff": 1,
       "base_score": 2,
       "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -98,6 +98,16 @@
     },
     {
       "source": "FXStreet",
+      "title": "Japanese Yen holds as markets await Tokyo inflation data",
+      "summary": "USD/JPY trades slightly higher near the 163.80 area on Tuesday, remaining close to multi-decade highs as the Japanese Ye"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc steadies against US Dollar as Fed decision looms",
+      "summary": "The Swiss Franc (CHF) steadies against the US Dollar (USD) on Tuesday as the Greenback gives up its early gains, with tr"
+    },
+    {
+      "source": "FXStreet",
       "title": "The Euro is not rallying, the British Pound Sterling is being demoted",
       "summary": "The Euro is on track for its eighth gain in nine sessions against the Pound, and the explanation that would normally cov"
     },
@@ -120,16 +130,6 @@
       "source": "FXStreet",
       "title": "Gold: Hawkish Fed delays Gold recovery path – Commerzbank",
       "summary": "Commerzbank’s Carsten Fritsch and Thu Lan Nguyen note that the Gold price has dropped nearly 30% from its January record"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar holds onto losses after Bullock keeps further rate hikes on the table",
-      "summary": "AUD/USD trades lower near the 0.6970 area on Tuesday, falling around 0.3% as the Australian Dollar (AUD) comes under pre"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Bearish reversal extends before BoE – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report GBP/USD is extending its bearish reversal toward early-July"
     },
     {
       "source": "Investing",
@@ -183,8 +183,7 @@
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
       "[弱気] Euro skyrockets amid softer US confidence",
-      "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba",
-      "[強気] Australian Dollar holds onto losses after Bullock keeps"
+      "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba"
     ],
     "JPY": [
       "[強気] Gold: Hawkish Fed delays Gold recovery path – Commerzba"
@@ -197,8 +196,7 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)",
-      "[強気] Australian Dollar holds onto losses after Bullock keeps"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -219,18 +217,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.7486,
-      "today_close": 163.70025,
+      "today_close": 163.84486,
       "prev_close": 163.74729,
-      "diff": -0.047,
-      "diff_pct": -0.03
+      "diff": 0.0976,
+      "diff_pct": 0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.70025,
-      "sma20": 162.7814,
-      "sma50": 161.9067,
-      "sma200": 158.8457,
+      "latest": 163.84486,
+      "sma20": 162.7886,
+      "sma50": 161.9096,
+      "sma200": 158.8464,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -239,12 +237,12 @@
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": 0.65
+      "chg5d_pct": -0.02,
+      "chg20d_pct": 0.74
     },
     "EURUSD": {
-      "latest": 1.1403,
-      "sma20": 1.141,
+      "latest": 1.13901,
+      "sma20": 1.1409,
       "sma50": 1.1442,
       "sma200": 1.1626,
       "vs_sma20": "下",
@@ -255,8 +253,8 @@
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": 0.22,
-      "chg20d_pct": -0.12
+      "chg5d_pct": 0.11,
+      "chg20d_pct": -0.23
     }
   }
 }
