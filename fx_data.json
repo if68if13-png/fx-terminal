@@ -1,17 +1,24 @@
 {
-  "timestamp": "2026-07-26T16:01:42.210862",
-  "generated": "2026年07月26日 16:01",
+  "timestamp": "2026-07-28T11:04:33.618303",
+  "generated": "2026年07月28日 11:04",
   "scores": {
     "USD": 2,
-    "JPY": 0,
-    "EUR": 1,
+    "JPY": 1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -20,32 +27,25 @@
       "quote_score": 2
     },
     {
+      "pair": "EURJPY",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -98,57 +98,62 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: MAS seen on hold with cautious inflation tone – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect the Monetary Authority of Singapore (MAS) to leave the Singapore Dollar"
+      "title": "Indian Rupee reflects strength amid lower oil prices, Fed policy eyed",
+      "summary": "The Indian Rupee (INR) extends its winning streak against the US Dollar (USD) for the third trading day on Tuesday. The "
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Cross consolidates under 187.00, bulls target 188.00",
-      "summary": "The EUR/JPY consolidates around 186.00, edges down by 0.06% amid a souring of risk appetite amid the escalation of the U"
+      "title": "Australian Dollar underperforms after RBA Bullock’s remarks on economy",
+      "summary": "The Australian Dollar (AUD) is down against its major currency peers, trading 0.35% lower at around 0.6965 against the U"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Strong GDP and inflows support Won – Commerzbank",
-      "summary": "Commerzbank reports that South Korea’s advance Q2 GDP rose 0.6% quarter-on-quarter and 3.7% year-on-year, beating expect"
+      "title": "Japanese Yen stays range-bound as Fed, BoJ seen on hold but hawkish",
+      "summary": "USD/JPY trades around 163.90 on Tuesday at the time of writing, up 0.11% on the day, as investors remain cautious ahead "
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: Fed, BoE and BoJ decisions take center stage",
-      "summary": "The upcoming week will be dominated by monetary policy decisions from the Federal Reserve (Fed), Bank of England (BoE) a"
+      "title": "Indonesian Rupiah: Leadership change at BI sustains rupiah pressure – Commerzbank",
+      "summary": "Commerzbank’s Moses Lim argues that Bank Indonesia Governor Perry Warjiyo’s surprise resignation, following earlier high"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Kiwi tests 0.5800 as bullish momentum fades",
-      "summary": "The New Zealand Dollar gains over 0.30% against the US Dollar on Friday. The pair is poised to test key resistance level"
+      "title": "US Dollar: Fed hike odds and asymmetric risks – DBS",
+      "summary": "DBS Group Research’s Philip Wee notes that the Dollar is trading on diverging themes versus Developed Market and Asia-ex"
     },
     {
       "source": "FXStreet",
-      "title": "Thai Baht: Oil shock and dovish BoT keep THB pressured against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that the Thai Baht (THB) is trading near its weakest level in more than a"
+      "title": "Silver weakens as easing geopolitical tensions weigh on safe-haven demand",
+      "summary": "Silver (XAG/USD) trades around $57.55 on Tuesday at the time of writing, down 1.45% on the day, as investors remain caut"
     },
     {
       "source": "FXStreet",
-      "title": "Euro falls even amid strong Eurozone PMIs",
-      "summary": "EUR/USD trades lower near the 1.1370 area on Friday, struggling despite stronger-than-expected Eurozone business-activit"
+      "title": "Singapore Dollar: MAS surprise tightening supports SGD – HSBC",
+      "summary": "HSBC’s Abhilash Narayan notes that the Monetary Authority of Singapore (MAS) unexpectedly tightened policy on 27 July 20"
     },
     {
       "source": "FXStreet",
-      "title": "Gold gains despite firm US Dollar",
-      "summary": "Gold price (XAU/USD) drifts higher on Friday as the Greenback stands firm, even as growing speculation that the US-Iran "
+      "title": "USD/CAD Price Forecast: Lower oil prices ensure further weakness for Canadian Dollar",
+      "summary": "The USD/CAD pair trades marginally lower to near 1.4113 during the European trading session on Tuesday. The Loonie pair "
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: BI pause seen as hawkish hold – UOB",
-      "summary": "UOB Global Economics & Markets Research notes that Bank Indonesia kept its policy rate at 5.75%, opting to let earlier t"
+      "title": "Australian Dollar: Risk-off and RBA tone weigh on Aussie – MUFG",
+      "summary": "MUFG’s Lee Hardman reports the Australian Dollar (AUD) has been the worst performing G10 currency overnight despite bein"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin drops to 10-day low near $63k as tech sell-off, Fed uncertainty weigh",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells MSTR shares, doesn’t buy bitcoin",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,11 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Thai Baht: Oil shock and dovish BoT keep THB pressured ",
-      "[強気] Euro falls even amid strong Eurozone PMIs"
+      "[強気] Japanese Yen stays range-bound as Fed, BoJ seen on hold",
+      "[強気] US Dollar: Fed hike odds and asymmetric risks – DBS",
+      "[弱気] Silver weakens as easing geopolitical tensions weigh on",
+      "[弱気] USD/CAD Price Forecast: Lower oil prices ensure further"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen stays range-bound as Fed, BoJ seen on hold"
     ],
     "EUR": [
-      "[強気] Euro falls even amid strong Eurozone PMIs"
+      "[弱気] USD/CAD Price Forecast: Lower oil prices ensure further"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -202,61 +212,64 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] USD/CAD Price Forecast: Lower oil prices ensure further"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.71,
+    "US_10Y": 4.69,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.04,
-    "DIFF_EURUSD": -1.74,
-    "DIFF_GBPUSD": 0.09,
-    "DIFF_AUDUSD": 0.12
+    "DIFF_USDJPY": 2.02,
+    "DIFF_EURUSD": -1.72,
+    "DIFF_GBPUSD": 0.11,
+    "DIFF_AUDUSD": 0.14
   },
   "prices": {
     "USDJPY": {
-      "today_open": 163.85403,
-      "today_close": 163.85079,
-      "prev_close": 163.8532,
-      "diff": -0.0024,
-      "diff_pct": -0.0
+      "today_open": 163.7486,
+      "today_close": 163.94242,
+      "prev_close": 163.74729,
+      "diff": 0.1951,
+      "diff_pct": 0.12
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.85079,
-      "sma20": 162.6576,
-      "sma50": 161.7704,
-      "sma200": 158.7839,
+      "latest": 163.94242,
+      "sma20": 162.7935,
+      "sma50": 161.9115,
+      "sma200": 158.8469,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 49.3,
+      "rsi14": 54.7,
       "high20": 164.0881,
       "low20": 161.3018,
       "high60": 164.0881,
-      "low60": 159.1016,
-      "chg5d_pct": 0.39,
-      "chg20d_pct": 1.08
+      "low60": 159.2493,
+      "chg5d_pct": 0.04,
+      "chg20d_pct": 0.8
     },
     "EURUSD": {
-      "latest": 1.13711,
-      "sma20": 1.1412,
-      "sma50": 1.1447,
-      "sma200": 1.1628,
+      "latest": 1.13599,
+      "sma20": 1.1408,
+      "sma50": 1.1441,
+      "sma200": 1.1626,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 56.7,
+      "rsi14": 39.6,
       "high20": 1.1482,
-      "low20": 1.1364,
-      "high60": 1.1686,
+      "low20": 1.1354,
+      "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": -0.24,
-      "chg20d_pct": -0.61
+      "chg5d_pct": -0.16,
+      "chg20d_pct": -0.5
     }
   }
 }
