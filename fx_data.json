@@ -1,43 +1,50 @@
 {
-  "timestamp": "2026-07-28T11:04:33.618303",
-  "generated": "2026年07月28日 11:04",
+  "timestamp": "2026-07-28T11:17:39.352861",
+  "generated": "2026年07月28日 11:17",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 1,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
       "quote_score": 1
     },
     {
@@ -46,13 +53,6 @@
       "diff": 1,
       "base_score": 2,
       "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
     }
   ],
   "news": [
@@ -98,6 +98,16 @@
     },
     {
       "source": "FXStreet",
+      "title": "$4,000: Gold’s key support faces a crucial Fed test",
+      "summary": "Gold (XAU/USD) trades on the back foot on Tuesday, pressured by a firmer US Dollar (USD), even as Oil prices extend thei"
+    },
+    {
+      "source": "FXStreet",
+      "title": "CEE FX: Normalising rates leave room for gains – ING",
+      "summary": "ING’s Frantisek Taborsky notes Central and Eastern European (CEE) rate curves have repriced sharply, with more tightenin"
+    },
+    {
+      "source": "FXStreet",
       "title": "Indian Rupee reflects strength amid lower oil prices, Fed policy eyed",
       "summary": "The Indian Rupee (INR) extends its winning streak against the US Dollar (USD) for the third trading day on Tuesday. The "
     },
@@ -130,16 +140,6 @@
       "source": "FXStreet",
       "title": "Singapore Dollar: MAS surprise tightening supports SGD – HSBC",
       "summary": "HSBC’s Abhilash Narayan notes that the Monetary Authority of Singapore (MAS) unexpectedly tightened policy on 27 July 20"
-    },
-    {
-      "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Lower oil prices ensure further weakness for Canadian Dollar",
-      "summary": "The USD/CAD pair trades marginally lower to near 1.4113 during the European trading session on Tuesday. The Loonie pair "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar: Risk-off and RBA tone weigh on Aussie – MUFG",
-      "summary": "MUFG’s Lee Hardman reports the Australian Dollar (AUD) has been the worst performing G10 currency overnight despite bein"
     },
     {
       "source": "Investing",
@@ -194,14 +194,10 @@
       "[中銀] 利上げ方向 (金利差方向)",
       "[強気] Japanese Yen stays range-bound as Fed, BoJ seen on hold",
       "[強気] US Dollar: Fed hike odds and asymmetric risks – DBS",
-      "[弱気] Silver weakens as easing geopolitical tensions weigh on",
-      "[弱気] USD/CAD Price Forecast: Lower oil prices ensure further"
+      "[弱気] Silver weakens as easing geopolitical tensions weigh on"
     ],
     "JPY": [
       "[強気] Japanese Yen stays range-bound as Fed, BoJ seen on hold"
-    ],
-    "EUR": [
-      "[弱気] USD/CAD Price Forecast: Lower oil prices ensure further"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -212,9 +208,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] USD/CAD Price Forecast: Lower oil prices ensure further"
     ]
   },
   "rates": {
@@ -232,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.7486,
-      "today_close": 163.94242,
+      "today_close": 163.92976,
       "prev_close": 163.74729,
-      "diff": 0.1951,
-      "diff_pct": 0.12
+      "diff": 0.1825,
+      "diff_pct": 0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.94242,
-      "sma20": 162.7935,
-      "sma50": 161.9115,
-      "sma200": 158.8469,
+      "latest": 163.92976,
+      "sma20": 162.7929,
+      "sma50": 161.9113,
+      "sma200": 158.8468,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -253,10 +246,10 @@
       "high60": 164.0881,
       "low60": 159.2493,
       "chg5d_pct": 0.04,
-      "chg20d_pct": 0.8
+      "chg20d_pct": 0.79
     },
     "EURUSD": {
-      "latest": 1.13599,
+      "latest": 1.13606,
       "sma20": 1.1408,
       "sma50": 1.1441,
       "sma200": 1.1626,
@@ -268,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": -0.16,
-      "chg20d_pct": -0.5
+      "chg5d_pct": -0.15,
+      "chg20d_pct": -0.49
     }
   }
 }
