@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-07-29T02:39:44.605429",
-  "generated": "2026年07月29日 02:39",
+  "timestamp": "2026-07-29T05:53:02.456348",
+  "generated": "2026年07月29日 05:53",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
-    "EUR": 0,
+    "USD": 4,
+    "JPY": 0,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,43 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index (DXY) flat below 101.50 as bulls await FOMC amid Iran risks",
-      "summary": "The United States Dollar Index (DXY), which tracks the Greenback against a basket of currencies, is seen consolidating b"
+      "title": "AUD/USD Price Forecast: Seems vulnerable near 0.6950 after soft CPI-driven breakdown",
+      "summary": "The AUD/USD pair attracts sellers for the third straight day on Wednesday and dives to an over two-week trough following"
     },
     {
       "source": "FXStreet",
-      "title": "Australia’s CPI inflation cools to 3.8% YoY in June vs. 4% forecast",
-      "summary": "Australia’s Consumer Price Index (CPI) increased by 3.8% year-over-year (YoY) in June, compared to a 4% growth reported "
+      "title": "Indonesian Rupiah gains as Fed uncertainty weighs on US Dollar",
+      "summary": "USD/IDR depreciates after two days of gains, trading around 18,120 during the Asian hours on Wednesday. However, the pai"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls to one-week low vs Yen as soft CPI triggers heavy selling",
-      "summary": "The AUD/JPY cross extends this week's retracement slide from the 114.65 zone, or its highest level since June 3, and att"
+      "title": "Iran's IRGC confirms striking US base in Jordan",
+      "summary": "In European trade on Wednesday, the Iranian Islamic Revolutionary Guard Corps (IRGC) announces that it fired several bal"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar slips as softer inflation cools domestic rate expectations",
-      "summary": "AUD/USD depreciates for the second successive day, trading around 0.6970 during the Asian hours on Wednesday. The pair f"
+      "title": "Indian Rupee fails to extend winning streak as oil prices bounce back",
+      "summary": "The Indian Rupee (INR) opens marginally lower against the US Dollar (USD) on Wednesday after a three-day winning streak."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen holds ground despite rising oil prices",
-      "summary": "USD/JPY loses ground after registering minor gains in the previous day, trading around 163.70 during the Asian hours on "
+      "title": "New Zealand Dollar holds steady below 0.5900 vs USD as traders seem hesitant ahead of FOMC",
+      "summary": "The NZD/USD pair struggles to build on the overnight bounce from the 0.5860 horizontal support and seesaws between tepid"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7899 vs. 6.7928 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7899 co"
+      "title": "Gold consolidates near two-week low, holds above $4,000 as traders await FOMC decision",
+      "summary": "Gold (XAU/USD) enters a bearish consolidation phase after touching an over one-week low during the Asian session on Wedn"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds losses near $4,000 due to Middle East tensions, Fed rate uncertainty",
-      "summary": "Gold price (XAU/USD) remains subdued for the second successive day, trading around $4,020 per troy ounce during the Asia"
+      "title": "British Pound gains ground as US Dollar struggles ahead of Fed decision",
+      "summary": "GBP/USD edges higher after remaining flat in the previous day, trading around 1.3300 during the Asian hours on Wednesday"
     },
     {
       "source": "FXStreet",
-      "title": "Japan's Yen sleeps through a regional equity crash",
-      "summary": "The Yen trades a fraction under 164.00 on Tuesday, marginally weaker on the day, inside a 30-pip band with a floor above"
+      "title": "Silver Price Forecast: XAG/USD gains even as oil prices rebound, Fed policy awaited",
+      "summary": "Silver price (XAG/USD) trades 1.14% higher to near $57.80 during the Asian trading session on Wednesday. The white metal"
     },
     {
       "source": "Investing",
@@ -186,10 +186,12 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Indian Rupee fails to extend winning streak as oil pric",
+      "[強気] Silver Price Forecast: XAG/USD gains even as oil prices"
     ],
-    "JPY": [
-      "[弱気] Japan's Yen sleeps through a regional equity crash"
+    "EUR": [
+      "[弱気] Iran's IRGC confirms striking US base in Jordan"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -217,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.86113,
-      "today_close": 163.68418,
+      "today_close": 163.42935,
       "prev_close": 163.86954,
-      "diff": -0.1854,
-      "diff_pct": -0.11
+      "diff": -0.4402,
+      "diff_pct": -0.27
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.68418,
-      "sma20": 162.8541,
-      "sma50": 161.9764,
-      "sma200": 158.8754,
+      "latest": 163.42935,
+      "sma20": 162.8414,
+      "sma50": 161.9713,
+      "sma200": 158.8741,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -237,13 +239,13 @@
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": 0.79
+      "chg5d_pct": -0.26,
+      "chg20d_pct": 0.63
     },
     "EURUSD": {
-      "latest": 1.13956,
+      "latest": 1.14004,
       "sma20": 1.1408,
-      "sma50": 1.1438,
+      "sma50": 1.1439,
       "sma200": 1.1625,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -253,8 +255,8 @@
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": -0.31
+      "chg5d_pct": 0.25,
+      "chg20d_pct": -0.27
     }
   }
 }
