@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-29T11:26:19.360343",
-  "generated": "2026年07月29日 11:26",
+  "timestamp": "2026-07-29T14:10:25.373809",
+  "generated": "2026年07月29日 14:10",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": -1,
+    "USD": 1,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,48 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Why is the US Dollar vulnerable when the Federal Reserve is expected to deliver a hawkish hold?",
-      "summary": "The US Dollar (USD) stands at a critical juncture as financial markets prepare for the Federal Open Market Committee's ("
+      "title": "Natural gas: Europe faces tighter winter balance – ING",
+      "summary": "ING’s Warren Patterson and Ewa Manthey report European natural gas prices have bounced higher as Middle East tensions di"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Pressured against US Dollar by softer CPI – Societe Generale",
-      "summary": "Societe Generale analyst highlight that AUD/USD is offered below 0.6950 after softer June Consumer Price Index (CPI), wi"
+      "title": "Federal Reserve set to hold interest rates steady, yet a hike can’t be ruled out",
+      "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, another pivotal meeting "
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee rally hits pause as oil price recovers strongly, Fed policy awaited",
-      "summary": "The Indian Rupee (INR) trades marginally lower against the US Dollar (USD) on Wednesday after a three-day winning streak"
+      "title": "Swiss National Bank: Rates seen on prolonged hold – Commerzbank",
+      "summary": "Michael Pfister of Commerzbank argues that subdued imported inflation and low exchange rate pass-through give the Swiss "
     },
     {
       "source": "FXStreet",
-      "title": "Gold struggles for direction ahead of Federal Reserve policy verdict",
-      "summary": "Gold (XAU/USD) consolidates above $4,000 on Wednesday, as price action remains choppy amid growing caution ahead of the "
+      "title": "Singapore Dollar: Range guidance around NEER band – UOB",
+      "summary": "UOB’s SGD NEER model shows the index at 1.68% above the midpoint of the policy band, after ending the previous session 1"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Struggling below 1.1400 with YTD lows at a short distance",
-      "summary": "The Euro (EUR) holds marginal gains against the US Dollar on Wednesday after finding some support in the mid-range of th"
+      "title": "Gold struggles near $4,000 ahead of Federal Reserve policy verdict",
+      "summary": "Gold (XAU/USD) consolidates above $4,000 on Wednesday as price action remains choppy amid growing caution ahead of the F"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/GBP Price Forecast: Eases from 0.8575 resistance with the bullish bias intact",
-      "summary": "The Euro (EUR) is nursing moderate losses against the British Pound (GBP) on Wednesday, as bulls failed to find acceptan"
+      "title": "Canadian Dollar strengthens modestly against US Dollar ahead of Fed decision",
+      "summary": "The Canadian Dollar (CAD) modestly outperforms the US Dollar (USD) on Wednesday, drawing support from a rebound in Oil p"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Extended pause guidance – UOB",
-      "summary": "UOB Global Economics & Markets Research notes that the Federal Reserve is widely expected to keep the Federal Funds Targ"
+      "title": "Oil: Middle East tensions revive inflation channel – BNY",
+      "summary": "BNY reports that renewed Iranian–U.S. hostilities lifted Brent above 3%, reviving the inflation channel but remaining se"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC minutes watched for inflation tone – TD Securities",
-      "summary": "TD Securities strategists expect the Bank of Canada’s (BoC) Summary of Deliberations to shed light on the July decision,"
+      "title": "Japanese Yen: Domestic investment shift could support the Yen – BNY",
+      "summary": "BNY’s Geoff Yu notes Japan’s Government Pension Investment Fund (GPIF) has hired active domestic bond managers for the f"
     },
     {
-      "source": "FXStreet",
-      "title": "Euro: Seen back toward 1.15 against US Dollar – ING",
-      "summary": "ING’s Francesco Pesole notes that EUR/USD may have bottomed last week if markets maintain a constructive view on further"
+      "source": "Investing",
+      "title": "Bitcoin hovers above $64k ahead of Fed decision, shrugs off AI-led tech weakness",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -148,12 +148,12 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin rises to $64k ahead of Fed decision, shrugs off AI-led tech weakness",
+      "title": "Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty",
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty",
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,13 +192,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Why is the US Dollar vulnerable when the Federal Reserv",
-      "[強気] Indian Rupee rally hits pause as oil price recovers str",
-      "[弱気] Euro: Seen back toward 1.15 against US Dollar – ING",
-      "[弱気] Bitcoin rises to $64k ahead of Fed decision, shrugs off"
+      "[弱気] Bitcoin hovers above $64k ahead of Fed decision, shrugs"
     ],
-    "EUR": [
-      "[弱気] Euro: Seen back toward 1.15 against US Dollar – ING"
+    "JPY": [
+      "[強気] Japanese Yen: Domestic investment shift could support t"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,9 +206,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Euro: Seen back toward 1.15 against US Dollar – ING"
     ]
   },
   "rates": {
@@ -229,18 +223,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.86113,
-      "today_close": 163.6832,
+      "today_close": 163.76544,
       "prev_close": 163.86954,
-      "diff": -0.1863,
-      "diff_pct": -0.11
+      "diff": -0.1041,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.6832,
-      "sma20": 162.8541,
-      "sma50": 161.9764,
-      "sma200": 158.8754,
+      "latest": 163.76544,
+      "sma20": 162.8582,
+      "sma50": 161.978,
+      "sma200": 158.8758,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -249,11 +243,11 @@
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": 0.79
+      "chg5d_pct": -0.05,
+      "chg20d_pct": 0.84
     },
     "EURUSD": {
-      "latest": 1.13857,
+      "latest": 1.13905,
       "sma20": 1.1407,
       "sma50": 1.1438,
       "sma200": 1.1625,
@@ -265,8 +259,8 @@
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": -0.39
+      "chg5d_pct": 0.16,
+      "chg20d_pct": -0.35
     }
   }
 }
