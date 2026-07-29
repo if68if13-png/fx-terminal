@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-28T22:04:35.313463",
-  "generated": "2026年07月28日 22:04",
+  "timestamp": "2026-07-29T02:39:44.605429",
+  "generated": "2026年07月29日 02:39",
   "scores": {
     "USD": 2,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -13,6 +13,13 @@
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
@@ -20,11 +27,11 @@
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
@@ -34,11 +41,11 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
@@ -46,13 +53,6 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: MAS tightening keeps pair under pressure – Commerzbank",
-      "summary": "Commerzbank analysts highlight that the Monetary Authority of Singapore (MAS) unexpectedly tightened policy for a second"
+      "title": "United States Dollar Index (DXY) flat below 101.50 as bulls await FOMC amid Iran risks",
+      "summary": "The United States Dollar Index (DXY), which tracks the Greenback against a basket of currencies, is seen consolidating b"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD holds ahead of the Fed's decision",
-      "summary": "NZD/USD trades nearly unchanged around the 0.5785 area on Tuesday, struggling to extend its earlier recovery despite a m"
+      "title": "Australia’s CPI inflation cools to 3.8% YoY in June vs. 4% forecast",
+      "summary": "Australia’s Consumer Price Index (CPI) increased by 3.8% year-over-year (YoY) in June, compared to a 4% growth reported "
     },
     {
       "source": "FXStreet",
-      "title": "Brazilian Real: BRL seen weaker into year-end – Rabobank",
-      "summary": "Rabobank’s strategists Mauricio Une and Renan Alves note that tensions between the United States (US) and Iran have ease"
+      "title": "Australian Dollar falls to one-week low vs Yen as soft CPI triggers heavy selling",
+      "summary": "The AUD/JPY cross extends this week's retracement slide from the 114.65 zone, or its highest level since June 3, and att"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Supercore and measurement debates shape Fed path – BNY",
-      "summary": "BNY strategists John Velis and David Tam see elevated US supercore inflation as a key argument for further tightening bu"
+      "title": "Australian Dollar slips as softer inflation cools domestic rate expectations",
+      "summary": "AUD/USD depreciates for the second successive day, trading around 0.6970 during the Asian hours on Wednesday. The pair f"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar eases ahead of Fed as Oil and Gold extend losses",
-      "summary": "The US Dollar (USD) trades slightly lower on Tuesday as investors reduce some exposure ahead of Wednesday’s Federal Rese"
+      "title": "Japanese Yen holds ground despite rising oil prices",
+      "summary": "USD/JPY loses ground after registering minor gains in the previous day, trading around 163.70 during the Asian hours on "
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso advances within range against the US Dollar",
-      "summary": "USD/MXN trades around 17.40 on Tuesday, posting modest losses for a third consecutive session. The US Dollar (USD) retai"
+      "title": "PBOC sets USD/CNY reference rate at 6.7899 vs. 6.7928 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7899 co"
     },
     {
       "source": "FXStreet",
-      "title": "Silver: Forecast cut but deficit supports upside – Commerzbank",
-      "summary": "Commerzbank’s Norman Liebke reports that Silver has fallen from USD 70 to USD 57.50 per troy ounce and that the bank has"
+      "title": "Gold holds losses near $4,000 due to Middle East tensions, Fed rate uncertainty",
+      "summary": "Gold price (XAU/USD) remains subdued for the second successive day, trading around $4,020 per troy ounce during the Asia"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen holds as markets await Tokyo inflation data",
-      "summary": "USD/JPY trades slightly higher near the 163.80 area on Tuesday, remaining close to multi-decade highs as the Japanese Ye"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc steadies against US Dollar as Fed decision looms",
-      "summary": "The Swiss Franc (CHF) steadies against the US Dollar (USD) on Tuesday as the Greenback gives up its early gains, with tr"
+      "title": "Japan's Yen sleeps through a regional equity crash",
+      "summary": "The Yen trades a fraction under 164.00 on Tuesday, marginally weaker on the day, inside a 30-pip band with a floor above"
     },
     {
       "source": "Investing",
@@ -193,6 +188,9 @@
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
+    "JPY": [
+      "[弱気] Japan's Yen sleeps through a regional equity crash"
+    ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
@@ -219,18 +217,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.86113,
-      "today_close": 163.83943,
+      "today_close": 163.68418,
       "prev_close": 163.86954,
-      "diff": -0.0301,
-      "diff_pct": -0.02
+      "diff": -0.1854,
+      "diff_pct": -0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.83943,
-      "sma20": 162.8619,
-      "sma50": 161.9795,
-      "sma200": 158.8762,
+      "latest": 163.68418,
+      "sma20": 162.8541,
+      "sma50": 161.9764,
+      "sma200": 158.8754,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -239,12 +237,12 @@
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": -0.01,
-      "chg20d_pct": 0.89
+      "chg5d_pct": -0.1,
+      "chg20d_pct": 0.79
     },
     "EURUSD": {
-      "latest": 1.13906,
-      "sma20": 1.1407,
+      "latest": 1.13956,
+      "sma20": 1.1408,
       "sma50": 1.1438,
       "sma200": 1.1625,
       "vs_sma20": "下",
@@ -255,8 +253,8 @@
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": 0.16,
-      "chg20d_pct": -0.35
+      "chg5d_pct": 0.2,
+      "chg20d_pct": -0.31
     }
   }
 }
