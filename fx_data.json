@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-07-29T16:22:04.849200",
-  "generated": "2026年07月29日 16:22",
+  "timestamp": "2026-07-29T19:16:39.536814",
+  "generated": "2026年07月29日 19:16",
   "scores": {
     "USD": 4,
-    "JPY": 0,
-    "EUR": 0,
-    "GBP": 3,
-    "AUD": -1,
-    "NZD": 2,
+    "JPY": 1,
+    "EUR": 1,
+    "GBP": 2,
+    "AUD": 0,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,47 +15,52 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
       "diff": -4,
       "base_score": 0,
       "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 4,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 3,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
       "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
@@ -98,62 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver slips below $57 as Fed meeting keeps markets on edge",
-      "summary": "Silver (XAG/USD) trades around $56.90 on Wednesday at the time of writing, down 0.43% on the day. Price action remains c"
+      "title": "Fed's Warsh: We will deliver the 2% target",
+      "summary": "At the post-meeting press conference, Fed Chair Kevin Warsh explains why policymakers decided to keep interest rates unc"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Policy risk with range-bound trade against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that GBP/USD is flat around 1.33, supported by stronger "
+      "title": "New Zealand Dollar rebounds after Fed hold",
+      "summary": "NZD/USD trades higher near the 0.5790 area on Wednesday, reversing its earlier decline as the US Dollar (USD) weakens sh"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve widely expected to stand pat as markets increase bets of imminent interest-rate hike",
-      "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, another pivotal meeting "
+      "title": "Japanese Yen gains after hawkish Fed hold",
+      "summary": "USD/JPY trades near the 163.60 area on Wednesday, recovering from its immediate post-announcement decline as investors a"
     },
     {
       "source": "FXStreet",
-      "title": "Bank of Japan: Gradual tightening path and neutral rate debate – ING",
-      "summary": "ING analysts Chris Turner and Padhraic Garvey see the Bank of Japan maintaining its tightening bias after June’s move to"
+      "title": "Australian Dollar trims losses after Fed holds",
+      "summary": "The Aussie Dollar trimmed some of its earlier losses after the Federal Reserve kept rates steady, by a 9 to 3 vote, with"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Options signal downside risk against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that EUR/USD is consolidating within a very tight range in th"
+      "title": "Euro rises despite Fed hawkish hold, eyes on Warsh’s speech",
+      "summary": "The shared currency surged after the Federal Reserve (Fed) kept rates steady by a 9 to 3 vote. Three dissenters supporte"
     },
     {
       "source": "FXStreet",
-      "title": "Gold remains under pressure near $4,000 as Fed decision looms",
-      "summary": "Gold (XAU/USD) trades lower near the $4,003 area on Wednesday, extending its recent decline as investors remain cautious"
+      "title": "Dow Jones Industrial Average finds a bid in the thing the Fed did not do",
+      "summary": "The Federal Reserve (Fed) left its target range at 3.50% to 3.75% at 18:00 GMT, with three voting members dissenting in "
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Hawkish hold may offer US Dollar limited support – BNY",
-      "summary": "BNY’s Geoff Yu highlights that markets face a genuinely live Federal Reserve (Fed) decision, with futures implying about"
+      "title": "British Pound Sterling collects a refund on the Fed hike that never came",
+      "summary": "The Federal Reserve (Fed) held its target range at 3.50% to 3.75% at 18:00 GMT on a 9-3 vote, with three voting members "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen faces its moment of truth ahead of Fed decision",
-      "summary": "USD/JPY trades around 163.80 on Wednesday at the time of writing, virtually unchanged on the day, as investors remain ca"
+      "title": "Gold surges after Fed holds as hawkish dissent fuels volatility",
+      "summary": "Gold price rises during the North American session after the Federal Reserve (Fed) decided to hold rates unchanged, with"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The US Dollar Index sells the hold and ignores the hawks",
+      "summary": "A 9-3 vote held the fed funds target range at 3.50% to 3.75% at 18:00 GMT, the three dissenters all preferring an immedi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Canadian Dollar takes its bid from Washington as usual",
+      "summary": "The hold arrived at 18:00 GMT on a 9-3 vote, the target range unchanged at 3.50% to 3.75% with three voting members pref"
     },
     {
       "source": "Investing",
       "title": "Bitcoin hovers above $64k ahead of Fed decision, shrugs off AI-led tech weakness",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bybit Introduces Finloop’s FUIDL backed by an AAA-rated Money Market Fund",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,21 +192,30 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Policy risk with range-bound trade again",
-      "[強気] Federal Reserve widely expected to stand pat as markets",
-      "[強気] Federal Reserve: Hawkish hold may offer US Dollar limit",
+      "[弱気] New Zealand Dollar rebounds after Fed hold",
+      "[強気] Japanese Yen gains after hawkish Fed hold",
+      "[強気] Australian Dollar trims losses after Fed holds",
+      "[強気] Euro rises despite Fed hawkish hold, eyes on Warsh’s sp",
+      "[強気] Gold surges after Fed holds as hawkish dissent fuels vo",
       "[弱気] Bitcoin hovers above $64k ahead of Fed decision, shrugs"
     ],
+    "JPY": [
+      "[強気] Japanese Yen gains after hawkish Fed hold"
+    ],
+    "EUR": [
+      "[強気] Euro rises despite Fed hawkish hold, eyes on Warsh’s sp"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Policy risk with range-bound trade again"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)",
+      "[強気] Australian Dollar trims losses after Fed holds"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar rebounds after Fed hold"
     ]
   },
   "rates": {
@@ -224,18 +233,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.86113,
-      "today_close": 163.88925,
+      "today_close": 163.36165,
       "prev_close": 163.86954,
-      "diff": 0.0197,
-      "diff_pct": 0.01
+      "diff": -0.5079,
+      "diff_pct": -0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.88925,
-      "sma20": 162.8644,
-      "sma50": 161.9805,
-      "sma200": 158.8764,
+      "latest": 163.36165,
+      "sma20": 162.838,
+      "sma50": 161.9699,
+      "sma200": 158.8738,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -244,24 +253,24 @@
       "low20": 161.3018,
       "high60": 164.0881,
       "low60": 159.2493,
-      "chg5d_pct": 0.02,
-      "chg20d_pct": 0.92
+      "chg5d_pct": -0.3,
+      "chg20d_pct": 0.59
     },
     "EURUSD": {
-      "latest": 1.13794,
-      "sma20": 1.1407,
-      "sma50": 1.1438,
-      "sma200": 1.1624,
-      "vs_sma20": "下",
-      "vs_sma50": "下",
+      "latest": 1.14527,
+      "sma20": 1.141,
+      "sma50": 1.144,
+      "sma200": 1.1625,
+      "vs_sma20": "上",
+      "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 49.9,
       "high20": 1.1482,
       "low20": 1.1354,
       "high60": 1.1667,
       "low60": 1.1324,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": -0.45
+      "chg5d_pct": 0.71,
+      "chg20d_pct": 0.19
     }
   }
 }
