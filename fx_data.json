@@ -1,17 +1,31 @@
 {
-  "timestamp": "2026-07-30T19:26:43.531633",
-  "generated": "2026年07月30日 19:26",
+  "timestamp": "2026-07-30T22:08:08.870782",
+  "generated": "2026年07月30日 22:08",
   "scores": {
     "USD": 2,
-    "JPY": 1,
+    "JPY": -2,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 2,
+      "quote_score": -2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 2,
+      "quote_score": -2
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -27,32 +41,18 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": -2
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 3,
+      "diff": 0,
+      "base_score": 2,
       "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
     }
   ],
   "news": [
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "Bank of Japan set to keep interest rates unchanged after suspected Yen intervention",
+      "summary": "Investors are turning their attention to the Bank of Japan’s (BoJ) monetary policy announcement on Friday, after the Jap"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar extends sell-off after weak US growth, Yen surges on suspected intervention",
+      "summary": "The US Dollar (USD) falls sharply during the American session on Thursday after United States economic growth missed exp"
+    },
+    {
+      "source": "FXStreet",
+      "title": "China: Incremental support and trade risks – TD Securities",
+      "summary": "TD Securities’ Senior Asia Economist Alex Loo assesses the July Politburo meeting, noting no major new stimulus despite "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Oil: Key driver of UK inflation scenarios – Rabobank",
+      "summary": "RaboResearch highlights Oil as the dominant input for UK monetary policy. The Bank of England’s central forecast assumes"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Gradual gains versus US Dollar – Commerzbank",
+      "summary": "Commerzbank FX & Commodity Analyst Volkmar Baur argues that China’s large trade surplus, driven increasingly by green te"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG eyes $60.00 as rebound builds",
+      "summary": "Silver price advances for the second straight day and hits a three-day high above $59.00mid growing speculation of inter"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold jumps as suspected Yen intervention crushes US Dollar as Fed bets ease",
+      "summary": "Gold price advances some 0.92% on Thursday after the US Dollar drops following a suspected intervention in the foreign e"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Malaysian Ringgit: Political risks rise as fundamentals hold firm – MUFG",
+      "summary": "MUFG’s Lloyd Chan highlights that Malaysia’s solid growth, low inflation and prudent policy are supporting the Ringgit, "
+    },
+    {
+      "source": "FXStreet",
       "title": "South Korean Won: Policy tightening expectations lift KRW against US Dollar – Commerzbank",
       "summary": "Commerzbank Research notes that USD/KRW has fallen to its lowest level since February as South Korean authorities tighte"
-    },
-    {
-      "source": "FXStreet",
-      "title": "China: Consumption pivot points to slower growth - Rabobank",
-      "summary": "Rabobank’s Teeuwe Mevissen highlights that China’s Gross Domestic Product (GDP) growth undershot expectations in Q2, wit"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar strengthens to 1.4000 against US Dollar after suspected Japanese intervention",
-      "summary": "USD/CAD extends its decline on Thursday, slipping to a six-week low as the US Dollar (USD) weakens across the board foll"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver rises as softer US inflation weighs on US Dollar",
-      "summary": "Silver prices advance toward $58.80 per ounce on Thursday, gaining around 1.7% as softer United States inflation data an"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore: Fiscal and FX coordination on policy – DBS",
-      "summary": "DBS Group Research economist Chua Han Teng analyzes Singapore’s latest SGD900mn fiscal support package and the Monetary "
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Dollar Index slumps as suspected Japanese intervention rattles markets",
-      "summary": "The US Dollar Index (DXY) tumbles on Thursday as a sharp surge in the Japanese Yen (JPY) fuels speculation that Japanese"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Malaysia: Balanced macro profile supports Ringgit – MUFG",
-      "summary": "MUFG notes Malaysia remains one of Asia’s stronger-performing economies, with above-trend growth, low inflation and robu"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound surges on BoE hawkish hold, Yen intervention crushes USD",
-      "summary": "The Pound Sterling registers gains versus the US Dollar after the Bank of England decided to hold rates unchanged, in a "
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bybit Introduces Finloop’s FUIDL backed by an AAA-rated Money Market Fund",
       "summary": ""
     }
   ],
@@ -192,19 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar strengthens to 1.4000 against US Dollar",
-      "[弱気] Silver rises as softer US inflation weighs on US Dollar",
-      "[強気] United States Dollar Index slumps as suspected Japanese",
-      "[強気] British Pound surges on BoE hawkish hold, Yen intervent"
+      "[弱気] Forex Today: US Dollar extends sell-off after weak US g",
+      "[強気] Chinese Yuan: Gradual gains versus US Dollar – Commerzb"
     ],
     "JPY": [
-      "[弱気] Canadian Dollar strengthens to 1.4000 against US Dollar",
-      "[強気] United States Dollar Index slumps as suspected Japanese",
-      "[強気] British Pound surges on BoE hawkish hold, Yen intervent"
+      "[弱気] Forex Today: US Dollar extends sell-off after weak US g",
+      "[弱気] Silver Price Forecast: XAG eyes $60.00 as rebound build"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound surges on BoE hawkish hold, Yen intervent"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -212,64 +208,61 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar strengthens to 1.4000 against US Dollar"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.61,
+    "US_10Y": 4.67,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.94,
-    "DIFF_EURUSD": -1.64,
-    "DIFF_GBPUSD": 0.19,
-    "DIFF_AUDUSD": 0.22
+    "DIFF_USDJPY": 2.0,
+    "DIFF_EURUSD": -1.7,
+    "DIFF_GBPUSD": 0.13,
+    "DIFF_AUDUSD": 0.16
   },
   "prices": {
     "USDJPY": {
-      "today_open": 163.43786,
-      "today_close": 159.22977,
-      "prev_close": 163.43712,
-      "diff": -4.2073,
-      "diff_pct": -2.57
+      "today_open": 159.57659,
+      "today_close": 159.51104,
+      "prev_close": 159.54396,
+      "diff": -0.0329,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.22977,
-      "sma20": 162.7183,
-      "sma50": 161.9447,
-      "sma200": 158.8804,
+      "latest": 159.51104,
+      "sma20": 162.6254,
+      "sma50": 161.9417,
+      "sma200": 158.8888,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 46.0,
+      "rsi14": 66.6,
       "high20": 164.0881,
       "low20": 157.9471,
       "high60": 164.0881,
       "low60": 157.9471,
-      "chg5d_pct": -2.82,
-      "chg20d_pct": -1.53
+      "chg5d_pct": -2.52,
+      "chg20d_pct": -1.34
     },
     "EURUSD": {
-      "latest": 1.15332,
-      "sma20": 1.1417,
-      "sma50": 1.144,
+      "latest": 1.15293,
+      "sma20": 1.1422,
+      "sma50": 1.1439,
       "sma200": 1.1624,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 66.9,
+      "rsi14": 52.1,
       "high20": 1.1536,
       "low20": 1.1354,
-      "high60": 1.1665,
+      "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 1.4,
-      "chg20d_pct": 1.03
+      "chg5d_pct": 1.22,
+      "chg20d_pct": 0.98
     }
   }
 }
