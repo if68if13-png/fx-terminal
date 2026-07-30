@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-07-29T22:02:05.269887",
-  "generated": "2026年07月29日 22:02",
+  "timestamp": "2026-07-30T02:26:35.923165",
+  "generated": "2026年07月30日 02:26",
   "scores": {
-    "USD": 2,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 1,
+    "AUD": 0,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -41,17 +48,10 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,57 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar tumbles after divided Fed hold, Oil surges on Middle East escalation",
-      "summary": "The US Dollar (USD) falls sharply during the American session on Wednesday after the Federal Reserve (Fed) left interest"
+      "title": "New Zealand Dollar rises as ANZ Business Outlook Index jumps in July",
+      "summary": "NZD/USD extends its gains for the third consecutive day, trading around 0.5810 during the Asian hours on Thursday. The c"
     },
     {
       "source": "FXStreet",
-      "title": "Silver holds firm as Dollar slides after split Fed decision",
-      "summary": "Silver price clings to gains on Wednesday late in the North American session, as the Federal Reserve held rates unchange"
+      "title": "Canadian Dollar consolidates as Mideast crisis supports oil and USD ahead of US data",
+      "summary": "The USD/CAD pair is seen consolidating below mid-1.4000s during the Asian session on Thursday, though it remains close t"
     },
     {
       "source": "FXStreet",
-      "title": "No soft target: Warsh vows to return inflation to 2%",
-      "summary": "The Fed left interest rates unchanged at 3.50%-3.75%, but the decision carried a distinctly hawkish edge as three offici"
+      "title": "Australian Dollar gains despite cooling domestic Inflation, hawkish Fed hold",
+      "summary": "AUD/USD inches higher after two days of losses, trading around 0.6960 during the Asian hours on Thursday. The currency p"
     },
     {
       "source": "FXStreet",
-      "title": "WTI remains muted after Fed hold",
-      "summary": "West Texas Intermediate (WTI) Oil stayed muted near $83 per barrel following the Federal Reserve's (Fed) decision to hol"
+      "title": "PBOC sets USD/CNY reference rate at 6.7892 vs. 6.7899 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7892 compared to the "
     },
     {
       "source": "FXStreet",
-      "title": "The Canadian Dollar waited for the Fed and got paid",
-      "summary": "The Federal Reserve held its target range at 3.50% to 3.75% at 18:00 GMT on a 9-3 vote, with three voting members prefer"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound Sterling rents a rally it has to pay for in the morning",
-      "summary": "The Federal Reserve (Fed) held its target range at 3.50% to 3.75% at 18:00 GMT on a 9-3 vote, with three voting members "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dow Jones Industrial Average gets its rate relief and cannot hold it",
-      "summary": "The Federal Reserve (Fed) held its target range at 3.50% to 3.75% at 18:00 GMT on a 9-3 vote, with three voting members "
-    },
-    {
-      "source": "FXStreet",
-      "title": "The US Dollar Index discovers that a vote record is not a reaction function",
-      "summary": "The Federal Reserve held its target range at 3.50% to 3.75% at 18:00 GMT on a 9-3 vote, with three voting members prefer"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed's Warsh: We will deliver the 2% target",
-      "summary": "At the post-meeting press conference, Fed Chair Kevin Warsh explains why policymakers decided to keep interest rates unc"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar rebounds after Fed hold",
-      "summary": "NZD/USD trades higher near the 0.5790 area on Wednesday, reversing its earlier decline as the US Dollar (USD) weakens sh"
+      "title": "Euro edges lower to near 1.1450 as Fed holds rates steady, traders await Eurozone and German GDP",
+      "summary": "The EUR/USD pair trades with mild losses around 1.1465 during the early Asian session on Thursday. The US Dollar (USD) e"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin hovers above $64k ahead of Fed decision, shrugs off AI-led tech weakness",
+      "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bybit Introduces Finloop’s FUIDL backed by an AAA-rated Money Market Fund",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin briefly slips below $62k amid tech sell-off, Fed decision uncertainty",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,50 +182,51 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Forex Today: US Dollar tumbles after divided Fed hold, ",
-      "[弱気] Silver holds firm as Dollar slides after split Fed deci",
-      "[強気] No soft target: Warsh vows to return inflation to 2%",
-      "[強気] The US Dollar Index discovers that a vote record is not",
-      "[弱気] New Zealand Dollar rebounds after Fed hold",
-      "[弱気] Bitcoin hovers above $64k ahead of Fed decision, shrugs"
+      "[強気] Australian Dollar gains despite cooling domestic Inflat",
+      "[強気] Euro edges lower to near 1.1450 as Fed holds rates stea"
+    ],
+    "EUR": [
+      "[強気] Euro edges lower to near 1.1450 as Fed holds rates stea"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)",
+      "[強気] Australian Dollar gains despite cooling domestic Inflat"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar rebounds after Fed hold"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
-    "US_FF": null,
+    "US_FF": 3.63,
     "US_10Y": 4.61,
-    "JP_10Y": null,
+    "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": null,
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 1.94,
     "DIFF_EURUSD": -1.64,
-    "DIFF_GBPUSD": 0.19
+    "DIFF_GBPUSD": 0.19,
+    "DIFF_AUDUSD": 0.22
   },
   "prices": {
     "USDJPY": {
       "today_open": 163.43786,
-      "today_close": 163.4245,
+      "today_close": 163.50806,
       "prev_close": 163.43712,
-      "diff": -0.0126,
-      "diff_pct": -0.01
+      "diff": 0.0709,
+      "diff_pct": 0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.4245,
-      "sma20": 162.9281,
-      "sma50": 162.0286,
-      "sma200": 158.9014,
+      "latest": 163.50806,
+      "sma20": 162.9322,
+      "sma50": 162.0302,
+      "sma200": 158.9018,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -244,11 +235,11 @@
       "low20": 161.4661,
       "high60": 164.0881,
       "low60": 159.3199,
-      "chg5d_pct": -0.26,
-      "chg20d_pct": 1.07
+      "chg5d_pct": -0.21,
+      "chg20d_pct": 1.12
     },
     "EURUSD": {
-      "latest": 1.14636,
+      "latest": 1.14526,
       "sma20": 1.1413,
       "sma50": 1.1438,
       "sma200": 1.1624,
@@ -260,8 +251,8 @@
       "low20": 1.1354,
       "high60": 1.1665,
       "low60": 1.1324,
-      "chg5d_pct": 0.79,
-      "chg20d_pct": 0.42
+      "chg5d_pct": 0.69,
+      "chg20d_pct": 0.32
     }
   }
 }
