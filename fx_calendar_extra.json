@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-07-30 23:03 JST",
+  "generated_at_jst": "2026-07-31 01:26 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,36 +7,8 @@
     "mag7": "live (2件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 112,
+  "count": 110,
   "events": [
-    {
-      "date": "2026-07-30",
-      "time": "05:30",
-      "tz": "JST",
-      "title": "アップル (AAPL) 決算発表",
-      "short": "★★★ AAPL決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-07-30|アップル (AAPL) 決算発表"
-    },
-    {
-      "date": "2026-07-30",
-      "time": "05:30",
-      "tz": "JST",
-      "title": "アマゾン (AMZN) 決算発表",
-      "short": "★★★ AMZN決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "各社IR (内蔵表)",
-      "id": "2026-07-30|アマゾン (AMZN) 決算発表"
-    },
     {
       "date": "2026-07-31",
       "time": "08:30",

@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-30T14:02:56.762666",
-  "generated": "2026年07月30日 14:02",
+  "timestamp": "2026-07-30T16:26:34.148424",
+  "generated": "2026年07月30日 16:26",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
+    "USD": 4,
+    "JPY": 3,
     "EUR": 1,
-    "GBP": 3,
+    "GBP": 4,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,47 +15,57 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "quote_score": 4
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "EURJPY",
       "direction": "ショート優勢",
       "diff": -2,
       "base_score": 1,
       "quote_score": 3
     },
     {
-      "pair": "EURJPY",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 4,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 4,
+      "quote_score": 3
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 4,
+      "quote_score": 4
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Inter"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
+      "summary": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve issues FOMC statement",
@@ -92,68 +102,58 @@
       "summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money launderi"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions with BNP Paribas S.A., BNP Paribas USA, Inc., BNP Paribas Securities Corp., and Community Bankshares, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with Small Business Bank and announces termination enforcement actions w"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
-      "summary": "Federal Reserve issues initial findings from its 2025 triennial payments study"
+      "source": "FXStreet",
+      "title": "United States Dollar Index slumps as suspected Japanese intervention rattles markets",
+      "summary": "The US Dollar Index (DXY) tumbles on Thursday as a sharp surge in the Japanese Yen (JPY) fuels speculation that Japanese"
     },
     {
       "source": "FXStreet",
-      "title": "Germany: War-driven energy shock shapes outlook – Commerzbank",
-      "summary": "Commerzbank’s Dr. Ralph Solveen analyzes German inflation after the July national Consumer Price Index (CPI) rose from 2"
+      "title": "Malaysia: Balanced macro profile supports Ringgit – MUFG",
+      "summary": "MUFG notes Malaysia remains one of Asia’s stronger-performing economies, with above-trend growth, low inflation and robu"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Japanese Yen surges on suspected intervention, USD/JPY plunges below 161.00",
-      "summary": "The Japanese Yen is surging accross the board in the American session on Thursday, without a clear catalyst. This develo"
+      "title": "British Pound surges on BoE hawkish hold, Yen intervention crushes USD",
+      "summary": "The Pound Sterling registers gains versus the US Dollar after the Bank of England decided to hold rates unchanged, in a "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC minutes flags two-sided economic risks – TD Securities",
-      "summary": "TD Securities strategists note the Bank of Canada’s (BoC) July Summary of Deliberations was balanced, with the Bank seei"
+      "title": "Euro rises as Eurozone growth outpaces forecasts",
+      "summary": "EUR/USD trades higher near the 1.1460 area on Thursday as stronger-than-expected European economic data and softer Unite"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen gains the upper hand after US GDP miss, BoJ eyed",
-      "summary": "USD/JPY trades around 162.90 at the time of writing on Thursday, down 0.31% on the day, as the US Dollar (USD) comes und"
+      "title": "Australian Dollar tumbles against Japanese Yen on suspected intervention",
+      "summary": "AUD/JPY tumbles on Thursday as a sudden surge in the Japanese Yen (JPY) sweeps across Yen crosses, fuelling speculation "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Warsh rhetoric weakens policy credibility – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US Dollar (USD) is struggling to recover after the Federal Reserv"
+      "title": "Bank of England: Tighter conditions support September hold – TD Securities",
+      "summary": "TD Securities strategists highlight that the Bank of England (BoE) kept Bank Rate at 3.75% with a 6-3 split, signalling "
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Fed holds rates and supports Dollar – HSBC",
-      "summary": "HSBC’s Jose Rasco and Michael Zervos note that the US Federal Reserve (Fed) kept rates unchanged for a fifth straight me"
+      "title": "Australian Dollar rallies despite softer CPI as US Dollar tumbles after Fed, weaker data",
+      "summary": "AUD/USD trades around 0.7010 on Thursday at the time of writing, up 0.82% on the day as broad-based US Dollar (USD) weak"
     },
     {
       "source": "FXStreet",
-      "title": "Turkish Lira: Bank stress heightens TRY vulnerability – Commerzbank",
-      "summary": "Tatha Ghose at Commerzbank flags Fitch’s latest review of Turkish banks as another negative signal for the Lira. Profita"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Rally against EUR and USD unlikely to last – TD Securities",
-      "summary": "TD Securities FX strategist Howard Du highlights that GBP/USD initially rose 0.3% on the hawkish 6-3 BoE vote split, wit"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold trades sideways as US GDP disappoints, core PCE cools",
-      "summary": "Gold (XAU/USD) remains trapped in its month-old $4,000-$4,200 range as the Federal Reserve’s (Fed) new era of limited fo"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US PCE inflation data confirm steady disinflation",
-      "summary": "The United States (US) Personal Consumption Expenditures (PCE) Price Index pointed to a further moderation in inflation "
+      "title": "China: Domestic weakness calls for measured fiscal support - Commerzbank",
+      "summary": "Volkmar Baur at Commerzbank assesses that China’s Gross Domestic Product (GDP) growth of 4.3% year-on-year in Q2 2026 fe"
     },
     {
       "source": "Investing",
       "title": "Bitcoin slightly up near $65k amid rates, Iran jitters; Strategy earnings on tap",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bybit Introduces Finloop’s FUIDL backed by an AAA-rated Money Market Fund",
       "summary": ""
     }
   ],
@@ -192,31 +192,37 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Breaking: Japanese Yen surges on suspected intervention",
-      "[弱気] Japanese Yen gains the upper hand after US GDP miss, Bo",
-      "[強気] British Pound: Rally against EUR and USD unlikely to la"
+      "[強気] United States Dollar Index slumps as suspected Japanese",
+      "[強気] British Pound surges on BoE hawkish hold, Yen intervent",
+      "[強気] Euro rises as Eurozone growth outpaces forecasts",
+      "[強気] Australian Dollar tumbles against Japanese Yen on suspe",
+      "[弱気] Australian Dollar rallies despite softer CPI as US Doll"
     ],
     "JPY": [
-      "[強気] Breaking: Japanese Yen surges on suspected intervention",
-      "[弱気] Japanese Yen gains the upper hand after US GDP miss, Bo"
+      "[強気] United States Dollar Index slumps as suspected Japanese",
+      "[強気] British Pound surges on BoE hawkish hold, Yen intervent",
+      "[強気] Australian Dollar tumbles against Japanese Yen on suspe"
     ],
     "EUR": [
-      "[強気] British Pound: Rally against EUR and USD unlikely to la"
+      "[強気] Euro rises as Eurozone growth outpaces forecasts"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Rally against EUR and USD unlikely to la"
+      "[強気] British Pound surges on BoE hawkish hold, Yen intervent",
+      "[強気] Bank of England: Tighter conditions support September h"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)",
+      "[強気] Australian Dollar tumbles against Japanese Yen on suspe",
+      "[弱気] Australian Dollar rallies despite softer CPI as US Doll"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
-    "US_FF": null,
+    "US_FF": 3.63,
     "US_10Y": 4.61,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
@@ -230,31 +236,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.43786,
-      "today_close": 159.73813,
+      "today_close": 159.45777,
       "prev_close": 163.43712,
-      "diff": -3.699,
-      "diff_pct": -2.26
+      "diff": -3.9793,
+      "diff_pct": -2.43
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.73813,
-      "sma20": 162.7437,
-      "sma50": 161.9548,
-      "sma200": 158.883,
+      "latest": 159.45777,
+      "sma20": 162.7297,
+      "sma50": 161.9492,
+      "sma200": 158.8816,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
       "rsi14": 46.0,
       "high20": 164.0881,
-      "low20": 159.712,
+      "low20": 157.9471,
       "high60": 164.0881,
-      "low60": 159.3199,
-      "chg5d_pct": -2.51,
-      "chg20d_pct": -1.21
+      "low60": 157.9471,
+      "chg5d_pct": -2.68,
+      "chg20d_pct": -1.39
     },
     "EURUSD": {
-      "latest": 1.1526,
+      "latest": 1.15295,
       "sma20": 1.1417,
       "sma50": 1.144,
       "sma200": 1.1624,
@@ -262,12 +268,12 @@
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 66.9,
-      "high20": 1.1527,
+      "high20": 1.1536,
       "low20": 1.1354,
       "high60": 1.1665,
       "low60": 1.1324,
-      "chg5d_pct": 1.33,
-      "chg20d_pct": 0.97
+      "chg5d_pct": 1.37,
+      "chg20d_pct": 1.0
     }
   }
 }
