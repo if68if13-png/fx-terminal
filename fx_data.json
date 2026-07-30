@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-30T08:27:17.307640",
-  "generated": "2026年07月30日 08:27",
+  "timestamp": "2026-07-30T11:07:57.487236",
+  "generated": "2026年07月30日 11:07",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 3,
+    "EUR": 1,
+    "GBP": 4,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -20,6 +20,13 @@
       "quote_score": 3
     },
     {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
@@ -28,30 +35,23 @@
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
       "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 3,
+      "diff": 1,
+      "base_score": 4,
       "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,52 +103,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: RBI seen on hold as growth solid – Commerzbank",
-      "summary": "Commerzbank’s analysts report that USD/INR has eased as India’s June industrial production surprised to the upside and i"
+      "title": "Breaking: Bank of England maintains bank rate at 3.75% in July as expected",
+      "summary": "The Bank of England (BoE) announced on Thursday that it maintained the bank rate at 3.75% following the July policy meet"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Extended pause with 2027 cuts – UOB",
-      "summary": "UOB’s Suan Teck Kin and Alvin Liew analyze the latest FOMC decision, noting the Fed Funds Target Rate remains at 3.50%-3"
+      "title": "US GDP growth expected to remain near 2% long-run average",
+      "summary": "The United States (US) Bureau of Economic Analysis (BEA) is set to publish its preliminary estimate of second-quarter Gr"
     },
     {
       "source": "FXStreet",
-      "title": "Gold bears retain control as USD strengthens on Fed hike bets and Mideast crisis",
-      "summary": "Gold (XAU/USD) maintains its offered tone through the first half of the European session on Thursday and seems vulnerabl"
+      "title": "Indian Rupee ticks lower due to higher US bond Yields",
+      "summary": "The Indian Rupee (INR) drops against the US Dollar (USD) on Thursday. The USD/INR pair edges down to near 95.60, with th"
     },
     {
       "source": "FXStreet",
-      "title": "German flash Q2 GDP rises 0.2% QoQ, beats 0.1% estimates",
-      "summary": "German preliminary Q2 Gross Domestic Product (GDP) rises at a 0.2% pace, beating the estimates of 0.1%, according to the"
+      "title": "British Pound: BoE policy seen on extended hold – Societe Generale",
+      "summary": "Societe Generale strategists analyzes- the Bank of England’s (BoE) upcoming meeting, expecting Bank Rate to remain at 3."
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc retreats further despite bright KOF Leading Indicators data",
-      "summary": "The Swiss Franc (CHF) remains on the defensive against the US Dollar (USD) Thursday despite the unexpected improvement o"
+      "title": "US Dollar: Post-FOMC losses likely to remain limited – TD Securities",
+      "summary": "TD Securities strategists note that the US Dollar (USD) weakened after the July Federal Open Market Committee (FOMC) rat"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index Price Forecast: Rebounds to near 101.00 as bullish bias prevails",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is gaining grou"
+      "title": "Bank of England: Market pricing stays hawkish – ING",
+      "summary": "ING’s Michiel Tukker and Padhraic Garvey expect no change in the Bank of England (BoE) policy rate at the upcoming meeti"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: BoE hike pricing supports Sterling against US Dollar – MUFG",
-      "summary": "MUFG's Derek Halpenny notes that the British Pound (GBP) has been the strongest G10 currency after the US Dollar (USD) s"
+      "title": "British Pound: Fiscal concerns may weigh on Sterling – Rabobank",
+      "summary": "Rabobank Senior FX Strategist Jane Foley discusses GBP/USD following the latest Federal Reserve (Fed) decision and ahead"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar stays on the defensive against a broadly firmer USD, ahead of US data",
-      "summary": "The AUD/USD pair struggles to capitalize on the previous day's late rebound from the 0.6920 region, or an over two-week "
+      "title": "Japanese Yen: BoJ tone could lift JPY against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur expects the Bank of Japan to keep its overnight call rate unchanged, as fully priced by marke"
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Fed-driven yield spike pressures equities – Deutsche Bank",
-      "summary": "Deutsche Bank notes that the Federal Reserve’s (Fed) on-hold decision and limited detail from Chair Warsh sparked a shar"
+      "title": "Euro steadies near weekly highs following bright Eurozone growth numbers",
+      "summary": "The Euro (EUR) is retracing previous losses against the US Dollar (USD) on Wednesday, fuelled by upbeat Eurozone Gross D"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls to $64k amid rates, Iran jitters; Strategy earnings on tap",
+      "title": "Bitcoin flat at $64.6k amid rates, Iran jitters; Strategy earnings on tap",
       "summary": ""
     },
     {
@@ -192,11 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: BoE hike pricing supports Sterling again"
+      "[強気] Euro steadies near weekly highs following bright Eurozo"
+    ],
+    "EUR": [
+      "[強気] Euro steadies near weekly highs following bright Eurozo"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: BoE hike pricing supports Sterling again"
+      "[強気] British Pound: BoE policy seen on extended hold – Socie",
+      "[強気] Bank of England: Market pricing stays hawkish – ING"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -221,19 +225,19 @@
   "prices": {
     "USDJPY": {
       "today_open": 163.43786,
-      "today_close": 163.63731,
+      "today_close": 162.72893,
       "prev_close": 163.43712,
-      "diff": 0.2002,
-      "diff_pct": 0.12
+      "diff": -0.7082,
+      "diff_pct": -0.43
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 163.63731,
-      "sma20": 162.9387,
-      "sma50": 162.0328,
-      "sma200": 158.9025,
-      "vs_sma20": "上",
+      "latest": 162.72893,
+      "sma20": 162.8933,
+      "sma50": 162.0146,
+      "sma200": 158.8979,
+      "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 46.0,
@@ -241,24 +245,24 @@
       "low20": 161.4661,
       "high60": 164.0881,
       "low60": 159.3199,
-      "chg5d_pct": -0.13,
-      "chg20d_pct": 1.2
+      "chg5d_pct": -0.69,
+      "chg20d_pct": 0.64
     },
     "EURUSD": {
-      "latest": 1.1451,
-      "sma20": 1.1413,
-      "sma50": 1.1438,
+      "latest": 1.14756,
+      "sma20": 1.1414,
+      "sma50": 1.1439,
       "sma200": 1.1624,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 66.9,
-      "high20": 1.1482,
+      "high20": 1.1484,
       "low20": 1.1354,
       "high60": 1.1665,
       "low60": 1.1324,
-      "chg5d_pct": 0.68,
-      "chg20d_pct": 0.31
+      "chg5d_pct": 0.89,
+      "chg20d_pct": 0.53
     }
   }
 }
