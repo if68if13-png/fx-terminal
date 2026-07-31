@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-07-31 11:50 JST",
+  "generated_at_jst": "2026-07-31 15:14 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,7 +7,7 @@
     "mag7": "live (2件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 110,
+  "count": 118,
   "events": [
     {
       "date": "2026-07-31",
@@ -529,6 +529,20 @@
     },
     {
       "date": "2027-01-22",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合(展望)",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "展望レポート公表・15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-01-22|日銀 金融政策決定会合 結果発表"
+    },
+    {
+      "date": "2027-01-22",
       "time": "17:00",
       "tz": "JST",
       "title": "ユーロ圏 PMI速報 (製造業・サービス業・総合)",
@@ -669,6 +683,20 @@
     },
     {
       "date": "2027-03-18",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-03-18|日銀 金融政策決定会合 結果発表"
+    },
+    {
+      "date": "2027-03-18",
       "time": "21:15",
       "tz": "JST",
       "title": "ECB 政策理事会 政策金利発表",
@@ -778,6 +806,20 @@
       "confirmed": false,
       "source": "stat.go.jp (公表ルールから算出)",
       "id": "2027-04-23|日本 消費者物価指数(全国) 2027年3月分"
+    },
+    {
+      "date": "2027-04-28",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合(展望)",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "展望レポート公表・15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-04-28|日銀 金融政策決定会合 結果発表"
     },
     {
       "date": "2027-04-29",
@@ -920,6 +962,20 @@
       "id": "2027-06-10|ECB 政策理事会 政策金利発表"
     },
     {
+      "date": "2027-06-11",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-06-11|日銀 金融政策決定会合 結果発表"
+    },
+    {
       "date": "2027-06-18",
       "time": "08:30",
       "tz": "JST",
@@ -988,6 +1044,20 @@
       "confirmed": false,
       "source": "S&P Global (公表ルールから算出)",
       "id": "2027-07-05|ユーロ圏 サービス業・総合PMI 確報"
+    },
+    {
+      "date": "2027-07-22",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合(展望)",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "展望レポート公表・15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-07-22|日銀 金融政策決定会合 結果発表"
     },
     {
       "date": "2027-07-22",
@@ -1159,6 +1229,20 @@
     },
     {
       "date": "2027-09-22",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-09-22|日銀 金融政策決定会合 結果発表"
+    },
+    {
+      "date": "2027-09-22",
       "time": "17:00",
       "tz": "JST",
       "title": "ユーロ圏 PMI速報 (製造業・サービス業・総合)",
@@ -1284,6 +1368,20 @@
       "id": "2027-10-29|日本 東京都区部CPI 2027年10月分(中旬速報)"
     },
     {
+      "date": "2027-10-29",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合(展望)",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "展望レポート公表・15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-10-29|日銀 金融政策決定会合 結果発表"
+    },
+    {
       "date": "2027-11-01",
       "time": "17:00",
       "tz": "JST",
@@ -1394,6 +1492,20 @@
       "confirmed": true,
       "source": "ecb.europa.eu",
       "id": "2027-12-16|ECB 政策理事会 政策金利発表"
+    },
+    {
+      "date": "2027-12-17",
+      "time": "11:45",
+      "tz": "JST",
+      "title": "日銀 金融政策決定会合 結果発表",
+      "short": "★★★ 日銀会合",
+      "category": "central_bank",
+      "country": "JP",
+      "impact": "high",
+      "note": "15:30 総裁会見",
+      "confirmed": true,
+      "source": "boj.or.jp",
+      "id": "2027-12-17|日銀 金融政策決定会合 結果発表"
     },
     {
       "date": "2027-12-22",

@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-07-31T02:50:47.160043",
-  "generated": "2026年07月31日 02:50",
+  "timestamp": "2026-07-31T06:14:17.602285",
+  "generated": "2026年07月31日 06:14",
   "scores": {
-    "USD": 2,
+    "USD": 0,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "EUR": -2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,42 +13,42 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -2,
+      "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "pair": "EURJPY",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -2,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     },
     {
-      "pair": "EURJPY",
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar inches lower as China’s NBS Manufacturing PMI falls in July",
-      "summary": "AUD/USD inches lower after registering over 1% gains in the previous day, trading around 0.7020 during the Asian hours o"
+      "title": "GBP/USD Price Forecast: Weakens below 1.3450 while technical uptrend stays intact",
+      "summary": "The GBP/USD pair trades in negative territory around 1.3445 during the early European trading hours on Friday. Heightene"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Climbs back above mid-160.00s as BoJ rate decision looms",
-      "summary": "The USD/JPY pair is seen building on the previous day's late recovery from sub-158.00 levels, or the lowest since May 14"
+      "title": "Indian Rupee hits fresh two-week high against US Dollar",
+      "summary": "The Indian Rupee (INR) extends the week-long rally against the US Dollar (USD) on Friday."
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar holds losses following China PMI data",
-      "summary": "NZD/USD loses ground after three days of gains, trading around 0.5870 during the Asian hours on Friday. The pair remains"
+      "title": "Gold sticks to intraday losses as Fed hike bets and Iran risks revive USD demand",
+      "summary": "Gold (XAU/USD) maintains its offered tone through the Asian session on Friday and seems vulnerable after struggling to b"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index bounces off its lowest level since June 17, back above 100.00",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, gains some positive traction and c"
+      "title": "WTI falls to near $80.50 on profit-taking, increased traffic through Strait of Hormuz",
+      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $80.50 during the early European trading ho"
     },
     {
       "source": "FXStreet",
-      "title": "China's NBS Manufacturing PMI falls to 49.2 in July, Non-Manufacturing PMI eases to 49.0",
-      "summary": "China’s Manufacturing Purchasing Managers' Index (PMI) fell to 49.2 in July, compared to 50.3 in the previous reading, C"
+      "title": "Canadian Dollar retreats on sliding oil prices as USD recovers on Fed bets, Mideast risks",
+      "summary": "The USD/CAD pair edges higher during the Asian session on Friday and, for now, seems to have snapped a three-day losing "
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7894 vs. 6.7892 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7894 compa"
+      "title": "Rare Japan-South Korea joint intervention lifts Yen and Won — Reuters",
+      "summary": "Japanese and South Korean officials stepped in to buy their currencies in the open market in what sources described as a"
     },
     {
       "source": "FXStreet",
-      "title": "Euro softens to near 1.1500 as US-Iran war widens",
-      "summary": "The EUR/ USD pair loses ground to near 1.1515 during the early Asian trading hours on Friday. The Euro (EUR) softens aga"
+      "title": "Indonesian Rupiah loses ground following China PMI release",
+      "summary": "USD/IDR gains ground after two days of losses, trading around 18,120 during the Asian hours on Friday. The pair apprecia"
     },
     {
       "source": "FXStreet",
-      "title": "Bank of Japan set to keep interest rates unchanged as markets seek tightening clues",
-      "summary": "Investors are turning their attention to the Bank of Japan’s (BoJ) monetary policy announcement on Friday, after the Jap"
+      "title": "EUR/USD Price Forecast: Weakens to near 1.1500 as 100-day SMA caps upside",
+      "summary": "The EUR/USD pair trades in negative territory around 1.1500 during the early European trading hours on Friday. The Euro "
     },
     {
       "source": "Investing",
@@ -191,10 +191,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] GBP/USD Price Forecast: Weakens below 1.3450 while tech",
+      "[弱気] EUR/USD Price Forecast: Weakens to near 1.1500 as 100-d"
+    ],
+    "EUR": [
+      "[弱気] GBP/USD Price Forecast: Weakens below 1.3450 while tech",
+      "[弱気] EUR/USD Price Forecast: Weakens to near 1.1500 as 100-d"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] GBP/USD Price Forecast: Weakens below 1.3450 while tech"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -219,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.57659,
-      "today_close": 160.58103,
+      "today_close": 160.40621,
       "prev_close": 159.54396,
-      "diff": 1.0371,
-      "diff_pct": 0.65
+      "diff": 0.8622,
+      "diff_pct": 0.54
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.58103,
-      "sma20": 162.6789,
-      "sma50": 161.9631,
-      "sma200": 158.8942,
+      "latest": 160.40621,
+      "sma20": 162.6702,
+      "sma50": 161.9596,
+      "sma200": 158.8933,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -239,12 +246,12 @@
       "low20": 157.9471,
       "high60": 164.0881,
       "low60": 157.9471,
-      "chg5d_pct": -1.87,
-      "chg20d_pct": -0.68
+      "chg5d_pct": -1.98,
+      "chg20d_pct": -0.79
     },
     "EURUSD": {
-      "latest": 1.15119,
-      "sma20": 1.1421,
+      "latest": 1.1516,
+      "sma20": 1.1422,
       "sma50": 1.1438,
       "sma200": 1.1624,
       "vs_sma20": "上",
@@ -255,8 +262,8 @@
       "low20": 1.1354,
       "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 1.07,
-      "chg20d_pct": 0.83
+      "chg5d_pct": 1.1,
+      "chg20d_pct": 0.86
     }
   }
 }
