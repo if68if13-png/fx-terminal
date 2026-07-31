@@ -1,70 +1,80 @@
 {
-  "timestamp": "2026-07-31T11:29:31.903166",
-  "generated": "2026年07月31日 11:29",
+  "timestamp": "2026-07-31T14:07:37.271771",
+  "generated": "2026年07月31日 14:07",
   "scores": {
     "USD": 4,
-    "JPY": 1,
-    "EUR": 1,
-    "GBP": 3,
-    "AUD": 0,
+    "JPY": 2,
+    "EUR": -1,
+    "GBP": 2,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
+      "diff": -5,
+      "base_score": -1,
       "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 3,
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
       "quote_score": 4
     },
     {
       "pair": "EURJPY",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 4,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Inter"
+      "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &qu"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
     },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
       "summary": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Inter"
     },
     {
       "source": "Fed",
@@ -92,68 +102,58 @@
       "summary": "Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc."
     },
     {
-      "source": "Fed",
-      "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, June 16-17, 2026"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
-      "summary": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money launderi"
+      "source": "FXStreet",
+      "title": "United States: Broad-based Q2 GDP strength beyond AI – TD Securities",
+      "summary": "TD Securities economists Eli Nir and Oscar Munoz highlight that Q2 United States (US) Gross Domestic Product (GDP) growt"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: DXY seen returning to 96.00–100.00 range – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that the Dollar stabilized after a sharp sell-off linked to suspected"
+      "title": "Japanese Yen: Intervention risk and hawkish BoJ support Yen – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/JPY briefly fell about five big figures to 158.00 on suspe"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar holds firm despite weak Chinese data, fading RBA rate hike bets",
-      "summary": "AUD/USD trades around 0.7030 at the time of writing on Friday, little changed on the day after Thursday's strong rally."
+      "title": "Gold declines as firmer US Dollar, hawkish Fed outlook weigh",
+      "summary": "Gold (XAU/USD) edges lower on Friday as the US Dollar (USD) stabilizes following the previous day’s sharp sell-off, whil"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Balanced growth supports CAD – TD Securities",
-      "summary": "TD Securities strategists expect Canadian real Gross Domestic Product (GDP) to rise by 0.2% m/m in May, exceeding the fl"
+      "title": "India: RBI hold expectations shape policy outlook – ING",
+      "summary": "ING economists Deepali Bhargava and Lynn Song expect the Reserve Bank of India to keep the repo rate at 5.25% this week."
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee sets for bets weekly close in four months",
-      "summary": "The Indian Rupee (INR) extends the week-long rally against the US Dollar (USD) on Friday."
+      "title": "Euro slips back below 1.1500 as US Dollar recovers",
+      "summary": "The Euro (EUR) weakens against the US Dollar (USD) on Friday as short-covering in the Greenback following the previous d"
     },
     {
       "source": "FXStreet",
-      "title": "Experts agree: The US Dollar rally might have found serious headwinds",
-      "summary": "The US Dollar Index (DXY) attempts to cling above the 100.00 psychological level on Friday after a nearly 1.5% selloff i"
+      "title": "China: Policy support balances weak PMIs – UOB",
+      "summary": "UOB economist Ho Woei Chen highlights that China’s July CFLP PMIs slipped into contraction, with both manufacturing and "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Post-Fed losses extend as positioning unwinds – ING",
-      "summary": "ING’s Francesco Pesole notes the Dollar’s post-FOMC selloff has accelerated, with DXY briefly dipping below 100.0 and re"
+      "title": "Canadian Dollar shrugs off upbeat GDP as US Dollar stages a comeback",
+      "summary": "USD/CAD trades around 1.4045 on Friday at the time of writing, recovering from a two-week low hit on Thursday at 1.3991."
     },
     {
       "source": "FXStreet",
-      "title": "Euro rebounds vs Yen as BoJ rate hold, Eurozone inflation support",
-      "summary": "EUR/JPY trades around 184.00 on Friday, stabilizing after the sharp volatility seen on Thursday. The cross plunged to ne"
+      "title": "Japanese Yen: BoJ patience keeps wide trading range – TD Securities",
+      "summary": "TD Securities notes the Bank of Japan (BoJ) left its policy rate at 1% with an 8–1 vote, as Governor Ueda delivered nota"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Wide range trading outlook – TD Securities",
-      "summary": "TD Securities’ Alex Loo notes that despite Governor Ueda’s hawkish tone, the Japanese Yen reaction was muted and the BoJ"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro hits session lows against the British Pound following Eurozone inflation data",
-      "summary": "The Euro (EUR) edges lower against the British Pound (GBP) on Friday, hitting session lows at 0.8554 following the Euroz"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound underperforms as traders reconsider BoE interest rate hike bets",
-      "summary": "The British Pound (GBP) is down against its major currency peers, trading marginally lower at around 1.3444 against the "
+      "title": "Breaking: Canada's GDP expanded by 0.3% MoM in May",
+      "summary": "Canada’s economy cooled a tad in May. Indeed, the Gross Domestic Product (GDP) grew by 0.3%, adding to the previous mont"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin little changed near $64k with Fed uncertainty, Iran tensions in focus",
+      "title": "Bitcoin muted below $64k with Fed uncertainty, Iran tensions in focus",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
       "summary": ""
     }
   ],
@@ -192,26 +192,30 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar holds firm despite weak Chinese data,",
-      "[強気] British Pound underperforms as traders reconsider BoE i"
+      "[強気] Japanese Yen: Intervention risk and hawkish BoJ support",
+      "[強気] Gold declines as firmer US Dollar, hawkish Fed outlook ",
+      "[弱気] Euro slips back below 1.1500 as US Dollar recovers",
+      "[強気] Canadian Dollar shrugs off upbeat GDP as US Dollar stag"
     ],
     "JPY": [
-      "[強気] Japanese Yen: Wide range trading outlook – TD Securitie"
+      "[強気] Japanese Yen: Intervention risk and hawkish BoJ support",
+      "[強気] Japanese Yen: BoJ patience keeps wide trading range – T"
     ],
     "EUR": [
-      "[強気] British Pound underperforms as traders reconsider BoE i"
+      "[弱気] Euro slips back below 1.1500 as US Dollar recovers"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound underperforms as traders reconsider BoE i"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)",
-      "[強気] Australian Dollar holds firm despite weak Chinese data,"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar shrugs off upbeat GDP as US Dollar stag"
     ]
   },
   "rates": {
@@ -229,18 +233,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.57659,
-      "today_close": 160.04024,
+      "today_close": 159.27455,
       "prev_close": 159.54396,
-      "diff": 0.4963,
-      "diff_pct": 0.31
+      "diff": -0.2694,
+      "diff_pct": -0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.04024,
-      "sma20": 162.6519,
-      "sma50": 161.9523,
-      "sma200": 158.8915,
+      "latest": 159.27455,
+      "sma20": 162.6136,
+      "sma50": 161.937,
+      "sma200": 158.8876,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -249,12 +253,12 @@
       "low20": 157.9471,
       "high60": 164.0881,
       "low60": 157.9471,
-      "chg5d_pct": -2.2,
-      "chg20d_pct": -1.02
+      "chg5d_pct": -2.67,
+      "chg20d_pct": -1.49
     },
     "EURUSD": {
-      "latest": 1.14963,
-      "sma20": 1.1421,
+      "latest": 1.14665,
+      "sma20": 1.1419,
       "sma50": 1.1438,
       "sma200": 1.1623,
       "vs_sma20": "上",
@@ -265,8 +269,8 @@
       "low20": 1.1354,
       "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 0.93,
-      "chg20d_pct": 0.69
+      "chg5d_pct": 0.67,
+      "chg20d_pct": 0.43
     }
   }
 }
