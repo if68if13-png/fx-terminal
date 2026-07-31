@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-31T14:07:37.271771",
-  "generated": "2026年07月31日 14:07",
+  "timestamp": "2026-07-31T16:46:05.242601",
+  "generated": "2026年07月31日 16:46",
   "scores": {
-    "USD": 4,
-    "JPY": 2,
-    "EUR": -1,
-    "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "USD": -1,
+    "JPY": -1,
+    "EUR": 0,
+    "GBP": 1,
+    "AUD": -2,
+    "NZD": 1,
     "CAD": 1,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 4,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -2,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,13 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States: Broad-based Q2 GDP strength beyond AI – TD Securities",
-      "summary": "TD Securities economists Eli Nir and Oscar Munoz highlight that Q2 United States (US) Gross Domestic Product (GDP) growt"
+      "title": "Australian Dollar holds despite weak Chinese PMIs",
+      "summary": "AUD/USD trades around the 0.7020 area during Friday's American session."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention risk and hawkish BoJ support Yen – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/JPY briefly fell about five big figures to 158.00 on suspe"
+      "title": "British Pound holds firm as USD rebounds from intervention rout",
+      "summary": "The Pound Sterling retreats some 0.02% on Friday as the Greenback stages a recovery following Thursday’s intervention da"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc trims losses against US Dollar amid Japanese intervention concerns",
+      "summary": "USD/CHF trims part of its earlier gains on Friday as the US Dollar (USD) struggles to regain momentum following Thursday"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Bank of Canada: Strong GDP lowers cut risk – TD Securities",
+      "summary": "TD Securities’ Robert Both and Emma Lawrence note that stronger-than-expected Canadian Gross Domestic Product (GDP) data"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen: Intervention slows but does not reverse trend – ING",
+      "summary": "ING’s Chris Turner describes USD/JPY’s rollercoaster, with a 3% drop on reported Japanese intervention followed by a nea"
     },
     {
       "source": "FXStreet",
@@ -118,33 +133,18 @@
     },
     {
       "source": "FXStreet",
-      "title": "India: RBI hold expectations shape policy outlook – ING",
-      "summary": "ING economists Deepali Bhargava and Lynn Song expect the Reserve Bank of India to keep the repo rate at 5.25% this week."
+      "title": "New Zealnd Dollar weakens after China PMI miss as the US Dollar rebounds",
+      "summary": "NZD/USD trades around 0.5860 on Friday, down 0.33% on the day, as investors react to another deterioration in Chinese bu"
     },
     {
       "source": "FXStreet",
-      "title": "Euro slips back below 1.1500 as US Dollar recovers",
-      "summary": "The Euro (EUR) weakens against the US Dollar (USD) on Friday as short-covering in the Greenback following the previous d"
+      "title": "Euro: Range seen around mid‑1.15s against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s FX team notes EUR/USD is drifting toward 1.15 after a Fed‑driven rally, with euro area CPI broadly in line "
     },
     {
       "source": "FXStreet",
-      "title": "China: Policy support balances weak PMIs – UOB",
-      "summary": "UOB economist Ho Woei Chen highlights that China’s July CFLP PMIs slipped into contraction, with both manufacturing and "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar shrugs off upbeat GDP as US Dollar stages a comeback",
-      "summary": "USD/CAD trades around 1.4045 on Friday at the time of writing, recovering from a two-week low hit on Thursday at 1.3991."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: BoJ patience keeps wide trading range – TD Securities",
-      "summary": "TD Securities notes the Bank of Japan (BoJ) left its policy rate at 1% with an 8–1 vote, as Governor Ueda delivered nota"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Breaking: Canada's GDP expanded by 0.3% MoM in May",
-      "summary": "Canada’s economy cooled a tad in May. Indeed, the Gross Domestic Product (GDP) grew by 0.3%, adding to the previous mont"
+      "title": "Japanese Yen strengthens against British Pound amid intervention speculation",
+      "summary": "GBP/JPY extends its slide on Friday as suspected intervention by Japanese authorities rattles the FX market and lifts th"
     },
     {
       "source": "Investing",
@@ -192,30 +192,33 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen: Intervention risk and hawkish BoJ support",
+      "[弱気] Australian Dollar holds despite weak Chinese PMIs",
+      "[弱気] British Pound holds firm as USD rebounds from intervent",
+      "[弱気] Swiss Franc trims losses against US Dollar amid Japanes",
       "[強気] Gold declines as firmer US Dollar, hawkish Fed outlook ",
-      "[弱気] Euro slips back below 1.1500 as US Dollar recovers",
-      "[強気] Canadian Dollar shrugs off upbeat GDP as US Dollar stag"
+      "[弱気] New Zealnd Dollar weakens after China PMI miss as the U"
     ],
     "JPY": [
-      "[強気] Japanese Yen: Intervention risk and hawkish BoJ support",
-      "[強気] Japanese Yen: BoJ patience keeps wide trading range – T"
-    ],
-    "EUR": [
-      "[弱気] Euro slips back below 1.1500 as US Dollar recovers"
+      "[弱気] Swiss Franc trims losses against US Dollar amid Japanes"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound holds firm as USD rebounds from intervent"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)",
+      "[弱気] Australian Dollar holds despite weak Chinese PMIs"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealnd Dollar weakens after China PMI miss as the U"
     ],
     "CAD": [
-      "[強気] Canadian Dollar shrugs off upbeat GDP as US Dollar stag"
+      "[強気] Bank of Canada: Strong GDP lowers cut risk – TD Securit"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc trims losses against US Dollar amid Japanes"
     ]
   },
   "rates": {
@@ -233,17 +236,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.57659,
-      "today_close": 159.27455,
+      "today_close": 159.26064,
       "prev_close": 159.54396,
-      "diff": -0.2694,
-      "diff_pct": -0.17
+      "diff": -0.2833,
+      "diff_pct": -0.18
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.27455,
-      "sma20": 162.6136,
-      "sma50": 161.937,
+      "latest": 159.26064,
+      "sma20": 162.6129,
+      "sma50": 161.9367,
       "sma200": 158.8876,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -253,14 +256,14 @@
       "low20": 157.9471,
       "high60": 164.0881,
       "low60": 157.9471,
-      "chg5d_pct": -2.67,
-      "chg20d_pct": -1.49
+      "chg5d_pct": -2.68,
+      "chg20d_pct": -1.5
     },
     "EURUSD": {
-      "latest": 1.14665,
-      "sma20": 1.1419,
+      "latest": 1.15146,
+      "sma20": 1.1422,
       "sma50": 1.1438,
-      "sma200": 1.1623,
+      "sma200": 1.1624,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -269,8 +272,8 @@
       "low20": 1.1354,
       "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 0.67,
-      "chg20d_pct": 0.43
+      "chg5d_pct": 1.09,
+      "chg20d_pct": 0.85
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-07-31 23:07 JST",
+  "generated_at_jst": "2026-08-01 01:46 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,36 +7,8 @@
     "mag7": "live (2件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 118,
+  "count": 121,
   "events": [
-    {
-      "date": "2026-07-31",
-      "time": "08:30",
-      "tz": "JST",
-      "title": "日本 東京都区部CPI 2026年7月分(中旬速報)",
-      "short": "★★ 東京都CPI",
-      "category": "indicator",
-      "country": "JP",
-      "impact": "medium",
-      "note": "全国CPIの先行指標",
-      "confirmed": false,
-      "source": "stat.go.jp (公表ルールから算出)",
-      "id": "2026-07-31|日本 東京都区部CPI 2026年7月分(中旬速報)"
-    },
-    {
-      "date": "2026-07-31",
-      "time": "11:45",
-      "tz": "JST",
-      "title": "日銀 金融政策決定会合 結果発表",
-      "short": "★★★ 日銀会合(展望)",
-      "category": "central_bank",
-      "country": "JP",
-      "impact": "high",
-      "note": "展望レポート公表・15:30 総裁会見",
-      "confirmed": true,
-      "source": "boj.or.jp",
-      "id": "2026-07-31|日銀 金融政策決定会合 結果発表"
-    },
     {
       "date": "2026-08-03",
       "time": "17:00",
@@ -1548,6 +1520,76 @@
       "confirmed": false,
       "source": "stat.go.jp (公表ルールから算出)",
       "id": "2027-12-31|日本 東京都区部CPI 2027年12月分(中旬速報)"
+    },
+    {
+      "date": "2028-01-03",
+      "time": "17:00",
+      "tz": "JST",
+      "title": "ユーロ圏 製造業PMI 確報",
+      "short": "★ 欧製造業PMI",
+      "category": "indicator",
+      "country": "EU",
+      "impact": "low",
+      "note": null,
+      "confirmed": false,
+      "source": "S&P Global (公表ルールから算出)",
+      "id": "2028-01-03|ユーロ圏 製造業PMI 確報"
+    },
+    {
+      "date": "2028-01-05",
+      "time": "17:00",
+      "tz": "JST",
+      "title": "ユーロ圏 サービス業・総合PMI 確報",
+      "short": "★ 欧サービスPMI",
+      "category": "indicator",
+      "country": "EU",
+      "impact": "low",
+      "note": null,
+      "confirmed": false,
+      "source": "S&P Global (公表ルールから算出)",
+      "id": "2028-01-05|ユーロ圏 サービス業・総合PMI 確報"
+    },
+    {
+      "date": "2028-01-21",
+      "time": "08:30",
+      "tz": "JST",
+      "title": "日本 消費者物価指数(全国) 2027年12月分",
+      "short": "★★★ 日本CPI",
+      "category": "indicator",
+      "country": "JP",
+      "impact": "high",
+      "note": "コアCPI(生鮮食品除く)が主目線",
+      "confirmed": false,
+      "source": "stat.go.jp (公表ルールから算出)",
+      "id": "2028-01-21|日本 消費者物価指数(全国) 2027年12月分"
+    },
+    {
+      "date": "2028-01-24",
+      "time": "17:00",
+      "tz": "JST",
+      "title": "ユーロ圏 PMI速報 (製造業・サービス業・総合)",
+      "short": "★★★ 欧PMI速報",
+      "category": "indicator",
+      "country": "EU",
+      "impact": "high",
+      "note": "ECBの政策判断に直結しやすい先行指標",
+      "confirmed": false,
+      "source": "S&P Global (公表ルールから算出)",
+      "id": "2028-01-24|ユーロ圏 PMI速報 (製造業・サービス業・総合)"
+    },
+    {
+      "date": "2028-01-28",
+      "time": "08:30",
+      "tz": "JST",
+      "title": "日本 東京都区部CPI 2028年1月分(中旬速報)",
+      "short": "★★ 東京都CPI",
+      "category": "indicator",
+      "country": "JP",
+      "impact": "medium",
+      "note": "全国CPIの先行指標",
+      "confirmed": false,
+      "source": "stat.go.jp (公表ルールから算出)",
+      "id": "2028-01-28|日本 東京都区部CPI 2028年1月分(中旬速報)"
     },
     {
       "date": "2028-02-03",
