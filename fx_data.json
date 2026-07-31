@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-07-31T06:14:17.602285",
-  "generated": "2026年07月31日 06:14",
+  "timestamp": "2026-07-31T11:29:31.903166",
+  "generated": "2026年07月31日 11:29",
   "scores": {
-    "USD": 0,
-    "JPY": 0,
-    "EUR": -2,
-    "GBP": 1,
-    "AUD": -1,
+    "USD": 4,
+    "JPY": 1,
+    "EUR": 1,
+    "GBP": 3,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
-      "quote_score": 0
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Weakens below 1.3450 while technical uptrend stays intact",
-      "summary": "The GBP/USD pair trades in negative territory around 1.3445 during the early European trading hours on Friday. Heightene"
+      "title": "US Dollar Index: DXY seen returning to 96.00–100.00 range – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that the Dollar stabilized after a sharp sell-off linked to suspected"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee hits fresh two-week high against US Dollar",
+      "title": "Australian Dollar holds firm despite weak Chinese data, fading RBA rate hike bets",
+      "summary": "AUD/USD trades around 0.7030 at the time of writing on Friday, little changed on the day after Thursday's strong rally."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Balanced growth supports CAD – TD Securities",
+      "summary": "TD Securities strategists expect Canadian real Gross Domestic Product (GDP) to rise by 0.2% m/m in May, exceeding the fl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee sets for bets weekly close in four months",
       "summary": "The Indian Rupee (INR) extends the week-long rally against the US Dollar (USD) on Friday."
     },
     {
       "source": "FXStreet",
-      "title": "Gold sticks to intraday losses as Fed hike bets and Iran risks revive USD demand",
-      "summary": "Gold (XAU/USD) maintains its offered tone through the Asian session on Friday and seems vulnerable after struggling to b"
+      "title": "Experts agree: The US Dollar rally might have found serious headwinds",
+      "summary": "The US Dollar Index (DXY) attempts to cling above the 100.00 psychological level on Friday after a nearly 1.5% selloff i"
     },
     {
       "source": "FXStreet",
-      "title": "WTI falls to near $80.50 on profit-taking, increased traffic through Strait of Hormuz",
-      "summary": "West Texas Intermediate (WTI), the US crude oil benchmark, is trading around $80.50 during the early European trading ho"
+      "title": "US Dollar: Post-Fed losses extend as positioning unwinds – ING",
+      "summary": "ING’s Francesco Pesole notes the Dollar’s post-FOMC selloff has accelerated, with DXY briefly dipping below 100.0 and re"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar retreats on sliding oil prices as USD recovers on Fed bets, Mideast risks",
-      "summary": "The USD/CAD pair edges higher during the Asian session on Friday and, for now, seems to have snapped a three-day losing "
+      "title": "Euro rebounds vs Yen as BoJ rate hold, Eurozone inflation support",
+      "summary": "EUR/JPY trades around 184.00 on Friday, stabilizing after the sharp volatility seen on Thursday. The cross plunged to ne"
     },
     {
       "source": "FXStreet",
-      "title": "Rare Japan-South Korea joint intervention lifts Yen and Won — Reuters",
-      "summary": "Japanese and South Korean officials stepped in to buy their currencies in the open market in what sources described as a"
+      "title": "Japanese Yen: Wide range trading outlook – TD Securities",
+      "summary": "TD Securities’ Alex Loo notes that despite Governor Ueda’s hawkish tone, the Japanese Yen reaction was muted and the BoJ"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah loses ground following China PMI release",
-      "summary": "USD/IDR gains ground after two days of losses, trading around 18,120 during the Asian hours on Friday. The pair apprecia"
+      "title": "Euro hits session lows against the British Pound following Eurozone inflation data",
+      "summary": "The Euro (EUR) edges lower against the British Pound (GBP) on Friday, hitting session lows at 0.8554 following the Euroz"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Weakens to near 1.1500 as 100-day SMA caps upside",
-      "summary": "The EUR/USD pair trades in negative territory around 1.1500 during the early European trading hours on Friday. The Euro "
+      "title": "British Pound underperforms as traders reconsider BoE interest rate hike bets",
+      "summary": "The British Pound (GBP) is down against its major currency peers, trading marginally lower at around 1.3444 against the "
     },
     {
       "source": "Investing",
-      "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bybit Introduces Finloop’s FUIDL backed by an AAA-rated Money Market Fund",
+      "title": "Bitcoin little changed near $64k with Fed uncertainty, Iran tensions in focus",
       "summary": ""
     }
   ],
@@ -192,20 +192,23 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] GBP/USD Price Forecast: Weakens below 1.3450 while tech",
-      "[弱気] EUR/USD Price Forecast: Weakens to near 1.1500 as 100-d"
+      "[強気] Australian Dollar holds firm despite weak Chinese data,",
+      "[強気] British Pound underperforms as traders reconsider BoE i"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Wide range trading outlook – TD Securitie"
     ],
     "EUR": [
-      "[弱気] GBP/USD Price Forecast: Weakens below 1.3450 while tech",
-      "[弱気] EUR/USD Price Forecast: Weakens to near 1.1500 as 100-d"
+      "[強気] British Pound underperforms as traders reconsider BoE i"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] GBP/USD Price Forecast: Weakens below 1.3450 while tech"
+      "[強気] British Pound underperforms as traders reconsider BoE i"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+164,490)"
+      "[COT] 🟢ロング優勢 (ネット:+164,490)",
+      "[強気] Australian Dollar holds firm despite weak Chinese data,"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -226,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.57659,
-      "today_close": 160.40621,
+      "today_close": 160.04024,
       "prev_close": 159.54396,
-      "diff": 0.8622,
-      "diff_pct": 0.54
+      "diff": 0.4963,
+      "diff_pct": 0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.40621,
-      "sma20": 162.6702,
-      "sma50": 161.9596,
-      "sma200": 158.8933,
+      "latest": 160.04024,
+      "sma20": 162.6519,
+      "sma50": 161.9523,
+      "sma200": 158.8915,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -246,14 +249,14 @@
       "low20": 157.9471,
       "high60": 164.0881,
       "low60": 157.9471,
-      "chg5d_pct": -1.98,
-      "chg20d_pct": -0.79
+      "chg5d_pct": -2.2,
+      "chg20d_pct": -1.02
     },
     "EURUSD": {
-      "latest": 1.1516,
-      "sma20": 1.1422,
+      "latest": 1.14963,
+      "sma20": 1.1421,
       "sma50": 1.1438,
-      "sma200": 1.1624,
+      "sma200": 1.1623,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -262,8 +265,8 @@
       "low20": 1.1354,
       "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 1.1,
-      "chg20d_pct": 0.86
+      "chg5d_pct": 0.93,
+      "chg20d_pct": 0.69
     }
   }
 }
