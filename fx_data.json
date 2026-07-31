@@ -1,19 +1,33 @@
 {
-  "timestamp": "2026-07-31T16:46:05.242601",
-  "generated": "2026年07月31日 16:46",
+  "timestamp": "2026-07-31T19:25:38.391582",
+  "generated": "2026年07月31日 19:25",
   "scores": {
     "USD": -1,
     "JPY": -1,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 1,
     "AUD": -2,
-    "NZD": 1,
-    "CAD": 1,
+    "NZD": 2,
+    "CAD": 0,
     "CHF": -1
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
       "pair": "GBPUSD",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 1,
@@ -27,24 +41,10 @@
       "quote_score": -1
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": -2,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
       "quote_score": -1
     },
     {
@@ -103,6 +103,31 @@
     },
     {
       "source": "FXStreet",
+      "title": "The Japanese Yen has a second buyer nobody will name",
+      "summary": "Thursday's record Yen defence is the story everyone has written."
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index struggles near 100 after suspected Japanese intervention",
+      "summary": "The US Dollar Index (DXY) struggles to hold its early recovery on Friday as the fallout from suspected Japanese interven"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed's Barkin: It's a close call whether interest rates are high enough",
+      "summary": "Richmond Federal Reserve (Fed) President Tom Barkin said on Friday that it remains uncertain whether the current level o"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro recovers as Eurozone inflation stays firm",
+      "summary": "EUR/USD trades near the 1.1530 area during Friday's American session, consolidating after a strong rally off intraday lo"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG/USD consolidates above $55 as downside momentum eases",
+      "summary": "Silver (XAG/USD) trades on the back foot on Friday as rising US Treasury yields outweigh support from a weaker US Dollar"
+    },
+    {
+      "source": "FXStreet",
       "title": "Australian Dollar holds despite weak Chinese PMIs",
       "summary": "AUD/USD trades around the 0.7020 area during Friday's American session."
     },
@@ -117,36 +142,6 @@
       "summary": "USD/CHF trims part of its earlier gains on Friday as the US Dollar (USD) struggles to regain momentum following Thursday"
     },
     {
-      "source": "FXStreet",
-      "title": "Bank of Canada: Strong GDP lowers cut risk – TD Securities",
-      "summary": "TD Securities’ Robert Both and Emma Lawrence note that stronger-than-expected Canadian Gross Domestic Product (GDP) data"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Intervention slows but does not reverse trend – ING",
-      "summary": "ING’s Chris Turner describes USD/JPY’s rollercoaster, with a 3% drop on reported Japanese intervention followed by a nea"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold declines as firmer US Dollar, hawkish Fed outlook weigh",
-      "summary": "Gold (XAU/USD) edges lower on Friday as the US Dollar (USD) stabilizes following the previous day’s sharp sell-off, whil"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealnd Dollar weakens after China PMI miss as the US Dollar rebounds",
-      "summary": "NZD/USD trades around 0.5860 on Friday, down 0.33% on the day, as investors react to another deterioration in Chinese bu"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Range seen around mid‑1.15s against US Dollar – Scotiabank",
-      "summary": "Scotiabank’s FX team notes EUR/USD is drifting toward 1.15 after a Fed‑driven rally, with euro area CPI broadly in line "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen strengthens against British Pound amid intervention speculation",
-      "summary": "GBP/JPY extends its slide on Friday as suspected intervention by Japanese authorities rattles the FX market and lifts th"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin muted below $64k with Fed uncertainty, Iran tensions in focus",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
       "summary": ""
     }
   ],
@@ -192,14 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Euro recovers as Eurozone inflation stays firm",
+      "[弱気] Silver Price Forecast: XAG/USD consolidates above $55 a",
       "[弱気] Australian Dollar holds despite weak Chinese PMIs",
       "[弱気] British Pound holds firm as USD rebounds from intervent",
-      "[弱気] Swiss Franc trims losses against US Dollar amid Japanes",
-      "[強気] Gold declines as firmer US Dollar, hawkish Fed outlook ",
-      "[弱気] New Zealnd Dollar weakens after China PMI miss as the U"
+      "[弱気] Swiss Franc trims losses against US Dollar amid Japanes"
     ],
     "JPY": [
       "[弱気] Swiss Franc trims losses against US Dollar amid Japanes"
+    ],
+    "EUR": [
+      "[強気] Euro recovers as Eurozone inflation stays firm"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
@@ -211,11 +214,7 @@
       "[弱気] Australian Dollar holds despite weak Chinese PMIs"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealnd Dollar weakens after China PMI miss as the U"
-    ],
-    "CAD": [
-      "[強気] Bank of Canada: Strong GDP lowers cut risk – TD Securit"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
       "[弱気] Swiss Franc trims losses against US Dollar amid Japanes"
@@ -236,44 +235,44 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.57659,
-      "today_close": 159.26064,
+      "today_close": 159.05071,
       "prev_close": 159.54396,
-      "diff": -0.2833,
-      "diff_pct": -0.18
+      "diff": -0.4932,
+      "diff_pct": -0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.26064,
-      "sma20": 162.6129,
-      "sma50": 161.9367,
-      "sma200": 158.8876,
+      "latest": 159.05071,
+      "sma20": 162.6024,
+      "sma50": 161.9325,
+      "sma200": 158.8865,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
       "rsi14": 66.6,
       "high20": 164.0881,
-      "low20": 157.9471,
+      "low20": 157.7861,
       "high60": 164.0881,
-      "low60": 157.9471,
-      "chg5d_pct": -2.68,
-      "chg20d_pct": -1.5
+      "low60": 157.7861,
+      "chg5d_pct": -2.8,
+      "chg20d_pct": -1.63
     },
     "EURUSD": {
-      "latest": 1.15146,
+      "latest": 1.15313,
       "sma20": 1.1422,
-      "sma50": 1.1438,
+      "sma50": 1.1439,
       "sma200": 1.1624,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 52.1,
-      "high20": 1.1536,
+      "high20": 1.1537,
       "low20": 1.1354,
       "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 1.09,
-      "chg20d_pct": 0.85
+      "chg5d_pct": 1.24,
+      "chg20d_pct": 1.0
     }
   }
 }
