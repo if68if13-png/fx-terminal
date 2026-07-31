@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-30T22:08:08.870782",
-  "generated": "2026年07月30日 22:08",
+  "timestamp": "2026-07-31T02:50:47.160043",
+  "generated": "2026年07月31日 02:50",
   "scores": {
     "USD": 2,
-    "JPY": -2,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -13,25 +13,18 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 2,
-      "quote_score": -2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 2,
-      "quote_score": -2
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
       "base_score": -1,
       "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -41,11 +34,11 @@
       "quote_score": 2
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 0,
-      "quote_score": -2
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -53,6 +46,13 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Bank of Japan set to keep interest rates unchanged after suspected Yen intervention",
+      "title": "Australian Dollar inches lower as China’s NBS Manufacturing PMI falls in July",
+      "summary": "AUD/USD inches lower after registering over 1% gains in the previous day, trading around 0.7020 during the Asian hours o"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/JPY Price Forecast: Climbs back above mid-160.00s as BoJ rate decision looms",
+      "summary": "The USD/JPY pair is seen building on the previous day's late recovery from sub-158.00 levels, or the lowest since May 14"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar holds losses following China PMI data",
+      "summary": "NZD/USD loses ground after three days of gains, trading around 0.5870 during the Asian hours on Friday. The pair remains"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index bounces off its lowest level since June 17, back above 100.00",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, gains some positive traction and c"
+    },
+    {
+      "source": "FXStreet",
+      "title": "China's NBS Manufacturing PMI falls to 49.2 in July, Non-Manufacturing PMI eases to 49.0",
+      "summary": "China’s Manufacturing Purchasing Managers' Index (PMI) fell to 49.2 in July, compared to 50.3 in the previous reading, C"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7894 vs. 6.7892 previous",
+      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7894 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro softens to near 1.1500 as US-Iran war widens",
+      "summary": "The EUR/ USD pair loses ground to near 1.1515 during the early Asian trading hours on Friday. The Euro (EUR) softens aga"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Bank of Japan set to keep interest rates unchanged as markets seek tightening clues",
       "summary": "Investors are turning their attention to the Bank of Japan’s (BoJ) monetary policy announcement on Friday, after the Jap"
     },
     {
-      "source": "FXStreet",
-      "title": "Forex Today: US Dollar extends sell-off after weak US growth, Yen surges on suspected intervention",
-      "summary": "The US Dollar (USD) falls sharply during the American session on Thursday after United States economic growth missed exp"
-    },
-    {
-      "source": "FXStreet",
-      "title": "China: Incremental support and trade risks – TD Securities",
-      "summary": "TD Securities’ Senior Asia Economist Alex Loo assesses the July Politburo meeting, noting no major new stimulus despite "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Oil: Key driver of UK inflation scenarios – Rabobank",
-      "summary": "RaboResearch highlights Oil as the dominant input for UK monetary policy. The Bank of England’s central forecast assumes"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Gradual gains versus US Dollar – Commerzbank",
-      "summary": "Commerzbank FX & Commodity Analyst Volkmar Baur argues that China’s large trade surplus, driven increasingly by green te"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG eyes $60.00 as rebound builds",
-      "summary": "Silver price advances for the second straight day and hits a three-day high above $59.00mid growing speculation of inter"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold jumps as suspected Yen intervention crushes US Dollar as Fed bets ease",
-      "summary": "Gold price advances some 0.92% on Thursday after the US Dollar drops following a suspected intervention in the foreign e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Malaysian Ringgit: Political risks rise as fundamentals hold firm – MUFG",
-      "summary": "MUFG’s Lloyd Chan highlights that Malaysia’s solid growth, low inflation and prudent policy are supporting the Ringgit, "
-    },
-    {
-      "source": "FXStreet",
-      "title": "South Korean Won: Policy tightening expectations lift KRW against US Dollar – Commerzbank",
-      "summary": "Commerzbank Research notes that USD/KRW has fallen to its lowest level since February as South Korean authorities tighte"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin slightly up near $65k amid rates, Iran jitters; Strategy earnings on tap",
+      "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bybit Introduces Finloop’s FUIDL backed by an AAA-rated Money Market Fund",
       "summary": ""
     }
   ],
@@ -191,13 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Forex Today: US Dollar extends sell-off after weak US g",
-      "[強気] Chinese Yuan: Gradual gains versus US Dollar – Commerzb"
-    ],
-    "JPY": [
-      "[弱気] Forex Today: US Dollar extends sell-off after weak US g",
-      "[弱気] Silver Price Forecast: XAG eyes $60.00 as rebound build"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -225,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.57659,
-      "today_close": 159.51104,
+      "today_close": 160.58103,
       "prev_close": 159.54396,
-      "diff": -0.0329,
-      "diff_pct": -0.02
+      "diff": 1.0371,
+      "diff_pct": 0.65
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.51104,
-      "sma20": 162.6254,
-      "sma50": 161.9417,
-      "sma200": 158.8888,
+      "latest": 160.58103,
+      "sma20": 162.6789,
+      "sma50": 161.9631,
+      "sma200": 158.8942,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -245,13 +239,13 @@
       "low20": 157.9471,
       "high60": 164.0881,
       "low60": 157.9471,
-      "chg5d_pct": -2.52,
-      "chg20d_pct": -1.34
+      "chg5d_pct": -1.87,
+      "chg20d_pct": -0.68
     },
     "EURUSD": {
-      "latest": 1.15293,
-      "sma20": 1.1422,
-      "sma50": 1.1439,
+      "latest": 1.15119,
+      "sma20": 1.1421,
+      "sma50": 1.1438,
       "sma200": 1.1624,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -261,8 +255,8 @@
       "low20": 1.1354,
       "high60": 1.1655,
       "low60": 1.1324,
-      "chg5d_pct": 1.22,
-      "chg20d_pct": 0.98
+      "chg5d_pct": 1.07,
+      "chg20d_pct": 0.83
     }
   }
 }
