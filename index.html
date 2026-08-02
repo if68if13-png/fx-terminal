@@ -55,6 +55,50 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
 .hview.bear{color:#ff4466}
 .hview.neu{color:#888}
 .hreason{font-size:.65rem;color:#5a6a7a;line-height:1.4}
+.nd-wrap{display:flex;flex-direction:column;gap:10px;margin-bottom:14px}
+.nd-datetag{font-size:.65rem;color:#4a5568;letter-spacing:1px;margin-bottom:6px}
+.nd-title{font-size:.85rem;color:#c9d1d9;font-weight:700;padding:0 2px}
+.nd-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:12px 11px}
+.nd-card.acc{border-color:#00d4ff44}
+.nd-h{font-size:.7rem;color:#4a5568;letter-spacing:1px;font-weight:700;margin-bottom:9px}
+.nd-h.acc{color:#00d4ff}
+.nd-row{display:flex;gap:9px}
+.nd-date{width:40px;flex-shrink:0;font-size:.68rem;color:#00d4ff;padding-top:2px}
+.nd-line{flex:1;border-left:1px solid #1a2332;padding-left:11px;padding-bottom:9px}
+.nd-item{font-size:.78rem;color:#c9d1d9;line-height:1.7}
+.nd-sub{font-size:.68rem;color:#5f6b78;line-height:1.6;padding-left:8px}
+.nd-headline{display:flex;align-items:center;justify-content:center;gap:10px;flex-wrap:wrap}
+.nd-from{font-size:.9rem;color:#8b9bab}
+.nd-arrow{font-size:.9rem;color:#00d4ff}
+.nd-to{font-size:1.15rem;color:#00d4ff;font-weight:700}
+.nd-hnote{font-size:.65rem;color:#5f6b78}
+.nd-kgrid{display:flex;gap:8px;margin-bottom:8px}
+.nd-k{flex:1;border-radius:6px;padding:9px 10px;border:1px solid #1a2332;background:#0d1117}
+.nd-k.ok{border-color:#00d4ff33;background:#00d4ff0d}
+.nd-k.ng{border-color:#ff446633;background:#ff44660d}
+.nd-kv{font-size:.9rem;margin-bottom:2px}
+.nd-k.ok .nd-kv{color:#00d4ff}
+.nd-k.ng .nd-kv{color:#ff4466}
+.nd-k.wa .nd-kv{color:#e2b96f}
+.nd-kl{font-size:.75rem;color:#c9d1d9}
+.nd-kt{font-size:.68rem;color:#8b9bab;margin-top:2px;line-height:1.5}
+.nd-note{background:#0d1117;border-radius:6px;padding:9px 10px;font-size:.75rem;color:#c9d1d9;line-height:1.7;margin-top:8px}
+.nd-note:first-child{margin-top:0}
+.nd-slabel{font-size:.65rem;color:#4a5568;letter-spacing:1px}
+.nd-vgrid{display:flex;gap:8px}
+.nd-v{flex:1;border-radius:6px;padding:9px 10px;border:1px solid #1a2332;background:#0d1117}
+.nd-v.up{border-color:#ff446633;background:#ff44660d}
+.nd-v.dn{border-color:#00d4ff33;background:#00d4ff0d}
+.nd-vterm{font-size:.65rem;color:#4a5568;letter-spacing:1px}
+.nd-vlabel{font-size:.85rem;font-weight:700;margin:2px 0;color:#8b9bab}
+.nd-v.up .nd-vlabel{color:#ff4466}
+.nd-v.dn .nd-vlabel{color:#00d4ff}
+.nd-vtext{font-size:.68rem;color:#8b9bab;line-height:1.55}
+.nd-steps{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-top:6px}
+.nd-step{background:#00d4ff1a;border:1px solid #00d4ff88;border-radius:4px;padding:3px 8px;color:#00d4ff;font-size:.75rem}
+.nd-sarrow{color:#5f6b78;font-size:.7rem}
+.nd-down{color:#5f6b78;font-size:.7rem}
+.nd-conc{color:#e2b96f;margin-top:2px}
 .cb-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
 .cbcard{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px}
 .cbname{font-size:.68rem;color:#4a5568;margin-bottom:4px;letter-spacing:1px}
@@ -229,6 +273,8 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
     <div class="comment-label">USD/JPY 本日</div>
     <div id="note-price-bar" style="font-size:.85rem;color:#c9d1d9">読込中...</div>
   </div>
+
+  <div id="note-diagram"></div>
 
   <div class="comment-card">
     <div class="comment-label">相場ノート</div>
@@ -620,6 +666,7 @@ async function loadNotes(){
   document.getElementById('note-textarea').value=todayEntry?(todayEntry.text||''):'';
   document.getElementById('note-token-hint').style.display=getGhToken()?'none':'block';
   renderNoteHistory();
+  renderNoteDiagram();
 }
 
 async function persistNotes(message){
@@ -634,6 +681,7 @@ async function saveNote(){
   const priceInfo=(window.FXDATA&&window.FXDATA.prices&&window.FXDATA.prices.USDJPY)||{};
   const idx=notesCache.findIndex(n=>n.date===today);
   const entry={
+    ...(idx>=0?notesCache[idx]:{}),
     date: today,
     text: text,
     usdjpy_open:  priceInfo.today_open  ?? (idx>=0?notesCache[idx].usdjpy_open:null),
@@ -671,6 +719,93 @@ async function saveOldNote(date){
   }
 }
 
+function ndEsc(s){return String(s==null?'':s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+function noteDiagramHTML(d){
+  if(!d||typeof d!=='object') return '';
+  const NUM=['①','②','③','④','⑤','⑥'];
+  let sec=0;
+  const num=()=>NUM[sec++]||'・';
+  let h='<div class="nd-wrap">';
+  if(d.title) h+='<div class="nd-title">📊 '+ndEsc(d.title)+'</div>';
+
+  const tl=Array.isArray(d.timeline)?d.timeline:[];
+  const hl=d.headline&&(d.headline.from||d.headline.to)?d.headline:null;
+  if(tl.length||hl){
+    h+='<div class="nd-card"><div class="nd-h">'+num()+' 起きたこと</div>';
+    tl.forEach(day=>{
+      h+='<div class="nd-row"><div class="nd-date">'+ndEsc(day.date||'')+'</div><div class="nd-line">';
+      (day.items||[]).forEach(it=>{
+        h+='<div class="nd-item">'+(it.icon?ndEsc(it.icon)+' ':'')+ndEsc(it.text||'')+'</div>';
+        (it.subs||[]).forEach(s=>{h+='<div class="nd-sub">└ '+ndEsc(s)+'</div>';});
+      });
+      h+='</div></div>';
+    });
+    if(hl){
+      h+='<div class="nd-note nd-headline">'
+        +(hl.from?'<span class="nd-from">'+ndEsc(hl.from)+'</span><span class="nd-arrow">→</span>':'')
+        +'<span class="nd-to">'+ndEsc(hl.to||'')+'</span>'
+        +(hl.note?'<span class="nd-hnote">'+ndEsc(hl.note)+'</span>':'')+'</div>';
+    }
+    h+='</div>';
+  }
+
+  const kp=Array.isArray(d.keypoints)?d.keypoints:[];
+  if(kp.length){
+    h+='<div class="nd-card acc"><div class="nd-h acc">'+num()+' わかったこと</div><div class="nd-kgrid">';
+    kp.slice(0,3).forEach(k=>{
+      const v=String(k.verdict||'');
+      const cls=(v.indexOf('○')>=0||v.indexOf('◯')>=0||v.indexOf('⭕')>=0)?'ok':(v.indexOf('×')>=0||v.indexOf('❌')>=0)?'ng':'wa';
+      h+='<div class="nd-k '+cls+'"><div class="nd-kv">'+ndEsc(v)+'</div>'
+        +'<div class="nd-kl">'+ndEsc(k.label||'')+'</div>'
+        +'<div class="nd-kt">'+ndEsc(k.text||'')+'</div></div>';
+    });
+    h+='</div>'+(d.keypoints_note?'<div class="nd-note">'+ndEsc(d.keypoints_note)+'</div>':'')+'</div>';
+  }
+
+  const vs=Array.isArray(d.views)?d.views:[];
+  const lv=d.levels&&Array.isArray(d.levels.steps)&&d.levels.steps.length?d.levels:null;
+  if(vs.length||lv||d.policy){
+    h+='<div class="nd-card"><div class="nd-h">'+num()+' 目線</div>';
+    if(vs.length){
+      h+='<div class="nd-vgrid">';
+      vs.slice(0,3).forEach(v=>{
+        const dir=v.dir==='up'?'up':v.dir==='down'?'dn':'fl';
+        const ar=dir==='up'?'↑':dir==='dn'?'↓':'→';
+        h+='<div class="nd-v '+dir+'"><div class="nd-vterm">'+ndEsc(v.term||'')+'</div>'
+          +'<div class="nd-vlabel">'+ar+' '+ndEsc(v.label||'')+'</div>'
+          +'<div class="nd-vtext">'+ndEsc(v.text||'')+'</div></div>';
+      });
+      h+='</div>';
+    }
+    if(lv){
+      h+='<div class="nd-note"><div class="nd-slabel">'+ndEsc(lv.label||'テクニカルポイント')+'</div><div class="nd-steps">'
+        +lv.steps.map((s,i)=>(i?'<span class="nd-sarrow">→</span>':'')+'<span class="nd-step">'+ndEsc(s)+'</span>').join('')
+        +'</div></div>';
+    }
+    if(d.policy) h+='<div class="nd-note"><span class="nd-slabel">運用方針</span><br>'+ndEsc(d.policy)+'</div>';
+    h+='</div>';
+  }
+
+  const ch=Array.isArray(d.chains)?d.chains:[];
+  if(ch.length){
+    h+='<div class="nd-card"><div class="nd-h">'+num()+' 材料のつながり</div>';
+    ch.slice(0,3).forEach(c=>{
+      const steps=(c.steps||[]).map(s=>ndEsc(s)).join('<div class="nd-down">↓</div>');
+      h+='<div class="nd-note">'+steps+(c.conclusion?'<div class="nd-conc">'+ndEsc(c.conclusion)+'</div>':'')+'</div>';
+    });
+    h+='</div>';
+  }
+
+  return h+'</div>';
+}
+function renderNoteDiagram(){
+  const el=document.getElementById('note-diagram');
+  if(!el) return;
+  const list=(notesCache||[]).filter(n=>n&&n.diagram);
+  if(!list.length){ el.innerHTML=''; return; }
+  const n=list[0];
+  el.innerHTML='<div class="nd-datetag">'+ndEsc(n.date)+' のノートより</div>'+noteDiagramHTML(n.diagram);
+}
 function renderNoteHistory(){
   const el=document.getElementById('note-history-list');
   const today=todayStr();
@@ -687,6 +822,7 @@ function renderNoteHistory(){
         <div style="color:#4a5568;font-size:.8rem" id="arr-${id}">▶</div>
       </div>
       <div id="${id}" style="display:none;margin-top:8px">
+        ${n.diagram?noteDiagramHTML(n.diagram):''}
         <textarea id="note-edit-${n.date}" rows="8" style="width:100%;min-height:160px;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:10px;font-size:.8rem;line-height:1.6;resize:vertical;font-family:inherit">${safeText}</textarea>
         <button class="refresh-btn" style="margin-top:8px;width:100%" onclick="saveOldNote('${n.date}')">💾 更新を保存</button>
         <div id="note-edit-msg-${n.date}" style="font-size:.7rem;color:#00ff88;margin-top:6px;display:none">✅ 保存しました</div>

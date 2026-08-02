@@ -34,6 +34,12 @@ jobs:
           python fx_outlook.py
           python fx_history.py
 
+      - name: Generate note diagrams
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fx_note_diagram.py
+        continue-on-error: true
+
       - name: Update calendar extra (BOJ/ECB/CPI/PMI/Mag7)
         run: python fx_calendar_extra.py
         continue-on-error: true
