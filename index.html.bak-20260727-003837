@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FX Terminal</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0d1117;color:#c9d1d9;font-family:'Helvetica Neue',sans-serif;min-height:100vh}
+header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.logo{font-size:.9rem;font-weight:700;color:#00d4ff;letter-spacing:2px}
+.status{font-size:.72rem;color:#4a5568}
+.warn{background:#1a1500;border:1px solid #3a2800;color:#888;font-size:.7rem;padding:8px 16px;text-align:center}
+.tabs{display:flex;border-bottom:1px solid #1a2332;background:#0d1117;position:sticky;top:45px;z-index:99;overflow-x:auto}
+.tab{flex:1;min-width:60px;padding:10px 4px;text-align:center;font-size:.72rem;color:#4a5568;cursor:pointer;border-bottom:2px solid transparent;transition:.15s;white-space:nowrap}
+.tab.active{color:#00d4ff;border-bottom-color:#00d4ff}
+.tab.hidden-tab{display:none}
+.panel{display:none;padding:16px}
+.panel.active{display:block}
+.score-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px}
+.crow{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px;display:flex;align-items:center;gap:8px}
+.cname{font-size:.8rem;font-weight:700;color:#c9d1d9;width:32px}
+.btrack{flex:1;height:6px;background:#0d1117;border-radius:3px;overflow:hidden}
+.bfill{height:100%;border-radius:3px;transition:.3s}
+.bfill.pos{background:#00d4ff}
+.bfill.neg{background:#ff4466}
+.score-badge{font-size:.75rem;font-weight:700;min-width:28px;text-align:right}
+.score-badge.pos{color:#00d4ff}
+.score-badge.neg{color:#ff4466}
+.score-badge.neu{color:#4a5568}
+.pair-selector{display:flex;gap:6px;margin-bottom:14px;overflow-x:auto;padding-bottom:4px}
+.psBtn{background:#161b22;border:1px solid #1a2332;border-radius:5px;color:#4a5568;font-size:.78rem;padding:6px 14px;cursor:pointer;white-space:nowrap;font-weight:600;transition:.15s}
+.psBtn.active{background:#00d4ff18;border-color:#00d4ff;color:#00d4ff}
+.pair-panel{display:none}
+.pair-panel.active{display:block}
+.overall-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.overall-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}
+.overall-text{font-size:.9rem;color:#c9d1d9;line-height:1.5}
+.horizon-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:12px}
+.htab-row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:10px}
+.htab{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:12px 8px;text-align:center;cursor:pointer;transition:.15s}
+.htab.active{border-color:#00d4ff;background:#00d4ff0d}
+.htab-label{font-size:.65rem;color:#4a5568;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+.htab-view{font-size:.85rem;font-weight:700}
+.htab-view.bull{color:#00d4ff}
+.htab-view.bear{color:#ff4466}
+.htab-view.neu{color:#888}
+.hdetail-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.hdetail-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.hdetail-text{font-size:.82rem;color:#c9d1d9;line-height:1.6}
+.hcard{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:12px 10px;text-align:center}
+.hlabel{font-size:.65rem;color:#4a5568;margin-bottom:6px;text-transform:uppercase;letter-spacing:1px}
+.hview{font-size:.85rem;font-weight:700;margin-bottom:4px}
+.hview.bull{color:#00d4ff}
+.hview.bear{color:#ff4466}
+.hview.neu{color:#888}
+.hreason{font-size:.65rem;color:#5a6a7a;line-height:1.4}
+.cb-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.cbcard{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px}
+.cbname{font-size:.68rem;color:#4a5568;margin-bottom:4px;letter-spacing:1px}
+.cbstance{font-size:.78rem;color:#c9d1d9;line-height:1.4}
+.cbstance.hawk{color:#00d4ff}
+.cbstance.dove{color:#ff4466}
+.risk-card{background:#1a1500;border:1px solid #3a2800;border-radius:8px;padding:12px 14px;margin-bottom:12px;font-size:.8rem;color:#c9d1d9;line-height:1.5}
+.risk-label{font-size:.68rem;color:#aa8800;margin-bottom:4px;letter-spacing:1px;text-transform:uppercase}
+.cot-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:12px}
+.cotcard{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px}
+.cotname{font-size:.75rem;font-weight:700;color:#c9d1d9;margin-bottom:4px}
+.cotbias{font-size:.72rem}
+.cotnet{font-size:.68rem;color:#4a5568;margin-top:2px}
+.nitem{border-bottom:1px solid #1a2332;padding:10px 0}
+.nitem:last-child{border-bottom:none}
+.nsrc{font-size:.65rem;color:#00d4ff;margin-bottom:3px;text-transform:uppercase;letter-spacing:1px}
+.ntitle{font-size:.8rem;color:#c9d1d9;line-height:1.4}
+.comment-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.comment-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.comment-text{font-size:.82rem;color:#c9d1d9;line-height:1.6}
+.diary-text{font-size:.8rem;color:#888;line-height:1.6;white-space:pre-wrap}
+.dev-date{font-size:.68rem;color:#3a4a5a;margin-top:6px}
+.fedwatch-card{background:#161b22;border:1px solid #1a2332;border-radius:8px;padding:14px;margin-bottom:12px}
+.fedwatch-label{font-size:.68rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.fedwatch-desc{font-size:.78rem;color:#888;margin-bottom:10px;line-height:1.5}
+.fedwatch-link{display:block;background:#00d4ff18;border:1px solid #00d4ff40;border-radius:6px;padding:10px 14px;color:#00d4ff;text-decoration:none;font-size:.8rem;font-weight:600;text-align:center}
+.refresh-bar{padding:12px 16px;border-top:1px solid #1a2332;display:flex;align-items:center;justify-content:space-between}
+.refresh-btn{background:#00d4ff18;border:1px solid #00d4ff40;border-radius:6px;color:#00d4ff;font-size:.78rem;padding:7px 14px;cursor:pointer}
+.refresh-hint{font-size:.68rem;color:#3a4a5a}
+.slabel{font-size:.72rem;color:#4a5568;letter-spacing:2px;text-transform:uppercase;margin-bottom:10px;display:block}
+
+.cal-month-label{font-size:.78rem;font-weight:700;color:#00d4ff;letter-spacing:2px;text-transform:uppercase;margin:16px 0 8px}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:20px}
+.cal-dow{font-size:.6rem;color:#4a5568;text-align:center;padding:4px 0;letter-spacing:1px}
+.cal-cell{background:#161b22;border:1px solid #1a2332;border-radius:4px;padding:4px;min-height:52px;position:relative}
+.cal-cell.today{border-color:#00d4ff;background:#00d4ff0d}
+.cal-cell.empty{background:transparent;border-color:transparent}
+.cal-cell.holiday-uk{border-left:3px solid #9b59b6}
+.cal-cell.holiday-us{border-left:3px solid #e74c3c}
+.cal-cell.holiday-both{border-left:3px solid #f39c12}
+.cal-day{font-size:.7rem;color:#c9d1d9;margin-bottom:2px}
+.cal-cell.today .cal-day{color:#00d4ff;font-weight:700}
+.cal-event{font-size:.58rem;line-height:1.3;border-radius:2px;padding:1px 3px;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cal-event.hol-uk{background:#9b59b620;color:#9b59b6}
+.cal-event.hol-us{background:#e74c3c20;color:#e74c3c}
+.cal-event.indicator-high{background:#ff446620;color:#ff6680}
+.cal-event.indicator-med{background:#f39c1220;color:#f39c12}
+.cal-legend{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.cal-legend-item{display:flex;align-items:center;gap:4px;font-size:.65rem;color:#888}
+.cal-legend-dot{width:8px;height:8px;border-radius:2px}
+
+.today-bar{background:#161b22;border:1px solid #1a2332;border-radius:6px;padding:10px 12px;margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;align-items:center;min-height:36px}
+.today-bar-label{font-size:.65rem;color:#4a5568;letter-spacing:1px;text-transform:uppercase;margin-right:4px;white-space:nowrap}
+.today-tag{font-size:.68rem;border-radius:3px;padding:2px 7px;white-space:nowrap}
+.today-tag.hol-uk{background:#9b59b620;color:#9b59b6;border:1px solid #9b59b640}
+.today-tag.hol-us{background:#e74c3c20;color:#e74c3c;border:1px solid #e74c3c40}
+.today-tag.ind-high{background:#ff446620;color:#ff6680;border:1px solid #ff446640}
+.today-tag.ind-med{background:#f39c1220;color:#f39c12;border:1px solid #f39c1240}
+.today-tag.nothing{color:#3a4a5a;font-size:.68rem}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">FX TERMINAL</div>
+  <div class="status" id="status">読込中...</div>
+</header>
+<div class="warn">⚠️ 自動分析レポートです。最終判断は必ずご自身で。投資助言ではありません。</div>
+<div class="tabs">
+  <div class="tab active" data-panel="p0" onclick="showTab('p0')">📊 強弱</div>
+  <div class="tab" data-panel="p6" onclick="showTab('p6')">🗓 カレンダー</div>
+  <div class="tab" data-panel="p7" onclick="showTab('p7')">📝 相場ノート</div>
+  <div class="tab hidden-tab" data-panel="p1" onclick="showTab('p1')">🔍 分析</div>
+  <div class="tab hidden-tab" data-panel="p2" onclick="showTab('p2')">🌏 大局観</div>
+  <div class="tab hidden-tab" data-panel="p3" onclick="showTab('p3')">📰 ニュース</div>
+  <div class="tab hidden-tab" data-panel="p4" onclick="showTab('p4')">💬 コメント</div>
+  <div class="tab hidden-tab" data-panel="p5" onclick="showTab('p5')">📅 履歴</div>
+</div>
+<div class="panel active" id="p0">
+  <span class="slabel">通貨強弱スコア</span>
+  <div class="score-grid" id="clist"></div>
+
+  <span class="slabel" style="margin-top:14px">💶 EUR/USD 目線</span>
+  <div class="htab-row" id="eurusd-horizon-tabs"></div>
+  <div id="eurusd-horizon-detail"></div>
+
+  <span class="slabel" style="margin-top:14px">🗓 今週の予定</span>
+  <div class="today-bar" id="today-bar">
+    <span class="today-bar-label">📌 本日</span>
+    <span class="today-tag nothing">読込中...</span>
+  </div>
+</div>
+<div class="panel" id="p1">
+  <div class="pair-selector">
+    <button class="psBtn active" onclick="showPair('USDJPY',this)">USD/JPY</button>
+    <button class="psBtn" onclick="showPair('EURUSD',this)">EUR/USD</button>
+    <button class="psBtn" onclick="showPair('GBPUSD',this)">GBP/USD</button>
+    <button class="psBtn" onclick="showPair('AUDUSD',this)">AUD/USD</button>
+  </div>
+  <div class="pair-panel active" id="pair-USDJPY"></div>
+  <div class="pair-panel" id="pair-EURUSD"></div>
+  <div class="pair-panel" id="pair-GBPUSD"></div>
+  <div class="pair-panel" id="pair-AUDUSD"></div>
+
+  <div style="margin-top:16px;border-top:1px solid #1a2332;padding-top:14px">
+    <span class="slabel">🛢️ WTI原油</span>
+    <div id="wti-section" style="margin-top:6px">
+      <div style="color:#4a5568;font-size:.75rem;text-align:center;padding:12px">読込中...</div>
+    </div>
+  </div>
+
+  <div style="margin-top:16px;border-top:1px solid #1a2332;padding-top:14px">
+    <span class="slabel">📈 S&amp;P500</span>
+    <div id="sp500-section" style="margin-top:6px">
+      <div style="color:#4a5568;font-size:.75rem;text-align:center;padding:12px">読込中...</div>
+    </div>
+  </div>
+
+  <span class="slabel" style="margin-top:14px">COTポジション</span>
+  <div class="cot-grid" id="cotlist"></div>
+  <span class="slabel" style="margin-top:14px">スコア根拠</span>
+  <div id="rlist"></div>
+</div>
+<div class="panel" id="p2">
+  <div class="overall-card">
+    <div class="overall-label">全体まとめ</div>
+    <div class="overall-text" id="outlook-overall">読込中...</div>
+  </div>
+  <div class="risk-card">
+    <div class="risk-label">⚠️ 最重要リスク</div>
+    <div id="outlook-risk">読込中...</div>
+  </div>
+  <span class="slabel">中央銀行スタンス</span>
+  <div class="cb-grid" id="cb-list"></div>
+  <span class="slabel">金利データ（FRED）</span>
+<div class="cb-grid" id="rates-list"></div>
+<span class="slabel" style="margin-top:14px">ペア別金利差</span>
+<div class="cb-grid" id="diff-list"></div>
+
+<div class="fedwatch-card">
+    <div class="fedwatch-label">📡 Fed政策金利確率</div>
+    <div class="fedwatch-desc">利上げ・据え置き・利下げの市場織り込み確率。スイングで重要な指標です。</div>
+    <a class="fedwatch-link" href="https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html" target="_blank">📊 CME FedWatch を開く →</a>
+  </div>
+</div>
+<div class="panel" id="p3">
+  <div id="nlist"><div style="color:#4a5568;font-size:.8rem">読込中...</div></div>
+</div>
+<div class="panel" id="p4">
+  <div class="comment-card">
+    <div class="comment-label">開発者コメント</div>
+    <div class="comment-text" id="dev-comment">読込中...</div>
+    <div class="dev-date" id="dev-date"></div>
+  </div>
+  <div class="comment-card">
+    <div class="comment-label">日記</div>
+    <div id="diary-work-wrap" style="margin-bottom:10px;display:none"><div style="font-size:.65rem;color:#4a5568;margin-bottom:3px">勤務</div><div class="diary-text" id="diary-work"></div></div>
+    <div id="diary-market-wrap" style="margin-bottom:10px;display:none"><div style="font-size:.65rem;color:#4a5568;margin-bottom:3px">相場感</div><div class="diary-text" id="diary-market"></div></div>
+    <div id="diary-trade-wrap" style="display:none"><div style="font-size:.65rem;color:#4a5568;margin-bottom:3px">トレード実績</div><div class="diary-text" id="diary-trade"></div></div>
+    <div class="diary-text" id="diary-empty">読込中...</div>
+  </div>
+</div>
+<div class="panel" id="p5">
+  <div id="history-list"><div style="color:#4a5568;font-size:.8rem">読込中...</div></div>
+</div>
+
+<div class="panel" id="p6">
+  <div id="cal-container"></div>
+</div>
+
+<div class="panel" id="p7">
+  <div class="comment-card" id="note-price-card">
+    <div class="comment-label">USD/JPY 本日</div>
+    <div id="note-price-bar" style="font-size:.85rem;color:#c9d1d9">読込中...</div>
+  </div>
+
+  <div class="comment-card">
+    <div class="comment-label">相場ノート</div>
+    <textarea id="note-textarea" rows="16" placeholder="今日の相場感、トレード、気づきなどを自由に記録..." style="width:100%;min-height:320px;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:12px;font-size:.85rem;line-height:1.6;resize:vertical;font-family:inherit"></textarea>
+    <button class="refresh-btn" style="margin-top:10px;width:100%" onclick="saveNote()">💾 保存</button>
+    <div id="note-save-msg" style="font-size:.7rem;color:#00ff88;margin-top:6px;display:none">✅ 保存しました</div>
+    <div id="note-token-hint" style="font-size:.68rem;color:#4a5568;margin-top:8px;display:none">
+      初回のみ：<a href="#" onclick="setupNoteToken();return false;" style="color:#00d4ff">GitHubトークンを設定</a>
+    </div>
+  </div>
+
+  <span class="slabel" style="margin-top:14px">📖 過去のノート</span>
+  <div id="note-history-list"><div style="color:#4a5568;font-size:.8rem">読込中...</div></div>
+</div>
+
+<div class="refresh-bar">
+  <button class="refresh-btn" onclick="fetchAll()">▶ 今すぐ更新</button>
+  <div class="refresh-hint">開くと自動更新 / 30分ごと自動</div>
+</div>
+<script>
+function dirClass(v){
+  if(!v)return'neu';
+  if(['ロング','上向','強く','円安継続','上昇'].some(w=>v.includes(w)))return'bull';
+  if(['ショート','下向','弱く','円高転換','下落'].some(w=>v.includes(w)))return'bear';
+  return'neu';
+}
+function stanceClass(v){
+  if(!v)return'';
+  if(v.includes('タカ'))return'hawk';
+  if(v.includes('ハト'))return'dove';
+  return'';
+}
+function showTab(id){
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active',t.dataset.panel===id));
+  document.querySelectorAll('.panel').forEach(p=>p.classList.toggle('active',p.id===id));
+}
+function showPair(pair,btn){
+  document.querySelectorAll('.psBtn').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  document.querySelectorAll('.pair-panel').forEach(p=>p.classList.remove('active'));
+  document.getElementById('pair-'+pair).classList.add('active');
+}
+function renderScores(d){
+  const order=['USD','EUR','JPY','GBP','AUD','CAD','CHF','NZD'];
+  const scores=d.scores||{};
+  const sorted=order.filter(c=>c in scores).map(c=>[c,scores[c]]);
+  const maxAbs=Math.max(...Object.values(scores).map(Math.abs),1);
+  document.getElementById('clist').innerHTML=sorted.map(([c,s])=>{
+    const cls=s>0?'pos':s<0?'neg':'neu';
+    const pct=Math.abs(s)/maxAbs*100;
+    return'<div class="crow"><div class="cname">'+c+'</div><div class="btrack"><div class="bfill '+cls+'" style="width:'+pct+'%"></div></div><div class="score-badge '+cls+'">'+(s>0?'+':'')+s+'</div></div>';
+  }).join('');
+}
+function renderCot(d){
+  const cot=d.cot||{};
+  if(!Object.keys(cot).length){document.getElementById('cotlist').innerHTML='<div style="color:#4a5568;font-size:.78rem;grid-column:1/-1">COTデータ取得中...</div>';return;}
+  document.getElementById('cotlist').innerHTML=Object.entries(cot).map(([c,v])=>'<div class="cotcard"><div class="cotname">'+c+'</div><div class="cotbias">'+(v.bias||'')+'</div><div class="cotnet">net: '+(v.net||0).toLocaleString()+'</div></div>').join('');
+}
+function renderNews(d){
+  document.getElementById('nlist').innerHTML=(d.news||[]).map(n=>'<div class="nitem"><div class="nsrc">'+(n.source||'')+'</div><div class="ntitle">'+(n.title||'')+'</div></div>').join('')||'<div style="color:#4a5568;font-size:.8rem">ニュースなし</div>';
+}
+function renderReasons(d){
+  const items=[];
+  for(const[c,list]of Object.entries(d.reasons||{}))
+    items.push(...list.map(r=>'<div class="nitem"><span style="color:#00d4ff;font-size:.68rem">'+c+'</span> <span style="font-size:.75rem">'+r+'</span></div>'));
+  document.getElementById('rlist').innerHTML=items.join('')||'<div style="color:#4a5568;font-size:.78rem">根拠データなし</div>';
+}
+let eurusdHorizonTab='long';
+function selectEurUsdHorizonTab(tab){
+  eurusdHorizonTab=tab;
+  renderEurUsdHorizonUI();
+}
+function renderEurUsdHorizon(outlook){
+  const p=(outlook.pairs||{})['EURUSD']||{};
+  const adminPairs=(window.ADMIN&&window.ADMIN.long_reasons)||{};
+  window.EURUSD_OUTLOOK={
+    long_view:p.long_view, long_reason: adminPairs['EURUSD']||p.long_reason||'',
+    mid_view:p.mid_view, mid_reason:p.mid_reason||'',
+    short_view:p.short_view, short_reason:p.short_reason||'',
+  };
+  renderEurUsdHorizonUI();
+}
+function renderEurUsdHorizonUI(){
+  const tabsEl=document.getElementById('eurusd-horizon-tabs');
+  const detailEl=document.getElementById('eurusd-horizon-detail');
+  if(!tabsEl||!detailEl) return;
+  const p=window.EURUSD_OUTLOOK||{};
+  const tabs=[
+    {key:'long',  label:'長期',        view:p.long_view,  reason:p.long_reason},
+    {key:'mid',   label:'中期 / 1ヶ月', view:p.mid_view,   reason:p.mid_reason},
+    {key:'short', label:'短期 / 今週',  view:p.short_view, reason:p.short_reason},
+  ];
+  tabsEl.innerHTML=tabs.map(t=>{
+    const cls=dirClass(t.view);
+    const arrow=cls==='bull'?'↑':cls==='bear'?'↓':'→';
+    const active=t.key===eurusdHorizonTab?' active':'';
+    return '<div class="htab'+active+'" onclick="selectEurUsdHorizonTab(\''+t.key+'\')">'
+      +'<div class="htab-label">'+t.label+'</div>'
+      +'<div class="htab-view '+cls+'">'+arrow+' '+(t.view||'—')+'</div>'
+      +'</div>';
+  }).join('');
+  const current=tabs.find(t=>t.key===eurusdHorizonTab)||tabs[0];
+  detailEl.innerHTML='<div class="hdetail-card">'
+    +'<div class="hdetail-label">'+current.label+'の根拠</div>'
+    +'<div class="hdetail-text">'+(current.reason||'根拠データなし')+'</div>'
+    +'</div>';
+}
+function renderPairs(outlook,fdata){
+  const pairs=['USDJPY','EURUSD','GBPUSD','AUDUSD'];
+  const adminPairs=(window.ADMIN&&window.ADMIN.long_reasons)||{};
+  const adminWeek=(window.ADMIN&&window.ADMIN.week_comments)||{};
+  pairs.forEach(pair=>{
+    const p=(outlook.pairs||{})[pair]||{};
+    const scoreInfo=(fdata.pairs||[]).find(x=>x.pair===pair)||{};
+    const el=document.getElementById('pair-'+pair);
+    if(!el)return;
+    const lc=dirClass(p.long_view),mc=dirClass(p.mid_view),sc=dirClass(p.short_view);
+    const longReason=adminPairs[pair]||p.long_reason||'';
+    const weekComment=adminWeek[pair]||'';
+    el.innerHTML='<div class="horizon-grid"><div class="hcard"><div class="hlabel">長期</div><div class="hview '+lc+'">'+(p.long_view||'—')+'</div><div class="hreason">'+longReason+'</div></div><div class="hcard"><div class="hlabel">中期 / 1ヶ月</div><div class="hview '+mc+'">'+(p.mid_view||'—')+'</div><div class="hreason">'+(p.mid_reason||'')+'</div></div><div class="hcard"><div class="hlabel">短期 / 今週</div><div class="hview '+sc+'">'+(p.short_view||'—')+'</div><div class="hreason">'+(p.short_reason||'')+'</div></div></div>'+(weekComment?'<div class="risk-card"><div class="risk-label">📝 今週の補足</div>'+weekComment+'</div>':'')+'<div style="font-size:.68rem;color:#3a4a5a;margin-top:4px">スコア差: '+(scoreInfo.diff!=null?(scoreInfo.diff>0?'+':'')+scoreInfo.diff:'—')+' ('+(scoreInfo.base_score!=null?scoreInfo.base_score:'?')+' vs '+(scoreInfo.quote_score!=null?scoreInfo.quote_score:'?')+')</div>';
+  });
+}
+function renderOutlook(o){
+  document.getElementById('outlook-overall').textContent=o.overall||'分析中...';
+  document.getElementById('outlook-risk').textContent=(o.risk_mode?o.risk_mode+' | ':'')+( o.key_risk||'');
+  const cb=o.cb_stance||{};
+  document.getElementById('cb-list').innerHTML=Object.entries(cb).map(([bank,stance])=>'<div class="cbcard"><div class="cbname">'+bank+'</div><div class="cbstance '+stanceClass(stance)+'">'+( stance||'')+'</div></div>').join('');
+}
+function renderRates(d){
+  const r = d.rates || {};
+  if(!Object.keys(r).length) return;
+
+  // 主要金利
+  const rateItems = [
+    {label:'FF金利', val:r.US_FF, unit:'%'},
+    {label:'米10年債', val:r.US_10Y, unit:'%'},
+    {label:'日本10年債', val:r.JP_10Y, unit:'%'},
+    {label:'独10年債', val:r.DE_10Y, unit:'%'},
+    {label:'英10年債', val:r.GB_10Y, unit:'%'},
+    {label:'豪10年債', val:r.AU_10Y, unit:'%'},
+  ];
+  const rl = document.getElementById('rates-list');
+  if(rl) rl.innerHTML = rateItems.map(item=>`
+    <div class="cbcard">
+      <div class="cbname">${item.label}</div>
+      <div class="cbstance" style="font-size:.9rem;font-weight:700;color:#00d4ff">${item.val!=null?item.val.toFixed(2)+'%':'—'}</div>
+    </div>`).join('');
+
+  // 金利差
+  const diffItems = [
+    {label:'USD/JPY', val:r.DIFF_USDJPY, note:'米-日'},
+    {label:'EUR/USD', val:r.DIFF_EURUSD, note:'独-米'},
+    {label:'GBP/USD', val:r.DIFF_GBPUSD, note:'英-米'},
+    {label:'AUD/USD', val:r.DIFF_AUDUSD, note:'豪-米'},
+  ];
+  const dl = document.getElementById('diff-list');
+  if(dl) dl.innerHTML = diffItems.map(item=>{
+    const v = item.val;
+    const color = v>0?'#00d4ff':v<0?'#ff4466':'#888';
+    const arrow = v>1.5?'↑↑':v>0?'↑':v<-1.5?'↓↓':v<0?'↓':'→';
+    return `<div class="cbcard">
+      <div class="cbname">${item.label} <span style="color:#3a4a5a;font-size:.65rem">${item.note}</span></div>
+      <div class="cbstance" style="font-size:.9rem;font-weight:700;color:${color}">${arrow} ${v!=null?(v>0?'+':'')+v.toFixed(2)+'%':'—'}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderAdmin(d){
+  window.ADMIN=d;
+  document.getElementById('dev-comment').textContent=d.dev_comment||'コメントなし';
+  document.getElementById('dev-date').textContent=d.updated?d.updated+' 更新':'';
+  const dw=(d.diary_work||'').trim(),dm=(d.diary_market||'').trim(),dt=(d.diary_trade||'').trim();
+  const setDiary=(id,wrap,val)=>{const w=document.getElementById(wrap);document.getElementById(id).textContent=val;w.style.display=val?'block':'none';};
+  setDiary('diary-work','diary-work-wrap',dw);
+  setDiary('diary-market','diary-market-wrap',dm);
+  setDiary('diary-trade','diary-trade-wrap',dt);
+  document.getElementById('diary-empty').style.display=(dw||dm||dt)?'none':'block';
+  document.getElementById('diary-empty').textContent=(dw||dm||dt)?'':(d.diary||'日記なし');
+}
+async function fetchMarkets(){
+  try{
+    const r=await fetch('fx_outlook.json?t='+Date.now());
+    if(!r.ok) return;
+    const d=await r.json();
+    const pairs=d.pairs||{};
+
+    // WTI
+    const wti=pairs['WTI']||{};
+    const wtiEl=document.getElementById('wti-section');
+    if(wtiEl) wtiEl.innerHTML=`
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px">
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">長期</div>
+          <div style="font-size:.75rem;color:#e2b96f;font-weight:700">${wti.long_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${wti.long_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">中期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${wti.mid_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${wti.mid_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">短期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${wti.short_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${wti.short_reason||''}</div>
+        </div>
+      </div>`;
+
+    // SP500
+    const sp=pairs['SP500']||{};
+    const spEl=document.getElementById('sp500-section');
+    if(spEl) spEl.innerHTML=`
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px">
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">長期</div>
+          <div style="font-size:.75rem;color:#58a6ff;font-weight:700">${sp.long_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${sp.long_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">中期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${sp.mid_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${sp.mid_reason||''}</div>
+        </div>
+        <div style="background:#0d1117;border-radius:6px;padding:8px">
+          <div style="font-size:.6rem;color:#4a5568;margin-bottom:4px">短期</div>
+          <div style="font-size:.75rem;color:#c9d1d9;font-weight:700">${sp.short_view||'—'}</div>
+          <div style="font-size:.65rem;color:#666;margin-top:3px">${sp.short_reason||''}</div>
+        </div>
+      </div>`;
+  }catch(e){ console.error('markets fetch error',e); }
+}
+
+async function fetchAll(){
+  renderTodayBar();
+  const s=document.getElementById('status');
+  s.textContent='🔄 更新中...';
+  try{
+    const t=Date.now();
+    const[r1,r2,r3]=await Promise.all([fetch('fx_data.json?t='+t),fetch('fx_outlook.json?t='+t),fetch('fx_admin.json?t='+t).catch(()=>null)]);
+    const d1=await r1.json();
+    window.FXDATA=d1;
+    const outlook=r2.ok?await r2.json():{};
+    const d2=r3&&r3.ok?await r3.json():{};
+    renderScores(d1);renderCot(d1);renderNews(d1);renderReasons(d1);renderAdmin(d2);renderOutlook(outlook);renderPairs(outlook,d1);renderEurUsdHorizon(outlook);renderRates(d1);renderNotePriceBar(d1);
+    s.textContent='✅ '+d1.generated;
+  }catch(e){s.textContent='📦 保存データ表示中';}
+}
+// ── 履歴描画 ──
+function renderHistory(history){
+  if(!history||!history.length){
+    document.getElementById('history-list').innerHTML='<div style="color:#4a5568;font-size:.8rem">履歴なし</div>';
+    return;
+  }
+  let html='';
+  history.forEach((h,i)=>{
+    const id='hist-'+i;
+    const pairs=['USDJPY','EURUSD','GBPUSD','AUDUSD'];
+    const pairHtml=pairs.map(pair=>{
+      const p=(h.pairs||{})[pair]||{};
+      const lc=p.long_view&&p.long_view.includes('上')?'bull':p.long_view&&p.long_view.includes('下')?'bear':'neu';
+      return `<div style="margin-bottom:8px">
+        <div style="font-size:.72rem;color:#00d4ff;margin-bottom:2px">${pair}</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px">
+          <div style="background:#0d1117;border-radius:4px;padding:6px;text-align:center">
+            <div style="font-size:.6rem;color:#4a5568">長期</div>
+            <div style="font-size:.72rem;color:${lc==='bull'?'#00d4ff':lc==='bear'?'#ff4466':'#888'}">${p.long_view||'—'}</div>
+          </div>
+          <div style="background:#0d1117;border-radius:4px;padding:6px;text-align:center">
+            <div style="font-size:.6rem;color:#4a5568">中期</div>
+            <div style="font-size:.72rem;color:#888">${p.mid_view||'—'}</div>
+          </div>
+          <div style="background:#0d1117;border-radius:4px;padding:6px;text-align:center">
+            <div style="font-size:.6rem;color:#4a5568">短期</div>
+            <div style="font-size:.72rem;color:#888">${p.short_view||'—'}</div>
+          </div>
+        </div>
+      </div>`;
+    }).join('');
+
+    html+=`
+    <div style="border-bottom:1px solid #1a2332;padding:12px 0">
+      <div onclick="toggleHist('${id}')" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+        <div>
+          <div style="font-size:.85rem;font-weight:700;color:#c9d1d9">${h.date}</div>
+          <div style="font-size:.72rem;color:#4a5568;margin-top:2px">${h.overall||''}</div>
+        </div>
+        <div style="color:#4a5568;font-size:.8rem" id="arr-${id}">▶</div>
+      </div>
+      <div id="${id}" style="display:none;margin-top:12px">
+        <div style="background:#161b22;border-radius:8px;padding:12px;margin-bottom:8px">
+          <div style="font-size:.68rem;color:#4a5568;margin-bottom:6px">大局観</div>
+          <div style="font-size:.78rem;color:#c9d1d9">${h.overall||''}</div>
+          <div style="font-size:.72rem;color:#888;margin-top:4px">${h.risk||''}</div>
+        </div>
+        ${pairHtml}
+        <div style="background:#161b22;border-radius:8px;padding:12px;margin-top:8px">
+          <div style="font-size:.68rem;color:#4a5568;margin-bottom:6px">📋 日記</div>
+          ${h.diary_work?`<div style="margin-bottom:6px"><span style="font-size:.65rem;color:#4a5568">勤務｜</span><span style="font-size:.75rem;color:#888">${h.diary_work}</span></div>`:''}
+          ${h.diary_market?`<div style="margin-bottom:6px"><span style="font-size:.65rem;color:#4a5568">相場感｜</span><span style="font-size:.75rem;color:#888">${h.diary_market}</span></div>`:''}
+          ${h.diary_trade?`<div><span style="font-size:.65rem;color:#4a5568">トレード｜</span><span style="font-size:.75rem;color:#888">${h.diary_trade}</span></div>`:''}
+        </div>
+      </div>
+    </div>`;
+  });
+  document.getElementById('history-list').innerHTML=html;
+}
+
+function toggleHist(id){
+  const el=document.getElementById(id);
+  const arr=document.getElementById('arr-'+id);
+  if(el.style.display==='none'){el.style.display='block';arr.textContent='▼';}
+  else{el.style.display='none';arr.textContent='▶';}
+}
+
+async function fetchHistory(){
+  try{
+    const r=await fetch('fx_history.json?t='+Date.now());
+    if(r.ok) renderHistory(await r.json());
+  }catch(e){}
+}
+
+// ── 相場ノート ──
+const GH_OWNER='if68if13-png';
+const GH_REPO='fx-terminal';
+const GH_BRANCH='main';
+const NOTES_PATH='fx_notes.json';
+let notesCache=[];
+let notesSha=null;
+
+function todayStr(){
+  const d=new Date();
+  const jst=new Date(d.getTime()+(d.getTimezoneOffset()+9*60)*60000);
+  return jst.toISOString().slice(0,10);
+}
+function getGhToken(){ return localStorage.getItem('fx_gh_token')||''; }
+function setGhToken(t){ localStorage.setItem('fx_gh_token', t); }
+function setupNoteToken(){
+  const cur=getGhToken();
+  const t=prompt('GitHubトークン（if68if13-png/fx-terminal リポジトリのContents書込権限を持つFine-grained PAT）を入力してください。\nこの端末のブラウザ内(localStorage)にのみ保存され、他には送信されません。', cur||'');
+  if(t!==null && t.trim()){
+    setGhToken(t.trim());
+    document.getElementById('note-token-hint').style.display='none';
+  }
+}
+function b64EncodeUtf8(str){ return btoa(unescape(encodeURIComponent(str))); }
+function b64DecodeUtf8(b64){ return decodeURIComponent(escape(atob(b64.replace(/\n/g,'')))); }
+
+async function ghGetFile(path){
+  const token=getGhToken();
+  const headers={Accept:'application/vnd.github+json'};
+  if(token) headers.Authorization='Bearer '+token;
+  const res=await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${path}?ref=${GH_BRANCH}`,{headers});
+  if(res.status===404) return {sha:null,data:[]};
+  if(!res.ok) throw new Error('GitHub読込エラー: '+res.status);
+  const j=await res.json();
+  return {sha:j.sha, data: JSON.parse(b64DecodeUtf8(j.content))};
+}
+async function ghPutFile(path,dataObj,sha,message){
+  const token=getGhToken();
+  if(!token) throw new Error('NO_TOKEN');
+  const body={message, content:b64EncodeUtf8(JSON.stringify(dataObj,null,2)), branch:GH_BRANCH};
+  if(sha) body.sha=sha;
+  const res=await fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${path}`,{
+    method:'PUT',
+    headers:{Authorization:'Bearer '+token, Accept:'application/vnd.github+json', 'Content-Type':'application/json'},
+    body: JSON.stringify(body)
+  });
+  if(!res.ok){
+    const err=await res.json().catch(()=>({}));
+    throw new Error('GitHub保存エラー: '+res.status+' '+(err.message||''));
+  }
+  return res.json();
+}
+
+async function loadNotes(){
+  try{
+    const {sha,data}=await ghGetFile(NOTES_PATH);
+    notesSha=sha;
+    notesCache=Array.isArray(data)?data:[];
+  }catch(e){
+    console.error('notes load error',e);
+    try{
+      const r=await fetch('fx_notes.json?t='+Date.now());
+      notesCache=r.ok?await r.json():[];
+    }catch(e2){ notesCache=[]; }
+  }
+  const today=todayStr();
+  const todayEntry=notesCache.find(n=>n.date===today);
+  document.getElementById('note-textarea').value=todayEntry?(todayEntry.text||''):'';
+  document.getElementById('note-token-hint').style.display=getGhToken()?'none':'block';
+  renderNoteHistory();
+}
+
+async function persistNotes(message){
+  const result=await ghPutFile(NOTES_PATH, notesCache, notesSha, message);
+  notesSha=result.content.sha;
+}
+
+async function saveNote(){
+  if(!getGhToken()){ setupNoteToken(); if(!getGhToken()) return; }
+  const text=document.getElementById('note-textarea').value;
+  const today=todayStr();
+  const priceInfo=(window.FXDATA&&window.FXDATA.prices&&window.FXDATA.prices.USDJPY)||{};
+  const idx=notesCache.findIndex(n=>n.date===today);
+  const entry={
+    date: today,
+    text: text,
+    usdjpy_open:  priceInfo.today_open  ?? (idx>=0?notesCache[idx].usdjpy_open:null),
+    usdjpy_close: priceInfo.today_close ?? (idx>=0?notesCache[idx].usdjpy_close:null),
+    updated: new Date().toISOString(),
+  };
+  if(idx>=0) notesCache[idx]=entry; else notesCache.unshift(entry);
+  notesCache.sort((a,b)=> a.date<b.date?1:-1);
+  try{
+    await persistNotes(`相場ノート更新 ${today}`);
+    const msg=document.getElementById('note-save-msg');
+    msg.style.display='block';
+    setTimeout(()=>msg.style.display='none',2500);
+    renderNoteHistory();
+  }catch(e){
+    if(e.message==='NO_TOKEN'){ setupNoteToken(); return; }
+    alert('保存に失敗しました: '+e.message);
+  }
+}
+
+async function saveOldNote(date){
+  if(!getGhToken()){ setupNoteToken(); if(!getGhToken()) return; }
+  const idx=notesCache.findIndex(n=>n.date===date);
+  if(idx<0) return;
+  const textEl=document.getElementById('note-edit-'+date);
+  if(!textEl) return;
+  notesCache[idx]={...notesCache[idx], text:textEl.value, updated:new Date().toISOString()};
+  try{
+    await persistNotes(`相場ノート更新 ${date}`);
+    const msgEl=document.getElementById('note-edit-msg-'+date);
+    if(msgEl){ msgEl.style.display='block'; setTimeout(()=>msgEl.style.display='none',2500); }
+  }catch(e){
+    if(e.message==='NO_TOKEN'){ setupNoteToken(); return; }
+    alert('保存に失敗しました: '+e.message);
+  }
+}
+
+function renderNoteHistory(){
+  const el=document.getElementById('note-history-list');
+  const today=todayStr();
+  const past=notesCache.filter(n=>n.date!==today && (n.text||'').trim());
+  if(!past.length){ el.innerHTML='<div style="color:#4a5568;font-size:.8rem">過去のノートはまだありません</div>'; return; }
+  el.innerHTML=past.map((n,i)=>{
+    const id='note-'+i;
+    const priceLine=(n.usdjpy_open!=null||n.usdjpy_close!=null)
+      ?`<div style="font-size:.68rem;color:#3a4a5a;margin-top:4px">USD/JPY 始値 ${n.usdjpy_open??'—'} ／ 終値 ${n.usdjpy_close??'—'}</div>`:'';
+    const safeText=(n.text||'').replace(/&/g,'&amp;').replace(/</g,'&lt;');
+    return `<div style="border-bottom:1px solid #1a2332;padding:10px 0">
+      <div onclick="toggleHist('${id}')" style="cursor:pointer;display:flex;justify-content:space-between;align-items:center">
+        <div style="font-size:.85rem;font-weight:700;color:#c9d1d9">${n.date}</div>
+        <div style="color:#4a5568;font-size:.8rem" id="arr-${id}">▶</div>
+      </div>
+      <div id="${id}" style="display:none;margin-top:8px">
+        <textarea id="note-edit-${n.date}" rows="8" style="width:100%;min-height:160px;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:10px;font-size:.8rem;line-height:1.6;resize:vertical;font-family:inherit">${safeText}</textarea>
+        <button class="refresh-btn" style="margin-top:8px;width:100%" onclick="saveOldNote('${n.date}')">💾 更新を保存</button>
+        <div id="note-edit-msg-${n.date}" style="font-size:.7rem;color:#00ff88;margin-top:6px;display:none">✅ 保存しました</div>
+        ${priceLine}
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function renderNotePriceBar(d){
+  const p=(d.prices&&d.prices.USDJPY)||{};
+  const el=document.getElementById('note-price-bar');
+  if(!el) return;
+  if(p.today_open==null && p.today_close==null){
+    el.textContent='価格データなし（次回自動更新時に反映されます）';
+    return;
+  }
+  const diffTxt=p.diff_pct!=null?` （前日比 ${p.diff_pct>0?'+':''}${p.diff_pct}%）`:'';
+  el.textContent=`始値 ${p.today_open??'—'} ／ 終値(現在値) ${p.today_close??'—'}${diffTxt}`;
+}
+
+window.addEventListener('load',fetchAll);
+window.addEventListener('load',fetchMarkets);
+window.addEventListener('load',fetchHistory);
+window.addEventListener('load',loadNotes);
+setInterval(fetchAll,30*60*1000);
+
+
+// ── 本日バナー描画 ──
+function renderTodayBar(){
+  const UK = {
+    "2026-01-01":"元日","2026-04-03":"グッドフライデー","2026-04-06":"イースターマンデー",
+    "2026-05-04":"早期春行事","2026-05-25":"春行事","2026-08-31":"夏行事",
+    "2026-12-25":"クリスマス","2026-12-28":"ボクシングデー(振替)"
+  };
+  const US = {
+    "2026-01-01":"元日","2026-01-19":"MLKデー","2026-02-16":"大統領の日",
+    "2026-05-25":"メモリアルデー","2026-06-19":"ジューンティーンス",
+    "2026-07-03":"独立記念日(振替)","2026-09-07":"レイバーデー",
+    "2026-10-12":"コロンブスデー","2026-11-11":"ベテランズデー",
+    "2026-11-26":"感謝祭","2026-12-25":"クリスマス"
+  };
+  const IND = {
+    "2026-06-03":"★★ ISM製造業PMI","2026-06-04":"★★ JOLTS求人",
+    "2026-06-05":"★★★ 米雇用統計(NFP)","2026-06-09":"★★ 米PPI",
+    "2026-06-10":"★★★ 米CPI","2026-06-16":"★★ 米小売売上高",
+    "2026-06-17":"★★ FOMC議事録","2026-06-18":"★★ 英MPC政策発表",
+    "2026-06-23":"★★ 米GDP(確報)","2026-06-25":"★ ミシガン大消費者信頼感",
+    "2026-06-26":"★★ 米PCEデフレーター","2026-07-02":"★★★ 米雇用統計(NFP)",
+    "2026-07-09":"★★★ 米CPI","2026-07-14":"★★ 米PPI",
+    "2026-07-16":"★★ 米小売売上高","2026-07-28":"★★ 米GDP(速報)",
+    "2026-07-29":"★★★ FOMC政策発表","2026-07-31":"★★ 米PCEデフレーター"
+  };
+  function pad(n){return String(n).padStart(2,'0');}
+  function toKey(d){return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());}
+  function addDays(d,n){const r=new Date(d);r.setDate(r.getDate()+n);return r;}
+  function getDow(d){return ['日','月','火','水','木','金','土'][d.getDay()];}
+  const today=new Date();
+  const todayKey=toKey(today);
+  const weekEvents=[];
+  // 今週の日曜〜土曜の範囲を計算
+  const dow=today.getDay(); // 0=日
+  const thisSun=addDays(today,-dow);   // 今週日曜
+  const thisSat=addDays(thisSun,6);    // 今週土曜
+  for(let i=1;i<=6;i++){
+    const d=addDays(today,i);
+    // 今週土曜を超えたら終了
+    if(d>thisSat)break;
+    const k=toKey(d);
+    const wd=d.getDay();
+    if(wd===0||wd===6)continue;
+    const label=i===1?'明日':'今週'+getDow(d);
+    const events=[];
+    if(UK[k])events.push({cls:'hol-uk',text:'🇬🇧'+UK[k]});
+    if(US[k])events.push({cls:'hol-us',text:'🇺🇸'+US[k]});
+    if(IND[k]){const cls=IND[k].startsWith('★★★')?'ind-high':'ind-med';events.push({cls,text:IND[k]});}
+    if(events.length)weekEvents.push({label,events});
+  }
+  const bar=document.getElementById('today-bar');
+  if(!bar)return;
+  let html='<div style="width:100%"><div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:'+(weekEvents.length?'8px':'0')+'">';
+  html+='<span class="today-bar-label">📌 本日</span>';
+  let any=false;
+  if(UK[todayKey]){html+='<span class="today-tag hol-uk">🇬🇧'+UK[todayKey]+'</span>';any=true;}
+  if(US[todayKey]){html+='<span class="today-tag hol-us">🇺🇸'+US[todayKey]+'</span>';any=true;}
+  if(IND[todayKey]){const cls=IND[todayKey].startsWith('★★★')?'ind-high':'ind-med';html+='<span class="today-tag '+cls+'">'+IND[todayKey]+'</span>';any=true;}
+  if(!any)html+='<span class="today-tag nothing">祝日・重要指標なし</span>';
+  html+='</div>';
+  weekEvents.forEach(we=>{
+    html+='<div style="display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:5px">';
+    html+='<span class="today-bar-label" style="color:#3a4a5a">'+we.label+'</span>';
+    we.events.forEach(ev=>{html+='<span class="today-tag '+ev.cls+'" style="opacity:.8">'+ev.text+'</span>';});
+    html+='</div>';
+  });
+  html+='</div>';
+  bar.innerHTML=html;
+}
+
+// ── カレンダー描画 ──
+(function(){
+  const UK = {
+    "2026-01-01":"元日","2026-04-03":"グッドフライデー","2026-04-06":"イースターマンデー",
+    "2026-05-04":"早期春行事","2026-05-25":"春行事","2026-08-31":"夏行事",
+    "2026-12-25":"クリスマス","2026-12-28":"ボクシングデー(振替)"
+  };
+  const US = {
+    "2026-01-01":"元日","2026-01-19":"MLKデー","2026-02-16":"大統領の日",
+    "2026-05-25":"メモリアルデー","2026-06-19":"ジューンティーンス",
+    "2026-07-03":"独立記念日(振替)","2026-09-07":"レイバーデー",
+    "2026-10-12":"コロンブスデー","2026-11-11":"ベテランズデー",
+    "2026-11-26":"感謝祭","2026-12-25":"クリスマス"
+  };
+  const IND = {
+    "2026-06-03":["★★ ISM製造業PMI"],
+    "2026-06-04":["★★ JOLTS求人"],
+    "2026-06-05":["★★★ 米雇用統計(NFP)"],
+    "2026-06-09":["★★ 米PPI"],
+    "2026-06-10":["★★★ 米CPI"],
+    "2026-06-16":["★★ 米小売売上高"],
+    "2026-06-17":["★★ FOMC議事録"],
+    "2026-06-18":["★★ 英MPC政策発表"],
+    "2026-06-23":["★★ 米GDP(確報)"],
+    "2026-06-25":["★ ミシガン大消費者信頼感"],
+    "2026-06-26":["★★ 米PCEデフレーター"],
+    "2026-07-02":["★★★ 米雇用統計(NFP)"],
+    "2026-07-09":["★★★ 米CPI"],
+    "2026-07-14":["★★ 米PPI"],
+    "2026-07-16":["★★ 米小売売上高"],
+    "2026-07-28":["★★ 米GDP(速報)"],
+    "2026-07-29":["★★★ FOMC政策発表"],
+    "2026-07-31":["★★ 米PCEデフレーター"]
+  };
+
+  function pad(n){return String(n).padStart(2,'0');}
+  function toKey(y,m,d){return y+'-'+pad(m)+'-'+pad(d);}
+
+  function buildCalendar(){
+    const container=document.getElementById('cal-container');
+    if(!container)return;
+    const today=new Date();
+    const todayKey=toKey(today.getFullYear(),today.getMonth()+1,today.getDate());
+
+    let html='<div class="cal-legend">';
+    html+='<div class="cal-legend-item"><div class="cal-legend-dot" style="background:#9b59b6"></div>🇬🇧 ロンドン祝日</div>';
+    html+='<div class="cal-legend-item"><div class="cal-legend-dot" style="background:#e74c3c"></div>🇺🇸 NY祝日</div>';
+    html+='<div class="cal-legend-item"><div class="cal-legend-dot" style="background:#ff4466"></div>★★★ 最重要指標</div>';
+    html+='<div class="cal-legend-item"><div class="cal-legend-dot" style="background:#f39c12"></div>★★ 重要指標</div>';
+    html+='</div>';
+
+    const dows=['日','月','火','水','木','金','土'];
+    const months=[
+      new Date(today.getFullYear(),today.getMonth(),1),
+      new Date(today.getFullYear(),today.getMonth()+1,1),
+      new Date(today.getFullYear(),today.getMonth()+2,1)
+    ];
+
+    months.forEach(ms=>{
+      const y=ms.getFullYear(), m=ms.getMonth();
+      const lastDay=new Date(y,m+1,0).getDate();
+      const firstDow=ms.getDay();
+      html+='<div class="cal-month-label">📅 '+y+'年'+(m+1)+'月</div>';
+      html+='<div class="cal-grid">';
+      dows.forEach(d=>{html+='<div class="cal-dow">'+d+'</div>';});
+      for(let i=0;i<firstDow;i++) html+='<div class="cal-cell empty"></div>';
+      for(let day=1;day<=lastDay;day++){
+        const key=toKey(y,m+1,day);
+        const isToday=key===todayKey;
+        const isUK=!!UK[key], isUS=!!US[key];
+        const inds=IND[key]||[];
+        const cellDate=new Date(y,m,day);
+        const isPast=cellDate<new Date(today.getFullYear(),today.getMonth(),today.getDate());
+        let cls='cal-cell';
+        if(isToday) cls+=' today';
+        if(isUK&&isUS) cls+=' holiday-both';
+        else if(isUK) cls+=' holiday-uk';
+        else if(isUS) cls+=' holiday-us';
+        let inner='<div class="cal-day" style="'+(isPast?'opacity:.4':'')+'">'+day+'</div>';
+        if(isUK) inner+='<div class="cal-event hol-uk">🇬🇧'+UK[key]+'</div>';
+        if(isUS) inner+='<div class="cal-event hol-us">🇺🇸'+US[key]+'</div>';
+        inds.forEach(ind=>{
+          const ec=ind.startsWith('★★★')?'indicator-high':'indicator-med';
+          inner+='<div class="cal-event '+ec+'">'+ind+'</div>';
+        });
+        html+='<div class="'+cls+'">'+inner+'</div>';
+      }
+      html+='</div>';
+    });
+    container.innerHTML=html;
+  }
+
+  const _orig=window.showTab;
+  window.showTab=function(id){_orig(id);if(id==='p6')buildCalendar();};
+  buildCalendar();
+  renderTodayBar();
+})();
+
+</script>
+</body>
+</html>
