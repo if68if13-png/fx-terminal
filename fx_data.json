@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-08-02T21:57:02.552623",
-  "generated": "2026年08月02日 21:57",
+  "timestamp": "2026-08-03T02:49:50.521003",
+  "generated": "2026年08月03日 02:49",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 1,
-    "CAD": 0,
+    "AUD": 0,
+    "NZD": 2,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,15 +43,15 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Bulls eye 0.6000 after SMA break",
-      "summary": "The Kiwi Dollar extends its three-day rally, climbing above 0.5850 and is poised to challenge 0.5900 amid improving risk"
+      "title": "Canadian Dollar drifts lower as falling oil prices counter weak USD amid Iran hopes",
+      "summary": "The USD/CAD pair kicks off the new week on a positive note, though it lacks bullish conviction and remains confined with"
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: US labor market takes center stage after hawkish Fed split",
-      "summary": "The first full week of August will test whether the US Dollar can recover from its sell-off during the last week of July"
+      "title": "Australian Dollar remains stronger following China’s RatingDog Manufacturing PMI data",
+      "summary": "AUD/USD depreciates after opening at a bullish gap, remaining in the positive territory and trading around 0.7030 during"
     },
     {
       "source": "FXStreet",
-      "title": "Gold slides as US yields surge, keeping $4,100 out of reach",
-      "summary": "Gold price tumbles nearly 1.50% on Friday as the US Dollar recovers some ground after Japanese authorities intervened in"
+      "title": "New Zealand holds gains near 0.5900 despite weaker China PMI data",
+      "summary": "The NZD/USD pair holds positive ground near 0.5890 during the Asian trading hours on Monday. The New Zealand Dollar (NZD"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen has a second buyer nobody will name",
-      "summary": "Thursday's record Yen defence is the story everyone has written."
+      "title": "Australian Dollar languishes near April low as joint US-Japan intervention lifts Yen",
+      "summary": "The AUD/JPY cross turns lower for the fifth straight day after a modest uptick to the 111.20 region on Monday and drops "
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index struggles near 100 after suspected Japanese intervention",
-      "summary": "The US Dollar Index (DXY) struggles to hold its early recovery on Friday as the fallout from suspected Japanese interven"
+      "title": "China’s RatingDog Manufacturing PMI declines to 50.9 in July",
+      "summary": "China's RatingDog Manufacturing Purchasing Managers' Index (PMI) eased to 50.9 in July from 51.7 in June the latest data"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Barkin: It's a close call whether interest rates are high enough",
-      "summary": "Richmond Federal Reserve (Fed) President Tom Barkin said on Friday that it remains uncertain whether the current level o"
+      "title": "Euro holds near mid-1.1500s, highest level since June 17 as receding Fed hike bets hit USD",
+      "summary": "The EUR/USD pair builds on last week's breakout momentum above the 1.1460-1.1470 horizontal barrier and attracts buyers "
     },
     {
       "source": "FXStreet",
-      "title": "Euro recovers as Eurozone inflation stays firm",
-      "summary": "EUR/USD trades near the 1.1530 area during Friday's American session, consolidating after a strong rally off intraday lo"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD consolidates above $55 as downside momentum eases",
-      "summary": "Silver (XAG/USD) trades on the back foot on Friday as rising US Treasury yields outweigh support from a weaker US Dollar"
+      "title": "PBOC sets USD/CNY reference rate at 6.7898 vs. 6.7894 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7898 compa"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,25 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] NZD/USD Price Forecast: Bulls eye 0.6000 after SMA brea",
-      "[強気] Forecasting the upcoming week: US labor market takes ce",
-      "[強気] Gold slides as US yields surge, keeping $4,100 out of r",
-      "[強気] Euro recovers as Eurozone inflation stays firm",
-      "[弱気] Silver Price Forecast: XAG/USD consolidates above $55 a"
-    ],
-    "EUR": [
-      "[強気] Euro recovers as Eurozone inflation stays firm"
+      "[弱気] Canadian Dollar drifts lower as falling oil prices coun",
+      "[強気] Australian Dollar remains stronger following China’s Ra"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)",
+      "[強気] Australian Dollar remains stronger following China’s Ra"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] NZD/USD Price Forecast: Bulls eye 0.6000 after SMA brea"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar drifts lower as falling oil prices coun"
     ]
   },
   "rates": {
@@ -228,31 +225,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.22112,
-      "today_close": 157.51362,
+      "today_close": 156.4799,
       "prev_close": 157.22446,
-      "diff": 0.2892,
-      "diff_pct": 0.18
+      "diff": -0.7446,
+      "diff_pct": -0.47
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.51362,
-      "sma20": 161.8184,
-      "sma50": 161.7331,
-      "sma200": 158.8595,
+      "latest": 156.4799,
+      "sma20": 161.7667,
+      "sma50": 161.7124,
+      "sma200": 158.8543,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 65.6,
       "high20": 164.0881,
-      "low20": 156.9421,
+      "low20": 155.2512,
       "high60": 164.0881,
-      "low60": 156.9421,
-      "chg5d_pct": -3.62,
-      "chg20d_pct": -2.93
+      "low60": 155.2512,
+      "chg5d_pct": -4.26,
+      "chg20d_pct": -3.57
     },
     "EURUSD": {
-      "latest": 1.15468,
+      "latest": 1.15324,
       "sma20": 1.1442,
       "sma50": 1.1437,
       "sma200": 1.1622,
@@ -264,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1645,
       "low60": 1.1324,
-      "chg5d_pct": 0.7,
-      "chg20d_pct": 1.1
+      "chg5d_pct": 0.57,
+      "chg20d_pct": 0.97
     }
   }
 }
