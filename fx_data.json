@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-08-03T19:37:30.281323",
-  "generated": "2026年08月03日 19:37",
+  "timestamp": "2026-08-03T22:09:22.659795",
+  "generated": "2026年08月03日 22:09",
   "scores": {
     "USD": 5,
     "JPY": 1,
     "EUR": 0,
     "GBP": 3,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
+      "diff": -6,
+      "base_score": -1,
       "quote_score": 5
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": 0,
@@ -103,6 +103,21 @@
     },
     {
       "source": "FXStreet",
+      "title": "New Zealand Dollar holds as traders brace for New Zealand jobs data",
+      "summary": "NZD/USD trades with a flat tone near the 0.5870 zone on Monday, holding onto the bulk of last week's advance but struggl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: Oil collapses on Iran talks, Yen holds gains",
+      "summary": "Oil prices fell sharply on Monday amid growing expectations that talks between the US and Iran will resume soon. US Pres"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso outpaces broad US Dollar strength ahead of Banxico’s rate decision",
+      "summary": "The Mexican Peso (MXN) gains ground against the US Dollar (USD) on Monday as risk appetite increases the carry-trade app"
+    },
+    {
+      "source": "FXStreet",
       "title": "Gold slips as USD rebounds, strong ISM data clouds Fed path",
       "summary": "Gold (XAU/USD) price retreats on Monday as the US Dollar (USD) recovers some ground, even though hostilities in the Midd"
     },
@@ -122,26 +137,6 @@
       "summary": "USD/JPY trades with a soft tone near the 156.90 area on Monday as the Japanese Yen (JPY) holds the bulk of the gains sec"
     },
     {
-      "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Technical outlook stays constructive above 0.8000",
-      "summary": "USD/CHF edges higher on Monday as softer Swiss inflation data and a modest recovery in the US Dollar (USD) weigh on the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar slips after upbeat US ISM Manufacturing data",
-      "summary": "AUD/USD extends its pullback toward the 0.6990 area during Monday's American session after stronger-than-expected United"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Upside bias capped against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD slipped to 1.2809 but closed near 1.2821, with intraday bias s"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver price falls as stronger US PMI reinforces hawkish Fed expectations",
-      "summary": "Silver (XAG/USD) trades around $57.20 at the time of writing on Monday, down 0.73% on the day, after a strong US manufac"
-    },
-    {
       "source": "Investing",
       "title": "Strategy sold 1,638 bitcoin last week",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -195,9 +195,7 @@
       "[強気] Gold slips as USD rebounds, strong ISM data clouds Fed ",
       "[強気] United States Dollar Index rebounds toward 100 amid US-",
       "[強気] British Pound slips as strong ISM data revives the US D",
-      "[強気] Japanese Yen steadies near post-intervention highs ahea",
-      "[強気] Australian Dollar slips after upbeat US ISM Manufacturi",
-      "[強気] Silver price falls as stronger US PMI reinforces hawkis"
+      "[強気] Japanese Yen steadies near post-intervention highs ahea"
     ],
     "JPY": [
       "[強気] Japanese Yen steadies near post-intervention highs ahea"
@@ -208,8 +206,7 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)",
-      "[強気] Australian Dollar slips after upbeat US ISM Manufacturi"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -217,57 +214,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.68,
+    "US_10Y": 4.75,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.01,
-    "DIFF_EURUSD": -1.71,
-    "DIFF_GBPUSD": 0.12,
-    "DIFF_AUDUSD": 0.15
+    "DIFF_USDJPY": 2.08,
+    "DIFF_EURUSD": -1.78,
+    "DIFF_GBPUSD": 0.05,
+    "DIFF_AUDUSD": 0.08
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.22112,
-      "today_close": 156.88827,
-      "prev_close": 157.22446,
-      "diff": -0.3362,
-      "diff_pct": -0.21
+      "today_open": 157.19512,
+      "today_close": 157.37232,
+      "prev_close": 157.20071,
+      "diff": 0.1716,
+      "diff_pct": 0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.88827,
-      "sma20": 161.7871,
-      "sma50": 161.7206,
-      "sma200": 158.8564,
+      "latest": 157.37232,
+      "sma20": 161.5616,
+      "sma50": 161.6672,
+      "sma200": 158.8542,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 65.6,
+      "rsi14": 57.2,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -4.01,
-      "chg20d_pct": -3.32
+      "chg5d_pct": -1.36,
+      "chg20d_pct": -2.97
     },
     "EURUSD": {
-      "latest": 1.1513,
-      "sma20": 1.1441,
-      "sma50": 1.1436,
+      "latest": 1.15082,
+      "sma20": 1.1443,
+      "sma50": 1.1435,
       "sma200": 1.1622,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 47.5,
+      "rsi14": 44.4,
       "high20": 1.1559,
       "low20": 1.1354,
-      "high60": 1.1645,
+      "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.4,
-      "chg20d_pct": 0.8
+      "chg5d_pct": -0.17,
+      "chg20d_pct": 0.39
     }
   }
 }
