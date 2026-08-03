@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-03T06:23:47.611964",
-  "generated": "2026年08月03日 06:23",
+  "timestamp": "2026-08-03T12:23:47.572096",
+  "generated": "2026年08月03日 12:23",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: At make or a break around 1.3500",
-      "summary": "The British Pound (GBP) underperforms its major currency peers, trading 0.1% lower at around 1.3470 against the US Dolla"
+      "title": "Oil: Hormuz risks keep prices in focus – Rabobank",
+      "summary": "Rabobank's Senior Market Strategist Benjamin Picton discusses recurring Middle East tensions around the Strait of Hormuz"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Rebound eyes key resistance band against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang observes EUR/USD rebounded sharply after a dip to 1.1453, with scope to exte"
+      "title": "EUR/GBP Price Forecast: Below the bottom of the bullish channel at 0.8570",
+      "summary": "The Euro (EUR) ticks higher against the British Pound (GBP) on Monday, but remains capped below the bottom of an ascendi"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah holds gains as manufacturing PMI expands in July",
-      "summary": "USD/IDR remains subdued for the fourth successive day, trading around 18,040 during the Asian hours on Monday. The pair "
+      "title": "US Dollar: Labour data and hawkish risks in focus – Deutsche Bank",
+      "summary": "Deutsche Bank strategists outlines a United States (US) macro backdrop where the Federal Reserve (Fed) held rates but th"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen jumps as US-Japan confirm joint intervention, hint further action",
-      "summary": "The USD/JPY pair tumbles to near 156.45 during the early European trading hours on Monday. The Japanese Yen (JPY) climbs"
+      "title": "Japanese Yen: Joint intervention supports yen outlook – MUFG",
+      "summary": "MUFG’s Lee Hardman notes that the Japanese Yen has strengthened as Japan and the US conducted joint intervention to coun"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee starts the week with a bang on US-Iran peace 2.0",
-      "summary": "The Indian Rupee (INR) opens strongly against the US Dollar (USD) at the start of the week. The USD/INR extends its losi"
+      "title": "Australian Dollar comes under pressure as US Dollar regains ground",
+      "summary": "AUD/USD falls to around 0.7000 on Monday at the time of writing, down 0.30% on the day, as a rebound in the US Dollar (U"
     },
     {
       "source": "FXStreet",
-      "title": "Asian stocks trade mixed as AI-led selloff and Yen rally counter Iran optimism",
-      "summary": "Asian shares were mixed at the start of a new week as losses in South Korea's KOSPI and Japan's Nikkei 225 counter impro"
+      "title": "Federal Reserve: Data driven rate path – HSBC",
+      "summary": "HSBC strategists note that the Federal Reserve (Fed) left policy rates unchanged in July, with markets now assigning a t"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Gains traction above 1.1500, while remaining constrained below 100-day SMA",
-      "summary": "The EUR/USD pair trades in positive territory near 1.1535 during the early European trading hours on Monday, bolstered b"
+      "title": "Indian Rupee gives back major early gains while approaching closing bell",
+      "summary": "The Indian Rupee (INR) surrenders a majority of its early gains against the US Dollar (USD) near the closing session on "
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds above $4,050 as easing inflation fears curb Fed hike bets; USD bounce caps gains",
-      "summary": "Gold (XAU/USD) struggles to capitalize on a modest weekly bullish gap opening and remains below the $4,100 mark through "
+      "title": "WTI stays lower near $78.50 ahead of US-Iran peace talks 2.0",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trade 7.4% lower at around $78.50 during the European trading session o"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold struggles to hold gains amid mixed US-Iran headlines, hawkish Fed",
+      "summary": "Gold (XAU/USD) starts the week on a positive note, although buyers lack conviction as markets weigh conflicting US-Iran "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed’s Williams: Affirms confidence for inflation to return to 2% target",
+      "summary": "The remarks from New York Federal Reserve (Fed) Bank President John Williams, in an interview with Reuters that took pla"
     },
     {
       "source": "Investing",
       "title": "Bitcoin slips amid Fed uncertainty & Iran tensions, but set for solid July rebound",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
       "summary": ""
     }
   ],
@@ -192,7 +192,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Indian Rupee starts the week with a bang on US-Iran pea"
+      "[強気] US Dollar: Labour data and hawkish risks in focus – Deu",
+      "[強気] Gold struggles to hold gains amid mixed US-Iran headlin"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -220,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.22112,
-      "today_close": 156.56947,
+      "today_close": 156.66814,
       "prev_close": 157.22446,
-      "diff": -0.655,
-      "diff_pct": -0.42
+      "diff": -0.5563,
+      "diff_pct": -0.35
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.56947,
-      "sma20": 161.7712,
-      "sma50": 161.7142,
-      "sma200": 158.8548,
+      "latest": 156.66814,
+      "sma20": 161.7761,
+      "sma50": 161.7162,
+      "sma200": 158.8553,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -240,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -4.2,
-      "chg20d_pct": -3.51
+      "chg5d_pct": -4.14,
+      "chg20d_pct": -3.45
     },
     "EURUSD": {
-      "latest": 1.15351,
+      "latest": 1.15313,
       "sma20": 1.1442,
       "sma50": 1.1437,
       "sma200": 1.1622,
@@ -256,8 +257,8 @@
       "low20": 1.1354,
       "high60": 1.1645,
       "low60": 1.1324,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": 1.0
+      "chg5d_pct": 0.56,
+      "chg20d_pct": 0.96
     }
   }
 }
