@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-08-03T02:49:50.521003",
-  "generated": "2026年08月03日 02:49",
+  "timestamp": "2026-08-03T06:23:47.611964",
+  "generated": "2026年08月03日 06:23",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,38 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar drifts lower as falling oil prices counter weak USD amid Iran hopes",
-      "summary": "The USD/CAD pair kicks off the new week on a positive note, though it lacks bullish conviction and remains confined with"
+      "title": "GBP/USD Price Forecast: At make or a break around 1.3500",
+      "summary": "The British Pound (GBP) underperforms its major currency peers, trading 0.1% lower at around 1.3470 against the US Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains stronger following China’s RatingDog Manufacturing PMI data",
-      "summary": "AUD/USD depreciates after opening at a bullish gap, remaining in the positive territory and trading around 0.7030 during"
+      "title": "Euro: Rebound eyes key resistance band against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang observes EUR/USD rebounded sharply after a dip to 1.1453, with scope to exte"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand holds gains near 0.5900 despite weaker China PMI data",
-      "summary": "The NZD/USD pair holds positive ground near 0.5890 during the Asian trading hours on Monday. The New Zealand Dollar (NZD"
+      "title": "Indonesian Rupiah holds gains as manufacturing PMI expands in July",
+      "summary": "USD/IDR remains subdued for the fourth successive day, trading around 18,040 during the Asian hours on Monday. The pair "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar languishes near April low as joint US-Japan intervention lifts Yen",
-      "summary": "The AUD/JPY cross turns lower for the fifth straight day after a modest uptick to the 111.20 region on Monday and drops "
+      "title": "Japanese Yen jumps as US-Japan confirm joint intervention, hint further action",
+      "summary": "The USD/JPY pair tumbles to near 156.45 during the early European trading hours on Monday. The Japanese Yen (JPY) climbs"
     },
     {
       "source": "FXStreet",
-      "title": "China’s RatingDog Manufacturing PMI declines to 50.9 in July",
-      "summary": "China's RatingDog Manufacturing Purchasing Managers' Index (PMI) eased to 50.9 in July from 51.7 in June the latest data"
+      "title": "Indian Rupee starts the week with a bang on US-Iran peace 2.0",
+      "summary": "The Indian Rupee (INR) opens strongly against the US Dollar (USD) at the start of the week. The USD/INR extends its losi"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds near mid-1.1500s, highest level since June 17 as receding Fed hike bets hit USD",
-      "summary": "The EUR/USD pair builds on last week's breakout momentum above the 1.1460-1.1470 horizontal barrier and attracts buyers "
+      "title": "Asian stocks trade mixed as AI-led selloff and Yen rally counter Iran optimism",
+      "summary": "Asian shares were mixed at the start of a new week as losses in South Korea's KOSPI and Japan's Nikkei 225 counter impro"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7898 vs. 6.7894 previous",
-      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7898 compa"
+      "title": "EUR/USD Price Forecast: Gains traction above 1.1500, while remaining constrained below 100-day SMA",
+      "summary": "The EUR/USD pair trades in positive territory near 1.1535 during the early European trading hours on Monday, bolstered b"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold holds above $4,050 as easing inflation fears curb Fed hike bets; USD bounce caps gains",
+      "summary": "Gold (XAU/USD) struggles to capitalize on a modest weekly bullish gap opening and remains below the $4,100 mark through "
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin seesaws as hit to risk sentiment and surging oil offsets Fed rate hold",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,22 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar drifts lower as falling oil prices coun",
-      "[強気] Australian Dollar remains stronger following China’s Ra"
+      "[強気] Indian Rupee starts the week with a bang on US-Iran pea"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)",
-      "[強気] Australian Dollar remains stronger following China’s Ra"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar drifts lower as falling oil prices coun"
     ]
   },
   "rates": {
@@ -225,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.22112,
-      "today_close": 156.4799,
+      "today_close": 156.56947,
       "prev_close": 157.22446,
-      "diff": -0.7446,
-      "diff_pct": -0.47
+      "diff": -0.655,
+      "diff_pct": -0.42
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.4799,
-      "sma20": 161.7667,
-      "sma50": 161.7124,
-      "sma200": 158.8543,
+      "latest": 156.56947,
+      "sma20": 161.7712,
+      "sma50": 161.7142,
+      "sma200": 158.8548,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +240,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -4.26,
-      "chg20d_pct": -3.57
+      "chg5d_pct": -4.2,
+      "chg20d_pct": -3.51
     },
     "EURUSD": {
-      "latest": 1.15324,
+      "latest": 1.15351,
       "sma20": 1.1442,
       "sma50": 1.1437,
       "sma200": 1.1622,
@@ -261,8 +256,8 @@
       "low20": 1.1354,
       "high60": 1.1645,
       "low60": 1.1324,
-      "chg5d_pct": 0.57,
-      "chg20d_pct": 0.97
+      "chg5d_pct": 0.59,
+      "chg20d_pct": 1.0
     }
   }
 }
