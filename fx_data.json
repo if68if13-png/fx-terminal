@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-08-04T02:33:25.699565",
-  "generated": "2026年08月04日 02:33",
+  "timestamp": "2026-08-04T05:46:58.732099",
+  "generated": "2026年08月04日 05:46",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 1,
-    "AUD": 0,
-    "NZD": 3,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -103,43 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index (DXY) steadies around 100.00 as US-Iran tensions lend support",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, struggles to capitalize on a modes"
+      "title": "Euro flatlines above 1.1500 as traders turn cautious ahead of US JOLTS Job Openings data",
+      "summary": "The EUR/USD pair holds steady around 1.1505 during the early European trading hours on Tuesday. Markets remain cautious "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar softens below 0.5900 on US-Iran talks uncertainty, stronger US PMI data",
-      "summary": "The NZD/USD pair loses traction to near 0.5870 during the Asian trading hours on Tuesday, pressured by stronger US econo"
+      "title": "Gold flat lines above $4,050 as Fed hike bets and Iran uncertainty support safe-haven USD",
+      "summary": "Gold (XAU/USD) seesaws between tepid gains and minor losses during the Asian session on Tuesday as traders seem hesitant"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar gains as strong Job Ads, resurgent inflation signal hawkish RBA",
-      "summary": "AUD/USD rises after two days of losses, hovering around 0.7010 during the Asian hours on Tuesday. The Australian Dollar "
+      "title": "AUD/JPY Price Forecast: Rebounds above 110.50, but remains capped below key resistance",
+      "summary": "The AUD/JPY cross trades in positive territory near 110.70, snapping the six-day losing streak, during the early Europea"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar consolidates below 1.4050 vs USD as rebounding oil prices cap upside",
-      "summary": "The USD/CAD pair struggles to capitalize on the previous day's modest recovery gains and oscillates in a narrow band dur"
+      "title": "USD/JPY Price Forecast: A short-term respite likely to near 160.00",
+      "summary": "The Japanese Yen (JPY) trades lower against its major currency peers on Tuesday after a rare juggernaut outperformance i"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound weakens below 1.3450 as US-Iran uncertainty boosts safe-haven US Dollar",
-      "summary": "The GBP/USD pair loses ground to near 1.3425 during the early Asian session on Tuesday. Uncertainty surrounding US-Iran "
-    },
-    {
-      "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7917 vs. 6.7898 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7917 compa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro declines as US Dollar gains on Middle East uncertainty",
-      "summary": "EUR/USD remains subdued for the third successive day, trading around 1.1500 during the Asian hours on Tuesday."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen gathers strength as US, Japan confirm rare joint intervention",
-      "summary": "The USD/JPY pair edges lower to around 157.40 during the early Asian trading hours on Tuesday."
+      "title": "Japan Economy Minister Kiuchi: Pass-through of rising costs has been limited so far",
+      "summary": "Japan Economy Minister Minoru Kiuchi said during the European trading session on Tuesday that the overall impact of the "
     },
     {
       "source": "Investing",
@@ -154,6 +139,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin caught up in broader risk asset rally; Strategy swings to quarterly loss",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,23 +181,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar softens below 0.5900 on US-Iran talk",
-      "[強気] Australian Dollar gains as strong Job Ads, resurgent in",
-      "[弱気] British Pound weakens below 1.3450 as US-Iran uncertain"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound weakens below 1.3450 as US-Iran uncertain"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)",
-      "[強気] Australian Dollar gains as strong Job Ads, resurgent in"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar softens below 0.5900 on US-Iran talk"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -225,18 +209,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.19512,
-      "today_close": 157.67066,
+      "today_close": 157.71362,
       "prev_close": 157.20071,
-      "diff": 0.47,
-      "diff_pct": 0.3
+      "diff": 0.5129,
+      "diff_pct": 0.33
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.67066,
-      "sma20": 161.5765,
-      "sma50": 161.6732,
-      "sma200": 158.8557,
+      "latest": 157.71362,
+      "sma20": 161.5786,
+      "sma50": 161.674,
+      "sma200": 158.8559,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +229,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -1.17,
-      "chg20d_pct": -2.79
+      "chg5d_pct": -1.15,
+      "chg20d_pct": -2.76
     },
     "EURUSD": {
-      "latest": 1.15103,
+      "latest": 1.15066,
       "sma20": 1.1443,
       "sma50": 1.1435,
       "sma200": 1.1622,
@@ -261,8 +245,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.15,
-      "chg20d_pct": 0.41
+      "chg5d_pct": -0.18,
+      "chg20d_pct": 0.38
     }
   }
 }
