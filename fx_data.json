@@ -1,37 +1,23 @@
 {
-  "timestamp": "2026-08-04T14:12:06.428984",
-  "generated": "2026年08月04日 14:12",
+  "timestamp": "2026-08-04T16:51:02.861556",
+  "generated": "2026年08月04日 16:51",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -103,38 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Dip after FOMC but strength expected – HSBC",
-      "summary": "HSBC strategists discuss the US Dollar (USD) reaction to the July Federal Open Market Committee (FOMC) meeting, where th"
+      "title": "Bulldozers built a third of the Dow Jones Industrial Average record",
+      "summary": "The Dow Jones Industrial Average trades above 54,100 on Tuesday, more than 900 points higher and through the July peak j"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar weakens as Oil prices slide on US-Iran deal hopes",
-      "summary": "USD/CAD reverses its earlier losses on Tuesday as falling Oil prices weigh on the commodity-linked Canadian Dollar (CAD)"
+      "title": "Canadian Dollar: Bullish signals point to gains versus US Dollar – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret note that the Canadian Dollar (CAD) has lagged other G10 currencies despite "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention focus and Dollar supply - BNY",
-      "summary": "BNY’s Geoff Yu highlights ongoing market focus on Japanese Yen intervention, noting authorities stepped back from action"
+      "title": "British Pound rebounds as soft JOLTS and Oil decline pressure USD",
+      "summary": "The Pound Sterling (GBP) recovers some ground against the US Dollar (USD) on Tuesday, up 0.14%, as US jobs data was soft"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: Labor market soft, RBNZ hike eyed – TD Securities",
-      "summary": "TD Securities’ Australia/NZ macro team sees New Zealand Employment growth at 0.1% q/q in Q2, insufficient to match popul"
+      "title": "Euro holds above 1.1500 on Hormuz reopening hopes and softer US jobs data",
+      "summary": "EUR/USD holds firm above 1.1500 on Tuesday as traders assess the latest developments surrounding US-Iran talks and the p"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: FOMC fallout weighs on USD – MUFG",
-      "summary": "Lee Hardman at MUFG highlights that the US Dollar index has fallen back below 100.00 following last week’s FOMC meeting,"
+      "title": "US Dollar Index: Rally questioned as safe-haven role tested – Rabobank",
+      "summary": "Rabobank’s Senior FX Strategist Jane Foley notes the US Dollar (USD) has been the weakest G10 currency over the past wee"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Joint intervention lifts JPY against US Dollar – Rabobank",
-      "summary": "Rabobank’s Senior FX Strategist Jane Foley highlights that Japanese authorities benefited from the post-FOMC US Dollar ("
+      "title": "Asia FX: Yen-led winners and export backdrop – MUFG",
+      "summary": "Michael Wan at MUFG explains that South Korean Won (KRW), Thai Baht (THB), Singapore Dollar (SGD) and, to a smaller exte"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Bears test 200-day SMA after sharp sell-off",
-      "summary": "GBP/JPY rises on Tuesday as the Japanese Yen (JPY) gives back part of its recent rally, which was driven by coordinated "
+      "title": "Euro: Consolidation below resistance against US Dollar – Scotiabank",
+      "summary": "Scotiabank’s analysts observe that the Euro is consolidating around the 1.15 area against the Dollar, with limited Euroz"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen stalls amid soft JOLTS data",
+      "summary": "USD/JPY trades on the back foot near the 157.40 area during Tuesday's American session as the Japanese Yen (JPY) builds "
     },
     {
       "source": "Investing",
@@ -144,11 +149,6 @@
     {
       "source": "Investing",
       "title": "Strategy sold 1,638 bitcoin last week",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slips amid Fed uncertainty & Iran tensions, but set for solid July rebound",
       "summary": ""
     },
     {
@@ -192,8 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar weakens as Oil prices slide on US-Iran ",
-      "[強気] US Dollar: FOMC fallout weighs on USD – MUFG"
+      "[弱気] US Dollar Index: Rally questioned as safe-haven role te"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -204,9 +203,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar weakens as Oil prices slide on US-Iran "
     ]
   },
   "rates": {
@@ -224,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.19512,
-      "today_close": 157.30961,
+      "today_close": 157.58962,
       "prev_close": 157.20071,
-      "diff": 0.1089,
-      "diff_pct": 0.07
+      "diff": 0.3889,
+      "diff_pct": 0.25
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.30961,
-      "sma20": 161.5584,
-      "sma50": 161.6659,
-      "sma200": 158.8539,
+      "latest": 157.58962,
+      "sma20": 161.5724,
+      "sma50": 161.6715,
+      "sma200": 158.8553,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -244,12 +240,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -1.4,
-      "chg20d_pct": -3.01
+      "chg5d_pct": -1.22,
+      "chg20d_pct": -2.84
     },
     "EURUSD": {
-      "latest": 1.15291,
-      "sma20": 1.1444,
+      "latest": 1.15178,
+      "sma20": 1.1443,
       "sma50": 1.1435,
       "sma200": 1.1622,
       "vs_sma20": "上",
@@ -260,8 +256,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.01,
-      "chg20d_pct": 0.57
+      "chg5d_pct": -0.09,
+      "chg20d_pct": 0.48
     }
   }
 }
