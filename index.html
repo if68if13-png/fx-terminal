@@ -169,7 +169,6 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
 <div class="tabs">
   <div class="tab active" data-panel="p0" onclick="showTab('p0')">📊 強弱</div>
   <div class="tab" data-panel="p6" onclick="showTab('p6')">🗓 カレンダー</div>
-  <div class="tab" data-panel="p7" onclick="showTab('p7')">📝 相場ノート</div>
   <div class="tab hidden-tab" data-panel="p1" onclick="showTab('p1')">🔍 分析</div>
   <div class="tab hidden-tab" data-panel="p2" onclick="showTab('p2')">🌏 大局観</div>
   <div class="tab hidden-tab" data-panel="p3" onclick="showTab('p3')">📰 ニュース</div>
@@ -268,27 +267,6 @@ header{background:#0d1117;border-bottom:1px solid #1a2332;padding:12px 16px;disp
   <div id="cal-container"></div>
 </div>
 
-<div class="panel" id="p7">
-  <div class="comment-card" id="note-price-card">
-    <div class="comment-label">USD/JPY 本日</div>
-    <div id="note-price-bar" style="font-size:.85rem;color:#c9d1d9">読込中...</div>
-  </div>
-
-  <div id="note-diagram"></div>
-
-  <div class="comment-card">
-    <div class="comment-label">相場ノート</div>
-    <textarea id="note-textarea" rows="16" placeholder="今日の相場感、トレード、気づきなどを自由に記録..." style="width:100%;min-height:320px;background:#0d1117;border:1px solid #1a2332;border-radius:6px;color:#c9d1d9;padding:12px;font-size:.85rem;line-height:1.6;resize:vertical;font-family:inherit"></textarea>
-    <button class="refresh-btn" style="margin-top:10px;width:100%" onclick="saveNote()">💾 保存</button>
-    <div id="note-save-msg" style="font-size:.7rem;color:#00ff88;margin-top:6px;display:none">✅ 保存しました</div>
-    <div id="note-token-hint" style="font-size:.68rem;color:#4a5568;margin-top:8px;display:none">
-      初回のみ：<a href="#" onclick="setupNoteToken();return false;" style="color:#00d4ff">GitHubトークンを設定</a>
-    </div>
-  </div>
-
-  <span class="slabel" style="margin-top:14px">📖 過去のノート</span>
-  <div id="note-history-list"><div style="color:#4a5568;font-size:.8rem">読込中...</div></div>
-</div>
 
 <div class="refresh-bar">
   <button class="refresh-btn" onclick="fetchAll()">▶ 今すぐ更新</button>
@@ -518,7 +496,7 @@ async function fetchAll(){
     window.FXDATA=d1;
     const outlook=r2.ok?await r2.json():{};
     const d2=r3&&r3.ok?await r3.json():{};
-    renderScores(d1);renderCot(d1);renderNews(d1);renderReasons(d1);renderAdmin(d2);renderOutlook(outlook);renderPairs(outlook,d1);renderEurUsdHorizon(outlook);renderRates(d1);renderNotePriceBar(d1);
+    renderScores(d1);renderCot(d1);renderNews(d1);renderReasons(d1);renderAdmin(d2);renderOutlook(outlook);renderPairs(outlook,d1);renderEurUsdHorizon(outlook);renderRates(d1);
     s.textContent='✅ '+d1.generated;
   }catch(e){s.textContent='📦 保存データ表示中';}
 }
@@ -847,7 +825,6 @@ function renderNotePriceBar(d){
 window.addEventListener('load',fetchAll);
 window.addEventListener('load',fetchMarkets);
 window.addEventListener('load',fetchHistory);
-window.addEventListener('load',loadNotes);
 setInterval(fetchAll,30*60*1000);
 
 
