@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-04T08:36:58.119045",
-  "generated": "2026年08月04日 08:36",
+  "timestamp": "2026-08-04T11:23:26.430406",
+  "generated": "2026年08月04日 11:23",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 0,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,45 +13,45 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
+      "pair": "GBPUSD",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "base_score": -1,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,53 +103,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold extends range play above $4,050 as Fed hike bets and Iran risks underpin USD",
-      "summary": "Gold (XAU/USD) struggles to attract any meaningful buyers and trades below the $4,100 mark during the first half of the "
+      "title": "Gold holds steady as traders weigh US-Iran talks, Fed outlook",
+      "summary": "Gold (XAU/USD) trades flat on Tuesday, extending its sideways grind as uncertainty surrounding US-Iran peace efforts and"
     },
     {
       "source": "FXStreet",
-      "title": "Turkish Lira: July inflation and FX rules weigh on lira – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose notes Turkey’s July Consumer Price Index (CPI) slowdown to 31.7% year-on-year masks still-stro"
+      "title": "British Pound finds footing at 1.3420 with markets awaiting US Job Openings data",
+      "summary": "The British Pound (GBP) edges higher against the US Dollar (USD) on Tuesday, reaching session highs above 1.3440 after f"
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Rates relief and CNB meeting – ING",
-      "summary": "ING strategist Frantisek Taborsky says Central and Eastern European markets opened positively, with rates markets outpri"
+      "title": "Indian Rupee struggles for direction as RBI policy awaited",
+      "summary": "The Indian Rupee (INR) trades flat at around 95.33 against the US Dollar (USD) on Tuesday. The Indian currency is expect"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures tick higher as easing Middle East tensions boost market sentiment",
-      "summary": "Dow Jones futures rise 0.17% to trade around 53,430 during European hours on Tuesday. Meanwhile, S&amp;P 500 futures gai"
+      "title": "Canadian Dollar: Trade surplus seen narrowing – TD Securities",
+      "summary": "TD Securities strategists expect Canada’s International Merchandise Trade surplus to narrow in June as weaker Oil prices"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound scales higher as fiscal concerns weigh on Yen",
-      "summary": "The GBP/JPY cross builds on the previous day's recovery move from the vicinity of mid-209.00s, or the lowest level in ne"
+      "title": "Gold Price Forecast: XAU/USD remains sideways around $4,050 during US NFP week",
+      "summary": "Gold price (XAU/USD) remains in a tight range at around $4,050 during the European trading session on Tuesday. The preci"
     },
     {
       "source": "FXStreet",
-      "title": "Experts agree: Last week’s intervention might have altered Yen outlook",
-      "summary": "The Japanese Yen (JPY) trims some gains against the US Dollar (USD) on Tuesday, with the USD/JPY pair picking up to the "
+      "title": "Japanese Yen weakens despite intervention warnings as USD/JPY rebounds near 158",
+      "summary": "USD/JPY trades around 157.95 on Tuesday at the time of writing, up 0.49% on the day."
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar holds gains amid Middle East uncertainty, hawkish Fed odds",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
+      "title": "USD/CHF Price Forecast: Dollar, capped at 0.8100, hints at a potential “H&S” pattern",
+      "summary": "The US Dollar (USD) shows marginal losses against the Swiss Franc (CHF) on Tuesday, as Dollar bulls struggle to find acc"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Gains against US Dollar to remain limited – TD Securities",
-      "summary": "TD Securities strategists argue that recent Japanese Ministry of Finance (MoF) interventions and talk of joint United St"
+      "title": "US Dollar Index: Downside bias within defined range – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that the USD Index bias has shifted to the downside after failing to b"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee trades flat as RBI policy takes centre stage",
-      "summary": "The Indian Rupee (INR) trades flat at around 95.33 against the US Dollar (USD) in the opening session on Tuesday. The In"
+      "title": "Indian Rupee: RBI pause and Special swap inflows – DBS",
+      "summary": "DBS economist Radhika Rao expects the RBI MPC to keep the benchmark rate at 5.25% with a neutral stance and cautious gui"
     },
     {
       "source": "FXStreet",
-      "title": "Brent: Sharp drop questions supply fears – Rabobank",
-      "summary": "Rabobank’s Senior Market Strategist Benjamin Picton notes Brent futures fell over 7% and Singapore gasoil nearly 11%, de"
+      "title": "Japanese Yen: Managed JPY signals new order – Rabobank",
+      "summary": "Rabobank’s Senior Market Strategist Benjamin Picton highlights coordinated action between the US Treasury and Japan’s Mi"
     },
     {
       "source": "Investing",
@@ -192,10 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar holds gains amid Middle East uncer"
+      "[弱気] Canadian Dollar: Trade surplus seen narrowing – TD Secu",
+      "[弱気] Japanese Yen weakens despite intervention warnings as U"
     ],
-    "EUR": [
-      "[強気] United States Dollar holds gains amid Middle East uncer"
+    "JPY": [
+      "[弱気] Japanese Yen weakens despite intervention warnings as U"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -223,18 +224,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.19512,
-      "today_close": 157.77004,
+      "today_close": 157.70546,
       "prev_close": 157.20071,
-      "diff": 0.5693,
-      "diff_pct": 0.36
+      "diff": 0.5048,
+      "diff_pct": 0.32
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.77004,
-      "sma20": 161.5814,
-      "sma50": 161.6751,
-      "sma200": 158.8562,
+      "latest": 157.70546,
+      "sma20": 161.5782,
+      "sma50": 161.6739,
+      "sma200": 158.8558,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -243,11 +244,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -1.11,
-      "chg20d_pct": -2.73
+      "chg5d_pct": -1.15,
+      "chg20d_pct": -2.77
     },
     "EURUSD": {
-      "latest": 1.1509,
+      "latest": 1.15194,
       "sma20": 1.1443,
       "sma50": 1.1435,
       "sma200": 1.1622,
@@ -259,8 +260,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.16,
-      "chg20d_pct": 0.4
+      "chg5d_pct": -0.07,
+      "chg20d_pct": 0.49
     }
   }
 }
