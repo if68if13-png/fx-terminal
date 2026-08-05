@@ -1,17 +1,24 @@
 {
-  "timestamp": "2026-08-05T11:21:17.154423",
-  "generated": "2026年08月05日 11:21",
+  "timestamp": "2026-08-05T14:09:26.910538",
+  "generated": "2026年08月05日 14:09",
   "scores": {
     "USD": 4,
-    "JPY": 1,
-    "EUR": 0,
-    "GBP": 3,
+    "JPY": 0,
+    "EUR": -1,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -20,39 +27,32 @@
       "quote_score": 4
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
+      "diff": 4,
       "base_score": 4,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 3,
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
       "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold advances to one-month high as Hormuz reopening hopes ease inflation fears",
-      "summary": "Gold (XAU/USD) climbs to a one-month high on Wednesday as renewed optimism over the reopening of the Strait of Hormuz se"
+      "title": "Breaking: ISM Services PMI came in at 54.1 in July",
+      "summary": "Fresh data from the Institute for Supply Management (ISM) showed the Services PMI improving a tad to 54.1 in July from 5"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Soft labor firmer services outlook – TD Securities",
-      "summary": "TD Securities strategists notes that United States (US) JOLTS job openings fell more than expected in June, though they "
+      "title": "New Zealand Dollar: Labor slack tempers strong jobs data – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the New Zealand Dollar and local yields slumped after strong Q2 emplo"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index trades subduedly below 100.00 ahead of US data",
-      "summary": "The US Dollar (USD) reflects a subdued performance against its peers ahead of the United States (US) ADP Employment Chan"
+      "title": "Japanese Yen: Intervention drop seen capped near 153 – TD Securities",
+      "summary": "TD Securities strategists see the recent intervention-driven USD/JPY decline as cyclical rather than regime-changing. Th"
     },
     {
       "source": "FXStreet",
-      "title": "ADP Employment Report expected to point to a resilient labor market in July",
-      "summary": "The Automatic Data Processing (ADP) Research Institute will release its monthly report on private-sector job creation fo"
+      "title": "British Pound: Sterling pressured into autumn against Euro – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses recent British Pound (GBP) weakness versus the Euro (EUR), linking "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound extends gains to 212.50 against the Yen after upbeat UK services data",
-      "summary": "The British Pound (GBP) extends gains for the second consecutive day against the Japanese Yen (JPY) on Wednesday, with t"
+      "title": "Gold nears $4,200 on softer US labour data as Fed outlook turns less hawkish",
+      "summary": "Gold (XAU/USD) jumps more than 2.50% on Wednesday as weaker-than-expected US labour market data pressures the US Dollar "
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee surrenders some gains, RBI maintain status quo again",
-      "summary": "The Indian Rupee (INR) surrenders some gains after a strong opening against the US Dollar (USD), following the Reserve B"
+      "title": "Strategists lower Euro forecasts, remain skeptical over Yen interventions – Reuters",
+      "summary": "Reuters’ latest poll of foreign exchange strategists shows a modest downward revision in Euro (EUR) forecasts while high"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: Dovish MPC hold supports prolonged pause – Standard Chartered",
-      "summary": "Standard Chartered Bank economists Saurav Anand and Anubhuti Sahay note that India’s Monetary Policy Committee (MPC) kep"
+      "title": "Indian Rupee: RBI stance and inflows support Rupee – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports USD/INR is firmer after recently testing a one‑month low, following"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Gains seen while below 160.00 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY price action as muted, with the pair confin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD hits fresh weekly highs beyond the top of a triangle pattern",
-      "summary": "Gold (XAU/USD) has accelerated its recovery on Wednesday, favoured by a softer US Dollar as lower Oil prices and downbea"
+      "title": "Brazilian Real: Limited policy easing caps FX impact – Commerzbank",
+      "summary": "Commerzbank’s Norman Liebke notes that markets expect a further 25 bps cut from the Brazilian Central Bank (BCB), but re"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Strategy sold 1,638 bitcoin last week",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,15 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Indian Rupee surrenders some gains, RBI maintain status",
-      "[強気] Gold Price Forecast: XAU/USD hits fresh weekly highs be"
+      "[強気] New Zealand Dollar: Labor slack tempers strong jobs dat",
+      "[強気] Gold nears $4,200 on softer US labour data as Fed outlo"
     ],
-    "JPY": [
-      "[強気] British Pound extends gains to 212.50 against the Yen a"
+    "EUR": [
+      "[弱気] British Pound: Sterling pressured into autumn against E"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound extends gains to 212.50 against the Yen a"
+      "[弱気] British Pound: Sterling pressured into autumn against E"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -225,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74145,
-      "today_close": 157.5644,
+      "today_close": 157.35906,
       "prev_close": 157.73525,
-      "diff": -0.1709,
-      "diff_pct": -0.11
+      "diff": -0.3762,
+      "diff_pct": -0.24
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.5644,
-      "sma20": 161.339,
-      "sma50": 161.6163,
-      "sma200": 158.853,
+      "latest": 157.35906,
+      "sma20": 161.3287,
+      "sma50": 161.6121,
+      "sma200": 158.852,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": -2.96
+      "chg5d_pct": -0.06,
+      "chg20d_pct": -3.09
     },
     "EURUSD": {
-      "latest": 1.15466,
+      "latest": 1.15546,
       "sma20": 1.1449,
       "sma50": 1.1434,
       "sma200": 1.1621,
@@ -261,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.14,
-      "chg20d_pct": 0.9
+      "chg5d_pct": 0.21,
+      "chg20d_pct": 0.97
     }
   }
 }
