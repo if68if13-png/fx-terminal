@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-05T19:34:51.312316",
-  "generated": "2026年08月05日 19:34",
+  "timestamp": "2026-08-05T22:13:06.361049",
+  "generated": "2026年08月05日 22:13",
   "scores": {
-    "USD": -1,
-    "JPY": -1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
-    },
-    {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": -1
+      "quote_score": 2
     },
     {
       "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 0,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": -1
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": -1,
-      "quote_score": -1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,28 +103,38 @@
     },
     {
       "source": "FXStreet",
+      "title": "Indonesia: Growth-inflation mix supports steady BI stance – DBS",
+      "summary": "DBS Group Research economist Radhika Rao notes Indonesia’s onshore markets are focused on the appointment of a new Bank "
+    },
+    {
+      "source": "FXStreet",
+      "title": "South Korean Won: Strength extends on intervention talk against US Dollar – Commerzbank",
+      "summary": "Commerzbank economists highlight ongoing Korean Won (KRW) appreciation against the Dollar. USD/KRW slipped 0.1% to 1,430"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed Cook backs hold but warns rate hike possible if disinflation stalls",
+      "summary": "Fed Governor Lisa Cook said she supported leaving rates unchanged at the last Federal Open Market Committee (FOMC) meeti"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Break of 1.2790 may unlock further gains – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD was broadly flat on Tuesday, with SGD NEER trad"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso extends nine-day gains as Gulf War de-escalates",
+      "summary": "The Mexican Peso extends its gains for the ninth consecutive day on Wednesday, as the US Dollar remains on the back foot"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japan: Passive foreign interest limits upside – BNY",
+      "summary": "BNY’s Geoff Yu notes that foreign demand for Japanese equities remains subdued compared with interest in JPY and JGBs."
+    },
+    {
+      "source": "FXStreet",
       "title": "Euro advances as US labor data disappoints",
       "summary": "EUR/USD trades on the front foot near 1.1560 on Wednesday, adding around 0.2% as a weak United States (US) labor market "
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Range trade holds ahead of Q2 GDP against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the British Pound (GBP) is slightly firmer versus the US Doll"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc gains as US economic data disappoints and Fed hike bets weaken",
-      "summary": "The Swiss Franc (CHF) strengthens against the US Dollar (USD) on Wednesday as weaker-than-expected US economic data pres"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen consolidates as traders weigh weak US data, market sentiment",
-      "summary": "USD/JPY trades around 157.65 on Wednesday at the time of writing, little changed on the day, as weakness in the US Dolla"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar slips as ADP collapse offsets hot services",
-      "summary": "The US Dollar Index (DXY), which tracks the performance of the US Dollar (USD) against a basket of six major currencies,"
     },
     {
       "source": "Investing",
@@ -177,12 +187,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro advances as US labor data disappoints",
-      "[弱気] Swiss Franc gains as US economic data disappoints and F",
-      "[弱気] Japanese Yen consolidates as traders weigh weak US data"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen consolidates as traders weigh weak US data"
+      "[強気] Fed Cook backs hold but warns rate hike possible if dis",
+      "[弱気] Euro advances as US labor data disappoints"
     ],
     "EUR": [
       "[弱気] Euro advances as US labor data disappoints"
@@ -196,64 +202,61 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc gains as US economic data disappoints and F"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.7,
+    "US_10Y": 4.63,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.03,
-    "DIFF_EURUSD": -1.73,
-    "DIFF_GBPUSD": 0.1,
-    "DIFF_AUDUSD": 0.13
+    "DIFF_USDJPY": 1.96,
+    "DIFF_EURUSD": -1.66,
+    "DIFF_GBPUSD": 0.17,
+    "DIFF_AUDUSD": 0.2
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.74145,
-      "today_close": 157.72492,
-      "prev_close": 157.73525,
-      "diff": -0.0103,
-      "diff_pct": -0.01
+      "today_open": 157.77244,
+      "today_close": 157.71228,
+      "prev_close": 157.77151,
+      "diff": -0.0592,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.72492,
-      "sma20": 161.347,
-      "sma50": 161.6195,
-      "sma200": 158.8538,
+      "latest": 157.71228,
+      "sma20": 161.1144,
+      "sma50": 161.5615,
+      "sma200": 158.8537,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 65.4,
+      "rsi14": 58.5,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": -2.87
+      "chg5d_pct": 0.06,
+      "chg20d_pct": -2.89
     },
     "EURUSD": {
-      "latest": 1.15497,
-      "sma20": 1.1449,
-      "sma50": 1.1434,
+      "latest": 1.15536,
+      "sma20": 1.1455,
+      "sma50": 1.1435,
       "sma200": 1.1621,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 46.8,
+      "rsi14": 49.1,
       "high20": 1.156,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": 0.93
+      "chg5d_pct": 0.18,
+      "chg20d_pct": 1.01
     }
   }
 }
