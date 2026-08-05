@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-04T22:12:26.697772",
-  "generated": "2026年08月04日 22:12",
+  "timestamp": "2026-08-05T02:32:18.376757",
+  "generated": "2026年08月05日 02:32",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
+    "USD": 2,
+    "JPY": 1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
+      "quote_score": 2
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Strengthening toward 6.7300 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang sees USD/CNH trading slightly higher within a developing range, with intrada"
+      "title": "United States Dollar Index declines amid easing safe-haven demand",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
     },
     {
       "source": "FXStreet",
-      "title": "Vietnam Dong: Stable despite widening trade deficit – Commerzbank",
-      "summary": "Commerzbank analysts note that Vietnam’s July inflation eased to 4.5% year-on-year, keeping the average near the 4.5% ta"
+      "title": "British Pound weakens as US Dollar gains despite easing safe-haven demand",
+      "summary": "GBP/USD edges lower after registering modest gains in the previous day, trading around 1.3450 during the Asian hours on "
     },
     {
       "source": "FXStreet",
-      "title": "Nothing Britain does moves the Pound against the Dollar",
-      "summary": "The Pound Sterling (GBP) trades near 1.3450 against the US Dollar (USD) on Tuesday, higher by 0.11% inside a session ran"
+      "title": "Euro edges lower below 1.1550 on Hormuz uncertainty",
+      "summary": "The EUR/USD pair trades with mild losses near 1.1530 during the Asian trading hours on Wednesday. Uncertainty surroundin"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Gains risk watched below 1.2790 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes USD/SGD’s recent downside bias has faded after a dip to 1.2790 and rec"
+      "title": "Australian Dollar consolidates near 0.7050, highest since June 17 amid reviving USD demand",
+      "summary": "The AUD/USD pair struggles to break through the 100-day Simple Moving Average (SMA) pivotal barrier near mid-0.7000s and"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso rallies to six-week high on Hormuz deal speculation",
-      "summary": "The Mexican Peso (MXN) surges to a six-week high on Tuesday as talks between the US and Iran could reopen the Strait of "
+      "title": "RBI expected to keep interest rates unchanged as data-dependent stance persists",
+      "summary": "The Reserve Bank of India (RBI) is set to announce its bi-monthly monetary policy decision on Wednesday at 10:00 AM IST "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: PMI weakness boosts easing expectations – Commerzbank",
-      "summary": "Commerzbank economist Dr. Henry Hao highlights that China’s private manufacturing PMI fell to 50.9 in July, reinforcing "
+      "title": "China’s RatingDog Services PMI eases to 50.4 in July, vs. 53.7 expected",
+      "summary": "China's Services Purchasing Managers' Index (PMI) declined to 50.4 in July from 54.1 in June, the latest data published "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Range trade with upside risk against US Dollar – Scotiabank",
-      "summary": "Scotiabank’s Global FX Strategy team notes that Sterling remains modestly firmer, with GBP/USD continuing to pivot aroun"
+      "title": "Japanese Yen edges higher on upbeat wages data, hawkish BoJ Minutes and soft USD",
+      "summary": "The USD/JPY pair struggles to capitalize on this week's solid bounce from the 155.25-155.20 area, or the lowest level si"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: 200-day SMA caps rebound after intervention-led selloff",
-      "summary": "USD/JPY trades modestly higher on Tuesday despite a softer US Dollar (USD), as the impact of recent intervention fades a"
+      "title": "PBOC sets USD/CNY reference rate at 6.7889 vs. 6.7917 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7889 co"
     },
     {
       "source": "Investing",
@@ -192,12 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Chinese Yuan: Strengthening toward 6.7300 against US Do",
-      "[強気] Vietnam Dong: Stable despite widening trade deficit – C",
-      "[強気] Mexican Peso rallies to six-week high on Hormuz deal sp"
+      "[弱気] British Pound weakens as US Dollar gains despite easing",
+      "[強気] Japanese Yen edges higher on upbeat wages data, hawkish"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen edges higher on upbeat wages data, hawkish"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound weakens as US Dollar gains despite easing"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -222,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74145,
-      "today_close": 157.70622,
+      "today_close": 157.48854,
       "prev_close": 157.73525,
-      "diff": -0.029,
-      "diff_pct": -0.02
+      "diff": -0.2467,
+      "diff_pct": -0.16
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.70622,
-      "sma20": 161.3461,
-      "sma50": 161.6191,
-      "sma200": 158.8538,
+      "latest": 157.48854,
+      "sma20": 161.3352,
+      "sma50": 161.6147,
+      "sma200": 158.8527,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -242,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.16,
-      "chg20d_pct": -2.88
+      "chg5d_pct": 0.02,
+      "chg20d_pct": -3.01
     },
     "EURUSD": {
-      "latest": 1.15305,
+      "latest": 1.15343,
       "sma20": 1.1448,
       "sma50": 1.1434,
       "sma200": 1.1621,
@@ -258,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.0,
-      "chg20d_pct": 0.76
+      "chg5d_pct": 0.03,
+      "chg20d_pct": 0.8
     }
   }
 }
