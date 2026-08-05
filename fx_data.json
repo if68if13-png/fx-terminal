@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-05T08:36:25.973512",
-  "generated": "2026年08月05日 08:36",
+  "timestamp": "2026-08-05T11:21:17.154423",
+  "generated": "2026年08月05日 11:21",
   "scores": {
     "USD": 4,
-    "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
-    "AUD": 0,
+    "JPY": 1,
+    "EUR": 0,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 0,
       "quote_score": 4
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 3,
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,48 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Policy follow-up needed for renewed demand – BNY",
-      "summary": "BNY’s Geoff Yu argues that coordinated intervention has not significantly increased foreign exposure to the Japanese Yen"
+      "title": "Gold advances to one-month high as Hormuz reopening hopes ease inflation fears",
+      "summary": "Gold (XAU/USD) climbs to a one-month high on Wednesday as renewed optimism over the reopening of the Strait of Hormuz se"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures gain on expected US-Iran agreement to reopen Hormuz",
-      "summary": "Dow Jones futures rise 0.23% to trade around 54,390 during European hours on Wednesday. Meanwhile, S&amp;P 500 futures g"
+      "title": "US Dollar: Soft labor firmer services outlook – TD Securities",
+      "summary": "TD Securities strategists notes that United States (US) JOLTS job openings fell more than expected in June, though they "
     },
     {
       "source": "FXStreet",
-      "title": "ADP Employment Report expected to show a steady labor market in July",
+      "title": "United States Dollar Index trades subduedly below 100.00 ahead of US data",
+      "summary": "The US Dollar (USD) reflects a subdued performance against its peers ahead of the United States (US) ADP Employment Chan"
+    },
+    {
+      "source": "FXStreet",
+      "title": "ADP Employment Report expected to point to a resilient labor market in July",
       "summary": "The Automatic Data Processing (ADP) Research Institute will release its monthly report on private-sector job creation fo"
     },
     {
       "source": "FXStreet",
-      "title": "Euro steadies around 1.1540 after an upward revision of Eurozone's Services PMI",
-      "summary": "The Euro (EUR) holds marginal gains against the US Dollar (USD) on Wednesday, with the EUR/USD pair consolidating around"
+      "title": "British Pound extends gains to 212.50 against the Yen after upbeat UK services data",
+      "summary": "The British Pound (GBP) extends gains for the second consecutive day against the Japanese Yen (JPY) on Wednesday, with t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold clings to gains near one-month top as receding Fed rate hike bets undermine USD",
-      "summary": "Gold (XAU/USD) maintains its strong bid tone through the first half of the European session and currently trades around "
+      "title": "Indian Rupee surrenders some gains, RBI maintain status quo again",
+      "summary": "The Indian Rupee (INR) surrenders some gains after a strong opening against the US Dollar (USD), following the Reserve B"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Upward momentum capped by 0.7075 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann notes AUD/USD rebounded strongly to close at 0.7047 after an"
+      "title": "Indian Rupee: Dovish MPC hold supports prolonged pause – Standard Chartered",
+      "summary": "Standard Chartered Bank economists Saurav Anand and Anubhuti Sahay note that India’s Monetary Policy Committee (MPC) kep"
     },
     {
       "source": "FXStreet",
-      "title": "Euro rises against Japanese Yen following PMI data",
-      "summary": "EUR/JPY holds ground after registering over 0.5% gains in the previous day, trading around 182.00 during the European ho"
+      "title": "Japanese Yen: Gains seen while below 160.00 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY price action as muted, with the pair confin"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Bearish bias persists below 0.8100 confluence hurdle",
-      "summary": "The USD/CHF pair reverses a modest intraday dip and touches a fresh daily high during the early European session on Wedn"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen struggles against US Dollar ahead of US private employment data",
-      "summary": "The Japanese Yen (JPY) gives back its early gains and flattens at around 157.70 against the US Dollar (USD) during the E"
+      "title": "Gold Price Forecast: XAU/USD hits fresh weekly highs beyond the top of a triangle pattern",
+      "summary": "Gold (XAU/USD) has accelerated its recovery on Wednesday, favoured by a softer US Dollar as lower Oil prices and downbea"
     },
     {
       "source": "Investing",
@@ -192,19 +192,19 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold clings to gains near one-month top as receding Fed",
-      "[強気] Australian Dollar: Upward momentum capped by 0.7075 aga"
+      "[強気] Indian Rupee surrenders some gains, RBI maintain status",
+      "[強気] Gold Price Forecast: XAU/USD hits fresh weekly highs be"
     ],
-    "EUR": [
-      "[強気] Gold clings to gains near one-month top as receding Fed"
+    "JPY": [
+      "[強気] British Pound extends gains to 212.50 against the Yen a"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound extends gains to 212.50 against the Yen a"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)",
-      "[強気] Australian Dollar: Upward momentum capped by 0.7075 aga"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -225,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74145,
-      "today_close": 157.82639,
+      "today_close": 157.5644,
       "prev_close": 157.73525,
-      "diff": 0.0911,
-      "diff_pct": 0.06
+      "diff": -0.1709,
+      "diff_pct": -0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.82639,
-      "sma20": 161.3521,
-      "sma50": 161.6215,
-      "sma200": 158.8544,
+      "latest": 157.5644,
+      "sma20": 161.339,
+      "sma50": 161.6163,
+      "sma200": 158.853,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.23,
-      "chg20d_pct": -2.8
+      "chg5d_pct": 0.07,
+      "chg20d_pct": -2.96
     },
     "EURUSD": {
-      "latest": 1.15418,
+      "latest": 1.15466,
       "sma20": 1.1449,
       "sma50": 1.1434,
       "sma200": 1.1621,
@@ -261,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.1,
-      "chg20d_pct": 0.86
+      "chg5d_pct": 0.14,
+      "chg20d_pct": 0.9
     }
   }
 }

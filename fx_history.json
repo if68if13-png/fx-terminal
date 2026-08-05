@@ -23,10 +23,10 @@
     },
     "scores": {
       "USD": 4,
-      "JPY": 0,
-      "EUR": 1,
-      "GBP": 2,
-      "AUD": 0,
+      "JPY": 1,
+      "EUR": 0,
+      "GBP": 3,
+      "AUD": -1,
       "NZD": 2,
       "CAD": 0,
       "CHF": 0
