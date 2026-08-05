@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-05T02:32:18.376757",
-  "generated": "2026年08月05日 02:32",
+  "timestamp": "2026-08-05T05:46:28.897973",
+  "generated": "2026年08月05日 05:46",
   "scores": {
-    "USD": 2,
-    "JPY": 1,
-    "EUR": 0,
-    "GBP": 1,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": -1,
+    "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": 0,
+    "NZD": 1,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index declines amid easing safe-haven demand",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
+      "title": "New Zealand Dollar weakens below 0.5900 as Unemployment Rate jumps to highest since 2015",
+      "summary": "The NZD/USD pair weakens to near 0.5870 during the early European trading hours on Wednesday. The New Zealand Dollar att"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound weakens as US Dollar gains despite easing safe-haven demand",
-      "summary": "GBP/USD edges lower after registering modest gains in the previous day, trading around 1.3450 during the Asian hours on "
+      "title": "Gold hits fresh two-week high, eyes $4,150 on fading Fed hike bets, Iran hopes, soft USD",
+      "summary": "Gold (XAU/USD) gains strong follow-through traction for the second straight day and rallies to a nearly two-week top, ar"
     },
     {
       "source": "FXStreet",
-      "title": "Euro edges lower below 1.1550 on Hormuz uncertainty",
-      "summary": "The EUR/USD pair trades with mild losses near 1.1530 during the Asian trading hours on Wednesday. Uncertainty surroundin"
+      "title": "Indian Rupee gives back mild gains after RBI leaves Repo Rate steady at 5.25%",
+      "summary": "The Indian Rupee (INR) surrenders mild gains after a strong opening against the US Dollar (USD), following the Reserve B"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar consolidates near 0.7050, highest since June 17 amid reviving USD demand",
-      "summary": "The AUD/USD pair struggles to break through the 100-day Simple Moving Average (SMA) pivotal barrier near mid-0.7000s and"
+      "title": "Indonesian Rupiah remains stronger on strong domestic GDP",
+      "summary": "USD/IDR depreciates after registering minor gains in the previous day, trading around 17,970 during the Asian hours on W"
     },
     {
       "source": "FXStreet",
-      "title": "RBI expected to keep interest rates unchanged as data-dependent stance persists",
-      "summary": "The Reserve Bank of India (RBI) is set to announce its bi-monthly monetary policy decision on Wednesday at 10:00 AM IST "
+      "title": "RBI keeps the Repo Rate unchanged at 5.25% in August, as expected",
+      "summary": "The Reserve Bank of India’s (RBI) Monetary Policy Committee (MPC) announced on Wednesday that it held the benchmark Repo"
     },
     {
       "source": "FXStreet",
-      "title": "China’s RatingDog Services PMI eases to 50.4 in July, vs. 53.7 expected",
-      "summary": "China's Services Purchasing Managers' Index (PMI) declined to 50.4 in July from 54.1 in June, the latest data published "
+      "title": "Swiss Franc gains as easing risk aversion weighs on US Dollar",
+      "summary": "USD/CHF extends its losses for the second successive day, trading around 0.8080 during the Asian hours on Wednesday."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen edges higher on upbeat wages data, hawkish BoJ Minutes and soft USD",
-      "summary": "The USD/JPY pair struggles to capitalize on this week's solid bounce from the 155.25-155.20 area, or the lowest level si"
+      "title": "Canadian Dollar hangs near one-week low as weak oil prices counter USD downtick",
+      "summary": "The USD/CAD pair trades with a positive bias for the fourth straight day and currently hovers around the 1.4070 region, "
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7889 vs. 6.7917 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7889 co"
+      "title": "EUR/JPY Price Forecast: Softens below 182.00 on intervention risks, bearish outlook prevails",
+      "summary": "The EUR/JPY cross trades in negative territory around 181.70 during the early European trading hours on Wednesday."
     },
     {
       "source": "Investing",
@@ -192,22 +192,28 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound weakens as US Dollar gains despite easing",
-      "[強気] Japanese Yen edges higher on upbeat wages data, hawkish"
+      "[弱気] New Zealand Dollar weakens below 0.5900 as Unemployment",
+      "[強気] Gold hits fresh two-week high, eyes $4,150 on fading Fe",
+      "[強気] Indian Rupee gives back mild gains after RBI leaves Rep",
+      "[強気] Indonesian Rupiah remains stronger on strong domestic G",
+      "[弱気] Canadian Dollar hangs near one-week low as weak oil pri"
     ],
-    "JPY": [
-      "[強気] Japanese Yen edges higher on upbeat wages data, hawkish"
+    "EUR": [
+      "[弱気] New Zealand Dollar weakens below 0.5900 as Unemployment"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound weakens as US Dollar gains despite easing"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar weakens below 0.5900 as Unemployment"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar hangs near one-week low as weak oil pri"
     ]
   },
   "rates": {
@@ -225,18 +231,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74145,
-      "today_close": 157.48854,
+      "today_close": 157.6286,
       "prev_close": 157.73525,
-      "diff": -0.2467,
-      "diff_pct": -0.16
+      "diff": -0.1067,
+      "diff_pct": -0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.48854,
-      "sma20": 161.3352,
-      "sma50": 161.6147,
-      "sma200": 158.8527,
+      "latest": 157.6286,
+      "sma20": 161.3422,
+      "sma50": 161.6175,
+      "sma200": 158.8534,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,12 +251,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.02,
-      "chg20d_pct": -3.01
+      "chg5d_pct": 0.11,
+      "chg20d_pct": -2.93
     },
     "EURUSD": {
-      "latest": 1.15343,
-      "sma20": 1.1448,
+      "latest": 1.15363,
+      "sma20": 1.1449,
       "sma50": 1.1434,
       "sma200": 1.1621,
       "vs_sma20": "上",
@@ -261,8 +267,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": 0.8
+      "chg5d_pct": 0.05,
+      "chg20d_pct": 0.81
     }
   }
 }
