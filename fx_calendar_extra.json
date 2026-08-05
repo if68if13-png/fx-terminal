@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-08-05 23:09 JST",
+  "generated_at_jst": "2026-08-06 01:42 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,22 +7,8 @@
     "mag7": "live (2件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 120,
+  "count": 119,
   "events": [
-    {
-      "date": "2026-08-05",
-      "time": "17:00",
-      "tz": "JST",
-      "title": "ユーロ圏 サービス業・総合PMI 確報",
-      "short": "★ 欧サービスPMI",
-      "category": "indicator",
-      "country": "EU",
-      "impact": "low",
-      "note": null,
-      "confirmed": false,
-      "source": "S&P Global (公表ルールから算出)",
-      "id": "2026-08-05|ユーロ圏 サービス業・総合PMI 確報"
-    },
     {
       "date": "2026-08-21",
       "time": "08:30",

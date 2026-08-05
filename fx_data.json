@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-08-05T14:09:26.910538",
-  "generated": "2026年08月05日 14:09",
+  "timestamp": "2026-08-05T16:42:23.037778",
+  "generated": "2026年08月05日 16:42",
   "scores": {
-    "USD": 4,
+    "USD": -1,
     "JPY": 0,
-    "EUR": -1,
-    "GBP": 1,
-    "AUD": -1,
+    "EUR": 1,
+    "GBP": 2,
+    "AUD": -2,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURJPY",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": -1,
       "base_score": -1,
       "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -2,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: ISM Services PMI came in at 54.1 in July",
-      "summary": "Fresh data from the Institute for Supply Management (ISM) showed the Services PMI improving a tad to 54.1 in July from 5"
+      "title": "Japanese Yen consolidates as traders weigh weak US data, market sentiment",
+      "summary": "USD/JPY trades around 157.65 on Wednesday at the time of writing, little changed on the day, as weakness in the US Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: Labor slack tempers strong jobs data – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the New Zealand Dollar and local yields slumped after strong Q2 emplo"
+      "title": "US Dollar slips as ADP collapse offsets hot services",
+      "summary": "The US Dollar Index (DXY), which tracks the performance of the US Dollar (USD) against a basket of six major currencies,"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention drop seen capped near 153 – TD Securities",
-      "summary": "TD Securities strategists see the recent intervention-driven USD/JPY decline as cyclical rather than regime-changing. Th"
+      "title": "British Pound rises as soft ADP jobs report weighs on Dollar, NFP looms",
+      "summary": "The Pound Sterling (GBP) advances some 0.12% on Wednesday as the US Dollar (USD) registers back-to-back days of losses, "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Sterling pressured into autumn against Euro – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses recent British Pound (GBP) weakness versus the Euro (EUR), linking "
+      "title": "Silver Price Forecast: Daily momentum improves, but weekly outlook stays bearish",
+      "summary": "Silver (XAG/USD) jumps more than 4% on Wednesday as weaker-than-expected US ADP employment data and easing energy-driven"
     },
     {
       "source": "FXStreet",
-      "title": "Gold nears $4,200 on softer US labour data as Fed outlook turns less hawkish",
-      "summary": "Gold (XAU/USD) jumps more than 2.50% on Wednesday as weaker-than-expected US labour market data pressures the US Dollar "
+      "title": "Euro steadies against Japanese Yen as Eurozone PMIs beat forecasts",
+      "summary": "EUR/JPY trades broadly flat near 181.94 on Wednesday, up a marginal 0.01% as the cross pauses after a steady four-sessio"
     },
     {
       "source": "FXStreet",
-      "title": "Strategists lower Euro forecasts, remain skeptical over Yen interventions – Reuters",
-      "summary": "Reuters’ latest poll of foreign exchange strategists shows a modest downward revision in Euro (EUR) forecasts while high"
+      "title": "Australian Dollar climbs as softer US data, improving risk sentiment weigh on USD",
+      "summary": "AUD/USD trades around 0.7060 on Wednesday at the time of writing, up 0.20% on the day. The pair benefits from broad-base"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: RBI stance and inflows support Rupee – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports USD/INR is firmer after recently testing a one‑month low, following"
+      "title": "Euro: Recovery holds within 1.15–1.16 band against US Dollar  – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret describe the Euro (EUR) as steady in the mid-to-lower 1.15 area, t"
     },
     {
       "source": "FXStreet",
-      "title": "Brazilian Real: Limited policy easing caps FX impact – Commerzbank",
-      "summary": "Commerzbank’s Norman Liebke notes that markets expect a further 25 bps cut from the Brazilian Central Bank (BCB), but re"
+      "title": "US Dollar: Limited downside on softer payrolls – TD Securities",
+      "summary": "TD Securities strategists expect only modest US Dollar (USD) weakness if July payrolls or the unemployment rate disappoi"
     },
     {
       "source": "Investing",
@@ -192,19 +192,24 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: Labor slack tempers strong jobs dat",
-      "[強気] Gold nears $4,200 on softer US labour data as Fed outlo"
+      "[弱気] Japanese Yen consolidates as traders weigh weak US data",
+      "[弱気] Australian Dollar climbs as softer US data, improving r",
+      "[弱気] US Dollar: Limited downside on softer payrolls – TD Sec"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen consolidates as traders weigh weak US data",
+      "[強気] Euro steadies against Japanese Yen as Eurozone PMIs bea"
     ],
     "EUR": [
-      "[弱気] British Pound: Sterling pressured into autumn against E"
+      "[強気] Euro steadies against Japanese Yen as Eurozone PMIs bea"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: Sterling pressured into autumn against E"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)",
+      "[弱気] Australian Dollar climbs as softer US data, improving r"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -225,18 +230,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74145,
-      "today_close": 157.35906,
+      "today_close": 157.6771,
       "prev_close": 157.73525,
-      "diff": -0.3762,
-      "diff_pct": -0.24
+      "diff": -0.0582,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.35906,
-      "sma20": 161.3287,
-      "sma50": 161.6121,
-      "sma200": 158.852,
+      "latest": 157.6771,
+      "sma20": 161.3446,
+      "sma50": 161.6185,
+      "sma200": 158.8536,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +250,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.06,
-      "chg20d_pct": -3.09
+      "chg5d_pct": 0.14,
+      "chg20d_pct": -2.9
     },
     "EURUSD": {
-      "latest": 1.15546,
+      "latest": 1.15445,
       "sma20": 1.1449,
       "sma50": 1.1434,
       "sma200": 1.1621,
@@ -261,8 +266,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.21,
-      "chg20d_pct": 0.97
+      "chg5d_pct": 0.12,
+      "chg20d_pct": 0.89
     }
   }
 }
