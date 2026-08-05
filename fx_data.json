@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-05T16:42:23.037778",
-  "generated": "2026年08月05日 16:42",
+  "timestamp": "2026-08-05T19:34:51.312316",
+  "generated": "2026年08月05日 19:34",
   "scores": {
     "USD": -1,
-    "JPY": 0,
-    "EUR": 1,
+    "JPY": -1,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
@@ -20,39 +20,39 @@
       "quote_score": -1
     },
     {
-      "pair": "EURUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
-    },
-    {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": -1,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
     },
     {
       "pair": "AUDUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -2,
+      "diff": 0,
+      "base_score": -1,
       "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,6 +103,21 @@
     },
     {
       "source": "FXStreet",
+      "title": "Euro advances as US labor data disappoints",
+      "summary": "EUR/USD trades on the front foot near 1.1560 on Wednesday, adding around 0.2% as a weak United States (US) labor market "
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound: Range trade holds ahead of Q2 GDP against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the British Pound (GBP) is slightly firmer versus the US Doll"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc gains as US economic data disappoints and Fed hike bets weaken",
+      "summary": "The Swiss Franc (CHF) strengthens against the US Dollar (USD) on Wednesday as weaker-than-expected US economic data pres"
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen consolidates as traders weigh weak US data, market sentiment",
       "summary": "USD/JPY trades around 157.65 on Wednesday at the time of writing, little changed on the day, as weakness in the US Dolla"
     },
@@ -110,36 +125,6 @@
       "source": "FXStreet",
       "title": "US Dollar slips as ADP collapse offsets hot services",
       "summary": "The US Dollar Index (DXY), which tracks the performance of the US Dollar (USD) against a basket of six major currencies,"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound rises as soft ADP jobs report weighs on Dollar, NFP looms",
-      "summary": "The Pound Sterling (GBP) advances some 0.12% on Wednesday as the US Dollar (USD) registers back-to-back days of losses, "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: Daily momentum improves, but weekly outlook stays bearish",
-      "summary": "Silver (XAG/USD) jumps more than 4% on Wednesday as weaker-than-expected US ADP employment data and easing energy-driven"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro steadies against Japanese Yen as Eurozone PMIs beat forecasts",
-      "summary": "EUR/JPY trades broadly flat near 181.94 on Wednesday, up a marginal 0.01% as the cross pauses after a steady four-sessio"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar climbs as softer US data, improving risk sentiment weigh on USD",
-      "summary": "AUD/USD trades around 0.7060 on Wednesday at the time of writing, up 0.20% on the day. The pair benefits from broad-base"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Recovery holds within 1.15–1.16 band against US Dollar  – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret describe the Euro (EUR) as steady in the mid-to-lower 1.15 area, t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Limited downside on softer payrolls – TD Securities",
-      "summary": "TD Securities strategists expect only modest US Dollar (USD) weakness if July payrolls or the unemployment rate disappoi"
     },
     {
       "source": "Investing",
@@ -192,27 +177,28 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen consolidates as traders weigh weak US data",
-      "[弱気] Australian Dollar climbs as softer US data, improving r",
-      "[弱気] US Dollar: Limited downside on softer payrolls – TD Sec"
+      "[弱気] Euro advances as US labor data disappoints",
+      "[弱気] Swiss Franc gains as US economic data disappoints and F",
+      "[弱気] Japanese Yen consolidates as traders weigh weak US data"
     ],
     "JPY": [
-      "[弱気] Japanese Yen consolidates as traders weigh weak US data",
-      "[強気] Euro steadies against Japanese Yen as Eurozone PMIs bea"
+      "[弱気] Japanese Yen consolidates as traders weigh weak US data"
     ],
     "EUR": [
-      "[強気] Euro steadies against Japanese Yen as Eurozone PMIs bea"
+      "[弱気] Euro advances as US labor data disappoints"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)",
-      "[弱気] Australian Dollar climbs as softer US data, improving r"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc gains as US economic data disappoints and F"
     ]
   },
   "rates": {
@@ -230,18 +216,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74145,
-      "today_close": 157.6771,
+      "today_close": 157.72492,
       "prev_close": 157.73525,
-      "diff": -0.0582,
-      "diff_pct": -0.04
+      "diff": -0.0103,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.6771,
-      "sma20": 161.3446,
-      "sma50": 161.6185,
-      "sma200": 158.8536,
+      "latest": 157.72492,
+      "sma20": 161.347,
+      "sma50": 161.6195,
+      "sma200": 158.8538,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -250,11 +236,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.14,
-      "chg20d_pct": -2.9
+      "chg5d_pct": 0.17,
+      "chg20d_pct": -2.87
     },
     "EURUSD": {
-      "latest": 1.15445,
+      "latest": 1.15497,
       "sma20": 1.1449,
       "sma50": 1.1434,
       "sma200": 1.1621,
@@ -262,12 +248,12 @@
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 46.8,
-      "high20": 1.1559,
+      "high20": 1.156,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": 0.89
+      "chg5d_pct": 0.17,
+      "chg20d_pct": 0.93
     }
   }
 }
