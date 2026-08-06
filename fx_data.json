@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-06T11:22:57.346768",
-  "generated": "2026年08月06日 11:22",
+  "timestamp": "2026-08-06T14:09:46.443433",
+  "generated": "2026年08月06日 14:09",
   "scores": {
     "USD": 2,
-    "JPY": -1,
-    "EUR": -1,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,20 +13,6 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
@@ -34,11 +20,25 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -51,8 +51,8 @@
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Relief rallies seen shallow – BBH",
-      "summary": "Brown Brothers Harriman’s Elias Haddad notes that the US Dollar (USD) has recovered part of its recent losses as concern"
+      "title": "Australian Dollar comes under pressure as US Dollar snaps two-day decline",
+      "summary": "AUD/USD edges lower on Thursday as the US Dollar (USD) steadies following two consecutive days of losses. At the time of"
     },
     {
       "source": "FXStreet",
-      "title": "Gold steadies near seven-week high as markets await Strait of Hormuz deal",
-      "summary": "Gold (XAU/USD) consolidates its recent gains on Thursday after briefly climbing above $4,300 as the US Dollar (USD) stea"
+      "title": "US Dollar: Undervaluation flags downside risks – MUFG",
+      "summary": "Halpenny highlights MUFG’s G10 regression models showing the US Dollar undervalued against most peers, implying risk pre"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee ticks down, awaiting clarity on Hormuz deal",
-      "summary": "The Indian Rupee (INR) trades lower against the US Dollar (USD) on Thursday. The USD/INR pair rises to near 95.22 after "
+      "title": "United States: Core CPI momentum seen returning in July – TD Securities",
+      "summary": "TD Securities economists expect United States (US) July Core Consumer Price Index (CPI) to return to trend after June’s "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD clings to gains near $62 with US NFP in focus",
-      "summary": "Silver price (XAG/USD) holds onto two-day gains at around $62.00 during the European trading session on Thursday. The wh"
+      "title": "Australian Dollar: Modest upside bias into 12 months – Rabobank",
+      "summary": "Rabobank’s Senior FX Strategist Jane Foley notes AUD/USD has trended higher since July, mainly due to a softer US Dollar"
     },
     {
       "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD bulls target $4,380 buoyed by lower US yields",
-      "summary": "Gold (XAU/USD) consolidates gains after appreciating nearly $200 this week, buoyed by lower US Treasury yields as trader"
+      "title": "US Initial Jobless Claims increased to 199K last week",
+      "summary": "According to a report from the US Department of Labor (DOL) released on Thursday, the number of US citizens submitting n"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Policy shifts weigh on JPY against US Dollar – Rabobank",
-      "summary": "Rabobank's Senior Macro Strategist Bas van Geffen discusses renewed Japanese Yen (JPY) weakness following recent joint U"
+      "title": "Gold holds near seven-week high as markets await Strait of Hormuz deal",
+      "summary": "Gold (XAU/USD) trims intraday gains on Thursday after briefly climbing above $4,300 as the US Dollar (USD) steadies whil"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Data-dependent Fed keeps upside in check – OCBC",
-      "summary": "OCBC’s Christopher Wong and Sim Moh Siong note that softer US inflation and debate over the Fed’s reaction function have"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Yen struggles to hold intervention gains and drifts towards 158.00",
-      "summary": "The Japanese Yen (JPY) is ticking lower against the US Dollar (USD) on Thursday, trimming gains after an exceptional US-"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee: Policy pause offers limited support – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay reports that the Reserve Bank of India kept the repo rate at 5.25% for a fourth meeting, maint"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Czech Koruna: Softer CNB guidance may weigh against euro – ING",
-      "summary": "ING strategist Frantisek Taborsky says July Czech inflation at 1.7% year-on-year should have limited impact on the Czech"
+      "title": "Swedish Krona: Hotter core supports SEK against Euro – ING",
+      "summary": "ING’s FX Strategist Francesco Pesole notes Sweden’s core CPIF excluding energy rose to 0.6% in July, giving the Swedish "
     },
     {
       "source": "Investing",
       "title": "Bitcoin remains rangebound around $64k as Strategy discloses more sales",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,15 +181,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold Price Forecast: XAU/USD bulls target $4,380 buoyed",
-      "[弱気] Japanese Yen: Policy shifts weigh on JPY against US Dol"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Policy shifts weigh on JPY against US Dol"
-    ],
-    "EUR": [
-      "[弱気] Czech Koruna: Softer CNB guidance may weigh against eur"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -227,18 +209,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.77244,
-      "today_close": 157.92965,
+      "today_close": 157.94569,
       "prev_close": 157.77151,
-      "diff": 0.1581,
-      "diff_pct": 0.1
+      "diff": 0.1742,
+      "diff_pct": 0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.92965,
-      "sma20": 161.1253,
-      "sma50": 161.5658,
-      "sma200": 158.8547,
+      "latest": 157.94569,
+      "sma20": 161.1261,
+      "sma50": 161.5662,
+      "sma200": 158.8548,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -247,12 +229,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": -2.76
+      "chg5d_pct": 0.21,
+      "chg20d_pct": -2.75
     },
     "EURUSD": {
-      "latest": 1.15447,
-      "sma20": 1.1455,
+      "latest": 1.1538,
+      "sma20": 1.1454,
       "sma50": 1.1435,
       "sma200": 1.1621,
       "vs_sma20": "上",
@@ -263,8 +245,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.1,
-      "chg20d_pct": 0.94
+      "chg5d_pct": 0.04,
+      "chg20d_pct": 0.88
     }
   }
 }
