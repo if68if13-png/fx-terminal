@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-06T14:09:46.443433",
-  "generated": "2026年08月06日 14:09",
+  "timestamp": "2026-08-06T23:59:35.943805",
+  "generated": "2026年08月06日 23:59",
   "scores": {
-    "USD": 2,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -103,43 +103,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar comes under pressure as US Dollar snaps two-day decline",
-      "summary": "AUD/USD edges lower on Thursday as the US Dollar (USD) steadies following two consecutive days of losses. At the time of"
+      "title": "Chinese Yuan: Bullish tone with upside tests against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH is trading with a soft underlying t"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Undervaluation flags downside risks – MUFG",
-      "summary": "Halpenny highlights MUFG’s G10 regression models showing the US Dollar undervalued against most peers, implying risk pre"
+      "title": "South Korean Won: Stable Fed and AI demand support KRW against US Dollar – ING",
+      "summary": "ING economists Deepali Bhargava and Lynn Song highlight a sharp 8% drop in USD/KRW earlier in the second quarter, driven"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Core CPI momentum seen returning in July – TD Securities",
-      "summary": "TD Securities economists expect United States (US) July Core Consumer Price Index (CPI) to return to trend after June’s "
+      "title": "Singapore Dollar: Upside risk capped against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD stayed broadly flat on Wednesday, trading betwe"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Modest upside bias into 12 months – Rabobank",
-      "summary": "Rabobank’s Senior FX Strategist Jane Foley notes AUD/USD has trended higher since July, mainly due to a softer US Dollar"
+      "title": "Philippine Peso: Inflation and politics weigh on PHP against US Dollar – ING",
+      "summary": "ING economists Deepali Bhargava and Lynn Song warn that upside inflation risks are re-emerging for the Philippine Peso ("
     },
     {
       "source": "FXStreet",
-      "title": "US Initial Jobless Claims increased to 199K last week",
-      "summary": "According to a report from the US Department of Labor (DOL) released on Thursday, the number of US citizens submitting n"
+      "title": "Fed’s Musalem backs rate hikes, says inflation remains too high",
+      "summary": "The St. Louis Fed President, Alberto Musalem, stressed that “inflation is too high” and that it’s “critical” that moneta"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds near seven-week high as markets await Strait of Hormuz deal",
-      "summary": "Gold (XAU/USD) trims intraday gains on Thursday after briefly climbing above $4,300 as the US Dollar (USD) steadies whil"
+      "title": "Mexican Peso strengthens as Banxico hold extends 10-day rally",
+      "summary": "The Mexican peso extends its rally to 10 straight days, gaining over 0.12% on Thursday after the Bank of Mexico (Banxico"
     },
     {
       "source": "FXStreet",
-      "title": "Swedish Krona: Hotter core supports SEK against Euro – ING",
-      "summary": "ING’s FX Strategist Francesco Pesole notes Sweden’s core CPIF excluding energy rose to 0.6% in July, giving the Swedish "
+      "title": "Indonesia: Headline GDP strength, mixed momentum – Societe Generale",
+      "summary": "Societe Generale economist Kunal Kundu notes Indonesia’s 2Q26 Gross Domestic Product (GDP) grew 5.3% year-on-year, beati"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin remains rangebound around $64k as Strategy discloses more sales",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "New Zealand Dollar drops amid a firmer US Dollar",
+      "summary": "NZD/USD trades lower near the 0.5900 level at the time of writing, with no New Zealand catalyst behind the move. The US "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar firms ahead of Nonfarm Payrolls as Hormuz risk returns",
+      "summary": "The US Dollar (USD) posted gains against every major currency on Thursday, with the US Dollar Index (DXY) up 0.26% near "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Thailand: Supply-led pressures and prolonged hold for BoT – UOB",
+      "summary": "UOB Global Economics & Markets Research, led by economists Enrico Tanuwidjaja and Sathit Talaengsatya, analyzes Thailand"
     },
     {
       "source": "MarketWatch",
@@ -181,7 +191,10 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] South Korean Won: Stable Fed and AI demand support KRW ",
+      "[強気] Philippine Peso: Inflation and politics weigh on PHP ag",
+      "[強気] Fed’s Musalem backs rate hikes, says inflation remains "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -208,45 +221,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.77244,
-      "today_close": 157.94569,
-      "prev_close": 157.77151,
-      "diff": 0.1742,
-      "diff_pct": 0.11
+      "today_open": 158.4738,
+      "today_close": 158.41786,
+      "prev_close": 158.47131,
+      "diff": -0.0534,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.94569,
-      "sma20": 161.1261,
-      "sma50": 161.5662,
-      "sma200": 158.8548,
+      "latest": 158.41786,
+      "sma20": 160.952,
+      "sma50": 161.5169,
+      "sma200": 158.8591,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 58.5,
+      "rsi14": 70.9,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.21,
-      "chg20d_pct": -2.75
+      "chg5d_pct": 0.76,
+      "chg20d_pct": -2.47
     },
     "EURUSD": {
-      "latest": 1.1538,
-      "sma20": 1.1454,
-      "sma50": 1.1435,
+      "latest": 1.15242,
+      "sma20": 1.1458,
+      "sma50": 1.1436,
       "sma200": 1.1621,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 49.1,
+      "rsi14": 39.6,
       "high20": 1.156,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.04,
-      "chg20d_pct": 0.88
+      "chg5d_pct": -0.07,
+      "chg20d_pct": 0.75
     }
   }
 }
