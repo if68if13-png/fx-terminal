@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-06T05:49:11.458244",
-  "generated": "2026年08月06日 05:49",
+  "timestamp": "2026-08-06T08:36:17.854974",
+  "generated": "2026年08月06日 08:36",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,37 +15,37 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 3,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,42 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "WTI Price Forecast: Downside likely towards $67 on Hormuz reopening hopes",
-      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trades 0.45% lower to near $74 during the early European trading sessio"
+      "title": "Australian Dollar: RBA uneasy pause – Standard Chartered",
+      "summary": "Standard Chartered’s Nicholas Chia expects the Reserve Bank of Australia (RBA) to keep the cash rate at 4.35% at its 11 "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound loses ground to near 1.3450 as traders await possible US-Iran deal",
-      "summary": "The GBP/USD pair drifts lower to near 1.3460 during the early European trading hours on Thursday. Conflicting rhetoric f"
+      "title": "Canadian Dollar receives support from higher oil prices",
+      "summary": "USD/CAD loses ground for the second successive day, trading around 1.4010 during the European hours on Thursday."
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee trades flat, lower oil prices back upside",
-      "summary": "The Indian Rupee (INR) opens almost flat against the US Dollar (USD) on Thursday. The USD/INR pair trades around 95.12 a"
+      "title": "EUR/GBP Price Forecast: Holding below 0.8580 with dips limited so far",
+      "summary": "The Euro (EUR) nudges lower against the British Pound (GBP) on Thursday, following a three-day rally. The EUR/GBP remain"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound consolidates vs Yen; bullish bias remains amid Japan's fiscal concerns",
-      "summary": "The GBP/JPY cross struggles to capitalize on this week's solid rebound from the vicinity of mid-209.00s, or a four-month"
+      "title": "Dow Jones futures gain on tech-driven rally",
+      "summary": "Dow Jones futures rise 0.19% to trade around 54,600 during European hours on Thursday. Meanwhile, S&amp;P 500 futures ga"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Softens to near 111.00 as bearish bias holds below key technical barriers",
-      "summary": "The AUD/JPY cross trades in negative territory around 111.15 during the early European trading hours on Thursday. A coor"
+      "title": "US Dollar: Wait-and-see mood before payrolls – ING",
+      "summary": "ING’s FX Strategist Francesco Pesole notes improved Gulf-related risk sentiment has weighed slightly on the Dollar, but "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold: Breakout extends as yields ease – OCBC",
+      "summary": "OCBC’s Christopher Wong and Sim Moh Siong highlight a sharp rebound in Gold as easing Middle East tensions weighed on Oi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold pares intraday gains, hangs near daily low as USD steadies ahead of NFP",
+      "summary": "Gold (XAU/USD) surrenders intraday gains to a fresh high since June 18 – levels just above the $4,300 mark – and trades "
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound: Gains capped below 1.3555 against US Dollar - UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report GBP/USD edged higher to 1.3469 after briefly touching"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar stabilizes as markets turn cautious on Mideast uncertainty",
+      "summary": "Here is what you need to know on Thursday, August 6:"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: Poised to extend gains beyond 0.8100 amid bullish setup",
+      "summary": "The USD/CHF pair attracts some buyers near the 0.8060 region on Thursday amid a modest US Dollar (USD) uptick. Spot pric"
     },
     {
       "source": "Investing",
       "title": "Bitcoin remains rangebound around $64k as Strategy discloses more sales",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sold 1,638 bitcoin last week",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -176,10 +191,12 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound: Gains capped below 1.3555 against US Dol"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound: Gains capped below 1.3555 against US Dol"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -204,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.77244,
-      "today_close": 157.72954,
+      "today_close": 157.85843,
       "prev_close": 157.77151,
-      "diff": -0.042,
-      "diff_pct": -0.03
+      "diff": 0.0869,
+      "diff_pct": 0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.72954,
-      "sma20": 161.1153,
-      "sma50": 161.5618,
-      "sma200": 158.8537,
+      "latest": 157.85843,
+      "sma20": 161.1217,
+      "sma50": 161.5644,
+      "sma200": 158.8544,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -224,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": -2.88
+      "chg5d_pct": 0.15,
+      "chg20d_pct": -2.8
     },
     "EURUSD": {
-      "latest": 1.15483,
+      "latest": 1.15404,
       "sma20": 1.1455,
       "sma50": 1.1435,
       "sma200": 1.1621,
@@ -240,8 +257,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.13,
-      "chg20d_pct": 0.97
+      "chg5d_pct": 0.06,
+      "chg20d_pct": 0.9
     }
   }
 }
