@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-06T08:36:17.854974",
-  "generated": "2026年08月06日 08:36",
+  "timestamp": "2026-08-06T11:22:57.346768",
+  "generated": "2026年08月06日 11:22",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 0,
-    "GBP": 3,
+    "USD": 2,
+    "JPY": -1,
+    "EUR": -1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,53 +103,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA uneasy pause – Standard Chartered",
-      "summary": "Standard Chartered’s Nicholas Chia expects the Reserve Bank of Australia (RBA) to keep the cash rate at 4.35% at its 11 "
+      "title": "US Dollar: Relief rallies seen shallow – BBH",
+      "summary": "Brown Brothers Harriman’s Elias Haddad notes that the US Dollar (USD) has recovered part of its recent losses as concern"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar receives support from higher oil prices",
-      "summary": "USD/CAD loses ground for the second successive day, trading around 1.4010 during the European hours on Thursday."
+      "title": "Gold steadies near seven-week high as markets await Strait of Hormuz deal",
+      "summary": "Gold (XAU/USD) consolidates its recent gains on Thursday after briefly climbing above $4,300 as the US Dollar (USD) stea"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/GBP Price Forecast: Holding below 0.8580 with dips limited so far",
-      "summary": "The Euro (EUR) nudges lower against the British Pound (GBP) on Thursday, following a three-day rally. The EUR/GBP remain"
+      "title": "Indian Rupee ticks down, awaiting clarity on Hormuz deal",
+      "summary": "The Indian Rupee (INR) trades lower against the US Dollar (USD) on Thursday. The USD/INR pair rises to near 95.22 after "
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures gain on tech-driven rally",
-      "summary": "Dow Jones futures rise 0.19% to trade around 54,600 during European hours on Thursday. Meanwhile, S&amp;P 500 futures ga"
+      "title": "Silver Price Forecast: XAG/USD clings to gains near $62 with US NFP in focus",
+      "summary": "Silver price (XAG/USD) holds onto two-day gains at around $62.00 during the European trading session on Thursday. The wh"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Wait-and-see mood before payrolls – ING",
-      "summary": "ING’s FX Strategist Francesco Pesole notes improved Gulf-related risk sentiment has weighed slightly on the Dollar, but "
+      "title": "Gold Price Forecast: XAU/USD bulls target $4,380 buoyed by lower US yields",
+      "summary": "Gold (XAU/USD) consolidates gains after appreciating nearly $200 this week, buoyed by lower US Treasury yields as trader"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Breakout extends as yields ease – OCBC",
-      "summary": "OCBC’s Christopher Wong and Sim Moh Siong highlight a sharp rebound in Gold as easing Middle East tensions weighed on Oi"
+      "title": "Japanese Yen: Policy shifts weigh on JPY against US Dollar – Rabobank",
+      "summary": "Rabobank's Senior Macro Strategist Bas van Geffen discusses renewed Japanese Yen (JPY) weakness following recent joint U"
     },
     {
       "source": "FXStreet",
-      "title": "Gold pares intraday gains, hangs near daily low as USD steadies ahead of NFP",
-      "summary": "Gold (XAU/USD) surrenders intraday gains to a fresh high since June 18 – levels just above the $4,300 mark – and trades "
+      "title": "US Dollar: Data-dependent Fed keeps upside in check – OCBC",
+      "summary": "OCBC’s Christopher Wong and Sim Moh Siong note that softer US inflation and debate over the Fed’s reaction function have"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Gains capped below 1.3555 against US Dollar - UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report GBP/USD edged higher to 1.3469 after briefly touching"
+      "title": "Yen struggles to hold intervention gains and drifts towards 158.00",
+      "summary": "The Japanese Yen (JPY) is ticking lower against the US Dollar (USD) on Thursday, trimming gains after an exceptional US-"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar stabilizes as markets turn cautious on Mideast uncertainty",
-      "summary": "Here is what you need to know on Thursday, August 6:"
+      "title": "Indian Rupee: Policy pause offers limited support – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay reports that the Reserve Bank of India kept the repo rate at 5.25% for a fourth meeting, maint"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Poised to extend gains beyond 0.8100 amid bullish setup",
-      "summary": "The USD/CHF pair attracts some buyers near the 0.8060 region on Thursday amid a modest US Dollar (USD) uptick. Spot pric"
+      "title": "Czech Koruna: Softer CNB guidance may weigh against euro – ING",
+      "summary": "ING strategist Frantisek Taborsky says July Czech inflation at 1.7% year-on-year should have limited impact on the Czech"
     },
     {
       "source": "Investing",
@@ -192,11 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Gains capped below 1.3555 against US Dol"
+      "[強気] Gold Price Forecast: XAU/USD bulls target $4,380 buoyed",
+      "[弱気] Japanese Yen: Policy shifts weigh on JPY against US Dol"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Policy shifts weigh on JPY against US Dol"
+    ],
+    "EUR": [
+      "[弱気] Czech Koruna: Softer CNB guidance may weigh against eur"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound: Gains capped below 1.3555 against US Dol"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -221,18 +227,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.77244,
-      "today_close": 157.85843,
+      "today_close": 157.92965,
       "prev_close": 157.77151,
-      "diff": 0.0869,
-      "diff_pct": 0.06
+      "diff": 0.1581,
+      "diff_pct": 0.1
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.85843,
-      "sma20": 161.1217,
-      "sma50": 161.5644,
-      "sma200": 158.8544,
+      "latest": 157.92965,
+      "sma20": 161.1253,
+      "sma50": 161.5658,
+      "sma200": 158.8547,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -241,11 +247,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.15,
-      "chg20d_pct": -2.8
+      "chg5d_pct": 0.2,
+      "chg20d_pct": -2.76
     },
     "EURUSD": {
-      "latest": 1.15404,
+      "latest": 1.15447,
       "sma20": 1.1455,
       "sma50": 1.1435,
       "sma200": 1.1621,
@@ -257,8 +263,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": 0.9
+      "chg5d_pct": 0.1,
+      "chg20d_pct": 0.94
     }
   }
 }
