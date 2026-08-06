@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-05T22:13:06.361049",
-  "generated": "2026年08月05日 22:13",
+  "timestamp": "2026-08-06T02:34:54.737623",
+  "generated": "2026年08月06日 02:34",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 0,
     "EUR": -1,
     "GBP": 2,
@@ -14,24 +14,17 @@
   "pairs": [
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,18 +34,25 @@
       "quote_score": 0
     },
     {
-      "pair": "EURJPY",
+      "pair": "USDJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,38 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indonesia: Growth-inflation mix supports steady BI stance – DBS",
-      "summary": "DBS Group Research economist Radhika Rao notes Indonesia’s onshore markets are focused on the appointment of a new Bank "
+      "title": "Canadian Dollar remains on the front foot vs USD as oil rebounds and Fed hike bets fade",
+      "summary": "The USD/CAD pair remains on the back foot during the Asian session on Thursday, with bears now awaiting a break below th"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Strength extends on intervention talk against US Dollar – Commerzbank",
-      "summary": "Commerzbank economists highlight ongoing Korean Won (KRW) appreciation against the Dollar. USD/KRW slipped 0.1% to 1,430"
+      "title": "Australian Dollar remains calm following Trade Balance data",
+      "summary": "AUD/USD steadies after two days of gains, trading around 0.7060 during the Asian hours on Thursday. The pair moves littl"
     },
     {
       "source": "FXStreet",
-      "title": "Fed Cook backs hold but warns rate hike possible if disinflation stalls",
-      "summary": "Fed Governor Lisa Cook said she supported leaving rates unchanged at the last Federal Open Market Committee (FOMC) meeti"
+      "title": "British Pound holds steady above 1.3450 as Iran hopes and Fed repricing weigh on USD",
+      "summary": "The GBP/USD pair is seen consolidating its gains recorded over the past two days and trading around the 1.3470 region du"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Break of 1.2790 may unlock further gains – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD was broadly flat on Tuesday, with SGD NEER trad"
+      "title": "Euro strengthens above 1.1550 as softer US data",
+      "summary": "The EUR/USD pair edges higher to near 1.1555 during the Asian trading hours on Thursday. US Dollar (USD) softens against"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso extends nine-day gains as Gulf War de-escalates",
-      "summary": "The Mexican Peso extends its gains for the ninth consecutive day on Wednesday, as the US Dollar remains on the back foot"
+      "title": "PBOC sets USD/CNY reference rate at 6.7895 vs. 6.7889 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7895 comp"
     },
     {
       "source": "FXStreet",
-      "title": "Japan: Passive foreign interest limits upside – BNY",
-      "summary": "BNY’s Geoff Yu notes that foreign demand for Japanese equities remains subdued compared with interest in JPY and JGBs."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro advances as US labor data disappoints",
-      "summary": "EUR/USD trades on the front foot near 1.1560 on Wednesday, adding around 0.2% as a weak United States (US) labor market "
+      "title": "Fed's Daly: Some signs tariff impact on inflation starting to fade",
+      "summary": "Federal Reserve (Fed) Bank of San Francisco President Mary Daly said on Thursday that tariffs have had a clear impact on"
     },
     {
       "source": "Investing",
@@ -187,11 +182,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Fed Cook backs hold but warns rate hike possible if dis",
-      "[弱気] Euro advances as US labor data disappoints"
+      "[弱気] Euro strengthens above 1.1550 as softer US data"
     ],
     "EUR": [
-      "[弱気] Euro advances as US labor data disappoints"
+      "[弱気] Euro strengthens above 1.1550 as softer US data"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -219,18 +213,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.77244,
-      "today_close": 157.71228,
+      "today_close": 157.67269,
       "prev_close": 157.77151,
-      "diff": -0.0592,
-      "diff_pct": -0.04
+      "diff": -0.0988,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.71228,
-      "sma20": 161.1144,
-      "sma50": 161.5615,
-      "sma200": 158.8537,
+      "latest": 157.67269,
+      "sma20": 161.1124,
+      "sma50": 161.5607,
+      "sma200": 158.8535,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -239,11 +233,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": -2.89
+      "chg5d_pct": 0.03,
+      "chg20d_pct": -2.92
     },
     "EURUSD": {
-      "latest": 1.15536,
+      "latest": 1.15563,
       "sma20": 1.1455,
       "sma50": 1.1435,
       "sma200": 1.1621,
@@ -255,8 +249,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.18,
-      "chg20d_pct": 1.01
+      "chg5d_pct": 0.2,
+      "chg20d_pct": 1.04
     }
   }
 }
