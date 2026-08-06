@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-06T02:34:54.737623",
-  "generated": "2026年08月06日 02:34",
+  "timestamp": "2026-08-06T05:49:11.458244",
+  "generated": "2026年08月06日 05:49",
   "scores": {
-    "USD": 1,
+    "USD": 2,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,18 +13,25 @@
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -34,24 +41,17 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,33 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar remains on the front foot vs USD as oil rebounds and Fed hike bets fade",
-      "summary": "The USD/CAD pair remains on the back foot during the Asian session on Thursday, with bears now awaiting a break below th"
+      "title": "WTI Price Forecast: Downside likely towards $67 on Hormuz reopening hopes",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trades 0.45% lower to near $74 during the early European trading sessio"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains calm following Trade Balance data",
-      "summary": "AUD/USD steadies after two days of gains, trading around 0.7060 during the Asian hours on Thursday. The pair moves littl"
+      "title": "British Pound loses ground to near 1.3450 as traders await possible US-Iran deal",
+      "summary": "The GBP/USD pair drifts lower to near 1.3460 during the early European trading hours on Thursday. Conflicting rhetoric f"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds steady above 1.3450 as Iran hopes and Fed repricing weigh on USD",
-      "summary": "The GBP/USD pair is seen consolidating its gains recorded over the past two days and trading around the 1.3470 region du"
+      "title": "Indian Rupee trades flat, lower oil prices back upside",
+      "summary": "The Indian Rupee (INR) opens almost flat against the US Dollar (USD) on Thursday. The USD/INR pair trades around 95.12 a"
     },
     {
       "source": "FXStreet",
-      "title": "Euro strengthens above 1.1550 as softer US data",
-      "summary": "The EUR/USD pair edges higher to near 1.1555 during the Asian trading hours on Thursday. US Dollar (USD) softens against"
+      "title": "British Pound consolidates vs Yen; bullish bias remains amid Japan's fiscal concerns",
+      "summary": "The GBP/JPY cross struggles to capitalize on this week's solid rebound from the vicinity of mid-209.00s, or a four-month"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7895 vs. 6.7889 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7895 comp"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed's Daly: Some signs tariff impact on inflation starting to fade",
-      "summary": "Federal Reserve (Fed) Bank of San Francisco President Mary Daly said on Thursday that tariffs have had a clear impact on"
+      "title": "AUD/JPY Price Forecast: Softens to near 111.00 as bearish bias holds below key technical barriers",
+      "summary": "The AUD/JPY cross trades in negative territory around 111.15 during the early European trading hours on Thursday. A coor"
     },
     {
       "source": "Investing",
@@ -181,11 +176,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro strengthens above 1.1550 as softer US data"
-    ],
-    "EUR": [
-      "[弱気] Euro strengthens above 1.1550 as softer US data"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -213,18 +204,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.77244,
-      "today_close": 157.67269,
+      "today_close": 157.72954,
       "prev_close": 157.77151,
-      "diff": -0.0988,
-      "diff_pct": -0.06
+      "diff": -0.042,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.67269,
-      "sma20": 161.1124,
-      "sma50": 161.5607,
-      "sma200": 158.8535,
+      "latest": 157.72954,
+      "sma20": 161.1153,
+      "sma50": 161.5618,
+      "sma200": 158.8537,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -233,11 +224,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": -2.92
+      "chg5d_pct": 0.07,
+      "chg20d_pct": -2.88
     },
     "EURUSD": {
-      "latest": 1.15563,
+      "latest": 1.15483,
       "sma20": 1.1455,
       "sma50": 1.1435,
       "sma200": 1.1621,
@@ -249,8 +240,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": 1.04
+      "chg5d_pct": 0.13,
+      "chg20d_pct": 0.97
     }
   }
 }
