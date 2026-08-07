@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-08-07T10:01:56.747425",
-  "generated": "2026年08月07日 10:01",
+  "timestamp": "2026-08-07T13:04:35.626352",
+  "generated": "2026年08月07日 13:04",
   "scores": {
     "USD": 2,
-    "JPY": -1,
-    "EUR": 0,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -27,25 +20,25 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
       "quote_score": 2
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -53,6 +46,13 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,43 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Nonfarm Payrolls set to rebound in July as markets reassess Fed rate path",
-      "summary": "The United States (US) Bureau of Labor Statistics (BLS) is set to release the Nonfarm Payrolls (NFP) data for July on Fr"
+      "title": "Euro surges as shocking US NFP reverses Fed September hike expectations",
+      "summary": "EUR/USD jumps 0.43% on the day and trades around 1.1570 at the time of writing, as the US Dollar (USD) comes under heavy"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Labour resilience favours CAD against US Dollar – TD Securities",
-      "summary": "TD Securities strategists expect Canada’s July Jobs Report to confirm ongoing labour market strength, with employment ri"
+      "title": "Gold heads for best week since January after disappointing NFP",
+      "summary": "Gold (XAU/USD) extends its recovery on Friday as weaker-than-expected US payroll growth weighs on the US Dollar (USD) an"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Dollar eases towards 0.8100 ahead of the NFP release",
-      "summary": "The US Dollar (USD) pares gains against the Swiss Franc (CHF) on Friday, with the USD/CHF pair drifting towards the 0.81"
+      "title": "Canada's Unemployment Rate drops to 6.4% in July",
+      "summary": "Statistics Canada reported on Friday that the Unemployment Rate decreased to 6.4% in July, below what markets were expec"
     },
     {
       "source": "FXStreet",
-      "title": "NFP or Iran: Which factor will break the US Dollar Index out of its consolidation?",
-      "summary": "The US Dollar Index (DXY) trades around 99.95 at the time of writing on Friday, virtually unchanged on the day, as inves"
+      "title": "India: Inflation steady, trade deficit persists – DBS",
+      "summary": "DBS Group Research’s Econs team expects India’s July inflation to remain steady at 4.4% year-on-year, with core readings"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Labour market still solid – Danske Bank",
-      "summary": "Danske Research Team expects United States (US) Nonfarm Payrolls (NFP) to rise by 70k in July, with the unemployment rat"
+      "title": "Japanese Yen: Intervention skepticism meets BoJ repricing – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights growing market skepticism about Japan’s FX interventions, despit"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Funding currency weakness extends – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note the Swiss Franc (CHF) remains under pressure as carry trade funding deman"
+      "title": "EUR/GBP Price Forecast: Mixed momentum signals point to more consolidation",
+      "summary": "The Euro (EUR) edges higher against the British Pound (GBP) on Friday, although price action has been confined to a narr"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Upside risk tied to 0.7075 break against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note AUD/USD has pulled back to 0.7032 after failing to clea"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen holds onto weekly losses amid absence of US-Japan intervention follow-up",
-      "summary": "The Japanese Yen (JPY) has underperformed its major currency peers this week due to a lack of follow-up joint interventi"
+      "title": "Euro: Fed repricing supports moderate gains against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Thu Lan Nguyen argues that the US Dollar's (USD) current support from perceived hawkish Federal Reserve (F"
     },
     {
       "source": "MarketWatch",
@@ -181,10 +176,15 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Gold heads for best week since January after disappoint",
+      "[強気] Euro: Fed repricing supports moderate gains against US "
     ],
     "JPY": [
-      "[弱気] Swiss Franc: Funding currency weakness extends – OCBC"
+      "[強気] Euro: Fed repricing supports moderate gains against US "
+    ],
+    "EUR": [
+      "[強気] Euro: Fed repricing supports moderate gains against US "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -195,38 +195,31 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc: Funding currency weakness extends – OCBC"
     ]
   },
   "rates": {
-    "US_FF": null,
-    "US_10Y": 4.63,
-    "JP_10Y": 2.67,
+    "US_FF": 3.63,
+    "US_10Y": null,
+    "JP_10Y": null,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.96,
-    "DIFF_EURUSD": -1.66,
-    "DIFF_GBPUSD": 0.17,
-    "DIFF_AUDUSD": 0.2
+    "AU_10Y": null
   },
   "prices": {
     "USDJPY": {
       "today_open": 158.4738,
-      "today_close": 158.36959,
+      "today_close": 157.40815,
       "prev_close": 158.47131,
-      "diff": -0.1017,
-      "diff_pct": -0.06
+      "diff": -1.0632,
+      "diff_pct": -0.67
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.36959,
-      "sma20": 160.9496,
-      "sma50": 161.5159,
-      "sma200": 158.8588,
+      "latest": 157.40815,
+      "sma20": 160.9015,
+      "sma50": 161.4967,
+      "sma200": 158.854,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -235,24 +228,24 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.73,
-      "chg20d_pct": -2.5
+      "chg5d_pct": 0.12,
+      "chg20d_pct": -3.09
     },
     "EURUSD": {
-      "latest": 1.15288,
-      "sma20": 1.1458,
-      "sma50": 1.1436,
+      "latest": 1.15709,
+      "sma20": 1.146,
+      "sma50": 1.1437,
       "sma200": 1.1621,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 39.6,
-      "high20": 1.156,
+      "high20": 1.158,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": 0.79
+      "chg5d_pct": 0.34,
+      "chg20d_pct": 1.16
     }
   }
 }
