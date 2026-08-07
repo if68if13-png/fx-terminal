@@ -1,23 +1,37 @@
 {
-  "timestamp": "2026-08-07T15:56:12.554401",
-  "generated": "2026年08月07日 15:56",
+  "timestamp": "2026-08-07T18:57:08.341138",
+  "generated": "2026年08月07日 18:57",
   "scores": {
-    "USD": -1,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 2,
-    "CAD": -1,
-    "CHF": -1
+    "AUD": -1,
+    "NZD": 1,
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -27,25 +41,11 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,53 +103,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Gradual improvement with tariff risks – RBC",
-      "summary": "Royal Bank of Canada’s (RBC) Nathan Janzen reports that Canada’s labour market strengthened in July, with a 75k employme"
+      "title": "EUR/JPY recovers from session low but remains down on Friday",
+      "summary": "EUR/JPY trades on the back foot on Friday, easing away even as the Euro (EUR) posts solid gains against the US Dollar (U"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar climbs near two-month highs as NFP turns negative",
-      "summary": "The AUD/USD pair surged to its highest in nearly two months past 0.7070 earlier on Friday, following the release of the "
+      "title": "GBP/USD Price Forecast: Bulls need 1.3560 to unlock 1.3600",
+      "summary": "The Pound Sterling (GBP) edges higher by some 0.29% against the US Dollar (USD) on Friday, yet it remains trading sidewa"
     },
     {
       "source": "FXStreet",
-      "title": "NY Fed inflation expectations ease modestly in the short term",
-      "summary": "The New York Fed Survey of Consumer Expectations shows that households’ inflation expectations decreased slightly over t"
+      "title": "Singapore Dollar: Upside risk capped by 1.2790 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD has firmed modestly, with the pair closing at 1"
     },
     {
       "source": "FXStreet",
-      "title": "Natural Gas: Higher price forecasts on LNG squeeze – Commerzbank",
-      "summary": "Norman Liebke at Commerzbank has revised Gas and German power price forecasts higher, citing tighter European storage, i"
+      "title": "Mexican Peso hits five-month high on weak US jobs data",
+      "summary": "The Mexican Peso (MXN) capitalizes on a weaker US jobs report and soars versus the US Dollar (USD) on Friday as risk app"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Payrolls-driven consolidation as CPI looms – TD Securities",
-      "summary": "TD Securities strategists note that the US Dollar (USD) weakened after the disappointing July Payrolls report, but see l"
+      "title": "South Korean Won: Intervention risks support KRW against US Dollar – DBS",
+      "summary": "Chang Wei Liang at DBS Group Research notes that KRW is currently the best performing Asian currency, supported by stron"
     },
     {
       "source": "FXStreet",
-      "title": "Gold heads for best week since January after disappointing NFP",
-      "summary": "Gold (XAU/USD) extends its recovery on Friday as weaker-than-expected US payroll growth weighs on the US Dollar (USD) an"
+      "title": "EUR/USD Price Forecast: Buyers eye a break above the 100-day SMA",
+      "summary": "EUR/USD edges higher on Friday, supported by a softer US Dollar (USD) as traders scale back Federal Reserve (Fed) rate-h"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Fed focus shifts to jobs – ABN AMRO",
-      "summary": "ABN AMRO’s Chief Economist Nick Kounis highlights renewed US labour market weakness, with Nonfarm Payrolls falling and h"
+      "title": "Gold rallies as mediocre US NFP crushes Fed rate hike bets",
+      "summary": "Gold (XAU/USD) skyrockets on Friday, gaining over 2.30% in the day and more than 7% in the week after US jobs data was m"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc gains against US Dollar after surprise decline in US payrolls",
-      "summary": "USD/CHF edges lower on Friday, erasing most of the previous day’s gains as the US Dollar (USD) weakens following a downs"
+      "title": "Indonesia: Modest growth outlook – Standard Chartered",
+      "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s Q2 GDP grew 5.3% year-on-year, slowing from 5.6% but beating con"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Labour market resilience supports cautious Bank of Canada – NBC",
-      "summary": "National Bank of Canada (NBC) economists Matthieu Arseneau and Alexandra Ducharme highlight robust Canadian labour data "
+      "title": "Dow Jones Industrial Average dodges a hike December still prices",
+      "summary": "The American labour market contracted in July and the Dow Jones Industrial Average answered with a gain of roughly 65 po"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Discretionary demand keeps bulls in control - TD Securities",
-      "summary": "TD Securities strategists Ryan McKay and Bart Melek highlight that strong discretionary and Asian buying is supporting G"
+      "title": "New Zealand Dollar advances as US labor market weakness pressures USD",
+      "summary": "NZD/USD trades around 0.5890 on Friday at the time of writing, up 0.36% on the day."
     },
     {
       "source": "MarketWatch",
@@ -192,28 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar climbs near two-month highs as NFP tu",
-      "[弱気] US Dollar: Payrolls-driven consolidation as CPI looms –",
-      "[弱気] Gold heads for best week since January after disappoint",
-      "[弱気] Federal Reserve: Fed focus shifts to jobs – ABN AMRO",
-      "[弱気] Swiss Franc gains against US Dollar after surprise decl"
+      "[強気] Singapore Dollar: Upside risk capped by 1.2790 against ",
+      "[弱気] Mexican Peso hits five-month high on weak US jobs data",
+      "[強気] South Korean Won: Intervention risks support KRW agains",
+      "[強気] Gold rallies as mediocre US NFP crushes Fed rate hike b",
+      "[弱気] New Zealand Dollar advances as US labor market weakness"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)",
-      "[強気] Australian Dollar climbs near two-month highs as NFP tu"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Federal Reserve: Fed focus shifts to jobs – ABN AMRO"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc gains against US Dollar after surprise decl"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar advances as US labor market weakness"
     ]
   },
   "rates": {
@@ -231,17 +225,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.4738,
-      "today_close": 157.53047,
+      "today_close": 157.53157,
       "prev_close": 158.47131,
-      "diff": -0.9408,
+      "diff": -0.9397,
       "diff_pct": -0.59
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.53047,
-      "sma20": 160.9076,
-      "sma50": 161.4991,
+      "latest": 157.53157,
+      "sma20": 160.9077,
+      "sma50": 161.4992,
       "sma200": 158.8546,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -251,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.19,
+      "chg5d_pct": 0.2,
       "chg20d_pct": -3.01
     },
     "EURUSD": {
-      "latest": 1.15581,
+      "latest": 1.15659,
       "sma20": 1.146,
       "sma50": 1.1437,
       "sma200": 1.1621,
@@ -267,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.23,
-      "chg20d_pct": 1.04
+      "chg5d_pct": 0.3,
+      "chg20d_pct": 1.11
     }
   }
 }
