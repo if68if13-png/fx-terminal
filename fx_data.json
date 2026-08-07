@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-07T03:11:49.628718",
-  "generated": "2026年08月07日 03:11",
+  "timestamp": "2026-08-07T07:16:08.062884",
+  "generated": "2026年08月07日 07:16",
   "scores": {
-    "USD": -1,
-    "JPY": -1,
-    "EUR": -1,
+    "USD": 2,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
-      "pair": "AUDUSD",
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "China’s July Trade Balance: Surplus widens more than expected to $112.5 billion",
-      "summary": "China's Trade Balance for July, in US Dollar (USD) terms, arrives at $112.5 billion, higher than the $107.0 billion expe"
+      "title": "Euro steadies against the British Pound following another rejection at the 0.8580 area",
+      "summary": "The Euro (EUR) trades practically flat against the British Pound (GBP) on Friday, moving in a tight range above 0.8560 d"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds steady near 100.00 as bulls await US NFP amid Iran risks",
-      "summary": "The United States Dollar Index (DXY), which tracks the Greenback against a basket of currencies, consolidates during the"
+      "title": "EUR/JPY Price Forecast: Holds losses near 182.50 as bearish bias prevails",
+      "summary": "EUR/JPY halts its three-day winning streak, trading around 182.50 during the early European hours on Friday. The currenc"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar bulls remains on the sidelines as Iran risks support USD ahead of US NFP",
-      "summary": "The AUD/USD pair steadies around the 0.7030-0.7025 region during the Asian session on Friday as traders opt to wait for "
+      "title": "Indian Rupee drops slightly ahead of US NFP data release",
+      "summary": "The Indian Rupee (INR) falls slightly against the US Dollar (USD) on Friday in the countdown to the United States (US) N"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens against US Dollar amid Middle East tensions",
-      "summary": "EUR/USD extends its losses for the second consecutive day, trading around 1.1520 during the Asian hours on Friday. The c"
+      "title": "Euro flatlines amid mixed German data with all eyes on US Nonfarm Payrolls",
+      "summary": "The Euro (EUR) is trading flat around 1.1520 against the US Dollar (USD) on Friday, following a mild pullback from three"
     },
     {
       "source": "FXStreet",
-      "title": "Gold consolidates below recent highs as USD strength and Fed hike bets cap ahead of US NFP",
-      "summary": "Gold (XAU/USD) consolidates below $4,250 during the Asian session on Friday and, for now, seems to have stalled the prev"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar weakens as safe-haven demand supports US Dollar",
-      "summary": "USD/CAD extends its gains for the second successive day, trading around 1.4020 during the Asian hours on Friday. The pai"
-    },
-    {
-      "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7904 vs. 6.7895 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7904 compa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen hangs near weekly low after weak spending data as USD bulls await US NFP",
-      "summary": "The USD/JPY pair is seen consolidating this week's solid recovery gains from the 155.25-155.20 region, the lowest since "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Bullish tone with upside tests against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH is trading with a soft underlying t"
+      "title": "Gold approaches $4,300 as bulls shrug off firm USD and Fed hike bets ahead of US NFP",
+      "summary": "Gold (XAU/USD) builds on its steady intraday ascent heading into the European session on Friday and jumps back to the $4"
     },
     {
       "source": "MarketWatch",
@@ -186,16 +166,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro weakens against US Dollar amid Middle East tension",
-      "[弱気] Canadian Dollar weakens as safe-haven demand supports U",
-      "[弱気] Japanese Yen hangs near weekly low after weak spending "
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen hangs near weekly low after weak spending "
-    ],
-    "EUR": [
-      "[弱気] Euro weakens against US Dollar amid Middle East tension"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,9 +177,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar weakens as safe-haven demand supports U"
     ]
   },
   "rates": {
@@ -226,18 +194,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.4738,
-      "today_close": 158.40356,
+      "today_close": 158.33916,
       "prev_close": 158.47131,
-      "diff": -0.0677,
-      "diff_pct": -0.04
+      "diff": -0.1321,
+      "diff_pct": -0.08
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.40356,
-      "sma20": 160.9513,
-      "sma50": 161.5166,
-      "sma200": 158.859,
+      "latest": 158.33916,
+      "sma20": 160.948,
+      "sma50": 161.5153,
+      "sma200": 158.8587,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -246,11 +214,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.75,
-      "chg20d_pct": -2.48
+      "chg5d_pct": 0.71,
+      "chg20d_pct": -2.52
     },
     "EURUSD": {
-      "latest": 1.15203,
+      "latest": 1.15235,
       "sma20": 1.1458,
       "sma50": 1.1436,
       "sma200": 1.1621,
@@ -262,8 +230,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": 0.71
+      "chg5d_pct": -0.07,
+      "chg20d_pct": 0.74
     }
   }
 }
