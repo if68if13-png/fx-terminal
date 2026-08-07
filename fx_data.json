@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-07T18:57:08.341138",
-  "generated": "2026年08月07日 18:57",
+  "timestamp": "2026-08-07T21:38:54.031589",
+  "generated": "2026年08月07日 21:38",
   "scores": {
     "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -103,53 +103,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "Chinese Yuan: Range trade holds with bullish tone against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann see USD/CNH confined to a narrow intraday range, with"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore: GDP revision and forecast upgrade – DBS",
+      "summary": "DBS Group Research expects Singapore’s final 2Q26 GDP to be revised up to 5.9% year-on-year and 1.3% quarter-on-quarter "
+    },
+    {
+      "source": "FXStreet",
+      "title": "GBP/JPY Price Forecast: Rebound holds above 200-day SMA",
+      "summary": "The British Pound retreats against the Japanese Yen, down about 0.24%, as the Yen is poised to end the week on a higher "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Philippines: BSP policy outlook shifts – Standard Chartered",
+      "summary": "Standard Chartered’s Jonathan Koh and Edward Lee now expect Bangko Sentral ng Pilipinas (BSP) to keep its policy rate un"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forecasting the upcoming week: US inflation takes center stage next week",
+      "summary": "The US Dollar Index (DXY) fell below the 100.00 region after sinking through Friday's session. July Nonfarm Payrolls (NF"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Treasury yields drop on soft NFP, Hormuz hopes ease Fed risks",
+      "summary": "US Treasury yields drop across the curve on Friday amid growing speculation that the Iran-Oman deal is about to be seale"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: Supportive domestic backdrop, capped gains – Commerzbank",
+      "summary": "Commerzbank’s FX analysts, including Charlie Lay and Moses Lim, note that USD/IDR slipped slightly but stayed below the "
+    },
+    {
+      "source": "FXStreet",
       "title": "EUR/JPY recovers from session low but remains down on Friday",
       "summary": "EUR/JPY trades on the back foot on Friday, easing away even as the Euro (EUR) posts solid gains against the US Dollar (U"
     },
     {
-      "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Bulls need 1.3560 to unlock 1.3600",
-      "summary": "The Pound Sterling (GBP) edges higher by some 0.29% against the US Dollar (USD) on Friday, yet it remains trading sidewa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Upside risk capped by 1.2790 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD has firmed modestly, with the pair closing at 1"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso hits five-month high on weak US jobs data",
-      "summary": "The Mexican Peso (MXN) capitalizes on a weaker US jobs report and soars versus the US Dollar (USD) on Friday as risk app"
-    },
-    {
-      "source": "FXStreet",
-      "title": "South Korean Won: Intervention risks support KRW against US Dollar – DBS",
-      "summary": "Chang Wei Liang at DBS Group Research notes that KRW is currently the best performing Asian currency, supported by stron"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Buyers eye a break above the 100-day SMA",
-      "summary": "EUR/USD edges higher on Friday, supported by a softer US Dollar (USD) as traders scale back Federal Reserve (Fed) rate-h"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold rallies as mediocre US NFP crushes Fed rate hike bets",
-      "summary": "Gold (XAU/USD) skyrockets on Friday, gaining over 2.30% in the day and more than 7% in the week after US jobs data was m"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indonesia: Modest growth outlook – Standard Chartered",
-      "summary": "Standard Chartered’s Aldian Taloputra notes Indonesia’s Q2 GDP grew 5.3% year-on-year, slowing from 5.6% but beating con"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dow Jones Industrial Average dodges a hike December still prices",
-      "summary": "The American labour market contracted in July and the Dow Jones Industrial Average answered with a gain of roughly 65 po"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar advances as US labor market weakness pressures USD",
-      "summary": "NZD/USD trades around 0.5890 on Friday at the time of writing, up 0.36% on the day."
+      "source": "Investing",
+      "title": "Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease",
+      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -159,110 +154,107 @@
   ],
   "cot": {
     "CHF": {
-      "long": 111939,
-      "short": 73539,
-      "net": 38400,
+      "long": 109573,
+      "short": 72581,
+      "net": 36992,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 39778,
-      "short": 552,
-      "net": 39226,
+      "long": 40096,
+      "short": 627,
+      "net": 39469,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 21567,
-      "short": 413,
-      "net": 21154,
+      "long": 20895,
+      "short": 411,
+      "net": 20484,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 21567,
-      "short": 413,
-      "net": 21154,
+      "long": 20895,
+      "short": 411,
+      "net": 20484,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 229784,
-      "short": 61155,
-      "net": 168629,
+      "long": 240482,
+      "short": 61335,
+      "net": 179147,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Upside risk capped by 1.2790 against ",
-      "[弱気] Mexican Peso hits five-month high on weak US jobs data",
-      "[強気] South Korean Won: Intervention risks support KRW agains",
-      "[強気] Gold rallies as mediocre US NFP crushes Fed rate hike b",
-      "[弱気] New Zealand Dollar advances as US labor market weakness"
+      "[弱気] US Treasury yields drop on soft NFP, Hormuz hopes ease ",
+      "[強気] Indonesian Rupiah: Supportive domestic backdrop, capped",
+      "[強気] Bitcoin heads for 3% weekly gain as risk assets rally, "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar advances as US labor market weakness"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.63,
+    "US_10Y": 4.69,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.96,
-    "DIFF_EURUSD": -1.66,
-    "DIFF_GBPUSD": 0.17,
-    "DIFF_AUDUSD": 0.2
+    "DIFF_USDJPY": 2.02,
+    "DIFF_EURUSD": -1.72,
+    "DIFF_GBPUSD": 0.11,
+    "DIFF_AUDUSD": 0.14
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.4738,
-      "today_close": 157.53157,
-      "prev_close": 158.47131,
-      "diff": -0.9397,
-      "diff_pct": -0.59
+      "today_open": 157.79916,
+      "today_close": 157.79787,
+      "prev_close": 157.79433,
+      "diff": 0.0035,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.53157,
-      "sma20": 160.9077,
-      "sma50": 161.4992,
-      "sma200": 158.8546,
+      "latest": 157.79787,
+      "sma20": 160.6886,
+      "sma50": 161.4341,
+      "sma200": 158.8535,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 70.9,
+      "rsi14": 88.0,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": -3.01
+      "chg5d_pct": 0.38,
+      "chg20d_pct": -2.86
     },
     "EURUSD": {
-      "latest": 1.15659,
-      "sma20": 1.146,
-      "sma50": 1.1437,
-      "sma200": 1.1621,
+      "latest": 1.15591,
+      "sma20": 1.1466,
+      "sma50": 1.1438,
+      "sma200": 1.162,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 39.6,
+      "rsi14": 41.2,
       "high20": 1.158,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.3,
-      "chg20d_pct": 1.11
+      "chg5d_pct": 0.44,
+      "chg20d_pct": 1.12
     }
   }
 }
