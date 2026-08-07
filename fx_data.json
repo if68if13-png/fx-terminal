@@ -1,17 +1,24 @@
 {
-  "timestamp": "2026-08-07T07:16:08.062884",
-  "generated": "2026年08月07日 07:16",
+  "timestamp": "2026-08-07T10:01:56.747425",
+  "generated": "2026年08月07日 10:01",
   "scores": {
     "USD": 2,
-    "JPY": 0,
+    "JPY": -1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -20,11 +27,11 @@
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
@@ -34,11 +41,11 @@
       "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
@@ -46,13 +53,6 @@
       "diff": 0,
       "base_score": 2,
       "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
@@ -103,28 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro steadies against the British Pound following another rejection at the 0.8580 area",
-      "summary": "The Euro (EUR) trades practically flat against the British Pound (GBP) on Friday, moving in a tight range above 0.8560 d"
+      "title": "US Nonfarm Payrolls set to rebound in July as markets reassess Fed rate path",
+      "summary": "The United States (US) Bureau of Labor Statistics (BLS) is set to release the Nonfarm Payrolls (NFP) data for July on Fr"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Holds losses near 182.50 as bearish bias prevails",
-      "summary": "EUR/JPY halts its three-day winning streak, trading around 182.50 during the early European hours on Friday. The currenc"
+      "title": "Canadian Dollar: Labour resilience favours CAD against US Dollar – TD Securities",
+      "summary": "TD Securities strategists expect Canada’s July Jobs Report to confirm ongoing labour market strength, with employment ri"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee drops slightly ahead of US NFP data release",
-      "summary": "The Indian Rupee (INR) falls slightly against the US Dollar (USD) on Friday in the countdown to the United States (US) N"
+      "title": "USD/CHF Price Forecast: Dollar eases towards 0.8100 ahead of the NFP release",
+      "summary": "The US Dollar (USD) pares gains against the Swiss Franc (CHF) on Friday, with the USD/CHF pair drifting towards the 0.81"
     },
     {
       "source": "FXStreet",
-      "title": "Euro flatlines amid mixed German data with all eyes on US Nonfarm Payrolls",
-      "summary": "The Euro (EUR) is trading flat around 1.1520 against the US Dollar (USD) on Friday, following a mild pullback from three"
+      "title": "NFP or Iran: Which factor will break the US Dollar Index out of its consolidation?",
+      "summary": "The US Dollar Index (DXY) trades around 99.95 at the time of writing on Friday, virtually unchanged on the day, as inves"
     },
     {
       "source": "FXStreet",
-      "title": "Gold approaches $4,300 as bulls shrug off firm USD and Fed hike bets ahead of US NFP",
-      "summary": "Gold (XAU/USD) builds on its steady intraday ascent heading into the European session on Friday and jumps back to the $4"
+      "title": "US Dollar: Labour market still solid – Danske Bank",
+      "summary": "Danske Research Team expects United States (US) Nonfarm Payrolls (NFP) to rise by 70k in July, with the unemployment rat"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swiss Franc: Funding currency weakness extends – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note the Swiss Franc (CHF) remains under pressure as carry trade funding deman"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar: Upside risk tied to 0.7075 break against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note AUD/USD has pulled back to 0.7032 after failing to clea"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen holds onto weekly losses amid absence of US-Japan intervention follow-up",
+      "summary": "The Japanese Yen (JPY) has underperformed its major currency peers this week due to a lack of follow-up joint interventi"
     },
     {
       "source": "MarketWatch",
@@ -168,6 +183,9 @@
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
+    "JPY": [
+      "[弱気] Swiss Franc: Funding currency weakness extends – OCBC"
+    ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
@@ -177,10 +195,13 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc: Funding currency weakness extends – OCBC"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
+    "US_FF": null,
     "US_10Y": 4.63,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
@@ -194,18 +215,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.4738,
-      "today_close": 158.33916,
+      "today_close": 158.36959,
       "prev_close": 158.47131,
-      "diff": -0.1321,
-      "diff_pct": -0.08
+      "diff": -0.1017,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.33916,
-      "sma20": 160.948,
-      "sma50": 161.5153,
-      "sma200": 158.8587,
+      "latest": 158.36959,
+      "sma20": 160.9496,
+      "sma50": 161.5159,
+      "sma200": 158.8588,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -214,11 +235,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.71,
-      "chg20d_pct": -2.52
+      "chg5d_pct": 0.73,
+      "chg20d_pct": -2.5
     },
     "EURUSD": {
-      "latest": 1.15235,
+      "latest": 1.15288,
       "sma20": 1.1458,
       "sma50": 1.1436,
       "sma200": 1.1621,
@@ -230,8 +251,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.07,
-      "chg20d_pct": 0.74
+      "chg5d_pct": -0.03,
+      "chg20d_pct": 0.79
     }
   }
 }
