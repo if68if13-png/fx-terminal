@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-07T13:04:35.626352",
-  "generated": "2026年08月07日 13:04",
+  "timestamp": "2026-08-07T15:56:12.554401",
+  "generated": "2026年08月07日 15:56",
   "scores": {
-    "USD": 2,
-    "JPY": 1,
-    "EUR": 1,
+    "USD": -1,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 0
+    "CAD": -1,
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "pair": "GBPUSD",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
-      "pair": "GBPJPY",
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,8 +103,28 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro surges as shocking US NFP reverses Fed September hike expectations",
-      "summary": "EUR/USD jumps 0.43% on the day and trades around 1.1570 at the time of writing, as the US Dollar (USD) comes under heavy"
+      "title": "Canada: Gradual improvement with tariff risks – RBC",
+      "summary": "Royal Bank of Canada’s (RBC) Nathan Janzen reports that Canada’s labour market strengthened in July, with a 75k employme"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar climbs near two-month highs as NFP turns negative",
+      "summary": "The AUD/USD pair surged to its highest in nearly two months past 0.7070 earlier on Friday, following the release of the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "NY Fed inflation expectations ease modestly in the short term",
+      "summary": "The New York Fed Survey of Consumer Expectations shows that households’ inflation expectations decreased slightly over t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Natural Gas: Higher price forecasts on LNG squeeze – Commerzbank",
+      "summary": "Norman Liebke at Commerzbank has revised Gas and German power price forecasts higher, citing tighter European storage, i"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Payrolls-driven consolidation as CPI looms – TD Securities",
+      "summary": "TD Securities strategists note that the US Dollar (USD) weakened after the disappointing July Payrolls report, but see l"
     },
     {
       "source": "FXStreet",
@@ -113,28 +133,23 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canada's Unemployment Rate drops to 6.4% in July",
-      "summary": "Statistics Canada reported on Friday that the Unemployment Rate decreased to 6.4% in July, below what markets were expec"
+      "title": "Federal Reserve: Fed focus shifts to jobs – ABN AMRO",
+      "summary": "ABN AMRO’s Chief Economist Nick Kounis highlights renewed US labour market weakness, with Nonfarm Payrolls falling and h"
     },
     {
       "source": "FXStreet",
-      "title": "India: Inflation steady, trade deficit persists – DBS",
-      "summary": "DBS Group Research’s Econs team expects India’s July inflation to remain steady at 4.4% year-on-year, with core readings"
+      "title": "Swiss Franc gains against US Dollar after surprise decline in US payrolls",
+      "summary": "USD/CHF edges lower on Friday, erasing most of the previous day’s gains as the US Dollar (USD) weakens following a downs"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention skepticism meets BoJ repricing – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights growing market skepticism about Japan’s FX interventions, despit"
+      "title": "Canada: Labour market resilience supports cautious Bank of Canada – NBC",
+      "summary": "National Bank of Canada (NBC) economists Matthieu Arseneau and Alexandra Ducharme highlight robust Canadian labour data "
     },
     {
       "source": "FXStreet",
-      "title": "EUR/GBP Price Forecast: Mixed momentum signals point to more consolidation",
-      "summary": "The Euro (EUR) edges higher against the British Pound (GBP) on Friday, although price action has been confined to a narr"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Fed repricing supports moderate gains against US Dollar – Commerzbank",
-      "summary": "Commerzbank’s Thu Lan Nguyen argues that the US Dollar's (USD) current support from perceived hawkish Federal Reserve (F"
+      "title": "Gold: Discretionary demand keeps bulls in control - TD Securities",
+      "summary": "TD Securities strategists Ryan McKay and Bart Melek highlight that strong discretionary and Asian buying is supporting G"
     },
     {
       "source": "MarketWatch",
@@ -177,49 +192,57 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Australian Dollar climbs near two-month highs as NFP tu",
+      "[弱気] US Dollar: Payrolls-driven consolidation as CPI looms –",
       "[弱気] Gold heads for best week since January after disappoint",
-      "[強気] Euro: Fed repricing supports moderate gains against US "
-    ],
-    "JPY": [
-      "[強気] Euro: Fed repricing supports moderate gains against US "
-    ],
-    "EUR": [
-      "[強気] Euro: Fed repricing supports moderate gains against US "
+      "[弱気] Federal Reserve: Fed focus shifts to jobs – ABN AMRO",
+      "[弱気] Swiss Franc gains against US Dollar after surprise decl"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+168,629)"
+      "[COT] 🟢ロング優勢 (ネット:+168,629)",
+      "[強気] Australian Dollar climbs near two-month highs as NFP tu"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Federal Reserve: Fed focus shifts to jobs – ABN AMRO"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc gains against US Dollar after surprise decl"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": null,
-    "JP_10Y": null,
+    "US_10Y": 4.63,
+    "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": null
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 1.96,
+    "DIFF_EURUSD": -1.66,
+    "DIFF_GBPUSD": 0.17,
+    "DIFF_AUDUSD": 0.2
   },
   "prices": {
     "USDJPY": {
       "today_open": 158.4738,
-      "today_close": 157.40815,
+      "today_close": 157.53047,
       "prev_close": 158.47131,
-      "diff": -1.0632,
-      "diff_pct": -0.67
+      "diff": -0.9408,
+      "diff_pct": -0.59
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.40815,
-      "sma20": 160.9015,
-      "sma50": 161.4967,
-      "sma200": 158.854,
+      "latest": 157.53047,
+      "sma20": 160.9076,
+      "sma50": 161.4991,
+      "sma200": 158.8546,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -228,11 +251,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": -3.09
+      "chg5d_pct": 0.19,
+      "chg20d_pct": -3.01
     },
     "EURUSD": {
-      "latest": 1.15709,
+      "latest": 1.15581,
       "sma20": 1.146,
       "sma50": 1.1437,
       "sma200": 1.1621,
@@ -244,8 +267,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.34,
-      "chg20d_pct": 1.16
+      "chg5d_pct": 0.23,
+      "chg20d_pct": 1.04
     }
   }
 }
