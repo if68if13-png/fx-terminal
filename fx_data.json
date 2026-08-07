@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-06T23:59:35.943805",
-  "generated": "2026年08月06日 23:59",
+  "timestamp": "2026-08-07T03:11:49.628718",
+  "generated": "2026年08月07日 03:11",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": -1,
+    "JPY": -1,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": -1
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -1,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,53 +103,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "China’s July Trade Balance: Surplus widens more than expected to $112.5 billion",
+      "summary": "China's Trade Balance for July, in US Dollar (USD) terms, arrives at $112.5 billion, higher than the $107.0 billion expe"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index holds steady near 100.00 as bulls await US NFP amid Iran risks",
+      "summary": "The United States Dollar Index (DXY), which tracks the Greenback against a basket of currencies, consolidates during the"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar bulls remains on the sidelines as Iran risks support USD ahead of US NFP",
+      "summary": "The AUD/USD pair steadies around the 0.7030-0.7025 region during the Asian session on Friday as traders opt to wait for "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro weakens against US Dollar amid Middle East tensions",
+      "summary": "EUR/USD extends its losses for the second consecutive day, trading around 1.1520 during the Asian hours on Friday. The c"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold consolidates below recent highs as USD strength and Fed hike bets cap ahead of US NFP",
+      "summary": "Gold (XAU/USD) consolidates below $4,250 during the Asian session on Friday and, for now, seems to have stalled the prev"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar weakens as safe-haven demand supports US Dollar",
+      "summary": "USD/CAD extends its gains for the second successive day, trading around 1.4020 during the Asian hours on Friday. The pai"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7904 vs. 6.7895 previous",
+      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7904 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen hangs near weekly low after weak spending data as USD bulls await US NFP",
+      "summary": "The USD/JPY pair is seen consolidating this week's solid recovery gains from the 155.25-155.20 region, the lowest since "
+    },
+    {
+      "source": "FXStreet",
       "title": "Chinese Yuan: Bullish tone with upside tests against US Dollar – UOB",
       "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH is trading with a soft underlying t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "South Korean Won: Stable Fed and AI demand support KRW against US Dollar – ING",
-      "summary": "ING economists Deepali Bhargava and Lynn Song highlight a sharp 8% drop in USD/KRW earlier in the second quarter, driven"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Upside risk capped against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD stayed broadly flat on Wednesday, trading betwe"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Philippine Peso: Inflation and politics weigh on PHP against US Dollar – ING",
-      "summary": "ING economists Deepali Bhargava and Lynn Song warn that upside inflation risks are re-emerging for the Philippine Peso ("
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Musalem backs rate hikes, says inflation remains too high",
-      "summary": "The St. Louis Fed President, Alberto Musalem, stressed that “inflation is too high” and that it’s “critical” that moneta"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso strengthens as Banxico hold extends 10-day rally",
-      "summary": "The Mexican peso extends its rally to 10 straight days, gaining over 0.12% on Thursday after the Bank of Mexico (Banxico"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indonesia: Headline GDP strength, mixed momentum – Societe Generale",
-      "summary": "Societe Generale economist Kunal Kundu notes Indonesia’s 2Q26 Gross Domestic Product (GDP) grew 5.3% year-on-year, beati"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar drops amid a firmer US Dollar",
-      "summary": "NZD/USD trades lower near the 0.5900 level at the time of writing, with no New Zealand catalyst behind the move. The US "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forex Today: US Dollar firms ahead of Nonfarm Payrolls as Hormuz risk returns",
-      "summary": "The US Dollar (USD) posted gains against every major currency on Thursday, with the US Dollar Index (DXY) up 0.26% near "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Thailand: Supply-led pressures and prolonged hold for BoT – UOB",
-      "summary": "UOB Global Economics & Markets Research, led by economists Enrico Tanuwidjaja and Sathit Talaengsatya, analyzes Thailand"
     },
     {
       "source": "MarketWatch",
@@ -192,9 +187,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] South Korean Won: Stable Fed and AI demand support KRW ",
-      "[強気] Philippine Peso: Inflation and politics weigh on PHP ag",
-      "[強気] Fed’s Musalem backs rate hikes, says inflation remains "
+      "[弱気] Euro weakens against US Dollar amid Middle East tension",
+      "[弱気] Canadian Dollar weakens as safe-haven demand supports U",
+      "[弱気] Japanese Yen hangs near weekly low after weak spending "
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen hangs near weekly low after weak spending "
+    ],
+    "EUR": [
+      "[弱気] Euro weakens against US Dollar amid Middle East tension"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,6 +206,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar weakens as safe-haven demand supports U"
     ]
   },
   "rates": {
@@ -222,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.4738,
-      "today_close": 158.41786,
+      "today_close": 158.40356,
       "prev_close": 158.47131,
-      "diff": -0.0534,
-      "diff_pct": -0.03
+      "diff": -0.0677,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.41786,
-      "sma20": 160.952,
-      "sma50": 161.5169,
-      "sma200": 158.8591,
+      "latest": 158.40356,
+      "sma20": 160.9513,
+      "sma50": 161.5166,
+      "sma200": 158.859,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -242,11 +246,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.76,
-      "chg20d_pct": -2.47
+      "chg5d_pct": 0.75,
+      "chg20d_pct": -2.48
     },
     "EURUSD": {
-      "latest": 1.15242,
+      "latest": 1.15203,
       "sma20": 1.1458,
       "sma50": 1.1436,
       "sma200": 1.1621,
@@ -258,8 +262,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.07,
-      "chg20d_pct": 0.75
+      "chg5d_pct": -0.1,
+      "chg20d_pct": 0.71
     }
   }
 }
