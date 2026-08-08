@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-07T21:38:54.031589",
-  "generated": "2026年08月07日 21:38",
+  "timestamp": "2026-08-08T01:39:43.859508",
+  "generated": "2026年08月08日 01:39",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -103,6 +103,11 @@
     },
     {
       "source": "FXStreet",
+      "title": "China: Credit demand and liquidity trends – DBS",
+      "summary": "DBS Group Research anticipates China’s credit demand to stay weak in July, with new Yuan loans around RMB 10.8 billion a"
+    },
+    {
+      "source": "FXStreet",
       "title": "Chinese Yuan: Range trade holds with bullish tone against US Dollar – UOB",
       "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann see USD/CNH confined to a narrow intraday range, with"
     },
@@ -135,11 +140,6 @@
       "source": "FXStreet",
       "title": "Indonesian Rupiah: Supportive domestic backdrop, capped gains – Commerzbank",
       "summary": "Commerzbank’s FX analysts, including Charlie Lay and Moses Lim, note that USD/IDR slipped slightly but stayed below the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/JPY recovers from session low but remains down on Friday",
-      "summary": "EUR/JPY trades on the back foot on Friday, easing away even as the Euro (EUR) posts solid gains against the US Dollar (U"
     },
     {
       "source": "Investing",
@@ -217,18 +217,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.79916,
-      "today_close": 157.79787,
+      "today_close": 157.82679,
       "prev_close": 157.79433,
-      "diff": 0.0035,
-      "diff_pct": 0.0
+      "diff": 0.0325,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.79787,
-      "sma20": 160.6886,
-      "sma50": 161.4341,
-      "sma200": 158.8535,
+      "latest": 157.82679,
+      "sma20": 160.69,
+      "sma50": 161.4347,
+      "sma200": 158.8536,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -237,11 +237,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.38,
-      "chg20d_pct": -2.86
+      "chg5d_pct": 0.4,
+      "chg20d_pct": -2.84
     },
     "EURUSD": {
-      "latest": 1.15591,
+      "latest": 1.15588,
       "sma20": 1.1466,
       "sma50": 1.1438,
       "sma200": 1.162,
@@ -254,7 +254,7 @@
       "high60": 1.1622,
       "low60": 1.1324,
       "chg5d_pct": 0.44,
-      "chg20d_pct": 1.12
+      "chg20d_pct": 1.11
     }
   }
 }
