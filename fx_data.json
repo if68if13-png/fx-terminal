@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-09T12:50:22.690111",
-  "generated": "2026年08月09日 12:50",
+  "timestamp": "2026-08-09T15:31:48.718616",
+  "generated": "2026年08月09日 15:31",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -143,7 +143,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin heads for 3% weekly gain as risk assets rally, Fed rate hike bets ease",
+      "title": "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease",
       "summary": ""
     },
     {
@@ -189,7 +189,7 @@
       "[中銀] 利上げ方向 (金利差方向)",
       "[弱気] US Treasury yields drop on soft NFP, Hormuz hopes ease ",
       "[強気] Indonesian Rupiah: Supportive domestic backdrop, capped",
-      "[強気] Bitcoin heads for 3% weekly gain as risk assets rally, "
+      "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -217,17 +217,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.82301,
-      "today_close": 157.82498,
+      "today_close": 157.82871,
       "prev_close": 157.8219,
-      "diff": 0.0031,
+      "diff": 0.0068,
       "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.82498,
-      "sma20": 160.4556,
-      "sma50": 161.3651,
+      "latest": 157.82871,
+      "sma20": 160.4558,
+      "sma50": 161.3652,
       "sma200": 158.8508,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -241,7 +241,7 @@
       "chg20d_pct": -2.88
     },
     "EURUSD": {
-      "latest": 1.15398,
+      "latest": 1.15361,
       "sma20": 1.1472,
       "sma50": 1.144,
       "sma200": 1.1619,
@@ -253,8 +253,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": 1.1
+      "chg5d_pct": 0.03,
+      "chg20d_pct": 1.06
     }
   }
 }
