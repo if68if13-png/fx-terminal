@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-10T15:59:47.954998",
-  "generated": "2026年08月10日 15:59",
+  "timestamp": "2026-08-10T18:57:39.020037",
+  "generated": "2026年08月10日 18:57",
   "scores": {
-    "USD": -2,
-    "JPY": -2,
-    "EUR": -1,
+    "USD": 2,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
-    "CHF": -1
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
+      "diff": 3,
       "base_score": 2,
-      "quote_score": -2
+      "quote_score": -1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "強くロング",
-      "diff": 4,
+      "diff": 3,
       "base_score": 2,
-      "quote_score": -2
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": -1,
-      "quote_score": -2
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": -1,
-      "quote_score": -2
+      "base_score": 0,
+      "quote_score": -1
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -2,
-      "quote_score": -2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": -2,
-      "quote_score": -2
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Denmark: Tax cuts keep inflation below the euro area – Nordea",
-      "summary": "Nordea economist Jan Størup Nielsen notes that Danish inflation eased slightly in July, with headline consumer prices up"
+      "title": "United States: Weak payrolls and softer retail sales – TD Securities",
+      "summary": "TD Securities notes July payrolls surprised sharply to the downside, with headline jobs dragged by government hiring, wh"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Bearish pressure builds below 1.4000",
-      "summary": "USD/CAD trades on the back foot on Monday even as the US Dollar (USD) regains some ground after weakening last week foll"
+      "title": "Mexican Peso rally pauses ahead of US inflation report",
+      "summary": "The Mexican Peso (MXN) loses some ground against the US Dollar (USD) on Monday as traders book profits after a worse-tha"
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone: Resilient data but growth risks weigh on Euro – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley notes Eurozone Q2 Gross Domestic Product (GDP) and Purchasing Managers' Index"
+      "title": "LatAm FX: Carry window opens with caveats – BNY",
+      "summary": "BNY’s Geoff Yu and David Tam argue that a more dovish Federal Reserve (Fed) and weaker United States (US) labor data hav"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar stays flat ahead of RBA rate decision",
-      "summary": "The Australian Dollar (AUD) trades near the 0.7060 level against the US Dollar (USD) on Monday, giving back a little gro"
+      "title": "Gold edges higher as Hormuz delays, US CPI keep traders cautious",
+      "summary": "Gold (XAU/USD) price edges up at the beginning of the week as the reopening of the Strait of Hormuz faces delays due to "
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds firm as Fed rate outlook, Middle East developments remain in focus",
-      "summary": "Gold (XAU/USD) struggles to extend gains on Monday as buyers take a breather following last week’s sharp rally, with the"
+      "title": "Japanese Yen weakens as surprise current account deficit weighs",
+      "summary": "USD/JPY advances 0.73% on Monday and trades around 158.95 at the time of writing."
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds ground against US Dollar amid Fed uncertainty ahead of US CPI",
-      "summary": "EUR/USD treads water on Monday as the US Dollar (USD) steadies following its post-NFP weakness, while Oil prices rise am"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar jumps as Yen struggles with Japan’s fiscal woes",
-      "summary": "AUD/JPY rises 0.70% on Monday and trades around 112.25 at the time of writing. The pair benefits from broad weakness in "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Sideways growth and sticky inflation – TD Securities",
-      "summary": "TD Securities’ US economists Oscar Munoz and Eli Nir expect US output growth to move sideways in 2026 as the lingering O"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Faces risk of return to 160 against US Dollar – ING",
-      "summary": "ING’s Francesco Pesole highlights that softer United States (US) data and a more dovish Fed outlook should, in theory, b"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Positioning-driven softness ahead of CPI – BNY",
-      "summary": "BNY’s Wee Khoon Chong notes that the US Dollar (USD) has been the weakest G10 currency on iFlow metrics as markets scale"
+      "title": "The Canadian Dollar takes back two months in ten sessions",
+      "summary": "The Canadian Dollar trades at its strongest against the US Dollar since the second week of June, with the rate holding j"
     },
     {
       "source": "Investing",
       "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin slips below $65k with U.S. inflation, Iran risks in focus",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,36 +192,23 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] USD/CAD Price Forecast: Bearish pressure builds below 1",
-      "[弱気] Euro holds ground against US Dollar amid Fed uncertaint",
-      "[弱気] Australian Dollar jumps as Yen struggles with Japan’s f",
-      "[弱気] Japanese Yen: Faces risk of return to 160 against US Do",
-      "[弱気] US Dollar: Positioning-driven softness ahead of CPI – B",
+      "[弱気] LatAm FX: Carry window opens with caveats – BNY",
+      "[弱気] Japanese Yen weakens as surprise current account defici",
+      "[強気] The Canadian Dollar takes back two months in ten sessio",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
     ],
     "JPY": [
-      "[弱気] Australian Dollar jumps as Yen struggles with Japan’s f",
-      "[弱気] Japanese Yen: Faces risk of return to 160 against US Do"
-    ],
-    "EUR": [
-      "[弱気] Euro holds ground against US Dollar amid Fed uncertaint"
+      "[弱気] Japanese Yen weakens as surprise current account defici"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[弱気] Australian Dollar jumps as Yen struggles with Japan’s f"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] USD/CAD Price Forecast: Bearish pressure builds below 1"
-    ],
-    "CHF": [
-      "[弱気] Japanese Yen: Faces risk of return to 160 against US Do"
     ]
   },
   "rates": {
@@ -239,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74836,
-      "today_close": 158.93589,
+      "today_close": 159.28119,
       "prev_close": 157.7481,
-      "diff": 1.1878,
-      "diff_pct": 0.75
+      "diff": 1.5331,
+      "diff_pct": 0.97
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.93589,
-      "sma20": 160.2381,
-      "sma50": 161.3169,
-      "sma200": 158.8529,
+      "latest": 159.28119,
+      "sma20": 160.2554,
+      "sma50": 161.3238,
+      "sma200": 158.8546,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -259,13 +246,13 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.74,
-      "chg20d_pct": -2.62
+      "chg5d_pct": 0.96,
+      "chg20d_pct": -2.41
     },
     "EURUSD": {
-      "latest": 1.15508,
+      "latest": 1.15405,
       "sma20": 1.1481,
-      "sma50": 1.1442,
+      "sma50": 1.1441,
       "sma200": 1.1618,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -275,8 +262,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": 1.34
+      "chg5d_pct": -0.12,
+      "chg20d_pct": 1.25
     }
   }
 }
