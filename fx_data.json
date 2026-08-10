@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-10T13:08:05.585701",
-  "generated": "2026年08月10日 13:08",
+  "timestamp": "2026-08-10T15:59:47.954998",
+  "generated": "2026年08月10日 15:59",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": -2,
+    "JPY": -2,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": -2,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 0
+    "CAD": -1,
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "強くロング",
       "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": -2
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 4,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -2
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": -1,
+      "quote_score": -2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": -1,
+      "quote_score": -2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -2,
+      "quote_score": -2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": -2,
+      "quote_score": -2
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Higher hurdle for sustained gains – MUFG",
-      "summary": "MUFG’s Derek Halpenny notes that weaker US jobs data have not triggered a strong reaction in Dollar or rates, as markets"
+      "title": "Denmark: Tax cuts keep inflation below the euro area – Nordea",
+      "summary": "Nordea economist Jan Størup Nielsen notes that Danish inflation eased slightly in July, with headline consumer prices up"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Modest upside bias against US Dollar as Fed repricing – Rabobank",
-      "summary": "Rabıobank's Senior FX Strategist Jane Foley discusses recent EUR/USD strength, noting it was mainly driven by a softer D"
+      "title": "USD/CAD Price Forecast: Bearish pressure builds below 1.4000",
+      "summary": "USD/CAD trades on the back foot on Monday even as the US Dollar (USD) regains some ground after weakening last week foll"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA policy pause maintained – TD Securities",
-      "summary": "TD Securities strategists expect the Reserve Bank of Australia (RBA) to leave the cash rate unchanged at 4.35%, noting t"
+      "title": "Eurozone: Resilient data but growth risks weigh on Euro – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley notes Eurozone Q2 Gross Domestic Product (GDP) and Purchasing Managers' Index"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: BoJ tightening risks support JPY – BNY",
-      "summary": "BNY’s Wee Khoon Chong highlights that long-end JGB yields are rising on inflation and fiscal concerns, with markets pric"
+      "title": "Australian Dollar stays flat ahead of RBA rate decision",
+      "summary": "The Australian Dollar (AUD) trades near the 0.7060 level against the US Dollar (USD) on Monday, giving back a little gro"
     },
     {
       "source": "FXStreet",
-      "title": "Silver tests $65: Why are buyers struggling to extend the rally?",
-      "summary": "Silver (XAG/USD) struggles to extend its gains on Monday following last week’s strong breakout as traders assess the Fed"
+      "title": "Gold holds firm as Fed rate outlook, Middle East developments remain in focus",
+      "summary": "Gold (XAU/USD) struggles to extend gains on Monday as buyers take a breather following last week’s sharp rally, with the"
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Rate hike odds slashed after soft inflation – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that Norwegian Krone (NOK) is trading mixed as firmer Oil offsets the"
+      "title": "Euro holds ground against US Dollar amid Fed uncertainty ahead of US CPI",
+      "summary": "EUR/USD treads water on Monday as the US Dollar (USD) steadies following its post-NFP weakness, while Oil prices rise am"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar steadies, caught between risk aversion, rebounding Oil prices",
-      "summary": "USD/CAD trades around 1.3940 on Monday at the time of writing, virtually unchanged on the day after falling sharply on F"
+      "title": "Australian Dollar jumps as Yen struggles with Japan’s fiscal woes",
+      "summary": "AUD/JPY rises 0.70% on Monday and trades around 112.25 at the time of writing. The pair benefits from broad weakness in "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed pricing shifts with softer data – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that Friday’s mixed United States (US) Nonfarm Payrolls (NFP) report led to a notable rep"
+      "title": "Federal Reserve: Sideways growth and sticky inflation – TD Securities",
+      "summary": "TD Securities’ US economists Oscar Munoz and Eli Nir expect US output growth to move sideways in 2026 as the lingering O"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar approaches two-month highs at 0.7088 with RBA decision on tap",
-      "summary": "The Australian Dollar (AUD) holds gains, in the mid-range of the 0.7000s against the US Dollar (USD) on Monday, with two"
+      "title": "Japanese Yen: Faces risk of return to 160 against US Dollar – ING",
+      "summary": "ING’s Francesco Pesole highlights that softer United States (US) data and a more dovish Fed outlook should, in theory, b"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Positioning-driven softness ahead of CPI – BNY",
+      "summary": "BNY’s Wee Khoon Chong notes that the US Dollar (USD) has been the weakest G10 currency on iFlow metrics as markets scale"
     },
     {
       "source": "Investing",
-      "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin steady above $65k with U.S. inflation, Iran risks in focus",
+      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
       "summary": ""
     }
   ],
@@ -192,18 +192,36 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver tests $65: Why are buyers struggling to extend t",
+      "[弱気] USD/CAD Price Forecast: Bearish pressure builds below 1",
+      "[弱気] Euro holds ground against US Dollar amid Fed uncertaint",
+      "[弱気] Australian Dollar jumps as Yen struggles with Japan’s f",
+      "[弱気] Japanese Yen: Faces risk of return to 160 against US Do",
+      "[弱気] US Dollar: Positioning-driven softness ahead of CPI – B",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
+    ],
+    "JPY": [
+      "[弱気] Australian Dollar jumps as Yen struggles with Japan’s f",
+      "[弱気] Japanese Yen: Faces risk of return to 160 against US Do"
+    ],
+    "EUR": [
+      "[弱気] Euro holds ground against US Dollar amid Fed uncertaint"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)",
+      "[弱気] Australian Dollar jumps as Yen struggles with Japan’s f"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] USD/CAD Price Forecast: Bearish pressure builds below 1"
+    ],
+    "CHF": [
+      "[弱気] Japanese Yen: Faces risk of return to 160 against US Do"
     ]
   },
   "rates": {
@@ -221,18 +239,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74836,
-      "today_close": 158.9745,
+      "today_close": 158.93589,
       "prev_close": 157.7481,
-      "diff": 1.2264,
-      "diff_pct": 0.78
+      "diff": 1.1878,
+      "diff_pct": 0.75
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.9745,
-      "sma20": 160.24,
-      "sma50": 161.3177,
-      "sma200": 158.8531,
+      "latest": 158.93589,
+      "sma20": 160.2381,
+      "sma50": 161.3169,
+      "sma200": 158.8529,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -241,11 +259,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.76,
-      "chg20d_pct": -2.59
+      "chg5d_pct": 0.74,
+      "chg20d_pct": -2.62
     },
     "EURUSD": {
-      "latest": 1.15464,
+      "latest": 1.15508,
       "sma20": 1.1481,
       "sma50": 1.1442,
       "sma200": 1.1618,
@@ -257,8 +275,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.07,
-      "chg20d_pct": 1.3
+      "chg5d_pct": -0.03,
+      "chg20d_pct": 1.34
     }
   }
 }
