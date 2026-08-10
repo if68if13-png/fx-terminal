@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-09T21:32:12.365722",
-  "generated": "2026年08月09日 21:32",
+  "timestamp": "2026-08-10T01:49:07.759054",
+  "generated": "2026年08月10日 01:49",
   "scores": {
     "USD": 3,
-    "JPY": 0,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -20,13 +20,6 @@
       "quote_score": 3
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
@@ -34,11 +27,11 @@
       "quote_score": 3
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -50,9 +43,16 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "Euro consolidates below its highest level since June 17 as Mideast tensions support USD",
+      "summary": "The EUR/USD pair kicks off the new week on a subdued note and trades just above 1.1550 during the Asian session, well wi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Hormuz tensions escalate as unconfirmed missile attack amid fragile US-Iran talks",
+      "summary": "The ongoing US-Iran conflict has entered a crucial diplomatic phase, with intense fighting and strategic pressure around"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7884 vs. 6.7904 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7884 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "BoJ Summary of Opinions: Board split on pace of rate hikes amid inflation risk",
+      "summary": "The Bank of Japan (BoJ) published the Summary of Opinions from the July 30-31 monetary policy meeting, which showed a sp"
+    },
+    {
+      "source": "FXStreet",
       "title": "China: Credit demand and liquidity trends – DBS",
       "summary": "DBS Group Research anticipates China’s credit demand to stay weak in July, with new Yuan loans around RMB 10.8 billion a"
     },
@@ -120,26 +140,6 @@
       "source": "FXStreet",
       "title": "GBP/JPY Price Forecast: Rebound holds above 200-day SMA",
       "summary": "The British Pound retreats against the Japanese Yen, down about 0.24%, as the Yen is poised to end the week on a higher "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Philippines: BSP policy outlook shifts – Standard Chartered",
-      "summary": "Standard Chartered’s Jonathan Koh and Edward Lee now expect Bangko Sentral ng Pilipinas (BSP) to keep its policy rate un"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forecasting the upcoming week: US inflation takes center stage next week",
-      "summary": "The US Dollar Index (DXY) fell below the 100.00 region after sinking through Friday's session. July Nonfarm Payrolls (NF"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Treasury yields drop on soft NFP, Hormuz hopes ease Fed risks",
-      "summary": "US Treasury yields drop across the curve on Friday amid growing speculation that the Iran-Oman deal is about to be seale"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indonesian Rupiah: Supportive domestic backdrop, capped gains – Commerzbank",
-      "summary": "Commerzbank’s FX analysts, including Charlie Lay and Moses Lim, note that USD/IDR slipped slightly but stayed below the "
     },
     {
       "source": "Investing",
@@ -187,9 +187,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] US Treasury yields drop on soft NFP, Hormuz hopes ease ",
-      "[強気] Indonesian Rupiah: Supportive domestic backdrop, capped",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
+    ],
+    "JPY": [
+      "[強気] BoJ Summary of Opinions: Board split on pace of rate hi"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -217,18 +218,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74836,
-      "today_close": 157.7239,
+      "today_close": 158.21318,
       "prev_close": 157.7481,
-      "diff": -0.0242,
-      "diff_pct": -0.02
+      "diff": 0.4651,
+      "diff_pct": 0.29
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.7239,
-      "sma20": 160.1775,
-      "sma50": 161.2927,
-      "sma200": 158.8469,
+      "latest": 158.21318,
+      "sma20": 160.202,
+      "sma50": 161.3025,
+      "sma200": 158.8493,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -237,12 +238,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": -3.36
+      "chg5d_pct": 0.28,
+      "chg20d_pct": -3.06
     },
     "EURUSD": {
-      "latest": 1.15652,
-      "sma20": 1.1482,
+      "latest": 1.15536,
+      "sma20": 1.1481,
       "sma50": 1.1442,
       "sma200": 1.1618,
       "vs_sma20": "上",
@@ -253,8 +254,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.1,
-      "chg20d_pct": 1.47
+      "chg5d_pct": -0.01,
+      "chg20d_pct": 1.37
     }
   }
 }
