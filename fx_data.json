@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-10T10:16:30.625484",
-  "generated": "2026年08月10日 10:16",
+  "timestamp": "2026-08-10T13:08:05.585701",
+  "generated": "2026年08月10日 13:08",
   "scores": {
     "USD": 4,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": -1,
@@ -27,7 +27,7 @@
       "quote_score": 0
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 0,
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Policy hold guidance in focus – Nomura",
-      "summary": "Nomura’s Josie Anderson, George Buckley and Andrzej Szczepaniak expect Norges Bank to keep its policy rate at 4.25% at t"
+      "title": "US Dollar: Higher hurdle for sustained gains – MUFG",
+      "summary": "MUFG’s Derek Halpenny notes that weaker US jobs data have not triggered a strong reaction in Dollar or rates, as markets"
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Data-heavy week under global pressure – ING",
-      "summary": "ING’s Frantisek Taborsky highlights a busy Central and Eastern Europe calendar with Czech inflation, Turkey’s inflation "
+      "title": "Euro: Modest upside bias against US Dollar as Fed repricing – Rabobank",
+      "summary": "Rabıobank's Senior FX Strategist Jane Foley discusses recent EUR/USD strength, noting it was mainly driven by a softer D"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Fed repricing supports gains against US Dollar – Societe Generale",
-      "summary": "Societe Generale strategists highlight that EUR/USD has squeezed above key resistance as Dollar weakness follows softer "
+      "title": "Australian Dollar: RBA policy pause maintained – TD Securities",
+      "summary": "TD Securities strategists expect the Reserve Bank of Australia (RBA) to leave the cash rate unchanged at 4.35%, noting t"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Hawkish RBA hold supports carry – BBH",
-      "summary": "Brown Brothers Harriman’s Elias Haddad notes that the Australian Dollar (AUD) remains one of the most attractive G10 cur"
+      "title": "Japanese Yen: BoJ tightening risks support JPY – BNY",
+      "summary": "BNY’s Wee Khoon Chong highlights that long-end JGB yields are rising on inflation and fiscal concerns, with markets pric"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Recovery against US Dollar faces tariff risks – Commerzbank",
-      "summary": "Michael Pfister at Commerzbank highlights a strong Canadian labour market and improving Gross Domestic Product (GDP), Pu"
+      "title": "Silver tests $65: Why are buyers struggling to extend the rally?",
+      "summary": "Silver (XAG/USD) struggles to extend its gains on Monday following last week’s strong breakout as traders assess the Fed"
     },
     {
       "source": "FXStreet",
-      "title": "Brent: Iran talks keep risk premium in focus – Deutsche Bank",
-      "summary": "Deutsche Bank strategists highlight that negotiations between Iran and Oman over a new shipping framework through the St"
+      "title": "Norwegian Krone: Rate hike odds slashed after soft inflation – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that Norwegian Krone (NOK) is trading mixed as firmer Oil offsets the"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar stalls below 0.5900 as US Dollar regains safe-haven appeal",
-      "summary": "NZD/USD trades around 0.5895 on Monday at the time of writing, virtually unchanged on the day."
+      "title": "Canadian Dollar steadies, caught between risk aversion, rebounding Oil prices",
+      "summary": "USD/CAD trades around 1.3940 on Monday at the time of writing, virtually unchanged on the day after falling sharply on F"
     },
     {
       "source": "FXStreet",
-      "title": "Euro advances against Canadian Dollar as Eurozone Investor Confidence rises in August",
-      "summary": "EUR/CAD inches higher after three days of losses, trading around 1.6120 during the European hours on Monday. The currenc"
+      "title": "US Dollar: Fed pricing shifts with softer data – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that Friday’s mixed United States (US) Nonfarm Payrolls (NFP) report led to a notable rep"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar approaches two-month highs at 0.7088 with RBA decision on tap",
+      "summary": "The Australian Dollar (AUD) holds gains, in the mid-range of the 0.7000s against the US Dollar (USD) on Monday, with two"
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin steady above $65k with U.S. inflation, Iran risks in focus",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,21 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Euro: Fed repricing supports gains against US Dollar – ",
-      "[強気] Australian Dollar: Hawkish RBA hold supports carry – BB",
-      "[強気] Canadian Dollar: Recovery against US Dollar faces tarif",
+      "[強気] Silver tests $65: Why are buyers struggling to extend t",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
-    ],
-    "EUR": [
-      "[弱気] Euro: Fed repricing supports gains against US Dollar – "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[強気] Australian Dollar: Hawkish RBA hold supports carry – BB"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -227,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74836,
-      "today_close": 158.85998,
+      "today_close": 158.9745,
       "prev_close": 157.7481,
-      "diff": 1.1119,
-      "diff_pct": 0.7
+      "diff": 1.2264,
+      "diff_pct": 0.78
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.85998,
-      "sma20": 160.2343,
-      "sma50": 161.3154,
-      "sma200": 158.8525,
+      "latest": 158.9745,
+      "sma20": 160.24,
+      "sma50": 161.3177,
+      "sma200": 158.8531,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -247,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.69,
-      "chg20d_pct": -2.66
+      "chg5d_pct": 0.76,
+      "chg20d_pct": -2.59
     },
     "EURUSD": {
-      "latest": 1.15554,
+      "latest": 1.15464,
       "sma20": 1.1481,
       "sma50": 1.1442,
       "sma200": 1.1618,
@@ -263,8 +257,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.01,
-      "chg20d_pct": 1.38
+      "chg5d_pct": -0.07,
+      "chg20d_pct": 1.3
     }
   }
 }
