@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-10T18:57:39.020037",
-  "generated": "2026年08月10日 18:57",
+  "timestamp": "2026-08-10T21:41:20.302917",
+  "generated": "2026年08月10日 21:41",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "Citi Mexico Survey expects Banxico hold, USD/MXN ending 2026 at 17.90",
+      "summary": "Citi Mexico released the Expectations Survey on Monday, in which the central bank polled 35 economists to gather their f"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar slips as firm US Dollar and Oil keep the Kiwi pinned",
+      "summary": "The New Zealand Dollar (NZD) trades near 0.5900 against the US Dollar (USD) on Monday, giving back a little ground after"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar firms as Oil surges on Hormuz",
+      "summary": "The US Dollar (USD) traded broadly firmer on Monday, with the US Dollar Index (DXY) up around 0.2% and holding just abov"
+    },
+    {
+      "source": "FXStreet",
+      "title": "China: Cost-driven reflation and narrow profit gains – Standard Chartered",
+      "summary": "Standard Chartered analysts Carol Liao and Moriarty Lam argue that China’s reflation remains largely cost-driven, with i"
+    },
+    {
+      "source": "FXStreet",
       "title": "United States: Weak payrolls and softer retail sales – TD Securities",
       "summary": "TD Securities notes July payrolls surprised sharply to the downside, with headline jobs dragged by government hiring, wh"
     },
@@ -112,33 +132,8 @@
       "summary": "The Mexican Peso (MXN) loses some ground against the US Dollar (USD) on Monday as traders book profits after a worse-tha"
     },
     {
-      "source": "FXStreet",
-      "title": "LatAm FX: Carry window opens with caveats – BNY",
-      "summary": "BNY’s Geoff Yu and David Tam argue that a more dovish Federal Reserve (Fed) and weaker United States (US) labor data hav"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold edges higher as Hormuz delays, US CPI keep traders cautious",
-      "summary": "Gold (XAU/USD) price edges up at the beginning of the week as the reopening of the Strait of Hormuz faces delays due to "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen weakens as surprise current account deficit weighs",
-      "summary": "USD/JPY advances 0.73% on Monday and trades around 158.95 at the time of writing."
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Canadian Dollar takes back two months in ten sessions",
-      "summary": "The Canadian Dollar trades at its strongest against the US Dollar since the second week of June, with the rate holding j"
-    },
-    {
       "source": "Investing",
       "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slips below $65k with U.S. inflation, Iran risks in focus",
       "summary": ""
     },
     {
@@ -192,13 +187,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] LatAm FX: Carry window opens with caveats – BNY",
-      "[弱気] Japanese Yen weakens as surprise current account defici",
-      "[強気] The Canadian Dollar takes back two months in ten sessio",
+      "[強気] Forex Today: US Dollar firms as Oil surges on Hormuz",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen weakens as surprise current account defici"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -213,57 +203,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.69,
+    "US_10Y": 4.65,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.02,
-    "DIFF_EURUSD": -1.72,
-    "DIFF_GBPUSD": 0.11,
-    "DIFF_AUDUSD": 0.14
+    "DIFF_USDJPY": 1.98,
+    "DIFF_EURUSD": -1.68,
+    "DIFF_GBPUSD": 0.15,
+    "DIFF_AUDUSD": 0.18
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.74836,
-      "today_close": 159.28119,
-      "prev_close": 157.7481,
-      "diff": 1.5331,
-      "diff_pct": 0.97
+      "today_open": 159.31153,
+      "today_close": 159.26075,
+      "prev_close": 159.31691,
+      "diff": -0.0562,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.28119,
-      "sma20": 160.2554,
-      "sma50": 161.3238,
-      "sma200": 158.8546,
+      "latest": 159.26075,
+      "sma20": 160.0621,
+      "sma50": 161.2776,
+      "sma200": 158.8717,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 82.0,
+      "rsi14": 77.2,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.96,
-      "chg20d_pct": -2.41
+      "chg5d_pct": 0.5,
+      "chg20d_pct": -2.39
     },
     "EURUSD": {
-      "latest": 1.15405,
-      "sma20": 1.1481,
-      "sma50": 1.1441,
-      "sma200": 1.1618,
+      "latest": 1.15437,
+      "sma20": 1.1487,
+      "sma50": 1.1444,
+      "sma200": 1.1617,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 45.9,
+      "rsi14": 47.5,
       "high20": 1.159,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.12,
-      "chg20d_pct": 1.25
+      "chg5d_pct": 0.17,
+      "chg20d_pct": 1.15
     }
   }
 }
