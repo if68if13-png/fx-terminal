@@ -1,37 +1,30 @@
 {
-  "timestamp": "2026-08-10T04:38:15.266688",
-  "generated": "2026年08月10日 04:38",
+  "timestamp": "2026-08-10T07:41:29.553402",
+  "generated": "2026年08月10日 07:41",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -2,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,17 +34,24 @@
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -103,47 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc declines as safe-haven demand supports US Dollar",
-      "summary": "USD/CHF inches higher after registering over 0.5% losses in the previous trading day, hovering around 0.8090 during the "
+      "title": "EUR/JPY Price Forecast: Positions above nine-day EMA near 183.00",
+      "summary": "EUR/JPY rises after registering losses in the previous day, trading around 183.10 during the European hours on Monday. T"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar drifts lower as USD recovers from post-NFP lows amid Mideast jitters",
-      "summary": "The NZD/USD pair is seen extending Friday's late pullback from the vicinity of the monthly peak – levels just above the "
+      "title": "British Pound: Soft GDP could trigger dovish BoE repricing – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad argues that the British Pound (GBP) requires a stronger-than-expected Unite"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index advances above 99.50 due to Middle East risks",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is gaining grou"
+      "title": "Australian Dollar flat above 0.7050 vs USD, close to June 16 peak as traders await RBA",
+      "summary": "The AUD/USD pair enters a bullish consolidation phase at the start of the new week as traders opt to move to the sidelin"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD starts US CPI week on flat note around $63.50",
-      "summary": "Silver price (XAG/USD) trades in a tight range at around $63.50 during the Asian trading session at the start of the wee"
+      "title": "Equities: Falling oil and AI rebound drive record highs - Deutsche Bank",
+      "summary": "Deutsche Bank strategists report that falling energy prices and softer Federal Reserve (Fed) expectations helped push th"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar weakens as safe-haven demand lifts US Dollar",
-      "summary": "AUD/USD inches lower after registering modest gains in the previous day, trading around 0.7060 during the Asian hours on"
+      "title": "Euro dips further against the British Pound, weighed by higher Oil prices",
+      "summary": "The Euro (EUR) posts mild losses against the British Pound (GBP) on Monday, with the EUR/GBP pair testing Friday’s lows "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar pulls back from two-month top as rebounding USD counters higher oil prices",
-      "summary": "The USD/CAD pair attracts some dip-buyers at the start of a new week and recovers a part of Friday's heavy losses to the"
+      "title": "Canadian Dollar weakens as US Dollar strengthens on rising risk aversion",
+      "summary": "USD/CAD gains ground after registering over 0.5% losses in the previous day, trading around 1.3950 during the early Euro"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen comes under pressure as BoJ division, unexpected current account deficit",
-      "summary": "USD/JPY gains ground after registering modest losses in the previous day, trading around 158.20 during the Asian hours o"
+      "title": "Japanese Yen: Intervention credibility questioned – BNY",
+      "summary": "BNY’s Geoff Yu and David Tam highlight that USD/JPY is grinding higher again after Japan’s recent intervention, with the"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee drops tracking higher oil prices, downside seems limited",
+      "summary": "The Indian Rupee (INR) opens on a negative note against the US Dollar (USD) at the start of the week. The USD/INR pair r"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: Post-NFP US Dollar selloff pauses",
+      "summary": "Here is what you need to know on Monday, August 10:"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin holds above $65k with U.S. inflation, Iran risks in focus",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -182,19 +192,25 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar weakens as safe-haven demand lifts US",
+      "[弱気] Canadian Dollar weakens as US Dollar strengthens on ris",
+      "[弱気] Indian Rupee drops tracking higher oil prices, downside",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
+    ],
+    "EUR": [
+      "[弱気] Canadian Dollar weakens as US Dollar strengthens on ris"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[弱気] Australian Dollar weakens as safe-haven demand lifts US"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar weakens as US Dollar strengthens on ris"
     ]
   },
   "rates": {
@@ -212,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.74836,
-      "today_close": 158.26342,
+      "today_close": 158.47935,
       "prev_close": 157.7481,
-      "diff": 0.5153,
-      "diff_pct": 0.33
+      "diff": 0.7313,
+      "diff_pct": 0.46
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.26342,
-      "sma20": 160.2045,
-      "sma50": 161.3035,
-      "sma200": 158.8496,
+      "latest": 158.47935,
+      "sma20": 160.2153,
+      "sma50": 161.3078,
+      "sma200": 158.8506,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -232,12 +248,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.31,
-      "chg20d_pct": -3.03
+      "chg5d_pct": 0.45,
+      "chg20d_pct": -2.9
     },
     "EURUSD": {
-      "latest": 1.15493,
-      "sma20": 1.1481,
+      "latest": 1.15608,
+      "sma20": 1.1482,
       "sma50": 1.1442,
       "sma200": 1.1618,
       "vs_sma20": "上",
@@ -248,8 +264,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.04,
-      "chg20d_pct": 1.33
+      "chg5d_pct": 0.06,
+      "chg20d_pct": 1.43
     }
   }
 }
