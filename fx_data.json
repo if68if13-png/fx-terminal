@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-11T19:02:34.348269",
-  "generated": "2026年08月11日 19:02",
+  "timestamp": "2026-08-11T21:47:59.421952",
+  "generated": "2026年08月11日 21:47",
   "scores": {
     "USD": 1,
     "JPY": 0,
@@ -103,6 +103,36 @@
     },
     {
       "source": "FXStreet",
+      "title": "Indonesian Rupiah: BI succession supports IDR against US Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that Indonesian Rupiah (IDR) strengthened to near a two‑month high on a s"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso hits 25-month high as US CPI lurks",
+      "summary": "The Mexican Peso (MXN) is poised to end Tuesday’s session with solid gains of 0.32% against the US Dollar (USD) as money"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore: AI-driven growth supports MAS outlook – Standard Chartered",
+      "summary": "Standard Chartered Bank economists Edward Lee and Jonathan Koh highlight that Singapore’s H1 GDP expanded 6.1% year-on-y"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Thai Baht: Benign inflation keeps BoT on hold – Commerzbank",
+      "summary": "Commerzbank strategists note July Consumer Price Index (CPI) eased to 2.0% year-on-year, below consensus, mainly due to "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro stalls below 100-day SMA as investors brace for US CPI",
+      "summary": "The Euro (EUR) registers minimal losses against the US Dollar (USD) on Tuesday as traders and market participants prepar"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Range bias with upside risk against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann expect USD/SGD to remain in a tight intraday band after Mond"
+    },
+    {
+      "source": "FXStreet",
       "title": "Australian Dollar: Policy risks balanced as inflation lingers – Standard Chartered",
       "summary": "Standard Chartered’s Nicholas Chia reports that the Reserve Bank of Australia (RBA) kept the cash rate at 4.35% in a una"
     },
@@ -112,33 +142,8 @@
       "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe that the British Pound (GBP) is consolidating gains near t"
     },
     {
-      "source": "FXStreet",
-      "title": "Forex Today: US Dollar on pause ahead of US CPI",
-      "summary": "The US Dollar Index (DXY) is trading little changed in the vicinity below the 100.00 price zone ahead of the United Stat"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The US Dollar Index has no dovish tail to price",
-      "summary": "Tuesday gives the Dollar Index a session with almost nothing in it."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore: Growth set to run above potential – UOB",
-      "summary": "UOB economist Jester Koh highlights that Singapore’s 2Q26 Gross Domestic Product (GDP) was revised up to 5.9% year-on-ye"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen pares losses ahead of US inflation report",
-      "summary": "The Japanese Yen (JPY) trades flat above 159.00 on Tuesday after several days of US Dollar (USD) strength following the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold eases amid firm US Dollar as CPI and Hormuz risks loom",
-      "summary": "Gold (XAU/USD) price registers modest losses on Tuesday, driven by a firm US Dollar as traders await the release of cruc"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin ticks down to $64.2k as Hormuz hopes fade, Strategy sells more coins",
+      "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
       "summary": ""
     },
     {
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,7 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] The US Dollar Index has no dovish tail to price"
+      "[弱気] Indonesian Rupiah: BI succession supports IDR against U"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,58 +206,58 @@
     ]
   },
   "rates": {
-    "US_FF": null,
-    "US_10Y": 4.65,
+    "US_FF": 3.63,
+    "US_10Y": 4.72,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.98,
-    "DIFF_EURUSD": -1.68,
-    "DIFF_GBPUSD": 0.15,
-    "DIFF_AUDUSD": 0.18
+    "DIFF_USDJPY": 2.05,
+    "DIFF_EURUSD": -1.75,
+    "DIFF_GBPUSD": 0.08,
+    "DIFF_AUDUSD": 0.11
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.31153,
-      "today_close": 159.26843,
-      "prev_close": 159.31691,
-      "diff": -0.0485,
-      "diff_pct": -0.03
+      "today_open": 159.30271,
+      "today_close": 159.27621,
+      "prev_close": 159.30255,
+      "diff": -0.0263,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.26843,
-      "sma20": 160.0625,
-      "sma50": 161.2777,
-      "sma200": 158.8717,
+      "latest": 159.27621,
+      "sma20": 159.8345,
+      "sma50": 161.2322,
+      "sma200": 158.8874,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 77.2,
+      "rsi14": 84.7,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.5,
-      "chg20d_pct": -2.39
+      "chg5d_pct": 0.94,
+      "chg20d_pct": -2.8
     },
     "EURUSD": {
-      "latest": 1.15413,
-      "sma20": 1.1487,
-      "sma50": 1.1444,
-      "sma200": 1.1617,
+      "latest": 1.15404,
+      "sma20": 1.1495,
+      "sma50": 1.1447,
+      "sma200": 1.1616,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 47.5,
+      "rsi14": 42.3,
       "high20": 1.159,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.15,
-      "chg20d_pct": 1.13
+      "chg5d_pct": -0.17,
+      "chg20d_pct": 1.43
     }
   }
 }
