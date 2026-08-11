@@ -1,40 +1,47 @@
 {
-  "timestamp": "2026-08-11T07:07:28.493898",
-  "generated": "2026年08月11日 07:07",
+  "timestamp": "2026-08-11T10:01:36.892071",
+  "generated": "2026年08月11日 10:01",
   "scores": {
     "USD": 2,
-    "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
-    "AUD": -2,
-    "NZD": 1,
+    "JPY": -1,
+    "EUR": 0,
+    "GBP": 1,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -2,
+      "diff": -3,
+      "base_score": -1,
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": 1,
@@ -44,15 +51,8 @@
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,48 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound consolidates around 1.3500 vs USD; looks to US CPI, UK GDP for fresh impetus",
-      "summary": "The GBP/USD pair seesaws between tepid gains and minor losses through the early European session on Tuesday, though it r"
+      "title": "Australian Dollar: RBA keeps door open – Rabobank",
+      "summary": "Rabobank's Senior Macro Strategist Bas van Geffen reports that the Australian Dollar (AUD) slipped briefly after the RBA"
     },
     {
       "source": "FXStreet",
-      "title": "Euro drifts below 1.1550 as hopes of a swift US-Iran peace deal wane",
-      "summary": "The Euro (EUR) nudges lower against the US Dollar (USD) on Tuesday, weighed by the stalemate in the US-Iran negotiations"
+      "title": "Australian Dollar edges up, RBA hawkish hold does little to revive rate hike expectations",
+      "summary": "The Australian Dollar (AUD) attracts bids against its major currency peers after the Reserve Bank of Australia’s (RBA) m"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA holds rates but downside bias persists – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur reports that the Reserve Bank of Australia (RBA) left interest rates unchanged in a unanimous"
+      "title": "Canadian Dollar remains near two-month highs against US Dollar as Oil prices rise",
+      "summary": "USD/CAD trades around 1.3935 on Tuesday at the time of writing, virtually unchanged on the day with a modest 0.03% decli"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Gains capped below key resistance against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note EUR/USD has stalled after last week’s surge, with flat "
+      "title": "WTI Oil hits fresh highs at $83.50 as Hormuz reopening hopes vanish",
+      "summary": "Oil prices rally for the second consecutive day on Tuesday, with the barrel of the US benchmark West Texas Intermediate "
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee falls Trump's war compensation demand lifts oil prices",
+      "title": "Federal Reserve: Dovish repricing on data and inflation focus – BNY",
+      "summary": "John Velis at BNY Markets reiterates that he expects no Federal Reserve rate hikes this year, even as risks remain skewe"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Brent: Inflation risks rise with Hormuz standoff – Deutsche Bank",
+      "summary": "Deutsche Bank strategists highlight that Brent Oil has broken above $85, closing near $88 as the Strait of Hormuz remain"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee falls as oil prices extend rally, India-US CPI data awaited",
       "summary": "The Indian Rupee (INR) opens on a cautious note against the US Dollar (USD) on Tuesday. The USD/INR pair rises further t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold pulls back from June 5 high, slides below $4,400 amid inflation-driven Fed hike bets",
-      "summary": "Gold (XAU/USD) retreats from its highest level since June 5, touched earlier this Tuesday, and slides back below the $4,"
+      "title": "US Dollar: Volatility sinks as carry trades hold – ING",
+      "summary": "ING’s Chris Turner notes that FX volatility is falling as investors appear comfortable with the Federal Reserve holding "
     },
     {
       "source": "FXStreet",
-      "title": "RBA Governor discusses policy path after keeping interest rates steady",
-      "summary": "Reserve Bank of Australia (RBA) Governor Michele Bullock is speaking at the press conference, explaining the reasons beh"
-    },
-    {
-      "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Aussie spikes down below 0.7050 as RBA’s Bullock speaks",
-      "summary": "The Australian Dollar (AUD) has reacted with moderate declines against the US Dollar (USD) following Reserve Bank of Aus"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar declines against New Zealand Dollar following RBA decision",
-      "summary": "AUD/NZD pares its daily gains, trading around 1.1960 during the Asian hours on Tuesday. The Australian Dollar (AUD) has "
+      "title": "British Pound sits near one-week top, above 215.00 vs weak Yen ahead of UK GDP",
+      "summary": "The GBP/JPY cross recovers a modest intraday dip and climbs above the 215.00 psychological mark during the first half of"
     },
     {
       "source": "Investing",
@@ -192,54 +192,55 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: Gains capped below key resistance against US Doll",
-      "[弱気] Indian Rupee falls Trump's war compensation demand lift",
-      "[弱気] Australian Dollar declines against New Zealand Dollar f",
+      "[弱気] Australian Dollar: RBA keeps door open – Rabobank",
+      "[強気] Australian Dollar edges up, RBA hawkish hold does littl",
+      "[弱気] Indian Rupee falls as oil prices extend rally, India-US",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
     ],
+    "JPY": [
+      "[弱気] British Pound sits near one-week top, above 215.00 vs w"
+    ],
     "EUR": [
-      "[強気] Euro: Gains capped below key resistance against US Doll"
+      "[強気] Australian Dollar edges up, RBA hawkish hold does littl",
+      "[弱気] British Pound sits near one-week top, above 215.00 vs w"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound sits near one-week top, above 215.00 vs w"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[弱気] Australian Dollar declines against New Zealand Dollar f"
+      "[弱気] Australian Dollar: RBA keeps door open – Rabobank",
+      "[強気] Australian Dollar edges up, RBA hawkish hold does littl"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar declines against New Zealand Dollar f"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.65,
+    "US_10Y": null,
     "JP_10Y": 2.67,
-    "DE_10Y": 2.97,
-    "GB_10Y": 4.796,
-    "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.98,
-    "DIFF_EURUSD": -1.68,
-    "DIFF_GBPUSD": 0.15,
-    "DIFF_AUDUSD": 0.18
+    "DE_10Y": null,
+    "GB_10Y": null,
+    "AU_10Y": null
   },
   "prices": {
     "USDJPY": {
       "today_open": 159.31153,
-      "today_close": 159.29101,
+      "today_close": 159.28756,
       "prev_close": 159.31691,
-      "diff": -0.0259,
+      "diff": -0.0293,
       "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.29101,
-      "sma20": 160.0636,
-      "sma50": 161.2782,
-      "sma200": 158.8719,
+      "latest": 159.28756,
+      "sma20": 160.0635,
+      "sma50": 161.2781,
+      "sma200": 158.8718,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -252,7 +253,7 @@
       "chg20d_pct": -2.37
     },
     "EURUSD": {
-      "latest": 1.15386,
+      "latest": 1.15373,
       "sma20": 1.1487,
       "sma50": 1.1444,
       "sma200": 1.1617,
@@ -264,8 +265,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": 1.1
+      "chg5d_pct": 0.11,
+      "chg20d_pct": 1.09
     }
   }
 }
