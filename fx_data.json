@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-10T21:41:20.302917",
-  "generated": "2026年08月10日 21:41",
+  "timestamp": "2026-08-11T01:45:43.859486",
+  "generated": "2026年08月11日 01:45",
   "scores": {
     "USD": 4,
     "JPY": 0,
@@ -103,33 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Citi Mexico Survey expects Banxico hold, USD/MXN ending 2026 at 17.90",
-      "summary": "Citi Mexico released the Expectations Survey on Monday, in which the central bank polled 35 economists to gather their f"
+      "title": "Breaking: Gold rallies further beyond $4,400; highest since early June",
+      "summary": "Gold (XAU/USD) scales higher for the third consecutive day – also marking the fifth day of a positive move in the previo"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar slips as firm US Dollar and Oil keep the Kiwi pinned",
-      "summary": "The New Zealand Dollar (NZD) trades near 0.5900 against the US Dollar (USD) on Monday, giving back a little ground after"
+      "title": "Silver Price Forecast: XAG/USD slips to near $66.00 on Fed hike fears, oil surge",
+      "summary": "Silver price (XAG/USD) depreciates after two days of gains, trading around $66.00 per troy ounce during the Asian hours "
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar firms as Oil surges on Hormuz",
-      "summary": "The US Dollar (USD) traded broadly firmer on Monday, with the US Dollar Index (DXY) up around 0.2% and holding just abov"
+      "title": "United States Dollar Index consolidates below 100.00 as bulls await US CPI amid Iran risks",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, struggles to capitalize on the pre"
     },
     {
       "source": "FXStreet",
-      "title": "China: Cost-driven reflation and narrow profit gains – Standard Chartered",
-      "summary": "Standard Chartered analysts Carol Liao and Moriarty Lam argue that China’s reflation remains largely cost-driven, with i"
+      "title": "PBOC sets USD/CNY reference rate at 6.7900 vs. 6.7884 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7900 compa"
     },
     {
       "source": "FXStreet",
-      "title": "United States: Weak payrolls and softer retail sales – TD Securities",
-      "summary": "TD Securities notes July payrolls surprised sharply to the downside, with headline jobs dragged by government hiring, wh"
+      "title": "RBA set to hold interest rate at 4.35% as softer inflation cools hike bets",
+      "summary": "The Reserve Bank of Australia (RBA) is on track to keep the Official Cash Rate (OCR) steady at 4.35% for the second cons"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso rally pauses ahead of US inflation report",
-      "summary": "The Mexican Peso (MXN) loses some ground against the US Dollar (USD) on Monday as traders book profits after a worse-tha"
+      "title": "Intervention bought the Japanese Yen a price, not a buyer",
+      "summary": "The Yen has surrendered close to a full percent through the session, with the pair up 0.93% and changing hands just abov"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Australian Dollar rallies without an Australian reason",
+      "summary": "The Australian Dollar has traded a band of barely 20 pips through the session, holding above 0.7050 and easing 0.15% ins"
+    },
+    {
+      "source": "FXStreet",
+      "title": "EUR/USD Price Forecast: 100-day SMA caps Euro recovery",
+      "summary": "The Euro is poised to end Monday’s session with losses of about 0.13% against the Greenback, as recent news points to a "
     },
     {
       "source": "Investing",
@@ -144,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,7 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Forex Today: US Dollar firms as Oil surges on Hormuz",
+      "[強気] Silver Price Forecast: XAG/USD slips to near $66.00 on ",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
     ],
     "GBP": [
@@ -216,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31153,
-      "today_close": 159.26075,
+      "today_close": 159.14054,
       "prev_close": 159.31691,
-      "diff": -0.0562,
-      "diff_pct": -0.04
+      "diff": -0.1764,
+      "diff_pct": -0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.26075,
-      "sma20": 160.0621,
-      "sma50": 161.2776,
-      "sma200": 158.8717,
+      "latest": 159.14054,
+      "sma20": 160.0561,
+      "sma50": 161.2752,
+      "sma200": 158.8711,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -236,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.5,
-      "chg20d_pct": -2.39
+      "chg5d_pct": 0.42,
+      "chg20d_pct": -2.46
     },
     "EURUSD": {
-      "latest": 1.15437,
+      "latest": 1.15475,
       "sma20": 1.1487,
       "sma50": 1.1444,
       "sma200": 1.1617,
@@ -252,8 +257,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": 1.15
+      "chg5d_pct": 0.2,
+      "chg20d_pct": 1.18
     }
   }
 }
