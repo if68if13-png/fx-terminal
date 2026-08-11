@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-11T13:05:33.013604",
-  "generated": "2026年08月11日 13:05",
+  "timestamp": "2026-08-11T16:02:04.534057",
+  "generated": "2026年08月11日 16:02",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": -1,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,9 @@
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 3,
+      "diff": 3,
+      "base_score": 2,
       "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,18 @@
       "quote_score": -1
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -53,6 +46,13 @@
       "diff": 1,
       "base_score": 0,
       "quote_score": -1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,52 +103,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Rangebound against US Dollar as volatility sinks – ING",
-      "summary": "Chris Turner at ING observes that EUR/USD realised volatility continues to decline, with one-year volatility matching lo"
+      "title": "USD/CHF Price Forecast: Buyers struggle to clear the 21-day SMA",
+      "summary": "USD/CHF trades with a positive bias on Tuesday as the US Dollar (USD) consolidates its recent gains ahead of Wednesday’s"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Heading back toward 160 against US Dollar – Commerzbank",
-      "summary": "Volkmar Baur at Commerzbank notes that the Japanese Yen has weakened again above 159 per Dollar despite recent intervent"
+      "title": "Euro: Consolidation holds in mid 1.15s against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that the Euro (EUR) is steady, extending a tight consoli"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen struggles as impact of joint intervention fades",
-      "summary": "USD/JPY treads water on Tuesday as the Japanese Yen (JPY) struggles to find its footing, facing headwinds from a firmer "
+      "title": "New Zealand Dollar remains under pressure as Middle East tensions support US Dollar",
+      "summary": "NZD/USD trades around 0.5880 on Tuesday at the time of writing, virtually unchanged on the day with a 0.03% decline."
     },
     {
       "source": "FXStreet",
-      "title": "US ADP Employment Change 4-week average drops to 8.25K",
-      "summary": "Private-sector hiring in the US has further cooled in late July. According to the NER Pulse, the weekly companion to the"
+      "title": "British Pound holds near 1.3500 as US CPI, UK GDP loom",
+      "summary": "The Pound Sterling (GBP) holds firm against the US Dollar (USD) on Tuesday following the release of softer-than-expected"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA softens hawkish stance – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports the Reserve Bank of Australia (RBA) delivered a less hawkish hold, "
+      "title": "Japanese Yen: Intervention risks and Fed path – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses USD/JPY ahead of the United States (US) July Consumer Price Index ("
     },
     {
       "source": "FXStreet",
-      "title": "Silver retreats toward $65.00 as Oil rebound revives inflation concerns",
-      "summary": "Silver (XAG/USD) extends its correction on Tuesday and trades around $65.05 at the time of writing, down 2.31% on the da"
+      "title": "Canadian Dollar holds firm against US Dollar ahead of US CPI",
+      "summary": "USD/CAD trades under pressure on Tuesday, staying on the back foot for a third straight day. However, the pair lacks fol"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: CPI keeps USD in tight ranges – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note the US Dollar (USD) softened as Fed hike expectations moderated and the U"
+      "title": "Australian Dollar: RBA policy path caps upside against US Dollar – Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux highlights ongoing pressure on the Australian Dollar after the RBA removed one projecte"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc holds below 0.8100 US Dollar with US-Iran negotiations deadlocked",
-      "summary": "The Swiss Franc trades practically flat against the US Dollar (USD) on Tuesday, consolidating halfway through last week’"
+      "title": "Canadian Dollar: Bullish momentum builds against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is supported by higher Oil prices a"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Holds Descending Triangle breakout",
-      "summary": "The GBP/USD pair trades marginally lower at around 1.3500 during the European trading session on Tuesday."
+      "title": "Euro: Gradual appreciation path against US Dollar – Commerzbank",
+      "summary": "Commerzbank's Chief Economist Dr. Jörg Krämer expects EUR/USD to recover once the Iran conflict eases and to grind highe"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips to $64k as Hormuz hopes fade, Strategy sells more coins",
+      "title": "Bitcoin ticks down to $64.2k as Hormuz hopes fade, Strategy sells more coins",
       "summary": ""
     },
     {
@@ -192,12 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Heading back toward 160 against US Dollar",
-      "[強気] Australian Dollar: RBA softens hawkish stance – BBH",
-      "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
+      "[弱気] Japanese Yen: Intervention risks and Fed path – Raboban",
+      "[強気] Australian Dollar: RBA policy path caps upside against "
     ],
     "JPY": [
-      "[弱気] Japanese Yen: Heading back toward 160 against US Dollar"
+      "[弱気] Japanese Yen: Intervention risks and Fed path – Raboban"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,35 +204,35 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[強気] Australian Dollar: RBA softens hawkish stance – BBH"
+      "[強気] Australian Dollar: RBA policy path caps upside against "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
+    "US_FF": null,
     "US_10Y": null,
-    "JP_10Y": 2.67,
+    "JP_10Y": null,
     "DE_10Y": null,
     "GB_10Y": 4.796,
-    "AU_10Y": 4.831
+    "AU_10Y": null
   },
   "prices": {
     "USDJPY": {
       "today_open": 159.31153,
-      "today_close": 159.215,
+      "today_close": 159.26407,
       "prev_close": 159.31691,
-      "diff": -0.1019,
-      "diff_pct": -0.06
+      "diff": -0.0528,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.215,
-      "sma20": 160.0598,
-      "sma50": 161.2767,
-      "sma200": 158.8715,
+      "latest": 159.26407,
+      "sma20": 160.0623,
+      "sma50": 161.2776,
+      "sma200": 158.8717,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -242,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.47,
-      "chg20d_pct": -2.42
+      "chg5d_pct": 0.5,
+      "chg20d_pct": -2.39
     },
     "EURUSD": {
-      "latest": 1.15443,
+      "latest": 1.15427,
       "sma20": 1.1487,
       "sma50": 1.1444,
       "sma200": 1.1617,
@@ -258,8 +257,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": 1.15
+      "chg5d_pct": 0.16,
+      "chg20d_pct": 1.14
     }
   }
 }
