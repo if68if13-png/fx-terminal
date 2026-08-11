@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-11T16:02:04.534057",
-  "generated": "2026年08月11日 16:02",
+  "timestamp": "2026-08-11T19:02:34.348269",
+  "generated": "2026年08月11日 19:02",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
       "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Buyers struggle to clear the 21-day SMA",
-      "summary": "USD/CHF trades with a positive bias on Tuesday as the US Dollar (USD) consolidates its recent gains ahead of Wednesday’s"
+      "title": "Australian Dollar: Policy risks balanced as inflation lingers – Standard Chartered",
+      "summary": "Standard Chartered’s Nicholas Chia reports that the Reserve Bank of Australia (RBA) kept the cash rate at 4.35% in a una"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Consolidation holds in mid 1.15s against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that the Euro (EUR) is steady, extending a tight consoli"
+      "title": "British Pound: Sterling recovery eyes 1.36 caps against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe that the British Pound (GBP) is consolidating gains near t"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar remains under pressure as Middle East tensions support US Dollar",
-      "summary": "NZD/USD trades around 0.5880 on Tuesday at the time of writing, virtually unchanged on the day with a 0.03% decline."
+      "title": "Forex Today: US Dollar on pause ahead of US CPI",
+      "summary": "The US Dollar Index (DXY) is trading little changed in the vicinity below the 100.00 price zone ahead of the United Stat"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds near 1.3500 as US CPI, UK GDP loom",
-      "summary": "The Pound Sterling (GBP) holds firm against the US Dollar (USD) on Tuesday following the release of softer-than-expected"
+      "title": "The US Dollar Index has no dovish tail to price",
+      "summary": "Tuesday gives the Dollar Index a session with almost nothing in it."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention risks and Fed path – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses USD/JPY ahead of the United States (US) July Consumer Price Index ("
+      "title": "Singapore: Growth set to run above potential – UOB",
+      "summary": "UOB economist Jester Koh highlights that Singapore’s 2Q26 Gross Domestic Product (GDP) was revised up to 5.9% year-on-ye"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar holds firm against US Dollar ahead of US CPI",
-      "summary": "USD/CAD trades under pressure on Tuesday, staying on the back foot for a third straight day. However, the pair lacks fol"
+      "title": "Japanese Yen pares losses ahead of US inflation report",
+      "summary": "The Japanese Yen (JPY) trades flat above 159.00 on Tuesday after several days of US Dollar (USD) strength following the "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA policy path caps upside against US Dollar – Societe Generale",
-      "summary": "Societe Generale’s Kenneth Broux highlights ongoing pressure on the Australian Dollar after the RBA removed one projecte"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Bullish momentum builds against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) is supported by higher Oil prices a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Gradual appreciation path against US Dollar – Commerzbank",
-      "summary": "Commerzbank's Chief Economist Dr. Jörg Krämer expects EUR/USD to recover once the Iran conflict eases and to grind highe"
+      "title": "Gold eases amid firm US Dollar as CPI and Hormuz risks loom",
+      "summary": "Gold (XAU/USD) price registers modest losses on Tuesday, driven by a firm US Dollar as traders await the release of cruc"
     },
     {
       "source": "Investing",
@@ -154,6 +144,16 @@
     {
       "source": "Investing",
       "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,19 +192,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen: Intervention risks and Fed path – Raboban",
-      "[強気] Australian Dollar: RBA policy path caps upside against "
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Intervention risks and Fed path – Raboban"
+      "[弱気] The US Dollar Index has no dovish tail to price"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[強気] Australian Dollar: RBA policy path caps upside against "
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -212,26 +207,30 @@
   },
   "rates": {
     "US_FF": null,
-    "US_10Y": null,
-    "JP_10Y": null,
-    "DE_10Y": null,
+    "US_10Y": 4.65,
+    "JP_10Y": 2.67,
+    "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": null
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 1.98,
+    "DIFF_EURUSD": -1.68,
+    "DIFF_GBPUSD": 0.15,
+    "DIFF_AUDUSD": 0.18
   },
   "prices": {
     "USDJPY": {
       "today_open": 159.31153,
-      "today_close": 159.26407,
+      "today_close": 159.26843,
       "prev_close": 159.31691,
-      "diff": -0.0528,
+      "diff": -0.0485,
       "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.26407,
-      "sma20": 160.0623,
-      "sma50": 161.2776,
+      "latest": 159.26843,
+      "sma20": 160.0625,
+      "sma50": 161.2777,
       "sma200": 158.8717,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -245,7 +244,7 @@
       "chg20d_pct": -2.39
     },
     "EURUSD": {
-      "latest": 1.15427,
+      "latest": 1.15413,
       "sma20": 1.1487,
       "sma50": 1.1444,
       "sma200": 1.1617,
@@ -257,8 +256,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.16,
-      "chg20d_pct": 1.14
+      "chg5d_pct": 0.15,
+      "chg20d_pct": 1.13
     }
   }
 }
