@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-08-11T01:45:43.859486",
-  "generated": "2026年08月11日 01:45",
+  "timestamp": "2026-08-11T04:19:44.070472",
+  "generated": "2026年08月11日 04:19",
   "scores": {
     "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -28,6 +21,13 @@
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
       "base_score": 0,
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Gold rallies further beyond $4,400; highest since early June",
-      "summary": "Gold (XAU/USD) scales higher for the third consecutive day – also marking the fifth day of a positive move in the previo"
+      "title": "British Pound clings to gains against US Dollar, US CPI in focus",
+      "summary": "The British Pound (GBP) holds onto two-day gains marginally at around 1.3500 against the US Dollar (USD) during the Asia"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD slips to near $66.00 on Fed hike fears, oil surge",
-      "summary": "Silver price (XAG/USD) depreciates after two days of gains, trading around $66.00 per troy ounce during the Asian hours "
+      "title": "Canadian Dollar sits near two-month top vs USD amid bullish oil prices",
+      "summary": "The USD/CAD pair is seen consolidating its recent losses to a two-month low, touched last week, and trading below mid-1."
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index consolidates below 100.00 as bulls await US CPI amid Iran risks",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, struggles to capitalize on the pre"
-    },
-    {
-      "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7900 vs. 6.7884 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7900 compa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "RBA set to hold interest rate at 4.35% as softer inflation cools hike bets",
+      "title": "RBA set to hold interest rate unchanged as markets await Bullock’s policy signals",
       "summary": "The Reserve Bank of Australia (RBA) is on track to keep the Official Cash Rate (OCR) steady at 4.35% for the second cons"
     },
     {
       "source": "FXStreet",
-      "title": "Intervention bought the Japanese Yen a price, not a buyer",
-      "summary": "The Yen has surrendered close to a full percent through the session, with the pair up 0.93% and changing hands just abov"
+      "title": "Japanese Yen holds range in thin holiday trading amid intervention speculations",
+      "summary": "USD/JPY moves little after posting nearly 1% gains in the previous day, trading around 159.30 during the Asian hours on "
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar rallies without an Australian reason",
-      "summary": "The Australian Dollar has traded a band of barely 20 pips through the session, holding above 0.7050 and easing 0.15% ins"
+      "title": "BoJ to consider raising interest rates in September – Jiji Press",
+      "summary": "According to the Jiji Press, the Bank of Japan (BoJ) may consider an additional interest rate increase at its next polic"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: 100-day SMA caps Euro recovery",
-      "summary": "The Euro is poised to end Monday’s session with losses of about 0.13% against the Greenback, as recent news points to a "
+      "title": "New Zealand Dollar remains confined in a range vs USD amid Iran risks, ahead of US CPI",
+      "summary": "The NZD/USD pair seesaws between tepid gains/minor losses during the Asian session on Tuesday and currently trades just "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro flat lines near mid-1.1500s vs USD as traders await US CPI amid Iran uncertainty",
+      "summary": "The EUR/USD pair struggles to gain any meaningful traction and holds steady around the 1.1545-1.1550 area during the Asi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar holds ground ahead of RBA policy decision",
+      "summary": "AUD/USD regains ground after registering modest losses the previous day, trading around 0.7060 during Asian hours on Tue"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Breaking: Gold rallies further beyond $4,400; highest since early June",
+      "summary": "Gold (XAU/USD) scales higher for the third consecutive day – also marking the fifth day of a positive move in the previo"
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin heads for 2% weekly gain as risk assets rally, Fed rate hike bets ease",
       "summary": ""
     }
   ],
@@ -192,7 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver Price Forecast: XAG/USD slips to near $66.00 on ",
+      "[強気] Australian Dollar holds ground ahead of RBA policy deci",
       "[強気] Bitcoin heads for 2% weekly gain as risk assets rally, "
     ],
     "GBP": [
@@ -200,7 +200,8 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)",
+      "[強気] Australian Dollar holds ground ahead of RBA policy deci"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -221,18 +222,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31153,
-      "today_close": 159.14054,
+      "today_close": 159.17801,
       "prev_close": 159.31691,
-      "diff": -0.1764,
-      "diff_pct": -0.11
+      "diff": -0.1389,
+      "diff_pct": -0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.14054,
-      "sma20": 160.0561,
-      "sma50": 161.2752,
-      "sma200": 158.8711,
+      "latest": 159.17801,
+      "sma20": 160.058,
+      "sma50": 161.2759,
+      "sma200": 158.8713,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -241,11 +242,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.42,
-      "chg20d_pct": -2.46
+      "chg5d_pct": 0.45,
+      "chg20d_pct": -2.44
     },
     "EURUSD": {
-      "latest": 1.15475,
+      "latest": 1.1545,
       "sma20": 1.1487,
       "sma50": 1.1444,
       "sma200": 1.1617,
@@ -257,8 +258,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": 1.18
+      "chg5d_pct": 0.18,
+      "chg20d_pct": 1.16
     }
   }
 }
