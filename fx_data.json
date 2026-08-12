@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-11T21:47:59.421952",
-  "generated": "2026年08月11日 21:47",
+  "timestamp": "2026-08-12T01:57:44.056483",
+  "generated": "2026年08月12日 01:57",
   "scores": {
-    "USD": 1,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -14,10 +14,24 @@
   "pairs": [
     {
       "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -27,25 +41,11 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: BI succession supports IDR against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that Indonesian Rupiah (IDR) strengthened to near a two‑month high on a s"
+      "title": "British Pound loses as rising US Dollar, geopolitical tensions weigh on sentiment",
+      "summary": "GBP/USD inches lower after remaining flat in the previous day, trading around 1.3500 during the Asian hours on Wednesday"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso hits 25-month high as US CPI lurks",
-      "summary": "The Mexican Peso (MXN) is poised to end Tuesday’s session with solid gains of 0.32% against the US Dollar (USD) as money"
+      "title": "Gold trades with positive bias below $4,400; Fed hike bets cap gains ahead of US CPI",
+      "summary": "Gold (XAU/USD) attracts some dip-buyers during the Asian session on Wednesday, stalling the previous day's retracement s"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore: AI-driven growth supports MAS outlook – Standard Chartered",
-      "summary": "Standard Chartered Bank economists Edward Lee and Jonathan Koh highlight that Singapore’s H1 GDP expanded 6.1% year-on-y"
+      "title": "Experts split on whether next RBA move is a hike or cut amid energy risks",
+      "summary": "The Reserve Bank of Australia (RBA) unanimously held rates at 4.35% in August, but major economic forecasters offer vary"
     },
     {
       "source": "FXStreet",
-      "title": "Thai Baht: Benign inflation keeps BoT on hold – Commerzbank",
-      "summary": "Commerzbank strategists note July Consumer Price Index (CPI) eased to 2.0% year-on-year, below consensus, mainly due to "
+      "title": "PBOC sets USD/CNY reference rate at 6.7882 vs. 6.7900 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7882 co"
     },
     {
       "source": "FXStreet",
-      "title": "Euro stalls below 100-day SMA as investors brace for US CPI",
-      "summary": "The Euro (EUR) registers minimal losses against the US Dollar (USD) on Tuesday as traders and market participants prepar"
+      "title": "Euro consolidates below mid-1.1500s vs USD ahead of German HICP, US CPI",
+      "summary": "The EUR/USD pair struggles to gain any meaningful traction and holds steady around mid-1.1500s during the Asian session "
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range bias with upside risk against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann expect USD/SGD to remain in a tight intraday band after Mond"
+      "title": "Singapore Dollar: Decline risks assessed against US Dollar – OCBC",
+      "summary": "OCBC analysts Sim Moh Siong and Christopher Wong discuss USD/SGD after its post-payroll decline, noting the pair last tr"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Policy risks balanced as inflation lingers – Standard Chartered",
-      "summary": "Standard Chartered’s Nicholas Chia reports that the Reserve Bank of Australia (RBA) kept the cash rate at 4.35% in a una"
+      "title": "The Australian Dollar goes seven weeks without a central bank",
+      "summary": "AUD/USD trades just above 0.7050 on Tuesday August 11, a tenth of a percent firmer inside a 29-pip range, having taken t"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Sterling recovery eyes 1.36 caps against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe that the British Pound (GBP) is consolidating gains near t"
+      "title": "US yields ease as CPI caution offsets Oil rally",
+      "summary": "US Treasury yields eased on Tuesday as most investors remain cautious, awaiting the release of US inflation figures and "
     },
     {
       "source": "Investing",
@@ -191,8 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Indonesian Rupiah: BI succession supports IDR against U"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -220,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.30271,
-      "today_close": 159.27621,
+      "today_close": 159.32887,
       "prev_close": 159.30255,
-      "diff": -0.0263,
-      "diff_pct": -0.02
+      "diff": 0.0263,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.27621,
-      "sma20": 159.8345,
-      "sma50": 161.2322,
-      "sma200": 158.8874,
+      "latest": 159.32887,
+      "sma20": 159.8371,
+      "sma50": 161.2333,
+      "sma200": 158.8876,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -240,11 +239,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.94,
-      "chg20d_pct": -2.8
+      "chg5d_pct": 0.97,
+      "chg20d_pct": -2.77
     },
     "EURUSD": {
-      "latest": 1.15404,
+      "latest": 1.15388,
       "sma20": 1.1495,
       "sma50": 1.1447,
       "sma200": 1.1616,
@@ -256,8 +255,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.17,
-      "chg20d_pct": 1.43
+      "chg5d_pct": -0.18,
+      "chg20d_pct": 1.41
     }
   }
 }
