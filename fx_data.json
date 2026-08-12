@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-12T01:57:44.056483",
-  "generated": "2026年08月12日 01:57",
+  "timestamp": "2026-08-12T04:46:55.348676",
+  "generated": "2026年08月12日 04:46",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "Gold retakes $4,400, eyes two-month high as traders look to US CPI for Fed hike cues",
+      "summary": "Gold (XAU/USD) attracts fresh buyers during the Asian session on Wednesday and climbs back above the $4,400 mark, closer"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index rises to near 100.00 ahead of US inflation data",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending ga"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG/USD rises to near $65.40 with US inflation in focus",
+      "summary": "Silver price (XAG/USD) trades 1.1% higher at around $65.40 during the Asian trading session on Wednesday. The white meta"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar eases from two-month high as USD preserves weekly gains ahead of US CPI",
+      "summary": "The USD/CAD pair ticks higher during the Asian session on Wednesday, snapping a three-day losing streak to the 1.3915 ar"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar struggles as US Dollar gains on Middle East uncertainty",
+      "summary": "NZD/USD continues its losing streak for the third consecutive day, trading around 0.5870 during the Asian hours on Wedne"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar slips as US Dollar strengthens amid uncertainty over Fed outlook",
+      "summary": "AUD/USD depreciates after registering modest gains in the previous day, trading around 0.7060 during the Asian hours on "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen slides to two-week low, seems vulnerable as USD stands firm ahead of US CPI",
+      "summary": "The USD/JPY pair touches a one-and-a-half-week high during the Asian session on Wednesday, with bulls now looking to bui"
+    },
+    {
+      "source": "FXStreet",
       "title": "British Pound loses as rising US Dollar, geopolitical tensions weigh on sentiment",
       "summary": "GBP/USD inches lower after remaining flat in the previous day, trading around 1.3500 during the Asian hours on Wednesday"
     },
     {
       "source": "FXStreet",
-      "title": "Gold trades with positive bias below $4,400; Fed hike bets cap gains ahead of US CPI",
-      "summary": "Gold (XAU/USD) attracts some dip-buyers during the Asian session on Wednesday, stalling the previous day's retracement s"
-    },
-    {
-      "source": "FXStreet",
       "title": "Experts split on whether next RBA move is a hike or cut amid energy risks",
       "summary": "The Reserve Bank of Australia (RBA) unanimously held rates at 4.35% in August, but major economic forecasters offer vary"
-    },
-    {
-      "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7882 vs. 6.7900 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7882 co"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro consolidates below mid-1.1500s vs USD ahead of German HICP, US CPI",
-      "summary": "The EUR/USD pair struggles to gain any meaningful traction and holds steady around mid-1.1500s during the Asian session "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Decline risks assessed against US Dollar – OCBC",
-      "summary": "OCBC analysts Sim Moh Siong and Christopher Wong discuss USD/SGD after its post-payroll decline, noting the pair last tr"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Australian Dollar goes seven weeks without a central bank",
-      "summary": "AUD/USD trades just above 0.7050 on Tuesday August 11, a tenth of a percent firmer inside a 29-pip range, having taken t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US yields ease as CPI caution offsets Oil rally",
-      "summary": "US Treasury yields eased on Tuesday as most investors remain cautious, awaiting the release of US inflation figures and "
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells 6.6M shares and 1,690 bitcoin in weekly ATM update",
       "summary": ""
     }
   ],
@@ -219,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.30271,
-      "today_close": 159.32887,
+      "today_close": 159.37753,
       "prev_close": 159.30255,
-      "diff": 0.0263,
-      "diff_pct": 0.02
+      "diff": 0.075,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.32887,
-      "sma20": 159.8371,
-      "sma50": 161.2333,
-      "sma200": 158.8876,
+      "latest": 159.37753,
+      "sma20": 159.8396,
+      "sma50": 161.2343,
+      "sma200": 158.8879,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -239,11 +239,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.97,
-      "chg20d_pct": -2.77
+      "chg5d_pct": 1.0,
+      "chg20d_pct": -2.74
     },
     "EURUSD": {
-      "latest": 1.15388,
+      "latest": 1.1536,
       "sma20": 1.1495,
       "sma50": 1.1447,
       "sma200": 1.1616,
@@ -255,8 +255,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.18,
-      "chg20d_pct": 1.41
+      "chg5d_pct": -0.2,
+      "chg20d_pct": 1.39
     }
   }
 }
