@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-12T04:46:55.348676",
-  "generated": "2026年08月12日 04:46",
+  "timestamp": "2026-08-12T07:24:52.827159",
+  "generated": "2026年08月12日 07:24",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold retakes $4,400, eyes two-month high as traders look to US CPI for Fed hike cues",
-      "summary": "Gold (XAU/USD) attracts fresh buyers during the Asian session on Wednesday and climbs back above the $4,400 mark, closer"
+      "title": "Equities: AI earnings revive risk appetite after tech weakness - Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that United States (US) equities had a mixed session as Magnificent 7 weakness weighed on"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index rises to near 100.00 ahead of US inflation data",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending ga"
+      "title": "NZD/USD Price Forecast: Nearing 0.5860 support area amid by risk-off markets, domestic politics",
+      "summary": "The New Zealand Dollar (NZD) accelerates its reversal against the US Dollar (USD) on Wednesday, weighed by cautious mark"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD rises to near $65.40 with US inflation in focus",
-      "summary": "Silver price (XAG/USD) trades 1.1% higher at around $65.40 during the Asian trading session on Wednesday. The white meta"
+      "title": "Australian Dollar: Constructive carry outlook with RBA on hold – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note the Reserve Bank of Australia (RBA) kept rates unchanged at 4.35% but ret"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar eases from two-month high as USD preserves weekly gains ahead of US CPI",
-      "summary": "The USD/CAD pair ticks higher during the Asian session on Wednesday, snapping a three-day losing streak to the 1.3915 ar"
+      "title": "Indian Rupee trades lower ahead of India-US CPI data",
+      "summary": "The Indian Rupee (INR) extends its decline against the US Dollar (USD) on Wednesday as the former continues to face pres"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar struggles as US Dollar gains on Middle East uncertainty",
-      "summary": "NZD/USD continues its losing streak for the third consecutive day, trading around 0.5870 during the Asian hours on Wedne"
+      "title": "AUD/USD Price Forecast: Extends the range play near 0.7050; bulls await 50% Fibo. breakout",
+      "summary": "The AUD/USD pair prolongs its consolidative price move for the third straight day and trades around mid-0.7000s through "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar slips as US Dollar strengthens amid uncertainty over Fed outlook",
-      "summary": "AUD/USD depreciates after registering modest gains in the previous day, trading around 0.7060 during the Asian hours on "
+      "title": "Japanese Yen: Policy focus after intervention - MUFG",
+      "summary": "MUFG’s Teppei Ino reviews recent USD/JPY price action following coordinated Japan-US intervention. The pair opened near "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen slides to two-week low, seems vulnerable as USD stands firm ahead of US CPI",
-      "summary": "The USD/JPY pair touches a one-and-a-half-week high during the Asian session on Wednesday, with bulls now looking to bui"
+      "title": "GBP/USD Price Forecast: Continues to remain flat ahead of US CPI data",
+      "summary": "The British Pound (GBP) remains in a limited range at around 1.3500 against the US Dollar (USD) during the European trad"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound loses as rising US Dollar, geopolitical tensions weigh on sentiment",
-      "summary": "GBP/USD inches lower after remaining flat in the previous day, trading around 1.3500 during the Asian hours on Wednesday"
+      "title": "Forex Today: Crucial US inflation data to lift market volatility",
+      "summary": "Here is what you need to know on Wednesday, August 12:"
     },
     {
       "source": "FXStreet",
-      "title": "Experts split on whether next RBA move is a hike or cut amid energy risks",
-      "summary": "The Reserve Bank of Australia (RBA) unanimously held rates at 4.35% in August, but major economic forecasters offer vary"
+      "title": "US Dollar: CPI and Fed rhetoric in focus – Commerzbank",
+      "summary": "Commerzbank analysts highlight cautious positioning in the Dollar ahead of July US CPI, with the Dollar Index steady nea"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro trims losses against the British Pound following hot German inflation data",
+      "summary": "The Euro (EUR) has picked up from session lows against the British Pound (GBP) on Wednesday as hot German inflation figu"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
+      "title": "Bitcoin flat at $63k as Iran hopes dither; CPI awaited",
       "summary": ""
     }
   ],
@@ -219,16 +219,16 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.30271,
-      "today_close": 159.37753,
+      "today_close": 159.38171,
       "prev_close": 159.30255,
-      "diff": 0.075,
+      "diff": 0.0792,
       "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.37753,
-      "sma20": 159.8396,
+      "latest": 159.38171,
+      "sma20": 159.8398,
       "sma50": 161.2343,
       "sma200": 158.8879,
       "vs_sma20": "下",
@@ -239,11 +239,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.0,
+      "chg5d_pct": 1.01,
       "chg20d_pct": -2.74
     },
     "EURUSD": {
-      "latest": 1.1536,
+      "latest": 1.15379,
       "sma20": 1.1495,
       "sma50": 1.1447,
       "sma200": 1.1616,
@@ -255,8 +255,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.2,
-      "chg20d_pct": 1.39
+      "chg5d_pct": -0.19,
+      "chg20d_pct": 1.41
     }
   }
 }
