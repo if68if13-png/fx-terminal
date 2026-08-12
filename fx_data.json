@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-08-12T07:24:52.827159",
-  "generated": "2026年08月12日 07:24",
+  "timestamp": "2026-08-12T10:04:58.034444",
+  "generated": "2026年08月12日 10:04",
   "scores": {
-    "USD": 2,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Equities: AI earnings revive risk appetite after tech weakness - Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that United States (US) equities had a mixed session as Magnificent 7 weakness weighed on"
+      "title": "Euro: Soft US CPI could support gains against US Dollar – ING",
+      "summary": "Chris Turner at ING notes EUR/USD remains lacklustre despite better Eurozone data and upside surprises, as high European"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Nearing 0.5860 support area amid by risk-off markets, domestic politics",
-      "summary": "The New Zealand Dollar (NZD) accelerates its reversal against the US Dollar (USD) on Wednesday, weighed by cautious mark"
+      "title": "US CPI data expected to cool in July as markets weigh Fed rate hike bets",
+      "summary": "The US Bureau of Labor Statistics (BLS) will publish the July Consumer Price Index (CPI) data on Wednesday. The report i"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Constructive carry outlook with RBA on hold – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note the Reserve Bank of Australia (RBA) kept rates unchanged at 4.35% but ret"
+      "title": "US Dollar: Fed pricing and CPI risks – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes markets are steady ahead of the United States (US) July Consumer Pric"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee trades lower ahead of India-US CPI data",
-      "summary": "The Indian Rupee (INR) extends its decline against the US Dollar (USD) on Wednesday as the former continues to face pres"
+      "title": "Euro drifts away from 184.00 Yen despite hot German inflation figures",
+      "summary": "The Euro (EUR) is paring previous gains against the Japanese Yen (JPY) on Wednesday, weighed by a mild risk-off market m"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Extends the range play near 0.7050; bulls await 50% Fibo. breakout",
-      "summary": "The AUD/USD pair prolongs its consolidative price move for the third straight day and trades around mid-0.7000s through "
+      "title": "Australian Dollar: Upside risk intact above support against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note AUD/USD rebounded to close around 0.7062 after the RBA left its cash rate at 4"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Policy focus after intervention - MUFG",
-      "summary": "MUFG’s Teppei Ino reviews recent USD/JPY price action following coordinated Japan-US intervention. The pair opened near "
+      "title": "Canadian Dollar: Looks to extend recovery against US Dollar – Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux highlights that the Canadian Dollar has recovered to its strongest level in two months,"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Continues to remain flat ahead of US CPI data",
-      "summary": "The British Pound (GBP) remains in a limited range at around 1.3500 against the US Dollar (USD) during the European trad"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forex Today: Crucial US inflation data to lift market volatility",
-      "summary": "Here is what you need to know on Wednesday, August 12:"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: CPI and Fed rhetoric in focus – Commerzbank",
-      "summary": "Commerzbank analysts highlight cautious positioning in the Dollar ahead of July US CPI, with the Dollar Index steady nea"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro trims losses against the British Pound following hot German inflation data",
-      "summary": "The Euro (EUR) has picked up from session lows against the British Pound (GBP) on Wednesday as hot German inflation figu"
+      "title": "US Dollar: CPI-driven range signals carry focus – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong highlight that the US Dollar (USD) stayed mixed as markets waited for the key "
     },
     {
       "source": "Investing",
       "title": "Bitcoin flat at $63k as Iran hopes dither; CPI awaited",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,7 +191,10 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] US CPI data expected to cool in July as markets weigh F",
+      "[強気] Canadian Dollar: Looks to extend recovery against US Do",
+      "[強気] US Dollar: CPI-driven range signals carry focus – OCBC"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -202,6 +205,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar: Looks to extend recovery against US Do"
     ]
   },
   "rates": {
@@ -219,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.30271,
-      "today_close": 159.38171,
+      "today_close": 159.20066,
       "prev_close": 159.30255,
-      "diff": 0.0792,
-      "diff_pct": 0.05
+      "diff": -0.1019,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.38171,
-      "sma20": 159.8398,
-      "sma50": 161.2343,
-      "sma200": 158.8879,
+      "latest": 159.20066,
+      "sma20": 159.8307,
+      "sma50": 161.2307,
+      "sma200": 158.887,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -239,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.01,
-      "chg20d_pct": -2.74
+      "chg5d_pct": 0.89,
+      "chg20d_pct": -2.85
     },
     "EURUSD": {
-      "latest": 1.15379,
+      "latest": 1.15365,
       "sma20": 1.1495,
       "sma50": 1.1447,
       "sma200": 1.1616,
@@ -255,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.19,
-      "chg20d_pct": 1.41
+      "chg5d_pct": -0.2,
+      "chg20d_pct": 1.39
     }
   }
 }
