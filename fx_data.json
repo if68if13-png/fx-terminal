@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-12T13:09:18.341196",
-  "generated": "2026年08月12日 13:09",
+  "timestamp": "2026-08-12T15:58:51.364740",
+  "generated": "2026年08月12日 15:58",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
       "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro remains little changed as US CPI fails to surprise the markets",
-      "summary": "EUR/USD trades around 1.1550 on Wednesday at the time of writing, up a modest 0.08% on the day."
+      "title": "Japanese Yen pares gains against US Dollar as markets digest US CPI",
+      "summary": "The Japanese Yen trims its gains against the US Dollar (USD) on Wednesday as in-line US CPI data fails to trigger a sign"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: US CPI inflation softens to 3.4% in July as expected",
-      "summary": "Annual inflation in the United States (US), as measured by the change in the Consumer Price Index (CPI), declined to 3.4"
+      "title": "Silver jumps more than 2% after US inflation meets expectations",
+      "summary": "Silver (XAG/USD) accelerates its advance on Wednesday and trades around $66.00 at the time of writing, up 2.18% on the d"
     },
     {
       "source": "FXStreet",
-      "title": "IEA forecasts 4.3 million bpd drop in global Oil supply",
-      "summary": "The International Energy Agency (IEA) cut its global Oil supply and demand forecasts for 2026 amid shipping disruptions "
+      "title": "US Dollar: Bearish momentum extends after CPI – TD Securities",
+      "summary": "TD Securities strategists note that July US inflation came in broadly in line with expectations, with headline CPI risin"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Gradual gains against US Dollar remain likely – MUFG",
-      "summary": "MUFG’s Michael Wan reports the Reserve Bank of Australia kept its policy rate at 4.35% in a unanimous decision. AUD/USD "
+      "title": "Euro steadies against Pound Sterling as traders await UK GDP verdict",
+      "summary": "The Euro (EUR) steadies against the Pound Sterling (GBP) on Wednesday, with EUR/GBP trading flat near the 0.8540 zone af"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Soft CPI risks weigh on outlook – ING",
-      "summary": "ING’s Chris Turner expects US July CPI to be the key driver for the Federal Reserve’s next move, with consensus looking "
+      "title": "Emerging Markets: Steepening Treasuries curb appeal – BNY",
+      "summary": "BNY’s Geoff Yu reports that sovereign bonds from commodity-based EM economies have seen accelerated selling after the Fe"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention doubts as flows favor US Dollar – BNY",
-      "summary": "BNY’s Wee Khoon Chong highlights that institutional investors bought Dollar and sold Japanese Yen after the June BoJ hik"
+      "title": "Gold holds gains above $4,400 after US CPI meets expectations",
+      "summary": "Gold (XAU/USD) extends gains above $4,400 on Wednesday as traders digest US inflation data, which came broadly in line w"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar slides as Middle East tensions give US Dollar the upper hand",
-      "summary": "NZD/USD extends its decline for a third consecutive day on Wednesday and trades around 0.5860 at the time of writing, do"
+      "title": "British Pound: Improving sentiment supports gains against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the British Pound (GBP) is posting fractional gains versus "
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index trades calmly ahead of US Inflation data",
-      "summary": "The US Dollar (USD) reflects a sideways performance against its peers ahead of the United States (US) Consumer Price Ind"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Why is the Japanese Yen stuck near 159.25 after the first joint US-Japan intervention since 2011?",
-      "summary": "The Japanese Yen (JPY) continues to navigate complex market dynamics, consolidating near the 159.25 level against the US"
+      "title": "Canadian Dollar steadies as US inflation meets expectations, Oil limits downside",
+      "summary": "USD/CAD trades around 1.3915 on Wednesday at the time of writing, virtually unchanged on the day with a modest decline o"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin muted at $64k as Iran hopes dither; CPI awaited",
+      "title": "Bitcoin subdued at $64k as Iran hopes dither; July CPI cools",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
       "summary": ""
     }
   ],
@@ -192,19 +192,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar: Gradual gains against US Dollar rema",
-      "[弱気] Japanese Yen: Intervention doubts as flows favor US Dol"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Intervention doubts as flows favor US Dol"
+      "[弱気] Emerging Markets: Steepening Treasuries curb appeal – B"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[強気] Australian Dollar: Gradual gains against US Dollar rema"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -225,32 +220,32 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.30271,
-      "today_close": 158.79691,
+      "today_close": 159.22993,
       "prev_close": 159.30255,
-      "diff": -0.5056,
-      "diff_pct": -0.32
+      "diff": -0.0726,
+      "diff_pct": -0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.79691,
-      "sma20": 159.8105,
-      "sma50": 161.2226,
-      "sma200": 158.885,
+      "latest": 159.22993,
+      "sma20": 159.8322,
+      "sma50": 161.2313,
+      "sma200": 158.8871,
       "vs_sma20": "下",
       "vs_sma50": "下",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 84.7,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.64,
-      "chg20d_pct": -3.1
+      "chg5d_pct": 0.91,
+      "chg20d_pct": -2.83
     },
     "EURUSD": {
-      "latest": 1.15596,
-      "sma20": 1.1496,
+      "latest": 1.15398,
+      "sma20": 1.1495,
       "sma50": 1.1447,
       "sma200": 1.1616,
       "vs_sma20": "上",
@@ -261,8 +256,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": 0.0,
-      "chg20d_pct": 1.6
+      "chg5d_pct": -0.17,
+      "chg20d_pct": 1.42
     }
   }
 }
