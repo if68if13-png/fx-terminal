@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-12T19:02:27.824102",
-  "generated": "2026年08月12日 19:02",
+  "timestamp": "2026-08-12T21:45:08.026191",
+  "generated": "2026年08月12日 21:45",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
+      "title": "Mexican Peso rallies to two-year high as soft CPI hits Fed bets",
+      "summary": "The Mexican Peso (MXN) appreciates on Wednesday against the US Dollar (USD) to levels last seen in May 2024 following a "
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar slips as Middle East uncertainty weighs on Kiwi",
+      "summary": "NZD/USD is trading near 0.5860, down over 0.30% on Wednesday and falling for the third consecutive day."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Upside risk builds against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/SGD closed little changed around 1.2800, with the S$NEER trading 1.7%"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Commodity FX: Growth constraints cap carry – BNY",
+      "summary": "BNY’s Geoff Yu notes that a less hawkish Fed has weakened the Dollar but failed to spark a sustained bid in commodity FX"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Range trade and upside risk against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/CNH has been confined to a tight range and expect the Dollar to trade"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar firms ahead of a packed session",
+      "summary": "The US Dollar (USD) has extended its recovery on Wednesday following a Consumer Price Index (CPI) report that printed in"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: XAG turns bullish, eyes 200-day SMA",
+      "summary": "Silver (XAG/USD) price surges over 1.40% on Wednesday as the latest inflation report in the United States (US) showed th"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold price shines above $4,400 as inflation dip fuels Fed relief",
+      "summary": "Gold price (XAU/USD) registers gains of over 1% on Wednesday as US inflation data aligns with estimates, easing the Fede"
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen stumbles as US Dollar strengthens",
       "summary": "USD/JPY is back around the mid-159.00s area, testing the day's highs after rebounding sharply from a low around the 158."
     },
     {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Fading bullish momentum puts focus on 1.1500 support",
-      "summary": "EUR/USD edges lower on Wednesday, reversing earlier gains as the US Dollar (USD) shrugs off in-line US Consumer Price In"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound holds near 1.3500 as CPI relief meets Hormuz risk",
-      "summary": "The Pound Sterling (GBP) holds firm within familiar levels on Wednesday after the US inflation report was in line with e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar slips as US Dollar steadies post CPI",
-      "summary": "AUD/USD is trading near the 0.7070 zone, holding onto a minority of Wednesday's gains after the pair touched a session h"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Strong Singapore growth supports SGD against US Dollar – Commerzbank",
-      "summary": "Commerzbank analysts highlight that Singapore’s final Q2 GDP was revised up, lifting H1 growth to 6.1% year-on-year and "
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar struggles as political uncertainty overshadows US inflation",
-      "summary": "NZD/USD retreats to around 0.5865 on Wednesday at the time of writing, down 0.25% on the day. The New Zealand Dollar (NZ"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Cooler inflation buys the Dow Jones Industrial Average nothing",
-      "summary": "The July Consumer Price Index (CPI) landed at 12:30 GMT on every line the consensus had written for it, and the Dow Jone"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen pares gains against US Dollar as markets digest US CPI",
-      "summary": "The Japanese Yen trims its gains against the US Dollar (USD) on Wednesday as in-line US CPI data fails to trigger a sign"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin subdued at $64k as Iran hopes dither; July CPI cools",
+      "title": "Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
       "summary": ""
     }
   ],
@@ -192,7 +192,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Strong Singapore growth supports SGD "
+      "[強気] Mexican Peso rallies to two-year high as soft CPI hits ",
+      "[強気] Silver Price Forecast: XAG turns bullish, eyes 200-day ",
+      "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -207,56 +209,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.72,
+    "US_10Y": 4.7,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
-    "GB_10Y": null,
+    "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.05,
-    "DIFF_EURUSD": -1.75,
-    "DIFF_AUDUSD": 0.11
+    "DIFF_USDJPY": 2.03,
+    "DIFF_EURUSD": -1.73,
+    "DIFF_GBPUSD": 0.1,
+    "DIFF_AUDUSD": 0.13
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.30271,
-      "today_close": 159.49893,
-      "prev_close": 159.30255,
-      "diff": 0.1964,
-      "diff_pct": 0.12
+      "today_open": 159.43219,
+      "today_close": 159.43312,
+      "prev_close": 159.43154,
+      "diff": 0.0016,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.49893,
-      "sma20": 159.8456,
-      "sma50": 161.2367,
-      "sma200": 158.8885,
+      "latest": 159.43312,
+      "sma20": 159.6212,
+      "sma50": 161.1877,
+      "sma200": 158.9106,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 84.7,
+      "rsi14": 73.3,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.08,
-      "chg20d_pct": -2.67
+      "chg5d_pct": 1.02,
+      "chg20d_pct": -2.7
     },
     "EURUSD": {
-      "latest": 1.15211,
-      "sma20": 1.1494,
-      "sma50": 1.1447,
-      "sma200": 1.1615,
+      "latest": 1.1523,
+      "sma20": 1.1502,
+      "sma50": 1.145,
+      "sma200": 1.1614,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 42.3,
+      "rsi14": 50.7,
       "high20": 1.159,
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": 1.26
+      "chg5d_pct": -0.31,
+      "chg20d_pct": 1.33
     }
   }
 }
