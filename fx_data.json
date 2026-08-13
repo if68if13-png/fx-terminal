@@ -1,44 +1,23 @@
 {
-  "timestamp": "2026-08-12T21:45:08.026191",
-  "generated": "2026年08月12日 21:45",
+  "timestamp": "2026-08-13T02:00:39.502733",
+  "generated": "2026年08月13日 02:00",
   "scores": {
-    "USD": 5,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -48,10 +27,31 @@
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso rallies to two-year high as soft CPI hits Fed bets",
-      "summary": "The Mexican Peso (MXN) appreciates on Wednesday against the US Dollar (USD) to levels last seen in May 2024 following a "
+      "title": "UK GDP expected to show moderate Q2 growth",
+      "summary": "The United Kingdom’s (UK) Office for National Statistics will release the preliminary estimate of the second-quarter Gro"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar slips as Middle East uncertainty weighs on Kiwi",
-      "summary": "NZD/USD is trading near 0.5860, down over 0.30% on Wednesday and falling for the third consecutive day."
+      "title": "Canadian Dollar steadies as weak US Dollar offsets lower oil prices",
+      "summary": "USD/CAD remains steady after registering minor gains in the previous day, trading around 1.3940 during the Asian hours o"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Upside risk builds against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/SGD closed little changed around 1.2800, with the S$NEER trading 1.7%"
+      "title": "British Pound posts modest gains to near 1.3500 ahead of UK GDP data",
+      "summary": "The GBP/USD pair edges slightly higher to near 1.3500 during the early Asian trading hours on Thursday. The US Dollar (U"
     },
     {
       "source": "FXStreet",
-      "title": "Commodity FX: Growth constraints cap carry – BNY",
-      "summary": "BNY’s Geoff Yu notes that a less hawkish Fed has weakened the Dollar but failed to spark a sustained bid in commodity FX"
+      "title": "United States Dollar Index stalls post-CPI bounce near 100.00 on receding Fed hike bets",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, continues its struggle to build on"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Range trade and upside risk against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note that USD/CNH has been confined to a tight range and expect the Dollar to trade"
+      "title": "PBOC sets USD/CNY reference rate at 6.7888 vs. 6.7882 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7888 comp"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar firms ahead of a packed session",
-      "summary": "The US Dollar (USD) has extended its recovery on Wednesday following a Consumer Price Index (CPI) report that printed in"
+      "title": "Euro advances as US Dollar weakens amid cooling Inflation",
+      "summary": "EUR/USD halts its three-day losing streak, trading around 1.1530 during the Asian hours on Thursday. The currency pair g"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG turns bullish, eyes 200-day SMA",
-      "summary": "Silver (XAG/USD) price surges over 1.40% on Wednesday as the latest inflation report in the United States (US) showed th"
+      "title": "RBA's Kent: Cash rate hikes are achieving their intended impact",
+      "summary": "Reserve Bank of Australia (RBA) Assistant Governor Chris Kent  said on Thursday that interest rate hikes are producing t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold price shines above $4,400 as inflation dip fuels Fed relief",
-      "summary": "Gold price (XAU/USD) registers gains of over 1% on Wednesday as US inflation data aligns with estimates, easing the Fede"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen stumbles as US Dollar strengthens",
-      "summary": "USD/JPY is back around the mid-159.00s area, testing the day's highs after rebounding sharply from a low around the 158."
+      "title": "Gold edges lower to near $4,400 as Iran-US tensions counter support from tame US inflation",
+      "summary": "Gold price (XAU/USD) declines to around $4,400 during the early Asian session on Thursday, pressured by escalating geopo"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Syntetika Launches Tokenization Hub Bringing Regulated Investment Strategies Onchain",
       "summary": ""
     }
   ],
@@ -192,19 +192,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Mexican Peso rallies to two-year high as soft CPI hits ",
-      "[強気] Silver Price Forecast: XAG turns bullish, eyes 200-day ",
+      "[弱気] Canadian Dollar steadies as weak US Dollar offsets lowe",
+      "[弱気] Euro advances as US Dollar weakens amid cooling Inflati",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
+    ],
+    "EUR": [
+      "[弱気] Euro advances as US Dollar weakens amid cooling Inflati"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)",
+      "[強気] RBA's Kent: Cash rate hikes are achieving their intende"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar steadies as weak US Dollar offsets lowe"
     ]
   },
   "rates": {
@@ -222,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.43219,
-      "today_close": 159.43312,
+      "today_close": 159.36628,
       "prev_close": 159.43154,
-      "diff": 0.0016,
-      "diff_pct": 0.0
+      "diff": -0.0653,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.43312,
-      "sma20": 159.6212,
-      "sma50": 161.1877,
-      "sma200": 158.9106,
+      "latest": 159.36628,
+      "sma20": 159.6179,
+      "sma50": 161.1864,
+      "sma200": 158.9102,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -242,11 +249,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.02,
-      "chg20d_pct": -2.7
+      "chg5d_pct": 0.98,
+      "chg20d_pct": -2.74
     },
     "EURUSD": {
-      "latest": 1.1523,
+      "latest": 1.1525,
       "sma20": 1.1502,
       "sma50": 1.145,
       "sma200": 1.1614,
@@ -258,8 +265,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.31,
-      "chg20d_pct": 1.33
+      "chg5d_pct": -0.29,
+      "chg20d_pct": 1.34
     }
   }
 }
