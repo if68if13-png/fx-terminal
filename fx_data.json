@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-13T04:50:32.368778",
-  "generated": "2026年08月13日 04:50",
+  "timestamp": "2026-08-13T07:26:53.417465",
+  "generated": "2026年08月13日 07:26",
   "scores": {
-    "USD": 4,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "EUR": -1,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,45 +13,45 @@
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
+    },
+    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,48 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc slides to two-week low as oil-driven Fed hike bets boost USD",
-      "summary": "The USD/CHF pair prolongs the weekly uptrend for the fourth consecutive day and climbs to a two-week high, around 0.8045"
+      "title": "British Pound: Upside capped near 1.3555 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note GBP/USD briefly traded above 1.3535 to 1.3540 before sl"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Softens below 112.50 as near-term bearish bias persists below 100-day SMA",
-      "summary": "The AUD/JPY cross trades in negative territory near 112.35 during the early European session on Thursday. The Japanese Y"
+      "title": "Indonesian Rupiah remains subdued as safe-haven demand lifts US Dollar",
+      "summary": "USD/IDR gains ground for the third consecutive day, trading around 17,920 during the early European hours on Thursday. T"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Trades below 1.3500 on firmer USD, ahead of UK GDP",
-      "summary": "The GBP/USD pair trades with a negative bias for the second consecutive day and trades below the 1.3500 psychological ma"
+      "title": "Gold: Upside capped by Fed hike risks – TD Securities",
+      "summary": "TD Securities’ Bart Melek notes Gold extended gains after the July Consumer Price Index (CPI) matched expectations, rein"
     },
     {
       "source": "FXStreet",
-      "title": "Asian stocks rise on soft US CPI, AI earnings rally",
-      "summary": "Asian stocks mostly remain stronger, bolstered by softer US inflation data that reinforced expectations for a more accom"
+      "title": "Canadian Dollar extends pullback from two-month high as oil-driven Fed hike bets lift USD",
+      "summary": "The USD/CAD pair builds on the previous day's bounce from the 1.3900 neighborhood, or a two-month low, and gains follow-"
     },
     {
       "source": "FXStreet",
-      "title": "Gold retreats from June 5 high as oil-driven Fed rate-hike bets underpin USD",
-      "summary": "Gold (XAU/USD) retreats after touching a fresh high since June 5, around the $4,450 area, during the Asian session on Th"
+      "title": "Equities: AI rally and CPI relief lift US stocks – Deutsche Bank",
+      "summary": "Deutsche Bank strategists highlight that the S&amp;P 500 closed just below its record high as US CPI data reduced urgenc"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD wobbles around $65.40, easing hawkish Fed bets strengthen outlook",
-      "summary": "Silver price (XAG/USD) trades in a tight range at around $65.40 during the Asian trading session on Thursday. The Silver"
+      "title": "Euro holds gains against British Pound as UK GDP slows in Q2",
+      "summary": "The EUR/GBP cross holds positive ground near 0.8540 during the early European trading hours on Thursday. The British Pou"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar remains subdued as two-year QoQ RBNZ Inflation Expectations ease in Q3",
-      "summary": "NZD/USD extends its losses for the fourth successive day, trading around 0.5840 during the Asian hours on Thursday. The "
+      "title": "Indian Rupee: Contained inflation supports RBI pause – Commerzbank",
+      "summary": "Commerzbank’s FX team notes India’s July CPI rose slightly to 4.5% year-on-year but stayed within the Reserve Bank of In"
     },
     {
       "source": "FXStreet",
-      "title": "RBNZ Survey: NZ two-year inflation expectations cool down to 2.34% QoQ in Q3 2026",
-      "summary": "New Zealand's (NZ) inflation expectations ease on a two-year frame in the third quarter of 2026, the Reserve Bank of New"
+      "title": "Indian Rupee ticks lower as US Dollar trades firmly",
+      "summary": "The Indian Rupee (INR) opens on a cautious note against the US Dollar (USD) on Thursday due to overnight gains in the la"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen flatlines near 159.50 on intervention risks, US PPI data looms",
-      "summary": "The USD/JPY pair trades on a flat note near 159.40 during the Asian trading hours on Thursday. The potential upside for "
+      "title": "British Pound drifts away from 1.3500 as UK GDP slows down and Industrial Production falls",
+      "summary": "The British Pound (GBP) treads water against the US Dollar (USD), trading practically flat, a few pips below the 1.3500 "
     },
     {
       "source": "Investing",
@@ -192,11 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Asian stocks rise on soft US CPI, AI earnings rally",
+      "[弱気] Gold: Upside capped by Fed hike risks – TD Securities",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
+    "EUR": [
+      "[弱気] Euro holds gains against British Pound as UK GDP slows "
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Euro holds gains against British Pound as UK GDP slows "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -221,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.43219,
-      "today_close": 159.35732,
+      "today_close": 159.38776,
       "prev_close": 159.43154,
-      "diff": -0.0742,
-      "diff_pct": -0.05
+      "diff": -0.0438,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.35732,
-      "sma20": 159.6174,
-      "sma50": 161.1862,
-      "sma200": 158.9102,
+      "latest": 159.38776,
+      "sma20": 159.619,
+      "sma50": 161.1868,
+      "sma200": 158.9103,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -241,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.97,
-      "chg20d_pct": -2.74
+      "chg5d_pct": 0.99,
+      "chg20d_pct": -2.73
     },
     "EURUSD": {
-      "latest": 1.1524,
+      "latest": 1.15213,
       "sma20": 1.1502,
       "sma50": 1.145,
       "sma200": 1.1614,
@@ -257,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.3,
-      "chg20d_pct": 1.33
+      "chg5d_pct": -0.32,
+      "chg20d_pct": 1.31
     }
   }
 }
