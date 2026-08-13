@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-08-13T15:59:05.333421",
-  "generated": "2026年08月13日 15:59",
+  "timestamp": "2026-08-13T19:03:28.323123",
+  "generated": "2026年08月13日 19:03",
   "scores": {
     "USD": 3,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 4,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
@@ -18,13 +18,6 @@
       "diff": -4,
       "base_score": -1,
       "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
     },
     {
       "pair": "USDJPY",
@@ -42,10 +35,17 @@
     },
     {
       "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 4,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound climbs as soft US inflation data hurt Fed hawkish bets",
-      "summary": "The Pound Sterling registers modest gains versus the Greenback as US inflation data in the producer side came below or a"
+      "title": "Singapore Dollar: Range holds as upside risk watched against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD stayed largely unchanged around 1.2805 on Tuesd"
     },
     {
       "source": "FXStreet",
-      "title": "Carry Trade: Supportive backdrop holds – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that in-line United States (US) inflation and a modestly lower probabilit"
+      "title": "USD/CHF Price Forecast: Bearish flag keeps 0.8145 in focus",
+      "summary": "The USD/CHF trades near the top trendline of a ‘bearish-flag,’ holds steady at around 0.8034, following the release of g"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Upside GDP surprise, limited BoE impact – TD Securities",
-      "summary": "TD Securities reports that United Kingdom (UK) Gross Domestic Product (GDP) for June surprised to the upside at 0.3% m/m"
+      "title": "Japanese Yen little changed amid cooling US inflation",
+      "summary": "USD/JPY is trading sideways on Thursday, hovering in the mid-159.00s and holding within its recent range. It is more of "
     },
     {
       "source": "FXStreet",
-      "title": "Gold struggles below two-month high despite softer US PPI",
-      "summary": "Gold (XAU/USD) trades under pressure on Thursday after hitting a fresh two-month high of $4,449 during Asian trading hou"
+      "title": "Gold slips as US Dollar recovers despite softer US factory inflation",
+      "summary": "Gold (XAU/USD) price declines on Thursday as the US Dollar (USD) trims some of its earlier losses, as economic data in t"
     },
     {
       "source": "FXStreet",
-      "title": "Poland: Fuel-driven inflation rise contained – ING",
-      "summary": "ING’s Adam Antoniak explains that Poland’s July CPI rose mainly due to higher fuel prices after VAT normalization, remov"
+      "title": "United Kingdom: Growth resilient as BoE stays on hold – Standard Chartered",
+      "summary": "Standard Chartered’s Christopher Graham notes that UK growth remained resilient in Q2, with GDP rising 0.4% q/q, driven "
     },
     {
       "source": "FXStreet",
-      "title": "India: Inflation path higher into FY27 – Standard Chartered",
-      "summary": "Standard Chartered strategists have raised its FY27 Consumer Price Index (CPI) inflation forecast to 4.9% from 4.5%, cit"
+      "title": "Australian Dollar stumbles near recent highs",
+      "summary": "AUD/USD is trading little changed on Thursday, shrinking near the 0.7050s below the multi-week high reached on Wednesday"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar steadies as falling Oil offsets US Dollar weakness",
-      "summary": "USD/CAD trades around 1.3940 on Thursday at the time of writing, virtually unchanged on the day. The pair remains caught"
+      "title": "Natural gas: Storage worries with TTF higher – ING",
+      "summary": "ING’s Warren Patterson and Ewa Manthey highlight that European gas prices have firmed, with TTF above EUR 60/MWh, even a"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Softer second-half growth expected – Societe Generale",
-      "summary": "Societe Generale’s Sam Cartwright notes United Kingdom (UK) Gross Domestic Product (GDP) rose 0.4% qoq in 2Q26, driven m"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro holds steady against Pound Sterling despite steady UK growth",
-      "summary": "EUR/GBP is trading sideways on Thursday near the 0.8540 level, with the Euro (EUR) steadying after three consecutive day"
+      "title": "New Zealand Dollar struggles as softer inflation expectations challenge RBNZ hawks",
+      "summary": "NZD/USD trades around 0.5850 on Thursday at the time of writing, down 0.15% on the day."
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Strategist warns Bitcoin headwind won’t fade with 10Y yield heading toward 5%",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared",
       "summary": ""
     }
   ],
@@ -192,14 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound climbs as soft US inflation data hurt Fed",
-      "[弱気] Canadian Dollar steadies as falling Oil offsets US Doll",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound climbs as soft US inflation data hurt Fed",
-      "[強気] United Kingdom: Upside GDP surprise, limited BoE impact"
+      "[弱気] United Kingdom: Growth resilient as BoE stays on hold –"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -207,9 +204,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar steadies as falling Oil offsets US Doll"
     ]
   },
   "rates": {
@@ -227,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.43219,
-      "today_close": 159.3569,
+      "today_close": 159.50002,
       "prev_close": 159.43154,
-      "diff": -0.0746,
-      "diff_pct": -0.05
+      "diff": 0.0685,
+      "diff_pct": 0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.3569,
-      "sma20": 159.6174,
-      "sma50": 161.1862,
-      "sma200": 158.9102,
+      "latest": 159.50002,
+      "sma20": 159.6246,
+      "sma50": 161.189,
+      "sma200": 158.9109,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -247,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.97,
-      "chg20d_pct": -2.74
+      "chg5d_pct": 1.06,
+      "chg20d_pct": -2.66
     },
     "EURUSD": {
-      "latest": 1.15322,
+      "latest": 1.15299,
       "sma20": 1.1502,
       "sma50": 1.145,
       "sma200": 1.1614,
@@ -263,8 +257,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.23,
-      "chg20d_pct": 1.41
+      "chg5d_pct": -0.25,
+      "chg20d_pct": 1.39
     }
   }
 }
