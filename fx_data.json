@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-13T19:03:28.323123",
-  "generated": "2026年08月13日 19:03",
+  "timestamp": "2026-08-13T21:44:44.327712",
+  "generated": "2026年08月13日 21:44",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 1,
+    "EUR": 1,
+    "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 0
   },
@@ -28,13 +28,6 @@
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
       "base_score": 1,
@@ -42,16 +35,23 @@
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,13 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range holds as upside risk watched against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD stayed largely unchanged around 1.2805 on Tuesd"
+      "title": "Euro holds above 1.1500 as US inflation curbs Fed bets",
+      "summary": "The Euro holds firm above 1.1500 as inflation data in the US curbed Fed rate hike bets, as traders shifted from expectin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar steadies off two-week lows following dovish RBNZ survey",
+      "summary": "NZD/USD is recovering on Thursday in the American session, regaining the mid-0.5800s after rising off two-week lows reac"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar holds steady ahead of US Retail Sales",
+      "summary": "The US Dollar (USD) has softened with the US Dollar Index (DXY) slipping back below the 100.00 mark after Thursday's low"
     },
     {
       "source": "FXStreet",
       "title": "USD/CHF Price Forecast: Bearish flag keeps 0.8145 in focus",
-      "summary": "The USD/CHF trades near the top trendline of a ‘bearish-flag,’ holds steady at around 0.8034, following the release of g"
+      "summary": "The USD/CHF pair trades near the top trendline of a bearish flag pattern on Thursday, holding steady at around 0.8134 af"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: Two-way trade with key levels watched against US Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that USD/IDR has rebounded after a near 2% month-to-date pullback, with e"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Range holds as upside risk watched against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD stayed largely unchanged around 1.2805 on Tuesd"
     },
     {
       "source": "FXStreet",
@@ -122,28 +142,8 @@
       "summary": "Gold (XAU/USD) price declines on Thursday as the US Dollar (USD) trims some of its earlier losses, as economic data in t"
     },
     {
-      "source": "FXStreet",
-      "title": "United Kingdom: Growth resilient as BoE stays on hold – Standard Chartered",
-      "summary": "Standard Chartered’s Christopher Graham notes that UK growth remained resilient in Q2, with GDP rising 0.4% q/q, driven "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar stumbles near recent highs",
-      "summary": "AUD/USD is trading little changed on Thursday, shrinking near the 0.7050s below the multi-week high reached on Wednesday"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Natural gas: Storage worries with TTF higher – ING",
-      "summary": "ING’s Warren Patterson and Ewa Manthey highlight that European gas prices have firmed, with TTF above EUR 60/MWh, even a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar struggles as softer inflation expectations challenge RBNZ hawks",
-      "summary": "NZD/USD trades around 0.5850 on Thursday at the time of writing, down 0.15% on the day."
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin pinned below $64k as soft inflation data provides little support",
+      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
       "summary": ""
     },
     {
@@ -192,73 +192,78 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Euro holds above 1.1500 as US inflation curbs Fed bets",
+      "[弱気] New Zealand Dollar steadies off two-week lows following",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
+    "EUR": [
+      "[強気] Euro holds above 1.1500 as US inflation curbs Fed bets"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] United Kingdom: Growth resilient as BoE stays on hold –"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar steadies off two-week lows following"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.7,
+    "US_10Y": 4.68,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.03,
-    "DIFF_EURUSD": -1.73,
-    "DIFF_GBPUSD": 0.1,
-    "DIFF_AUDUSD": 0.13
+    "DIFF_USDJPY": 2.01,
+    "DIFF_EURUSD": -1.71,
+    "DIFF_GBPUSD": 0.12,
+    "DIFF_AUDUSD": 0.15
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.43219,
-      "today_close": 159.50002,
-      "prev_close": 159.43154,
-      "diff": 0.0685,
-      "diff_pct": 0.04
+      "today_open": 159.51949,
+      "today_close": 159.51145,
+      "prev_close": 159.52336,
+      "diff": -0.0119,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.50002,
-      "sma20": 159.6246,
-      "sma50": 161.189,
-      "sma200": 158.9109,
-      "vs_sma20": "下",
+      "latest": 159.51145,
+      "sma20": 159.4087,
+      "sma50": 161.1436,
+      "sma200": 158.938,
+      "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 73.3,
+      "rsi14": 27.8,
       "high20": 164.0881,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.06,
-      "chg20d_pct": -2.66
+      "chg5d_pct": 1.12,
+      "chg20d_pct": -2.65
     },
     "EURUSD": {
-      "latest": 1.15299,
-      "sma20": 1.1502,
-      "sma50": 1.145,
-      "sma200": 1.1614,
+      "latest": 1.15296,
+      "sma20": 1.151,
+      "sma50": 1.1453,
+      "sma200": 1.1612,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 50.7,
+      "rsi14": 64.0,
       "high20": 1.159,
       "low20": 1.1354,
-      "high60": 1.1622,
+      "high60": 1.1619,
       "low60": 1.1324,
       "chg5d_pct": -0.25,
-      "chg20d_pct": 1.39
+      "chg20d_pct": 1.37
     }
   }
 }
