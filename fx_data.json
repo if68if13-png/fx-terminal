@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-08-13T10:06:05.931789",
-  "generated": "2026年08月13日 10:06",
+  "timestamp": "2026-08-13T13:11:09.441932",
+  "generated": "2026年08月13日 13:11",
   "scores": {
     "USD": 3,
-    "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
+    "JPY": 2,
+    "EUR": 2,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 1
+    "CAD": 1,
+    "CHF": 0
   },
   "pairs": [
     {
@@ -21,38 +21,38 @@
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 3,
-      "quote_score": 0
+      "quote_score": 2
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": 2,
       "quote_score": 3
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Bearish bias against US Dollar within higher range – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/JPY closed little changed at 159.41 after briefly d"
+      "title": "Japanese Yen: Policy support for BoJ hikes – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights USD/JPY trading just below 160.00 as Japan’s government signals "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: CPI-driven moves point to near-term stability – MUFG",
-      "summary": "Lee Hardman at MUFG reports that the US Dollar’s initial post-CPI weakness quickly reversed, with the dollar index retur"
+      "title": "Turkish Lira: Further depreciation seen against US Dollar – Commerzbank",
+      "summary": "Commerzbank FX analyst Tatha Ghose highlights persistent inflation pressures and renewed current account deterioration a"
     },
     {
       "source": "FXStreet",
-      "title": "Brazilian Real: Election risks threaten carry story – Societe Generale",
-      "summary": "Societe Generale strategists note USD/BRL has formed a higher low and is testing its 200-day moving average near 5.22, w"
+      "title": "US PPI comes in softer than expected, confirms easing inflation pressure",
+      "summary": "Producer inflation in the United States (US) cooled more than expected in July, adding to evidence that inflationary pre"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Range tests with upside bias against US Dollar – ING",
-      "summary": "ING’s Francesco Pesole keeps a constructive stance on EUR/USD after recent US data, based on a view that the Federal Res"
+      "title": "Bank of Canada: Gradual tightening path into 2027 – NBC",
+      "summary": "National Bank of Canada's (NBC) Taylor Schleich and Ethan Currie reaffirm their Bank of Canada (BoC) rate call, arguing "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Inflation outlook and Fed path – UOB",
-      "summary": "UOB’s Alvin Liew assesses United States (US) inflation and Federal Reserve (Fed) policy after the July Consumer Price In"
+      "title": "US Initial Jobless Claims increased to 209K last week",
+      "summary": "According to a report from the US Department of Labour (DOL) released on Thursday, the number of US citizens submitting "
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc holds ground following domestic Producer and Import Prices data",
-      "summary": "USD/CHF depreciates after three days of gains, trading around 0.8130 during the European hours on Thursday. The pair hol"
+      "title": "Euro steadies against Japanese Yen as ECB rate hike expectations strengthen",
+      "summary": "EUR/JPY trades around 183.80 on Thursday at the time of writing, little changed on the day."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar - MUFG",
-      "summary": "MUFG’s Lee Hardman notes the Japanese Yen has strengthened modestly as markets anticipate a faster pace of Bank of Japan"
+      "title": "Indian Rupee: Benign inflation reinforces RBI pause – DBS",
+      "summary": "DBS Group Research economist Radhika Rao analyzes India’s July inflation data and its implications for the Reserve Bank "
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone Industrial Production remains flat in June vs. -0.1% estimates",
-      "summary": "The Eurozone industrial sector activity remained flat in June, while it was expected to decline 0.1%, according to data "
+      "title": "New Zealand Dollar: Anchored expectations back RBNZ hikes – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes NZD/USD briefly dipped below its 200-day moving average as the Reserv"
     },
     {
       "source": "FXStreet",
-      "title": "Euro bounces off one-week low, holds above 1.1500 vs USD as traders look to US PPI",
-      "summary": "The EUR/USD pair drops to a one-and-a-half-week low during the first half of the European session, though it manages to "
+      "title": "Euro gains against British Pound despite stronger UK growth data",
+      "summary": "EUR/GBP edges higher on Thursday as the Euro (EUR) draws support from hawkish European Central Bank (ECB) expectations, "
     },
     {
       "source": "Investing",
-      "title": "Bitcoin holds below $64k as in-line U.S. CPI provides little support",
+      "title": "Strategist warns Bitcoin headwind won’t fade with 10Y yield heading toward 5%",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared",
+      "title": "Bitcoin subdued below $64k as in-line U.S. CPI provides little support",
       "summary": ""
     }
   ],
@@ -192,15 +192,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] US Dollar: CPI-driven moves point to near-term stabilit",
-      "[強気] Swiss Franc holds ground following domestic Producer an",
+      "[強気] Japanese Yen: Policy support for BoJ hikes – BBH",
+      "[弱気] Turkish Lira: Further depreciation seen against US Doll",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
+    "JPY": [
+      "[強気] Japanese Yen: Policy support for BoJ hikes – BBH",
+      "[強気] Euro steadies against Japanese Yen as ECB rate hike exp"
+    ],
     "EUR": [
-      "[強気] Swiss Franc holds ground following domestic Producer an"
+      "[強気] Euro steadies against Japanese Yen as ECB rate hike exp",
+      "[強気] Euro gains against British Pound despite stronger UK gr"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Euro gains against British Pound despite stronger UK gr"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -209,8 +215,8 @@
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CHF": [
-      "[強気] Swiss Franc holds ground following domestic Producer an"
+    "CAD": [
+      "[強気] Bank of Canada: Gradual tightening path into 2027 – NBC"
     ]
   },
   "rates": {
@@ -228,18 +234,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.43219,
-      "today_close": 159.36624,
+      "today_close": 159.18218,
       "prev_close": 159.43154,
-      "diff": -0.0653,
-      "diff_pct": -0.04
+      "diff": -0.2494,
+      "diff_pct": -0.16
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.36624,
-      "sma20": 159.6179,
-      "sma50": 161.1864,
-      "sma200": 158.9102,
+      "latest": 159.18218,
+      "sma20": 159.6087,
+      "sma50": 161.1827,
+      "sma200": 158.9093,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -248,11 +254,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.98,
-      "chg20d_pct": -2.74
+      "chg5d_pct": 0.86,
+      "chg20d_pct": -2.85
     },
     "EURUSD": {
-      "latest": 1.15345,
+      "latest": 1.15424,
       "sma20": 1.1503,
       "sma50": 1.145,
       "sma200": 1.1614,
@@ -264,8 +270,8 @@
       "low20": 1.1354,
       "high60": 1.1622,
       "low60": 1.1324,
-      "chg5d_pct": -0.21,
-      "chg20d_pct": 1.43
+      "chg5d_pct": -0.14,
+      "chg20d_pct": 1.5
     }
   }
 }
