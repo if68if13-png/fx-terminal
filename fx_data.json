@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-14T04:48:18.284593",
-  "generated": "2026年08月14日 04:48",
+  "timestamp": "2026-08-14T07:24:36.104150",
+  "generated": "2026年08月14日 07:24",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "USD": 3,
+    "JPY": 1,
+    "EUR": 2,
+    "GBP": 3,
     "AUD": -1,
-    "NZD": 2,
-    "CAD": 0,
+    "NZD": 3,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 3
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro gains as receding Fed hike bets weigh on USD; geopolitical risks cap upside",
-      "summary": "The EUR/USD pair attracts some follow-through buyers during the Asian session on Friday and looks to build on the previo"
+      "title": "Norwegian Krone: Weaker after Norges Bank holds rates – Danske Bank",
+      "summary": "Danske Research Team notes that Norges Bank left its policy rate at 4.25% and kept a tightening bias despite weaker summ"
     },
     {
       "source": "FXStreet",
-      "title": "Gold extends pullback from two-month high as Iran risks counter receding Fed hike bets",
-      "summary": "Gold (XAU/USD) is seen extending the previous day's pullback from the vicinity of the $4,450 level, or the highest since"
+      "title": "Canadian Dollar hits fresh high since June on rising oil prices, Fed-inspired USD weakness",
+      "summary": "The USD/CAD pair extends the previous day's decline from the top end of the weekly range and attracts follow-through sel"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc strengthens as softer US inflation pressures US Dollar",
-      "summary": "USD/CHF halts its four-day winning streak, trading around 0.8140 during the Asian hours on Friday. The currency pair edg"
+      "title": "Dow Jones futures steady ahead of US Retail Sales data",
+      "summary": "Dow Jones futures remain subdued around 53,910 during European hours on Friday. Meanwhile, S&amp;P 500 futures move litt"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index softens below 100.00 as softer PPI dampens Fed hike odds",
-      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
+      "title": "British Pound: Locked in tight ranges against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report GBP/USD price action remains confined, with intraday "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar strengthens despite subdued oil prices",
-      "summary": "USD/CAD loses ground for the second successive day, trading around 1.3920 during the Asian hours on Friday. The pair dep"
+      "title": "Euro: Showing some undervaluation against US Dollar – ING",
+      "summary": "ING FX Strategist Francesco Pesole highlights that EUR/USD appears modestly undervalued, with short-term fair value esti"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee trades calm while approaching the weekend",
+      "summary": "The Indian Rupee (INR) opens on a flat note at around 95.40 against the US Dollar (USD) on Friday."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Equities: US stock rally broadens as S&P 500 hits new high – Deutsche Bank",
+      "summary": "Deutsche Bank strategists report that United States (US) equities, led by the S&amp;P 500, have reached new record highs"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar gathers strength on easing Fed rate hike bets",
+      "summary": "The USD/CAD pair attracts some sellers to around 1.3910 during the early European trading hours on Friday. The US Dollar"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar gains on hawkish RBNZ policy outlook",
+      "summary": "NZD/USD gains ground after four days of losses, trading around 0.5870 during the early European hours on Friday. The pai"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound edges down against Japanese Yen on hawkish BoJ bets",
+      "summary": "The British Pound (GBP) faces mild selling pressure against the Japanese Yen (JPY) during the European trading session o"
     },
     {
       "source": "Investing",
-      "title": "MyEtherWallet (MEW) Integrates Ondo Perps, Unlocking 24/7 Leveraged Trading for Onchain Equities, & ETFs.",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategist warns Bitcoin headwind won’t fade with 10Y yield heading toward 5%",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin unable to shake off the doldrums even as Fed rate hike bets pared",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slips below $64k amid uncertainty over Hormuz deal, Strategy sale",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "title": "Bitcoin falls to $63.3k as regulatory delays offset rate cheer",
       "summary": ""
     }
   ],
@@ -192,18 +192,31 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] United States Dollar Index softens below 100.00 as soft",
+      "[弱気] Canadian Dollar hits fresh high since June on rising oi",
+      "[強気] New Zealand Dollar gains on hawkish RBNZ policy outlook",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
+    "JPY": [
+      "[強気] British Pound edges down against Japanese Yen on hawkis"
+    ],
+    "EUR": [
+      "[強気] New Zealand Dollar gains on hawkish RBNZ policy outlook",
+      "[強気] British Pound edges down against Japanese Yen on hawkis"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound edges down against Japanese Yen on hawkis"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar gains on hawkish RBNZ policy outlook"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar hits fresh high since June on rising oi"
     ]
   },
   "rates": {
@@ -221,18 +234,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.51949,
-      "today_close": 159.36204,
+      "today_close": 159.30454,
       "prev_close": 159.52336,
-      "diff": -0.1613,
-      "diff_pct": -0.1
+      "diff": -0.2188,
+      "diff_pct": -0.14
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.36204,
-      "sma20": 159.4012,
-      "sma50": 161.1406,
-      "sma200": 158.9373,
+      "latest": 159.30454,
+      "sma20": 159.3983,
+      "sma50": 161.1395,
+      "sma200": 158.937,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -241,13 +254,13 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.02,
-      "chg20d_pct": -2.74
+      "chg5d_pct": 0.99,
+      "chg20d_pct": -2.78
     },
     "EURUSD": {
-      "latest": 1.15388,
+      "latest": 1.15457,
       "sma20": 1.1511,
-      "sma50": 1.1453,
+      "sma50": 1.1454,
       "sma200": 1.1612,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -257,8 +270,8 @@
       "low20": 1.1354,
       "high60": 1.1619,
       "low60": 1.1324,
-      "chg5d_pct": -0.17,
-      "chg20d_pct": 1.45
+      "chg5d_pct": -0.11,
+      "chg20d_pct": 1.51
     }
   }
 }
