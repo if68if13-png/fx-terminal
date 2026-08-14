@@ -1,44 +1,51 @@
 {
-  "timestamp": "2026-08-14T18:54:06.162338",
-  "generated": "2026年08月14日 18:54",
+  "timestamp": "2026-08-14T21:25:10.331283",
+  "generated": "2026年08月14日 21:25",
   "scores": {
-    "USD": 0,
+    "USD": 1,
     "JPY": -1,
     "EUR": 0,
-    "GBP": 1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 1,
       "quote_score": -1
     },
     {
-      "pair": "USDJPY",
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -46,13 +53,6 @@
       "diff": 1,
       "base_score": 0,
       "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "Mexican Peso refreshes multi-month highs, Banxico minutes eyed",
+      "summary": "USD/MXN refreshed 24-month lows below 17.00 on Friday, but it has recovered some ground, with buyers stepping in and rec"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Steady appreciation backed by PBoC stance – Societe Generale",
+      "summary": "Societe Generale analysts highlight CNY’s firm trend, with the currency advancing to 6.7424, its strongest level since F"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forecasting the upcoming week: FOMC Minutes take center stage next week",
+      "summary": "The US Dollar Index (DXY) extended its slide on Friday, holding below 100.00 at fresh lows after a fourth straight soft "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Activity data and PBOC stance guide FX – MUFG",
+      "summary": "MUFG’s Asia FX Weekly highlights that China’s July activity indicators, following weak Q2 GDP, will be central for the C"
+    },
+    {
+      "source": "FXStreet",
       "title": "Japanese Yen holds as soft US data meets a weak Yen",
       "summary": "USD/JPY is holding near 159.40 at the time of writing, with little change on the day. A weak United States (US) Consumer"
     },
@@ -122,31 +142,6 @@
       "summary": "OCBC’s Sim Moh Siong and Christopher Wong note USD/SGD is consolidating around 1.28 as softer United States (US) Produce"
     },
     {
-      "source": "FXStreet",
-      "title": "Gold rallies as weak US data dents Fed hike bets",
-      "summary": "Gold price registers solid gains of nearly 0.90% on Friday as the US Dollar weakens across the board, following a week t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "South Korean Won: Gains target 1407 against US Dollar – Societe Generale",
-      "summary": "Societe Generale analysts note USD/KRW has corrected after losing its 200-day moving average near 1478 and is now testin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound hits three-month high as weak US sales deepen USD slide",
-      "summary": "The Pound Sterling (GBP) rises by some 0.40% on Friday as a batch of US data supports a Federal Reserve (Fed) dovish sta"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Range trade persists near 6.7450 against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH remains confined to a tight intrada"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Dow Jones Industrial Average learns who paid for disinflation",
-      "summary": "Two cooling inflation readings carried the broad market to a record on Thursday, taking the S&amp;P 500 through 7,800 fo"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin dips below $63k as regulatory delays offset rate cheer",
       "summary": ""
@@ -155,114 +150,120 @@
       "source": "Investing",
       "title": "MyEtherWallet (MEW) Integrates Ondo Perps, Unlocking 24/7 Leveraged Trading for Onchain Equities, & ETFs.",
       "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
+      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 109573,
-      "short": 72581,
-      "net": 36992,
+      "long": 109874,
+      "short": 70998,
+      "net": 38876,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 40096,
-      "short": 627,
-      "net": 39469,
+      "long": 39814,
+      "short": 0,
+      "net": 39814,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 20895,
+      "long": 21455,
       "short": 411,
-      "net": 20484,
+      "net": 21044,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 20895,
+      "long": 21455,
       "short": 411,
-      "net": 20484,
+      "net": 21044,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 240482,
-      "short": 61335,
-      "net": 179147,
+      "long": 267222,
+      "short": 72292,
+      "net": 194930,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen holds as soft US data meets a weak Yen",
-      "[弱気] British Pound hits three-month high as weak US sales de"
+      "[弱気] Japanese Yen holds as soft US data meets a weak Yen"
     ],
     "JPY": [
       "[弱気] Japanese Yen holds as soft US data meets a weak Yen"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound hits three-month high as weak US sales de"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Chinese Yuan: Activity data and PBOC stance guide FX – "
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.68,
+    "US_10Y": 4.63,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.01,
-    "DIFF_EURUSD": -1.71,
-    "DIFF_GBPUSD": 0.12,
-    "DIFF_AUDUSD": 0.15
+    "DIFF_USDJPY": 1.96,
+    "DIFF_EURUSD": -1.66,
+    "DIFF_GBPUSD": 0.17,
+    "DIFF_AUDUSD": 0.2
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.51949,
-      "today_close": 159.37303,
-      "prev_close": 159.52336,
-      "diff": -0.1503,
-      "diff_pct": -0.09
+      "today_open": 159.32164,
+      "today_close": 159.29097,
+      "prev_close": 159.3206,
+      "diff": -0.0296,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.37303,
-      "sma20": 159.4017,
-      "sma50": 161.1408,
-      "sma200": 158.9373,
-      "vs_sma20": "下",
+      "latest": 159.29097,
+      "sma20": 159.1816,
+      "sma50": 161.0905,
+      "sma200": 158.9699,
+      "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 27.8,
-      "high20": 164.0881,
+      "rsi14": 20.6,
+      "high20": 163.9537,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 1.03,
-      "chg20d_pct": -2.73
+      "chg5d_pct": -0.02,
+      "chg20d_pct": -2.66
     },
     "EURUSD": {
-      "latest": 1.1566,
-      "sma20": 1.1512,
-      "sma50": 1.1454,
-      "sma200": 1.1612,
+      "latest": 1.15696,
+      "sma20": 1.1521,
+      "sma50": 1.1458,
+      "sma200": 1.161,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 64.0,
+      "rsi14": 65.5,
       "high20": 1.159,
       "low20": 1.1354,
-      "high60": 1.1619,
+      "high60": 1.1617,
       "low60": 1.1324,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": 1.69
+      "chg5d_pct": 0.23,
+      "chg20d_pct": 1.58
     }
   }
 }
