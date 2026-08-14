@@ -1,40 +1,47 @@
 {
-  "timestamp": "2026-08-14T07:24:36.104150",
-  "generated": "2026年08月14日 07:24",
+  "timestamp": "2026-08-14T10:02:28.302274",
+  "generated": "2026年08月14日 10:02",
   "scores": {
     "USD": 3,
-    "JPY": 1,
-    "EUR": 2,
-    "GBP": 3,
-    "AUD": -1,
-    "NZD": 3,
-    "CAD": -1,
-    "CHF": 0
+    "JPY": 0,
+    "EUR": 1,
+    "GBP": 2,
+    "AUD": -2,
+    "NZD": 2,
+    "CAD": 0,
+    "CHF": -1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
+      "diff": -5,
+      "base_score": -2,
       "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 3,
-      "quote_score": 1
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "EURUSD",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": 2,
@@ -44,15 +51,8 @@
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Weaker after Norges Bank holds rates – Danske Bank",
-      "summary": "Danske Research Team notes that Norges Bank left its policy rate at 4.25% and kept a tightening bias despite weaker summ"
+      "title": "UoM Consumer Sentiment Index set to  ease as inflation, labour market worries loom",
+      "summary": "The University of Michigan (UoM) will release the preliminary estimate of August’s Consumer Sentiment Index on Friday."
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar hits fresh high since June on rising oil prices, Fed-inspired USD weakness",
-      "summary": "The USD/CAD pair extends the previous day's decline from the top end of the weekly range and attracts follow-through sel"
+      "title": "Euro holds gains above 1.1550 following Eurozone GDP and bright Trade Balance data",
+      "summary": "The Euro (EUR) holds moderate gains against the US Dollar (USD) on Friday, as Eurozone Gross Domestic Product (GDP) came"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures steady ahead of US Retail Sales data",
-      "summary": "Dow Jones futures remain subdued around 53,910 during European hours on Friday. Meanwhile, S&amp;P 500 futures move litt"
+      "title": "US Dollar: Looking for a shift in Fedspeak – ING",
+      "summary": "ING strategists Francesco Pesole, Frantisek Taborsky and Chris Turner note that post-CPI summer conditions are suppressi"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Locked in tight ranges against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report GBP/USD price action remains confined, with intraday "
+      "title": "Japanese Yen: Bearish bias within 158.00–160.20 band against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann judge USD/JPY price action as inconclusive intraday, with tr"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Showing some undervaluation against US Dollar – ING",
-      "summary": "ING FX Strategist Francesco Pesole highlights that EUR/USD appears modestly undervalued, with short-term fair value esti"
+      "title": "Silver regains ground above $64 as Fed rate hike bets fade",
+      "summary": "Silver (XAG/USD) gains 0.37% on Friday and trades around $64.70 at the time of writing, erasing part of its recent corre"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee trades calm while approaching the weekend",
-      "summary": "The Indian Rupee (INR) opens on a flat note at around 95.40 against the US Dollar (USD) on Friday."
+      "title": "Australian Dollar: RBA keeps hike option open – Rabobank",
+      "summary": "Rabobank strategist Elwin de Groot reports that the Reserve Bank of Australia (RBA) left rates unchanged, with markets i"
     },
     {
       "source": "FXStreet",
-      "title": "Equities: US stock rally broadens as S&P 500 hits new high – Deutsche Bank",
-      "summary": "Deutsche Bank strategists report that United States (US) equities, led by the S&amp;P 500, have reached new record highs"
+      "title": "Federal Reserve: RMP pause and QT timing – TD Securities",
+      "summary": "TD Securities’ Gennadiy Goldberg and Molly Brooks analyze the Federal Reserve’s decision to halt Reserve Management Purc"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar gathers strength on easing Fed rate hike bets",
-      "summary": "The USD/CAD pair attracts some sellers to around 1.3910 during the early European trading hours on Friday. The US Dollar"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar gains on hawkish RBNZ policy outlook",
-      "summary": "NZD/USD gains ground after four days of losses, trading around 0.5870 during the early European hours on Friday. The pai"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound edges down against Japanese Yen on hawkish BoJ bets",
-      "summary": "The British Pound (GBP) faces mild selling pressure against the Japanese Yen (JPY) during the European trading session o"
+      "title": "Eurozone Q2 GDP growth remains at 0.4%, as flash data showed",
+      "summary": "According to Eurostat, the Eurozone Gross Domestic Product (GDP) growth in the second quarter this year remains at 0.4%,"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls to $63.3k as regulatory delays offset rate cheer",
+      "title": "Bitcoin slides below $63k as regulatory delays offset rate cheer",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "MyEtherWallet (MEW) Integrates Ondo Perps, Unlocking 24/7 Leveraged Trading for Onchain Equities, & ETFs.",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
       "summary": ""
     }
   ],
@@ -192,31 +192,28 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar hits fresh high since June on rising oi",
-      "[強気] New Zealand Dollar gains on hawkish RBNZ policy outlook",
+      "[強気] Euro holds gains above 1.1550 following Eurozone GDP an",
+      "[弱気] US Dollar: Looking for a shift in Fedspeak – ING",
+      "[強気] Silver regains ground above $64 as Fed rate hike bets f",
+      "[弱気] Australian Dollar: RBA keeps hike option open – Raboban",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
-    "JPY": [
-      "[強気] British Pound edges down against Japanese Yen on hawkis"
-    ],
     "EUR": [
-      "[強気] New Zealand Dollar gains on hawkish RBNZ policy outlook",
-      "[強気] British Pound edges down against Japanese Yen on hawkis"
+      "[強気] Euro holds gains above 1.1550 following Eurozone GDP an"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound edges down against Japanese Yen on hawkis"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)",
+      "[弱気] Australian Dollar: RBA keeps hike option open – Raboban"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar gains on hawkish RBNZ policy outlook"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CAD": [
-      "[弱気] Canadian Dollar hits fresh high since June on rising oi"
+    "CHF": [
+      "[弱気] US Dollar: Looking for a shift in Fedspeak – ING"
     ]
   },
   "rates": {
@@ -234,18 +231,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.51949,
-      "today_close": 159.30454,
+      "today_close": 159.15747,
       "prev_close": 159.52336,
-      "diff": -0.2188,
-      "diff_pct": -0.14
+      "diff": -0.3659,
+      "diff_pct": -0.23
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.30454,
-      "sma20": 159.3983,
-      "sma50": 161.1395,
-      "sma200": 158.937,
+      "latest": 159.15747,
+      "sma20": 159.391,
+      "sma50": 161.1365,
+      "sma200": 158.9362,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -254,11 +251,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.99,
-      "chg20d_pct": -2.78
+      "chg5d_pct": 0.89,
+      "chg20d_pct": -2.87
     },
     "EURUSD": {
-      "latest": 1.15457,
+      "latest": 1.15545,
       "sma20": 1.1511,
       "sma50": 1.1454,
       "sma200": 1.1612,
@@ -270,8 +267,8 @@
       "low20": 1.1354,
       "high60": 1.1619,
       "low60": 1.1324,
-      "chg5d_pct": -0.11,
-      "chg20d_pct": 1.51
+      "chg5d_pct": -0.04,
+      "chg20d_pct": 1.59
     }
   }
 }
