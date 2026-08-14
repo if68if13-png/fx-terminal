@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-08-14T10:02:28.302274",
-  "generated": "2026年08月14日 10:02",
+  "timestamp": "2026-08-14T13:05:44.414325",
+  "generated": "2026年08月14日 13:05",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -2,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -41,17 +48,10 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "UoM Consumer Sentiment Index set to  ease as inflation, labour market worries loom",
-      "summary": "The University of Michigan (UoM) will release the preliminary estimate of August’s Consumer Sentiment Index on Friday."
+      "title": "Norwegian Krone: Dovish turn risks NOK appeal – Societe Generale",
+      "summary": "Societe Generale notes Norway’s central bank kept its policy rate unchanged at 4.25% and softened its hawkish tone. The "
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds gains above 1.1550 following Eurozone GDP and bright Trade Balance data",
-      "summary": "The Euro (EUR) holds moderate gains against the US Dollar (USD) on Friday, as Eurozone Gross Domestic Product (GDP) came"
+      "title": "US Dollar: Lower short-term yields weigh on the Greenback – MUFG",
+      "summary": "MUFG’s Lee Hardman notes the US Dollar (USD) is trading on a softer footing as Fed rate hike expectations are scaled bac"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Looking for a shift in Fedspeak – ING",
-      "summary": "ING strategists Francesco Pesole, Frantisek Taborsky and Chris Turner note that post-CPI summer conditions are suppressi"
+      "title": "Gold bounces from weekly low on softer US Dollar, fading September Fed hike bets",
+      "summary": "Gold (XAU/USD) rebounds on Friday after opening the day in negative territory and falling to a fresh weekly low of $4,31"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Bearish bias within 158.00–160.20 band against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann judge USD/JPY price action as inconclusive intraday, with tr"
+      "title": "Oil: War-driven price effects and inflation – UBS",
+      "summary": "UBS economist Paul Donovan discusses how the Gulf war has lifted Oil prices and pushed consumer price inflation above ta"
     },
     {
       "source": "FXStreet",
-      "title": "Silver regains ground above $64 as Fed rate hike bets fade",
-      "summary": "Silver (XAG/USD) gains 0.37% on Friday and trades around $64.70 at the time of writing, erasing part of its recent corre"
+      "title": "Federal Reserve: Communication reset at Jackson Hole – TD Securities",
+      "summary": "TD Securities’ Oscar Munoz argues that Chair Kevin Warsh’s communication strategy has undermined market confidence in th"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA keeps hike option open – Rabobank",
-      "summary": "Rabobank strategist Elwin de Groot reports that the Reserve Bank of Australia (RBA) left rates unchanged, with markets i"
+      "title": "Euro little changed against Pound Sterling as ECB, BoE outlooks stay in focus",
+      "summary": "EUR/GBP is little changed on Friday, extending the sideways pattern seen through most of the week as traders show a mute"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: RMP pause and QT timing – TD Securities",
-      "summary": "TD Securities’ Gennadiy Goldberg and Molly Brooks analyze the Federal Reserve’s decision to halt Reserve Management Purc"
+      "title": "Australian Dollar regains momentum as hawkish RBA meets softer US inflation",
+      "summary": "AUD/USD rebounds on Friday and trades around 0.7080 at the time of writing, gaining 0.31% on the day after falling as lo"
     },
     {
       "source": "FXStreet",
-      "title": "Eurozone Q2 GDP growth remains at 0.4%, as flash data showed",
-      "summary": "According to Eurostat, the Eurozone Gross Domestic Product (GDP) growth in the second quarter this year remains at 0.4%,"
+      "title": "Swedish Krona: Undervalued SEK with constrained upside – Nordea",
+      "summary": "Nordea strategists remain constructive on the Swedish Krona (SEK), viewing it as undervalued and supported by robust dom"
     },
     {
       "source": "Investing",
@@ -192,14 +192,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro holds gains above 1.1550 following Eurozone GDP an",
-      "[弱気] US Dollar: Looking for a shift in Fedspeak – ING",
-      "[強気] Silver regains ground above $64 as Fed rate hike bets f",
-      "[弱気] Australian Dollar: RBA keeps hike option open – Raboban",
+      "[強気] Australian Dollar regains momentum as hawkish RBA meets",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
-    ],
-    "EUR": [
-      "[強気] Euro holds gains above 1.1550 following Eurozone GDP an"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -207,13 +201,10 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[弱気] Australian Dollar: RBA keeps hike option open – Raboban"
+      "[強気] Australian Dollar regains momentum as hawkish RBA meets"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] US Dollar: Looking for a shift in Fedspeak – ING"
     ]
   },
   "rates": {
@@ -231,18 +222,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.51949,
-      "today_close": 159.15747,
+      "today_close": 158.988,
       "prev_close": 159.52336,
-      "diff": -0.3659,
-      "diff_pct": -0.23
+      "diff": -0.5354,
+      "diff_pct": -0.34
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.15747,
-      "sma20": 159.391,
-      "sma50": 161.1365,
-      "sma200": 158.9362,
+      "latest": 158.988,
+      "sma20": 159.3825,
+      "sma50": 161.1331,
+      "sma200": 158.9354,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -251,12 +242,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.89,
-      "chg20d_pct": -2.87
+      "chg5d_pct": 0.79,
+      "chg20d_pct": -2.97
     },
     "EURUSD": {
-      "latest": 1.15545,
-      "sma20": 1.1511,
+      "latest": 1.15624,
+      "sma20": 1.1512,
       "sma50": 1.1454,
       "sma200": 1.1612,
       "vs_sma20": "上",
@@ -267,8 +258,8 @@
       "low20": 1.1354,
       "high60": 1.1619,
       "low60": 1.1324,
-      "chg5d_pct": -0.04,
-      "chg20d_pct": 1.59
+      "chg5d_pct": 0.03,
+      "chg20d_pct": 1.65
     }
   }
 }
