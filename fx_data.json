@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-14T15:52:17.175044",
-  "generated": "2026年08月14日 15:52",
+  "timestamp": "2026-08-14T18:54:06.162338",
+  "generated": "2026年08月14日 18:54",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": 2,
+    "USD": 0,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 1,
     "AUD": -1,
     "NZD": 2,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
     },
     {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
+    },
+    {
       "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indonesia: Policy continuity supports Rupiah – ING",
-      "summary": "ING’s Lynn Song expects Bank Indonesia to keep its benchmark rate unchanged at 5.75% this week, prioritizing Rupiah stab"
+      "title": "Japanese Yen holds as soft US data meets a weak Yen",
+      "summary": "USD/JPY is holding near 159.40 at the time of writing, with little change on the day. A weak United States (US) Consumer"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound advances as weak US sales deepen USD slide",
-      "summary": "The Pound Sterling rises by some 0.40% on Friday as a batch of US data justifies the Fed's dovish approach, with consume"
+      "title": "USD/CAD Price Forecast: Bears target the 200-day SMA",
+      "summary": "USD/CAD extends its decline farther below 1.4000 on Friday and heads for a third consecutive weekly loss. At the time of"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Policy risks support gains against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe USD/JPY trading near 159, with modest Japanese Yen (JPY) g"
+      "title": "The Dollar Index breaks on the fourth consecutive soft print",
+      "summary": "The Dollar Index took a payroll contraction on August 7, a cooler consumer price reading on August 12 and a flat produce"
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Range-bound near term, stronger in 2027 against Euro – Nordea",
-      "summary": "Nordea strategists see the Norwegian Krone (NOK) broadly stable over the next six months after July’s EUR/NOK decline, d"
+      "title": "Singapore Dollar: Consolidation near 1.28 with upside risks against US Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note USD/SGD is consolidating around 1.28 as softer United States (US) Produce"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Data-driven outlook in focus – MUFG",
-      "summary": "MUFG analysts Lin Li, Michael Wan, Lloyd Chan and Khang Sek Lee note that upcoming US economic data will be crucial for "
+      "title": "Gold rallies as weak US data dents Fed hike bets",
+      "summary": "Gold price registers solid gains of nearly 0.90% on Friday as the US Dollar weakens across the board, following a week t"
     },
     {
       "source": "FXStreet",
-      "title": "Euro gains against Japanese Yen as ECB, BoJ rate hike bets intensify",
-      "summary": "EUR/JPY rises 0.15% on Friday and trades around 184.15 at the time of writing. The pair remains supported despite growin"
+      "title": "South Korean Won: Gains target 1407 against US Dollar – Societe Generale",
+      "summary": "Societe Generale analysts note USD/KRW has corrected after losing its 200-day moving average near 1478 and is now testin"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Bullish momentum points to gains against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight Canadian Dollar (CAD) strength as USD/CAD trades just be"
+      "title": "British Pound hits three-month high as weak US sales deepen USD slide",
+      "summary": "The Pound Sterling (GBP) rises by some 0.40% on Friday as a batch of US data supports a Federal Reserve (Fed) dovish sta"
     },
     {
       "source": "FXStreet",
-      "title": "Gold gains ground as US Dollar selling picks up, Fed rate hike bets fade",
-      "summary": "Gold (XAU/USD) rebounds on Friday after opening the day in negative territory and falling to a fresh weekly low of $4,31"
+      "title": "Chinese Yuan: Range trade persists near 6.7450 against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH remains confined to a tight intrada"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Dow Jones Industrial Average learns who paid for disinflation",
+      "summary": "Two cooling inflation readings carried the broad market to a record on Thursday, taking the S&amp;P 500 through 7,800 fo"
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "MyEtherWallet (MEW) Integrates Ondo Perps, Unlocking 24/7 Leveraged Trading for Onchain Equities, & ETFs.",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
       "summary": ""
     }
   ],
@@ -192,22 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound advances as weak US sales deepen USD slid",
-      "[弱気] Japanese Yen: Policy risks support gains against US Dol",
-      "[強気] Gold gains ground as US Dollar selling picks up, Fed ra",
-      "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
+      "[弱気] Japanese Yen holds as soft US data meets a weak Yen",
+      "[弱気] British Pound hits three-month high as weak US sales de"
     ],
     "JPY": [
-      "[弱気] Japanese Yen: Policy risks support gains against US Dol",
-      "[強気] Euro gains against Japanese Yen as ECB, BoJ rate hike b"
-    ],
-    "EUR": [
-      "[強気] Norwegian Krone: Range-bound near term, stronger in 202",
-      "[強気] Euro gains against Japanese Yen as ECB, BoJ rate hike b"
+      "[弱気] Japanese Yen holds as soft US data meets a weak Yen"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound advances as weak US sales deepen USD slid"
+      "[弱気] British Pound hits three-month high as weak US sales de"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -232,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.51949,
-      "today_close": 159.17253,
+      "today_close": 159.37303,
       "prev_close": 159.52336,
-      "diff": -0.3508,
-      "diff_pct": -0.22
+      "diff": -0.1503,
+      "diff_pct": -0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.17253,
-      "sma20": 159.3917,
-      "sma50": 161.1368,
-      "sma200": 158.9363,
+      "latest": 159.37303,
+      "sma20": 159.4017,
+      "sma50": 161.1408,
+      "sma200": 158.9373,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -252,12 +245,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.9,
-      "chg20d_pct": -2.86
+      "chg5d_pct": 1.03,
+      "chg20d_pct": -2.73
     },
     "EURUSD": {
-      "latest": 1.15849,
-      "sma20": 1.1513,
+      "latest": 1.1566,
+      "sma20": 1.1512,
       "sma50": 1.1454,
       "sma200": 1.1612,
       "vs_sma20": "上",
@@ -268,8 +261,8 @@
       "low20": 1.1354,
       "high60": 1.1619,
       "low60": 1.1324,
-      "chg5d_pct": 0.23,
-      "chg20d_pct": 1.85
+      "chg5d_pct": 0.06,
+      "chg20d_pct": 1.69
     }
   }
 }

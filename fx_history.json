@@ -22,9 +22,9 @@
       }
     },
     "scores": {
-      "USD": 2,
-      "JPY": 0,
-      "EUR": 2,
+      "USD": 0,
+      "JPY": -1,
+      "EUR": 0,
       "GBP": 1,
       "AUD": -1,
       "NZD": 2,
