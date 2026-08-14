@@ -1,47 +1,26 @@
 {
-  "timestamp": "2026-08-14T13:05:44.414325",
-  "generated": "2026年08月14日 13:05",
+  "timestamp": "2026-08-14T15:52:17.175044",
+  "generated": "2026年08月14日 15:52",
   "scores": {
-    "USD": 4,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
-    "AUD": 0,
+    "EUR": 2,
+    "GBP": 1,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
@@ -49,10 +28,31 @@
     },
     {
       "pair": "EURJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,47 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Dovish turn risks NOK appeal – Societe Generale",
-      "summary": "Societe Generale notes Norway’s central bank kept its policy rate unchanged at 4.25% and softened its hawkish tone. The "
+      "title": "Indonesia: Policy continuity supports Rupiah – ING",
+      "summary": "ING’s Lynn Song expects Bank Indonesia to keep its benchmark rate unchanged at 5.75% this week, prioritizing Rupiah stab"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Lower short-term yields weigh on the Greenback – MUFG",
-      "summary": "MUFG’s Lee Hardman notes the US Dollar (USD) is trading on a softer footing as Fed rate hike expectations are scaled bac"
+      "title": "British Pound advances as weak US sales deepen USD slide",
+      "summary": "The Pound Sterling rises by some 0.40% on Friday as a batch of US data justifies the Fed's dovish approach, with consume"
     },
     {
       "source": "FXStreet",
-      "title": "Gold bounces from weekly low on softer US Dollar, fading September Fed hike bets",
+      "title": "Japanese Yen: Policy risks support gains against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe USD/JPY trading near 159, with modest Japanese Yen (JPY) g"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Norwegian Krone: Range-bound near term, stronger in 2027 against Euro – Nordea",
+      "summary": "Nordea strategists see the Norwegian Krone (NOK) broadly stable over the next six months after July’s EUR/NOK decline, d"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Data-driven outlook in focus – MUFG",
+      "summary": "MUFG analysts Lin Li, Michael Wan, Lloyd Chan and Khang Sek Lee note that upcoming US economic data will be crucial for "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro gains against Japanese Yen as ECB, BoJ rate hike bets intensify",
+      "summary": "EUR/JPY rises 0.15% on Friday and trades around 184.15 at the time of writing. The pair remains supported despite growin"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Bullish momentum points to gains against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight Canadian Dollar (CAD) strength as USD/CAD trades just be"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold gains ground as US Dollar selling picks up, Fed rate hike bets fade",
       "summary": "Gold (XAU/USD) rebounds on Friday after opening the day in negative territory and falling to a fresh weekly low of $4,31"
     },
     {
-      "source": "FXStreet",
-      "title": "Oil: War-driven price effects and inflation – UBS",
-      "summary": "UBS economist Paul Donovan discusses how the Gulf war has lifted Oil prices and pushed consumer price inflation above ta"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Federal Reserve: Communication reset at Jackson Hole – TD Securities",
-      "summary": "TD Securities’ Oscar Munoz argues that Chair Kevin Warsh’s communication strategy has undermined market confidence in th"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro little changed against Pound Sterling as ECB, BoE outlooks stay in focus",
-      "summary": "EUR/GBP is little changed on Friday, extending the sideways pattern seen through most of the week as traders show a mute"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar regains momentum as hawkish RBA meets softer US inflation",
-      "summary": "AUD/USD rebounds on Friday and trades around 0.7080 at the time of writing, gaining 0.31% on the day after falling as lo"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swedish Krona: Undervalued SEK with constrained upside – Nordea",
-      "summary": "Nordea strategists remain constructive on the Swedish Krona (SEK), viewing it as undervalued and supported by robust dom"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin slides below $63k as regulatory delays offset rate cheer",
+      "title": "Bitcoin dips below $63k as regulatory delays offset rate cheer",
       "summary": ""
     },
     {
@@ -192,16 +192,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar regains momentum as hawkish RBA meets",
+      "[弱気] British Pound advances as weak US sales deepen USD slid",
+      "[弱気] Japanese Yen: Policy risks support gains against US Dol",
+      "[強気] Gold gains ground as US Dollar selling picks up, Fed ra",
       "[強気] Bitcoin unable to shake off the doldrums even as Fed ra"
     ],
+    "JPY": [
+      "[弱気] Japanese Yen: Policy risks support gains against US Dol",
+      "[強気] Euro gains against Japanese Yen as ECB, BoJ rate hike b"
+    ],
+    "EUR": [
+      "[強気] Norwegian Krone: Range-bound near term, stronger in 202",
+      "[強気] Euro gains against Japanese Yen as ECB, BoJ rate hike b"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound advances as weak US sales deepen USD slid"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+179,147)",
-      "[強気] Australian Dollar regains momentum as hawkish RBA meets"
+      "[COT] 🟢ロング優勢 (ネット:+179,147)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -222,18 +232,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.51949,
-      "today_close": 158.988,
+      "today_close": 159.17253,
       "prev_close": 159.52336,
-      "diff": -0.5354,
-      "diff_pct": -0.34
+      "diff": -0.3508,
+      "diff_pct": -0.22
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.988,
-      "sma20": 159.3825,
-      "sma50": 161.1331,
-      "sma200": 158.9354,
+      "latest": 159.17253,
+      "sma20": 159.3917,
+      "sma50": 161.1368,
+      "sma200": 158.9363,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -242,12 +252,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.79,
-      "chg20d_pct": -2.97
+      "chg5d_pct": 0.9,
+      "chg20d_pct": -2.86
     },
     "EURUSD": {
-      "latest": 1.15624,
-      "sma20": 1.1512,
+      "latest": 1.15849,
+      "sma20": 1.1513,
       "sma50": 1.1454,
       "sma200": 1.1612,
       "vs_sma20": "上",
@@ -258,8 +268,8 @@
       "low20": 1.1354,
       "high60": 1.1619,
       "low60": 1.1324,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": 1.65
+      "chg5d_pct": 0.23,
+      "chg20d_pct": 1.85
     }
   }
 }
