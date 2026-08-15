@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-14T21:25:10.331283",
-  "generated": "2026年08月14日 21:25",
+  "timestamp": "2026-08-15T01:14:52.364820",
+  "generated": "2026年08月15日 01:14",
   "scores": {
-    "USD": 1,
+    "USD": 0,
     "JPY": -1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": -2,
     "NZD": 2,
     "CAD": -1,
     "CHF": 0
@@ -20,32 +20,25 @@
       "quote_score": -1
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "base_score": -2,
+      "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
@@ -53,6 +46,13 @@
       "diff": 1,
       "base_score": 0,
       "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,6 +103,11 @@
     },
     {
       "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Bulls eye 0.7100 after US Retail Sales miss",
+      "summary": "The Australian Dollar advanced on Friday after US Retail Sales disappointed investors, increasing speculation that the F"
+    },
+    {
+      "source": "FXStreet",
       "title": "Mexican Peso refreshes multi-month highs, Banxico minutes eyed",
       "summary": "USD/MXN refreshed 24-month lows below 17.00 on Friday, but it has recovered some ground, with buyers stepping in and rec"
     },
@@ -127,23 +132,8 @@
       "summary": "USD/JPY is holding near 159.40 at the time of writing, with little change on the day. A weak United States (US) Consumer"
     },
     {
-      "source": "FXStreet",
-      "title": "USD/CAD Price Forecast: Bears target the 200-day SMA",
-      "summary": "USD/CAD extends its decline farther below 1.4000 on Friday and heads for a third consecutive weekly loss. At the time of"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Dollar Index breaks on the fourth consecutive soft print",
-      "summary": "The Dollar Index took a payroll contraction on August 7, a cooler consumer price reading on August 12 and a flat produce"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Consolidation near 1.28 with upside risks against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note USD/SGD is consolidating around 1.28 as softer United States (US) Produce"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin dips below $63k as regulatory delays offset rate cheer",
+      "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
       "summary": ""
     },
     {
@@ -154,6 +144,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,6 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] AUD/USD Price Forecast: Bulls eye 0.7100 after US Retai",
       "[弱気] Japanese Yen holds as soft US data meets a weak Yen"
     ],
     "JPY": [
@@ -202,7 +198,8 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)",
+      "[弱気] AUD/USD Price Forecast: Bulls eye 0.7100 after US Retai"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -226,18 +223,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.32164,
-      "today_close": 159.29097,
+      "today_close": 159.32327,
       "prev_close": 159.3206,
-      "diff": -0.0296,
-      "diff_pct": -0.02
+      "diff": 0.0027,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.29097,
-      "sma20": 159.1816,
-      "sma50": 161.0905,
-      "sma200": 158.9699,
+      "latest": 159.32327,
+      "sma20": 159.1833,
+      "sma50": 161.0912,
+      "sma200": 158.9701,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -246,11 +243,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.02,
-      "chg20d_pct": -2.66
+      "chg5d_pct": 0.0,
+      "chg20d_pct": -2.64
     },
     "EURUSD": {
-      "latest": 1.15696,
+      "latest": 1.15708,
       "sma20": 1.1521,
       "sma50": 1.1458,
       "sma200": 1.161,
@@ -262,8 +259,8 @@
       "low20": 1.1354,
       "high60": 1.1617,
       "low60": 1.1324,
-      "chg5d_pct": 0.23,
-      "chg20d_pct": 1.58
+      "chg5d_pct": 0.24,
+      "chg20d_pct": 1.59
     }
   }
 }
