@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-17T06:55:43.087504",
-  "generated": "2026年08月17日 06:55",
+  "timestamp": "2026-08-17T09:41:24.329211",
+  "generated": "2026年08月17日 09:41",
   "scores": {
-    "USD": 4,
+    "USD": 1,
     "JPY": 0,
-    "EUR": 2,
-    "GBP": 2,
+    "EUR": 0,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -14,44 +14,44 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 1
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 1,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Mixed performance across regions – Deutsche Bank",
-      "summary": "Deutsche Bank strategists highlight a mixed global equity picture, with the Nikkei, CSI 300, Shanghai Composite and Hang"
+      "title": "Japanese Yen: BoJ hike expectations support JPY against US Dollar – MUFG",
+      "summary": "MUFG’s Derek Halpenny and Lee Hardman report that Japanese government bond yields are rising despite weaker-than-expecte"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Data mix limits sustained gains against US Dollar  – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad says improving United Kingdom (UK) disinflation alongside solid Q2 Gross Do"
+      "title": "US Dollar: Losing momentum as fiscal risks rise – DBS",
+      "summary": "DBS Group Research’s Philip Wee argues that the US Dollar (USD) is losing momentum as markets reassess United States (US"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Nominal growth underpins cautious strength – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur says solid nominal growth and higher-than-expected inflation should keep pressure on the Bank"
+      "title": "Federal Reserve: Changing communications and higher volatility – TD Securities",
+      "summary": "TD Securities’ James Rossiter argues that the Federal Reserve is leading a structural shift away from detailed forward g"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecasts: XAG/USD approaches $66.00 favoured by a softer US Dollar",
-      "summary": "Silver (XAG/USD) trades on a strong footing on Monday, reaching levels above $65.80 at the European session opening time"
+      "title": "British Pound: Data-heavy week risks BoE repricing – ING",
+      "summary": "Chris Turner at ING notes that a busier United Kingdom (UK) data calendar, including jobs, wages and July Consumer Price"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Upside bias targets 1.1590 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang highlights that EUR/USD surged to 1.1585, leaving the Euro (EUR) with a firm"
+      "title": "Canadian Dollar: CPI and US tariffs weigh on outlook – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects Canada’s July Consumer Price Index (CPI) to keep core inflation bel"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee steadies as US Dollar declines on reducing Fed rate hike bets",
-      "summary": "The Indian Rupee (INR) trades stronger against the US Dollar (USD) on Monday after two days of losses, with the USD/INR "
+      "title": "Gold sticks to gains near $4,400 as USD slumps to two-month low on receding Fed hike bets",
+      "summary": "Gold (XAU/USD) maintains its bullish tone through the first half of the European session and currently trades around $4,"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gathers strength above 1.3550 as softer US data cools Fed hike bets",
-      "summary": "The GBP/USD pair gains traction to near 1.3555 during the early European trading hours on Monday. The US Dollar (USD) we"
+      "title": "Polish Zloty: Slow NBP hawkish shift weighs on PLN - Commerzbank",
+      "summary": "Commerzbank’s Tatha Ghose reports that Polish headline and core inflation have re-accelerated, with seasonally adjusted "
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah strengthens amid Prabowo's growth target, weaker US Dollar",
-      "summary": "USD/IDR extends its losses for the second successive day, trading around 17,820 during the Asian hours on Monday. The pa"
+      "title": "British Pound hits three-month highs at 1.3570 amid generalised US Dollar weakness",
+      "summary": "The British Pound (GBP) extends gains for the second consecutive day on Monday, as investors cut back US Dollar (USD) lo"
     },
     {
       "source": "Investing",
@@ -192,17 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver Price Forecasts: XAG/USD approaches $66.00 favou",
-      "[強気] Euro: Upside bias targets 1.1590 against US Dollar – UO",
-      "[強気] Indian Rupee steadies as US Dollar declines on reducing",
-      "[弱気] Indonesian Rupiah strengthens amid Prabowo's growth tar"
-    ],
-    "EUR": [
-      "[強気] Silver Price Forecasts: XAG/USD approaches $66.00 favou",
-      "[強気] Euro: Upside bias targets 1.1590 against US Dollar – UO"
+      "[弱気] British Pound hits three-month highs at 1.3570 amid gen"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound hits three-month highs at 1.3570 amid gen"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -227,44 +221,44 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31442,
-      "today_close": 158.9787,
+      "today_close": 159.13595,
       "prev_close": 159.31991,
-      "diff": -0.3412,
-      "diff_pct": -0.21
+      "diff": -0.184,
+      "diff_pct": -0.12
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.9787,
-      "sma20": 158.7173,
-      "sma50": 160.9871,
-      "sma200": 159.0287,
+      "latest": 159.13595,
+      "sma20": 158.7252,
+      "sma50": 160.9902,
+      "sma200": 159.0295,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 20.8,
       "high20": 163.911,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.28,
-      "chg20d_pct": -2.98
+      "chg5d_pct": -0.19,
+      "chg20d_pct": -2.89
     },
     "EURUSD": {
-      "latest": 1.15956,
-      "sma20": 1.1541,
+      "latest": 1.15995,
+      "sma20": 1.1542,
       "sma50": 1.1465,
       "sma200": 1.1607,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 66.9,
-      "high20": 1.1596,
+      "high20": 1.1616,
       "low20": 1.1375,
-      "high60": 1.1596,
+      "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.62,
-      "chg20d_pct": 1.84
+      "chg5d_pct": 0.65,
+      "chg20d_pct": 1.87
     }
   }
 }
