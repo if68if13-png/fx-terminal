@@ -1,54 +1,54 @@
 {
-  "timestamp": "2026-08-16T21:19:44.311674",
-  "generated": "2026年08月16日 21:19",
+  "timestamp": "2026-08-17T01:15:54.870627",
+  "generated": "2026年08月17日 01:15",
   "scores": {
-    "USD": 0,
-    "JPY": -1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -2,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -2,
+      "quote_score": 2
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -103,33 +103,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7873 vs. 6.7878 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7873 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen gains against weaker US Dollar following softer Q2 GDP data",
+      "summary": "USD/JPY loses ground for the second successive day, trading around 159.10 during the Asian hours on Monday. The pair dep"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound trades near three-month top as fading Fed hike bets undermine USD",
+      "summary": "The GBP/USD pair attracts some dip-buyers at the start of a new week and climbs above mid-1.3500s during the Asian sessi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold gains momentum to near $4,400 as Fed hike expectations drop despite Us-Iran tensions",
+      "summary": "Gold price (XAU/USD) gains momentum to around $4,395 during the early Asian trading hours on Monday. The precious metal "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro strengthens above 1.1550 as Fed rate hike bets fade",
+      "summary": "The EUR/USD pair gathers strength to around 1.1575 during the early Asian trading hours on Monday. The US Dollar (USD) e"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japan’s GDP grows 0.3% QoQ in Q2 2026 vs 0.5% expected",
+      "summary": "The Japanese economy expanded 0.3% over the quarter in the second quarter (Q2) of 2026, the preliminary report published"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar gains traction to near 0.7100 on fading Fed hike bets",
+      "summary": "The AUD/USD pair trades with mild gains near 0.7090 during the early Asian session on Monday. The US Dollar (USD) weaken"
+    },
+    {
+      "source": "FXStreet",
       "title": "AUD/USD Price Forecast: Bulls eye 0.7100 after US Retail Sales miss",
       "summary": "The Australian Dollar advanced on Friday after US Retail Sales disappointed investors, increasing speculation that the F"
     },
     {
-      "source": "FXStreet",
-      "title": "Mexican Peso refreshes multi-month highs, Banxico minutes eyed",
-      "summary": "USD/MXN refreshed 24-month lows below 17.00 on Friday, but it has recovered some ground, with buyers stepping in and rec"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Steady appreciation backed by PBoC stance – Societe Generale",
-      "summary": "Societe Generale analysts highlight CNY’s firm trend, with the currency advancing to 6.7424, its strongest level since F"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forecasting the upcoming week: FOMC Minutes take center stage next week",
-      "summary": "The US Dollar Index (DXY) extended its slide on Friday, holding below 100.00 at fresh lows after a fourth straight soft "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Activity data and PBOC stance guide FX – MUFG",
-      "summary": "MUFG’s Asia FX Weekly highlights that China’s July activity indicators, following weak Q2 GDP, will be central for the C"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen holds as soft US data meets a weak Yen",
-      "summary": "USD/JPY is holding near 159.40 at the time of writing, with little change on the day. A weak United States (US) Consumer"
+      "source": "Investing",
+      "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -139,16 +154,6 @@
     {
       "source": "Investing",
       "title": "MyEtherWallet (MEW) Integrates Ondo Perps, Unlocking 24/7 Leveraged Trading for Onchain Equities, & ETFs.",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,11 +192,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] AUD/USD Price Forecast: Bulls eye 0.7100 after US Retai",
-      "[弱気] Japanese Yen holds as soft US data meets a weak Yen"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen holds as soft US data meets a weak Yen"
+      "[強気] Gold gains momentum to near $4,400 as Fed hike expectat",
+      "[弱気] AUD/USD Price Forecast: Bulls eye 0.7100 after US Retai"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -203,9 +205,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Chinese Yuan: Activity data and PBOC stance guide FX – "
     ]
   },
   "rates": {
@@ -223,18 +222,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31442,
-      "today_close": 159.3235,
+      "today_close": 159.05207,
       "prev_close": 159.31991,
-      "diff": 0.0036,
-      "diff_pct": 0.0
+      "diff": -0.2678,
+      "diff_pct": -0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.3235,
-      "sma20": 158.7346,
-      "sma50": 160.994,
-      "sma200": 159.0304,
+      "latest": 159.05207,
+      "sma20": 158.721,
+      "sma50": 160.9886,
+      "sma200": 159.029,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -243,14 +242,14 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.07,
-      "chg20d_pct": -2.77
+      "chg5d_pct": -0.24,
+      "chg20d_pct": -2.94
     },
     "EURUSD": {
-      "latest": 1.15679,
-      "sma20": 1.154,
+      "latest": 1.15801,
+      "sma20": 1.1541,
       "sma50": 1.1465,
-      "sma200": 1.1606,
+      "sma200": 1.1607,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -259,8 +258,8 @@
       "low20": 1.1375,
       "high60": 1.159,
       "low60": 1.1324,
-      "chg5d_pct": 0.37,
-      "chg20d_pct": 1.59
+      "chg5d_pct": 0.48,
+      "chg20d_pct": 1.7
     }
   }
 }
