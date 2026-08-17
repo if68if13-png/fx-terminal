@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-17T15:25:13.539123",
-  "generated": "2026年08月17日 15:25",
+  "timestamp": "2026-08-17T18:38:59.841868",
+  "generated": "2026年08月17日 18:38",
   "scores": {
-    "USD": 1,
+    "USD": 2,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
@@ -16,15 +16,22 @@
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -34,24 +41,17 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,48 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver accelerates above $66 as Fed expectations shift",
-      "summary": "Silver (XAG/USD) extends its advance on Monday and trades around $66.30 at the time of writing, up 2.47% on the day."
+      "title": "A crushed US Dollar sends Gold into a rally above $4,400",
+      "summary": "Gold (XAU/USD) price rises over 1% on Monday amid overall US Dollar (USD) weakness and lower US Treasury yields, followi"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar climbs to two-month highs amid a soft US Dollar",
-      "summary": "AUD/USD extended its recovery on Monday, pushing to fresh 10-week highs and holding near the 0.7100 zone. At the time of"
+      "title": "USD/CHF Price Forecast: Bulls need a break above 0.8200 to regain momentum",
+      "summary": "USD/CHF rebounds on Monday as the US Dollar (USD) recovers from its early losses. At the time of writing, the pair trade"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Bullish bias with data risk ahead against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note British Pound (GBP) is underperforming core European peers bu"
+      "title": "Euro returns below 1.1600 as US Dollar selling pressure eases",
+      "summary": "EUR/USD trims earlier gains on Monday as the US Dollar (USD) shows signs of stabilization after opening the week under s"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Faces renewed downside risk – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur notes that the US Dollar (USD) has weakened against the Euro (EUR) as markets steadily scale "
+      "title": "The US Dollar Index cannot rally with Washington on the offer",
+      "summary": "The Dollar Index trades near 99.50, roughly a tenth of a percent lower, having opened directly on its 200-day Exponentia"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Investors extend longs but hedge risks – TD Securities",
-      "summary": "TD Securities strategists note that money managers sharply increased long Gold exposure as modest inflation, soft United"
+      "title": "British Pound edges higher as traders await UK jobs and CPI data",
+      "summary": "The Pound Sterling (GBP) registers modest gains of 0.14% on Monday against the US Dollar (USD) as investors digest softe"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Bullish momentum eyes mid‑1.17s against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is firming as Eurozone economic resilience a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold holds near $4,400 as fading Fed rate hike bets weigh on US Dollar",
-      "summary": "Gold (XAU/USD) struggles to build on its intraday advance even as the US Dollar (USD) remains under selling pressure ami"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canadian Dollar: Inflation steady near target – RBC",
-      "summary": "Royal Bank of Canada (RBC) economists Abbey Xu and Nathan Janzen note that Canadian inflation rose to 3% year-over-year "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Policy doubts weigh on Yen – BNY",
-      "summary": "BNY’s Geoff Yu highlights that weak Japanese Gross Domestic Product (GDP) data and rising JGB yields are undermining con"
+      "title": "Gold strengthens above $4,400 as Fed rate-hike expectations fade",
+      "summary": "Gold (XAU/USD) extends its intraday advance on Monday, supported by fading expectations that the Federal Reserve (Fed) w"
     },
     {
       "source": "Investing",
@@ -154,6 +139,11 @@
     {
       "source": "Investing",
       "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,21 +181,14 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar climbs to two-month highs amid a soft",
-      "[弱気] US Dollar: Faces renewed downside risk – Commerzbank",
-      "[強気] Gold holds near $4,400 as fading Fed rate hike bets wei"
-    ],
-    "EUR": [
-      "[弱気] US Dollar: Faces renewed downside risk – Commerzbank"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[弱気] Australian Dollar climbs to two-month highs amid a soft"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -226,18 +209,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31442,
-      "today_close": 159.37202,
+      "today_close": 159.58327,
       "prev_close": 159.31991,
-      "diff": 0.0521,
-      "diff_pct": 0.03
+      "diff": 0.2634,
+      "diff_pct": 0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.37202,
-      "sma20": 158.737,
-      "sma50": 160.995,
-      "sma200": 159.0306,
+      "latest": 159.58327,
+      "sma20": 158.7475,
+      "sma50": 160.9992,
+      "sma200": 159.0317,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -246,14 +229,14 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.04,
-      "chg20d_pct": -2.74
+      "chg5d_pct": 0.1,
+      "chg20d_pct": -2.62
     },
     "EURUSD": {
-      "latest": 1.15833,
-      "sma20": 1.1541,
+      "latest": 1.15716,
+      "sma20": 1.154,
       "sma50": 1.1465,
-      "sma200": 1.1607,
+      "sma200": 1.1606,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -262,8 +245,8 @@
       "low20": 1.1375,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.51,
-      "chg20d_pct": 1.73
+      "chg5d_pct": 0.41,
+      "chg20d_pct": 1.62
     }
   }
 }
