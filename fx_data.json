@@ -1,38 +1,17 @@
 {
-  "timestamp": "2026-08-17T01:15:54.870627",
-  "generated": "2026年08月17日 01:15",
+  "timestamp": "2026-08-17T03:50:20.324879",
+  "generated": "2026年08月17日 03:50",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
-    "NZD": 2,
-    "CAD": 0,
+    "AUD": 0,
+    "NZD": 1,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -2,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
@@ -41,11 +20,32 @@
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "United States Dollar Index weakens to near 99.50 as traders push back Fed rate hike bets",
+      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar rises on hawkish RBA outlook",
+      "summary": "AUD/USD gains ground for the second successive day, trading around 0.7090 during the Asian hours on Monday. The pair app"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar advances due to softer US Dollar, higher oil prices",
+      "summary": "USD/CAD extends its losses for the third consecutive day, trading around 1.3870 during the Asian hours on Monday. The pa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar advances beyond 0.5900, highest since June 3 as USD stays weak",
+      "summary": "The NZD/USD pair attracts buyers for the second straight day and climbs above the 0.5900 mark, hitting a fresh high sinc"
+    },
+    {
+      "source": "FXStreet",
       "title": "PBOC sets USD/CNY reference rate at 6.7873 vs. 6.7878 previous",
       "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7873 compa"
     },
@@ -117,31 +137,6 @@
       "summary": "The GBP/USD pair attracts some dip-buyers at the start of a new week and climbs above mid-1.3500s during the Asian sessi"
     },
     {
-      "source": "FXStreet",
-      "title": "Gold gains momentum to near $4,400 as Fed hike expectations drop despite Us-Iran tensions",
-      "summary": "Gold price (XAU/USD) gains momentum to around $4,395 during the early Asian trading hours on Monday. The precious metal "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro strengthens above 1.1550 as Fed rate hike bets fade",
-      "summary": "The EUR/USD pair gathers strength to around 1.1575 during the early Asian trading hours on Monday. The US Dollar (USD) e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japan’s GDP grows 0.3% QoQ in Q2 2026 vs 0.5% expected",
-      "summary": "The Japanese economy expanded 0.3% over the quarter in the second quarter (Q2) of 2026, the preliminary report published"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar gains traction to near 0.7100 on fading Fed hike bets",
-      "summary": "The AUD/USD pair trades with mild gains near 0.7090 during the early Asian session on Monday. The US Dollar (USD) weaken"
-    },
-    {
-      "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Bulls eye 0.7100 after US Retail Sales miss",
-      "summary": "The Australian Dollar advanced on Friday after US Retail Sales disappointed investors, increasing speculation that the F"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "MyEtherWallet (MEW) Integrates Ondo Perps, Unlocking 24/7 Leveraged Trading for Onchain Equities, & ETFs.",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin flat at around $63.4k as reduced rate hike bets  provide little support",
       "summary": ""
     }
   ],
@@ -192,8 +192,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold gains momentum to near $4,400 as Fed hike expectat",
-      "[弱気] AUD/USD Price Forecast: Bulls eye 0.7100 after US Retai"
+      "[強気] Australian Dollar rises on hawkish RBA outlook",
+      "[弱気] Canadian Dollar advances due to softer US Dollar, highe",
+      "[弱気] New Zealand Dollar advances beyond 0.5900, highest sinc"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -201,10 +202,14 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[弱気] AUD/USD Price Forecast: Bulls eye 0.7100 after US Retai"
+      "[強気] Australian Dollar rises on hawkish RBA outlook"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar advances beyond 0.5900, highest sinc"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar advances due to softer US Dollar, highe"
     ]
   },
   "rates": {
@@ -222,18 +227,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31442,
-      "today_close": 159.05207,
+      "today_close": 159.14243,
       "prev_close": 159.31991,
-      "diff": -0.2678,
-      "diff_pct": -0.17
+      "diff": -0.1775,
+      "diff_pct": -0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.05207,
-      "sma20": 158.721,
-      "sma50": 160.9886,
-      "sma200": 159.029,
+      "latest": 159.14243,
+      "sma20": 158.7255,
+      "sma50": 160.9904,
+      "sma200": 159.0295,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -242,11 +247,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.24,
-      "chg20d_pct": -2.94
+      "chg5d_pct": -0.18,
+      "chg20d_pct": -2.88
     },
     "EURUSD": {
-      "latest": 1.15801,
+      "latest": 1.15807,
       "sma20": 1.1541,
       "sma50": 1.1465,
       "sma200": 1.1607,
@@ -258,7 +263,7 @@
       "low20": 1.1375,
       "high60": 1.159,
       "low60": 1.1324,
-      "chg5d_pct": 0.48,
+      "chg5d_pct": 0.49,
       "chg20d_pct": 1.7
     }
   }
