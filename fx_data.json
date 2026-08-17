@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-17T12:43:12.759600",
-  "generated": "2026年08月17日 12:43",
+  "timestamp": "2026-08-17T15:25:13.539123",
+  "generated": "2026年08月17日 15:25",
   "scores": {
-    "USD": 4,
-    "JPY": -1,
-    "EUR": 1,
-    "GBP": 3,
-    "AUD": -1,
+    "USD": 1,
+    "JPY": 0,
+    "EUR": -1,
+    "GBP": 2,
+    "AUD": -2,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 4,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 3,
-      "quote_score": -1
+      "diff": -3,
+      "base_score": -2,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "EURJPY",
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 1,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
       "diff": -1,
-      "base_score": 3,
-      "quote_score": 4
+      "base_score": -1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Canada headline CPI rose by 3.0% YoY in July",
-      "summary": "Canada’s inflation picked up pace in July, with the headline Consumer Price Index (CPI) rising 3.0% from a year earlier,"
+      "title": "Silver accelerates above $66 as Fed expectations shift",
+      "summary": "Silver (XAG/USD) extends its advance on Monday and trades around $66.30 at the time of writing, up 2.47% on the day."
     },
     {
       "source": "FXStreet",
-      "title": "United States: Sideways growth and sticky inflation – TD Securities",
-      "summary": "TD Securities economists Oscar Munoz and Eli Nir expect US output growth to move sideways in 2025 as the lingering Oil s"
+      "title": "Australian Dollar climbs to two-month highs amid a soft US Dollar",
+      "summary": "AUD/USD extended its recovery on Monday, pushing to fresh 10-week highs and holding near the 0.7100 zone. At the time of"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/USD Price Forecast: Bulls press toward 1.3600 as uptrend strengthens",
-      "summary": "GBP/USD edges higher on Monday as fading expectations of an imminent Federal Reserve (Fed) rate hike drag the US Dollar "
+      "title": "British Pound: Bullish bias with data risk ahead against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note British Pound (GBP) is underperforming core European peers bu"
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Further gains seen versus Euro - Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley highlights that the Norwegian Krone (NOK) is the strongest G10 currency acros"
+      "title": "US Dollar: Faces renewed downside risk – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes that the US Dollar (USD) has weakened against the Euro (EUR) as markets steadily scale "
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: RBI move tightens liquidity – BNY",
-      "summary": "BNY’s Geoff Yu notes that India’s bonds sold off after the Reserve Bank of India (RBI) unexpectedly advanced closure of "
+      "title": "Gold: Investors extend longs but hedge risks – TD Securities",
+      "summary": "TD Securities strategists note that money managers sharply increased long Gold exposure as modest inflation, soft United"
     },
     {
       "source": "FXStreet",
-      "title": "Japan: BoJ path questioned on weak demand – Societe Generale",
-      "summary": "Societe Generale economists Reo Sakida and Jin Kenzaki say Japan’s 2Q GDP data were weaker than expected, with consumpti"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Bulls eye 185.00 resistance area",
-      "summary": "The Euro (EUR) crawls higher for the third consecutive day on Monday, against a weak Yen (JPY), weighed down by downbeat"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Economists agree: Fed to leave interest rates unchanged this year – Reuters poll",
-      "summary": "A large majority of economists expect the Federal Reserve (Fed) to keep interest rates unchanged in September and for th"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Intervention risk near 160 highlighted – DBS",
-      "summary": "Philip Wee of DBS Group Research notes that markets still focus on Japan’s struggle to support the Japanese Yen, while u"
+      "title": "Euro: Bullish momentum eyes mid‑1.17s against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is firming as Eurozone economic resilience a"
     },
     {
       "source": "FXStreet",
       "title": "Gold holds near $4,400 as fading Fed rate hike bets weigh on US Dollar",
-      "summary": "Gold (XAU/USD) struggles to build on its intraday advance on Monday but holds modest gains as the US Dollar (USD) remain"
+      "summary": "Gold (XAU/USD) struggles to build on its intraday advance even as the US Dollar (USD) remains under selling pressure ami"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar: Inflation steady near target – RBC",
+      "summary": "Royal Bank of Canada (RBC) economists Abbey Xu and Nathan Janzen note that Canadian inflation rose to 3% year-over-year "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen: Policy doubts weigh on Yen – BNY",
+      "summary": "BNY’s Geoff Yu highlights that weak Japanese Gross Domestic Product (GDP) data and rising JGB yields are undermining con"
     },
     {
       "source": "Investing",
       "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
       "summary": ""
     }
   ],
@@ -192,22 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] GBP/USD Price Forecast: Bulls press toward 1.3600 as up",
+      "[弱気] Australian Dollar climbs to two-month highs amid a soft",
+      "[弱気] US Dollar: Faces renewed downside risk – Commerzbank",
       "[強気] Gold holds near $4,400 as fading Fed rate hike bets wei"
     ],
-    "JPY": [
-      "[弱気] Japan: BoJ path questioned on weak demand – Societe Gen"
-    ],
     "EUR": [
-      "[強気] Norwegian Krone: Further gains seen versus Euro - Rabob"
+      "[弱気] US Dollar: Faces renewed downside risk – Commerzbank"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] GBP/USD Price Forecast: Bulls press toward 1.3600 as up"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)",
+      "[弱気] Australian Dollar climbs to two-month highs amid a soft"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -228,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31442,
-      "today_close": 159.28455,
+      "today_close": 159.37202,
       "prev_close": 159.31991,
-      "diff": -0.0354,
-      "diff_pct": -0.02
+      "diff": 0.0521,
+      "diff_pct": 0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.28455,
-      "sma20": 158.7326,
-      "sma50": 160.9932,
-      "sma200": 159.0302,
+      "latest": 159.37202,
+      "sma20": 158.737,
+      "sma50": 160.995,
+      "sma200": 159.0306,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -248,11 +246,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.09,
-      "chg20d_pct": -2.8
+      "chg5d_pct": -0.04,
+      "chg20d_pct": -2.74
     },
     "EURUSD": {
-      "latest": 1.15922,
+      "latest": 1.15833,
       "sma20": 1.1541,
       "sma50": 1.1465,
       "sma200": 1.1607,
@@ -264,8 +262,8 @@
       "low20": 1.1375,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": 1.81
+      "chg5d_pct": 0.51,
+      "chg20d_pct": 1.73
     }
   }
 }
