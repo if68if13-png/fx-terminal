@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-18T03:44:13.969066",
-  "generated": "2026年08月18日 03:44",
+  "timestamp": "2026-08-18T06:42:45.174773",
+  "generated": "2026年08月18日 06:42",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
-    "GBP": 3,
-    "AUD": 0,
-    "NZD": 1,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 3,
-      "quote_score": 4
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen remains near two-week low against US Dollar despite hawkish BoJ bets",
-      "summary": "The Japanese Yen (JPY) trades close to its two-week low against the US Dollar (USD) in the Asian trading session on Tues"
+      "title": "British Pound dips to fresh lows near 1.3520 after mixed UK employment data",
+      "summary": "The British Pound (GBP) extends its reversal against the US Dollar (USD) on Tuesday as June’s UK unemployment data fails"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds ground on safe-haven demand",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is inching high"
+      "title": "Indian Rupee: RBI inflow strategy recalibrated – Commerzbank",
+      "summary": "Commerzbank analysts describe how the Reserve Bank of India’s (RBI) early closure of the FCNR(B) swap window follows str"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar edges lower below 0.5900 as China’s economy slows in July",
-      "summary": "The NZD/USD pair declines to around 0.5895 during the Asian trading hours on Tuesday. Weaker-than-expected Chinese Retai"
+      "title": "Gold remains depressed below $4,400 as USD firms amid oil-driven inflation fears",
+      "summary": "Gold (XAU/USD) sticks to modest intraday losses below the $4,400 mark heading into the European session on Tuesday and, "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar holds near early June high as rising oil prices offset modest USD strength",
-      "summary": "The USD/CAD pair struggles to build on the overnight bounce from the 200-day Simple Moving Average (SMA) support near th"
+      "title": "British Pound drops against Yen after UK employment data release",
+      "summary": "The British Pound (GBP) faces selling pressure against the Japanese Yen (JPY) after the release of the United Kingdom (U"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gathers strength to near 1.3550 as Fed hike bets fade, UK jobs data loom",
-      "summary": "The GBP/USD pair gains momentum to around 1.3550 during the early Asian trading hours on Tuesday. The US Dollar (USD) so"
+      "title": "Euro: Upside bias needs confirmation above 1.1615 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report that EUR/USD briefly broke above major resistance at "
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7905 vs. 6.7873 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7905 compa"
+      "title": "United Kingdom Unemployment Rate stays at 4.9% in June vs. 4.8% expected",
+      "summary": "The United Kingdom’s (UK) ILO Unemployment Rate stayed at 4.9% in the three months to June after reporting 4.9% in the p"
     },
     {
       "source": "FXStreet",
-      "title": "Euro flat lines below two-month high as oil-driven inflation fears support USD",
-      "summary": "The EUR/USD pair holds steady around the 1.1575-1.1580 region during the Asian session on Tuesday and, for now, seems to"
+      "title": "Swiss Franc edges lower as US Dollar rebounds, FOMC minutes in focus",
+      "summary": "The Swiss Franc (CHF) trades marginally lower against the US Dollar (USD) in the early European trading session on Tuesd"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar gains as US Dollar struggles amid fading Fed rate hike bets",
-      "summary": "AUD/USD extends its gains for the third successive day, trading around 0.7110 during the Asian hours on Tuesday. The cur"
+      "title": "Indian Rupee ticks up on possible RBI’s intervention",
+      "summary": "The Indian Rupee (INR) edges up against the US Dollar (USD) on Tuesday. The USD/INR ticks lower to near 95.67 after refr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro declines below 1.1600 on US-Iran war worries",
+      "summary": "The EUR/USD pair loses traction to around 1.1575, snapping the three-day winning streak during the early European sessio"
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,27 +191,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen remains near two-week low against US Dolla",
-      "[弱気] New Zealand Dollar edges lower below 0.5900 as China’s ",
-      "[強気] British Pound gathers strength to near 1.3550 as Fed hi",
-      "[強気] Australian Dollar gains as US Dollar struggles amid fad"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen remains near two-week low against US Dolla"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound gathers strength to near 1.3550 as Fed hi"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[強気] Australian Dollar gains as US Dollar struggles amid fad"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar edges lower below 0.5900 as China’s "
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -229,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.4717,
-      "today_close": 159.54322,
+      "today_close": 159.76525,
       "prev_close": 159.4692,
-      "diff": 0.074,
-      "diff_pct": 0.05
+      "diff": 0.2961,
+      "diff_pct": 0.19
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.54322,
-      "sma20": 158.5471,
-      "sma50": 160.9489,
-      "sma200": 159.0559,
+      "latest": 159.76525,
+      "sma20": 158.5582,
+      "sma50": 160.9533,
+      "sma200": 159.057,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -249,11 +239,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.01,
-      "chg20d_pct": -2.38
+      "chg5d_pct": 0.15,
+      "chg20d_pct": -2.25
     },
     "EURUSD": {
-      "latest": 1.15732,
+      "latest": 1.15694,
       "sma20": 1.1546,
       "sma50": 1.1468,
       "sma200": 1.1605,
@@ -265,8 +255,8 @@
       "low20": 1.1435,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.38,
-      "chg20d_pct": 0.93
+      "chg5d_pct": 0.35,
+      "chg20d_pct": 0.89
     }
   }
 }
