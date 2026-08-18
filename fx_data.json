@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-18T12:45:35.625003",
-  "generated": "2026年08月18日 12:45",
+  "timestamp": "2026-08-18T15:31:52.228956",
+  "generated": "2026年08月18日 15:31",
   "scores": {
-    "USD": 1,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "EUR": 1,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -14,44 +14,44 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -103,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Brazilian Real: Fiscal risks point to weakness against US Dollar - Rabobank",
-      "summary": "Rabobank’s Mauricio Une and Renan Alves note softer United States (US) inflation and cooling labor data, giving the Fede"
+      "title": "Euro: Bullish momentum targets mid-1.17s – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Euro (EUR) is resilient around 1.1576, with Germany’s ZEW"
     },
     {
       "source": "FXStreet",
-      "title": "Gold falls as rising US Treasury yields strengthen the US Dollar",
-      "summary": "Gold (XAU/USD) remains on the back foot at the start of American trading hours on Tuesday, snapping a two-day winning st"
+      "title": "British Pound steadies as weak US data counters Iran risk",
+      "summary": "The Pound Sterling steadies on Tuesday as geopolitical tensions rise in the Middle East, while housing data misses estim"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Range-bound before FOMC against US Dollar – ING",
-      "summary": "Chris Turner at ING describes EUR/USD as contained after a rally stalled just above 1.16, with investors cautious due to"
+      "title": "Gold struggles below recent highs as yields and the US Dollar stay firm",
+      "summary": "Gold (XAU/USD) trades under pressure on Tuesday, snapping a two-day winning streak as a firmer US Dollar (USD) and eleva"
     },
     {
       "source": "FXStreet",
-      "title": "US ADP Employment Change 4-week average rises to 9.5K as hiring rebounds",
-      "summary": "Private-sector hiring in the United States (US) shows tentative signs of improvement in early August. According to the N"
+      "title": "Oil: Tight market keeps Brent elevated – TD Securities",
+      "summary": "TD Securities’ commodity strategy team maintains a bullish view on Oil, citing persistent tightness and Strait of Hormuz"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar remains resilient as Oil strength counters firmer US Dollar",
-      "summary": "USD/CAD trades little changed on Tuesday as rising long-term US Treasury yields lift the US Dollar (USD), while elevated"
+      "title": "British Pound: Soft UK jobs but supportive mix - BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad describes United Kingdom (UK) June labor data as soft, with unemployment st"
     },
     {
       "source": "FXStreet",
-      "title": "European gas: LNG inflows key for prices – Commerzbank",
-      "summary": "Commerzbank’s Norman Liebke argues that European gas storage will depend on higher LNG imports over winter, as current i"
+      "title": "Australian Dollar remains resilient near two-month high ahead of Fed Minutes",
+      "summary": "AUD/USD edges higher on Tuesday and trades around 0.7115 at the time of writing, up 0.1% on the day."
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Higher-rate risk to keep prices range-bound – TD Securities",
-      "summary": "TD Securities strategists see Gold supported by doubts over the Federal Reserve (Fed) but with limited near-term upside."
+      "title": "Canadian Dollar: Further gains eye 1.35–1.37 against US Dollar - Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report USD/CAD trading near equilibrium around 1.3870, with Canadi"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Kiwi fails to find follow-through above 0.5900",
-      "summary": "The New Zealand Dollar (NZD) trades lower against the US Dollar (USD) on Tuesday, weighed by a moderate risk-averse sent"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver retreats toward $65 ahead of Fed Minutes as energy tensions cloud outlook",
-      "summary": "Silver (XAG/USD) declines on Tuesday and trades around $65.00 at the time of writing, down 1.20% on the day. The white m"
+      "title": "Gold: Price holds despite higher yields – Commerzbank",
+      "summary": "Commerzbank’s Carsten Fritsch notes that Gold remains around USD 4,400 per ounce even as US Treasury yields rise back to"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin edges up to $64.3k; Iran, rate jitters weigh on crypto",
+      "title": "Bitcoin pinned at $64k; Iran, rate jitters weigh on crypto",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
       "summary": ""
     }
   ],
@@ -192,10 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Brazilian Real: Fiscal risks point to weakness against "
+      "[強気] Euro: Bullish momentum targets mid-1.17s – Scotiabank",
+      "[弱気] British Pound steadies as weak US data counters Iran ri"
+    ],
+    "EUR": [
+      "[強気] Euro: Bullish momentum targets mid-1.17s – Scotiabank"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound steadies as weak US data counters Iran ri"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -220,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.4717,
-      "today_close": 159.70671,
+      "today_close": 159.62012,
       "prev_close": 159.4692,
-      "diff": 0.2375,
-      "diff_pct": 0.15
+      "diff": 0.1509,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.70671,
-      "sma20": 158.5553,
-      "sma50": 160.9521,
-      "sma200": 159.0567,
+      "latest": 159.62012,
+      "sma20": 158.551,
+      "sma50": 160.9504,
+      "sma200": 159.0563,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -240,11 +245,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.11,
-      "chg20d_pct": -2.28
+      "chg5d_pct": 0.06,
+      "chg20d_pct": -2.34
     },
     "EURUSD": {
-      "latest": 1.15727,
+      "latest": 1.15788,
       "sma20": 1.1546,
       "sma50": 1.1468,
       "sma200": 1.1605,
@@ -256,8 +261,8 @@
       "low20": 1.1435,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.38,
-      "chg20d_pct": 0.92
+      "chg5d_pct": 0.43,
+      "chg20d_pct": 0.97
     }
   }
 }
