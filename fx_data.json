@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-18T09:34:02.599538",
-  "generated": "2026年08月18日 09:34",
+  "timestamp": "2026-08-18T12:45:35.625003",
+  "generated": "2026年08月18日 12:45",
   "scores": {
     "USD": 1,
     "JPY": 0,
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Thailand: Middle East shock tests growth – DBS",
-      "summary": "DBS Group Research economist Chua Han Teng reviews Thailand’s latest macro data, noting Real Gross Domestic Product (GDP"
+      "title": "Brazilian Real: Fiscal risks point to weakness against US Dollar - Rabobank",
+      "summary": "Rabobank’s Mauricio Une and Renan Alves note softer United States (US) inflation and cooling labor data, giving the Fede"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains weak due to higher oil prices, RBI closes FCNR (B) window",
-      "summary": "The Indian Rupee (INR) trades with caution against the US Dollar (USD) on Tuesday. The USD/INR is close to its fresh thr"
+      "title": "Gold falls as rising US Treasury yields strengthen the US Dollar",
+      "summary": "Gold (XAU/USD) remains on the back foot at the start of American trading hours on Tuesday, snapping a two-day winning st"
     },
     {
       "source": "FXStreet",
-      "title": "Euro remains subdued following German ZEW Survey data",
-      "summary": "EUR/CAD depreciates after three days of gains, trading around 1.1570 during the European hours on Tuesday. The pair lose"
+      "title": "Euro: Range-bound before FOMC against US Dollar – ING",
+      "summary": "Chris Turner at ING describes EUR/USD as contained after a rally stalled just above 1.16, with investors cautious due to"
     },
     {
       "source": "FXStreet",
-      "title": "China: Credit-light growth reshapes loan demand – Standard Chartered",
-      "summary": "Standard Chartered’s Carol Liao and Moriarty Lam analyze slowing loan growth in China despite stable real Gross Domestic"
+      "title": "US ADP Employment Change 4-week average rises to 9.5K as hiring rebounds",
+      "summary": "Private-sector hiring in the United States (US) shows tentative signs of improvement in early August. According to the N"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound trades lower against US Dollar after soft UK employment data",
-      "summary": "The British Pound (GBP) is down 0.1% to near 1.3530 against the US Dollar (USD) during the European trading session on T"
+      "title": "Canadian Dollar remains resilient as Oil strength counters firmer US Dollar",
+      "summary": "USD/CAD trades little changed on Tuesday as rising long-term US Treasury yields lift the US Dollar (USD), while elevated"
     },
     {
       "source": "FXStreet",
-      "title": "WTI consolidates below $84.50, two-week top as bullish bias remains amid Hormuz standoff",
-      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – extends its consolidative price move through the firs"
+      "title": "European gas: LNG inflows key for prices – Commerzbank",
+      "summary": "Commerzbank’s Norman Liebke argues that European gas storage will depend on higher LNG imports over winter, as current i"
     },
     {
       "source": "FXStreet",
-      "title": "United States: August inflation profile – TD Securities",
-      "summary": "TD Securities’ Macro Research team, led by Oscar Munoz and Molly Brooks, projects a stronger US August CPI profile. Head"
+      "title": "Gold: Higher-rate risk to keep prices range-bound – TD Securities",
+      "summary": "TD Securities strategists see Gold supported by doubts over the Federal Reserve (Fed) but with limited near-term upside."
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar receives support from firm oil prices",
-      "summary": "USD/CAD extends its losses for the fourth successive day, trading around 1.3870 during the European hours on Tuesday. Th"
+      "title": "NZD/USD Price Forecast: Kiwi fails to find follow-through above 0.5900",
+      "summary": "The New Zealand Dollar (NZD) trades lower against the US Dollar (USD) on Tuesday, weighed by a moderate risk-averse sent"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver retreats toward $65 ahead of Fed Minutes as energy tensions cloud outlook",
+      "summary": "Silver (XAG/USD) declines on Tuesday and trades around $65.00 at the time of writing, down 1.20% on the day. The white m"
     },
     {
       "source": "Investing",
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
       "summary": ""
     }
   ],
@@ -192,7 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Indian Rupee remains weak due to higher oil prices, RBI"
+      "[弱気] Brazilian Real: Fiscal risks point to weakness against "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,26 +211,27 @@
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": null,
+    "AU_10Y": 4.831,
     "DIFF_USDJPY": 2.01,
     "DIFF_EURUSD": -1.71,
-    "DIFF_GBPUSD": 0.12
+    "DIFF_GBPUSD": 0.12,
+    "DIFF_AUDUSD": 0.15
   },
   "prices": {
     "USDJPY": {
       "today_open": 159.4717,
-      "today_close": 159.61494,
+      "today_close": 159.70671,
       "prev_close": 159.4692,
-      "diff": 0.1457,
-      "diff_pct": 0.09
+      "diff": 0.2375,
+      "diff_pct": 0.15
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.61494,
-      "sma20": 158.5507,
-      "sma50": 160.9503,
-      "sma200": 159.0562,
+      "latest": 159.70671,
+      "sma20": 158.5553,
+      "sma50": 160.9521,
+      "sma200": 159.0567,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -239,11 +240,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": -2.34
+      "chg5d_pct": 0.11,
+      "chg20d_pct": -2.28
     },
     "EURUSD": {
-      "latest": 1.15789,
+      "latest": 1.15727,
       "sma20": 1.1546,
       "sma50": 1.1468,
       "sma200": 1.1605,
@@ -255,8 +256,8 @@
       "low20": 1.1435,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.43,
-      "chg20d_pct": 0.98
+      "chg5d_pct": 0.38,
+      "chg20d_pct": 0.92
     }
   }
 }
