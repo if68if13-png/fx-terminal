@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-18T06:42:45.174773",
-  "generated": "2026年08月18日 06:42",
+  "timestamp": "2026-08-18T09:34:02.599538",
+  "generated": "2026年08月18日 09:34",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -14,24 +14,10 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -103,48 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound dips to fresh lows near 1.3520 after mixed UK employment data",
-      "summary": "The British Pound (GBP) extends its reversal against the US Dollar (USD) on Tuesday as June’s UK unemployment data fails"
+      "title": "Thailand: Middle East shock tests growth – DBS",
+      "summary": "DBS Group Research economist Chua Han Teng reviews Thailand’s latest macro data, noting Real Gross Domestic Product (GDP"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: RBI inflow strategy recalibrated – Commerzbank",
-      "summary": "Commerzbank analysts describe how the Reserve Bank of India’s (RBI) early closure of the FCNR(B) swap window follows str"
+      "title": "Indian Rupee remains weak due to higher oil prices, RBI closes FCNR (B) window",
+      "summary": "The Indian Rupee (INR) trades with caution against the US Dollar (USD) on Tuesday. The USD/INR is close to its fresh thr"
     },
     {
       "source": "FXStreet",
-      "title": "Gold remains depressed below $4,400 as USD firms amid oil-driven inflation fears",
-      "summary": "Gold (XAU/USD) sticks to modest intraday losses below the $4,400 mark heading into the European session on Tuesday and, "
+      "title": "Euro remains subdued following German ZEW Survey data",
+      "summary": "EUR/CAD depreciates after three days of gains, trading around 1.1570 during the European hours on Tuesday. The pair lose"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound drops against Yen after UK employment data release",
-      "summary": "The British Pound (GBP) faces selling pressure against the Japanese Yen (JPY) after the release of the United Kingdom (U"
+      "title": "China: Credit-light growth reshapes loan demand – Standard Chartered",
+      "summary": "Standard Chartered’s Carol Liao and Moriarty Lam analyze slowing loan growth in China despite stable real Gross Domestic"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Upside bias needs confirmation above 1.1615 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report that EUR/USD briefly broke above major resistance at "
+      "title": "British Pound trades lower against US Dollar after soft UK employment data",
+      "summary": "The British Pound (GBP) is down 0.1% to near 1.3530 against the US Dollar (USD) during the European trading session on T"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom Unemployment Rate stays at 4.9% in June vs. 4.8% expected",
-      "summary": "The United Kingdom’s (UK) ILO Unemployment Rate stayed at 4.9% in the three months to June after reporting 4.9% in the p"
+      "title": "WTI consolidates below $84.50, two-week top as bullish bias remains amid Hormuz standoff",
+      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – extends its consolidative price move through the firs"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc edges lower as US Dollar rebounds, FOMC minutes in focus",
-      "summary": "The Swiss Franc (CHF) trades marginally lower against the US Dollar (USD) in the early European trading session on Tuesd"
+      "title": "United States: August inflation profile – TD Securities",
+      "summary": "TD Securities’ Macro Research team, led by Oscar Munoz and Molly Brooks, projects a stronger US August CPI profile. Head"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee ticks up on possible RBI’s intervention",
-      "summary": "The Indian Rupee (INR) edges up against the US Dollar (USD) on Tuesday. The USD/INR ticks lower to near 95.67 after refr"
+      "title": "Canadian Dollar receives support from firm oil prices",
+      "summary": "USD/CAD extends its losses for the fourth successive day, trading around 1.3870 during the European hours on Tuesday. Th"
     },
     {
-      "source": "FXStreet",
-      "title": "Euro declines below 1.1600 on US-Iran war worries",
-      "summary": "The EUR/USD pair loses traction to around 1.1575, snapping the three-day winning streak during the early European sessio"
+      "source": "Investing",
+      "title": "Bitcoin edges up to $64.3k; Iran, rate jitters weigh on crypto",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -191,7 +191,8 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Indian Rupee remains weak due to higher oil prices, RBI"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -210,27 +211,26 @@
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": 4.831,
+    "AU_10Y": null,
     "DIFF_USDJPY": 2.01,
     "DIFF_EURUSD": -1.71,
-    "DIFF_GBPUSD": 0.12,
-    "DIFF_AUDUSD": 0.15
+    "DIFF_GBPUSD": 0.12
   },
   "prices": {
     "USDJPY": {
       "today_open": 159.4717,
-      "today_close": 159.76525,
+      "today_close": 159.61494,
       "prev_close": 159.4692,
-      "diff": 0.2961,
-      "diff_pct": 0.19
+      "diff": 0.1457,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.76525,
-      "sma20": 158.5582,
-      "sma50": 160.9533,
-      "sma200": 159.057,
+      "latest": 159.61494,
+      "sma20": 158.5507,
+      "sma50": 160.9503,
+      "sma200": 159.0562,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -239,11 +239,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.15,
-      "chg20d_pct": -2.25
+      "chg5d_pct": 0.06,
+      "chg20d_pct": -2.34
     },
     "EURUSD": {
-      "latest": 1.15694,
+      "latest": 1.15789,
       "sma20": 1.1546,
       "sma50": 1.1468,
       "sma200": 1.1605,
@@ -255,8 +255,8 @@
       "low20": 1.1435,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.35,
-      "chg20d_pct": 0.89
+      "chg5d_pct": 0.43,
+      "chg20d_pct": 0.98
     }
   }
 }
