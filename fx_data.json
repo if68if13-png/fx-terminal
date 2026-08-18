@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-18T01:13:14.100414",
-  "generated": "2026年08月18日 01:13",
+  "timestamp": "2026-08-18T03:44:13.969066",
+  "generated": "2026年08月18日 03:44",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 1,
     "EUR": 0,
-    "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "GBP": 3,
+    "AUD": 0,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "diff": -1,
+      "base_score": 3,
+      "quote_score": 4
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,33 +103,43 @@
     },
     {
       "source": "FXStreet",
+      "title": "Japanese Yen remains near two-week low against US Dollar despite hawkish BoJ bets",
+      "summary": "The Japanese Yen (JPY) trades close to its two-week low against the US Dollar (USD) in the Asian trading session on Tues"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United States Dollar Index holds ground on safe-haven demand",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is inching high"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar edges lower below 0.5900 as China’s economy slows in July",
+      "summary": "The NZD/USD pair declines to around 0.5895 during the Asian trading hours on Tuesday. Weaker-than-expected Chinese Retai"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar holds near early June high as rising oil prices offset modest USD strength",
+      "summary": "The USD/CAD pair struggles to build on the overnight bounce from the 200-day Simple Moving Average (SMA) support near th"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound gathers strength to near 1.3550 as Fed hike bets fade, UK jobs data loom",
+      "summary": "The GBP/USD pair gains momentum to around 1.3550 during the early Asian trading hours on Tuesday. The US Dollar (USD) so"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7905 vs. 6.7873 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7905 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro flat lines below two-month high as oil-driven inflation fears support USD",
+      "summary": "The EUR/USD pair holds steady around the 1.1575-1.1580 region during the Asian session on Tuesday and, for now, seems to"
+    },
+    {
+      "source": "FXStreet",
       "title": "Australian Dollar gains as US Dollar struggles amid fading Fed rate hike bets",
       "summary": "AUD/USD extends its gains for the third successive day, trading around 0.7110 during the Asian hours on Tuesday. The cur"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US President Donald Trump says not seeking extension of Iran MOU",
-      "summary": "US President Donald Trump said that he is not interested in renewing the expiring agreement with Iran, Bloomberg reporte"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold gains momentum above $4,400 as softer US data dampens Fed hike odds",
-      "summary": "Gold price (XAU/USD) edges higher to near $4,415 during the early Asian session on Tuesday. The precious metal extends i"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar climbs as the Greenback falls on soft US data",
-      "summary": "The Aussie Dollar trades near two-month highs of 0.7129, supported by a weaker US Dollar, amid a scarce economic docket "
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Japanese Yen is losing to its own import bill",
-      "summary": "USD/JPY sat near 159.50 through Monday inside a 75-pip range for a net gain of 10 pips, on the day the Dollar Index brok"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Struggles at 1.1600, dives below 100-day SMA",
-      "summary": "The shared currency clings to minimal gains versus the US Dollar on Monday, edging up by some 0.08% after reaching a mon"
     },
     {
       "source": "Investing",
@@ -182,25 +192,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar gains as US Dollar struggles amid fad",
-      "[強気] Gold gains momentum above $4,400 as softer US data damp",
-      "[弱気] Australian Dollar climbs as the Greenback falls on soft",
-      "[弱気] The Japanese Yen is losing to its own import bill"
+      "[強気] Japanese Yen remains near two-week low against US Dolla",
+      "[弱気] New Zealand Dollar edges lower below 0.5900 as China’s ",
+      "[強気] British Pound gathers strength to near 1.3550 as Fed hi",
+      "[強気] Australian Dollar gains as US Dollar struggles amid fad"
     ],
     "JPY": [
-      "[弱気] The Japanese Yen is losing to its own import bill"
+      "[強気] Japanese Yen remains near two-week low against US Dolla"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound gathers strength to near 1.3550 as Fed hi"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[強気] Australian Dollar gains as US Dollar struggles amid fad",
-      "[弱気] Australian Dollar climbs as the Greenback falls on soft"
+      "[強気] Australian Dollar gains as US Dollar struggles amid fad"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar edges lower below 0.5900 as China’s "
     ]
   },
   "rates": {
@@ -218,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.4717,
-      "today_close": 159.43012,
+      "today_close": 159.54322,
       "prev_close": 159.4692,
-      "diff": -0.0391,
-      "diff_pct": -0.02
+      "diff": 0.074,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.43012,
-      "sma20": 158.5415,
-      "sma50": 160.9466,
-      "sma200": 159.0553,
+      "latest": 159.54322,
+      "sma20": 158.5471,
+      "sma50": 160.9489,
+      "sma200": 159.0559,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -238,12 +249,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.06,
-      "chg20d_pct": -2.45
+      "chg5d_pct": 0.01,
+      "chg20d_pct": -2.38
     },
     "EURUSD": {
-      "latest": 1.15847,
-      "sma20": 1.1547,
+      "latest": 1.15732,
+      "sma20": 1.1546,
       "sma50": 1.1468,
       "sma200": 1.1605,
       "vs_sma20": "上",
@@ -254,8 +265,8 @@
       "low20": 1.1435,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.48,
-      "chg20d_pct": 1.03
+      "chg5d_pct": 0.38,
+      "chg20d_pct": 0.93
     }
   }
 }
