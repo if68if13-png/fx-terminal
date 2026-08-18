@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-18T18:38:48.124963",
-  "generated": "2026年08月18日 18:38",
+  "timestamp": "2026-08-18T21:25:17.482041",
+  "generated": "2026年08月18日 21:25",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,6 +103,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "Chinese Yuan: Sideways range holds against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH has been trading quietly, with intr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar firms on Hormuz jitters ahead of UK CPI and FOMC Minutes",
+      "summary": "The US Dollar Index (DXY) held a firm tone near the 99.60s on Tuesday, keeping a mild safe-haven bid as tensions around "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Upside risk stays in focus against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD rebounded after a sharper-than-expected dr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Strong exports underpin SGD – Commerzbank",
+      "summary": "Commerzbank’s Singapore-focused FX research highlights robust non-oil domestic exports driven by electronics and AI-rela"
+    },
+    {
+      "source": "FXStreet",
       "title": "Economists agree: BoE will hold rates through year-end – Reuters poll",
       "summary": "The Bank of England (BoE) will keep interest rates unchanged for the rest of the year, according to a Reuters poll condu"
     },
@@ -117,31 +137,6 @@
       "summary": "UOB economist Enrico Tanuwidjaja reviews Indonesia’s 2027 State Budget, highlighting a calibrated balance between growth"
     },
     {
-      "source": "FXStreet",
-      "title": "A two-decade yield high buys the Dollar Index nothing",
-      "summary": "The highest long-dated US yields in nearly two decades have moved the US Dollar Index (DXY) by three hundredths of a poi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Dow Jones Industrial Average has a term premium problem",
-      "summary": "A quarter-point Federal Reserve (Fed) increase by December stopped being a certainty over the past eight days, and the D"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar declines from two-month highs as Hormuz tensions lift the US Dollar",
-      "summary": "AUD/USD trades just below 0.7100 on Tuesday, a touch lower for the day and sliding from the two-month highs reached on M"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro fails to hold gains over the Pound ahead of UK inflation",
-      "summary": "EUR/GBP slips toward 0.8550 at the time of writing on Tuesday, with the Euro (EUR) unable to hold onto earlier gains aga"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar edges lower on US-Iran tensions as RBNZ hike expectations curb losses",
-      "summary": "NZD/USD retreats on Tuesday and trades around 0.5880 at the time of writing, down 0.38% on the day. The New Zealand Doll"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin pinned at $64k; Iran, rate jitters weigh on crypto",
       "summary": ""
@@ -152,8 +147,8 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin under $63k as regulatory delays offset rate cheer, heads for weekly loss",
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,7 +186,8 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Singapore Dollar: Strong exports underpin SGD – Commerz"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,57 +202,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.68,
+    "US_10Y": 4.72,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.01,
-    "DIFF_EURUSD": -1.71,
-    "DIFF_GBPUSD": 0.12,
-    "DIFF_AUDUSD": 0.15
+    "DIFF_USDJPY": 2.05,
+    "DIFF_EURUSD": -1.75,
+    "DIFF_GBPUSD": 0.08,
+    "DIFF_AUDUSD": 0.11
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.4717,
-      "today_close": 159.6136,
-      "prev_close": 159.4692,
-      "diff": 0.1444,
-      "diff_pct": 0.09
+      "today_open": 159.6287,
+      "today_close": 159.65221,
+      "prev_close": 159.62429,
+      "diff": 0.0279,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.6136,
-      "sma20": 158.5507,
-      "sma50": 160.9503,
-      "sma200": 159.0562,
+      "latest": 159.65221,
+      "sma20": 158.5566,
+      "sma50": 160.8918,
+      "sma200": 159.081,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 20.2,
-      "high20": 163.7413,
+      "rsi14": 18.7,
+      "high20": 160.892,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": -2.34
+      "chg5d_pct": 0.21,
+      "chg20d_pct": 0.07
     },
     "EURUSD": {
-      "latest": 1.15769,
-      "sma20": 1.1546,
-      "sma50": 1.1468,
-      "sma200": 1.1605,
+      "latest": 1.15775,
+      "sma20": 1.1549,
+      "sma50": 1.1471,
+      "sma200": 1.1604,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 65.6,
+      "rsi14": 71.8,
       "high20": 1.1616,
-      "low20": 1.1435,
+      "low20": 1.1457,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.41,
-      "chg20d_pct": 0.96
+      "chg5d_pct": 0.06,
+      "chg20d_pct": 0.43
     }
   }
 }
