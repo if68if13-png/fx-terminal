@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-19T09:34:58.512697",
-  "generated": "2026年08月19日 09:34",
+  "timestamp": "2026-08-19T12:47:32.997228",
+  "generated": "2026年08月19日 12:47",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
-    "EUR": 1,
+    "USD": 2,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,52 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Upside risks building for inflation – Deutsche Bank",
-      "summary": "Deutsche Bank’s Chief United Kingdom (UK) Economist Sanjay Raja notes that UK inflation data for July broadly matched ex"
+      "title": "China: Policy support and structural shifts – HSBC",
+      "summary": "HSBC strategists review July data and the latest China Politburo guidance. Retail sales and Fixed Asset Investment softe"
     },
     {
       "source": "FXStreet",
-      "title": "Euro remains stronger following July’s Eurozone HICP data",
-      "summary": "EUR/USD rises after registering minor losses in the previous day, trading around 1.1600 during the European hours on Wed"
+      "title": "Gold finds support as US Dollar retreats ahead of Fed Minutes",
+      "summary": "Gold (XAU/USD) enters Wednesday’s American trading hours with decent intraday gains, as a softer US Dollar (USD) and a m"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Higher yields threaten housing and risk sentiment – MUFG",
-      "summary": "MUFG’s Derek Halpenny highlights how elevated US Treasury yields and rising mortgage rates are beginning to weigh on the"
+      "title": "Euro: Domestic demand resilience supports EUR – BNY",
+      "summary": "BNY’s Geoff Yu highlights European Central Bank (ECB) President Christine Lagarde’s warning that Europe’s post-war growt"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: BoJ’s hawkish pivot reshapes outlook against US Dollar - Standard Chartered",
-      "summary": "Standard Chartered strategists have revised its Bank of Japan (BoJ) rate outlook, bringing forward its expected 25bps hi"
+      "title": "Canada: EU protectionist shift challenges diversification – NBC",
+      "summary": "National Bank of Canada’s (NBC) Angelo Katsoras argues that Canada’s push to diversify exports away from the United Stat"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee trades lower amid higher oil prices, early FCNR (B) closure",
-      "summary": "The Indian Rupee (INR) remains vulnerable against the US Dollar (USD), close to its two-week low at around 95.75."
+      "title": "Japanese Yen gains as US Dollar retreats ahead of FOMC Minutes",
+      "summary": "USD/JPY edges lower on Wednesday as the US Dollar (USD) loses momentum and retreats toward the June lows touched earlier"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc picks up within range, USDollar softens awaiting Fed minutes",
-      "summary": "The Swiss Franc (CHF) appreciates moderately on Wednesday, as the US Dollar (USD) pulls back against major peers, with i"
+      "title": "US Dollar: Fed minutes watched as rate doubts grow – Commerzbank",
+      "summary": "Commerzbank’s Antje Praefcke says markets will scrutinize the latest Fed minutes for clues on how close policymakers rem"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: Range-bound with RBI support against US Dollar – Commerzbank",
-      "summary": "Commerzbank FX analysts Charlie Lay and Moses Lim see USD/INR staying broadly stable as the Reserve Bank of India (RBI) "
+      "title": "Indonesian Rupiah: Policy continuity supports currency – Societe Generale",
+      "summary": "Societe Generale analysts Galvin Chia and Kunal Kundu note that Bank Indonesia kept the BI rate at 5.75%, with deposit a"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Pullback risk with higher yields and Oil – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that Gold’s rebound has lost momentum as renewed Oil gains and higher lon"
+      "title": "Gold Price Forecast: XAU/USD bounces to $4,370, but upside momentum is fading",
+      "summary": "Gold (XAU/USD) trades moderately higher on Wednesday and returns to the $4,370 area, after finding buyers near the $4,30"
+    },
+    {
+      "source": "FXStreet",
+      "title": "WTI Price Forecast: Needs decisive break above $85 for fresh advance",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trade 0.55% higher at around $84.80 during the European trading session"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver has rebounded to $63, but inflationary risks hold buyers back",
+      "summary": "Silver (XAG/USD) stabilizes around $63.45 on Wednesday, up 0.16% on the day at the time of writing. The white metal is a"
     },
     {
       "source": "Investing",
       "title": "Bitcoin hovers around $63k as Strategy’s Saylor calls it ‘digital monetary energy’",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -186,15 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro remains stronger following July’s Eurozone HICP da",
-      "[強気] Japanese Yen: BoJ’s hawkish pivot reshapes outlook agai"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen: BoJ’s hawkish pivot reshapes outlook agai"
-    ],
-    "EUR": [
-      "[強気] Euro remains stronger following July’s Eurozone HICP da"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -222,44 +219,44 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.6287,
-      "today_close": 159.16963,
+      "today_close": 158.48533,
       "prev_close": 159.62429,
-      "diff": -0.4547,
-      "diff_pct": -0.28
+      "diff": -1.139,
+      "diff_pct": -0.71
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.16963,
-      "sma20": 158.5325,
-      "sma50": 160.8822,
-      "sma200": 159.0786,
-      "vs_sma20": "上",
+      "latest": 158.48533,
+      "sma20": 158.4983,
+      "sma50": 160.8685,
+      "sma200": 159.0752,
+      "vs_sma20": "下",
       "vs_sma50": "下",
-      "vs_sma200": "上",
+      "vs_sma200": "下",
       "rsi14": 18.7,
       "high20": 160.892,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.09,
-      "chg20d_pct": -0.23
+      "chg5d_pct": -0.52,
+      "chg20d_pct": -0.66
     },
     "EURUSD": {
-      "latest": 1.16037,
-      "sma20": 1.155,
+      "latest": 1.1628,
+      "sma20": 1.1551,
       "sma50": 1.1472,
       "sma200": 1.1604,
       "vs_sma20": "上",
       "vs_sma50": "上",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 71.8,
-      "high20": 1.1616,
+      "high20": 1.1629,
       "low20": 1.1457,
-      "high60": 1.1616,
+      "high60": 1.1629,
       "low60": 1.1324,
-      "chg5d_pct": 0.29,
-      "chg20d_pct": 0.66
+      "chg5d_pct": 0.5,
+      "chg20d_pct": 0.87
     }
   }
 }
