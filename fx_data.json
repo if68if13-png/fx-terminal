@@ -1,57 +1,57 @@
 {
-  "timestamp": "2026-08-19T01:14:59.874345",
-  "generated": "2026年08月19日 01:14",
+  "timestamp": "2026-08-19T03:46:38.113794",
+  "generated": "2026年08月19日 03:46",
   "scores": {
-    "USD": 5,
+    "USD": 2,
     "JPY": 1,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 2
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
       "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 3,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
       "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 1,
       "quote_score": 1
     }
   ],
@@ -103,38 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro strengthens above 1.1550 on fading Fed hike bets",
-      "summary": "The EUR/USD pair trades with mild gains near 1.1580 during the early Asian session on Wednesday. The US Dollar (USD) sof"
+      "title": "Gold recovers from weekly low as USD softens ahead of FOMC Minutes",
+      "summary": "Gold (XAU/USD) rebounds from the weekly low, which it touched during the Asian session on Wednesday, and climbs above $4"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar reverses as Iran risks lift USD ahead of Fed minutes",
-      "summary": "The Aussie Dollar reversed its course against the Greenback on Tuesday as investors remain uncertain of the outcome of t"
+      "title": "Australian Dollar weakens despite RBA’s Hauser hawkish remarks",
+      "summary": "AUD/USD extends its losses for the second successive day, trading around 0.7080 during the Asian hours on Wednesday. Add"
     },
     {
       "source": "FXStreet",
-      "title": "Gold steadies below $4,350 as surging yields offset support from Fed rate-hold bets",
-      "summary": "Gold price (XAU/USD) holds steady near $4,335 after pulling back from an early-June top near $4,450 during the early Asi"
+      "title": "Silver Price Forecast: XAG/USD extends decline to near $63 amid continued energy supply risks",
+      "summary": "Silver price (XAG/USD) is down 0.5% to near $63.00 during the Asian trading session on Wednesday. The white metal extend"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: SMAs confluence blocks bulls near 185.00",
-      "summary": "The EUR/JPY registers two consecutive days of gains, but on Tuesday, buyers failed to gain traction as they faced a conf"
+      "title": "RBA’s Hauser: Will have to raise rates again if inflation doesn’t come down",
+      "summary": "Reserve Bank of Australia (RBA) Deputy Governor Andrew Hauser said during the Asian trading session on Wednesday that in"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen gives back half a record intervention",
-      "summary": "The Dollar trades near 159.50 against the Yen on Tuesday after a session high just short of 160.00, the strongest level "
+      "title": "Japanese Yen gains ground as BoJ rate hike bets rise",
+      "summary": "The USD/JPY pair edges lower to around 159.45 during the Asian trading hours on Wednesday. The Japanese Yen (JPY) streng"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound Sterling's three-month high was made in America",
-      "summary": "The British Pound trades just short of 1.3550 against the Dollar on Tuesday, holding inside Monday's range after a peak "
+      "title": "United States Dollar Index hovers above 99.50 due to safe-haven support",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is steadying af"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar holds steady amid a firm US Dollar",
-      "summary": "NZD/USD hovers around the 0.5870 zone at the time of writing on Tuesday, marginally lower on the day. The pair is treadi"
+      "title": "UK CPI set to show inflation rebounding to four-month high due to higher energy bill",
+      "summary": "The United Kingdom (UK) Office for National Statistics (ONS) will release the high-impact Consumer Price Index (CPI) rep"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar declines to weekly low as USD holds firm ahead of FOMC Minutes",
+      "summary": "The NZD/USD pair is seen extending this week's retracement slide from the 0.5925 area, or the highest since June 3, and "
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound declines below 1.3550 on soft UK labour figures, traders brace for CPI data",
+      "summary": "The GBP/USD pair loses ground to around 1.3535 during the early Asian trading hours on Wednesday. The British Pound (GBP"
     },
     {
       "source": "Investing",
@@ -182,16 +192,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold steadies below $4,350 as surging yields offset sup",
-      "[強気] The Japanese Yen gives back half a record intervention",
-      "[強気] British Pound Sterling's three-month high was made in A"
+      "[強気] Japanese Yen gains ground as BoJ rate hike bets rise",
+      "[弱気] British Pound declines below 1.3550 on soft UK labour f"
     ],
     "JPY": [
-      "[強気] The Japanese Yen gives back half a record intervention"
+      "[強気] Japanese Yen gains ground as BoJ rate hike bets rise"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound Sterling's three-month high was made in A"
+      "[弱気] British Pound declines below 1.3550 on soft UK labour f"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -199,9 +208,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Gold steadies below $4,350 as surging yields offset sup"
     ]
   },
   "rates": {
@@ -219,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.6287,
-      "today_close": 159.48878,
+      "today_close": 159.41875,
       "prev_close": 159.62429,
-      "diff": -0.1355,
-      "diff_pct": -0.08
+      "diff": -0.2055,
+      "diff_pct": -0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.48878,
-      "sma20": 158.5484,
-      "sma50": 160.8886,
-      "sma200": 159.0802,
+      "latest": 159.41875,
+      "sma20": 158.5449,
+      "sma50": 160.8872,
+      "sma200": 159.0798,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -239,12 +245,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.11,
-      "chg20d_pct": -0.03
+      "chg5d_pct": 0.06,
+      "chg20d_pct": -0.08
     },
     "EURUSD": {
-      "latest": 1.15738,
-      "sma20": 1.1548,
+      "latest": 1.15831,
+      "sma20": 1.1549,
       "sma50": 1.1471,
       "sma200": 1.1604,
       "vs_sma20": "上",
@@ -255,8 +261,8 @@
       "low20": 1.1457,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": 0.4
+      "chg5d_pct": 0.11,
+      "chg20d_pct": 0.48
     }
   }
 }

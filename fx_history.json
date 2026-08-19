@@ -22,13 +22,13 @@
       }
     },
     "scores": {
-      "USD": 5,
+      "USD": 2,
       "JPY": 1,
       "EUR": 0,
-      "GBP": 3,
+      "GBP": 1,
       "AUD": -1,
       "NZD": 2,
-      "CAD": 1,
+      "CAD": 0,
       "CHF": 0
     },
     "memo": "\n\n\n",
