@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-18T21:25:17.482041",
-  "generated": "2026年08月18日 21:25",
+  "timestamp": "2026-08-19T01:14:59.874345",
+  "generated": "2026年08月19日 01:14",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
+    "USD": 5,
+    "JPY": 1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,43 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Sideways range holds against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CNH has been trading quietly, with intr"
+      "title": "Euro strengthens above 1.1550 on fading Fed hike bets",
+      "summary": "The EUR/USD pair trades with mild gains near 1.1580 during the early Asian session on Wednesday. The US Dollar (USD) sof"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar firms on Hormuz jitters ahead of UK CPI and FOMC Minutes",
-      "summary": "The US Dollar Index (DXY) held a firm tone near the 99.60s on Tuesday, keeping a mild safe-haven bid as tensions around "
+      "title": "Australian Dollar reverses as Iran risks lift USD ahead of Fed minutes",
+      "summary": "The Aussie Dollar reversed its course against the Greenback on Tuesday as investors remain uncertain of the outcome of t"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Upside risk stays in focus against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD rebounded after a sharper-than-expected dr"
+      "title": "Gold steadies below $4,350 as surging yields offset support from Fed rate-hold bets",
+      "summary": "Gold price (XAU/USD) holds steady near $4,335 after pulling back from an early-June top near $4,450 during the early Asi"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Strong exports underpin SGD – Commerzbank",
-      "summary": "Commerzbank’s Singapore-focused FX research highlights robust non-oil domestic exports driven by electronics and AI-rela"
+      "title": "EUR/JPY Price Forecast: SMAs confluence blocks bulls near 185.00",
+      "summary": "The EUR/JPY registers two consecutive days of gains, but on Tuesday, buyers failed to gain traction as they faced a conf"
     },
     {
       "source": "FXStreet",
-      "title": "Economists agree: BoE will hold rates through year-end – Reuters poll",
-      "summary": "The Bank of England (BoE) will keep interest rates unchanged for the rest of the year, according to a Reuters poll condu"
+      "title": "The Japanese Yen gives back half a record intervention",
+      "summary": "The Dollar trades near 159.50 against the Yen on Tuesday after a session high just short of 160.00, the strongest level "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen drifts lower as Greenback retains safe-haven bid",
-      "summary": "USD/JPY holds modest gains near the 159.60s on Tuesday, edging higher on the day. The pair has clawed back ground after "
+      "title": "British Pound Sterling's three-month high was made in America",
+      "summary": "The British Pound trades just short of 1.3550 against the Dollar on Tuesday, holding inside Monday's range after a peak "
     },
     {
       "source": "FXStreet",
-      "title": "Indonesia Rupiah: Fiscal discipline supports stability – UOB",
-      "summary": "UOB economist Enrico Tanuwidjaja reviews Indonesia’s 2027 State Budget, highlighting a calibrated balance between growth"
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin pinned at $64k; Iran, rate jitters weigh on crypto",
-      "summary": ""
+      "title": "New Zealand Dollar holds steady amid a firm US Dollar",
+      "summary": "NZD/USD hovers around the 0.5870 zone at the time of writing on Tuesday, marginally lower on the day. The pair is treadi"
     },
     {
       "source": "Investing",
@@ -187,10 +182,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Strong exports underpin SGD – Commerz"
+      "[強気] Gold steadies below $4,350 as surging yields offset sup",
+      "[強気] The Japanese Yen gives back half a record intervention",
+      "[強気] British Pound Sterling's three-month high was made in A"
+    ],
+    "JPY": [
+      "[強気] The Japanese Yen gives back half a record intervention"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound Sterling's three-month high was made in A"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -198,6 +199,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Gold steadies below $4,350 as surging yields offset sup"
     ]
   },
   "rates": {
@@ -215,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.6287,
-      "today_close": 159.65221,
+      "today_close": 159.48878,
       "prev_close": 159.62429,
-      "diff": 0.0279,
-      "diff_pct": 0.02
+      "diff": -0.1355,
+      "diff_pct": -0.08
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.65221,
-      "sma20": 158.5566,
-      "sma50": 160.8918,
-      "sma200": 159.081,
+      "latest": 159.48878,
+      "sma20": 158.5484,
+      "sma50": 160.8886,
+      "sma200": 159.0802,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -235,12 +239,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.21,
-      "chg20d_pct": 0.07
+      "chg5d_pct": 0.11,
+      "chg20d_pct": -0.03
     },
     "EURUSD": {
-      "latest": 1.15775,
-      "sma20": 1.1549,
+      "latest": 1.15738,
+      "sma20": 1.1548,
       "sma50": 1.1471,
       "sma200": 1.1604,
       "vs_sma20": "上",
@@ -251,8 +255,8 @@
       "low20": 1.1457,
       "high60": 1.1616,
       "low60": 1.1324,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": 0.43
+      "chg5d_pct": 0.03,
+      "chg20d_pct": 0.4
     }
   }
 }
