@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-08-20T15:33:48.833619",
-  "generated": "2026年08月20日 15:33",
+  "timestamp": "2026-08-20T18:39:11.731791",
+  "generated": "2026年08月20日 18:39",
   "scores": {
-    "USD": 0,
+    "USD": 2,
     "JPY": 0,
-    "EUR": -1,
+    "EUR": 0,
     "GBP": 1,
-    "AUD": -1,
-    "NZD": 2,
+    "AUD": -2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -2,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -48,7 +48,7 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -108,48 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Bessent wants bigger bond buybacks, but markets barely blink",
-      "summary": "United States (US) Treasury Secretary Scott Bessent said on Thursday that the Treasury could increase bond buybacks beyo"
+      "title": "Singapore Dollar: Upside risk stays in focus against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann note that USD/SGD extended its overnight slide as the US Dollar (U"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesia: Rupiah stability supports BI pause – DBS",
-      "summary": "DBS Group Research economist Radhika Rao notes Bank Indonesia (BI) kept its policy rate at 5.75% with Acting Governor De"
+      "title": "Japanese Yen underperforms as elevated Oil prices weigh, US Dollar recovers",
+      "summary": "USD/JPY rebounds on Thursday, recovering most of the previous day’s losses as the US Dollar (USD) stages a modest recove"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar remains supported by rising Oil prices and US tariff pause",
-      "summary": "USD/CAD remains under pressure on Thursday even as the US Dollar (USD) stages a modest recovery following the previous d"
+      "title": "Gold pulls back as US yields recover after Treasury buyback",
+      "summary": "Gold (XAU/USD) price retreats about 0.33% on Thursday as US Treasury yields trim some of their Wednesday losses, weighin"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Sustained break above 1.3650 may open 1.41 – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that GBP/USD gains into the mid-1.36s are driven more by US D"
+      "title": "Banxico minutes signals long rate pause as inflation eases",
+      "summary": "The minutes of the Bank of Mexico (Banxico) August’s August meeting revealed that the central bank is expected to hold r"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/GBP eases from intraday highs as traders eye dual flash PMIs",
-      "summary": "EUR/GBP trades near the 0.8560s zone, having drifted steadily lower from near the 0.8585 area after failing to hold its "
+      "title": "New Zealand Dollar rises as RBNZ rate hike expectations strengthen",
+      "summary": "NZD/USD advances for the second consecutive day on Thursday, trading around 0.5940 at the time of writing, up 0.12% on t"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Leads Asia FX on tech support – MUFG",
-      "summary": "Lloyd Chan at MUFG highlights that the Korean Won has outperformed regional peers, helped by a softer Dollar and a resil"
+      "title": "Australian Dollar holds near highs as mixed data keeps RBA tightening bets alive",
+      "summary": "AUD/USD is trading in the 0.7100 neighborhood at the time of writing on Thursday, holding close to multi-week highs afte"
     },
     {
       "source": "FXStreet",
-      "title": "Swedish Krona: Riksbank keeps hikes on table – BNY",
-      "summary": "BNY Mellon’s Geoff Yu reports the Swedish Riksbank left its policy rate at 1.75%, judging the stance well balanced amid "
+      "title": "Gold reclaims $4,500 despite rebound in US Treasury yields and US Dollar",
+      "summary": "Gold (XAU/USD) trims its earlier intraday losses during American trading hours on Thursday and climbs back above the $4,"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Bullish trend eyes upper 1.17s against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report that EUR/USD gains are being driven mainly by broad US Doll"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold pares gains as US Treasury yields, Dollar recover",
-      "summary": "Gold (XAU/USD) remains on the back foot during American trading hours on Thursday as US Treasury yields rebound and the "
+      "title": "British Pound climbs as UK inflation keeps BoE hike bets alive",
+      "summary": "The Pound Sterling (GBP) advances on Thursday during the North American session, up 0.25% after US economic data showed "
     },
     {
       "source": "MarketWatch",
@@ -192,22 +187,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: Sustained break above 1.3650 may open 1.",
-      "[弱気] Euro: Bullish trend eyes upper 1.17s against US Dollar "
-    ],
-    "EUR": [
-      "[弱気] Euro: Bullish trend eyes upper 1.17s against US Dollar "
+      "[強気] New Zealand Dollar rises as RBNZ rate hike expectations",
+      "[弱気] Australian Dollar holds near highs as mixed data keeps "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: Sustained break above 1.3650 may open 1."
+      "[弱気] British Pound climbs as UK inflation keeps BoE hike bet"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)",
+      "[弱気] Australian Dollar holds near highs as mixed data keeps "
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar rises as RBNZ rate hike expectations"
     ]
   },
   "rates": {
@@ -225,31 +219,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.15919,
-      "today_close": 158.79878,
+      "today_close": 159.13786,
       "prev_close": 158.15784,
-      "diff": 0.6409,
-      "diff_pct": 0.41
+      "diff": 0.98,
+      "diff_pct": 0.62
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.79878,
-      "sma20": 158.5488,
-      "sma50": 160.7858,
-      "sma200": 159.0938,
+      "latest": 159.13786,
+      "sma20": 158.5657,
+      "sma50": 160.7925,
+      "sma200": 159.0955,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 19.1,
       "high20": 159.7822,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": 0.85
+      "chg5d_pct": -0.12,
+      "chg20d_pct": 1.06
     },
     "EURUSD": {
-      "latest": 1.16826,
+      "latest": 1.16745,
       "sma20": 1.1561,
       "sma50": 1.1479,
       "sma200": 1.1603,
@@ -261,8 +255,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 0.98,
-      "chg20d_pct": 1.32
+      "chg5d_pct": 0.91,
+      "chg20d_pct": 1.25
     }
   }
 }
