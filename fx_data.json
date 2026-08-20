@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-20T01:14:27.836635",
-  "generated": "2026年08月20日 01:14",
+  "timestamp": "2026-08-20T03:46:38.611382",
+  "generated": "2026年08月20日 03:46",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 1,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 2,
+    "AUD": -3,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": -3,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,38 +108,43 @@
     },
     {
       "source": "FXStreet",
+      "title": "Japanese Yen struggles amid widening Trade Deficit, escalating import costs",
+      "summary": "USD/JPY appreciates after registering modest losses in the previous day, trading around 158.50 during the Asian hours on"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar gathers strength to near 0.5950 after China holds loan rates steady in August",
+      "summary": "The NZD/USD pair gains momentum to near 0.5950 during the Asian trading hours on Thursday. The pair holds near a two-and"
+    },
+    {
+      "source": "FXStreet",
+      "title": "China's Commerce Ministry sets anti-dumping tax rates on polyoxymethylene from US, EU, Taiwan and Japan",
+      "summary": "China's Commerce Ministry on Thursday announced a decision on corporate tax rate for enterprises related to anti-dumping"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australia’s Unemployment Rate jumps to 4.5% in July, vs 4.4% expected",
+      "summary": "Australia’s Unemployment Rate climbed to 4.5% in July from 4.4% in June, according to the official data released by the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar declines following weak labor data",
+      "summary": "AUD/USD depreciates after registering over 0.5% gains in the previous day, trading around 0.7120 during the Asian hours "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar reacts little to dismal jobs data; holds above weekly low vs weaker JPY",
+      "summary": "The AUD/JPY cross attracts some sellers following the release of a dismal Australian jobs report, though it lacks follow"
+    },
+    {
+      "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7808 vs. 6.7854 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7808 comp"
+    },
+    {
+      "source": "FXStreet",
       "title": "PBOC leaves Loan Prime Rates unchanged in August",
-      "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Wed"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro edges lower below 1.1700 despite fading Fed hike odds",
-      "summary": "The EUR/USD pair posts modest losses around 1.1675 during the early Asian session on Thursday. The Euro (EUR) edges lowe"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australia unemployment rate forecast to remain steady at 4.4% in July",
-      "summary": "Australia will release the July monthly employment report on Thursday at 01:30 GMT. Ahead of the announcement, analysts "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold climbs above $4,500 as US Dollar, yields fall",
-      "summary": "Gold price (XAU/USD) rises to around $4,520 during the early Asian session on Thursday. The precious metal surges to the"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar gains as Treasury buyback offsets hawkish Fed",
-      "summary": "The Aussie Dollar advances on Wednesday, up over 0.56%, as the US Dollar registers losses amid the US Treasury bond buyb"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Washington bought the Japanese Yen again without meaning to",
-      "summary": "USD/JPY closed Wednesday 0.92% lower just above 158.00, the largest single-session decline since the early-August interv"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Pound Sterling's best level since May was made in Washington",
-      "summary": "GBP/USD closed Wednesday 0.53% higher just above 1.3600, its best close in three months, and the United Kingdom inflatio"
+      "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Thu"
     },
     {
       "source": "Investing",
@@ -187,11 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro edges lower below 1.1700 despite fading Fed hike o",
-      "[強気] Australian Dollar gains as Treasury buyback offsets haw"
+      "[強気] New Zealand Dollar gathers strength to near 0.5950 afte",
+      "[弱気] Australian Dollar declines following weak labor data",
+      "[弱気] Australian Dollar reacts little to dismal jobs data; ho"
     ],
-    "EUR": [
-      "[強気] Euro edges lower below 1.1700 despite fading Fed hike o"
+    "JPY": [
+      "[弱気] Australian Dollar reacts little to dismal jobs data; ho"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -199,10 +205,12 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[強気] Australian Dollar gains as Treasury buyback offsets haw"
+      "[弱気] Australian Dollar declines following weak labor data",
+      "[弱気] Australian Dollar reacts little to dismal jobs data; ho"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar gathers strength to near 0.5950 afte"
     ]
   },
   "rates": {
@@ -220,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.15919,
-      "today_close": 158.47846,
+      "today_close": 158.45613,
       "prev_close": 158.15784,
-      "diff": 0.3206,
-      "diff_pct": 0.2
+      "diff": 0.2983,
+      "diff_pct": 0.19
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.47846,
-      "sma20": 158.5327,
-      "sma50": 160.7794,
-      "sma200": 159.0922,
+      "latest": 158.45613,
+      "sma20": 158.5316,
+      "sma50": 160.7789,
+      "sma200": 159.0921,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -240,11 +248,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": 0.65
+      "chg5d_pct": -0.54,
+      "chg20d_pct": 0.63
     },
     "EURUSD": {
-      "latest": 1.16718,
+      "latest": 1.16783,
       "sma20": 1.1561,
       "sma50": 1.1479,
       "sma200": 1.1603,
@@ -252,12 +260,12 @@
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 72.4,
-      "high20": 1.1681,
+      "high20": 1.1683,
       "low20": 1.1502,
-      "high60": 1.1681,
+      "high60": 1.1683,
       "low60": 1.1324,
-      "chg5d_pct": 0.89,
-      "chg20d_pct": 1.23
+      "chg5d_pct": 0.94,
+      "chg20d_pct": 1.28
     }
   }
 }
