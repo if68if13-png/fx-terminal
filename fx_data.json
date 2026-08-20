@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-20T03:46:38.611382",
-  "generated": "2026年08月20日 03:46",
+  "timestamp": "2026-08-20T06:45:59.293300",
+  "generated": "2026年08月20日 06:45",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -3,
-    "NZD": 3,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -3,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,43 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen struggles amid widening Trade Deficit, escalating import costs",
-      "summary": "USD/JPY appreciates after registering modest losses in the previous day, trading around 158.50 during the Asian hours on"
+      "title": "Silver Price Forecasts: XAG/USD stands tall near $67 supported by US Treasury’s buybacks",
+      "summary": "Silver (XAG/USD) is practically flat on Thursday, holding most of Wednesday’s gains, trading just above $67.00 at the Eu"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar gathers strength to near 0.5950 after China holds loan rates steady in August",
-      "summary": "The NZD/USD pair gains momentum to near 0.5950 during the Asian trading hours on Thursday. The pair holds near a two-and"
+      "title": "Indian Rupee: Elevated Oil keeps INR lagging against US Dollar – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note Indian Rupee (INR) remains under pressure despite broader US Do"
     },
     {
       "source": "FXStreet",
-      "title": "China's Commerce Ministry sets anti-dumping tax rates on polyoxymethylene from US, EU, Taiwan and Japan",
-      "summary": "China's Commerce Ministry on Thursday announced a decision on corporate tax rate for enterprises related to anti-dumping"
+      "title": "Equities: Yield relief and healthcare gains lift markets – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that equities rebounded as a sharp decline in long-end US Treasury yields helped the S&am"
     },
     {
       "source": "FXStreet",
-      "title": "Australia’s Unemployment Rate jumps to 4.5% in July, vs 4.4% expected",
-      "summary": "Australia’s Unemployment Rate climbed to 4.5% in July from 4.4% in June, according to the official data released by the "
+      "title": "Iran's Araghchi says economic D-Day is a diversion from the US crisis",
+      "summary": "Iran's Foreign Minister Abbas Araghchi dismissed US President Donald Trump’s threatened “economic D-Day” against Tehran "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar declines following weak labor data",
-      "summary": "AUD/USD depreciates after registering over 0.5% gains in the previous day, trading around 0.7120 during the Asian hours "
+      "title": "British Pound: Further gains face 1.3655 cap against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann report that GBP/USD spiked to 1.3630 before easing, leaving short‑"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar reacts little to dismal jobs data; holds above weekly low vs weaker JPY",
-      "summary": "The AUD/JPY cross attracts some sellers following the release of a dismal Australian jobs report, though it lacks follow"
+      "title": "EUR/JPY Price Forecast: Gains traction above 185.00, bullish signals keep uptrend intact",
+      "summary": "The EUR/JPY cross gathers strength to around 185.20 during the early European session on Thursday. The Japanese Yen (JPY"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7808 vs. 6.7854 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7808 comp"
+      "title": "Euro: Spikes higher against US Dollar on Treasury buybacks – Danske Bank",
+      "summary": "Danske Research Team notes that EUR/USD jumped after the US Treasury increased buyback volumes of longer-dated US Treasu"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC leaves Loan Prime Rates unchanged in August",
-      "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Thu"
+      "title": "Gold sticks to losses below $4,500 as USD firms on hawkish FOMC minutes and Iran risks",
+      "summary": "Gold (XAU/USD) sticks to modest intraday losses through the Asian session and currently trades below the $4,500 mark, th"
     },
     {
       "source": "Investing",
@@ -192,25 +192,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar gathers strength to near 0.5950 afte",
-      "[弱気] Australian Dollar declines following weak labor data",
-      "[弱気] Australian Dollar reacts little to dismal jobs data; ho"
-    ],
-    "JPY": [
-      "[弱気] Australian Dollar reacts little to dismal jobs data; ho"
+      "[弱気] Indian Rupee: Elevated Oil keeps INR lagging against US",
+      "[強気] Gold sticks to losses below $4,500 as USD firms on hawk"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[弱気] Australian Dollar declines following weak labor data",
-      "[弱気] Australian Dollar reacts little to dismal jobs data; ho"
+      "[COT] 🟢ロング優勢 (ネット:+194,930)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar gathers strength to near 0.5950 afte"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -228,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.15919,
-      "today_close": 158.45613,
+      "today_close": 158.48565,
       "prev_close": 158.15784,
-      "diff": 0.2983,
-      "diff_pct": 0.19
+      "diff": 0.3278,
+      "diff_pct": 0.21
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.45613,
-      "sma20": 158.5316,
-      "sma50": 160.7789,
-      "sma200": 159.0921,
+      "latest": 158.48565,
+      "sma20": 158.5331,
+      "sma50": 160.7795,
+      "sma200": 159.0922,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -248,11 +241,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.54,
-      "chg20d_pct": 0.63
+      "chg5d_pct": -0.53,
+      "chg20d_pct": 0.65
     },
     "EURUSD": {
-      "latest": 1.16783,
+      "latest": 1.16804,
       "sma20": 1.1561,
       "sma50": 1.1479,
       "sma200": 1.1603,
@@ -264,8 +257,8 @@
       "low20": 1.1502,
       "high60": 1.1683,
       "low60": 1.1324,
-      "chg5d_pct": 0.94,
-      "chg20d_pct": 1.28
+      "chg5d_pct": 0.96,
+      "chg20d_pct": 1.3
     }
   }
 }
