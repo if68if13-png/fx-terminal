@@ -1,13 +1,13 @@
 {
-  "generated_at_jst": "2026-08-20 18:34 JST",
+  "generated_at_jst": "2026-08-20 21:50 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
     "ecb": "live (19件)",
-    "mag7": "live (2件)"
+    "mag7": "live (7件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 119,
+  "count": 125,
   "events": [
     {
       "date": "2026-08-21",
@@ -218,6 +218,90 @@
       "confirmed": false,
       "source": "stat.go.jp (公表ルールから算出)",
       "id": "2026-10-23|日本 消費者物価指数(全国) 2026年9月分"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "アルファベット (GOOGL) 決算発表",
+      "short": "★★★ GOOGL決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-28|アルファベット (GOOGL) 決算発表"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "テスラ (TSLA) 決算発表",
+      "short": "★★★ TSLA決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-28|テスラ (TSLA) 決算発表"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "マイクロソフト (MSFT) 決算発表",
+      "short": "★★★ MSFT決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-28|マイクロソフト (MSFT) 決算発表"
+    },
+    {
+      "date": "2026-10-28",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "メタ (META) 決算発表",
+      "short": "★★★ META決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-28|メタ (META) 決算発表"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "アップル (AAPL) 決算発表",
+      "short": "★★★ AAPL決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-29|アップル (AAPL) 決算発表"
+    },
+    {
+      "date": "2026-10-29",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "アマゾン (AMZN) 決算発表",
+      "short": "★★★ AMZN決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-29|アマゾン (AMZN) 決算発表"
     },
     {
       "date": "2026-10-29",
