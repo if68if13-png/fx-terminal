@@ -1,30 +1,44 @@
 {
-  "timestamp": "2026-08-19T21:25:29.985028",
-  "generated": "2026年08月19日 21:25",
+  "timestamp": "2026-08-20T01:14:27.836635",
+  "generated": "2026年08月20日 01:14",
   "scores": {
-    "USD": 2,
+    "USD": 4,
     "JPY": 0,
     "EUR": 1,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": -2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 4
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 1,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -34,25 +48,11 @@
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 1,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
     }
   ],
   "news": [
@@ -108,52 +108,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "The Dollar Index answers to the Treasury, not the Fed",
-      "summary": "The Dollar Index closed Wednesday 0.86% lower just beneath 98.80, its weakest close since mid-May, and it closed on the "
+      "title": "PBOC leaves Loan Prime Rates unchanged in August",
+      "summary": "The People’s Bank of China (PBOC), China's central bank, announced to leave its Loan Prime Rates (LPRs) unchanged on Wed"
     },
     {
       "source": "FXStreet",
-      "title": "Euro surges as traders ignore Fed’s hawkish minutes",
-      "summary": "The Euro (EUR) gains over 0.85% against the US Dollar (USD) during the North American session on Wednesday, even though "
+      "title": "Euro edges lower below 1.1700 despite fading Fed hike odds",
+      "summary": "The EUR/USD pair posts modest losses around 1.1675 during the early Asian session on Thursday. The Euro (EUR) edges lowe"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar sinks on Treasury buyback ahead of data-heavy Thursday",
-      "summary": "The US Dollar Index (DXY) sold off broadly on Wednesday, sinking below the 99.00s region and holding well under 100.00."
+      "title": "Australia unemployment rate forecast to remain steady at 4.4% in July",
+      "summary": "Australia will release the July monthly employment report on Thursday at 01:30 GMT. Ahead of the announcement, analysts "
     },
     {
       "source": "FXStreet",
-      "title": "Silver surges as Treasury buyback plan sinks the US Dollar",
-      "summary": "Silver (XAG/USD) trades sharply higher on Wednesday, changing hands near $65.80. The metal is riding a broad rally acros"
+      "title": "Gold climbs above $4,500 as US Dollar, yields fall",
+      "summary": "Gold price (XAU/USD) rises to around $4,520 during the early Asian session on Thursday. The precious metal surges to the"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Franc tests 100-day SMA as US Dollar tanks",
-      "summary": "The USD/CHF pair tumbles nearly 2% on Wednesday as a US Treasury buyback announcement sends the Greenback into a tailspi"
+      "title": "Australian Dollar gains as Treasury buyback offsets hawkish Fed",
+      "summary": "The Aussie Dollar advances on Wednesday, up over 0.56%, as the US Dollar registers losses amid the US Treasury bond buyb"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rallies as buyback sinks yields despite Fed hawkish minutes",
-      "summary": "Gold (XAU/USD) rallies during Wednesday’s session after the US Federal Reserve (Fed) released the minutes of its July me"
+      "title": "Washington bought the Japanese Yen again without meaning to",
+      "summary": "USD/JPY closed Wednesday 0.92% lower just above 158.00, the largest single-session decline since the early-August interv"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: FOMC officials acknowledged inflation remained elevated",
-      "summary": "The Federal Open Market Committee (FOMC) published the Minutes of the July meeting on Wednesday. \"The information availa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Positive momentum points to further upside",
-      "summary": "AUD/USD holds firm near a two-and-a-half-month high on Wednesday, supported by broad US Dollar (USD) weakness, while tec"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso rallies to two-year high on US Treasury buyback",
-      "summary": "The Mexican Peso (MXN) rallies to a two-year high of 16.94 on Wednesday as the US Dollar (USD) weakens amid falling US y"
+      "title": "Pound Sterling's best level since May was made in Washington",
+      "summary": "GBP/USD closed Wednesday 0.53% higher just above 1.3600, its best close in three months, and the United Kingdom inflatio"
     },
     {
       "source": "Investing",
       "title": "FTX executives avoid fines in CFTC settlement over exchange collapse",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,15 +187,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] The Dollar Index answers to the Treasury, not the Fed",
-      "[強気] Euro surges as traders ignore Fed’s hawkish minutes",
-      "[強気] Silver surges as Treasury buyback plan sinks the US Dol",
-      "[強気] Gold rallies as buyback sinks yields despite Fed hawkis",
-      "[弱気] AUD/USD Price Forecast: Positive momentum points to fur",
-      "[弱気] Mexican Peso rallies to two-year high on US Treasury bu"
+      "[強気] Euro edges lower below 1.1700 despite fading Fed hike o",
+      "[強気] Australian Dollar gains as Treasury buyback offsets haw"
     ],
     "EUR": [
-      "[強気] Euro surges as traders ignore Fed’s hawkish minutes"
+      "[強気] Euro edges lower below 1.1700 despite fading Fed hike o"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -208,7 +199,7 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[弱気] AUD/USD Price Forecast: Positive momentum points to fur"
+      "[強気] Australian Dollar gains as Treasury buyback offsets haw"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -229,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.15919,
-      "today_close": 158.1244,
+      "today_close": 158.47846,
       "prev_close": 158.15784,
-      "diff": -0.0334,
-      "diff_pct": -0.02
+      "diff": 0.3206,
+      "diff_pct": 0.2
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.1244,
-      "sma20": 158.515,
-      "sma50": 160.7723,
-      "sma200": 159.0904,
+      "latest": 158.47846,
+      "sma20": 158.5327,
+      "sma50": 160.7794,
+      "sma200": 159.0922,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -249,11 +240,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.75,
-      "chg20d_pct": 0.42
+      "chg5d_pct": -0.53,
+      "chg20d_pct": 0.65
     },
     "EURUSD": {
-      "latest": 1.16768,
+      "latest": 1.16718,
       "sma20": 1.1561,
       "sma50": 1.1479,
       "sma200": 1.1603,
@@ -265,8 +256,8 @@
       "low20": 1.1502,
       "high60": 1.1681,
       "low60": 1.1324,
-      "chg5d_pct": 0.93,
-      "chg20d_pct": 1.27
+      "chg5d_pct": 0.89,
+      "chg20d_pct": 1.23
     }
   }
 }
