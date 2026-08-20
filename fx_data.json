@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-08-20T06:45:59.293300",
-  "generated": "2026年08月20日 06:45",
+  "timestamp": "2026-08-20T09:34:29.936420",
+  "generated": "2026年08月20日 09:34",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": -1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,15 +43,15 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": -1,
+      "base_score": -1,
       "quote_score": 0
     }
   ],
@@ -108,48 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecasts: XAG/USD stands tall near $67 supported by US Treasury’s buybacks",
-      "summary": "Silver (XAG/USD) is practically flat on Thursday, holding most of Wednesday’s gains, trading just above $67.00 at the Eu"
+      "title": "Federal Reserve: AI, inflation risks and limited FX impact – MUFG",
+      "summary": "MUFG’s research team uses AI-driven textual analysis to judge the July FOMC minutes as slightly more hawkish, with broad"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: Elevated Oil keeps INR lagging against US Dollar – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note Indian Rupee (INR) remains under pressure despite broader US Do"
+      "title": "US Dollar: Policy-driven yield retreat – UBS",
+      "summary": "UBS' chief economist Paul Donovan notes that the United States (US) Treasury’s plan to at least double purchases of long"
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Yield relief and healthcare gains lift markets – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that equities rebounded as a sharp decline in long-end US Treasury yields helped the S&am"
+      "title": "Euro weakens against Canadian Dollar amid higher oil prices",
+      "summary": "EUR/CAD halts its three-day winning streak, trading around 1.6110 during the European hours on Thursday. The currency cr"
     },
     {
       "source": "FXStreet",
-      "title": "Iran's Araghchi says economic D-Day is a diversion from the US crisis",
-      "summary": "Iran's Foreign Minister Abbas Araghchi dismissed US President Donald Trump’s threatened “economic D-Day” against Tehran "
+      "title": "Euro: Upside bias targets 1.1725 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann highlight that EUR/USD has broken to a three‑month high near 1.168"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Further gains face 1.3655 cap against US Dollar – UOB",
-      "summary": "United Overseas Bank’s Quek Ser Leang and Lee Sue Ann report that GBP/USD spiked to 1.3630 before easing, leaving short‑"
+      "title": "Indian Rupee capitalizes on falling US bond yields",
+      "summary": "The Indian Rupee (INR) snaps three-day losing streak against the US Dollar (USD) on Thursday."
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Gains traction above 185.00, bullish signals keep uptrend intact",
-      "summary": "The EUR/JPY cross gathers strength to around 185.20 during the early European session on Thursday. The Japanese Yen (JPY"
+      "title": "WTI refreshes three-week high near $86 amid US-Iran deadlock",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trades 2% higher at around $86.00 during the European trading session o"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Spikes higher against US Dollar on Treasury buybacks – Danske Bank",
-      "summary": "Danske Research Team notes that EUR/USD jumped after the US Treasury increased buyback volumes of longer-dated US Treasu"
+      "title": "Dow Jones futures gain on Treasury bond buyback relief",
+      "summary": "Dow Jones futures inch lose 0.11% to trade around 53,470 during European hours on Thursday. Meanwhile, S&amp;P 500 futur"
     },
     {
       "source": "FXStreet",
-      "title": "Gold sticks to losses below $4,500 as USD firms on hawkish FOMC minutes and Iran risks",
-      "summary": "Gold (XAU/USD) sticks to modest intraday losses through the Asian session and currently trades below the $4,500 mark, th"
+      "title": "Indian Rupee: RBI seen comfortably on hold – Commerzbank",
+      "summary": "Commerzbank’s Dr. Henry Hao and Moses Lim note India’s economy remains supported by strong domestic demand and exports, "
     },
     {
-      "source": "Investing",
-      "title": "FTX executives avoid fines in CFTC settlement over exchange collapse",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Federal Reserve: Divided hawks shape late-2026 hike risks – Societe Generale",
+      "summary": "Societe Generale’s Jan Groen highlights a divided Federal Reserve, with a larger ‘keep-on-hold’ camp waiting for core PC"
     },
     {
       "source": "MarketWatch",
@@ -192,8 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Indian Rupee: Elevated Oil keeps INR lagging against US",
-      "[強気] Gold sticks to losses below $4,500 as USD firms on hawk"
+      "[強気] Federal Reserve: AI, inflation risks and limited FX imp",
+      "[弱気] Euro weakens against Canadian Dollar amid higher oil pr",
+      "[強気] Federal Reserve: Divided hawks shape late-2026 hike ris"
+    ],
+    "EUR": [
+      "[弱気] Euro weakens against Canadian Dollar amid higher oil pr"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -204,6 +208,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Euro weakens against Canadian Dollar amid higher oil pr"
     ]
   },
   "rates": {
@@ -221,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.15919,
-      "today_close": 158.48565,
+      "today_close": 158.27515,
       "prev_close": 158.15784,
-      "diff": 0.3278,
-      "diff_pct": 0.21
+      "diff": 0.1173,
+      "diff_pct": 0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.48565,
-      "sma20": 158.5331,
-      "sma50": 160.7795,
-      "sma200": 159.0922,
+      "latest": 158.27515,
+      "sma20": 158.5226,
+      "sma50": 160.7753,
+      "sma200": 159.0912,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -241,24 +248,24 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": 0.65
+      "chg5d_pct": -0.66,
+      "chg20d_pct": 0.52
     },
     "EURUSD": {
-      "latest": 1.16804,
-      "sma20": 1.1561,
-      "sma50": 1.1479,
+      "latest": 1.17072,
+      "sma20": 1.1563,
+      "sma50": 1.148,
       "sma200": 1.1603,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 72.4,
-      "high20": 1.1683,
+      "high20": 1.171,
       "low20": 1.1502,
-      "high60": 1.1683,
+      "high60": 1.171,
       "low60": 1.1324,
-      "chg5d_pct": 0.96,
-      "chg20d_pct": 1.3
+      "chg5d_pct": 1.19,
+      "chg20d_pct": 1.53
     }
   }
 }
