@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-20T12:50:15.213167",
-  "generated": "2026年08月20日 12:50",
+  "timestamp": "2026-08-20T15:33:48.833619",
+  "generated": "2026年08月20日 15:33",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
-    "EUR": 0,
-    "GBP": 2,
+    "USD": 0,
+    "JPY": 0,
+    "EUR": -1,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -13,49 +13,59 @@
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "summary": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcemen"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Comm"
+    },
     {
       "source": "Fed",
       "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
@@ -83,18 +93,13 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
-      "summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
-    },
-    {
-      "source": "Fed",
       "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
       "summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &qu"
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank",
-      "summary": "Federal Reserve Board issues enforcement action with Iuka Bancshares, Inc. and The Iuka State Bank"
+      "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
     },
     {
       "source": "Fed",
@@ -102,49 +107,49 @@
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Inter"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
+      "source": "FXStreet",
+      "title": "Bessent wants bigger bond buybacks, but markets barely blink",
+      "summary": "United States (US) Treasury Secretary Scott Bessent said on Thursday that the Treasury could increase bond buybacks beyo"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesia: Rupiah stability supports BI pause – DBS",
+      "summary": "DBS Group Research economist Radhika Rao notes Bank Indonesia (BI) kept its policy rate at 5.75% with Acting Governor De"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar remains supported by rising Oil prices and US tariff pause",
+      "summary": "USD/CAD remains under pressure on Thursday even as the US Dollar (USD) stages a modest recovery following the previous d"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound: Sustained break above 1.3650 may open 1.41 – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that GBP/USD gains into the mid-1.36s are driven more by US D"
+    },
+    {
+      "source": "FXStreet",
+      "title": "EUR/GBP eases from intraday highs as traders eye dual flash PMIs",
+      "summary": "EUR/GBP trades near the 0.8560s zone, having drifted steadily lower from near the 0.8585 area after failing to hold its "
+    },
+    {
+      "source": "FXStreet",
+      "title": "South Korean Won: Leads Asia FX on tech support – MUFG",
+      "summary": "Lloyd Chan at MUFG highlights that the Korean Won has outperformed regional peers, helped by a softer Dollar and a resil"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Swedish Krona: Riksbank keeps hikes on table – BNY",
+      "summary": "BNY Mellon’s Geoff Yu reports the Swedish Riksbank left its policy rate at 1.75%, judging the stance well balanced amid "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro: Bullish trend eyes upper 1.17s against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report that EUR/USD gains are being driven mainly by broad US Doll"
     },
     {
       "source": "FXStreet",
       "title": "Gold pares gains as US Treasury yields, Dollar recover",
-      "summary": "Gold (XAU/USD) extends its intraday decline at the start of American trading hours on Thursday as US Treasury yields and"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold: Rally faces questions as buybacks reshape yields – BNY",
-      "summary": "BNY Mellon’s Geoff Yu notes Gold has surged through $4,500/oz. as investors reassess U.S. Treasury buybacks and their in"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Initial Jobless Claims dropped to 206K last week",
-      "summary": "According to a report from the US Department of Labour (DOL) released on Thursday, the number of US citizens submitting "
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound gains as Japanese Yen struggles despite hawkish BoJ outlook",
-      "summary": "GBP/JPY edges higher on Thursday, reversing all the losses recorded on the previous day. The move is largely driven by b"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Treasury buybacks raise fiscal questions – BBH",
-      "summary": "Brown Brothers Harriman (BBH) notes that US long-term Treasury yields have retraced most of their decline following the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Riksbank: Early-2027 hike view – Nomura",
-      "summary": "Nomura’s European Economics team, led by Josie Anderson, George Buckley and Andrzej Szczepaniak, reviews the latest Riks"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen trims gains as downbeat foreign trade data offsets US Dollar’s weakness",
-      "summary": "The Japanese Yen (JPY) shows a moderate pullback on Friday, despite the broad-based US Dollar (USD) weakness, following "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Flows and trade leave Japanese Yen exposed – BNY",
-      "summary": "Geoff Yu at BNY Mellon highlights that foreign investors are accelerating Japanese Government Bond selling while Japanes"
+      "summary": "Gold (XAU/USD) remains on the back foot during American trading hours on Thursday as US Treasury yields rebound and the "
     },
     {
       "source": "MarketWatch",
@@ -186,13 +191,16 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound: Sustained break above 1.3650 may open 1.",
+      "[弱気] Euro: Bullish trend eyes upper 1.17s against US Dollar "
     ],
-    "JPY": [
-      "[弱気] Japanese Yen: Flows and trade leave Japanese Yen expose"
+    "EUR": [
+      "[弱気] Euro: Bullish trend eyes upper 1.17s against US Dollar "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound: Sustained break above 1.3650 may open 1."
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -217,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.15919,
-      "today_close": 158.66997,
+      "today_close": 158.79878,
       "prev_close": 158.15784,
-      "diff": 0.5121,
-      "diff_pct": 0.32
+      "diff": 0.6409,
+      "diff_pct": 0.41
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.66997,
-      "sma20": 158.5423,
-      "sma50": 160.7832,
-      "sma200": 159.0931,
+      "latest": 158.79878,
+      "sma20": 158.5488,
+      "sma50": 160.7858,
+      "sma200": 159.0938,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -237,12 +245,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.41,
-      "chg20d_pct": 0.77
+      "chg5d_pct": -0.33,
+      "chg20d_pct": 0.85
     },
     "EURUSD": {
-      "latest": 1.16867,
-      "sma20": 1.1562,
+      "latest": 1.16826,
+      "sma20": 1.1561,
       "sma50": 1.1479,
       "sma200": 1.1603,
       "vs_sma20": "上",
@@ -253,8 +261,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 1.02,
-      "chg20d_pct": 1.36
+      "chg5d_pct": 0.98,
+      "chg20d_pct": 1.32
     }
   }
 }
