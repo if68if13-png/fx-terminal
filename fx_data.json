@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-20T18:39:11.731791",
-  "generated": "2026年08月20日 18:39",
+  "timestamp": "2026-08-20T21:27:53.318819",
+  "generated": "2026年08月20日 21:27",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 1,
-    "AUD": -2,
-    "NZD": 3,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -16,36 +16,36 @@
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": -2,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -56,6 +56,11 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by National Westminster Bank Plc",
+      "summary": "Federal Reserve Board announces approval of application by National Westminster Bank Plc"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
@@ -93,18 +98,43 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
-      "summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &qu"
-    },
-    {
-      "source": "Fed",
       "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
       "summary": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations"
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Interstate Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of First Inter"
+      "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+      "summary": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank &qu"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen slips as firmer yields lift US Dollar ahead of global PMIs",
+      "summary": "USD/JPY trades north of the 159.00 barrier at the time of writing on Thursday, higher on the day and clawing back most o"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso holds firm as Banxico minutes supports the Peso",
+      "summary": "The Mexican Peso (MXN) holds firm versus the US Dollar (USD) on Thursday as the Bank of Mexico (Banxico) adopted a cauti"
+    },
+    {
+      "source": "FXStreet",
+      "title": "South Korean Won: Rally accelerates with foreign inflows – DBS",
+      "summary": "DBS strategist Chang Wei Liang reports that South Korean Won (KRW) strength has resumed, with USD/KRW dropping to the mi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: US Dollar firms ahead of global flash PMIs",
+      "summary": "The US Dollar Index (DXY) is hovering near 98.90, still short of 100.00, but grinding higher on Thursday. Hawkish commen"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Dollar Index takes its floor from a Fed non-voter",
+      "summary": "The Dollar Index has spent Thursday building a floor just above 98.50 and defending it with everything the calendar had "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah: Softer Dollar offers limited relief – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that Indonesian Rupiah (IDR) should find some relief from a sof"
     },
     {
       "source": "FXStreet",
@@ -120,31 +150,6 @@
       "source": "FXStreet",
       "title": "Gold pulls back as US yields recover after Treasury buyback",
       "summary": "Gold (XAU/USD) price retreats about 0.33% on Thursday as US Treasury yields trim some of their Wednesday losses, weighin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Banxico minutes signals long rate pause as inflation eases",
-      "summary": "The minutes of the Bank of Mexico (Banxico) August’s August meeting revealed that the central bank is expected to hold r"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar rises as RBNZ rate hike expectations strengthen",
-      "summary": "NZD/USD advances for the second consecutive day on Thursday, trading around 0.5940 at the time of writing, up 0.12% on t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar holds near highs as mixed data keeps RBA tightening bets alive",
-      "summary": "AUD/USD is trading in the 0.7100 neighborhood at the time of writing on Thursday, holding close to multi-week highs afte"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold reclaims $4,500 despite rebound in US Treasury yields and US Dollar",
-      "summary": "Gold (XAU/USD) trims its earlier intraday losses during American trading hours on Thursday and climbs back above the $4,"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound climbs as UK inflation keeps BoE hike bets alive",
-      "summary": "The Pound Sterling (GBP) advances on Thursday during the North American session, up 0.25% after US economic data showed "
     },
     {
       "source": "MarketWatch",
@@ -187,76 +192,72 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar rises as RBNZ rate hike expectations",
-      "[弱気] Australian Dollar holds near highs as mixed data keeps "
+      "[強気] Forex Today: US Dollar firms ahead of global flash PMIs"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound climbs as UK inflation keeps BoE hike bet"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[弱気] Australian Dollar holds near highs as mixed data keeps "
+      "[COT] 🟢ロング優勢 (ネット:+194,930)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar rises as RBNZ rate hike expectations"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.71,
+    "US_10Y": 4.65,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.04,
-    "DIFF_EURUSD": -1.74,
-    "DIFF_GBPUSD": 0.09,
-    "DIFF_AUDUSD": 0.12
+    "DIFF_USDJPY": 1.98,
+    "DIFF_EURUSD": -1.68,
+    "DIFF_GBPUSD": 0.15,
+    "DIFF_AUDUSD": 0.18
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.15919,
-      "today_close": 159.13786,
-      "prev_close": 158.15784,
-      "diff": 0.98,
-      "diff_pct": 0.62
+      "today_open": 159.07528,
+      "today_close": 159.06256,
+      "prev_close": 159.07472,
+      "diff": -0.0122,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.13786,
-      "sma20": 158.5657,
-      "sma50": 160.7925,
-      "sma200": 159.0955,
+      "latest": 159.06256,
+      "sma20": 158.6347,
+      "sma50": 160.7501,
+      "sma200": 159.1123,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "上",
-      "rsi14": 19.1,
+      "vs_sma200": "下",
+      "rsi14": 19.0,
       "high20": 159.7822,
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.12,
-      "chg20d_pct": 1.06
+      "chg5d_pct": -0.16,
+      "chg20d_pct": 0.92
     },
     "EURUSD": {
-      "latest": 1.16745,
-      "sma20": 1.1561,
-      "sma50": 1.1479,
+      "latest": 1.16783,
+      "sma20": 1.1568,
+      "sma50": 1.1484,
       "sma200": 1.1603,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 72.4,
+      "rsi14": 73.6,
       "high20": 1.1711,
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 0.91,
-      "chg20d_pct": 1.25
+      "chg5d_pct": 0.97,
+      "chg20d_pct": 1.26
     }
   }
 }
