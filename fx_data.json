@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-08-21T15:34:19.876825",
-  "generated": "2026年08月21日 15:34",
+  "timestamp": "2026-08-21T18:36:14.143254",
+  "generated": "2026年08月21日 18:36",
   "scores": {
-    "USD": 3,
-    "JPY": 1,
+    "USD": 2,
+    "JPY": 0,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 2
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,53 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "$4,600: Gold rallies to three-month high, eyes third weekly gain",
-      "summary": "Gold (XAU/USD) is heading for a third consecutive weekly gain on Friday, extending an impressive rally that has lifted t"
+      "title": "Singapore: inflation and production outlook – DBS",
+      "summary": "DBS economists Taimur Baig and Radhika Rao project Singapore’s headline and core inflation will rise in July to 2.4% and"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Bulls eye 0.7200 as RSI nears overbought territory",
-      "summary": "AUD/USD edges higher on Friday, climbing to its highest level since June 3 as the Australian Dollar (AUD) outperforms al"
+      "title": "Silver Price Forecast: XAG bulls test $70 as rally extends",
+      "summary": "Silver prices rally for the third straight day, up more than 2% and, for the week, gains over 7.40%, as a firm US Dollar"
     },
     {
       "source": "FXStreet",
-      "title": "Euro area: Manufacturing strengthens as services stall – Commerzbank",
-      "summary": "Commerzbank’s Senior Economist Dr. Vincent Stamer notes that Euro area business sentiment has stabilized at a moderate l"
+      "title": "Gold hits three-month peak above $4,600 as Middle East risks fuel rally",
+      "summary": "Gold price hits a three-month high and is poised to end the week with gains of over 5.6%, even though business activity "
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: Services-led growth and price risks – Nomura",
-      "summary": "Nomura’s European Economics team highlights that UK composite output PMI rose to 52.5 in August, with services offsettin"
+      "title": "EUR/USD Price Forecast: Bulls test 1.1700 as RSI turns overbought",
+      "summary": "EUR/USD heads for a fourth consecutive weekly gain on Friday, although it has erased its earlier intraday advance. At th"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/GBP slips as strong PMIs cancel out and Iran signals de-escalation",
-      "summary": "The Euro (EUR) is falling against the British Pound (GBP). EUR/GBP held the mid-0.8500s on Friday, hovering just below t"
+      "title": "Higher yields stop paying the Dollar Index",
+      "summary": "The Dollar Index trades just beneath 99.00 and unchanged on the session, with the entire day fitting inside 35 pips betw"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Jackson Hole volatility over credibility – TD Securities",
-      "summary": "TD Securities strategists argue that Kevin Warsh’s Jackson Hole speech will focus on structural themes such as productiv"
+      "title": "Swiss Franc struggles as US Dollar steadies, SNB keeps negative rates on table",
+      "summary": "USD/CHF holds firm on Friday as the US Dollar (USD) trims its intraday losses. At the time of writing, the pair trades a"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: PMI strength supports against US Dollar – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports EUR/USD is firmer on broad US Dollar (USD) weakness and stronger-th"
+      "title": "United Kingdom: Resilient growth outlook – Deutsche Bank",
+      "summary": "Deutsche Bank Research, led by Sanjay Raja and Maui Brennan, highlights the United Kingdom (UK) economy’s surprising res"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen strengthens against US Dollar as inflation backs BoJ rate hike bets",
-      "summary": "USD/JPY trades around 158.85 on Friday at the time of writing, edging lower after rebounding from the 158.00 level on Th"
+      "title": "New Zealand Dollar extends rally as fading Fed-hike bets soften US Dollar",
+      "summary": "The New Zealand Dollar (NZD) extends its rally against the US Dollar (USD) on Friday,  trading near 0.6000 and close to "
     },
     {
-      "source": "FXStreet",
-      "title": "European gas: Storage gap supports high prices – Commerzbank",
-      "summary": "Norman Liebke at Commerzbank warns that low European gas storage, suspended LNG exports from Qatar and the end of the re"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Canada: Q2 GDP rebound faces future headwinds – RBC",
-      "summary": "Royal Bank of Canada economists Nathan Janzen and Abbey Xu expect Canadian gross domestic product data for June and Q2 t"
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "summary": ""
     }
   ],
   "cot": {
@@ -191,19 +186,10 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen strengthens against US Dollar as inflation"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen strengthens against US Dollar as inflation"
-    ],
-    "EUR": [
-      "[弱気] United Kingdom: Services-led growth and price risks – N",
-      "[強気] EUR/GBP slips as strong PMIs cancel out and Iran signal"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] EUR/GBP slips as strong PMIs cancel out and Iran signal"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -228,18 +214,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.07528,
-      "today_close": 158.9745,
+      "today_close": 159.03436,
       "prev_close": 159.07472,
-      "diff": -0.1002,
-      "diff_pct": -0.06
+      "diff": -0.0404,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.9745,
-      "sma20": 158.6303,
-      "sma50": 160.7483,
-      "sma200": 159.1119,
+      "latest": 159.03436,
+      "sma20": 158.6333,
+      "sma50": 160.7495,
+      "sma200": 159.1122,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -248,12 +234,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.22,
-      "chg20d_pct": 0.86
+      "chg5d_pct": -0.18,
+      "chg20d_pct": 0.9
     },
     "EURUSD": {
-      "latest": 1.16771,
-      "sma20": 1.1568,
+      "latest": 1.16819,
+      "sma20": 1.1569,
       "sma50": 1.1484,
       "sma200": 1.1603,
       "vs_sma20": "上",
@@ -264,8 +250,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 0.96,
-      "chg20d_pct": 1.25
+      "chg5d_pct": 1.0,
+      "chg20d_pct": 1.29
     }
   }
 }
