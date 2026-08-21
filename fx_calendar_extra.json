@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-08-21 21:48 JST",
+  "generated_at_jst": "2026-08-22 00:34 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,22 +7,8 @@
     "mag7": "live (7件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 125,
+  "count": 124,
   "events": [
-    {
-      "date": "2026-08-21",
-      "time": "08:30",
-      "tz": "JST",
-      "title": "日本 消費者物価指数(全国) 2026年7月分",
-      "short": "★★★ 日本CPI",
-      "category": "indicator",
-      "country": "JP",
-      "impact": "high",
-      "note": "コアCPI(生鮮食品除く)が主目線",
-      "confirmed": false,
-      "source": "stat.go.jp (公表ルールから算出)",
-      "id": "2026-08-21|日本 消費者物価指数(全国) 2026年7月分"
-    },
     {
       "date": "2026-08-24",
       "time": "17:00",

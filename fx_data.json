@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-21T12:48:24.086020",
-  "generated": "2026年08月21日 12:48",
+  "timestamp": "2026-08-21T15:34:19.876825",
+  "generated": "2026年08月21日 15:34",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 1,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 3,
     "AUD": -1,
     "NZD": 2,
@@ -13,17 +13,24 @@
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 3,
-      "quote_score": 1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
       "quote_score": 1
     },
     {
@@ -34,25 +41,18 @@
       "quote_score": 1
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
+      "diff": -1,
+      "base_score": 0,
       "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Bearish regime reinforced by bull flattener – TD Securities",
-      "summary": "TD Securities strategists argue that the United States (US) Treasury buyback announcement has reinforced bearish momentu"
+      "title": "$4,600: Gold rallies to three-month high, eyes third weekly gain",
+      "summary": "Gold (XAU/USD) is heading for a third consecutive weekly gain on Friday, extending an impressive rally that has lifted t"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Support test as Japan data firm – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights USD/JPY testing key support at its 200-day moving average as Jap"
+      "title": "AUD/USD Price Forecast: Bulls eye 0.7200 as RSI nears overbought territory",
+      "summary": "AUD/USD edges higher on Friday, climbing to its highest level since June 3 as the Australian Dollar (AUD) outperforms al"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesia: Expansionary stance with narrowing buffer – Standard Chartered",
-      "summary": "Standard Chartered’s Aldian Taloputra assesses Indonesia’s 2027 fiscal plans, noting a targeted deficit of 2.4% of GDP v"
+      "title": "Euro area: Manufacturing strengthens as services stall – Commerzbank",
+      "summary": "Commerzbank’s Senior Economist Dr. Vincent Stamer notes that Euro area business sentiment has stabilized at a moderate l"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Safe-haven bid on US debt worries – Commerzbank",
-      "summary": "Commerzbank’s Carsten Fritsch notes Gold has surged, breaking above USD 4,500 per troy ounce as safe‑haven demand rises "
+      "title": "United Kingdom: Services-led growth and price risks – Nomura",
+      "summary": "Nomura’s European Economics team highlights that UK composite output PMI rose to 52.5 in August, with services offsettin"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound dips hold above 216.50 Japanese Yen following mixed UK data",
-      "summary": "British Pound's (GBP) rally against the Japanese Yen (JPY) was capped at the 217.00 area earlier on Friday, and the pair"
+      "title": "EUR/GBP slips as strong PMIs cancel out and Iran signals de-escalation",
+      "summary": "The Euro (EUR) is falling against the British Pound (GBP). EUR/GBP held the mid-0.8500s on Friday, hovering just below t"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Binary tariff risks shape near-term path – TD Securities",
-      "summary": "TD Securities strategists argue that Section 338 tariff negotiations pose a binary risk for the Canadian Dollar (CAD) an"
+      "title": "US Dollar: Jackson Hole volatility over credibility – TD Securities",
+      "summary": "TD Securities strategists argue that Kevin Warsh’s Jackson Hole speech will focus on structural themes such as productiv"
     },
     {
       "source": "FXStreet",
-      "title": "Silver climbs toward $70 as US Dollar remains under pressure",
-      "summary": "Silver (XAG/USD) accelerates its advance on Friday and trades around $69.75 at the time of writing, up 2.41% on the day."
+      "title": "Euro: PMI strength supports against US Dollar – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports EUR/USD is firmer on broad US Dollar (USD) weakness and stronger-th"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Set to outperform Pound, US Dollar and Yen - Nomura",
-      "summary": "Nomura strategists see greater fiscal vulnerabilities in the United Kingdom (UK) than in the Euro area. Strong foreign i"
+      "title": "Japanese Yen strengthens against US Dollar as inflation backs BoJ rate hike bets",
+      "summary": "USD/JPY trades around 158.85 on Friday at the time of writing, edging lower after rebounding from the 158.00 level on Th"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains under pressure amid elevated Oil prices",
-      "summary": "The Indian Rupee (INR) ticks lower against the US Dollar (USD) on Friday. The USD/INR edges up to near 95.72 as elevated"
+      "title": "European gas: Storage gap supports high prices – Commerzbank",
+      "summary": "Norman Liebke at Commerzbank warns that low European gas storage, suspended LNG exports from Qatar and the end of the re"
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Canada: Q2 GDP rebound faces future headwinds – RBC",
+      "summary": "Royal Bank of Canada economists Nathan Janzen and Abbey Xu expect Canadian gross domestic product data for June and Q2 t"
     }
   ],
   "cot": {
@@ -192,19 +192,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Silver climbs toward $70 as US Dollar remains under pre",
-      "[強気] Euro: Set to outperform Pound, US Dollar and Yen - Nomu",
-      "[弱気] Indian Rupee remains under pressure amid elevated Oil p"
+      "[強気] Japanese Yen strengthens against US Dollar as inflation"
     ],
     "JPY": [
-      "[強気] Euro: Set to outperform Pound, US Dollar and Yen - Nomu"
+      "[強気] Japanese Yen strengthens against US Dollar as inflation"
     ],
     "EUR": [
-      "[強気] Euro: Set to outperform Pound, US Dollar and Yen - Nomu"
+      "[弱気] United Kingdom: Services-led growth and price risks – N",
+      "[強気] EUR/GBP slips as strong PMIs cancel out and Iran signal"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: Set to outperform Pound, US Dollar and Yen - Nomu"
+      "[強気] EUR/GBP slips as strong PMIs cancel out and Iran signal"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -229,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.07528,
-      "today_close": 158.77618,
+      "today_close": 158.9745,
       "prev_close": 159.07472,
-      "diff": -0.2985,
-      "diff_pct": -0.19
+      "diff": -0.1002,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.77618,
-      "sma20": 158.6204,
-      "sma50": 160.7444,
-      "sma200": 159.1109,
+      "latest": 158.9745,
+      "sma20": 158.6303,
+      "sma50": 160.7483,
+      "sma200": 159.1119,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -249,12 +248,12 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.34,
-      "chg20d_pct": 0.73
+      "chg5d_pct": -0.22,
+      "chg20d_pct": 0.86
     },
     "EURUSD": {
-      "latest": 1.16907,
-      "sma20": 1.1569,
+      "latest": 1.16771,
+      "sma20": 1.1568,
       "sma50": 1.1484,
       "sma200": 1.1603,
       "vs_sma20": "上",
@@ -265,8 +264,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 1.07,
-      "chg20d_pct": 1.37
+      "chg5d_pct": 0.96,
+      "chg20d_pct": 1.25
     }
   }
 }
