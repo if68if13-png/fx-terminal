@@ -1,17 +1,38 @@
 {
-  "timestamp": "2026-08-21T06:47:53.108092",
-  "generated": "2026年08月21日 06:47",
+  "timestamp": "2026-08-21T09:37:24.233006",
+  "generated": "2026年08月21日 09:37",
   "scores": {
     "USD": 2,
-    "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "JPY": -1,
+    "EUR": -1,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 3,
+      "quote_score": -1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
@@ -20,39 +41,18 @@
       "quote_score": 2
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
+      "diff": 1,
+      "base_score": 3,
       "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,38 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Mixed recovery after US selloff – Deutsche Bank",
-      "summary": "Deutsche Bank strategists note that United States (US) equities fell sharply as earlier gains in fixed income reversed, "
+      "title": "United States: Yields risk renewed surge – Rabobank",
+      "summary": "Rabobank's Senior US Strategist Philip Marey discusses United States (US) Treasuries, noting that the Treasury Departmen"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar stays near multi-month lows ahead of key PMI data",
-      "summary": "Here is what you need to know on Friday, August 21:"
+      "title": "1.3670: British Pound hits six-month highs as UK PMI beats expectations",
+      "summary": "The British Pound (GBP) rallied to fresh six-month highs against the US Dollar (USD) on Friday, boosted by stronger-than"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds gains against a weak US Dollar despite downbeat UK Retail Sales",
-      "summary": "The British Pound (GBP) trades firm against the US Dollar (USD) on Friday, with the GBP/USD pair pushing against six-mon"
+      "title": "Indian Rupee remains under pressure amid higher oil prices",
+      "summary": "The Indian Rupee (INR) ticks lower against the US Dollar (USD) in India's afternoon trading hours on Friday. The USD/INR"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Treasury twist signals structural risks – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur notes the US Dollar remains under pressure as EUR/USD trades around 1.17 following the US Tre"
+      "title": "Swedish Krona: Riksbank keeps tightening option open – Commerzbank",
+      "summary": "Commerzbank’s Antje Praefcke reports that the Riksbank left its policy rate at 1.75% and maintained a restrictive stance"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Further upside toward 1.1725 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang highlights EUR/USD at 1.1685 holding recent gains, with intraday trading lik"
+      "title": "ECB’s Kazāks: Central bank is well placed to act if needed to get inflation to 2%",
+      "summary": "European Central Bank (ECB) Governing Council member Mārtiņš Kazāks said during the European trading session on Friday t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold hits fresh high since June, above $4,550 as receding Fed hike bets undermine USD",
-      "summary": "Gold (XAU/USD) sticks to modest gains near its highest level since early June, touched earlier this Friday, and trades j"
+      "title": "Japanese Yen: Weakness offsets intervention impact – MUFG",
+      "summary": "MUFG's Michael Wan notes that US longer-end yields have returned close to pre-buyback levels, with the 10-year at 4.7% a"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee ticks lower due to elevated oil prices, recovery in US bond yields",
-      "summary": "The Indian Rupee (INR) edges down against the US Dollar (USD) in the opening session on Friday. The USD/INR ticks up to "
+      "title": "WTI Price Forecast: Oil supply tightness supports further upside above $90",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, trade flat near $86.00 during the European trading session on Friday, c"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Softer bias with pro-risk flows – ING",
+      "summary": "ING’s Chris Turner, Francesco Pesole and Frantisek Taborsky argue that recent US Treasury buy-backs are primarily a sign"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold rallies to its highest level since late May, eyes $4,600 on weak USD ahead of US PMIs",
+      "summary": "Gold (XAU/USD) builds on the intraday breakout momentum above a technically significant 200-day Simple Moving Average (S"
     },
     {
       "source": "MarketWatch",
@@ -181,10 +191,19 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] 1.3670: British Pound hits six-month highs as UK PMI be",
+      "[弱気] Gold rallies to its highest level since late May, eyes "
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen: Weakness offsets intervention impact – MU"
+    ],
+    "EUR": [
+      "[弱気] Gold rallies to its highest level since late May, eyes "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] 1.3670: British Pound hits six-month highs as UK PMI be"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -209,19 +228,19 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.07528,
-      "today_close": 158.94498,
+      "today_close": 158.48201,
       "prev_close": 159.07472,
-      "diff": -0.1297,
-      "diff_pct": -0.08
+      "diff": -0.5927,
+      "diff_pct": -0.37
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.94498,
-      "sma20": 158.6288,
-      "sma50": 160.7477,
-      "sma200": 159.1117,
-      "vs_sma20": "上",
+      "latest": 158.48201,
+      "sma20": 158.6057,
+      "sma50": 160.7385,
+      "sma200": 159.1094,
+      "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 19.0,
@@ -229,13 +248,13 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.24,
-      "chg20d_pct": 0.84
+      "chg5d_pct": -0.53,
+      "chg20d_pct": 0.55
     },
     "EURUSD": {
-      "latest": 1.16927,
-      "sma20": 1.1569,
-      "sma50": 1.1484,
+      "latest": 1.17048,
+      "sma20": 1.157,
+      "sma50": 1.1485,
       "sma200": 1.1603,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -245,8 +264,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 1.09,
-      "chg20d_pct": 1.38
+      "chg5d_pct": 1.19,
+      "chg20d_pct": 1.49
     }
   }
 }
