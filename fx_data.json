@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-21T03:50:28.577354",
-  "generated": "2026年08月21日 03:50",
+  "timestamp": "2026-08-21T06:47:53.108092",
+  "generated": "2026年08月21日 06:47",
   "scores": {
-    "USD": 4,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 1,
-    "GBP": 3,
-    "AUD": -2,
-    "NZD": 3,
+    "EUR": 0,
+    "GBP": 2,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,43 +15,43 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
-      "base_score": -2,
-      "quote_score": 4
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 3,
-      "quote_score": 4
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -108,43 +108,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc edges up against US Dollar amid heightened US debt concerns",
-      "summary": "The Swiss Franc (CHF) resumes its upside journey against the US Dollar (USD) on Friday after a corrective move the previ"
+      "title": "Equities: Mixed recovery after US selloff – Deutsche Bank",
+      "summary": "Deutsche Bank strategists note that United States (US) equities fell sharply as earlier gains in fixed income reversed, "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar gains ground above 0.7100 as US debt concerns weigh on US Dollar",
-      "summary": "The AUD/USD pair gains traction to near 0.7135 during the Asian trading hours on Friday. The US Dollar (USD) weakens aga"
+      "title": "Forex Today: US Dollar stays near multi-month lows ahead of key PMI data",
+      "summary": "Here is what you need to know on Friday, August 21:"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index trades around 99.75-99.70, hangs near three-month low",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, attracts fresh sellers during the "
+      "title": "British Pound holds gains against a weak US Dollar despite downbeat UK Retail Sales",
+      "summary": "The British Pound (GBP) trades firm against the US Dollar (USD) on Friday, with the GBP/USD pair pushing against six-mon"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound edges higher to near 1.3650, UK Retail Sales data looms",
-      "summary": "The GBP/USD pair gathers strength near 1.3645 during the early Asian trading hours on Friday. The US Dollar (USD) soften"
+      "title": "US Dollar: Treasury twist signals structural risks – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes the US Dollar remains under pressure as EUR/USD trades around 1.17 following the US Tre"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar gains ground amid rising oil prices",
-      "summary": "USD/CAD extends its losses for the third successive day, trading around 1.3770 during the Asian hours on Friday. The cur"
+      "title": "Euro: Further upside toward 1.1725 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang highlights EUR/USD at 1.1685 holding recent gains, with intraday trading lik"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar extends gains to fresh high since June, above mid-0.5900s vs softer USD",
-      "summary": "The NZD/USD pair attracts buyers for the third straight day and climbs to a fresh high since early June, around the 0.59"
+      "title": "Gold hits fresh high since June, above $4,550 as receding Fed hike bets undermine USD",
+      "summary": "Gold (XAU/USD) sticks to modest gains near its highest level since early June, touched earlier this Friday, and trades j"
     },
     {
       "source": "FXStreet",
-      "title": "Euro gains on hawkish ECB outlook despite firm US Dollar",
-      "summary": "EUR/USD remains stronger for the third consecutive day, trading around 1.1680 during the Asian hours on Friday. The Euro"
-    },
-    {
-      "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7817 vs. 6.7808 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7817 compa"
+      "title": "Indian Rupee ticks lower due to elevated oil prices, recovery in US bond yields",
+      "summary": "The Indian Rupee (INR) edges down against the US Dollar (USD) in the opening session on Friday. The USD/INR ticks up to "
     },
     {
       "source": "MarketWatch",
@@ -186,27 +181,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar gains ground above 0.7100 as US debt ",
-      "[強気] British Pound edges higher to near 1.3650, UK Retail Sa",
-      "[強気] New Zealand Dollar extends gains to fresh high since Ju",
-      "[強気] Euro gains on hawkish ECB outlook despite firm US Dolla"
-    ],
-    "EUR": [
-      "[強気] Euro gains on hawkish ECB outlook despite firm US Dolla"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound edges higher to near 1.3650, UK Retail Sa"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+194,930)",
-      "[弱気] Australian Dollar gains ground above 0.7100 as US debt "
+      "[COT] 🟢ロング優勢 (ネット:+194,930)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar extends gains to fresh high since Ju"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -224,18 +209,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.07528,
-      "today_close": 159.05882,
+      "today_close": 158.94498,
       "prev_close": 159.07472,
-      "diff": -0.0159,
-      "diff_pct": -0.01
+      "diff": -0.1297,
+      "diff_pct": -0.08
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.05882,
-      "sma20": 158.6345,
-      "sma50": 160.75,
-      "sma200": 159.1123,
+      "latest": 158.94498,
+      "sma20": 158.6288,
+      "sma50": 160.7477,
+      "sma200": 159.1117,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -244,11 +229,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.16,
-      "chg20d_pct": 0.91
+      "chg5d_pct": -0.24,
+      "chg20d_pct": 0.84
     },
     "EURUSD": {
-      "latest": 1.16935,
+      "latest": 1.16927,
       "sma20": 1.1569,
       "sma50": 1.1484,
       "sma200": 1.1603,
@@ -260,8 +245,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 1.1,
-      "chg20d_pct": 1.39
+      "chg5d_pct": 1.09,
+      "chg20d_pct": 1.38
     }
   }
 }
