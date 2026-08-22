@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-21T21:24:33.174540",
-  "generated": "2026年08月21日 21:24",
+  "timestamp": "2026-08-22T01:13:56.988021",
+  "generated": "2026年08月22日 01:13",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -108,6 +108,21 @@
     },
     {
       "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Bulls target YTD high after breakout",
+      "summary": "The Aussie Dollar finished the week with gains of over 0.82% on Friday and up more than 1.20% for the week as the US Dol"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Treasury yields extend rebound as Services PMI beats estimates",
+      "summary": "US Treasury yields continue their recovery following the announcement of a bond buyback by the US Department of the Trea"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso reaches two-year high despite weaker Retail Sales",
+      "summary": "The Mexican currency appreciates to levels last seen in May 2024 as the USD/MXN falls to a two-year low as the US Dollar"
+    },
+    {
+      "source": "FXStreet",
       "title": "South Korean Won: Cautious tightening path expected from BoK – DBS",
       "summary": "DBS economists Taimur Baig and Radhika Rao expect the Bank of Korea (BoK) to raise its base rate by 25bps to 3.00% at th"
     },
@@ -130,26 +145,6 @@
       "source": "FXStreet",
       "title": "Malaysian Ringgit: Supported by strong fundamentals against US Dollar – OCBC",
       "summary": "OCBC’s Sim Moh Siong and Christopher Wong stress that the Malaysian Ringgit (MYR) remains relatively well supported by a"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore: inflation and production outlook – DBS",
-      "summary": "DBS economists Taimur Baig and Radhika Rao project Singapore’s headline and core inflation will rise in July to 2.4% and"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG bulls test $70 as rally extends",
-      "summary": "Silver (XAG/USD) prices rally for the third straight day on Friday, up more than 2% and, for the week, gains over 7.40%,"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold hits three-month peak above $4,600 as Middle East risks fuel rally",
-      "summary": "Gold price hits a three-month high and is poised to end the week with gains of over 5.6%, even though business activity "
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Bulls test 1.1700 as RSI turns overbought",
-      "summary": "EUR/USD heads for a fourth consecutive weekly gain on Friday, although it has erased its earlier intraday advance. At th"
     },
     {
       "source": "MarketWatch",
@@ -192,6 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Mexican Peso reaches two-year high despite weaker Retai",
       "[強気] Malaysian Ringgit: Supported by strong fundamentals aga"
     ],
     "GBP": [
@@ -220,18 +216,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.98351,
-      "today_close": 159.00969,
+      "today_close": 158.98547,
       "prev_close": 158.97932,
-      "diff": 0.0304,
-      "diff_pct": 0.02
+      "diff": 0.0061,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.00969,
-      "sma20": 158.7198,
-      "sma50": 160.7012,
-      "sma200": 159.1281,
+      "latest": 158.98547,
+      "sma20": 158.7186,
+      "sma50": 160.7007,
+      "sma200": 159.128,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -240,11 +236,11 @@
       "low20": 155.2512,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.29,
-      "chg20d_pct": 1.14
+      "chg5d_pct": -0.3,
+      "chg20d_pct": 1.12
     },
     "EURUSD": {
-      "latest": 1.16802,
+      "latest": 1.16761,
       "sma20": 1.1576,
       "sma50": 1.1489,
       "sma200": 1.1602,
@@ -256,8 +252,8 @@
       "low20": 1.1502,
       "high60": 1.1711,
       "low60": 1.1324,
-      "chg5d_pct": 0.86,
-      "chg20d_pct": 1.29
+      "chg5d_pct": 0.83,
+      "chg20d_pct": 1.25
     }
   }
 }
