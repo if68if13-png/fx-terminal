@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-23T01:20:06.575714",
-  "generated": "2026年08月23日 01:20",
+  "timestamp": "2026-08-23T03:50:26.511974",
+  "generated": "2026年08月23日 03:50",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -216,15 +216,15 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.96173,
-      "today_close": 158.98965,
+      "today_close": 158.99033,
       "prev_close": 158.96065,
-      "diff": 0.029,
+      "diff": 0.0297,
       "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.98965,
+      "latest": 158.99033,
       "sma20": 158.8068,
       "sma50": 160.6524,
       "sma200": 159.1387,
@@ -240,7 +240,7 @@
       "chg20d_pct": 1.14
     },
     "EURUSD": {
-      "latest": 1.16845,
+      "latest": 1.16844,
       "sma20": 1.1584,
       "sma50": 1.1494,
       "sma200": 1.1601,
