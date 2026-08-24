@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-24T09:47:44.309357",
-  "generated": "2026年08月24日 09:47",
+  "timestamp": "2026-08-24T12:50:43.476712",
+  "generated": "2026年08月24日 12:50",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
-    "EUR": -2,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": -2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": -2,
-      "quote_score": -1
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,48 +108,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Trade tensions threaten recovery against US Dollar - OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong warn that renewed US-Canada trade tensions could undermine the Canadian Dollar"
+      "title": "Euro: Range consolidation against US Dollar as growth gap narrows – Societe Generale",
+      "summary": "Societe Generale’s Kit Juckes notes EUR/USD has retraced half of its drop from above 1.20 to 1.1325 and is now stuck in "
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: Budget risks point to further weakness versus Euro - Societe Generale",
-      "summary": "Societe Generale says Poland’s elevated fiscal deficit and rapidly rising public debt could keep pressure on the zloty, "
+      "title": "US Dollar: Policy risks keep downside bias – ING",
+      "summary": "ING’s Chris Turner, Francesco Pesole and Frantisek Taborsky note the Dollar starts the week soft as markets await US pol"
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: Rate path extends beyond summer – ING",
-      "summary": "ING strategists see Tuesday’s National Bank of Hungary (NBH) decision as the final step in a summer mini rate-cut cycle,"
+      "title": "Australian Dollar: Cooling inflation but carry remains supportive – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects Australia’s July Consumer Price Index (CPI) to ease, with headline "
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds near three-month highs as investors await US sanctions to Iran",
-      "summary": "The Euro (EUR) nurses minor losses against the US Dollar (USD) on Monday but holds most of the gains taken last week."
+      "title": "CEE FX: Koruna leads as policy diverges – Commerzbank",
+      "summary": "Commerzbank’s Tatha Ghose reviews recent CEE FX performance, noting that the euro’s strength above 1.17 has supported hi"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen weakens against recovering USD; seems vulnerable amid US-Japan rate gap",
-      "summary": "The USD/JPY pair rallies over 75 pips following an intraday slide to mid-158.00s and climbs to a fresh daily high during"
+      "title": "Canadian Dollar: GDP rebound supports Loonie – TD Securities",
+      "summary": "TD Securities economists Robert Both and Emma Lawrence expect Canada’s Q2 National Accounts to show a sharp rebound in G"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Warsh speech shapes Dollar and Treasuries – BNY",
-      "summary": "BNY’s Geoff Yu highlights that markets will focus on Kevin Warsh’s first Jackson Hole appearance, with July PCE data see"
+      "title": "US Dollar: Debasement narrative caps upside – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that the US Treasury’s expanded long-end buyback programme has revived ma"
     },
     {
-      "source": "FXStreet",
-      "title": "Dow Jones futures slip as US Treasury pledges buybacks, Middle East tensions persist",
-      "summary": "Dow Jones futures remain subdued around 53,350 during European hours on Monday. Meanwhile, S&amp;P 500 futures decline b"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen: Slightly bullish within broad range against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY price action as lacking fresh clues after s"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold sticks to gains near mid-May highs; bulls turn cautious amid notable USD strength",
-      "summary": "Gold (XAU/USD) maintains its bullish tone through the first half of the European session and remains close to its highes"
+      "source": "Investing",
+      "title": "Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23",
+      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -192,14 +182,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen weakens against recovering USD; seems vuln"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen weakens against recovering USD; seems vuln"
-    ],
-    "EUR": [
-      "[弱気] Polish Zloty: Budget risks point to further weakness ve",
-      "[弱気] Japanese Yen weakens against recovering USD; seems vuln"
+      "[強気] Canadian Dollar: GDP rebound supports Loonie – TD Secur"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -210,6 +193,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar: GDP rebound supports Loonie – TD Secur"
     ]
   },
   "rates": {
@@ -227,31 +213,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.01255,
-      "today_close": 159.21541,
+      "today_close": 159.0092,
       "prev_close": 159.01237,
-      "diff": 0.203,
-      "diff_pct": 0.13
+      "diff": -0.0032,
+      "diff_pct": -0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.21541,
-      "sma20": 158.8819,
-      "sma50": 160.6104,
-      "sma200": 159.1504,
+      "latest": 159.0092,
+      "sma20": 158.8716,
+      "sma50": 160.6062,
+      "sma200": 159.1493,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "上",
+      "vs_sma200": "下",
       "rsi14": 18.2,
       "high20": 159.7822,
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.67,
-      "chg20d_pct": 0.94
+      "chg5d_pct": 0.54,
+      "chg20d_pct": 0.81
     },
     "EURUSD": {
-      "latest": 1.16635,
+      "latest": 1.16691,
       "sma20": 1.1591,
       "sma50": 1.1498,
       "sma200": 1.1601,
@@ -263,8 +249,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.12,
-      "chg20d_pct": 1.13
+      "chg5d_pct": -0.08,
+      "chg20d_pct": 1.18
     }
   }
 }
