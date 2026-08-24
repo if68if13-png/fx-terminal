@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-24T06:58:21.598286",
-  "generated": "2026年08月24日 06:58",
+  "timestamp": "2026-08-24T09:47:44.309357",
+  "generated": "2026年08月24日 09:47",
   "scores": {
     "USD": 1,
-    "JPY": 0,
-    "EUR": 0,
+    "JPY": -1,
+    "EUR": -2,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,31 +13,31 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -2,
       "quote_score": 1
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 1,
-      "quote_score": 0
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -1,
       "quote_score": 1
     },
     {
@@ -50,9 +50,9 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "diff": -1,
+      "base_score": -2,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,38 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Upside risks building as fiscal worries grow – ING",
-      "summary": "ING Commodities Strategist Ewa Manthey highlights that Gold has rebounded from its July lows near $4,000/oz to around $4"
+      "title": "Canadian Dollar: Trade tensions threaten recovery against US Dollar - OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong warn that renewed US-Canada trade tensions could undermine the Canadian Dollar"
     },
     {
       "source": "FXStreet",
-      "title": "Gold extends rally above $4,650, fresh high since mid-May as Fed hike bets recede",
-      "summary": "Gold (XAU/USD) hits a fresh high since mid-May heading into the European session and seems poised to build on last week'"
+      "title": "Polish Zloty: Budget risks point to further weakness versus Euro - Societe Generale",
+      "summary": "Societe Generale says Poland’s elevated fiscal deficit and rapidly rising public debt could keep pressure on the zloty, "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Psychological resistance and intervention fears – MUFG",
-      "summary": "MUFG’s Teppei Ino reviews recent USD/JPY trading ahead of Jackson Hole. The pair opened near 159 and repeatedly tested t"
+      "title": "Hungarian Forint: Rate path extends beyond summer – ING",
+      "summary": "ING strategists see Tuesday’s National Bank of Hungary (NBH) decision as the final step in a summer mini rate-cut cycle,"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Upside room toward 1.1800 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a constructive view on EUR/USD after the pair held near"
+      "title": "Euro holds near three-month highs as investors await US sanctions to Iran",
+      "summary": "The Euro (EUR) nurses minor losses against the US Dollar (USD) on Monday but holds most of the gains taken last week."
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Holds steady below 1.1700 as overbought momentum tempers further gains",
-      "summary": "The EUR/USD pair holds steady near 1.1680 during the early European trading hours on Monday. Fiscal interventions from t"
+      "title": "Japanese Yen weakens against recovering USD; seems vulnerable amid US-Japan rate gap",
+      "summary": "The USD/JPY pair rallies over 75 pips following an intraday slide to mid-158.00s and climbs to a fresh daily high during"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains steady amid strong capital inflows",
-      "summary": "The Indian Rupee (INR) maintains its position against the US Dollar (USD) on Monday, positioning itself for a quiet star"
+      "title": "US Dollar: Warsh speech shapes Dollar and Treasuries – BNY",
+      "summary": "BNY’s Geoff Yu highlights that markets will focus on Kevin Warsh’s first Jackson Hole appearance, with July PCE data see"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah declines despite prevailing high interest rates, weaker US Dollar",
-      "summary": "USD/IDR gains ground after three days of losses, trading around 17,740 during the Asian hours on Monday. However, the cu"
+      "title": "Dow Jones futures slip as US Treasury pledges buybacks, Middle East tensions persist",
+      "summary": "Dow Jones futures remain subdued around 53,350 during European hours on Monday. Meanwhile, S&amp;P 500 futures decline b"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen: Slightly bullish within broad range against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY price action as lacking fresh clues after s"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold sticks to gains near mid-May highs; bulls turn cautious amid notable USD strength",
+      "summary": "Gold (XAU/USD) maintains its bullish tone through the first half of the European session and remains close to its highes"
     },
     {
       "source": "MarketWatch",
@@ -182,9 +192,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold: Upside risks building as fiscal worries grow – IN",
-      "[強気] Indian Rupee remains steady amid strong capital inflows",
-      "[弱気] Indonesian Rupiah declines despite prevailing high inte"
+      "[弱気] Japanese Yen weakens against recovering USD; seems vuln"
+    ],
+    "JPY": [
+      "[弱気] Japanese Yen weakens against recovering USD; seems vuln"
+    ],
+    "EUR": [
+      "[弱気] Polish Zloty: Budget risks point to further weakness ve",
+      "[弱気] Japanese Yen weakens against recovering USD; seems vuln"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -212,31 +227,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.01255,
-      "today_close": 158.9971,
+      "today_close": 159.21541,
       "prev_close": 159.01237,
-      "diff": -0.0153,
-      "diff_pct": -0.01
+      "diff": 0.203,
+      "diff_pct": 0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.9971,
-      "sma20": 158.871,
-      "sma50": 160.606,
-      "sma200": 159.1493,
+      "latest": 159.21541,
+      "sma20": 158.8819,
+      "sma50": 160.6104,
+      "sma200": 159.1504,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 18.2,
       "high20": 159.7822,
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.53,
-      "chg20d_pct": 0.8
+      "chg5d_pct": 0.67,
+      "chg20d_pct": 0.94
     },
     "EURUSD": {
-      "latest": 1.16791,
+      "latest": 1.16635,
       "sma20": 1.1591,
       "sma50": 1.1498,
       "sma200": 1.1601,
@@ -248,8 +263,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.01,
-      "chg20d_pct": 1.27
+      "chg5d_pct": -0.12,
+      "chg20d_pct": 1.13
     }
   }
 }
