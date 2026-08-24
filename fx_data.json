@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-23T21:22:14.002016",
-  "generated": "2026年08月23日 21:22",
+  "timestamp": "2026-08-24T01:18:07.464126",
+  "generated": "2026年08月24日 01:18",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -43,15 +43,15 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -108,43 +108,33 @@
     },
     {
       "source": "FXStreet",
+      "title": "PBOC sets USD/CNY reference rate at 6.7841 vs. 6.7817 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7841 compa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro holds steady against US Dollar amid US debt strategy",
+      "summary": "EUR/USD remains stronger for the fourth successive trading day, hovering around 1.1680 during the Asian hours on Monday."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar posts modest gains above 0.7150 on US Treasury buyback worries",
+      "summary": "The AUD/USD pair trades with mild gains around 0.7175 during the early Asian session on Monday. The US Dollar (USD) edge"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar edges lower below 0.6000 after weaker Retail Sales data",
+      "summary": "The NZD/USD pair declines to around 0.5970 during the early Asian session on Monday. The New Zealand Dollar (NZD) weaken"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Iran’s Araghchi says new sanctions threatened by 'desperate' US will fail",
+      "summary": "Iran's Foreign Minister Abbas Araghchi dismissed the threat of a fresh round of US economic sanctions as a “desperate” p"
+    },
+    {
+      "source": "FXStreet",
       "title": "AUD/USD Price Forecast: Bulls target YTD high after breakout",
       "summary": "The Aussie Dollar finished the week with gains of over 0.82% on Friday and up more than 1.20% for the week as the US Dol"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Treasury yields extend rebound as Services PMI beats estimates",
-      "summary": "US Treasury yields continue their recovery following the announcement of a bond buyback by the US Department of the Trea"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso reaches two-year high despite weaker Retail Sales",
-      "summary": "The Mexican currency appreciates to levels last seen in May 2024 as the USD/MXN falls to a two-year low as the US Dollar"
-    },
-    {
-      "source": "FXStreet",
-      "title": "South Korean Won: Cautious tightening path expected from BoK – DBS",
-      "summary": "DBS economists Taimur Baig and Radhika Rao expect the Bank of Korea (BoK) to raise its base rate by 25bps to 3.00% at th"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forecasting the upcoming week: Warsh's Jackson Hole debut and US inflation test a soft US Dollar",
-      "summary": "The US Dollar Index (DXY) ended the week near even with Thursday, holding near 98.80. Like Thursday, DXY traded down to "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Thai Baht: Extended policy pause expected from Bank of Thailand – DBS",
-      "summary": "DBS economists Taimur Baig and Radhika Rao expect the Bank of Thailand (BoT) to keep its policy rate unchanged at 1.00% "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen neutral as it meets resilient US data",
-      "summary": "The US Dollar (USD) is muted against the Japanese Yen (JPY). USD/JPY traded in the low 159.00s at the time of writing on"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Malaysian Ringgit: Supported by strong fundamentals against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong stress that the Malaysian Ringgit (MYR) remains relatively well supported by a"
     },
     {
       "source": "MarketWatch",
@@ -187,8 +177,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Mexican Peso reaches two-year high despite weaker Retai",
-      "[強気] Malaysian Ringgit: Supported by strong fundamentals aga"
+      "[強気] Euro holds steady against US Dollar amid US debt strate"
+    ],
+    "EUR": [
+      "[強気] Euro holds steady against US Dollar amid US debt strate"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -216,18 +208,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.01255,
-      "today_close": 158.90952,
+      "today_close": 158.86684,
       "prev_close": 159.01237,
-      "diff": -0.1029,
-      "diff_pct": -0.06
+      "diff": -0.1455,
+      "diff_pct": -0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.90952,
-      "sma20": 158.8666,
-      "sma50": 160.6042,
-      "sma200": 159.1488,
+      "latest": 158.86684,
+      "sma20": 158.8645,
+      "sma50": 160.6034,
+      "sma200": 159.1486,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -236,11 +228,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.48,
-      "chg20d_pct": 0.74
+      "chg5d_pct": 0.45,
+      "chg20d_pct": 0.72
     },
     "EURUSD": {
-      "latest": 1.16773,
+      "latest": 1.16798,
       "sma20": 1.1591,
       "sma50": 1.1498,
       "sma200": 1.1601,
@@ -252,8 +244,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.01,
-      "chg20d_pct": 1.25
+      "chg5d_pct": 0.02,
+      "chg20d_pct": 1.27
     }
   }
 }
