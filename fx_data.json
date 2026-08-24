@@ -1,37 +1,23 @@
 {
-  "timestamp": "2026-08-24T12:50:43.476712",
-  "generated": "2026年08月24日 12:50",
+  "timestamp": "2026-08-24T15:38:58.881070",
+  "generated": "2026年08月24日 15:38",
   "scores": {
-    "USD": 3,
+    "USD": 1,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
@@ -41,11 +27,25 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 1,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -108,33 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Range consolidation against US Dollar as growth gap narrows – Societe Generale",
-      "summary": "Societe Generale’s Kit Juckes notes EUR/USD has retraced half of its drop from above 1.20 to 1.1325 and is now stuck in "
+      "title": "British Pound: Sentiment supports further gains against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report that the British Pound (GBP) is flat versus the Dollar but "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Policy risks keep downside bias – ING",
-      "summary": "ING’s Chris Turner, Francesco Pesole and Frantisek Taborsky note the Dollar starts the week soft as markets await US pol"
+      "title": "United States: Spending and inflation outlook – Wells Fargo",
+      "summary": "Wells Fargo Economics, led by Tom Porcelli and colleagues, expects July consumer spending to rise modestly, with nominal"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Cooling inflation but carry remains supportive – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects Australia’s July Consumer Price Index (CPI) to ease, with headline "
+      "title": "Japanese Yen slips as US Dollar stabilizes, US PCE in focus",
+      "summary": "USD/JPY edges higher on Monday as the US Dollar (USD) finds some stability following last week’s sharp volatility, with "
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Koruna leads as policy diverges – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose reviews recent CEE FX performance, noting that the euro’s strength above 1.17 has supported hi"
+      "title": "Canadian Dollar: Trade shock weighs against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that the Canadian Dollar (CAD) is the main G10 underperformer"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: GDP rebound supports Loonie – TD Securities",
-      "summary": "TD Securities economists Robert Both and Emma Lawrence expect Canada’s Q2 National Accounts to show a sharp rebound in G"
+      "title": "Federal Reserve: Jackson Hole communication focus – Wells Fargo",
+      "summary": "Wells Fargo Economics argues that Jackson Hole is often overhyped, with only a couple of truly consequential speeches in"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Debasement narrative caps upside – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that the US Treasury’s expanded long-end buyback programme has revived ma"
+      "title": "Bank of Canada: Rates seen on hold then higher – TD Securities",
+      "summary": "TD Securities expects the Bank of Canada to maintain the Overnight Rate at 2.25% through 2026, despite headline CPI near"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar: Weakness may stabilize as US growth advantage persists - BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes that the Treasury’s buyback announcement initially pushed longer-term"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Canadian Dollar slides as Trump escalates trade war with Canada",
+      "summary": "USD/CAD extends its advance on Monday, trading around 1.3830 at the time of writing, up 0.52% on the day."
     },
     {
       "source": "Investing",
@@ -182,7 +192,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Canadian Dollar: GDP rebound supports Loonie – TD Secur"
+      "[弱気] US Dollar: Weakness may stabilize as US growth advantag"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -193,9 +203,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Canadian Dollar: GDP rebound supports Loonie – TD Secur"
     ]
   },
   "rates": {
@@ -213,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.01255,
-      "today_close": 159.0092,
+      "today_close": 159.13806,
       "prev_close": 159.01237,
-      "diff": -0.0032,
-      "diff_pct": -0.0
+      "diff": 0.1257,
+      "diff_pct": 0.08
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.0092,
-      "sma20": 158.8716,
-      "sma50": 160.6062,
-      "sma200": 159.1493,
+      "latest": 159.13806,
+      "sma20": 158.8781,
+      "sma50": 160.6088,
+      "sma200": 159.15,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -233,11 +240,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.54,
-      "chg20d_pct": 0.81
+      "chg5d_pct": 0.62,
+      "chg20d_pct": 0.89
     },
     "EURUSD": {
-      "latest": 1.16691,
+      "latest": 1.16708,
       "sma20": 1.1591,
       "sma50": 1.1498,
       "sma200": 1.1601,
@@ -249,8 +256,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.08,
-      "chg20d_pct": 1.18
+      "chg5d_pct": -0.06,
+      "chg20d_pct": 1.19
     }
   }
 }
