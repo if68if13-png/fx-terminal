@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-24T03:54:05.513348",
-  "generated": "2026年08月24日 03:54",
+  "timestamp": "2026-08-24T06:58:21.598286",
+  "generated": "2026年08月24日 06:58",
   "scores": {
-    "USD": 3,
-    "JPY": 1,
-    "EUR": 1,
+    "USD": 1,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
       "quote_score": 1
     },
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 1,
-      "quote_score": 3
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 2,
@@ -51,8 +51,8 @@
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,33 +108,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index softens below 99.00 on US fiscal concerns",
-      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
+      "title": "Gold: Upside risks building as fiscal worries grow – ING",
+      "summary": "ING Commodities Strategist Ewa Manthey highlights that Gold has rebounded from its July lows near $4,000/oz to around $4"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen advances on BoJ rate hike bets, subdued US Dollar",
-      "summary": "USD/JPY extended its losses for the second straight day after intraday volatility, trading around 158.80 during Asian ho"
+      "title": "Gold extends rally above $4,650, fresh high since mid-May as Fed hike bets recede",
+      "summary": "Gold (XAU/USD) hits a fresh high since mid-May heading into the European session and seems poised to build on last week'"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar bears seem hesitant as weak USD counters US-Canada trade war",
-      "summary": "The USD/CAD pair struggles to capitalize on a bullish gap opening on Monday, though it retains an intraday positive bias"
+      "title": "Japanese Yen: Psychological resistance and intervention fears – MUFG",
+      "summary": "MUFG’s Teppei Ino reviews recent USD/JPY trading ahead of Jackson Hole. The pair opened near 159 and repeatedly tested t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold gains momentum above $4,600 on US Treasury buyback plans",
-      "summary": "Gold price (XAU/USD) gains traction to around $4,625 during the early Asian trading hours on Monday. The precious metal "
+      "title": "Euro: Upside room toward 1.1800 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a constructive view on EUR/USD after the pair held near"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7841 vs. 6.7817 previous",
-      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7841 compa"
+      "title": "EUR/USD Price Forecast: Holds steady below 1.1700 as overbought momentum tempers further gains",
+      "summary": "The EUR/USD pair holds steady near 1.1680 during the early European trading hours on Monday. Fiscal interventions from t"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds steady against US Dollar amid US debt strategy",
-      "summary": "EUR/USD remains stronger for the fourth successive trading day, hovering around 1.1680 during the Asian hours on Monday."
+      "title": "Indian Rupee remains steady amid strong capital inflows",
+      "summary": "The Indian Rupee (INR) maintains its position against the US Dollar (USD) on Monday, positioning itself for a quiet star"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indonesian Rupiah declines despite prevailing high interest rates, weaker US Dollar",
+      "summary": "USD/IDR gains ground after three days of losses, trading around 17,740 during the Asian hours on Monday. However, the cu"
     },
     {
       "source": "MarketWatch",
@@ -177,15 +182,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen advances on BoJ rate hike bets, subdued US",
-      "[弱気] Canadian Dollar bears seem hesitant as weak USD counter",
-      "[強気] Euro holds steady against US Dollar amid US debt strate"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen advances on BoJ rate hike bets, subdued US"
-    ],
-    "EUR": [
-      "[強気] Euro holds steady against US Dollar amid US debt strate"
+      "[弱気] Gold: Upside risks building as fiscal worries grow – IN",
+      "[強気] Indian Rupee remains steady amid strong capital inflows",
+      "[弱気] Indonesian Rupiah declines despite prevailing high inte"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -196,9 +195,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar bears seem hesitant as weak USD counter"
     ]
   },
   "rates": {
@@ -216,18 +212,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.01255,
-      "today_close": 158.96841,
+      "today_close": 158.9971,
       "prev_close": 159.01237,
-      "diff": -0.044,
-      "diff_pct": -0.03
+      "diff": -0.0153,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.96841,
-      "sma20": 158.8696,
-      "sma50": 160.6054,
-      "sma200": 159.1491,
+      "latest": 158.9971,
+      "sma20": 158.871,
+      "sma50": 160.606,
+      "sma200": 159.1493,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -236,11 +232,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.51,
-      "chg20d_pct": 0.78
+      "chg5d_pct": 0.53,
+      "chg20d_pct": 0.8
     },
     "EURUSD": {
-      "latest": 1.1679,
+      "latest": 1.16791,
       "sma20": 1.1591,
       "sma50": 1.1498,
       "sma200": 1.1601,
@@ -253,7 +249,7 @@
       "high60": 1.1711,
       "low60": 1.1354,
       "chg5d_pct": 0.01,
-      "chg20d_pct": 1.26
+      "chg20d_pct": 1.27
     }
   }
 }
