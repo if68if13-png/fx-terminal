@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-25T06:48:16.652452",
-  "generated": "2026年08月25日 06:48",
+  "timestamp": "2026-08-25T09:35:05.627535",
+  "generated": "2026年08月25日 09:35",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": 1,
-    "GBP": 2,
+    "USD": 5,
+    "JPY": -1,
+    "EUR": 0,
+    "GBP": 1,
     "AUD": 0,
     "NZD": 2,
-    "CAD": 0,
-    "CHF": 0
+    "CAD": 1,
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "強くロング",
+      "diff": 6,
+      "base_score": 5,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
       "base_score": 1,
-      "quote_score": 2
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,48 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "WTI slides below $84.00 on firmer USD but US-Iran tensions limit deeper losses",
-      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – attracts fresh sellers following an intraday uptick t"
+      "title": "Canadian Dollar: Tariff risks cloud outlook – Commerzbank",
+      "summary": "Michael Pfister at Commerzbank assesses the potential impact of higher US auto tariffs on Canada and the Canadian Dollar"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar edges up as RBA keeps rate hike option quite possible",
-      "summary": "The Australian Dollar (AUD) trades slightly higher against its major currency peers, except the US Dollar (USD), on Tues"
+      "title": "Japanese Yen: Range trade within 157.90 and 159.80 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY as locked in a range-trading phase, with a "
     },
     {
       "source": "FXStreet",
-      "title": "Equities: Semiconductor selloff pressures Wall Street - Deutsche Bank",
-      "summary": "Deutsche Bank strategists describe a cautious session for United States (US) equities, with the S&amp;P 500 slipping as "
+      "title": "Indian Rupee: Range holds against US Dollar as inflows offset trade drag – DBS",
+      "summary": "DBS economist Radhika Rao observes that strong FCNR (B) swap inflows and higher FX reserves have not translated into sig"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: US Dollar keeps crawling towards the key 160.00 area",
-      "summary": "The Japanese Yen (JPY) remains on the defensive against the US Dollar (USD) on Tuesday, in a low-volatility market, as i"
+      "title": "Dow Jones futures advance as tech stocks rebound ahead of looming Nvidia earnings",
+      "summary": "Dow Jones futures gain by 0.18%, trading around 53,590 during European hours on Tuesday. Meanwhile, S&amp;P 500 futures "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Data weakness keeps downside risks elevated - TD Securities",
-      "summary": "TD Securities strategists argue that the US Dollar (USD) has re-entered a bearish regime after the Treasury buyback anno"
+      "title": "Australian Dollar: CPI keeps RBA on hold bias – ING",
+      "summary": "ING’s Francesco Pesole expects Australia’s July inflation data to show further moderation, consistent with no additional"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Further gains eyed toward 1.1800 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a constructive stance on EUR/USD despite recent consoli"
+      "title": "Hungarian Forint: MNB tone shift watched – Commerzbank",
+      "summary": "Commerzbank’s Tatha Ghose expects Hungary's central bank, Magyar Nemzeti Bank (MNB), to cut its base rate by 25bp to 5.5"
     },
     {
       "source": "FXStreet",
-      "title": "Gold sticks to modest losses below $4,650 as Fed risks and Middle East tensions lift USD",
-      "summary": "Gold (XAU/USD) stabilizes below $4,650 heading into the European session, stalling its intraday retracement slide from t"
+      "title": "Euro holds gains against Canadian Dollar on upbeat German IFO data",
+      "summary": "EUR/CAD extends its gains for the second consecutive day, trading around 1.6160 during the European hours on Tuesday. Th"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Corrects further as US Dollar extends recovery",
-      "summary": "The Euro (EUR) trades marginally lower against the US Dollar (USD) on Tuesday, extending its corrective move from the fo"
+      "title": "British Pound extends gains to fresh monthly peak, around mid-217.00s vs weaker Yen",
+      "summary": "The GBP/JPY cross catches fresh bids on Tuesday and climbs to its highest level since July 30, around mid-217.00s during"
     },
     {
-      "source": "FXStreet",
-      "title": "Indian Rupee ticks up against US Dollar on RBI’s likely intervention",
-      "summary": "The Indian Rupee (INR) trades marginally higher against the US Dollar (USD) in the opening session on Tuesday."
+      "source": "Investing",
+      "title": "Bitcoin rallies past $80k as ‘debasement trade’ dents dollar",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -192,22 +192,34 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar edges up as RBA keeps rate hike optio",
-      "[弱気] US Dollar: Data weakness keeps downside risks elevated "
+      "[強気] Indian Rupee: Range holds against US Dollar as inflows ",
+      "[強気] Australian Dollar: CPI keeps RBA on hold bias – ING",
+      "[強気] Euro holds gains against Canadian Dollar on upbeat Germ"
+    ],
+    "JPY": [
+      "[弱気] British Pound extends gains to fresh monthly peak, arou"
     ],
     "EUR": [
-      "[強気] Australian Dollar edges up as RBA keeps rate hike optio"
+      "[強気] Euro holds gains against Canadian Dollar on upbeat Germ",
+      "[弱気] British Pound extends gains to fresh monthly peak, arou"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound extends gains to fresh monthly peak, arou"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] Australian Dollar edges up as RBA keeps rate hike optio"
+      "[強気] Australian Dollar: CPI keeps RBA on hold bias – ING"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Euro holds gains against Canadian Dollar on upbeat Germ"
+    ],
+    "CHF": [
+      "[強気] Australian Dollar: CPI keeps RBA on hold bias – ING"
     ]
   },
   "rates": {
@@ -225,18 +237,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.09948,
-      "today_close": 159.37408,
+      "today_close": 159.33799,
       "prev_close": 159.09768,
-      "diff": 0.2764,
-      "diff_pct": 0.17
+      "diff": 0.2403,
+      "diff_pct": 0.15
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.37408,
-      "sma20": 158.9562,
-      "sma50": 160.5535,
-      "sma200": 159.1611,
+      "latest": 159.33799,
+      "sma20": 158.9544,
+      "sma50": 160.5528,
+      "sma200": 159.1609,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -245,13 +257,13 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.19,
-      "chg20d_pct": 1.02
+      "chg5d_pct": 0.17,
+      "chg20d_pct": 0.99
     },
     "EURUSD": {
-      "latest": 1.16534,
+      "latest": 1.16687,
       "sma20": 1.1596,
-      "sma50": 1.1502,
+      "sma50": 1.1503,
       "sma200": 1.16,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -261,8 +273,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.22,
-      "chg20d_pct": 0.86
+      "chg5d_pct": -0.09,
+      "chg20d_pct": 0.99
     }
   }
 }
