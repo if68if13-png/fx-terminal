@@ -1,37 +1,30 @@
 {
-  "timestamp": "2026-08-25T03:49:20.164982",
-  "generated": "2026年08月25日 03:49",
+  "timestamp": "2026-08-25T06:48:16.652452",
+  "generated": "2026年08月25日 06:48",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 3,
+    "AUD": 0,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
-    },
-    {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -41,18 +34,25 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -108,47 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds gains near 99.00 amid escalating geopolitical risks",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
+      "title": "WTI slides below $84.00 on firmer USD but US-Iran tensions limit deeper losses",
+      "summary": "West Texas Intermediate (WTI) – the benchmark US Crude Oil price – attracts fresh sellers following an intraday uptick t"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD corrects below $68 in countdown to US PCE Inflation data",
-      "summary": "Silver price (XAG/USD) is down 1.6% to near $67.87 during the Asian trading session on Tuesday. The white metal is under"
+      "title": "Australian Dollar edges up as RBA keeps rate hike option quite possible",
+      "summary": "The Australian Dollar (AUD) trades slightly higher against its major currency peers, except the US Dollar (USD), on Tues"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds range below mid-1.3600s as USD firms  amid Fed risks and Iran tensions",
-      "summary": "The GBP/USD pair extends its sideways consolidative price move for the second straight day and trades around the 1.3630 "
+      "title": "Equities: Semiconductor selloff pressures Wall Street - Deutsche Bank",
+      "summary": "Deutsche Bank strategists describe a cautious session for United States (US) equities, with the S&amp;P 500 slipping as "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar gains as high inflation fuels odds of RBNZ September rate hikes",
-      "summary": "NZD/USD gains ground after registering modest losses in the previous day, trading around 0.5960 during the Asian hours o"
+      "title": "USD/JPY Price Forecast: US Dollar keeps crawling towards the key 160.00 area",
+      "summary": "The Japanese Yen (JPY) remains on the defensive against the US Dollar (USD) on Tuesday, in a low-volatility market, as i"
     },
     {
       "source": "FXStreet",
-      "title": "Gold retreats from mid-May highs; fails ahead of $4,700 as Fed risks support USD",
-      "summary": "Gold (XAU/USD) touched a fresh high since May 14, during the Asian session on Tuesday, though it struggled to capitalize"
+      "title": "US Dollar: Data weakness keeps downside risks elevated - TD Securities",
+      "summary": "TD Securities strategists argue that the US Dollar (USD) has re-entered a bearish regime after the Treasury buyback anno"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains steady following RBA Meeting Minutes",
-      "summary": "AUD/USD gains ground after registering modest losses in the previous day, trading around 0.7150 during the Asian hours o"
+      "title": "Euro: Further gains eyed toward 1.1800 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a constructive stance on EUR/USD despite recent consoli"
     },
     {
       "source": "FXStreet",
-      "title": "RBA Minutes: Board ready to raise rates if upside risks materialise",
-      "summary": "Reserve Bank of Australia (RBA) published the Minutes of its July monetary policy meeting on Tuesday, with the key takea"
+      "title": "Gold sticks to modest losses below $4,650 as Fed risks and Middle East tensions lift USD",
+      "summary": "Gold (XAU/USD) stabilizes below $4,650 heading into the European session, stalling its intraday retracement slide from t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "EUR/USD Price Forecast: Corrects further as US Dollar extends recovery",
+      "summary": "The Euro (EUR) trades marginally lower against the US Dollar (USD) on Tuesday, extending its corrective move from the fo"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee ticks up against US Dollar on RBI’s likely intervention",
+      "summary": "The Indian Rupee (INR) trades marginally higher against the US Dollar (USD) in the opening session on Tuesday."
     },
     {
       "source": "Investing",
       "title": "Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,18 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar gains as high inflation fuels odds o"
+      "[強気] Australian Dollar edges up as RBA keeps rate hike optio",
+      "[弱気] US Dollar: Data weakness keeps downside risks elevated "
+    ],
+    "EUR": [
+      "[強気] Australian Dollar edges up as RBA keeps rate hike optio"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)"
+      "[COT] 🟢ロング優勢 (ネット:+204,001)",
+      "[強気] Australian Dollar edges up as RBA keeps rate hike optio"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar gains as high inflation fuels odds o"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -216,18 +225,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.09948,
-      "today_close": 159.35933,
+      "today_close": 159.37408,
       "prev_close": 159.09768,
-      "diff": 0.2617,
-      "diff_pct": 0.16
+      "diff": 0.2764,
+      "diff_pct": 0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.35933,
-      "sma20": 158.9554,
-      "sma50": 160.5532,
-      "sma200": 159.161,
+      "latest": 159.37408,
+      "sma20": 158.9562,
+      "sma50": 160.5535,
+      "sma200": 159.1611,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -236,11 +245,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.18,
-      "chg20d_pct": 1.01
+      "chg5d_pct": 0.19,
+      "chg20d_pct": 1.02
     },
     "EURUSD": {
-      "latest": 1.16607,
+      "latest": 1.16534,
       "sma20": 1.1596,
       "sma50": 1.1502,
       "sma200": 1.16,
@@ -252,8 +261,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.16,
-      "chg20d_pct": 0.92
+      "chg5d_pct": -0.22,
+      "chg20d_pct": 0.86
     }
   }
 }
