@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-08-25T09:35:05.627535",
-  "generated": "2026年08月25日 09:35",
+  "timestamp": "2026-08-25T12:48:13.328216",
+  "generated": "2026年08月25日 12:48",
   "scores": {
-    "USD": 5,
+    "USD": 3,
     "JPY": -1,
     "EUR": 0,
     "GBP": 1,
     "AUD": 0,
-    "NZD": 2,
-    "CAD": 1,
-    "CHF": 1
+    "NZD": 3,
+    "CAD": 0,
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 6,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 3,
       "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 1,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -108,47 +108,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Tariff risks cloud outlook – Commerzbank",
-      "summary": "Michael Pfister at Commerzbank assesses the potential impact of higher US auto tariffs on Canada and the Canadian Dollar"
+      "title": "New Zealand Dollar defies stronger US Dollar as RBNZ rate hike bets offer support",
+      "summary": "NZD/USD edges slightly higher on Tuesday and trades around 0.5965 at the time of writing, up 0.08% on the day."
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Range trade within 157.90 and 159.80 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe USD/JPY as locked in a range-trading phase, with a "
+      "title": "Australian Dollar: RBA risks and carry support – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the Australian Dollar (AUD) largely ignored the Reserve Bank of Austr"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: Range holds against US Dollar as inflows offset trade drag – DBS",
-      "summary": "DBS economist Radhika Rao observes that strong FCNR (B) swap inflows and higher FX reserves have not translated into sig"
+      "title": "British Pound: Range trading outlook against Euro – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses the British Pound's (GBP) recent performance, noting it is currentl"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures advance as tech stocks rebound ahead of looming Nvidia earnings",
-      "summary": "Dow Jones futures gain by 0.18%, trading around 53,590 during European hours on Tuesday. Meanwhile, S&amp;P 500 futures "
+      "title": "US ADP Employment Change 4-week average increases to 11.750K",
+      "summary": "Private-sector hiring in the US has gained some pace in early August. According to the NER Pulse, the weekly companion t"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: CPI keeps RBA on hold bias – ING",
-      "summary": "ING’s Francesco Pesole expects Australia’s July inflation data to show further moderation, consistent with no additional"
+      "title": "US Dollar: Fragmentation risks and reserve diversification – MUFG",
+      "summary": "Michael Wan at MUFG discusses US threats of economic punishment on countries dealing with Iran and new sanctions on over"
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: MNB tone shift watched – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose expects Hungary's central bank, Magyar Nemzeti Bank (MNB), to cut its base rate by 25bp to 5.5"
+      "title": "GBP/JPY Price Forecast: Bulls recover lost ground as intervention effect wears off",
+      "summary": "GBP/JPY extends its steady recovery on Tuesday and has now recouped almost all the losses triggered by the joint US-Japa"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds gains against Canadian Dollar on upbeat German IFO data",
-      "summary": "EUR/CAD extends its gains for the second consecutive day, trading around 1.6160 during the European hours on Tuesday. Th"
+      "title": "Canadian Dollar: Trade conflict keeps downside risks alive against US Dollar - ING",
+      "summary": "ING’s Francesco Pesole highlights escalating US-Canada trade tensions, with new US tariffs on Canadian autos and parts a"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound extends gains to fresh monthly peak, around mid-217.00s vs weaker Yen",
-      "summary": "The GBP/JPY cross catches fresh bids on Tuesday and climbs to its highest level since July 30, around mid-217.00s during"
+      "title": "Japanese Yen under pressure as geopolitical risks support the US Dollar",
+      "summary": "USD/JPY trades around 159.30 on Tuesday at the time of writing, up 0.15% on the day."
     },
     {
       "source": "Investing",
-      "title": "Bitcoin rallies past $80k as ‘debasement trade’ dents dollar",
+      "title": "Bitcoin extends gains to $79k as ‘debasement trade’ dents dollar",
       "summary": ""
     },
     {
@@ -192,34 +192,25 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Indian Rupee: Range holds against US Dollar as inflows ",
-      "[強気] Australian Dollar: CPI keeps RBA on hold bias – ING",
-      "[強気] Euro holds gains against Canadian Dollar on upbeat Germ"
+      "[強気] New Zealand Dollar defies stronger US Dollar as RBNZ ra",
+      "[強気] Australian Dollar: RBA risks and carry support – BBH",
+      "[弱気] GBP/JPY Price Forecast: Bulls recover lost ground as in"
     ],
     "JPY": [
-      "[弱気] British Pound extends gains to fresh monthly peak, arou"
-    ],
-    "EUR": [
-      "[強気] Euro holds gains against Canadian Dollar on upbeat Germ",
-      "[弱気] British Pound extends gains to fresh monthly peak, arou"
+      "[弱気] GBP/JPY Price Forecast: Bulls recover lost ground as in"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound extends gains to fresh monthly peak, arou"
+      "[弱気] GBP/JPY Price Forecast: Bulls recover lost ground as in"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] Australian Dollar: CPI keeps RBA on hold bias – ING"
+      "[強気] Australian Dollar: RBA risks and carry support – BBH"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Euro holds gains against Canadian Dollar on upbeat Germ"
-    ],
-    "CHF": [
-      "[強気] Australian Dollar: CPI keeps RBA on hold bias – ING"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar defies stronger US Dollar as RBNZ ra"
     ]
   },
   "rates": {
@@ -237,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.09948,
-      "today_close": 159.33799,
+      "today_close": 159.27075,
       "prev_close": 159.09768,
-      "diff": 0.2403,
-      "diff_pct": 0.15
+      "diff": 0.1731,
+      "diff_pct": 0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.33799,
-      "sma20": 158.9544,
-      "sma50": 160.5528,
-      "sma200": 159.1609,
+      "latest": 159.27075,
+      "sma20": 158.951,
+      "sma50": 160.5514,
+      "sma200": 159.1606,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -257,13 +248,13 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": 0.99
+      "chg5d_pct": 0.12,
+      "chg20d_pct": 0.95
     },
     "EURUSD": {
-      "latest": 1.16687,
+      "latest": 1.16647,
       "sma20": 1.1596,
-      "sma50": 1.1503,
+      "sma50": 1.1502,
       "sma200": 1.16,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -273,8 +264,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.09,
-      "chg20d_pct": 0.99
+      "chg5d_pct": -0.12,
+      "chg20d_pct": 0.96
     }
   }
 }
