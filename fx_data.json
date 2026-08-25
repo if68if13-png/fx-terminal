@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-08-25T01:16:45.058257",
-  "generated": "2026年08月25日 01:16",
+  "timestamp": "2026-08-25T03:49:20.164982",
+  "generated": "2026年08月25日 03:49",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -28,9 +28,9 @@
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
       "quote_score": 3
     },
     {
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -108,43 +108,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro gains support amid hawkish ECB expectations, subdued US Dollar",
-      "summary": "EUR/USD inches higher after posting minor losses in the previous day, trading around 1.1670 during the Asian hours on Tu"
+      "title": "United States Dollar Index holds gains near 99.00 amid escalating geopolitical risks",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls as Iran sanctions sour risk appetite, RBA minutes eyed",
-      "summary": "The Australian Dollar began the week on a lower note, trading with a 0.28% loss against the Greenback as risk appetite s"
+      "title": "Silver Price Forecast: XAG/USD corrects below $68 in countdown to US PCE Inflation data",
+      "summary": "Silver price (XAG/USD) is down 1.6% to near $67.87 during the Asian trading session on Tuesday. The white metal is under"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Targeting 6.7200 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a downside bias on USD/CNH after the pair dipped to 6.7"
+      "title": "British Pound holds range below mid-1.3600s as USD firms  amid Fed risks and Iran tensions",
+      "summary": "The GBP/USD pair extends its sideways consolidative price move for the second straight day and trades around the 1.3630 "
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: 217.00 caps bulls as RSI stalls",
-      "summary": "The GBP/JPY consolidates near familiar levels around 217.00 on Monday, as risk aversion dominates markets, with flows mo"
+      "title": "New Zealand Dollar gains as high inflation fuels odds of RBNZ September rate hikes",
+      "summary": "NZD/USD gains ground after registering modest losses in the previous day, trading around 0.5960 during the Asian hours o"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Rally faces consolidation risk on policy week – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that South Korean Won (KRW) has extended its rally, with USD/KRW briefly "
+      "title": "Gold retreats from mid-May highs; fails ahead of $4,700 as Fed risks support USD",
+      "summary": "Gold (XAU/USD) touched a fresh high since May 14, during the Asian session on Tuesday, though it struggled to capitalize"
     },
     {
       "source": "FXStreet",
-      "title": "Record intervention bought the Japanese Yen three weeks",
-      "summary": "Dollar-Yen holds near 159.00 into the North American afternoon, marginally higher on the day inside a range of roughly t"
+      "title": "Australian Dollar remains steady following RBA Meeting Minutes",
+      "summary": "AUD/USD gains ground after registering modest losses in the previous day, trading around 0.7150 during the Asian hours o"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: 1.1700 caps bulls as RSI overheats",
-      "summary": "The shared currency registers minimal losses of 0.13% versus the US Dollar as EUR/USD fails to surpass 1.1700, exacerbat"
-    },
-    {
-      "source": "FXStreet",
-      "title": "New Zealand Dollar muted near multi-month highs as it outweighs soft retail sales",
-      "summary": "The New Zealand Dollar (NZD) is holding firm against the US Dollar (USD) at the time of writing, with NZD/USD consolidat"
+      "title": "RBA Minutes: Board ready to raise rates if upside risks materialise",
+      "summary": "Reserve Bank of Australia (RBA) published the Minutes of its July monetary policy meeting on Tuesday, with the key takea"
     },
     {
       "source": "Investing",
@@ -192,10 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro gains support amid hawkish ECB expectations, subdu"
-    ],
-    "EUR": [
-      "[強気] Euro gains support amid hawkish ECB expectations, subdu"
+      "[強気] New Zealand Dollar gains as high inflation fuels odds o"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,7 +197,8 @@
       "[COT] 🟢ロング優勢 (ネット:+204,001)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar gains as high inflation fuels odds o"
     ]
   },
   "rates": {
@@ -223,33 +216,33 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.09948,
-      "today_close": 159.13545,
+      "today_close": 159.35933,
       "prev_close": 159.09768,
-      "diff": 0.0378,
-      "diff_pct": 0.02
+      "diff": 0.2617,
+      "diff_pct": 0.16
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.13545,
-      "sma20": 158.9442,
-      "sma50": 160.5487,
-      "sma200": 159.1599,
+      "latest": 159.35933,
+      "sma20": 158.9554,
+      "sma50": 160.5532,
+      "sma200": 159.161,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 29.3,
       "high20": 159.7822,
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.04,
-      "chg20d_pct": 0.86
+      "chg5d_pct": 0.18,
+      "chg20d_pct": 1.01
     },
     "EURUSD": {
-      "latest": 1.16681,
+      "latest": 1.16607,
       "sma20": 1.1596,
-      "sma50": 1.1503,
+      "sma50": 1.1502,
       "sma200": 1.16,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -259,8 +252,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.09,
-      "chg20d_pct": 0.99
+      "chg5d_pct": -0.16,
+      "chg20d_pct": 0.92
     }
   }
 }
