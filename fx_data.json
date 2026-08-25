@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-24T21:28:51.128314",
-  "generated": "2026年08月24日 21:28",
+  "timestamp": "2026-08-25T01:16:45.058257",
+  "generated": "2026年08月25日 01:16",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -28,9 +28,9 @@
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
       "quote_score": 3
     },
     {
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -108,38 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen lower as US Dollar firms on heavier Iran sanctions",
-      "summary": "The US Dollar (USD) is grinding higher against the Japanese Yen (JPY) at the time of writing, with USD/JPY holding north"
+      "title": "Euro gains support amid hawkish ECB expectations, subdued US Dollar",
+      "summary": "EUR/USD inches higher after posting minor losses in the previous day, trading around 1.1670 during the Asian hours on Tu"
     },
     {
       "source": "FXStreet",
-      "title": "Asia FX: Mixed central bank paths shape THB, KRW, PHP – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects the Bank of Thailand (BoT) to hold rates at 1.00%, leaving negative"
+      "title": "Australian Dollar falls as Iran sanctions sour risk appetite, RBA minutes eyed",
+      "summary": "The Australian Dollar began the week on a lower note, trading with a 0.28% loss against the Greenback as risk appetite s"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso weakens as Iran sanctions offset Mexico’s inflation data",
-      "summary": "The Mexican Peso (MXN) loses ground against the Greenback on Monday, even though economic data showed that inflation acc"
+      "title": "Chinese Yuan: Targeting 6.7200 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann keep a downside bias on USD/CNH after the pair dipped to 6.7"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar firms on safe-haven demand ahead of data-heavy Tuesday",
-      "summary": "The US Dollar Index (DXY) reclaimed the 99.00 mark for the first time since last Wednesday's plunge."
+      "title": "GBP/JPY Price Forecast: 217.00 caps bulls as RSI stalls",
+      "summary": "The GBP/JPY consolidates near familiar levels around 217.00 on Monday, as risk aversion dominates markets, with flows mo"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Consolidation zone eyed against US Dollar – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay and Dr. Henry Hao highlight South Korea’s strong export-led growth and large current-account s"
+      "title": "South Korean Won: Rally faces consolidation risk on policy week – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that South Korean Won (KRW) has extended its rally, with USD/KRW briefly "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index: Cautious rebound capped near 100 – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret observe that the US Dollar (USD) is modestly stronger as markets s"
+      "title": "Record intervention bought the Japanese Yen three weeks",
+      "summary": "Dollar-Yen holds near 159.00 into the North American afternoon, marginally higher on the day inside a range of roughly t"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Gradual appreciation bias with key levels against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong highlight that RMB and CNH remain supported by softer USD dynamics and exporte"
+      "title": "EUR/USD Price Forecast: 1.1700 caps bulls as RSI overheats",
+      "summary": "The shared currency registers minimal losses of 0.13% versus the US Dollar as EUR/USD fails to surpass 1.1700, exacerbat"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar muted near multi-month highs as it outweighs soft retail sales",
+      "summary": "The New Zealand Dollar (NZD) is holding firm against the US Dollar (USD) at the time of writing, with NZD/USD consolidat"
     },
     {
       "source": "Investing",
@@ -187,9 +192,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Mexican Peso weakens as Iran sanctions offset Mexico’s ",
-      "[強気] South Korean Won: Consolidation zone eyed against US Do",
-      "[強気] US Dollar Index: Cautious rebound capped near 100 – Sco"
+      "[強気] Euro gains support amid hawkish ECB expectations, subdu"
+    ],
+    "EUR": [
+      "[強気] Euro gains support amid hawkish ECB expectations, subdu"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -217,18 +223,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.09948,
-      "today_close": 159.06776,
+      "today_close": 159.13545,
       "prev_close": 159.09768,
-      "diff": -0.0299,
-      "diff_pct": -0.02
+      "diff": 0.0378,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.06776,
-      "sma20": 158.9408,
-      "sma50": 160.5474,
-      "sma200": 159.1596,
+      "latest": 159.13545,
+      "sma20": 158.9442,
+      "sma50": 160.5487,
+      "sma200": 159.1599,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -237,13 +243,13 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.0,
-      "chg20d_pct": 0.82
+      "chg5d_pct": 0.04,
+      "chg20d_pct": 0.86
     },
     "EURUSD": {
-      "latest": 1.1664,
+      "latest": 1.16681,
       "sma20": 1.1596,
-      "sma50": 1.1502,
+      "sma50": 1.1503,
       "sma200": 1.16,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -253,8 +259,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.13,
-      "chg20d_pct": 0.95
+      "chg5d_pct": -0.09,
+      "chg20d_pct": 0.99
     }
   }
 }
