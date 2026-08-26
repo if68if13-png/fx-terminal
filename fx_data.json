@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-26T12:51:51.988493",
-  "generated": "2026年08月26日 12:51",
+  "timestamp": "2026-08-26T16:17:42.988855",
+  "generated": "2026年08月26日 16:17",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": 0,
     "NZD": 2,
@@ -14,24 +14,24 @@
   "pairs": [
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,15 +43,15 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Trade dispute risks weigh on Canada – BNY",
-      "summary": "BNY’s Geoff Yu reports that Washington is considering further trade penalties against Canada after Ottawa’s dollar-for-d"
+      "title": "Reserve Bank of Australia: Preemptive hike debate intensifies – TD Securities",
+      "summary": "Prashant Newnaha at TD Securities notes that the RBA’s August minutes were overall less hawkish than June, but still emp"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: US core PCE inflation holds steady at 3.3% in July as expected",
-      "summary": "Annual inflation in the United States (US), as measured by the change in the Personal Consumption Expenditures (PCE) Pri"
+      "title": "New Zealand Dollar dips, but RBNZ hike bets provide safety net",
+      "summary": "NZD/USD retreats to around 0.5940 on Wednesday at the time of writing, down 0.60% on the day. The New Zealand Dollar (NZ"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Hot CPI supports carry and RBA risk – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports the Australian Dollar (AUD) is outperforming after hotter-than-expe"
+      "title": "Silver Price Forecast: Buyers struggle below the 100-day SMA",
+      "summary": "Silver (XAG/USD) comes under selling pressure on Wednesday as the US Dollar (USD) strengthens following the latest Unite"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Weakness before renewed strength – Commerzbank",
-      "summary": "Commerzbank FX analyst Michael Pfister argues that the Swiss Franc (CHF) will stay under pressure through 2026 as market"
+      "title": "Polish Zloty: Policy divergence weighs on PLN against Euro – ABN AMRO",
+      "summary": "ABN AMRO’s Georgette Boele highlights that EUR/PLN has risen as interest rate expectations diverge between the Eurozone "
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds upper hand against British Pound on diverging ECB-BoE expectations",
-      "summary": "EUR/GBP edges higher on Wednesday, though price action remains confined to the narrow range that has been in place since"
+      "title": "Australian Dollar stumbles as hot Australian CPI runs into a firmer US Dollar",
+      "summary": "AUD/USD is trading around 0.7170 on Wednesday, down slightly after a hot Australian inflation print ran straight into a "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Intervention impact assessed – Rabobank",
-      "summary": "Rabobank's Senior FX Strategist Jane Foley reviews Japan’s FX intervention and its impact on USD/JPY."
+      "title": "Taiwan: AI boom sustains exceptional growth – Commerzbank",
+      "summary": "Commerzbank’s Dr. Henry Hao and Charlie Lay underscore that Taiwan’s industrial production and exports are surging on AI"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Softer energy supports carry trades – ING",
-      "summary": "ING’s Chris Turner notes that lower Oil prices and the recent intervention by US Treasury Secretary Scott Bessent have p"
+      "title": "Canadian Dollar falls despite Oil gains as trade tensions take center stage",
+      "summary": "USD/CAD rises 0.30% on Wednesday, trading around 1.3880 at the time of writing."
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee poised for positive opening on Thursday amid lower oil prices",
-      "summary": "The Indian Rupee (INR) is expected to open on a positive note against the US Dollar (USD) on Thursday after a holiday on"
+      "title": "Gold stays under pressure as US Dollar firms after PCE data",
+      "summary": "Gold (XAU/USD) remains under pressure on Wednesday as the latest US inflation figures leave buyers reluctant to step bac"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: ECB tightening outlook offers support against US Dollar - BNY",
-      "summary": "BNY's Geoff Yu highlights that European Central Bank (ECB) Executive Board member Isabel Schnabel sees further rate hike"
+      "title": "Canada: Trade shock and GDP drag – TD Securities",
+      "summary": "TD Securities’ Robert Both analyzes the impact of new Section 338 US tariffs and Canada’s retaliation on the Canadian ec"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen treads water around 159.00 with US PCE Inflation on tap",
-      "summary": "The Japanese Yen (JPY) ticks higher against the US Dollar (USD) on Wednesday but keeps looking for direction, as investo"
+      "title": "Japanese Yen reverses earlier gains as US Dollar firms after PCE data",
+      "summary": "The Japanese Yen (JPY) gives up its earlier gains against the US Dollar (USD) on Wednesday as traders react to the lates"
     }
   ],
   "cot": {
@@ -191,13 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar: Hot CPI supports carry and RBA risk ",
-      "[弱気] Indian Rupee poised for positive opening on Thursday am",
-      "[強気] Euro: ECB tightening outlook offers support against US "
-    ],
-    "EUR": [
-      "[強気] Euro: ECB tightening outlook offers support against US "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,7 +199,7 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] Australian Dollar: Hot CPI supports carry and RBA risk "
+      "[強気] Reserve Bank of Australia: Preemptive hike debate inten"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -226,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.20786,
-      "today_close": 159.18486,
+      "today_close": 159.32165,
       "prev_close": 159.21233,
-      "diff": -0.0275,
-      "diff_pct": -0.02
+      "diff": 0.1093,
+      "diff_pct": 0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.18486,
-      "sma20": 158.9838,
-      "sma50": 160.4916,
-      "sma200": 159.1706,
+      "latest": 159.32165,
+      "sma20": 158.9906,
+      "sma50": 160.4943,
+      "sma200": 159.1713,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -246,13 +240,13 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.13,
-      "chg20d_pct": 0.45
+      "chg5d_pct": 0.22,
+      "chg20d_pct": 0.54
     },
     "EURUSD": {
-      "latest": 1.16645,
-      "sma20": 1.1604,
-      "sma50": 1.1508,
+      "latest": 1.16533,
+      "sma20": 1.1603,
+      "sma50": 1.1507,
       "sma200": 1.1599,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -262,8 +256,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": 1.22
+      "chg5d_pct": -0.2,
+      "chg20d_pct": 1.12
     }
   }
 }
