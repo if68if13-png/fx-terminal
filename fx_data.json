@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-26T06:49:52.893109",
-  "generated": "2026年08月26日 06:49",
+  "timestamp": "2026-08-26T09:42:06.573883",
+  "generated": "2026年08月26日 09:42",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 5,
+    "JPY": 1,
+    "EUR": 2,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": 1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: 20-day EMA continues to act as key barrier",
-      "summary": "The Japanese Yen (JPY) trades higher against the US Dollar (USD) on Wednesday, with USD/JPY dropping 0.1% to near 159.00"
+      "title": "Hungarian Forint: Recovery tied to euro entry story – ING",
+      "summary": "ING’s Chris Turner reports that the National Bank of Hungary cut its policy rate by 25bp to 5.50%, with Chief Economist "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Core PCE and Warsh remarks in focus – OCBC",
-      "summary": "OCBC Bank strategists Sim Moh Siong and Christopher Wong highlight that lower energy prices have helped pull US and Euro"
+      "title": "US Dollar Index: Range trade persists as data soft – DBS",
+      "summary": "DBS Group Research economist Philip Wee notes that the DXY Index’s recent recovery stalled slightly above 99 and has rev"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA waits as inflation sticks – Commerzbank",
-      "summary": "Volkmar Baur at Commerzbank notes that the Reserve Bank of Australia (RBA) is in wait-and-see mode after three rate hike"
+      "title": "EUR/JPY Price Forecast: Tests nine-day EMA confluence support near 185.00",
+      "summary": "EUR/JPY depreciates after registering modest gains, trading around 185.60 during the European hours on Wednesday. The te"
     },
     {
       "source": "FXStreet",
-      "title": "Gold remains depressed below $4,650 on firmer USD; looks to US PCE for Fed rate outlook",
-      "summary": "Gold (XAU/USD) sticks to modest losses below $4,650 heading into the European session on Wednesday, though it lacks bear"
+      "title": "Brent: Diplomatic progress weighs on prices – OCBC",
+      "summary": "OCBC Bank strategists Sim Moh Siong and Christopher Wong note that improved prospects for shipping through the Strait of"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar gives away gains amid lower oil prices, fresh trade tensions",
-      "summary": "The Canadian Dollar (CAD) reverses earlier gains against the US Dollar (USD) on Wednesday, weighed by a recent pullback "
+      "title": "US Dollar: Shaky basis trade risks weigh – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur explains how the US Treasury Secretary’s vague secondary sanctions comments and falling US yi"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens against Japanese Yen amid firm BoJ interest rate hike prospects",
-      "summary": "The Euro (EUR) trades 0.22% lower at around 185.45 against the Japanese Yen (JPY) during the early European trading sess"
+      "title": "Silver Price Forecast: XAG/USD bulls await break above $70.00 amid mixed setup",
+      "summary": "Silver (XAG/USD) continues its struggle to make it through the $70.00 psychological mark and extends its two-way price m"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Upside bias toward 1.1725 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report EUR/USD broke out of its recent tight range, closing "
+      "title": "Swiss Franc ticks up against US Dollar despite bright Swiss ZEW economic expectations",
+      "summary": "The Swiss Franc (CHF) is trading lower against the US Dollar (USD) on Wednesday, but it has managed to trim some losses "
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Hot Australian CPI data boosts hawkish RBA bets",
-      "summary": "The Australian Dollar (AUD) outperforms its major currency peers on Wednesday, trading 0.2% higher to near 0.7180 agains"
+      "title": "Australian Dollar remains stronger as CPI YoY climbs in July",
+      "summary": "AUD/USD extends its gains for the second consecutive day, trading around 0.7180 during the European hours on Wednesday."
+    },
+    {
+      "source": "FXStreet",
+      "title": "AUD/JPY Price Forecast: Rally extends further to near 114.30 as hawkish RBA bets accelerate",
+      "summary": "The Australian Dollar (AUD) trades 0.13% higher at around 114.30 against the Japanese Yen (JPY) during the European trad"
     },
     {
       "source": "Investing",
       "title": "Bitcoin falls to $79k as rebound rally cools ahead of U.S. inflation data",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23",
       "summary": ""
     }
   ],
@@ -192,10 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] AUD/USD Price Forecast: Hot Australian CPI data boosts "
+      "[強気] Swiss Franc ticks up against US Dollar despite bright S",
+      "[強気] Australian Dollar remains stronger as CPI YoY climbs in",
+      "[強気] AUD/JPY Price Forecast: Rally extends further to near 1"
+    ],
+    "JPY": [
+      "[強気] AUD/JPY Price Forecast: Rally extends further to near 1"
     ],
     "EUR": [
-      "[強気] AUD/USD Price Forecast: Hot Australian CPI data boosts "
+      "[強気] Australian Dollar remains stronger as CPI YoY climbs in",
+      "[強気] AUD/JPY Price Forecast: Rally extends further to near 1"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -203,10 +209,14 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] AUD/USD Price Forecast: Hot Australian CPI data boosts "
+      "[強気] Australian Dollar remains stronger as CPI YoY climbs in",
+      "[強気] AUD/JPY Price Forecast: Rally extends further to near 1"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] Swiss Franc ticks up against US Dollar despite bright S"
     ]
   },
   "rates": {
@@ -224,18 +234,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.20786,
-      "today_close": 159.08816,
+      "today_close": 158.99193,
       "prev_close": 159.21233,
-      "diff": -0.1242,
-      "diff_pct": -0.08
+      "diff": -0.2204,
+      "diff_pct": -0.14
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.08816,
-      "sma20": 158.9789,
-      "sma50": 160.4897,
-      "sma200": 159.1701,
+      "latest": 158.99193,
+      "sma20": 158.9741,
+      "sma50": 160.4877,
+      "sma200": 159.1696,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -244,11 +254,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": 0.39
+      "chg5d_pct": 0.01,
+      "chg20d_pct": 0.33
     },
     "EURUSD": {
-      "latest": 1.16642,
+      "latest": 1.16668,
       "sma20": 1.1604,
       "sma50": 1.1508,
       "sma200": 1.1599,
@@ -260,8 +270,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": 1.21
+      "chg5d_pct": -0.08,
+      "chg20d_pct": 1.24
     }
   }
 }
