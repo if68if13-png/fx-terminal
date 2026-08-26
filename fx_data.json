@@ -1,23 +1,37 @@
 {
-  "timestamp": "2026-08-26T03:53:25.626465",
-  "generated": "2026年08月26日 03:53",
+  "timestamp": "2026-08-26T06:49:52.893109",
+  "generated": "2026年08月26日 06:49",
   "scores": {
-    "USD": 1,
+    "USD": 3,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
       "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -27,31 +41,17 @@
       "quote_score": 0
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds steady around $4,650 as traders look to US PCE for Fed rate cues",
-      "summary": "Gold (XAU/USD) extends its two-way price moves for the second straight day and trades above $4,650 during the Asian sess"
+      "title": "USD/JPY Price Forecast: 20-day EMA continues to act as key barrier",
+      "summary": "The Japanese Yen (JPY) trades higher against the US Dollar (USD) on Wednesday, with USD/JPY dropping 0.1% to near 159.00"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD holds firmly above $69 ahead of US PCE Inflation data",
-      "summary": "Silver price (XAG/USD) is up almost 1% to near $69.40 during the Asian trading session on Wednesday."
+      "title": "US Dollar: Core PCE and Warsh remarks in focus – OCBC",
+      "summary": "OCBC Bank strategists Sim Moh Siong and Christopher Wong highlight that lower energy prices have helped pull US and Euro"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar declines as US Dollar advances ahead of PCE index data",
-      "summary": "NZD/USD depreciates after registering modest gains in the previous day, trading around 0.5960 during the Asian hours on "
+      "title": "Australian Dollar: RBA waits as inflation sticks – Commerzbank",
+      "summary": "Volkmar Baur at Commerzbank notes that the Reserve Bank of Australia (RBA) is in wait-and-see mode after three rate hike"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen strengthens on US bond buyback, traders brace for US PCE inflation report",
-      "summary": "The USD/JPY pair loses ground to near 158.90 during the Asian trading hours on Wednesday. The US Treasury’s bond buyback"
+      "title": "Gold remains depressed below $4,650 on firmer USD; looks to US PCE for Fed rate outlook",
+      "summary": "Gold (XAU/USD) sticks to modest losses below $4,650 heading into the European session on Wednesday, though it lacks bear"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar strengthens against Japanese Yen following CPI data",
-      "summary": "AUD/JPY gains ground for the second consecutive day, trading around 114.20 during the Asian hours on Wednesday."
+      "title": "Canadian Dollar gives away gains amid lower oil prices, fresh trade tensions",
+      "summary": "The Canadian Dollar (CAD) reverses earlier gains against the US Dollar (USD) on Wednesday, weighed by a recent pullback "
     },
     {
       "source": "FXStreet",
-      "title": "BoJ to raise rate to 1.25% in September — Reuters poll",
-      "summary": "According to August 17-24 survey in a Reuters poll, 57% of economists expected the Bank of Japan (BoJ) to raise its inte"
+      "title": "Euro weakens against Japanese Yen amid firm BoJ interest rate hike prospects",
+      "summary": "The Euro (EUR) trades 0.22% lower at around 185.45 against the Japanese Yen (JPY) during the early European trading sess"
     },
     {
       "source": "FXStreet",
-      "title": "Australia’s CPI inflation declines to 3.5% YoY in July vs. 3.2% forecast",
-      "summary": "Australia’s Consumer Price Index (CPI) rose by 3.5% year-over-year (YoY) in July, compared to a 3.8% growth reported in "
+      "title": "Euro: Upside bias toward 1.1725 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report EUR/USD broke out of its recent tight range, closing "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar strengthens after hot CPI report; eyes multi-month high ahead of US PCE",
-      "summary": "The AUD/USD pair attracts buyers for the second straight day and climbs to the 0.7170 area following the release of Aust"
+      "title": "AUD/USD Price Forecast: Hot Australian CPI data boosts hawkish RBA bets",
+      "summary": "The Australian Dollar (AUD) outperforms its major currency peers on Wednesday, trading 0.2% higher to near 0.7180 agains"
     },
     {
-      "source": "FXStreet",
-      "title": "WTI drops amid Middle East diplomacy, eased US sanction fears",
-      "summary": "West Texas Intermediate (WTI) oil price extends its losses for the third consecutive day, trading around $80.10 per barr"
+      "source": "Investing",
+      "title": "Bitcoin falls to $79k as rebound rally cools ahead of U.S. inflation data",
+      "summary": ""
     },
     {
-      "source": "FXStreet",
-      "title": "Canadian Dollar weakens amid falling oil prices as USD holds steady ahead of US PCE",
-      "summary": "The USD/CAD pair edges higher during the Asian session on Wednesday, though it remains confined within the previous day’"
+      "source": "Investing",
+      "title": "Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23",
+      "summary": ""
     }
   ],
   "cot": {
@@ -192,20 +192,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Canadian Dollar weakens amid falling oil prices as USD "
+      "[強気] AUD/USD Price Forecast: Hot Australian CPI data boosts "
+    ],
+    "EUR": [
+      "[強気] AUD/USD Price Forecast: Hot Australian CPI data boosts "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)"
+      "[COT] 🟢ロング優勢 (ネット:+204,001)",
+      "[強気] AUD/USD Price Forecast: Hot Australian CPI data boosts "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar weakens amid falling oil prices as USD "
     ]
   },
   "rates": {
@@ -223,18 +224,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.20786,
-      "today_close": 158.97327,
+      "today_close": 159.08816,
       "prev_close": 159.21233,
-      "diff": -0.2391,
-      "diff_pct": -0.15
+      "diff": -0.1242,
+      "diff_pct": -0.08
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.97327,
-      "sma20": 158.9732,
-      "sma50": 160.4874,
-      "sma200": 159.1695,
+      "latest": 159.08816,
+      "sma20": 158.9789,
+      "sma50": 160.4897,
+      "sma200": 159.1701,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -243,11 +244,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.0,
-      "chg20d_pct": 0.32
+      "chg5d_pct": 0.07,
+      "chg20d_pct": 0.39
     },
     "EURUSD": {
-      "latest": 1.16645,
+      "latest": 1.16642,
       "sma20": 1.1604,
       "sma50": 1.1508,
       "sma200": 1.1599,
@@ -260,7 +261,7 @@
       "high60": 1.1711,
       "low60": 1.1354,
       "chg5d_pct": -0.1,
-      "chg20d_pct": 1.22
+      "chg20d_pct": 1.21
     }
   }
 }
