@@ -22,14 +22,14 @@
       }
     },
     "scores": {
-      "USD": 5,
-      "JPY": 1,
-      "EUR": 2,
+      "USD": 3,
+      "JPY": 0,
+      "EUR": 1,
       "GBP": 2,
-      "AUD": 1,
+      "AUD": 0,
       "NZD": 2,
       "CAD": 0,
-      "CHF": 1
+      "CHF": 0
     },
     "memo": "\n\n\n",
     "diary_work": "",
