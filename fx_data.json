@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-08-26T16:17:42.988855",
-  "generated": "2026年08月26日 16:17",
+  "timestamp": "2026-08-26T19:48:13.196594",
+  "generated": "2026年08月26日 19:48",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Reserve Bank of Australia: Preemptive hike debate intensifies – TD Securities",
-      "summary": "Prashant Newnaha at TD Securities notes that the RBA’s August minutes were overall less hawkish than June, but still emp"
+      "title": "Japanese Yen: Range-bound against US Dollar as markets price BoJ hike – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret describe the Japanese Yen (JPY) as quiet, extending a tight consol"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar dips, but RBNZ hike bets provide safety net",
-      "summary": "NZD/USD retreats to around 0.5940 on Wednesday at the time of writing, down 0.60% on the day. The New Zealand Dollar (NZ"
+      "title": "Banxico lifts 2026 GDP forecast, delays inflation target return",
+      "summary": "On Wednesday, the Bank of Mexico (Banxico) releases its Quarterly Report for Q2 2026, in which the institution revises i"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: Buyers struggle below the 100-day SMA",
-      "summary": "Silver (XAG/USD) comes under selling pressure on Wednesday as the US Dollar (USD) strengthens following the latest Unite"
+      "title": "South Korean Won: Appreciation may slow against US Dollar – OCBC",
+      "summary": "OCBC Bank strategists Sim Moh Siong and Christopher Wong observe that USD/KRW has consolidated after sharp declines over"
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: Policy divergence weighs on PLN against Euro – ABN AMRO",
-      "summary": "ABN AMRO’s Georgette Boele highlights that EUR/PLN has risen as interest rate expectations diverge between the Eurozone "
+      "title": "Emerging Markets: Idiosyncratic bid persists in equities – BNY",
+      "summary": "Geoff Yu at BNY highlights that EM EMEA equities have outperformed, with strong buying in Poland, South Africa and Turke"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar stumbles as hot Australian CPI runs into a firmer US Dollar",
-      "summary": "AUD/USD is trading around 0.7170 on Wednesday, down slightly after a hot Australian inflation print ran straight into a "
+      "title": "Euro: Rally stalls against US Dollar as spreads drive trade – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is slightly softer versus the Dollar, with i"
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan: AI boom sustains exceptional growth – Commerzbank",
-      "summary": "Commerzbank’s Dr. Henry Hao and Charlie Lay underscore that Taiwan’s industrial production and exports are surging on AI"
+      "title": "Forex Today: US Dollar firms ahead of Jackson Hole",
+      "summary": "The US Dollar (USD) firmed on Wednesday, with the US Dollar Index (DXY) climbing toward 99.20 as traders squared positio"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar falls despite Oil gains as trade tensions take center stage",
-      "summary": "USD/CAD rises 0.30% on Wednesday, trading around 1.3880 at the time of writing."
+      "title": "Taiwan Dollar: Consolidation range with upside risks against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Dr. Henry Hao and Charlie Lay highlight that Taiwan’s booming AI-driven exports and strong external surplu"
     },
     {
       "source": "FXStreet",
-      "title": "Gold stays under pressure as US Dollar firms after PCE data",
-      "summary": "Gold (XAU/USD) remains under pressure on Wednesday as the latest US inflation figures leave buyers reluctant to step bac"
+      "title": "The Dollar Index is climbing out of a fiscal hole",
+      "summary": "The Dollar Index trades just above 99.00 and roughly a quarter of a percent higher, having printed its high just short o"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Trade shock and GDP drag – TD Securities",
-      "summary": "TD Securities’ Robert Both analyzes the impact of new Section 338 US tariffs and Canada’s retaliation on the Canadian ec"
+      "title": "Chinese Yuan: Further gains toward 6.7000 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report USD/CNH slipped to 6.7166 and closed slightly lower, "
     },
     {
-      "source": "FXStreet",
-      "title": "Japanese Yen reverses earlier gains as US Dollar firms after PCE data",
-      "summary": "The Japanese Yen (JPY) gives up its earlier gains against the US Dollar (USD) on Wednesday as traders react to the lates"
+      "source": "Investing",
+      "title": "Bitcoin edges down to $78k as rebound rally cools after U.S. inflation data",
+      "summary": ""
     }
   ],
   "cot": {
@@ -191,15 +191,15 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Taiwan Dollar: Consolidation range with upside risks ag"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] Reserve Bank of Australia: Preemptive hike debate inten"
+      "[COT] 🟢ロング優勢 (ネット:+204,001)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -220,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.20786,
-      "today_close": 159.32165,
+      "today_close": 159.3493,
       "prev_close": 159.21233,
-      "diff": 0.1093,
-      "diff_pct": 0.07
+      "diff": 0.137,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.32165,
-      "sma20": 158.9906,
-      "sma50": 160.4943,
-      "sma200": 159.1713,
+      "latest": 159.3493,
+      "sma20": 158.992,
+      "sma50": 160.4949,
+      "sma200": 159.1714,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -240,11 +240,11 @@
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.22,
-      "chg20d_pct": 0.54
+      "chg5d_pct": 0.23,
+      "chg20d_pct": 0.55
     },
     "EURUSD": {
-      "latest": 1.16533,
+      "latest": 1.16526,
       "sma20": 1.1603,
       "sma50": 1.1507,
       "sma200": 1.1599,
@@ -257,7 +257,7 @@
       "high60": 1.1711,
       "low60": 1.1354,
       "chg5d_pct": -0.2,
-      "chg20d_pct": 1.12
+      "chg20d_pct": 1.11
     }
   }
 }
