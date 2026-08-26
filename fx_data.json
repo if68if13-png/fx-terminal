@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-08-25T21:28:48.385316",
-  "generated": "2026年08月25日 21:28",
+  "timestamp": "2026-08-26T01:18:34.593597",
+  "generated": "2026年08月26日 01:18",
   "scores": {
     "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
-    },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
@@ -28,6 +21,13 @@
     },
     {
       "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
       "base_score": 0,
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Bullish bias with focus on 6.7000 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann maintain a negative stance on USD/CNH, noting a softened und"
+      "title": "PBOC sets USD/CNY reference rate at 6.7829 vs. 6.7852 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 co"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar climbs to fresh highs amid timid US Dollar",
-      "summary": "NZD/USD climbed to around 0.5980 Tuesday, near its highest level since June 1 as a softer US Dollar (USD) and firm Reser"
+      "title": "Euro steadies above 1.1650 ahead of US PCE data",
+      "summary": "The EUR/USD pair flatlines near 1.1675 during the early Asian trading hours on Wednesday. The US Treasury's decision to "
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range-bound consolidation outlook against US Dollar – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay and Dr. Henry Hao note that USD/SGD has eased from 1.2800 to around 1.2700 as the softer US Do"
+      "title": "Canada announces 'dollar-for-dollar' retaliatory tariffs up to 50% against US",
+      "summary": "Canada said that it will implement 50% retaliatory tariffs on $20bn worth of US goods, following through on Prime Minist"
     },
     {
       "source": "FXStreet",
-      "title": "US Treasury yields fall as Hormuz progress eases inflation fears",
-      "summary": "US yields edge lower across the whole curve on Tuesday, following suit."
+      "title": "Australia CPI forecast to show cooling inflation in July, still above RBA target",
+      "summary": "The Australian Bureau of Statistics (ABS) will publish the July Consumer Price Index (CPI) on Wednesday at 01:30 GMT. Th"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Strength backed by tech flows against US Dollar – Societe Generale",
-      "summary": "Societe Generale analysts highlight that the Korean Won (KRW) has gained 12% versus the Dollar year-to-date, with USD/KR"
+      "title": "Gold advances above $4,650 on US Dollar weakness, Treasury bond buyback plans",
+      "summary": "Gold price (XAU/USD) rises to around $4,670, the highest since May 14, during the early Asian session on Wednesday. The "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Trade risks limit gains against US Dollar – OCBC",
-      "summary": "OCBC’s Sim Moh Siong and Christopher Wong note that reports of potential US tariffs on Chinese goods and the PBoC’s resi"
+      "title": "Australian Dollar rises after RBA hawkish minutes, inflation data eyed",
+      "summary": "The Aussie Dollar advanced on Tuesday, gaining over 0.20% as the Greenback edged lower, amid minutes from the Reserve Ba"
     },
     {
       "source": "FXStreet",
-      "title": "The US Dollar Index stops paying for hawks who cannot vote",
-      "summary": "A non-voting regional Federal Reserve president published a conditional hold on Tuesday, tying the current target range "
+      "title": "Tokyo bought the Japanese Yen a range, not a trend",
+      "summary": "USD/JPY trades just above 159.00 late on Tuesday, August 25, holding a gain of under a tenth of a percent across a sessi"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US Dollar stays on the back foot ahead of PCE",
-      "summary": "The US Dollar Index (DXY) is hovering below the 99.00 mark as traders squared positions ahead of a heavy Wednesday data "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Upside momentum eases against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains under mild downward pressure but s"
+      "title": "Singapore Dollar: Consolidation risk after recent gains against US Dollar – OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong expect USD/SGD to consolidate as earlier Singapore Dollar (SGD) gains face a m"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin steadies above $78k after recent rally; ‘debasement trade’ dents dollar",
+      "title": "Strategy adds USD Cash pool, holds 840,447 bitcoin as of Aug. 23",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -191,14 +191,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Gold advances above $4,650 on US Dollar weakness, Treas",
+      "[強気] Australian Dollar rises after RBA hawkish minutes, infl"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)"
+      "[COT] 🟢ロング優勢 (ネット:+204,001)",
+      "[強気] Australian Dollar rises after RBA hawkish minutes, infl"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -219,31 +222,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.20786,
-      "today_close": 159.21757,
+      "today_close": 159.15912,
       "prev_close": 159.21233,
-      "diff": 0.0052,
-      "diff_pct": 0.0
+      "diff": -0.0532,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.21757,
-      "sma20": 158.9854,
-      "sma50": 160.4922,
-      "sma200": 159.1708,
+      "latest": 159.15912,
+      "sma20": 158.9825,
+      "sma50": 160.4911,
+      "sma200": 159.1705,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "上",
+      "vs_sma200": "下",
       "rsi14": 28.5,
       "high20": 159.7822,
       "low20": 156.7588,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.15,
-      "chg20d_pct": 0.47
+      "chg5d_pct": 0.11,
+      "chg20d_pct": 0.43
     },
     "EURUSD": {
-      "latest": 1.16743,
+      "latest": 1.16718,
       "sma20": 1.1604,
       "sma50": 1.1508,
       "sma200": 1.1599,
@@ -255,8 +258,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.02,
-      "chg20d_pct": 1.3
+      "chg5d_pct": -0.04,
+      "chg20d_pct": 1.28
     }
   }
 }
