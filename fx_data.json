@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-08-27T00:30:41.578134",
-  "generated": "2026年08月27日 00:30",
+  "timestamp": "2026-08-27T13:51:27.262713",
+  "generated": "2026年08月27日 13:51",
   "scores": {
-    "USD": 5,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 3,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
+    },
+    {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -46,6 +39,13 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "The British Pound stops dead where American data left it",
-      "summary": "Sterling holds just beneath 1.3600 late on Wednesday, roughly 0.4% lower and some 55 pips under a session ceiling at 1.3"
+      "title": "European Central Bank: September hike prospects strengthen – Nordea",
+      "summary": "Nordea’s Jan von Gerich argues that the European Central Bank remains focused on upside inflation risks and is likely to"
     },
     {
       "source": "FXStreet",
-      "title": "Gold retreats from three-month high to near $4,600 after US PCE data",
-      "summary": "Gold price (XAU/USD) falls to near $4,610 during the early Asian session on Thursday. The precious metal retreats from a"
+      "title": "Fed’s Schmid warns energy shock is leaking into the economy",
+      "summary": "Kansas City Fed President Jeffrey Schmid warned that inflation remained stubborn and that the energy shock was spreading"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar extends rally as RBA hike bets, offset US data",
-      "summary": "The Aussie Dollar advances for the third straight day, up more than 0.17%, even though the latest US inflation report re"
+      "title": "Fed's Goolsbee warns political interference with Fed could fuel inflation",
+      "summary": "Chicago Fed President Austan Goolsbee said the economy remained broadly stable but warned that tariffs and war-related p"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Evening star threatens 216.00 support",
-      "summary": "The GBP/JPY failed to sustain the 217.00 breakout, reversing to the 216.50 area as traders faded the move, exacerbating "
+      "title": "Euro trims intraday losses as traders weigh Fed-ECB interest rate outlooks",
+      "summary": "EUR/USD holds firm on Thursday after coming under pressure on the previous day as the latest US inflation figures helped"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar steadies as firm US Dollar caps gains",
-      "summary": "NZD/USD is trading around 0.5940 on Tuesday, little changed on the day as the risk-sensitive Kiwi consolidates a strong "
+      "title": "US Dollar: Fed repricing risk weighs on usd – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH Elias Haddad notes the US Dollar (USD) is consolidating gains, with the US Dollar Index ("
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso dips as US Core PCE renew Fed hawkish bets",
-      "summary": "The Mexican Peso loses some traction against the US Dollar on Wednesday as traders seem confident that the Federal Reser"
+      "title": "Swedish Krona: Inflation risks may prompt tougher Riksbank stance - BNY",
+      "summary": "BNY’s Geoff Yu says rising Swedish import prices and continued weakness in the krona are adding to inflation risks. He e"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen slips ahead of Tokyo CPI",
-      "summary": "USD/JPY trades around 159.40 on Wednesday, holding onto modest gains as a firmer US Dollar (USD) keeps the pair underpin"
+      "title": "Euro: Choppy range trading outlook – Rabobank",
+      "summary": "Rabobank's Senior FX Strategist Jane Foley discusses EUR/USD dynamics around divergent inflation and policy outlooks in "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Pace of appreciation against US Dollar seen slowing – ING",
-      "summary": "Chris Turner at ING notes USD/CNH is consolidating after last week’s sharp decline, as investors hesitate to buy Renminb"
+      "title": "Gold eases as traders await clearer signals on the Fed interest rate path",
+      "summary": "Gold (XAU/USD) remains on the back foot at the start of American trading hours on Thursday after reversing its earlier i"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Range-bound against US Dollar as markets price BoJ hike – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret describe the Japanese Yen (JPY) as quiet, extending a tight consol"
+      "title": "US Initial Jobless Claims dropped to 203K last week",
+      "summary": "According to a report from the US Department of Labor (DOL) released Thursday, the number of US citizens submitting new "
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Brent: Watching support at 84/83 dollars – Societe Generale",
+      "summary": "Societe Generale analysts highlight that Brent has pulled back after testing resistance at $95, a level defined by a pri"
     }
   ],
   "cot": {
@@ -191,23 +191,17 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold retreats from three-month high to near $4,600 afte",
-      "[強気] Australian Dollar extends rally as RBA hike bets, offse",
-      "[強気] New Zealand Dollar steadies as firm US Dollar caps gain",
-      "[強気] Mexican Peso dips as US Core PCE renew Fed hawkish bets"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] Australian Dollar extends rally as RBA hike bets, offse"
+      "[COT] 🟢ロング優勢 (ネット:+204,001)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar steadies as firm US Dollar caps gain"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -225,31 +219,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.31659,
-      "today_close": 159.15306,
+      "today_close": 159.39331,
       "prev_close": 159.31576,
-      "diff": -0.1627,
-      "diff_pct": -0.1
+      "diff": 0.0776,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.15306,
-      "sma20": 159.0582,
-      "sma50": 160.4244,
-      "sma200": 159.1814,
+      "latest": 159.39331,
+      "sma20": 159.0702,
+      "sma50": 160.4292,
+      "sma200": 159.1826,
       "vs_sma20": "上",
       "vs_sma50": "下",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 30.6,
       "high20": 159.7822,
       "low20": 157.5541,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": 0.86
+      "chg5d_pct": 0.27,
+      "chg20d_pct": 1.01
     },
     "EURUSD": {
-      "latest": 1.16582,
+      "latest": 1.16533,
       "sma20": 1.1608,
       "sma50": 1.1512,
       "sma200": 1.1598,
@@ -261,8 +255,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.18,
-      "chg20d_pct": 0.85
+      "chg5d_pct": -0.22,
+      "chg20d_pct": 0.81
     }
   }
 }
