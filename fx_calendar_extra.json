@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-08-28 23:58 JST",
+  "generated_at_jst": "2026-08-29 08:58 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,22 +7,8 @@
     "mag7": "live (7件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 122,
+  "count": 121,
   "events": [
-    {
-      "date": "2026-08-28",
-      "time": "08:30",
-      "tz": "JST",
-      "title": "日本 東京都区部CPI 2026年8月分(中旬速報)",
-      "short": "★★ 東京都CPI",
-      "category": "indicator",
-      "country": "JP",
-      "impact": "medium",
-      "note": "全国CPIの先行指標",
-      "confirmed": false,
-      "source": "stat.go.jp (公表ルールから算出)",
-      "id": "2026-08-28|日本 東京都区部CPI 2026年8月分(中旬速報)"
-    },
     {
       "date": "2026-09-01",
       "time": "17:00",

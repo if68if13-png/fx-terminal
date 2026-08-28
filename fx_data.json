@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-08-28T14:58:04.767979",
-  "generated": "2026年08月28日 14:58",
+  "timestamp": "2026-08-28T23:58:06.373123",
+  "generated": "2026年08月28日 23:58",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
-    "EUR": 1,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,105 +108,98 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro slides below 1.1600 as Warsh brings Fed rate hike back into play",
-      "summary": "EUR/USD falls sharply toward 1.1595 on Friday at the time of writing, losing 0.48% on the day, as the US Dollar (USD) ra"
+      "title": "South Korean Won: BoK tightening supports KRW against US Dollar – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay reports that the Bank of Korea (BoK) delivered a second consecutive 25 bp hike to 3.0% and kep"
     },
     {
       "source": "FXStreet",
-      "title": "Poland: Growth supported by investment rebound – ING",
-      "summary": "ING’s Adam Antoniak expects Poland’s 2Q26 GDP flash estimate to be confirmed at 3.8% year-on-year, with fixed investment"
+      "title": "Vietnam: Exports and consumption stay robust – DBS",
+      "summary": "DBS Group strategists Taimur Baig and Nathan Chow forecast Vietnam’s goods exports to maintain strong double-digit growt"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Nonfarm Payrolls benchmark revision to lower US employment by 79,000 through March 2026",
-      "summary": "According to the preliminary estimate of the Current Employment Statistics (CES) national benchmark revision, Nonfarm em"
+      "title": "South Korean Won: BoK front-loading hikes as KRW consolidates – Commerzbank",
+      "summary": "Commerzbank’s Charlie Lay reports the Bank of Korea has delivered back-to-back 25bp hikes to 3.0%, front-loading tighten"
     },
     {
       "source": "FXStreet",
-      "title": "Japan: Tokyo  CPI data supports BoJ hawkish stance – Societe Generale",
-      "summary": "Societe Generale’s Reo Sakida and Jin Kenzaki note that August Tokyo CPI was broadly in line with expectations, with ren"
+      "title": "Philippine Peso: BSP tightening bias on inflation risks – DBS",
+      "summary": "DBS Group Research economists Radhika Rao and Chua Han Teng note that Bangko Sentral ng Pilipinas (BSP) raised its polic"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Fed Chair Warsh says predominant focus right now should be on prices",
-      "summary": "Federal Reserve Chairman Kevin Warsh said that they must be confident that underlying inflation is moving toward the obj"
+      "title": "South Korean Won: Higher rates and chip boom support gains – ING",
+      "summary": "ING’s Chris Turner reports that the Korean Won (KRW) continues to advance, driven by back-to-back Bank of Korea (BoK) ra"
     },
     {
       "source": "FXStreet",
-      "title": "Germany: Growth recovery stays moderate – Commerzbank",
-      "summary": "Commerzbank’s Dr. Ralph Solveen and colleagues say German GDP has surprised on the upside, expanding around 0.35% per qu"
+      "title": "Malaysian Ringgit: BNM seen on steady policy path – DBS",
+      "summary": "DBS Group strategists Taimur Baig and Nathan Chow expect Bank Negara Malaysia (BNM) to keep its Overnight Policy Rate un"
     },
     {
       "source": "FXStreet",
-      "title": "Euro drifts lower as Fed hawks set the stage for Warsh",
-      "summary": "EUR/USD trades around 1.1645 on Friday, posting a modest 0.07% decline on the day as investors adopt a wait-and-see appr"
+      "title": "Mexican Peso tumbles as Warsh embarks on inflation fight",
+      "summary": "The Mexican Peso (MXN) depreciates against the US Dollar (USD) on Friday, down by over 0.42% on hawkish remarks by Feder"
     },
     {
       "source": "FXStreet",
-      "title": "Canada: Economic risks and sector strains – RBC",
-      "summary": "Royal Bank of Canada (RBC) strategists analyze escalating trade tensions between Canada and the United States (US) and t"
+      "title": "Chinese Yuan: Undervaluation and export gains questioned – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur challenges recent internal analysis on CNY undervaluation and exports, arguing that China’s e"
     },
     {
       "source": "FXStreet",
-      "title": "Hungary: Retail data may offer upside surprise – ING",
-      "summary": "ING’s Peter Virovacz expects Hungary’s final 2Q26 GDP release to confirm a weaker-than-hoped quarter, with agriculture a"
+      "title": "South Korean Won: Strong exports support KRW and KOSPI – DBS",
+      "summary": "DBS Group strategists Taimur Baig and Nathan Chow expect South Korea’s August exports to stay strong near 60% year-on-ye"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Hammack: Time for Fed to act with rate hikes",
-      "summary": "In an interview with Bloomberg on Friday, Cleveland Federal Reserve (Fed) President Beth Hammack said that it is time fo"
+      "title": "BoE’s Bailey sees muted inflation effects ahead of policy meeting",
+      "summary": "Bank of England (BoE) Governor Andrew Bailey said on Friday that he doesn’t see significant second-round inflation effec"
     }
   ],
   "cot": {
     "CHF": {
-      "long": 113749,
-      "short": 66963,
-      "net": 46786,
+      "long": 108923,
+      "short": 57751,
+      "net": 51172,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 40347,
-      "short": 447,
-      "net": 39900,
+      "long": 40299,
+      "short": 827,
+      "net": 39472,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 21477,
-      "short": 413,
-      "net": 21064,
+      "long": 22261,
+      "short": 476,
+      "net": 21785,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 21477,
-      "short": 413,
-      "net": 21064,
+      "long": 22261,
+      "short": 476,
+      "net": 21785,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 288526,
-      "short": 84525,
-      "net": 204001,
+      "long": 333906,
+      "short": 101536,
+      "net": 232370,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro slides below 1.1600 as Warsh brings Fed rate hike ",
-      "[強気] Fed's Hammack: Time for Fed to act with rate hikes"
-    ],
-    "JPY": [
-      "[強気] Japan: Tokyo  CPI data supports BoJ hawkish stance – So"
-    ],
-    "EUR": [
-      "[強気] Euro slides below 1.1600 as Warsh brings Fed rate hike "
+      "[強気] Mexican Peso tumbles as Warsh embarks on inflation figh"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)"
+      "[COT] 🟢ロング優勢 (ネット:+232,370)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -214,57 +207,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.66,
+    "US_10Y": 4.67,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 1.99,
-    "DIFF_EURUSD": -1.69,
-    "DIFF_GBPUSD": 0.14,
-    "DIFF_AUDUSD": 0.17
+    "DIFF_USDJPY": 2.0,
+    "DIFF_EURUSD": -1.7,
+    "DIFF_GBPUSD": 0.13,
+    "DIFF_AUDUSD": 0.16
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.40995,
-      "today_close": 159.87887,
-      "prev_close": 159.41185,
-      "diff": 0.467,
-      "diff_pct": 0.29
+      "today_open": 160.10921,
+      "today_close": 160.05555,
+      "prev_close": 160.11541,
+      "diff": -0.0599,
+      "diff_pct": -0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.87887,
-      "sma20": 159.174,
-      "sma50": 160.3792,
-      "sma200": 159.2035,
+      "latest": 160.05555,
+      "sma20": 159.3012,
+      "sma50": 160.3511,
+      "sma200": 159.2334,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 49.8,
-      "high20": 159.939,
-      "low20": 157.5541,
+      "rsi14": 70.1,
+      "high20": 160.2131,
+      "low20": 157.6716,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.54,
-      "chg20d_pct": 1.3
+      "chg5d_pct": 0.6,
+      "chg20d_pct": 1.46
     },
     "EURUSD": {
-      "latest": 1.16179,
-      "sma20": 1.1611,
-      "sma50": 1.1516,
-      "sma200": 1.1597,
-      "vs_sma20": "上",
+      "latest": 1.15867,
+      "sma20": 1.161,
+      "sma50": 1.1519,
+      "sma200": 1.1595,
+      "vs_sma20": "下",
       "vs_sma50": "上",
-      "vs_sma200": "上",
-      "rsi14": 50.4,
+      "vs_sma200": "下",
+      "rsi14": 59.2,
       "high20": 1.1711,
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.5,
-      "chg20d_pct": 0.51
+      "chg5d_pct": -0.67,
+      "chg20d_pct": 0.24
     }
   }
 }
