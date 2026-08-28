@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-28T00:16:55.453127",
-  "generated": "2026年08月28日 00:16",
+  "timestamp": "2026-08-28T14:58:04.767979",
+  "generated": "2026年08月28日 14:58",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 4,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,43 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "1.9%: Japan’s Tokyo CPI inflation rises in August",
-      "summary": "The headline Tokyo Consumer Price Index (CPI) for August rose 1.9% YoY as compared to 1.8% in the previous month, the St"
+      "title": "Euro slides below 1.1600 as Warsh brings Fed rate hike back into play",
+      "summary": "EUR/USD falls sharply toward 1.1595 on Friday at the time of writing, losing 0.48% on the day, as the US Dollar (USD) ra"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds modest bid above 1.1650 ahead of Jackson Hole Symposium",
-      "summary": "The EUR/USD pair posts modest gains near 1.1655 during the early Asian session on Friday. Markets might turn cautious la"
+      "title": "Poland: Growth supported by investment rebound – ING",
+      "summary": "ING’s Adam Antoniak expects Poland’s 2Q26 GDP flash estimate to be confirmed at 3.8% year-on-year, with fixed investment"
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar is inches away from generational highs against the Yen",
-      "summary": "AUD/JPY traded close to 114.75 on Thursday, ahead 0.36% on the session, with a high that stops nineteen pips beneath a c"
+      "title": "Breaking: Nonfarm Payrolls benchmark revision to lower US employment by 79,000 through March 2026",
+      "summary": "According to the preliminary estimate of the Current Employment Statistics (CES) national benchmark revision, Nonfarm em"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar hits three-month peak on risk-on mood, eyes on Warsh",
-      "summary": "The Aussie Dollar climbed to a three-month high of 0.7198 on Thursday, even though the US Dollar steadied on solid jobs "
+      "title": "Japan: Tokyo  CPI data supports BoJ hawkish stance – Societe Generale",
+      "summary": "Societe Generale’s Reo Sakida and Jin Kenzaki note that August Tokyo CPI was broadly in line with expectations, with ren"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen gets its hike whatever Tokyo CPI prints",
-      "summary": "USD/JPY holds just beneath 159.50 on Thursday, ahead 0.05% across a range of forty-two pips, a fifth consecutive session"
+      "title": "Breaking: Fed Chair Warsh says predominant focus right now should be on prices",
+      "summary": "Federal Reserve Chairman Kevin Warsh said that they must be confident that underlying inflation is moving toward the obj"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds firm above $4,600 as Warsh speech looms",
-      "summary": "Gold (XAU/USD) extended its gains on Thursday, up 0.17% as US jobs data was solid, while the US trade deficit widened. I"
+      "title": "Germany: Growth recovery stays moderate – Commerzbank",
+      "summary": "Commerzbank’s Dr. Ralph Solveen and colleagues say German GDP has surprised on the upside, expanding around 0.35% per qu"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand's Kiwi prices a hike it has already delivered",
-      "summary": "NZD/USD holds just beneath 0.5950 on Thursday, unchanged on the session across a range of twenty-two pips and some forty"
+      "title": "Euro drifts lower as Fed hawks set the stage for Warsh",
+      "summary": "EUR/USD trades around 1.1645 on Friday, posting a modest 0.07% decline on the day as investors adopt a wait-and-see appr"
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Canada: Economic risks and sector strains – RBC",
+      "summary": "Royal Bank of Canada (RBC) strategists analyze escalating trade tensions between Canada and the United States (US) and t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Hungary: Retail data may offer upside surprise – ING",
+      "summary": "ING’s Peter Virovacz expects Hungary’s final 2Q26 GDP release to confirm a weaker-than-hoped quarter, with agriculture a"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed's Hammack: Time for Fed to act with rate hikes",
+      "summary": "In an interview with Bloomberg on Friday, Cleveland Federal Reserve (Fed) President Beth Hammack said that it is time fo"
     }
   ],
   "cot": {
@@ -182,15 +192,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar hits three-month peak on risk-on mood"
+      "[強気] Euro slides below 1.1600 as Warsh brings Fed rate hike ",
+      "[強気] Fed's Hammack: Time for Fed to act with rate hikes"
+    ],
+    "JPY": [
+      "[強気] Japan: Tokyo  CPI data supports BoJ hawkish stance – So"
+    ],
+    "EUR": [
+      "[強気] Euro slides below 1.1600 as Warsh brings Fed rate hike "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+204,001)",
-      "[強気] Australian Dollar hits three-month peak on risk-on mood"
+      "[COT] 🟢ロング優勢 (ネット:+204,001)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -211,33 +227,33 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.40995,
-      "today_close": 159.34805,
+      "today_close": 159.87887,
       "prev_close": 159.41185,
-      "diff": -0.0638,
-      "diff_pct": -0.04
+      "diff": 0.467,
+      "diff_pct": 0.29
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.34805,
-      "sma20": 159.1475,
-      "sma50": 160.3686,
-      "sma200": 159.2009,
+      "latest": 159.87887,
+      "sma20": 159.174,
+      "sma50": 160.3792,
+      "sma200": 159.2035,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
       "rsi14": 49.8,
-      "high20": 159.7822,
+      "high20": 159.939,
       "low20": 157.5541,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.21,
-      "chg20d_pct": 0.97
+      "chg5d_pct": 0.54,
+      "chg20d_pct": 1.3
     },
     "EURUSD": {
-      "latest": 1.16529,
-      "sma20": 1.1612,
-      "sma50": 1.1517,
+      "latest": 1.16179,
+      "sma20": 1.1611,
+      "sma50": 1.1516,
       "sma200": 1.1597,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -247,8 +263,8 @@
       "low20": 1.1512,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.2,
-      "chg20d_pct": 0.81
+      "chg5d_pct": -0.5,
+      "chg20d_pct": 0.51
     }
   }
 }
