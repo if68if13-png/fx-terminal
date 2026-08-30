@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-08-30T20:39:40.500578",
-  "generated": "2026年08月30日 20:39",
+  "timestamp": "2026-08-30T23:15:29.630323",
+  "generated": "2026年08月30日 23:15",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -152,9 +152,9 @@
       "summary": "DBS Group strategists Taimur Baig and Nathan Chow expect South Korea’s August exports to stay strong near 60% year-on-ye"
     },
     {
-      "source": "FXStreet",
-      "title": "BoE’s Bailey sees muted inflation effects ahead of policy meeting",
-      "summary": "Bank of England (BoE) Governor Andrew Bailey said on Friday that he doesn’t see significant second-round inflation effec"
+      "source": "Investing",
+      "title": "Bitcoin sheds more than 3% on hawkish Warsh, loses steam after debasement rally",
+      "summary": ""
     }
   ],
   "cot": {
@@ -219,45 +219,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 160.1027,
-      "today_close": 160.13601,
-      "prev_close": 160.10152,
-      "diff": 0.0345,
-      "diff_pct": 0.02
+      "today_open": 160.07273,
+      "today_close": 160.18342,
+      "prev_close": 160.06593,
+      "diff": 0.1175,
+      "diff_pct": 0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.13601,
-      "sma20": 159.3445,
-      "sma50": 160.3211,
-      "sma200": 159.2696,
+      "latest": 160.18342,
+      "sma20": 159.385,
+      "sma50": 160.289,
+      "sma200": 159.3056,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
-      "rsi14": 69.0,
+      "rsi14": 75.7,
       "high20": 160.2369,
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.58,
-      "chg20d_pct": 0.51
+      "chg5d_pct": 0.54,
+      "chg20d_pct": 0.55
     },
     "EURUSD": {
-      "latest": 1.15821,
-      "sma20": 1.1612,
-      "sma50": 1.1522,
-      "sma200": 1.1594,
+      "latest": 1.15851,
+      "sma20": 1.1614,
+      "sma50": 1.1525,
+      "sma200": 1.1592,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 58.2,
+      "rsi14": 58.0,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.79,
-      "chg20d_pct": 0.34
+      "chg5d_pct": -0.59,
+      "chg20d_pct": 0.36
     }
   }
 }
