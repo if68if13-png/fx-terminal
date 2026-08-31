@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-08-31T12:54:04.144401",
-  "generated": "2026年08月31日 12:54",
+  "timestamp": "2026-08-31T20:41:43.123067",
+  "generated": "2026年08月31日 20:41",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
+    "USD": 4,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
-    "CAD": -1,
+    "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": -1,
-      "quote_score": 3
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Pound Sterling retreats as Japanese Yen attracts modest buying",
-      "summary": "GBP/JPY trades on the back foot on Monday as the Japanese Yen (JPY) strengthens against its major peers. The Pound Sterl"
+      "title": "Japanese Yen: Supported below 160 against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that the Japanese Yen (JPY) is modestly stronger versus "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Warsh boosts policy credibility – OCBC",
-      "summary": "OCBC FX Strategist Sim Moh Siong and Christopher Wong note that Fed Chair Warsh’s Jackson Hole speech eased debasement c"
+      "title": "August was three good days for the Dow Jones Industrial Average",
+      "summary": "The Dow Jones Industrial Average closed just short of 53,300, roughly 250 points and about 0.5% lower, after American fo"
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Warsh’s hawkish shift reshapes rate outlook – Rabobank",
-      "summary": "Rabobank’s Elwin de Groot discusses Fed Chair Kevin Warsh’s Jackson Hole speech and its impact on US rates. He notes tha"
+      "title": "Mexican Peso appreciates as USD/MXN dives on USD weakness",
+      "summary": "The Mexican Peso (MXN) appreciates by about 0.20% against the US Dollar (USD) on Monday, even as risk appetite deteriora"
     },
     {
       "source": "FXStreet",
-      "title": "Germany flash HICP growth remains slower than expected at 2.9% in August",
-      "summary": "Preliminary Germany Harmonized Index of Consumer Prices (HICP) data for August arrives at 2.9% Year-on-Year (YoY), lower"
+      "title": "China: Easing case strengthens on weak PMIs – Commerzbank",
+      "summary": "Commerzbank’s Dr. Henry Hao argues that two months of broad Purchasing Managers' Index (PMI) contraction leave China’s G"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: ECB tightening expectations support pair – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects Eurozone August headline Consumer Price Index (CPI) to accelerate t"
+      "title": "Singapore Dollar: Near-term pressure against US Dollar - OCBC",
+      "summary": "OCBC’s Sim Moh Siong and Christopher Wong say the Singapore Dollar (SGD) slipped as the broad Dollar rebounded after Jac"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Faces selling pressure above 160.00",
-      "summary": "The US Dollar (USD) is down 0.3% to near 159.65 against the Japanese Yen (JPY) during the European trading session on Mo"
+      "title": "Gold slips as Warsh Fed hike bets, Oil rally lift US yields",
+      "summary": "Gold (XAU/USD) price retreats some 0.40% on Monday after last Friday's hawkish remarks by Federal Reserve (Fed) Chair Ke"
     },
     {
       "source": "FXStreet",
-      "title": "Euro languishes around 1.1600 amid Fed hiking hopes, fresh tensions in Iran",
-      "summary": "The Euro (EUR) posts marginal gains against the US Dollar (USD) on Monday, but it remains close to Friday’s lows at 1.15"
+      "title": "Silver Price Forecast: XAG/USD consolidates below 100-Day SMA as momentum fades",
+      "summary": "Silver (XAG/USD) is little changed on Monday, caught between a weaker US Dollar (USD) and lingering hawkish Federal Rese"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds near $4,450 as Fed rate-hike expectations keep buyers cautious",
-      "summary": "Gold (XAU/USD) steadies on Monday after opening the week lower and briefly falling below $4,400, its lowest level since "
+      "title": "Australian Dollar holds firm amid hawkish Fed and RBA expectations",
+      "summary": "AUD/USD trades in a narrow range on Monday as markets weigh hawkish expectations from both the Reserve Bank of Australia"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC dovish tone and tariff risks – TD Securities",
-      "summary": "TD Securities’ macro team, including Andrew Kelvin and Jayati Bharadwaj, expects the Bank of Canada (BoC) to adopt a dov"
+      "title": "Euro: Limited downside, range defined against US Dollar – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is fractionally higher versus the US Dollar "
     },
     {
       "source": "Investing",
-      "title": "Strategy purchases 4,603 bitcoin",
+      "title": "Bitcoin dips below $78k amid Iran escalation, rate jitters",
       "summary": ""
     }
   ],
@@ -192,51 +192,53 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Federal Reserve: Warsh’s hawkish shift reshapes rate ou",
-      "[強気] Gold holds near $4,450 as Fed rate-hike expectations ke",
-      "[弱気] Canadian Dollar: BoC dovish tone and tariff risks – TD "
+      "[強気] Japanese Yen: Supported below 160 against US Dollar – S",
+      "[弱気] Mexican Peso appreciates as USD/MXN dives on USD weakne",
+      "[強気] Gold slips as Warsh Fed hike bets, Oil rally lift US yi",
+      "[強気] Australian Dollar holds firm amid hawkish Fed and RBA e"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Supported below 160 against US Dollar – S"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+232,370)"
+      "[COT] 🟢ロング優勢 (ネット:+232,370)",
+      "[強気] Australian Dollar holds firm amid hawkish Fed and RBA e"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[弱気] Canadian Dollar: BoC dovish tone and tariff risks – TD "
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.67,
+    "US_10Y": 4.73,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.0,
-    "DIFF_EURUSD": -1.7,
-    "DIFF_GBPUSD": 0.13,
-    "DIFF_AUDUSD": 0.16
+    "DIFF_USDJPY": 2.06,
+    "DIFF_EURUSD": -1.76,
+    "DIFF_GBPUSD": 0.07,
+    "DIFF_AUDUSD": 0.1
   },
   "prices": {
     "USDJPY": {
       "today_open": 160.07273,
-      "today_close": 159.85079,
+      "today_close": 159.77151,
       "prev_close": 160.06593,
-      "diff": -0.2151,
-      "diff_pct": -0.13
+      "diff": -0.2944,
+      "diff_pct": -0.18
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.85079,
-      "sma20": 159.3684,
-      "sma50": 160.2823,
-      "sma200": 159.3039,
+      "latest": 159.77151,
+      "sma20": 159.3644,
+      "sma50": 160.2807,
+      "sma200": 159.3035,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -245,12 +247,12 @@
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.34,
-      "chg20d_pct": 0.34
+      "chg5d_pct": 0.29,
+      "chg20d_pct": 0.29
     },
     "EURUSD": {
-      "latest": 1.15942,
-      "sma20": 1.1615,
+      "latest": 1.16154,
+      "sma20": 1.1616,
       "sma50": 1.1526,
       "sma200": 1.1592,
       "vs_sma20": "下",
@@ -261,8 +263,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.51,
-      "chg20d_pct": 0.44
+      "chg5d_pct": -0.33,
+      "chg20d_pct": 0.63
     }
   }
 }

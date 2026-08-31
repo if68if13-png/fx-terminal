@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-08-31 21:54 JST",
+  "generated_at_jst": "2026-09-01 05:42 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,7 +7,7 @@
     "mag7": "live (7件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 121,
+  "count": 126,
   "events": [
     {
       "date": "2026-09-01",
@@ -1592,6 +1592,34 @@
       "id": "2028-01-28|日本 東京都区部CPI 2028年1月分(中旬速報)"
     },
     {
+      "date": "2028-02-01",
+      "time": "17:00",
+      "tz": "JST",
+      "title": "ユーロ圏 製造業PMI 確報",
+      "short": "★ 欧製造業PMI",
+      "category": "indicator",
+      "country": "EU",
+      "impact": "low",
+      "note": null,
+      "confirmed": false,
+      "source": "S&P Global (公表ルールから算出)",
+      "id": "2028-02-01|ユーロ圏 製造業PMI 確報"
+    },
+    {
+      "date": "2028-02-03",
+      "time": "17:00",
+      "tz": "JST",
+      "title": "ユーロ圏 サービス業・総合PMI 確報",
+      "short": "★ 欧サービスPMI",
+      "category": "indicator",
+      "country": "EU",
+      "impact": "low",
+      "note": null,
+      "confirmed": false,
+      "source": "S&P Global (公表ルールから算出)",
+      "id": "2028-02-03|ユーロ圏 サービス業・総合PMI 確報"
+    },
+    {
       "date": "2028-02-03",
       "time": "21:15",
       "tz": "JST",
@@ -1604,6 +1632,48 @@
       "confirmed": true,
       "source": "ecb.europa.eu",
       "id": "2028-02-03|ECB 政策理事会 政策金利発表"
+    },
+    {
+      "date": "2028-02-18",
+      "time": "08:30",
+      "tz": "JST",
+      "title": "日本 消費者物価指数(全国) 2028年1月分",
+      "short": "★★★ 日本CPI",
+      "category": "indicator",
+      "country": "JP",
+      "impact": "high",
+      "note": "コアCPI(生鮮食品除く)が主目線",
+      "confirmed": false,
+      "source": "stat.go.jp (公表ルールから算出)",
+      "id": "2028-02-18|日本 消費者物価指数(全国) 2028年1月分"
+    },
+    {
+      "date": "2028-02-22",
+      "time": "17:00",
+      "tz": "JST",
+      "title": "ユーロ圏 PMI速報 (製造業・サービス業・総合)",
+      "short": "★★★ 欧PMI速報",
+      "category": "indicator",
+      "country": "EU",
+      "impact": "high",
+      "note": "ECBの政策判断に直結しやすい先行指標",
+      "confirmed": false,
+      "source": "S&P Global (公表ルールから算出)",
+      "id": "2028-02-22|ユーロ圏 PMI速報 (製造業・サービス業・総合)"
+    },
+    {
+      "date": "2028-02-25",
+      "time": "08:30",
+      "tz": "JST",
+      "title": "日本 東京都区部CPI 2028年2月分(中旬速報)",
+      "short": "★★ 東京都CPI",
+      "category": "indicator",
+      "country": "JP",
+      "impact": "medium",
+      "note": "全国CPIの先行指標",
+      "confirmed": false,
+      "source": "stat.go.jp (公表ルールから算出)",
+      "id": "2028-02-25|日本 東京都区部CPI 2028年2月分(中旬速報)"
     },
     {
       "date": "2028-03-23",
