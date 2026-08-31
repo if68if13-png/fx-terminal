@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-08-30T23:15:29.630323",
-  "generated": "2026年08月30日 23:15",
+  "timestamp": "2026-08-31T04:05:58.439539",
+  "generated": "2026年08月31日 04:05",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -108,48 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: BoK tightening supports KRW against US Dollar – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay reports that the Bank of Korea (BoK) delivered a second consecutive 25 bp hike to 3.0% and kep"
+      "title": "United States Dollar Index trades slightly lower at the start of the US NFP week",
+      "summary": "The US Dollar (USD) is slightly down in the Asian trading session at the start of the week. The US Dollar Index (DXY), w"
     },
     {
       "source": "FXStreet",
-      "title": "Vietnam: Exports and consumption stay robust – DBS",
-      "summary": "DBS Group strategists Taimur Baig and Nathan Chow forecast Vietnam’s goods exports to maintain strong double-digit growt"
+      "title": "United States: Labour market watch – NBC Economics and Strategy",
+      "summary": "NBC Economics and Strategy report that U.S. nominal personal income rose 0.4% in July, double expectations, while spendi"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: BoK front-loading hikes as KRW consolidates – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay reports the Bank of Korea has delivered back-to-back 25bp hikes to 3.0%, front-loading tighten"
+      "title": "United States Dollar: Rebound needs stronger payrolls data – TD Cowen",
+      "summary": "TD Cowen’s Washington Strategy team, led by Chris Krueger, notes that a durable rebound in the Dollar hinges on stronger"
     },
     {
       "source": "FXStreet",
-      "title": "Philippine Peso: BSP tightening bias on inflation risks – DBS",
-      "summary": "DBS Group Research economists Radhika Rao and Chua Han Teng note that Bangko Sentral ng Pilipinas (BSP) raised its polic"
+      "title": "Silver Price Forecast: XAG/USD falls to near $66.00 amid Fed Chair Warsh’s hawkish tone",
+      "summary": "Silver price (XAG/USD) extends its losses for the second successive day, trading around $66.10 per troy ounce during the"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Higher rates and chip boom support gains – ING",
-      "summary": "ING’s Chris Turner reports that the Korean Won (KRW) continues to advance, driven by back-to-back Bank of Korea (BoK) ra"
+      "title": "Australian Dollar eases from July 9 high vs New Zealand Dollar; awaits Aussie GDP and RBNZ",
+      "summary": "The AUD/NZD cross turns positive for the fourth straight day following an intraday fall to the 1.2065 area and climbs to"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysian Ringgit: BNM seen on steady policy path – DBS",
-      "summary": "DBS Group strategists Taimur Baig and Nathan Chow expect Bank Negara Malaysia (BNM) to keep its Overnight Policy Rate un"
+      "title": "Canadian Dollar strengthens despite hawkish Fed rhetoric",
+      "summary": "The USD/CAD pair edges lower to around 1.3890 during the Asian trading hours on Monday. Renewed tensions between the US "
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso tumbles as Warsh embarks on inflation fight",
-      "summary": "The Mexican Peso (MXN) depreciates against the US Dollar (USD) on Friday, down by over 0.42% on hawkish remarks by Feder"
+      "title": "New Zealand Dollar inches higher as China’s Manufacturing PMI ticks up in August",
+      "summary": "NZD/USD remains subdued for the second successive day, trading around 0.5910 during the Asian hours on Monday. However, "
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Undervaluation and export gains questioned – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur challenges recent internal analysis on CNY undervaluation and exports, arguing that China’s e"
+      "title": "Gold drifts lower below $4,450 as hawkish Warsh remarks lift Fed hike bets",
+      "summary": "Gold price (XAU/USD) attracts some sellers to near $4,445 during the early Asian trading hours on Monday. The precious m"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Strong exports support KRW and KOSPI – DBS",
-      "summary": "DBS Group strategists Taimur Baig and Nathan Chow expect South Korea’s August exports to stay strong near 60% year-on-ye"
+      "title": "Australian Dollar moves little following China’s NBS PMI data",
+      "summary": "AUD/USD edges higher after opening at a bearish gap, remaining in the negative territory and trading around 0.7160 durin"
     },
     {
       "source": "Investing",
@@ -192,7 +192,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Mexican Peso tumbles as Warsh embarks on inflation figh"
+      "[強気] United States Dollar Index trades slightly lower at the",
+      "[強気] United States Dollar: Rebound needs stronger payrolls d",
+      "[強気] Silver Price Forecast: XAG/USD falls to near $66.00 ami",
+      "[強気] Canadian Dollar strengthens despite hawkish Fed rhetori",
+      "[強気] Gold drifts lower below $4,450 as hawkish Warsh remarks"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -203,6 +207,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar strengthens despite hawkish Fed rhetori"
     ]
   },
   "rates": {
@@ -220,18 +227,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 160.07273,
-      "today_close": 160.18342,
+      "today_close": 159.77916,
       "prev_close": 160.06593,
-      "diff": 0.1175,
-      "diff_pct": 0.07
+      "diff": -0.2868,
+      "diff_pct": -0.18
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.18342,
-      "sma20": 159.385,
-      "sma50": 160.289,
-      "sma200": 159.3056,
+      "latest": 159.77916,
+      "sma20": 159.3648,
+      "sma50": 160.2809,
+      "sma200": 159.3036,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -240,13 +247,13 @@
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.54,
-      "chg20d_pct": 0.55
+      "chg5d_pct": 0.29,
+      "chg20d_pct": 0.3
     },
     "EURUSD": {
-      "latest": 1.15851,
-      "sma20": 1.1614,
-      "sma50": 1.1525,
+      "latest": 1.15917,
+      "sma20": 1.1615,
+      "sma50": 1.1526,
       "sma200": 1.1592,
       "vs_sma20": "下",
       "vs_sma50": "上",
@@ -256,8 +263,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.59,
-      "chg20d_pct": 0.36
+      "chg5d_pct": -0.53,
+      "chg20d_pct": 0.42
     }
   }
 }
