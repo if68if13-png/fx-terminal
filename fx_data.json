@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-01T00:25:00.238108",
-  "generated": "2026年09月01日 00:25",
+  "timestamp": "2026-09-01T08:21:38.006222",
+  "generated": "2026年09月01日 08:21",
   "scores": {
-    "USD": 4,
-    "JPY": 2,
+    "USD": 3,
+    "JPY": -1,
     "EUR": 0,
-    "GBP": 2,
-    "AUD": 0,
-    "NZD": 1,
+    "GBP": 1,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 3,
+      "quote_score": -1
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "base_score": -1,
+      "quote_score": 3
     },
     {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 4,
-      "quote_score": 2
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold edges lower below $4,450 as Middle East tensions add inflation pressure",
-      "summary": "Gold price (XAU/USD) declines to near $4,445 during the early Asian trading hours on Tuesday. The precious metal loses m"
+      "title": "British Pound edges higher as fiscal risks and rate gap weigh on Yen",
+      "summary": "The GBP/JPY cross edges higher on Tuesday, though it lacks bullish conviction and remains confined within a familiar ran"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar flat as Oil spike, Fed hawkish bets keep traders cautious",
-      "summary": "The Aussie Dollar traded sideways on Monday, unchanged at 0.7165, as a jump in energy prices sparked by the Middle East "
+      "title": "Euro edges down against Japanese Yen ahead of Eurozone HICP data",
+      "summary": "The Euro (EUR) trades subduedly at around 185.50 against the Japanese Yen (JPY) during the European trading session on T"
     },
     {
       "source": "FXStreet",
-      "title": "Nobody was ever paying the British Pound for its hawks",
-      "summary": "GBP/USD trades near 1.3550 on Monday, a fraction higher on the session after three consecutive declines took the pair mo"
+      "title": "New Zealand Dollar: RBNZ hike seen with dovish risks – ING",
+      "summary": "ING’s Francesco Pesole expects the Reserve Bank of New Zealand to raise rates by 25bp to 2.75%, with markets fully prici"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen gets nothing for a strong consumption print",
-      "summary": "USD/JPY trades a little beneath 160.00 on Monday, down around 0.2% after an early push above the handle was sold back in"
+      "title": "Forex Today: Focus shifts to Eurozone inflation and mid-tier US data releases",
+      "summary": "Here is what you need to know on Tuesday, September 1:"
     },
     {
       "source": "FXStreet",
-      "title": "The New Zealand Dollar has nothing left to win",
-      "summary": "NZD/USD trades a little above 0.5900 on Monday, barely changed on the session and around seventy pips beneath the late-A"
+      "title": "Australian Dollar: Short-term pullback within broader uptrend against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann observe that AUD/USD has corrected from 0.7208 but is now re"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Bulls defend trendline above 0.5900",
-      "summary": "The NZD/USD pair is poised to finish Monday’s session virtually unchanged near its opening price, despite a modest 0.08%"
+      "title": "Euro: Proactive ECB seen as supportive – Commerzbank",
+      "summary": "Michael Pfister at Commerzbank notes that several central banks, including the European Central Bank (ECB), have already"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Supported below 160 against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that the Japanese Yen (JPY) is modestly stronger versus "
+      "title": "NZD/USD Price Forecast: Flirts with ascending trend-line near 0.5900 as traders eye RBNZ",
+      "summary": "The NZD/USD pair attracts some sellers following a modest intraday uptick to the 0.5930 region and languishes near the l"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin set for huge August gain despite Iran escalation and rate jitters",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Japanese Yen: BoJ hike expectations shape FX – MUFG",
+      "summary": "Michael Wan at MUFG notes continued dispersion in Asia FX, with USD/JPY trading just below 160. NHK reports US officials"
     },
     {
-      "source": "Investing",
-      "title": "Strategy purchases 4,603 bitcoin",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Rising 20-day EMA backs more upside",
+      "summary": "The Australian Dollar (AUD) trades marginally lower at around 0.7164 against the US Dollar (USD) during the European tra"
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Indian Rupee gets tailwinds from upbeat Q2 GDP, narrowed fiscal deficit",
+      "summary": "The Indian Rupee (INR) gains sharply against the US Dollar on Tuesday. The USD/INR pair slumps to near 94.80, the lowest"
     }
   ],
   "cot": {
@@ -192,26 +192,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar flat as Oil spike, Fed hawkish bets k",
-      "[強気] The Japanese Yen gets nothing for a strong consumption ",
-      "[弱気] NZD/USD Price Forecast: Bulls defend trendline above 0.",
-      "[強気] Japanese Yen: Supported below 160 against US Dollar – S"
+      "[強気] Indian Rupee gets tailwinds from upbeat Q2 GDP, narrowe"
     ],
     "JPY": [
-      "[強気] The Japanese Yen gets nothing for a strong consumption ",
-      "[強気] Japanese Yen: Supported below 160 against US Dollar – S"
+      "[弱気] British Pound edges higher as fiscal risks and rate gap"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound edges higher as fiscal risks and rate gap"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+232,370)",
-      "[強気] Australian Dollar flat as Oil spike, Fed hawkish bets k"
+      "[COT] 🟢ロング優勢 (ネット:+232,370)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] NZD/USD Price Forecast: Bulls defend trendline above 0."
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -229,18 +224,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.74676,
-      "today_close": 159.68018,
+      "today_close": 159.98274,
       "prev_close": 159.74629,
-      "diff": -0.0661,
-      "diff_pct": -0.04
+      "diff": 0.2365,
+      "diff_pct": 0.15
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.68018,
-      "sma20": 159.3756,
-      "sma50": 160.2246,
-      "sma200": 159.3379,
+      "latest": 159.98274,
+      "sma20": 159.3907,
+      "sma50": 160.2307,
+      "sma200": 159.3395,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -249,15 +244,15 @@
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": 0.16
+      "chg5d_pct": 0.36,
+      "chg20d_pct": 0.35
     },
     "EURUSD": {
-      "latest": 1.16239,
-      "sma20": 1.1621,
-      "sma50": 1.1531,
+      "latest": 1.15921,
+      "sma20": 1.1619,
+      "sma50": 1.153,
       "sma200": 1.1591,
-      "vs_sma20": "上",
+      "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 67.1,
@@ -265,8 +260,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.24,
-      "chg20d_pct": 0.86
+      "chg5d_pct": -0.52,
+      "chg20d_pct": 0.58
     }
   }
 }
