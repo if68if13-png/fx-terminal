@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-01T13:58:48.169813",
-  "generated": "2026年09月01日 13:58",
+  "timestamp": "2026-09-01T18:12:37.167848",
+  "generated": "2026年09月01日 18:12",
   "scores": {
-    "USD": 4,
-    "JPY": -1,
+    "USD": 3,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 4,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,53 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Yield cap and intervention shape risks – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights that rising global bond yields and firmer Oil prices have pushed"
+      "title": "Hungary: Growth strengthens but structural limits remain - ING",
+      "summary": "ING economists Peter Virovacz and Zoltán Homolya see Hungary on a gradual but constrained growth path after Gross Domest"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen weakens as Japan’s 10-year yield hits 3% for first time since 1996",
-      "summary": "USD/JPY trades around 160.05 on Tuesday at the time of writing, gaining 0.19% on the day, as the Japanese Yen (JPY) rema"
+      "title": "Forex Today: Enter the US labour market",
+      "summary": "The US Dollar (USD) has managed to leave behind the negative start to the week and regained balance on Tuesday. The reco"
     },
     {
       "source": "FXStreet",
-      "title": "Euro area: Inflation jump supports ECB hike – Commerzbank",
-      "summary": "Commerzbank’s Dr. Vincent Stamer notes that Euro area headline inflation rose to 3.3% in August from 2.9% in July, drive"
+      "title": "Crude Oil goes vertical on fresh explosions in southern Iran",
+      "summary": "Crude Oil reached its session high in a straight line rather than a grind, with West Texas Intermediate (WTI) pinned ben"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Barr keeps rate hike on the table as inflation persists",
-      "summary": "Federal Reserve Governor Michael Barr said inflation remains too high and warned that a rate hike could become necessary"
+      "title": "US Treasury Secretary Bessent backs Yen support, urges BoJ clarity",
+      "summary": "US Treasury Secretary Scott Bessent said on Tuesday that he emphasized the importance of sound formulation and communica"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Pair extends recovery above key moving averages",
-      "summary": "USD/CHF ticks higher on Tuesday as the US Dollar (USD) recoups most of the previous day’s losses. Hawkish Federal Reserv"
+      "title": "New Zealand Dollar struggles to rebound despite softer US data",
+      "summary": "NZD/USD trades around 0.5900 on Tuesday at the time of writing, down 0.24% on the day. The New Zealand Dollar (NZD) rema"
     },
     {
       "source": "FXStreet",
-      "title": "“Good news” on inflation: ECB’s Nagel sees no second-round effects",
-      "summary": "Joachim Nagel, European Central Bank (ECB) Governing Council member and Bundesbank President, expressed confidence on Tu"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee: RBI seen hiking as inflation risks build – UOB",
-      "summary": "UOB’s Jester Koh expects the Reserve Bank of India (RBI) to deliver two consecutive 25bps rate hikes starting from the D"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US JOLTS Job Openings set to reflect stable labor market ahead of NFP",
-      "summary": "The US Bureau of Labor Statistics has a busy week, releasing relevant employment data. It will start on Tuesday with the"
-    },
-    {
-      "source": "FXStreet",
-      "title": "S&P 500: Strong earnings but stretched valuation risk – NBC",
-      "summary": "National Bank of Canada (NBC) strategists highlight that the S&amp;P 500 has hit a fresh record high in August, supporte"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold weakens below $4,400 as US Treasury yields surge, Fed rate hike bets rise",
+      "title": "Gold struggles below $4,400 as Fed rate hike bets dominate",
       "summary": "Gold (XAU/USD) extends its pullback from the more-than-three-month high touched last week and falls to a fresh two-week "
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin steady above $78k as Strategy resumes buying; rate, Iran jitters persist",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin set for huge August gain despite Iran escalation and rate jitters",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "summary": ""
     }
   ],
   "cot": {
@@ -192,13 +187,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen weakens as Japan’s 10-year yield hits 3% f",
-      "[強気] Fed’s Barr keeps rate hike on the table as inflation pe",
-      "[強気] USD/CHF Price Forecast: Pair extends recovery above key",
-      "[強気] Gold weakens below $4,400 as US Treasury yields surge, "
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen weakens as Japan’s 10-year yield hits 3% f"
+      "[強気] Gold struggles below $4,400 as Fed rate hike bets domin"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,9 +198,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] USD/CHF Price Forecast: Pair extends recovery above key"
     ]
   },
   "rates": {
@@ -229,44 +215,44 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.74676,
-      "today_close": 160.08073,
+      "today_close": 160.24419,
       "prev_close": 159.74629,
-      "diff": 0.3344,
-      "diff_pct": 0.21
+      "diff": 0.4979,
+      "diff_pct": 0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.08073,
-      "sma20": 159.3956,
-      "sma50": 160.2327,
-      "sma200": 159.3399,
+      "latest": 160.24419,
+      "sma20": 159.4038,
+      "sma50": 160.2359,
+      "sma200": 159.3408,
       "vs_sma20": "上",
-      "vs_sma50": "下",
+      "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 76.9,
-      "high20": 160.2369,
+      "high20": 160.2533,
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.42,
-      "chg20d_pct": 0.41
+      "chg5d_pct": 0.52,
+      "chg20d_pct": 0.51
     },
     "EURUSD": {
-      "latest": 1.15996,
-      "sma20": 1.162,
+      "latest": 1.15885,
+      "sma20": 1.1619,
       "sma50": 1.153,
       "sma200": 1.1591,
       "vs_sma20": "下",
       "vs_sma50": "上",
-      "vs_sma200": "上",
+      "vs_sma200": "下",
       "rsi14": 67.1,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.45,
-      "chg20d_pct": 0.65
+      "chg5d_pct": -0.55,
+      "chg20d_pct": 0.55
     }
   }
 }
