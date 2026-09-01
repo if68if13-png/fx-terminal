@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-01T18:12:37.167848",
-  "generated": "2026年09月01日 18:12",
+  "timestamp": "2026-09-01T23:05:07.722349",
+  "generated": "2026年09月01日 23:05",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -108,47 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Hungary: Growth strengthens but structural limits remain - ING",
-      "summary": "ING economists Peter Virovacz and Zoltán Homolya see Hungary on a gradual but constrained growth path after Gross Domest"
+      "title": "Australian Dollar falls as US-Iran conflict lifts USD, GDP data eyed",
+      "summary": "The Aussie Dollar retreats some 0.29% against the US Dollar on Tuesday as the escalation of the Middle East conflict boo"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Enter the US labour market",
-      "summary": "The US Dollar (USD) has managed to leave behind the negative start to the week and regained balance on Tuesday. The reco"
+      "title": "Chinese Yuan: Range-bound consolidation outlook against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann discuss recent volatility in USD/CNH after a sharp re"
     },
     {
       "source": "FXStreet",
-      "title": "Crude Oil goes vertical on fresh explosions in southern Iran",
-      "summary": "Crude Oil reached its session high in a straight line rather than a grind, with West Texas Intermediate (WTI) pinned ben"
+      "title": "EUR/USD Price Forecast: 200-day SMA caps Euro as Dollar firms",
+      "summary": "The shared currency edges lower, capped by the 200-day Simple Moving Average (SMA) at 1.1633, amid rising geopolitical t"
     },
     {
       "source": "FXStreet",
-      "title": "US Treasury Secretary Bessent backs Yen support, urges BoJ clarity",
-      "summary": "US Treasury Secretary Scott Bessent said on Tuesday that he emphasized the importance of sound formulation and communica"
+      "title": "RBNZ set to raise interest rate to 2.75%",
+      "summary": "The Reserve Bank of New Zealand (RBNZ) is on track to deliver a follow-through interest rate hike, raising the Official "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar struggles to rebound despite softer US data",
-      "summary": "NZD/USD trades around 0.5900 on Tuesday at the time of writing, down 0.24% on the day. The New Zealand Dollar (NZD) rema"
+      "title": "India: Growth and inflation forecasts revised higher – UOB",
+      "summary": "UOB's Jester Koh note they raise their FY27 Gross Domestic Product (GDP) forecast for India to 7.2% from 6.8% after a st"
     },
     {
       "source": "FXStreet",
-      "title": "Gold struggles below $4,400 as Fed rate hike bets dominate",
-      "summary": "Gold (XAU/USD) extends its pullback from the more-than-three-month high touched last week and falls to a fresh two-week "
+      "title": "Asia FX: KRW and MYR lead firmer profile vs USD – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong have recalibrated Asian FX forecasts slightly firmer against the US "
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin steady above $78k as Strategy resumes buying; rate, Iran jitters persist",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Volatility widens range-trading band against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD has retreated sharply after last week’s sp"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso holds near 17.00 as US-Iran strikes weigh on Peso",
+      "summary": "The Mexican Peso (MXN) erases some of its earlier gains against the US Dollar (USD) on Tuesday as the US and Iran launch"
+    },
+    {
+      "source": "FXStreet",
+      "title": "India: Growth outlook revised higher – Standard Chartered",
+      "summary": "Standard Chartered strategists Anubhuti Sahay and Saurav Anand revise their FY27 Gross Domestic Product (GDP) growth for"
     },
     {
       "source": "Investing",
       "title": "Bitcoin set for huge August gain despite Iran escalation and rate jitters",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -186,8 +191,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold struggles below $4,400 as Fed rate hike bets domin"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -197,62 +201,63 @@
       "[COT] 🟢ロング優勢 (ネット:+232,370)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] RBNZ set to raise interest rate to 2.75%"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.73,
+    "US_10Y": 4.75,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.06,
-    "DIFF_EURUSD": -1.76,
-    "DIFF_GBPUSD": 0.07,
-    "DIFF_AUDUSD": 0.1
+    "DIFF_USDJPY": 2.08,
+    "DIFF_EURUSD": -1.78,
+    "DIFF_GBPUSD": 0.05,
+    "DIFF_AUDUSD": 0.08
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.74676,
-      "today_close": 160.24419,
-      "prev_close": 159.74629,
-      "diff": 0.4979,
-      "diff_pct": 0.31
+      "today_open": 160.19916,
+      "today_close": 160.22155,
+      "prev_close": 160.19861,
+      "diff": 0.0229,
+      "diff_pct": 0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.24419,
-      "sma20": 159.4038,
-      "sma50": 160.2359,
-      "sma200": 159.3408,
+      "latest": 160.22155,
+      "sma20": 159.4364,
+      "sma50": 160.194,
+      "sma200": 159.3778,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 76.9,
-      "high20": 160.2533,
+      "rsi14": 74.7,
+      "high20": 160.2712,
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.52,
-      "chg20d_pct": 0.51
+      "chg5d_pct": 0.07,
+      "chg20d_pct": 0.44
     },
     "EURUSD": {
-      "latest": 1.15885,
-      "sma20": 1.1619,
-      "sma50": 1.153,
-      "sma200": 1.1591,
+      "latest": 1.15931,
+      "sma20": 1.1622,
+      "sma50": 1.1534,
+      "sma200": 1.159,
       "vs_sma20": "下",
       "vs_sma50": "上",
-      "vs_sma200": "下",
-      "rsi14": 67.1,
+      "vs_sma200": "上",
+      "rsi14": 61.7,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.55,
-      "chg20d_pct": 0.55
+      "chg5d_pct": 0.09,
+      "chg20d_pct": 0.56
     }
   }
 }
