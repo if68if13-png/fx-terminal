@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-09-01T08:21:38.006222",
-  "generated": "2026年09月01日 08:21",
+  "timestamp": "2026-09-01T13:58:48.169813",
+  "generated": "2026年09月01日 13:58",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": -1,
     "EUR": 0,
-    "GBP": 1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 3,
+      "diff": 5,
+      "base_score": 4,
       "quote_score": -1
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound edges higher as fiscal risks and rate gap weigh on Yen",
-      "summary": "The GBP/JPY cross edges higher on Tuesday, though it lacks bullish conviction and remains confined within a familiar ran"
+      "title": "Japanese Yen: Yield cap and intervention shape risks – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights that rising global bond yields and firmer Oil prices have pushed"
     },
     {
       "source": "FXStreet",
-      "title": "Euro edges down against Japanese Yen ahead of Eurozone HICP data",
-      "summary": "The Euro (EUR) trades subduedly at around 185.50 against the Japanese Yen (JPY) during the European trading session on T"
+      "title": "Japanese Yen weakens as Japan’s 10-year yield hits 3% for first time since 1996",
+      "summary": "USD/JPY trades around 160.05 on Tuesday at the time of writing, gaining 0.19% on the day, as the Japanese Yen (JPY) rema"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: RBNZ hike seen with dovish risks – ING",
-      "summary": "ING’s Francesco Pesole expects the Reserve Bank of New Zealand to raise rates by 25bp to 2.75%, with markets fully prici"
+      "title": "Euro area: Inflation jump supports ECB hike – Commerzbank",
+      "summary": "Commerzbank’s Dr. Vincent Stamer notes that Euro area headline inflation rose to 3.3% in August from 2.9% in July, drive"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Focus shifts to Eurozone inflation and mid-tier US data releases",
-      "summary": "Here is what you need to know on Tuesday, September 1:"
+      "title": "Fed’s Barr keeps rate hike on the table as inflation persists",
+      "summary": "Federal Reserve Governor Michael Barr said inflation remains too high and warned that a rate hike could become necessary"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Short-term pullback within broader uptrend against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann observe that AUD/USD has corrected from 0.7208 but is now re"
+      "title": "USD/CHF Price Forecast: Pair extends recovery above key moving averages",
+      "summary": "USD/CHF ticks higher on Tuesday as the US Dollar (USD) recoups most of the previous day’s losses. Hawkish Federal Reserv"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Proactive ECB seen as supportive – Commerzbank",
-      "summary": "Michael Pfister at Commerzbank notes that several central banks, including the European Central Bank (ECB), have already"
+      "title": "“Good news” on inflation: ECB’s Nagel sees no second-round effects",
+      "summary": "Joachim Nagel, European Central Bank (ECB) Governing Council member and Bundesbank President, expressed confidence on Tu"
     },
     {
       "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Flirts with ascending trend-line near 0.5900 as traders eye RBNZ",
-      "summary": "The NZD/USD pair attracts some sellers following a modest intraday uptick to the 0.5930 region and languishes near the l"
+      "title": "Indian Rupee: RBI seen hiking as inflation risks build – UOB",
+      "summary": "UOB’s Jester Koh expects the Reserve Bank of India (RBI) to deliver two consecutive 25bps rate hikes starting from the D"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: BoJ hike expectations shape FX – MUFG",
-      "summary": "Michael Wan at MUFG notes continued dispersion in Asia FX, with USD/JPY trading just below 160. NHK reports US officials"
+      "title": "US JOLTS Job Openings set to reflect stable labor market ahead of NFP",
+      "summary": "The US Bureau of Labor Statistics has a busy week, releasing relevant employment data. It will start on Tuesday with the"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Rising 20-day EMA backs more upside",
-      "summary": "The Australian Dollar (AUD) trades marginally lower at around 0.7164 against the US Dollar (USD) during the European tra"
+      "title": "S&P 500: Strong earnings but stretched valuation risk – NBC",
+      "summary": "National Bank of Canada (NBC) strategists highlight that the S&amp;P 500 has hit a fresh record high in August, supporte"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee gets tailwinds from upbeat Q2 GDP, narrowed fiscal deficit",
-      "summary": "The Indian Rupee (INR) gains sharply against the US Dollar on Tuesday. The USD/INR pair slumps to near 94.80, the lowest"
+      "title": "Gold weakens below $4,400 as US Treasury yields surge, Fed rate hike bets rise",
+      "summary": "Gold (XAU/USD) extends its pullback from the more-than-three-month high touched last week and falls to a fresh two-week "
     }
   ],
   "cot": {
@@ -192,14 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Indian Rupee gets tailwinds from upbeat Q2 GDP, narrowe"
+      "[弱気] Japanese Yen weakens as Japan’s 10-year yield hits 3% f",
+      "[強気] Fed’s Barr keeps rate hike on the table as inflation pe",
+      "[強気] USD/CHF Price Forecast: Pair extends recovery above key",
+      "[強気] Gold weakens below $4,400 as US Treasury yields surge, "
     ],
     "JPY": [
-      "[弱気] British Pound edges higher as fiscal risks and rate gap"
+      "[弱気] Japanese Yen weakens as Japan’s 10-year yield hits 3% f"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound edges higher as fiscal risks and rate gap"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -207,6 +209,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] USD/CHF Price Forecast: Pair extends recovery above key"
     ]
   },
   "rates": {
@@ -224,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.74676,
-      "today_close": 159.98274,
+      "today_close": 160.08073,
       "prev_close": 159.74629,
-      "diff": 0.2365,
-      "diff_pct": 0.15
+      "diff": 0.3344,
+      "diff_pct": 0.21
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.98274,
-      "sma20": 159.3907,
-      "sma50": 160.2307,
-      "sma200": 159.3395,
+      "latest": 160.08073,
+      "sma20": 159.3956,
+      "sma50": 160.2327,
+      "sma200": 159.3399,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "上",
@@ -244,12 +249,12 @@
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.36,
-      "chg20d_pct": 0.35
+      "chg5d_pct": 0.42,
+      "chg20d_pct": 0.41
     },
     "EURUSD": {
-      "latest": 1.15921,
-      "sma20": 1.1619,
+      "latest": 1.15996,
+      "sma20": 1.162,
       "sma50": 1.153,
       "sma200": 1.1591,
       "vs_sma20": "下",
@@ -260,8 +265,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.52,
-      "chg20d_pct": 0.58
+      "chg5d_pct": -0.45,
+      "chg20d_pct": 0.65
     }
   }
 }
