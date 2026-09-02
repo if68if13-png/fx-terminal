@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-01T23:05:07.722349",
-  "generated": "2026年09月01日 23:05",
+  "timestamp": "2026-09-02T03:15:40.230649",
+  "generated": "2026年09月02日 03:15",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
+    "USD": 3,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 3,
+    "AUD": 0,
+    "NZD": 4,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,48 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar falls as US-Iran conflict lifts USD, GDP data eyed",
-      "summary": "The Aussie Dollar retreats some 0.29% against the US Dollar on Tuesday as the escalation of the Middle East conflict boo"
+      "title": "Breman Speech: RBNZ Governor sheds light on policy outlook after interest rate hike",
+      "summary": "Reserve Bank of New Zealand’s (RBNZ) Governor Anna Breman presents the prepared remarks on the Monetary Policy Review (M"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Range-bound consolidation outlook against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann discuss recent volatility in USD/CNH after a sharp re"
+      "title": "Silver Price Forecast: XAG/USD slips below $64.00 as inflation fears increase",
+      "summary": "Silver price (XAG/USD) extends its losses for the second successive day, trading around $63.40 per troy ounce during the"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: 200-day SMA caps Euro as Dollar firms",
-      "summary": "The shared currency edges lower, capped by the 200-day Simple Moving Average (SMA) at 1.1633, amid rising geopolitical t"
+      "title": "Australian Dollar surges to July 8 high vs New Zealand Dollar after Aussie GDP, RBNZ",
+      "summary": "The AUD/NZD cross builds on the better-than-expected Australian data-inspired gains and rallies to the 1.2200 mark, or t"
     },
     {
       "source": "FXStreet",
-      "title": "RBNZ set to raise interest rate to 2.75%",
-      "summary": "The Reserve Bank of New Zealand (RBNZ) is on track to deliver a follow-through interest rate hike, raising the Official "
+      "title": "New Zealand Dollar plunges after RBNZ raises OCR by 25 bps to 2.75%",
+      "summary": "The NZD/USD pair tumbles to near 0.5855 during the Asian trading hours on Wednesday. The New Zealand Dollar (NZD) faces "
     },
     {
       "source": "FXStreet",
-      "title": "India: Growth and inflation forecasts revised higher – UOB",
-      "summary": "UOB's Jester Koh note they raise their FY27 Gross Domestic Product (GDP) forecast for India to 7.2% from 6.8% after a st"
+      "title": "Australian Dollar rises as quarterly GDP grows in Q2",
+      "summary": "AUD/USD inches higher after recovering its daily losses, trading around 0.7150 during the Asian hours on Wednesday."
     },
     {
       "source": "FXStreet",
-      "title": "Asia FX: KRW and MYR lead firmer profile vs USD – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong have recalibrated Asian FX forecasts slightly firmer against the US "
+      "title": "BoJ’s Takata says central bank must hike rates mimbly after assessing financial conditions",
+      "summary": "Bank of Japan (BoJ) board member Hajime Takata said on Wednesday that the central bank must conduct rate hikes nimbly af"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Volatility widens range-trading band against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD has retreated sharply after last week’s sp"
+      "title": "0.4%: Australia Q2 GDP beats estimates",
+      "summary": "Australia’s Gross Domestic Product (GDP) rose 0.4% QoQ in the second quarter (Q2) of 2026 compared with the 0.3% growth "
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso holds near 17.00 as US-Iran strikes weigh on Peso",
-      "summary": "The Mexican Peso (MXN) erases some of its earlier gains against the US Dollar (USD) on Tuesday as the US and Iran launch"
+      "title": "PBOC sets USD/CNY reference rate at 6.7829 vs. 6.7809 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7829 co"
     },
     {
       "source": "FXStreet",
-      "title": "India: Growth outlook revised higher – Standard Chartered",
-      "summary": "Standard Chartered strategists Anubhuti Sahay and Saurav Anand revise their FY27 Gross Domestic Product (GDP) growth for"
+      "title": "Japanese Yen drops to fresh low since late July vs USD on fiscal concerns and rate gap",
+      "summary": "The USD/JPY pair is seen consolidating near its highest level since July 31, touched during the Asian session on Wednesd"
     },
     {
       "source": "Investing",
@@ -191,18 +191,24 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Australian Dollar surges to July 8 high vs New Zealand "
+    ],
+    "JPY": [
+      "[強気] BoJ’s Takata says central bank must hike rates mimbly a"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+232,370)"
+      "[COT] 🟢ロング優勢 (ネット:+232,370)",
+      "[強気] Australian Dollar surges to July 8 high vs New Zealand "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] RBNZ set to raise interest rate to 2.75%"
+      "[強気] Breman Speech: RBNZ Governor sheds light on policy outl",
+      "[強気] Australian Dollar surges to July 8 high vs New Zealand "
     ]
   },
   "rates": {
@@ -220,44 +226,44 @@
   "prices": {
     "USDJPY": {
       "today_open": 160.19916,
-      "today_close": 160.22155,
+      "today_close": 160.26599,
       "prev_close": 160.19861,
-      "diff": 0.0229,
-      "diff_pct": 0.01
+      "diff": 0.0674,
+      "diff_pct": 0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 160.22155,
-      "sma20": 159.4364,
-      "sma50": 160.194,
-      "sma200": 159.3778,
+      "latest": 160.26599,
+      "sma20": 159.4386,
+      "sma50": 160.1949,
+      "sma200": 159.3781,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 74.7,
-      "high20": 160.2712,
+      "high20": 160.4047,
       "low20": 158.0363,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": 0.44
+      "chg5d_pct": 0.09,
+      "chg20d_pct": 0.47
     },
     "EURUSD": {
-      "latest": 1.15931,
+      "latest": 1.15804,
       "sma20": 1.1622,
-      "sma50": 1.1534,
+      "sma50": 1.1533,
       "sma200": 1.159,
       "vs_sma20": "下",
       "vs_sma50": "上",
-      "vs_sma200": "上",
+      "vs_sma200": "下",
       "rsi14": 61.7,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.09,
-      "chg20d_pct": 0.56
+      "chg5d_pct": -0.02,
+      "chg20d_pct": 0.44
     }
   }
 }
