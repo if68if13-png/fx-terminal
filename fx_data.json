@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-02T23:01:46.007045",
-  "generated": "2026年09月02日 23:01",
+  "timestamp": "2026-09-03T03:16:53.879554",
+  "generated": "2026年09月03日 03:16",
   "scores": {
-    "USD": 1,
-    "JPY": -1,
+    "USD": 3,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "AUD": -2,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -2,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
-      "quote_score": 1
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,43 +108,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Sellers eye 214.00 after SMA break",
-      "summary": "The Pound Sterling collapses versus the Japanese Yen as growing “speculation” of an intervention in the FX markets witne"
+      "title": "Japanese Yen strengthens on BoJ rate hike signals",
+      "summary": "The USD/JPY pair attracts some sellers to near 158.15 during the Asian trading hours on Thursday. The Japanese Yen (JPY)"
     },
     {
       "source": "FXStreet",
-      "title": "The New Zealand Dollar sells the hike it asked for",
-      "summary": "The Reserve Bank of New Zealand (RBNZ) raised its policy rate on Wednesday and the currency fell almost 1.7% from top to"
+      "title": "Australian Dollar weakens against Japanese Yen following China’s Services PMI data",
+      "summary": "AUD/JPY extends its losses for the fourth consecutive day, trading around 113.50 during the Asian hours on Thursday. The"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar rises as soft US jobs, GDP beat lift AUD, PMIs ahead",
-      "summary": "The Australian Dollar advanced on Wednesday versus the US Dollar after economic data in the US revealed the labour marke"
+      "title": "New Zealand Dollar rebounds above 0.5850 on stronger Chinese services PMI",
+      "summary": "The NZD/USD pair recovers some lost ground to near 0.5860, snapping the four-day losing streak during the early Asian se"
     },
     {
       "source": "FXStreet",
-      "title": "Intervention buys the Japanese Yen less ground every time",
-      "summary": "The Yen had its best session in weeks on Wednesday and it still looks like a losing position."
+      "title": "Australian Dollar flat lines above 0.7150 vs USD after Aussie trade data, China PMI",
+      "summary": "The AUD/USD pair struggles to capitalize on the previous day's bounce from the 0.7120 region, or a nearly two-week low, "
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Bulls eye 0.8200 as RSI turns higher",
-      "summary": "The USD/CHF pair advances some 0.13% on Wednesday as the Greenback holds within familiar levels, after depreciating vers"
+      "title": "China’s RatingDog Services PMI jumps to 51.4 in August, vs. 50.6 expected",
+      "summary": "China's Services Purchasing Managers' Index (PMI) climbed to 51.4 in August from 50.4 in July, the latest data published"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rises as speculation of Yen intervention weighs on the US Dollar",
-      "summary": "Gold (XAU/USD) price rises over 1% on Wednesday as the Greenback softens amid speculation of an intervention to bolster "
+      "title": "PBOC sets USD/CNY reference rate at 6.7807 vs. 6.7829 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Thursday at 6.7807 comp"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Strong exports and BoK stance back gradual KRW gains – Commerzbank",
-      "summary": "Commerzbank highlights that South Korea’s export boom and a large trade surplus, combined with a hawkish Bank of Korea, "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Beige Book shows modest economic growth as prices rise",
-      "summary": "The Federal Reserve (Fed) released its Beige Book on Wednesday, in which the US central bank stated that economic activi"
+      "title": "British Pound consolidates near three-week low as Fed bets and Iran tensions support USD",
+      "summary": "The GBP/USD pair consolidates below the 1.3500 psychological mark during the Asian session on Thursday and remains close"
     },
     {
       "source": "Investing",
@@ -192,74 +187,80 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold rises as speculation of Yen intervention weighs on"
+      "[強気] Japanese Yen strengthens on BoJ rate hike signals",
+      "[弱気] Australian Dollar weakens against Japanese Yen followin",
+      "[強気] New Zealand Dollar rebounds above 0.5850 on stronger Ch"
     ],
     "JPY": [
-      "[弱気] Gold rises as speculation of Yen intervention weighs on"
+      "[強気] Japanese Yen strengthens on BoJ rate hike signals",
+      "[弱気] Australian Dollar weakens against Japanese Yen followin"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+232,370)"
+      "[COT] 🟢ロング優勢 (ネット:+232,370)",
+      "[弱気] Australian Dollar weakens against Japanese Yen followin"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar rebounds above 0.5850 on stronger Ch"
     ]
   },
   "rates": {
-    "US_FF": null,
+    "US_FF": 3.63,
     "US_10Y": 4.79,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
-    "GB_10Y": null,
+    "GB_10Y": 4.796,
     "AU_10Y": 4.831,
     "DIFF_USDJPY": 2.12,
     "DIFF_EURUSD": -1.82,
+    "DIFF_GBPUSD": 0.01,
     "DIFF_AUDUSD": 0.04
   },
   "prices": {
     "USDJPY": {
       "today_open": 158.72599,
-      "today_close": 158.78194,
+      "today_close": 157.77579,
       "prev_close": 158.72699,
-      "diff": 0.0549,
-      "diff_pct": 0.03
+      "diff": -0.9512,
+      "diff_pct": -0.6
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.78194,
-      "sma20": 159.3348,
-      "sma50": 160.0958,
-      "sma200": 159.4008,
+      "latest": 157.77579,
+      "sma20": 159.2845,
+      "sma50": 160.0757,
+      "sma200": 159.3957,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 53.7,
       "high20": 160.4047,
-      "low20": 158.0363,
+      "low20": 157.6658,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -0.82,
-      "chg20d_pct": -0.34
+      "chg5d_pct": -1.45,
+      "chg20d_pct": -0.97
     },
     "EURUSD": {
-      "latest": 1.15877,
+      "latest": 1.15954,
       "sma20": 1.1623,
       "sma50": 1.1536,
       "sma200": 1.1588,
       "vs_sma20": "下",
       "vs_sma50": "上",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 73.1,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.04,
-      "chg20d_pct": 0.15
+      "chg5d_pct": 0.1,
+      "chg20d_pct": 0.22
     }
   }
 }
