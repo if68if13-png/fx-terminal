@@ -24,9 +24,9 @@
     "scores": {
       "USD": 4,
       "JPY": 1,
-      "EUR": 0,
-      "GBP": 1,
-      "AUD": 0,
+      "EUR": 1,
+      "GBP": 3,
+      "AUD": -1,
       "NZD": 2,
       "CAD": 0,
       "CHF": 0

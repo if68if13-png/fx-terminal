@@ -1,29 +1,22 @@
 {
-  "timestamp": "2026-09-03T10:46:44.256446",
-  "generated": "2026年09月03日 10:46",
+  "timestamp": "2026-09-03T15:55:26.168742",
+  "generated": "2026年09月03日 15:55",
   "scores": {
     "USD": 4,
     "JPY": 1,
-    "EUR": 0,
-    "GBP": 1,
-    "AUD": 0,
+    "EUR": 1,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
+      "diff": -5,
+      "base_score": -1,
       "quote_score": 4
     },
     {
@@ -34,21 +27,28 @@
       "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
       "base_score": 1,
       "quote_score": 4
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
       "quote_score": 1
     },
     {
-      "pair": "GBPJPY",
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 3,
+      "quote_score": 4
+    },
+    {
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
       "base_score": 1,
@@ -108,53 +108,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Swiss data supports dip-buying case – Societe Generale",
-      "summary": "Societe Generale strategists note Swiss August Consumer Price Index (CPI) and second-quarter Gross Domestic Product (GDP"
+      "title": "BoE’s Pill backs rate hike to 4% to limit inflation catch-up effects",
+      "summary": "Bank of England (BoE) Chief Economist Huw Pill reiterated his support for raising the Bank Rate to 4.00%, arguing that p"
     },
     {
       "source": "FXStreet",
-      "title": "0.8600 under pressure: EUR/GBP at two-month highs following Services PMIs",
-      "summary": "The Euro (EUR) extends gains against a weaker British Pound (GBP) for the fourth consecutive day on Thursday, following "
+      "title": "British Pound rises as Fed’s Waller tempers Fed hike bets before NFP",
+      "summary": "The Pound Sterling rises against the US Dollar on Thursday, as Fed Governor Christopher Waller favors holding the rate u"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC inflation focus and valuation divergence – MUFG",
-      "summary": "Derek Halpenny at MUFG notes the Canadian Dollar’s (CAD) immediate advance after the Bank of Canada left rates unchanged"
+      "title": "Gold tests $4,500 as US Dollar and yields retreat, Fed hike bets ease after Waller remarks",
+      "summary": "Gold (XAU/USD) extends its rebound on Thursday after slipping below $4,300 to a nearly four-week low on the previous day"
     },
     {
       "source": "FXStreet",
-      "title": "Japan’s Mimura keeps threat of FX intervention alive",
-      "summary": "Japan’s top currency diplomat Atsushi Mimura reiterates on Thursday that authorities remain ready to act in the foreign "
+      "title": "Canadian Dollar extends gains on hawkish BoC message, softer US Dollar",
+      "summary": "USD/CAD extends its decline for the second consecutive day on Thursday as broad US Dollar (USD) weakness and the Bank of"
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: NBP language turns cautious after FX pressure – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose notes that NBP Governor Adam Glapinski used G20 remarks to shift towards a more neutral, flexi"
+      "title": "British Pound: Range-bound against US Dollar with muted BoE pricing – Scotiabank",
+      "summary": "Scotiabank’s Global FX Strategy team reports the British Pound (GBP) is flat versus the US Dollar (USD) but softer on cr"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen strengthens following hawkish BoJ comments",
-      "summary": "USD/JPY extends its losses for the second consecutive day, trading around 156.80 during the European hours on Thursday."
+      "title": "Eurozone: New growth paths after export peak – ING",
+      "summary": "ING economists Bert Colijn and Carsten Brzeski argue that the Eurozone’s long-standing export-led growth model is being "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Pullback eases with upside focus on 0.7200 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann report AUD/USD dipped to 0.7122 before a strong rebound to 0"
+      "title": "Japanese Yen: Yen turning corner case builds – Societe Generale",
+      "summary": "Societe Generale strategists highlight heavy USD/JPY turnover as the pair slid below its 200-day moving average, with le"
     },
     {
       "source": "FXStreet",
-      "title": "ISM Services PMI Preview: US service sector expected to expand in August",
-      "summary": "On Thursday, we’ll get the latest read on the US service sector when the Institute for Supply Management (ISM) publishes"
+      "title": "Japanese Yen jumps as BoJ opens door to faster rate hikes",
+      "summary": "USD/JPY extends its decline for a second consecutive day and trades around 155.40 on Thursday at the time of writing, do"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin dips to $77.1k as U.S.-Iran fighting, rate jitters weigh",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Euro: Support firms with hawkish ECB pricing – Scotiabank",
+      "summary": "Scotiabank’s Shaun Osborne and Eric Theoret highlight that the Euro (EUR) is higher against the US Dollar (USD), support"
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Euro gains against US Dollar as Waller tempers Fed rate-hike bets",
+      "summary": "EUR/USD attracts buyers on Thursday as a sharp rally in the Japanese Yen (JPY), softer United States labour-market data "
     }
   ],
   "cot": {
@@ -192,24 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen strengthens following hawkish BoJ comments",
-      "[強気] Australian Dollar: Pullback eases with upside focus on "
+      "[強気] Japanese Yen jumps as BoJ opens door to faster rate hik",
+      "[強気] Euro: Support firms with hawkish ECB pricing – Scotiaba"
     ],
     "JPY": [
-      "[強気] Japanese Yen strengthens following hawkish BoJ comments"
+      "[強気] Japanese Yen jumps as BoJ opens door to faster rate hik"
     ],
     "EUR": [
-      "[弱気] 0.8600 under pressure: EUR/GBP at two-month highs follo",
-      "[強気] Japanese Yen strengthens following hawkish BoJ comments"
+      "[強気] Euro: Support firms with hawkish ECB pricing – Scotiaba"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] 0.8600 under pressure: EUR/GBP at two-month highs follo"
+      "[強気] BoE’s Pill backs rate hike to 4% to limit inflation cat"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+232,370)",
-      "[強気] Australian Dollar: Pullback eases with upside focus on "
+      "[COT] 🟢ロング優勢 (ネット:+232,370)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -230,33 +228,33 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.72599,
-      "today_close": 156.45125,
+      "today_close": 155.45783,
       "prev_close": 158.72699,
-      "diff": -2.2757,
-      "diff_pct": -1.43
+      "diff": -3.2692,
+      "diff_pct": -2.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.45125,
-      "sma20": 159.2182,
-      "sma50": 160.0492,
-      "sma200": 159.3891,
+      "latest": 155.45783,
+      "sma20": 159.1686,
+      "sma50": 160.0293,
+      "sma200": 159.3841,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 53.7,
       "high20": 160.4047,
-      "low20": 156.1627,
+      "low20": 155.3482,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -2.28,
-      "chg20d_pct": -1.8
+      "chg5d_pct": -2.9,
+      "chg20d_pct": -2.42
     },
     "EURUSD": {
-      "latest": 1.15983,
-      "sma20": 1.1624,
-      "sma50": 1.1536,
+      "latest": 1.16179,
+      "sma20": 1.1625,
+      "sma50": 1.1537,
       "sma200": 1.1588,
       "vs_sma20": "下",
       "vs_sma50": "上",
@@ -266,8 +264,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.13,
-      "chg20d_pct": 0.24
+      "chg5d_pct": 0.3,
+      "chg20d_pct": 0.41
     }
   }
 }
