@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-04T03:15:54.637646",
-  "generated": "2026年09月04日 03:15",
+  "timestamp": "2026-09-04T10:46:19.561264",
+  "generated": "2026年09月04日 10:46",
   "scores": {
-    "USD": 2,
-    "JPY": 0,
-    "EUR": 0,
-    "GBP": 3,
+    "USD": 5,
+    "JPY": 1,
+    "EUR": 1,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 3,
-      "quote_score": 2
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,47 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar gains momentum to near 0.5900, US NFP data looms",
-      "summary": "The NZD/USD pair gathers strength to near 0.5895 during the Asian trading hours on Friday. The US Dollar (USD) softens a"
+      "title": "Australian Dollar edges higher vs Yen as RBA tightening bets meet BoJ normalization hopes",
+      "summary": "AUD/JPY advances on Friday and trades around 112.65 at the time of writing, up 0.39% on the day."
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index weakens as Fed’s Waller signals rate pause",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is losing groun"
+      "title": "BoE's Bailey defends central bank flexibility, warns of bond market pressures",
+      "summary": "Bank of England (BoE) Governor Andrew Bailey said on Friday that monetary policymakers have some discretion over how qui"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar strengthens on RBA hike odds",
-      "summary": "AUD/USD extends its gains for the third successive day, trading around 0.7210 during the Asian hours on Friday."
+      "title": "Canadian Dollar: Data volatility guides Bank of Canada – Commerzbank",
+      "summary": "Commerzbank analysts Norman Liebke and Michael Pfister report that the Bank of Canada kept its policy rate at 2.25% but "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar remains on the front foot vs USD as US and Canada jobs data loom",
-      "summary": "The USD/CAD pair consolidates below the 1.3800 mark during the Asian session on Friday and remains close to a nearly two"
+      "title": "US Dollar Index: Two-way risks within bearish channel – OCBC",
+      "summary": "OCBC’s Christopher Wong notes that the Dollar Index (DXY) has eased alongside lower UST yields after Fed Governor Waller"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound edges higher above 1.3500 ahead of US jobs report",
-      "summary": "The GBP/USD pair gathers strength to near 1.3530 during the early Asian trading hours on Friday. The British Pound (GBP)"
+      "title": "Indian Rupee: Rate hike path supports currency – Societe Generale",
+      "summary": "Societe Generale strategists note that the Indian Rupee (INR) rallied to its strongest level against the US Dollar (USD)"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7787 vs. 6.7807 previous",
-      "summary": "On Friday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7787 compa"
+      "title": "Experts agree: US-Iran tensions are far from over as Hormuz risks return",
+      "summary": "West Texas Intermediate (WTI), futures on NYMEX, drops to near $88.65 while struggling to move above the $90 mark during"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen sits near August highs as USD remains on the back foot ahead of US NFP",
-      "summary": "The USD/JPY pair enters a bearish consolidation phase during the Asian session on Friday and currently trades near the 1"
+      "title": "Euro remains steady above 1.1600, unfazed by downbeat Eurozone Retail Sales",
+      "summary": "The Euro (EUR) remains hovering between 1.1600 and 1.1630 against the US Dollar (USD) on Friday, hardly affected by the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen: Stronger yen driven by fundamentals – MUFG",
+      "summary": "MUFG’s Lee Hardman notes that the Japanese Yen (JPY) has strengthened sharply, pushing USD/JPY back towards the 155.00 s"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin surges above $81k as rate hike fears cool, regulatory hopes grow",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin dips to $77.1k as U.S.-Iran fighting, rate jitters weigh",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,12 +192,19 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] United States Dollar Index weakens as Fed’s Waller sign",
-      "[強気] British Pound edges higher above 1.3500 ahead of US job"
+      "[強気] Canadian Dollar: Data volatility guides Bank of Canada ",
+      "[強気] Indian Rupee: Rate hike path supports currency – Societ",
+      "[強気] Euro remains steady above 1.1600, unfazed by downbeat E",
+      "[強気] Japanese Yen: Stronger yen driven by fundamentals – MUF"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen: Stronger yen driven by fundamentals – MUF"
+    ],
+    "EUR": [
+      "[強気] Euro remains steady above 1.1600, unfazed by downbeat E"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound edges higher above 1.3500 ahead of US job"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -217,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 155.81038,
-      "today_close": 156.06729,
+      "today_close": 156.36467,
       "prev_close": 155.8121,
-      "diff": 0.2552,
-      "diff_pct": 0.16
+      "diff": 0.5526,
+      "diff_pct": 0.35
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.06729,
-      "sma20": 159.0235,
-      "sma50": 159.9102,
-      "sma200": 159.3988,
+      "latest": 156.36467,
+      "sma20": 159.0384,
+      "sma50": 159.9161,
+      "sma200": 159.4003,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -237,13 +249,13 @@
       "low20": 155.2976,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -2.5,
-      "chg20d_pct": -2.04
+      "chg5d_pct": -2.31,
+      "chg20d_pct": -1.86
     },
     "EURUSD": {
-      "latest": 1.1628,
+      "latest": 1.16203,
       "sma20": 1.1628,
-      "sma50": 1.1541,
+      "sma50": 1.154,
       "sma200": 1.1587,
       "vs_sma20": "下",
       "vs_sma50": "上",
@@ -253,8 +265,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.39,
-      "chg20d_pct": 0.51
+      "chg5d_pct": 0.32,
+      "chg20d_pct": 0.44
     }
   }
 }
