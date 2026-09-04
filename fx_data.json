@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-04T15:52:25.937877",
-  "generated": "2026年09月04日 15:52",
+  "timestamp": "2026-09-04T20:22:21.928454",
+  "generated": "2026年09月04日 20:22",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": -1,
     "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -108,132 +108,134 @@
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Euro forms potential higher low above 100-day SMA",
-      "summary": "EUR/USD sees sharp two-way price swings on Friday after a stronger-than-expected United States (US) employment report tr"
+      "title": "Chinese Yuan: Services PMI rebound keeps PBoC cautious – Commerzbank",
+      "summary": "Commerzbank says China’s August Services PMI rebound highlights some resilience in private-sector activity, but weak ret"
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank: Dovish hold may follow September hike - Rabobank",
-      "summary": "Rabobank's Senior Macro Strategist Bas van Geffen expects the European Central Bank (ECB) to hike its deposit rate by 25"
+      "title": "Sterling’s rally stalls as US jobs data reopens Fed debate",
+      "summary": "The Pound Sterling retreats some 0.09% against the US Dollar as the latest US inflation report reaffirmed what Fed Chair"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index rises as strong NFP revives Fed hike bets",
-      "summary": "The United States Dollar Index (DXY) rises some 0.17% following a stellar Nonfarm Payrolls report, with the economy crea"
+      "title": "Malaysia: Hawkish pause keeps options open – DBS",
+      "summary": "DBS Group Research economist Chua Han Teng notes that Bank Negara Malaysia (BNM) held the Overnight Policy Rate at 2.75%"
     },
     {
       "source": "FXStreet",
-      "title": "Hungary: Inflation uptick complicates rate-cut path – ING",
-      "summary": "ING’s Peter Virovacz expects Hungarian industrial production to rebound in July, helping avoid a third-quarter GDP decli"
+      "title": "Indian Rupee: Dollar inflows support INR but impulse may fade – OCBC",
+      "summary": "OCBC’s Christopher Wong notes that strong foreign-currency inflows linked to the RBI’s special measures have bolstered t"
     },
     {
       "source": "FXStreet",
-      "title": "Gold recovers from post-NFP low as US Dollar trims gains",
-      "summary": "Gold (XAU/USD) remains under pressure on Friday after stronger-than-expected United States (US) Nonfarm Payrolls (NFP) d"
+      "title": "Eurozone: Inflation above target into 2027 – Nordea",
+      "summary": "Nordea expects Eurozone inflation dynamics to stay persistent, with headline inflation projected above the ECB’s target "
     },
     {
       "source": "FXStreet",
-      "title": "United States: Solid jobs data support steady Fed – Commerzbank",
-      "summary": "Commerzbank’s Dr. Christoph Balz notes that the U.S. labor market surprised to the upside in August, with Nonfarm Payrol"
+      "title": "Fed’s Hammack says policy is not restrictive enough",
+      "summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said on Friday that the current monetary policy stance is not res"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin pares gains, holds above $79k as strong jobs data boosts rate hike bets",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Turkey: CBRT likely to hold before two Q4 rate cuts - ING",
+      "summary": "ING’s Muhammet Mercan notes the Central Bank of the Republic of Türkiye (CBRT) has normalised liquidity via weekly repo "
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin dips to $77.1k as U.S.-Iran fighting, rate jitters weigh",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Australian Dollar resumes advance as US Dollar loses post-NFP momentum",
+      "summary": "AUD/USD resumes its advance on Friday after a brief bout of weakness following a stronger-than-expected United States (U"
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Gold falls as traders increase Fed hawkish bets after stellar NFP",
+      "summary": "Gold (XAU/USD) price retreats by about 0.80% on Friday, after registering losses of over 2% following the release of an "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Dow Jones Industrial Average falls on a jobs number the president loves",
+      "summary": "The Dow Jones Industrial Average trades just short of 53,400, roughly 325 points or 0.6% lower on Friday, after August N"
     }
   ],
   "cot": {
     "CHF": {
-      "long": 108923,
-      "short": 57751,
-      "net": 51172,
+      "long": 136962,
+      "short": 64678,
+      "net": 72284,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 40299,
-      "short": 827,
-      "net": 39472,
+      "long": 40451,
+      "short": 597,
+      "net": 39854,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 22261,
+      "long": 22410,
       "short": 476,
-      "net": 21785,
+      "net": 21934,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 22261,
+      "long": 22410,
       "short": 476,
-      "net": 21785,
+      "net": 21934,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 333906,
-      "short": 101536,
-      "net": 232370,
+      "long": 391678,
+      "short": 104022,
+      "net": 287656,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] EUR/USD Price Forecast: Euro forms potential higher low",
-      "[強気] United States Dollar Index rises as strong NFP revives ",
-      "[強気] Gold recovers from post-NFP low as US Dollar trims gain",
-      "[強気] United States: Solid jobs data support steady Fed – Com"
-    ],
-    "EUR": [
-      "[強気] EUR/USD Price Forecast: Euro forms potential higher low",
-      "[弱気] European Central Bank: Dovish hold may follow September"
+      "[強気] Indian Rupee: Dollar inflows support INR but impulse ma",
+      "[強気] Gold falls as traders increase Fed hawkish bets after s"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+232,370)"
+      "[COT] 🟢ロング優勢 (ネット:+287,656)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Chinese Yuan: Services PMI rebound keeps PBoC cautious "
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.79,
+    "US_10Y": 4.77,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
     "AU_10Y": 4.831,
-    "DIFF_USDJPY": 2.12,
-    "DIFF_EURUSD": -1.82,
-    "DIFF_GBPUSD": 0.01,
-    "DIFF_AUDUSD": 0.04
+    "DIFF_USDJPY": 2.1,
+    "DIFF_EURUSD": -1.8,
+    "DIFF_GBPUSD": 0.03,
+    "DIFF_AUDUSD": 0.06
   },
   "prices": {
     "USDJPY": {
       "today_open": 155.81038,
-      "today_close": 156.0365,
+      "today_close": 156.27073,
       "prev_close": 155.8121,
-      "diff": 0.2244,
-      "diff_pct": 0.14
+      "diff": 0.4586,
+      "diff_pct": 0.29
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.0365,
-      "sma20": 159.022,
-      "sma50": 159.9096,
-      "sma200": 159.3986,
+      "latest": 156.27073,
+      "sma20": 159.0337,
+      "sma50": 159.9143,
+      "sma200": 159.3998,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -242,12 +244,12 @@
       "low20": 155.2976,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -2.52,
-      "chg20d_pct": -2.06
+      "chg5d_pct": -2.37,
+      "chg20d_pct": -1.92
     },
     "EURUSD": {
-      "latest": 1.16231,
-      "sma20": 1.1628,
+      "latest": 1.16138,
+      "sma20": 1.1627,
       "sma50": 1.154,
       "sma200": 1.1587,
       "vs_sma20": "下",
@@ -258,8 +260,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.35,
-      "chg20d_pct": 0.47
+      "chg5d_pct": 0.27,
+      "chg20d_pct": 0.39
     }
   }
 }
