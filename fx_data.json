@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-05T20:00:36.488117",
-  "generated": "2026年09月05日 20:00",
+  "timestamp": "2026-09-05T22:40:39.816856",
+  "generated": "2026年09月05日 22:40",
   "scores": {
     "USD": 5,
     "JPY": 0,
@@ -212,53 +212,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": null,
+    "US_10Y": 4.77,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": 4.831
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 2.1,
+    "DIFF_EURUSD": -1.8,
+    "DIFF_GBPUSD": 0.03,
+    "DIFF_AUDUSD": 0.06
   },
   "prices": {
     "USDJPY": {
-      "today_open": 156.24812,
-      "today_close": 156.23613,
-      "prev_close": 156.25071,
-      "diff": -0.0146,
-      "diff_pct": -0.01
+      "today_open": 156.23459,
+      "today_close": 156.2377,
+      "prev_close": 156.23697,
+      "diff": 0.0007,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.23613,
-      "sma20": 158.8785,
-      "sma50": 159.7904,
-      "sma200": 159.4146,
+      "latest": 156.2377,
+      "sma20": 158.717,
+      "sma50": 159.6666,
+      "sma200": 159.4222,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 62.1,
+      "rsi14": 61.7,
       "high20": 160.4047,
       "low20": 155.2976,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -2.2,
-      "chg20d_pct": -1.94
+      "chg5d_pct": -2.47,
+      "chg20d_pct": -2.03
     },
     "EURUSD": {
-      "latest": 1.1614,
-      "sma20": 1.163,
-      "sma50": 1.1544,
-      "sma200": 1.1586,
+      "latest": 1.16149,
+      "sma20": 1.1632,
+      "sma50": 1.1547,
+      "sma200": 1.1585,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 78.3,
+      "rsi14": 78.9,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": 0.41
+      "chg5d_pct": 0.19,
+      "chg20d_pct": 0.3
     }
   }
 }
