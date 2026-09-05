@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-05T03:17:56.627036",
-  "generated": "2026年09月05日 03:17",
+  "timestamp": "2026-09-05T10:03:50.550769",
+  "generated": "2026年09月05日 10:03",
   "scores": {
     "USD": 5,
     "JPY": 0,
@@ -153,7 +153,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls as Fed rate hike bets rise, but on track for three-week win streak",
+      "title": "Bitcoin falls below $80,000 as strong U.S. jobs data revives Fed rate hike fears",
       "summary": ""
     }
   ],
@@ -194,6 +194,7 @@
       "[中銀] 利上げ方向 (金利差方向)",
       "[強気] USD/MXN Price Forecast: Peso rally targets April 2024 l",
       "[強気] Indian Rupee: Dollar inflows support INR but impulse ma",
+      "[強気] Bitcoin falls below $80,000 as strong U.S. jobs data re",
       "[強気] Bitcoin falls as Fed rate hike bets rise, but on track "
     ],
     "GBP": [
@@ -225,17 +226,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 156.24812,
-      "today_close": 156.23774,
+      "today_close": 156.24081,
       "prev_close": 156.25071,
-      "diff": -0.013,
+      "diff": -0.0099,
       "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.23774,
-      "sma20": 158.8786,
-      "sma50": 159.7904,
+      "latest": 156.24081,
+      "sma20": 158.8787,
+      "sma50": 159.7905,
       "sma200": 159.4146,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -245,11 +246,11 @@
       "low20": 155.2976,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -2.2,
+      "chg5d_pct": -2.19,
       "chg20d_pct": -1.93
     },
     "EURUSD": {
-      "latest": 1.16139,
+      "latest": 1.16138,
       "sma20": 1.163,
       "sma50": 1.1544,
       "sma200": 1.1586,
