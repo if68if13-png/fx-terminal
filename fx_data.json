@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-07T17:22:48.737746",
-  "generated": "2026年09月07日 17:22",
+  "timestamp": "2026-09-07T21:11:30.463772",
+  "generated": "2026年09月07日 21:11",
   "scores": {
-    "USD": 4,
-    "JPY": -1,
+    "USD": 5,
+    "JPY": 0,
     "EUR": 0,
-    "GBP": 1,
-    "AUD": 0,
+    "GBP": 2,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -6,
+      "base_score": -1,
+      "quote_score": 5
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 5,
-      "base_score": 4,
-      "quote_score": -1
+      "base_score": 5,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 1,
-      "quote_score": -1
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Nobody has unwound the Japanese Yen carry trade yet",
-      "summary": "The Ministry of Finance was not in the market on Monday, and on the most recent positioning data the carry trade did not"
+      "title": "Indonesian Rupiah: Oil and US inflation pose risks – MUFG",
+      "summary": "MUFG’s Lloyd Chan warns that upcoming US inflation data could test the recent Rupiah recovery, as firmer US inflation ma"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound climbs as USD fades, Hormuz risk keeps Fed in play",
-      "summary": "The Pound Sterling (GBP) rises over 0.23% amid thin trading, as US markets remain closed for the Labor Day weekend, whil"
+      "title": "Pound Sterling's rate advantage buys it no say this week",
+      "summary": "GBP/USD holds just under 1.3550 after a Monday that covered 42 pips with American desks shut for Labor Day. The week tha"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar struggles to gain traction as cautious RBNZ outlook weighs",
-      "summary": "NZD/USD trades around 0.5880 on Monday at the time of writing, posting a modest 0.06% decline on the day after two conse"
+      "title": "Vietnam: Inflation and trade trends shape VND – Commerzbank",
+      "summary": "Commerzbank’s Vietnam update highlights rising inflation and a narrowing trade deficit, with strong manufacturing-led im"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Pair consolidates around the 50-day SMA",
-      "summary": "USD/CHF trades with a downside bias on Monday as the US Dollar (USD) stays on the defensive, largely due to broad Japane"
+      "title": "Mexican Peso stumbles as traders brace for US inflation week",
+      "summary": "The Mexican Peso loses some ground versus its North American counterpart, the US Dollar, as the USD/MXN rises over 0.25%"
     },
     {
       "source": "FXStreet",
-      "title": "United Kingdom: BoE holds but risks later cuts – Societe Generale",
-      "summary": "Societe Generale’s UK team notes weakening housing demand as mortgage approvals fall to late-2023 lows, while business l"
+      "title": "A German landslide moved the Euro by nothing at all",
+      "summary": "EUR/USD holds above 1.1600, seven pips above where Monday opened. The pair has had three chances to move over four sessi"
     },
     {
       "source": "FXStreet",
-      "title": "Gold bears retain control as Fed hike bets and Oil-driven inflation weigh",
-      "summary": "Gold (XAU/USD) trades with a modest downside bias during American trading hours on Monday. A softer US Dollar (USD) limi"
+      "title": "Asia FX: Stronger Dollar and Oil weigh on CNY and peers – BNY",
+      "summary": "BNY’s Geoff Yu highlights that a stronger US Dollar (USD), higher Oil prices and rising global yields are pressuring Asi"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar hits three-month high as RBA rate hike bets intensify",
-      "summary": "AUD/USD advances on Monday, gaining 0.22% on the day to trade around 0.7220 at the time of writing, after reaching its h"
+      "title": "Gold bulls flinch as NFP puts Fed hawks back in the driver’s seat",
+      "summary": "Gold (XAU/USD) price dives over 0.40% on Monday following last Friday’s US jobs report, which ignited speculation that t"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: September BoJ decision shapes path – HSBC",
-      "summary": "HSBC highlights that markets now expect the Bank of Japan (BoJ) to tighten policy more quickly, with overnight index swa"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Bank of Canada: Rates outlook and inflation risks – TD Securities",
-      "summary": "TD Securities economists Robert Both and Emma Lawrence highlight that the Bank of Canada adopted a more hawkish tone, em"
+      "title": "Germany: Cautious growth outlook – ABN AMRO",
+      "summary": "ABN AMRO’s Chief Economist Germany, Alexander Krüger, notes that German economic output is rising and the bank has raise"
     },
     {
       "source": "Investing",
       "title": "Bitcoin slips below $80k as Fed hike bets, oil surge weigh",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin down but holds near $80,000 as corporate buying, U.S. crypto vote in focus",
       "summary": ""
     }
   ],
@@ -192,22 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Nobody has unwound the Japanese Yen carry trade yet",
-      "[強気] Australian Dollar hits three-month high as RBA rate hik",
+      "[強気] Asia FX: Stronger Dollar and Oil weigh on CNY and peers",
       "[強気] Bitcoin slips below $80k as Fed hike bets, oil surge we",
       "[強気] Bitcoin falls as Fed rate hike bets rise, but on track "
     ],
-    "JPY": [
-      "[弱気] Nobody has unwound the Japanese Yen carry trade yet"
-    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] United Kingdom: BoE holds but risks later cuts – Societ"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+287,656)",
-      "[強気] Australian Dollar hits three-month high as RBA rate hik"
+      "[COT] 🟢ロング優勢 (ネット:+287,656)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -227,45 +221,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 155.99884,
-      "today_close": 154.33331,
-      "prev_close": 155.99882,
-      "diff": -1.6655,
-      "diff_pct": -1.07
+      "today_open": 154.36303,
+      "today_close": 154.36841,
+      "prev_close": 154.3609,
+      "diff": 0.0075,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.33331,
-      "sma20": 158.4405,
-      "sma50": 159.4997,
-      "sma200": 159.4171,
+      "latest": 154.36841,
+      "sma20": 158.2524,
+      "sma50": 159.3374,
+      "sma200": 159.4134,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 63.0,
+      "rsi14": 46.8,
       "high20": 160.4047,
       "low20": 154.0605,
       "high60": 164.0881,
       "low60": 154.0605,
-      "chg5d_pct": -2.77,
-      "chg20d_pct": -3.31
+      "chg5d_pct": -0.93,
+      "chg20d_pct": -2.4
     },
     "EURUSD": {
-      "latest": 1.16266,
-      "sma20": 1.1634,
-      "sma50": 1.1551,
-      "sma200": 1.1585,
+      "latest": 1.16223,
+      "sma20": 1.1631,
+      "sma50": 1.1555,
+      "sma200": 1.1584,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 77.9,
+      "rsi14": 79.3,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.33,
-      "chg20d_pct": 0.43
+      "chg5d_pct": -0.03,
+      "chg20d_pct": -0.48
     }
   }
 }
