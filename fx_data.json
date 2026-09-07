@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-07T11:45:15.250146",
-  "generated": "2026年09月07日 11:45",
+  "timestamp": "2026-09-07T17:22:48.737746",
+  "generated": "2026年09月07日 17:22",
   "scores": {
-    "USD": 5,
-    "JPY": 1,
-    "EUR": 1,
-    "GBP": 2,
-    "AUD": -1,
+    "USD": 4,
+    "JPY": -1,
+    "EUR": 0,
+    "GBP": 1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
+      "diff": 5,
+      "base_score": 4,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "base_score": 1,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -108,48 +108,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee remains higher despite oil strain, hawkish Fed bets",
-      "summary": "The Indian Rupee (INR) gains against the US Dollar (USD) at the start of the week."
+      "title": "Nobody has unwound the Japanese Yen carry trade yet",
+      "summary": "The Ministry of Finance was not in the market on Monday, and on the most recent positioning data the carry trade did not"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound climbs as USD fades, Hormuz risk keeps Fed in play",
+      "summary": "The Pound Sterling (GBP) rises over 0.23% amid thin trading, as US markets remain closed for the Labor Day weekend, whil"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar struggles to gain traction as cautious RBNZ outlook weighs",
+      "summary": "NZD/USD trades around 0.5880 on Monday at the time of writing, posting a modest 0.06% decline on the day after two conse"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: Pair consolidates around the 50-day SMA",
+      "summary": "USD/CHF trades with a downside bias on Monday as the US Dollar (USD) stays on the defensive, largely due to broad Japane"
+    },
+    {
+      "source": "FXStreet",
+      "title": "United Kingdom: BoE holds but risks later cuts – Societe Generale",
+      "summary": "Societe Generale’s UK team notes weakening housing demand as mortgage approvals fall to late-2023 lows, while business l"
     },
     {
       "source": "FXStreet",
       "title": "Gold bears retain control as Fed hike bets and Oil-driven inflation weigh",
-      "summary": "Gold (XAU/USD) kicks off the week on a bearish note as Federal Reserve (Fed) interest rate hike concerns dominate market"
+      "summary": "Gold (XAU/USD) trades with a modest downside bias during American trading hours on Monday. A softer US Dollar (USD) limi"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: CPI holds key after jobs-driven support – OCBC",
-      "summary": "OCBC’s Christopher Wong notes that stronger US payrolls initially lifted the US Dollar (USD) and US Dollar Index (DXY), "
+      "title": "Australian Dollar hits three-month high as RBA rate hike bets intensify",
+      "summary": "AUD/USD advances on Monday, gaining 0.22% on the day to trade around 0.7220 at the time of writing, after reaching its h"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Remains sticky to 20-day EMA",
-      "summary": "The Euro (EUR) is marginally higher to near 1.1625 against the US Dollar (USD) during the European trading session on Mo"
+      "title": "Japanese Yen: September BoJ decision shapes path – HSBC",
+      "summary": "HSBC highlights that markets now expect the Bank of Japan (BoJ) to tighten policy more quickly, with overnight index swa"
     },
     {
       "source": "FXStreet",
-      "title": "Silver slips below $66 as strong NFP report revives Fed rate hike bets",
-      "summary": "Silver (XAG/USD) trades under pressure on Monday, falling 0.79% on the day to around $65.70 at the time of writing."
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/GBP Price Forecast: Testing support at previous highs in the 0.8585 area",
-      "summary": "The Euro (EUR) is trading lower against the British Pound (GBP) following mixed Eurozone macroeconomic figures on Monday"
-    },
-    {
-      "source": "FXStreet",
-      "title": "154.06: Japanese Yen hits fresh six-month highs amid hopes of steeper BoJ hikes",
-      "summary": "The Japanese Yen (JPY)  resumes its uptrend against the US Dollar (USD) on Monday, as the dust from a bright US Nonfarm "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro tumbles as Japanese Yen benefits from BoJ rate hike bets",
-      "summary": "EUR/JPY falls 1.11% on Monday and trades around 179.45 at the time of writing. The sharp decline in the cross mainly ref"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EM FX: Policy holds shape CLP, PLN, PEN, TRY – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects Chile, Poland, Peru and Türkiye to keep policy rates unchanged at u"
+      "title": "Bank of Canada: Rates outlook and inflation risks – TD Securities",
+      "summary": "TD Securities economists Robert Both and Emma Lawrence highlight that the Bank of Canada adopted a more hawkish tone, em"
     },
     {
       "source": "Investing",
@@ -192,25 +192,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Indian Rupee remains higher despite oil strain, hawkish",
-      "[強気] Gold bears retain control as Fed hike bets and Oil-driv",
-      "[強気] US Dollar: CPI holds key after jobs-driven support – OC",
-      "[強気] Silver slips below $66 as strong NFP report revives Fed",
+      "[弱気] Nobody has unwound the Japanese Yen carry trade yet",
+      "[強気] Australian Dollar hits three-month high as RBA rate hik",
       "[強気] Bitcoin slips below $80k as Fed hike bets, oil surge we",
       "[強気] Bitcoin falls as Fed rate hike bets rise, but on track "
     ],
     "JPY": [
-      "[強気] Euro tumbles as Japanese Yen benefits from BoJ rate hik"
-    ],
-    "EUR": [
-      "[強気] Euro tumbles as Japanese Yen benefits from BoJ rate hik"
+      "[弱気] Nobody has unwound the Japanese Yen carry trade yet"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] United Kingdom: BoE holds but risks later cuts – Societ"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+287,656)"
+      "[COT] 🟢ロング優勢 (ネット:+287,656)",
+      "[強気] Australian Dollar hits three-month high as RBA rate hik"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -231,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 155.99884,
-      "today_close": 154.65888,
+      "today_close": 154.33331,
       "prev_close": 155.99882,
-      "diff": -1.3399,
-      "diff_pct": -0.86
+      "diff": -1.6655,
+      "diff_pct": -1.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.65888,
-      "sma20": 158.4567,
-      "sma50": 159.5062,
-      "sma200": 159.4188,
+      "latest": 154.33331,
+      "sma20": 158.4405,
+      "sma50": 159.4997,
+      "sma200": 159.4171,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -251,11 +248,11 @@
       "low20": 154.0605,
       "high60": 164.0881,
       "low60": 154.0605,
-      "chg5d_pct": -2.56,
-      "chg20d_pct": -3.11
+      "chg5d_pct": -2.77,
+      "chg20d_pct": -3.31
     },
     "EURUSD": {
-      "latest": 1.16245,
+      "latest": 1.16266,
       "sma20": 1.1634,
       "sma50": 1.1551,
       "sma200": 1.1585,
@@ -267,8 +264,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.31,
-      "chg20d_pct": 0.41
+      "chg5d_pct": 0.33,
+      "chg20d_pct": 0.43
     }
   }
 }
