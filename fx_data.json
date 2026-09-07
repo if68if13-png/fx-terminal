@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-06T22:43:54.806101",
-  "generated": "2026年09月06日 22:43",
+  "timestamp": "2026-09-07T03:16:23.547576",
+  "generated": "2026年09月07日 03:16",
   "scores": {
     "USD": 5,
-    "JPY": 0,
+    "JPY": 1,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 3,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": -1,
     "CHF": 0
   },
@@ -20,13 +20,6 @@
       "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -5,
@@ -34,25 +27,32 @@
       "quote_score": 5
     },
     {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
+    },
+    {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
       "quote_score": 5
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,43 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Malaysian Ringgit: Range-bound risks and key levels against US Dollar – OCBC",
-      "summary": "OCBC’s Christopher Wong notes that Bank Negara Malaysia (BNM) kept the OPR at 2.75% and struck a slightly firmer tone, w"
+      "title": "Silver Price Forecast: XAG/USD holds losses near $66.00 due to Fed rate hike bets",
+      "summary": "Silver price (XAG/USD) inches higher after opening at a bearish gap, remaining in negative territory and trading around "
     },
     {
       "source": "FXStreet",
-      "title": "USD/MXN Price Forecast: Peso rally targets April 2024 low",
-      "summary": "The Mexican Peso appreciates against the US Dollar, testing two-year highs near 16.85 as the USD/MXN sets aside a strong"
+      "title": "United States Dollar Index strengthens above 99.00 as robust US jobs data boosts Fed rate hike bets",
+      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysian Ringgit: BNM hawkish tilt supports MYR – Commerzbank",
-      "summary": "Commerzbank highlights that Bank Negara Malaysia kept the OPR at 2.75% but shifted to a more hawkish bias, removing lang"
+      "title": "New Zealand Dollar edges lower as Fed rate hike bets and Iran tensions underpin USD",
+      "summary": "The NZD/USD pair attracts some sellers during the Asian session on Monday and currently trades near the 0.5870 region, d"
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: Two-way risks around support levels – OCBC",
-      "summary": "OCBC’s Christopher Wong notes that USD/IDR has pulled back as a softer Dollar and lower UST yields support the Indonesia"
+      "title": "Canadian Dollar moves little despite weaker US Dollar, higher oil prices",
+      "summary": "USD/CAD remains steady after registering modest gains in the previous day, trading around 1.3830 during Asian hours on M"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Services PMI rebound keeps PBoC cautious – Commerzbank",
-      "summary": "Commerzbank says China’s August Services PMI rebound highlights some resilience in private-sector activity, but weak ret"
+      "title": "Gold falls below $4,400 as strong US jobs data raise the prospects for Fed rate hike",
+      "summary": "Gold price (XAU/USD) tumbles to near $4,395 during the early Asian session on Monday. The precious metal extends the dec"
     },
     {
       "source": "FXStreet",
-      "title": "Sterling’s rally stalls as US jobs data reopens Fed debate",
-      "summary": "The Pound Sterling (GBP) retreats some 0.09% against the US Dollar (USD) on Friday as the latest US inflation report rea"
+      "title": "PBOC sets USD/CNY reference rate at 6.7795 vs. 6.7787 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7795 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Malaysia: Hawkish pause keeps options open – DBS",
-      "summary": "DBS Group Research economist Chua Han Teng notes that Bank Negara Malaysia (BNM) held the Overnight Policy Rate at 2.75%"
+      "title": "Japanese Yen consolidates near August highs vs USD as hawkish BoJ, Fed bets clash",
+      "summary": "The USD/JPY pair struggles to capitalize on Friday's modest bounce from the vicinity of early August lows and kicks off "
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: Dollar inflows support INR but impulse may fade – OCBC",
-      "summary": "OCBC’s Christopher Wong notes that strong foreign-currency inflows linked to the RBI’s special measures have bolstered t"
+      "title": "British Pound gains as US Dollar weakens despite Fed rate hike odds surge",
+      "summary": "GBP/USD inches higher after posting minor losses in the previous day, trading around 1.3520 during Asian hours on Monday"
     },
     {
       "source": "Investing",
@@ -192,22 +192,32 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] USD/MXN Price Forecast: Peso rally targets April 2024 l",
-      "[強気] Indian Rupee: Dollar inflows support INR but impulse ma",
+      "[強気] Silver Price Forecast: XAG/USD holds losses near $66.00",
+      "[強気] United States Dollar Index strengthens above 99.00 as r",
+      "[強気] New Zealand Dollar edges lower as Fed rate hike bets an",
+      "[弱気] Canadian Dollar moves little despite weaker US Dollar, ",
+      "[強気] Gold falls below $4,400 as strong US jobs data raise th",
+      "[強気] Japanese Yen consolidates near August highs vs USD as h",
+      "[強気] British Pound gains as US Dollar weakens despite Fed ra",
       "[強気] Bitcoin falls as Fed rate hike bets rise, but on track "
     ],
+    "JPY": [
+      "[強気] Japanese Yen consolidates near August highs vs USD as h"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound gains as US Dollar weakens despite Fed ra"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+287,656)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar edges lower as Fed rate hike bets an"
     ],
     "CAD": [
-      "[弱気] Chinese Yuan: Services PMI rebound keeps PBoC cautious "
+      "[弱気] Canadian Dollar moves little despite weaker US Dollar, "
     ]
   },
   "rates": {
@@ -225,18 +235,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 155.99884,
-      "today_close": 156.27337,
+      "today_close": 156.14407,
       "prev_close": 155.99882,
-      "diff": 0.2746,
-      "diff_pct": 0.18
+      "diff": 0.1453,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.27337,
-      "sma20": 158.5375,
-      "sma50": 159.5385,
-      "sma200": 159.4268,
+      "latest": 156.14407,
+      "sma20": 158.531,
+      "sma50": 159.5359,
+      "sma200": 159.4262,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +255,11 @@
       "low20": 155.2976,
       "high60": 164.0881,
       "low60": 155.2512,
-      "chg5d_pct": -1.55,
-      "chg20d_pct": -2.1
+      "chg5d_pct": -1.63,
+      "chg20d_pct": -2.18
     },
     "EURUSD": {
-      "latest": 1.16124,
+      "latest": 1.16099,
       "sma20": 1.1633,
       "sma50": 1.1551,
       "sma200": 1.1584,
@@ -261,8 +271,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.21,
-      "chg20d_pct": 0.31
+      "chg5d_pct": 0.19,
+      "chg20d_pct": 0.29
     }
   }
 }
