@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-08T20:48:05.538350",
-  "generated": "2026年09月08日 20:48",
+  "timestamp": "2026-09-08T23:14:18.778501",
+  "generated": "2026年09月08日 23:14",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,37 +15,37 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
       "base_score": 3,
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
@@ -108,6 +108,16 @@
     },
     {
       "source": "FXStreet",
+      "title": "The Pound sits still through a hawkish hearing and the priciest gilt sale",
+      "summary": "GBP/USD trades just under 1.3550 after a session that spanned 40 pips and returned two-tenths of a pip."
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: Head-and-Shoulders risk builds below $67",
+      "summary": "Silver price struggles to clear a key technical resistance near $67.00, retraces to two-day lows at $65.31, and records "
+    },
+    {
+      "source": "FXStreet",
       "title": "Forex Today: China’s inflation looms as Lagarde tees up ECB decision",
       "summary": "Forex markets have remained subdued since the beginning of the week, with the US Dollar (USD) holding near 99.00 on Tues"
     },
@@ -137,18 +147,8 @@
       "summary": "UOB’s Quek Ser Leang and Lee Sue Ann describe USD/CHF price action as largely directionless, with the pair closing near "
     },
     {
-      "source": "FXStreet",
-      "title": "US Dollar: Mixed performance with Fed and trade risks – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight a mixed US Dollar (USD) as markets weigh rising Oil pric"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold price wilts as Oil shock puts CPI in Fed crosshairs",
-      "summary": "Gold (XAU/USD) registers losses of over 0.44% on Tuesday amid a light economic docket in the US, due to a narrative domi"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin edges down to $78.5k as as Fed, oil pressures mount",
+      "title": "Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise",
       "summary": ""
     },
     {
@@ -192,10 +192,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] The Pound sits still through a hawkish hearing and the ",
+      "[強気] Bitcoin falls nearly 1% as Fed rate hike bets remain el",
       "[強気] Bitcoin slips below $80k as Fed hike bets, oil surge we"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] The Pound sits still through a hawkish hearing and the "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -219,45 +222,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 154.36303,
-      "today_close": 154.01091,
-      "prev_close": 154.3609,
-      "diff": -0.35,
-      "diff_pct": -0.23
+      "today_open": 153.99968,
+      "today_close": 153.6051,
+      "prev_close": 153.99706,
+      "diff": -0.392,
+      "diff_pct": -0.25
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.01091,
-      "sma20": 158.2345,
-      "sma50": 159.3303,
-      "sma200": 159.4116,
+      "latest": 153.6051,
+      "sma20": 157.9603,
+      "sma50": 159.1379,
+      "sma200": 159.4049,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 46.8,
+      "rsi14": 48.7,
       "high20": 160.4047,
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.16,
-      "chg20d_pct": -2.62
+      "chg5d_pct": -1.69,
+      "chg20d_pct": -3.44
     },
     "EURUSD": {
-      "latest": 1.16233,
-      "sma20": 1.1631,
-      "sma50": 1.1555,
-      "sma200": 1.1584,
+      "latest": 1.16263,
+      "sma20": 1.1628,
+      "sma50": 1.156,
+      "sma200": 1.1583,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 79.3,
+      "rsi14": 80.3,
       "high20": 1.1711,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.02,
-      "chg20d_pct": -0.47
+      "chg5d_pct": 0.1,
+      "chg20d_pct": -0.45
     }
   }
 }
