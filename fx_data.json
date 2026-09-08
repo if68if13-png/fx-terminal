@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-09-07T21:11:30.463772",
-  "generated": "2026年09月07日 21:11",
+  "timestamp": "2026-09-08T03:23:30.198224",
+  "generated": "2026年09月08日 03:23",
   "scores": {
     "USD": 5,
-    "JPY": 0,
-    "EUR": 0,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 0,
+    "CAD": 1,
     "CHF": 0
   },
   "pairs": [
@@ -22,15 +22,15 @@
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
+      "diff": 4,
       "base_score": 5,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
+      "diff": -4,
+      "base_score": 1,
       "quote_score": 5
     },
     {
@@ -42,17 +42,17 @@
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -108,43 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Indonesian Rupiah: Oil and US inflation pose risks – MUFG",
-      "summary": "MUFG’s Lloyd Chan warns that upcoming US inflation data could test the recent Rupiah recovery, as firmer US inflation ma"
+      "title": "Australian Dollar remains steady following China’s Trade Balance data",
+      "summary": "AUD/USD halts its four-day winning streak, trading around 0.7210 during Asian hours on Tuesday. The pair holds ground fo"
     },
     {
       "source": "FXStreet",
-      "title": "Pound Sterling's rate advantage buys it no say this week",
-      "summary": "GBP/USD holds just under 1.3550 after a Monday that covered 42 pips with American desks shut for Labor Day. The week tha"
+      "title": "China’s August Trade Balance: Surplus widens to $119.09 billion as expected",
+      "summary": "China's Trade Balance for August, in US Dollar (USD) terms, arrives at $119.09 billion, almost in line with $119.1 billi"
     },
     {
       "source": "FXStreet",
-      "title": "Vietnam: Inflation and trade trends shape VND – Commerzbank",
-      "summary": "Commerzbank’s Vietnam update highlights rising inflation and a narrowing trade deficit, with strong manufacturing-led im"
+      "title": "US Dollar Index (DXY) struggles below 99.00, two-week low as traders eye US inflation data",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, remains under some selling pressur"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso stumbles as traders brace for US inflation week",
-      "summary": "The Mexican Peso loses some ground versus its North American counterpart, the US Dollar, as the USD/MXN rises over 0.25%"
+      "title": "Canadian Dollar gains as US Dollar struggles despite rising Fed rate hike bets",
+      "summary": "USD/CAD extends its losses for the second successive day, trading around 1.3800 during the Asian hours on Tuesday. Analy"
     },
     {
       "source": "FXStreet",
-      "title": "A German landslide moved the Euro by nothing at all",
-      "summary": "EUR/USD holds above 1.1600, seven pips above where Monday opened. The pair has had three chances to move over four sessi"
+      "title": "British Pound drifts higher to near 1.3550 on UK fiscal discipline pledges",
+      "summary": "The GBP/USD pair gains ground to near 1.3545 during the Asian trading hours on Tuesday. The British Pound (GBP) edges hi"
     },
     {
       "source": "FXStreet",
-      "title": "Asia FX: Stronger Dollar and Oil weigh on CNY and peers – BNY",
-      "summary": "BNY’s Geoff Yu highlights that a stronger US Dollar (USD), higher Oil prices and rising global yields are pressuring Asi"
+      "title": "Japanese Yen rallies to February 18 high as upbeat wage data and GDP lift BoJ hike bets",
+      "summary": "The USD/JPY pair declines for the second straight day – also marking the fourth day of a fall in the previous five – and"
     },
     {
       "source": "FXStreet",
-      "title": "Gold bulls flinch as NFP puts Fed hawks back in the driver’s seat",
-      "summary": "Gold (XAU/USD) price dives over 0.40% on Monday following last Friday’s US jobs report, which ignited speculation that t"
+      "title": "PBOC sets USD/CNY reference rate at 6.7804 vs. 6.7795 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7804 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Germany: Cautious growth outlook – ABN AMRO",
-      "summary": "ABN AMRO’s Chief Economist Germany, Alexander Krüger, notes that German economic output is rising and the bank has raise"
+      "title": "Euro holds gains above 1.1600 on ECB tightening prospects",
+      "summary": "The EUR/USD pair trades with mild gains around 1.1625 during the early Asian session on Tuesday. The Euro (EUR) strength"
     },
     {
       "source": "Investing",
@@ -192,9 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Asia FX: Stronger Dollar and Oil weigh on CNY and peers",
+      "[強気] Canadian Dollar gains as US Dollar struggles despite ri",
+      "[強気] Japanese Yen rallies to February 18 high as upbeat wage",
+      "[強気] Euro holds gains above 1.1600 on ECB tightening prospec",
       "[強気] Bitcoin slips below $80k as Fed hike bets, oil surge we",
       "[強気] Bitcoin falls as Fed rate hike bets rise, but on track "
+    ],
+    "JPY": [
+      "[強気] Japanese Yen rallies to February 18 high as upbeat wage"
+    ],
+    "EUR": [
+      "[強気] Euro holds gains above 1.1600 on ECB tightening prospec"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,6 +213,9 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[強気] Canadian Dollar gains as US Dollar struggles despite ri"
     ]
   },
   "rates": {
@@ -222,31 +233,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 154.36303,
-      "today_close": 154.36841,
+      "today_close": 153.31838,
       "prev_close": 154.3609,
-      "diff": 0.0075,
-      "diff_pct": 0.0
+      "diff": -1.0425,
+      "diff_pct": -0.68
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.36841,
-      "sma20": 158.2524,
-      "sma50": 159.3374,
-      "sma200": 159.4134,
+      "latest": 153.31838,
+      "sma20": 158.1999,
+      "sma50": 159.3164,
+      "sma200": 159.4082,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 46.8,
       "high20": 160.4047,
-      "low20": 154.0605,
+      "low20": 152.9079,
       "high60": 164.0881,
-      "low60": 154.0605,
-      "chg5d_pct": -0.93,
-      "chg20d_pct": -2.4
+      "low60": 152.9079,
+      "chg5d_pct": -1.6,
+      "chg20d_pct": -3.06
     },
     "EURUSD": {
-      "latest": 1.16223,
+      "latest": 1.16252,
       "sma20": 1.1631,
       "sma50": 1.1555,
       "sma200": 1.1584,
@@ -258,8 +269,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": -0.48
+      "chg5d_pct": -0.01,
+      "chg20d_pct": -0.45
     }
   }
 }
