@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-09T16:02:50.348517",
-  "generated": "2026年09月09日 16:02",
+  "timestamp": "2026-09-09T20:33:14.063215",
+  "generated": "2026年09月09日 20:33",
   "scores": {
-    "USD": 2,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
+      "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 2,
-      "quote_score": -1
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 0,
-      "quote_score": -1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -108,43 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen pauses advance as Treasury announcement supports US Dollar",
-      "summary": "USD/JPY remains on the back foot on Wednesday but lacks follow-through selling as the US Dollar (USD) recovers following"
+      "title": "Chinese Yuan: Uptrend intact with muted inflation against US Dollar – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/CNH continues to drift lower to its weakest level since Ja"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Strength builds against US Dollar ahead of BoJ decision – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight ongoing Japanese Yen (JPY) outperformance, with USD/JPY "
+      "title": "Mexican Peso holds firm as inflation cools, fiscal plan lands",
+      "summary": "The Mexican Peso (MXN) clings to gains against the US Dollar (USD) on Wednesday following the presentation of Mexico’s g"
     },
     {
       "source": "FXStreet",
-      "title": "Gold loses momentum as US Dollar, yields rise after Treasury buyback announcement",
-      "summary": "Gold (XAU/USD) struggles to hold onto Wednesday’s gains after rebounding from a one-week low of $4,341 earlier in the da"
+      "title": "Taiwan Dollar: Range trade expected after CPI surprise against US Dollar – Commerzbank",
+      "summary": "Commerzbank highlights that Taiwan’s August CPI undershot expectations due to favourable food base effects, but core inf"
     },
     {
       "source": "FXStreet",
-      "title": "WTI: Upside path persists – TD Securities",
-      "summary": "TD Securities’ commodity strategists Ryan McKay and Bart Melek note that WTI Crude continues to grind higher as conflict"
+      "title": "Chile: Policy pause reflects fragile growth – Societe Generale",
+      "summary": "Societe Generale’s Dev Ashish reports that the Central Bank of Chile kept the monetary policy rate at 4.50% in September"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound catches bid as Oil-USD link breaks ahead US CPI",
-      "summary": "The Pound Sterling advances on Wednesday during the North American session, up 0.15% at 1.3560, with no clear catalyst b"
+      "title": "EUR/USD Price Forecast: Buyers seek a decisive break above the 200-day SMA",
+      "summary": "EUR/USD struggles to extend its earlier gains on Wednesday as the US Treasury’s bond-buyback announcement sparks a brief"
     },
     {
       "source": "FXStreet",
-      "title": "Brazilian Real: Rate gap points to weakness against US Dollar – Rabobank",
-      "summary": "Rabobank’s Mauricio Une and Renan Alves note the Brazilian Real (BRL) appreciated 1.26% against the Dollar over the past"
+      "title": "Forex Today: Attention shifts to the ECB and US PPI",
+      "summary": "The US Dollar (USD) navigated a bearish range on Wednesday, gathering some pace soon after the US Treasury announced a b"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: BoE tightening expectations lend support against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note GBP/USD is steady after reaching a one-week high, with the Br"
+      "title": "Gold bulls defy US yield spike as Treasury buyback nears",
+      "summary": "Gold (XAU/USD) rises over 1% on Wednesday, even as the US Dollar (USD) trims some of its earlier losses, after the US Tr"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc gains ground as Japanese Yen-led weakness grips US Dollar",
-      "summary": "USD/CHF edges lower on Wednesday as broad weakness in the US Dollar (USD) allows the Swiss Franc (CHF) to regain some gr"
+      "title": "Germany: Profit squeeze tempers price risks – ING",
+      "summary": "ING economists Carsten Brzeski and Franziska Biehl argue that while German inflation is set to rise above 3% and stay el"
     },
     {
       "source": "Investing",
@@ -192,13 +192,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Brazilian Real: Rate gap points to weakness against US ",
-      "[弱気] Swiss Franc gains ground as Japanese Yen-led weakness g",
+      "[弱気] Chinese Yuan: Uptrend intact with muted inflation again",
+      "[強気] Taiwan Dollar: Range trade expected after CPI surprise ",
       "[強気] Bitcoin falls nearly 1% as Fed rate hike bets remain el",
       "[強気] Bitcoin slips below $80k as Fed hike bets, oil surge we"
-    ],
-    "JPY": [
-      "[弱気] Swiss Franc gains ground as Japanese Yen-led weakness g"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,34 +206,35 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc gains ground as Japanese Yen-led weakness g"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": null,
+    "US_10Y": 4.8,
     "JP_10Y": 2.67,
-    "DE_10Y": null,
+    "DE_10Y": 2.97,
     "GB_10Y": 4.796,
-    "AU_10Y": 4.831
+    "AU_10Y": 4.831,
+    "DIFF_USDJPY": 2.13,
+    "DIFF_EURUSD": -1.83,
+    "DIFF_GBPUSD": -0.0,
+    "DIFF_AUDUSD": 0.03
   },
   "prices": {
     "USDJPY": {
       "today_open": 153.99968,
-      "today_close": 153.53537,
+      "today_close": 153.62476,
       "prev_close": 153.99706,
-      "diff": -0.4617,
-      "diff_pct": -0.3
+      "diff": -0.3723,
+      "diff_pct": -0.24
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 153.53537,
-      "sma20": 157.9568,
-      "sma50": 159.1365,
-      "sma200": 159.4045,
+      "latest": 153.62476,
+      "sma20": 157.9613,
+      "sma50": 159.1383,
+      "sma200": 159.405,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,15 +243,15 @@
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.74,
-      "chg20d_pct": -3.48
+      "chg5d_pct": -1.68,
+      "chg20d_pct": -3.43
     },
     "EURUSD": {
-      "latest": 1.16283,
+      "latest": 1.16308,
       "sma20": 1.1629,
       "sma50": 1.156,
       "sma200": 1.1583,
-      "vs_sma20": "下",
+      "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 80.3,
@@ -261,8 +259,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": -0.43
+      "chg5d_pct": 0.14,
+      "chg20d_pct": -0.41
     }
   }
 }
