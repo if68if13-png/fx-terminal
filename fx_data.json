@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-09T20:33:14.063215",
-  "generated": "2026年09月09日 20:33",
+  "timestamp": "2026-09-09T22:58:48.266480",
+  "generated": "2026年09月09日 22:58",
   "scores": {
     "USD": 4,
     "JPY": 0,
@@ -108,6 +108,31 @@
     },
     {
       "source": "FXStreet",
+      "title": "Australian Dollar flatlines as US yield ripples meet RBA hawks",
+      "summary": "The Australian Dollar is virtually unchanged against the US Dollar on Wednesday amid a light economic calendar, with the"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Pound Sterling awaits the Fed's two-strike inflation test",
+      "summary": "The real tension weighing on GBP/USD is a rate parity that masks a divergence. Both central banks sit at 3.75%."
+    },
+    {
+      "source": "FXStreet",
+      "title": "US President Trump pins Iran endgame on midterms, open to talks",
+      "summary": "US President Donald Trump crossed the wires on Wednesday, saying that the Iran war will end “immediately” right after th"
+    },
+    {
+      "source": "FXStreet",
+      "title": "GBP/JPY Price Forecast: Bears Eye 207.00 as downtrend holds",
+      "summary": "GBP/JPY falls for the third straight day on Wednesday, but it fails to register a lower low, suggesting buyers are stepp"
+    },
+    {
+      "source": "FXStreet",
+      "title": "NZD/USD Price Forecast: SMA cluster wobbles as US yields bite",
+      "summary": "The New Zealand Dollar (NZD) extends its losses against the US Dollar (USD), down 0.30% on Wednesday as the Greenback ge"
+    },
+    {
+      "source": "FXStreet",
       "title": "Chinese Yuan: Uptrend intact with muted inflation against US Dollar – BBH",
       "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that USD/CNH continues to drift lower to its weakest level since Ja"
     },
@@ -122,38 +147,13 @@
       "summary": "Commerzbank highlights that Taiwan’s August CPI undershot expectations due to favourable food base effects, but core inf"
     },
     {
-      "source": "FXStreet",
-      "title": "Chile: Policy pause reflects fragile growth – Societe Generale",
-      "summary": "Societe Generale’s Dev Ashish reports that the Central Bank of Chile kept the monetary policy rate at 4.50% in September"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Buyers seek a decisive break above the 200-day SMA",
-      "summary": "EUR/USD struggles to extend its earlier gains on Wednesday as the US Treasury’s bond-buyback announcement sparks a brief"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forex Today: Attention shifts to the ECB and US PPI",
-      "summary": "The US Dollar (USD) navigated a bearish range on Wednesday, gathering some pace soon after the US Treasury announced a b"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold bulls defy US yield spike as Treasury buyback nears",
-      "summary": "Gold (XAU/USD) rises over 1% on Wednesday, even as the US Dollar (USD) trims some of its earlier losses, after the US Tr"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Germany: Profit squeeze tempers price risks – ING",
-      "summary": "ING economists Carsten Brzeski and Franziska Biehl argue that while German inflation is set to rise above 3% and stay el"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin recovers to $79.4k on Zcash ETF inflows; Fed, oil pressures limit rise",
+      "title": "Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise",
+      "title": "Strategy doubles digital credit securities repurchase program to $2B",
       "summary": ""
     }
   ],
@@ -222,45 +222,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 153.99968,
-      "today_close": 153.62476,
-      "prev_close": 153.99706,
-      "diff": -0.3723,
-      "diff_pct": -0.24
+      "today_open": 153.5543,
+      "today_close": 153.34867,
+      "prev_close": 153.5536,
+      "diff": -0.2049,
+      "diff_pct": -0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 153.62476,
-      "sma20": 157.9613,
-      "sma50": 159.1383,
-      "sma200": 159.405,
+      "latest": 153.34867,
+      "sma20": 157.6762,
+      "sma50": 158.9406,
+      "sma200": 159.3964,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 48.7,
+      "rsi14": 48.3,
       "high20": 160.4047,
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.68,
-      "chg20d_pct": -3.43
+      "chg5d_pct": -1.85,
+      "chg20d_pct": -3.54
     },
     "EURUSD": {
-      "latest": 1.16308,
-      "sma20": 1.1629,
-      "sma50": 1.156,
-      "sma200": 1.1583,
+      "latest": 1.16374,
+      "sma20": 1.1627,
+      "sma50": 1.1565,
+      "sma200": 1.1582,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 80.3,
-      "high20": 1.1711,
+      "rsi14": 79.5,
+      "high20": 1.1693,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.14,
-      "chg20d_pct": -0.41
+      "chg5d_pct": 0.18,
+      "chg20d_pct": -0.33
     }
   }
 }
