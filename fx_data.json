@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-09T03:28:09.523605",
-  "generated": "2026年09月09日 03:28",
+  "timestamp": "2026-09-09T10:52:57.182474",
+  "generated": "2026年09月09日 10:52",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -2,
-      "quote_score": 4
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 4,
+      "diff": 4,
+      "base_score": 5,
       "quote_score": 1
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
@@ -108,52 +108,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD rises to near $66.40 as US Dollar declines, US CPI in focus",
-      "summary": "Silver price (XAG/USD) is up almost 1% to near $66.40 during the Asian trading session on Wednesday. The white metal str"
+      "title": "EUR/USD Price Forecast: 1.1686-1.1710 zone remains key hurdle",
+      "summary": "The Euro (EUR) gives back its early gains and flattens at around 1.1625 against the US Dollar (USD) during the European "
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen gathers strength as BoJ hike bets ramp up",
-      "summary": "The USD/JPY pair loses momentum to around 153.55 during the early Asian session on Wednesday. The Japanese Yen (JPY) str"
+      "title": "Japanese Yen: Supported by policy shift expectations – MUFG",
+      "summary": "MUFG’s Lee Hardman notes that the Japanese Yen (JPY) has strengthened, driving USD/JPY back towards 153.00, as comments "
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar gains amid elevated oil prices, escalating US trade sanctions",
-      "summary": "USD/CAD remains subdued for the third successive day, trading around 1.3780 during the Asian hours on Wednesday. The cur"
+      "title": "Australian Dollar slips against Japanese Yen as BoJ rate hike bets grow",
+      "summary": "AUD/JPY declines 0.27% on Wednesday and trades around 110.80 at the time of writing."
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar holds gains above 0.5850 after Chinese inflation data",
-      "summary": "The NZD/USD pair gathers strength to around 0.5855 during the early Asian trading hours on Wednesday. The New Zealand Do"
+      "title": "Gold Price Forecast: XAU/USD bounces up to $4,400 with the bearish trend intact",
+      "summary": "Gold (XAU/USD) trims losses on Wednesday, with price action returning to the $4,400 area during the European morning ses"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains on the front foot vs weak USD after China's inflation data",
-      "summary": "The AUD/USD pair sticks to its positive bias through the Asian session on Wednesday and trades around the 0.7220-0.7225 "
+      "title": "Polish Zloty: Policy on hold keeps PLN supported against Euro – Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux and colleagues expect the NBP to keep rates unchanged at 3.75%, with Governor Glapiński"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar inches higher against Japanese Yen following China’s inflation data",
-      "summary": "AUD/JPY pares its daily losses following the release of key economic data from China, Australia's primary trading partne"
+      "title": "USD/CAD Price Forecast: Remains below 1.3800 as bearish bias prevails",
+      "summary": "USD/CAD extends its losses for the third consecutive day, trading around 1.3780 during the European hours on Wednesday. "
     },
     {
       "source": "FXStreet",
-      "title": "0.8%: China’s CPI inflation rises in August",
-      "summary": "China’s Consumer Price Index (CPI) climbed 0.8% in August from a year ago after arriving at a rise of 0.5% in Juuly, the"
+      "title": "Indian Rupee declines further as oil prices extend rally",
+      "summary": "The Indian Rupee (INR) extends its decline against the US Dollar (USD) on Wednesday after a sharp correction the previou"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7769 vs. 6.7804 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7769 co"
+      "title": "Riksbank: Limited hiking cycle versus ECB – Nomura",
+      "summary": "Nomura strategists expect Sweden’s central bank, the Riksbank to keep its policy rate on hold for the rest of 2026 and d"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise",
+      "title": "Bitcoin rebounds to $79.5k on Zcash ETF inflows; Fed, oil pressures limit rise",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Strategy doubles digital credit securities repurchase program to $2B",
+      "title": "Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise",
       "summary": ""
     }
   ],
@@ -192,13 +192,12 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen gathers strength as BoJ hike bets ramp up",
-      "[弱気] Australian Dollar remains on the front foot vs weak USD",
+      "[強気] Australian Dollar slips against Japanese Yen as BoJ rat",
       "[強気] Bitcoin falls nearly 1% as Fed rate hike bets remain el",
       "[強気] Bitcoin slips below $80k as Fed hike bets, oil surge we"
     ],
     "JPY": [
-      "[強気] Japanese Yen gathers strength as BoJ hike bets ramp up"
+      "[強気] Australian Dollar slips against Japanese Yen as BoJ rat"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -206,7 +205,7 @@
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+287,656)",
-      "[弱気] Australian Dollar remains on the front foot vs weak USD"
+      "[強気] Australian Dollar slips against Japanese Yen as BoJ rat"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -227,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 153.99968,
-      "today_close": 153.57247,
+      "today_close": 153.52565,
       "prev_close": 153.99706,
-      "diff": -0.4246,
-      "diff_pct": -0.28
+      "diff": -0.4714,
+      "diff_pct": -0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 153.57247,
-      "sma20": 157.9587,
-      "sma50": 159.1373,
-      "sma200": 159.4047,
+      "latest": 153.52565,
+      "sma20": 157.9563,
+      "sma50": 159.1363,
+      "sma200": 159.4045,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -247,11 +246,11 @@
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.71,
-      "chg20d_pct": -3.46
+      "chg5d_pct": -1.74,
+      "chg20d_pct": -3.49
     },
     "EURUSD": {
-      "latest": 1.16309,
+      "latest": 1.16321,
       "sma20": 1.1629,
       "sma50": 1.156,
       "sma200": 1.1583,
@@ -263,8 +262,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.14,
-      "chg20d_pct": -0.41
+      "chg5d_pct": 0.15,
+      "chg20d_pct": -0.4
     }
   }
 }
