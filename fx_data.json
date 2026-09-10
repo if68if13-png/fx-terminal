@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-10T10:47:34.193996",
-  "generated": "2026年09月10日 10:47",
+  "timestamp": "2026-09-10T15:56:20.313572",
+  "generated": "2026年09月10日 15:56",
   "scores": {
     "USD": 3,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
+    "EUR": 1,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -27,32 +27,32 @@
       "quote_score": 0
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 1,
       "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -108,43 +108,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "European Central Bank set to hike interest rates in September as markets assess the path ahead",
-      "summary": "The European Central Bank (ECB) is expected to raise the interest rate on the Main Refinancing Operations and the Deposi"
+      "title": "Canadian Dollar trades under pressure as US PPI data supports Fed hike bets",
+      "summary": "USD/CAD holds modest gains on Thursday as the US Dollar (USD) loses momentum after staging a modest recovery, despite US"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Gradual upside within capped range against US Dollar – UOB",
-      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann see AUD/USD steady near 0.7220 after quiet sessions, with intraday ranges around 0."
+      "title": "Silver slides below $65 as US PPI revives Fed rate-hike bets",
+      "summary": "Silver (XAG/USD) extends its sharp decline on Thursday, trading around $64.35 per ounce at the time of writing, down 4.3"
     },
     {
       "source": "FXStreet",
-      "title": "Turkish Lira: Liquidity stance key for TRY – Commerzbank",
-      "summary": "Commerzbank’s Tatha Ghose expects the Central Bank of the Republic of Türkiye (CBRT) to keep the one-week repo rate at 3"
+      "title": "British Pound under pressure as hot PPI puts Fed hike in play",
+      "summary": "The Pound Sterling (GBP) loses traction against the US Dollar (USD) on Thursday after the latest US producer inflation r"
     },
     {
       "source": "FXStreet",
-      "title": "Czech Koruna: CNB stance leaves room for weakness against Euro – ING",
-      "summary": "ING’s Frantisek Taborsky notes that the Czech National Bank (CNB) blackout period has started, with Deputy Governor Zamr"
+      "title": "British Pound: Consolidation against US Dollar before UK data and BoE – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note GBP/USD is little changed as it extends its recovery from las"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Bond buybacks reshape yield dynamics – MUFG",
-      "summary": "MUFG’s Lee Hardman notes that the US Dollar has softened over summer as the US Treasury’s announcement to at least doubl"
+      "title": "Australian Dollar eases from four-month high",
+      "summary": "The Australian Dollar eased against the US Dollar on Thursday, slipping back below the 0.7200 mark after touching its hi"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Second hike seen as energy clouds outlook – Societe Generale",
-      "summary": "Societe Generale’s Kenneth Broux expects a second 25bp ECB depo rate hike, stressing that wage dynamics and updated staf"
+      "title": "Gold slides as US PPI reinforces Fed hike expectations, US Dollar and yields rise",
+      "summary": "Gold (XAU/USD) trades with a downside bias on Thursday as a steady US Dollar (USD), rising US Treasury yields and Federa"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee continues its underperformance amid surging oil prices",
-      "summary": "The Indian Rupee (INR) extends its losing run against the US Dollar (USD) for the third trading day on Thursday. The USD"
+      "title": "European Central Bank: Two more hikes remain the baseline – Nordea",
+      "summary": "Nordea analysts Jan von Gerich and Tuuli Koivu note that the European Central Bank (ECB) delivered a 25bp rate hike and "
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin falls nearly 1% as Fed rate hike bets remain elevated, oil prices rise",
-      "summary": ""
+      "source": "FXStreet",
+      "title": "Euro gains modestly against British Pound after ECB delivers widely expected hike",
+      "summary": "EUR/GBP trades with a modest positive bias on Thursday but stays within the narrow range that has been in place for more"
     },
     {
       "source": "MarketWatch",
@@ -187,14 +187,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Bitcoin falls nearly 1% as Fed rate hike bets remain el"
+      "[強気] British Pound under pressure as hot PPI puts Fed hike i"
     ],
     "EUR": [
-      "[弱気] Czech Koruna: CNB stance leaves room for weakness again",
-      "[強気] Euro: Second hike seen as energy clouds outlook – Socie"
+      "[強気] European Central Bank: Two more hikes remain the baseli"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound under pressure as hot PPI puts Fed hike i"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -219,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 153.5543,
-      "today_close": 154.13252,
+      "today_close": 154.03813,
       "prev_close": 153.5536,
-      "diff": 0.5789,
-      "diff_pct": 0.38
+      "diff": 0.4845,
+      "diff_pct": 0.32
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.13252,
-      "sma20": 157.7154,
-      "sma50": 158.9563,
-      "sma200": 159.4003,
+      "latest": 154.03813,
+      "sma20": 157.7107,
+      "sma50": 158.9544,
+      "sma200": 159.3998,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -239,15 +239,15 @@
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.35,
-      "chg20d_pct": -3.05
+      "chg5d_pct": -1.41,
+      "chg20d_pct": -3.11
     },
     "EURUSD": {
-      "latest": 1.1624,
+      "latest": 1.16294,
       "sma20": 1.1626,
       "sma50": 1.1564,
       "sma200": 1.1582,
-      "vs_sma20": "下",
+      "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 79.5,
@@ -255,8 +255,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": -0.45
+      "chg5d_pct": 0.11,
+      "chg20d_pct": -0.4
     }
   }
 }
