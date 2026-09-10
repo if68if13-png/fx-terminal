@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-10T20:29:55.337919",
-  "generated": "2026年09月10日 20:29",
+  "timestamp": "2026-09-10T22:57:00.800872",
+  "generated": "2026年09月10日 22:57",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 1,
+    "USD": 3,
+    "JPY": -1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": -2,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
@@ -16,43 +16,43 @@
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
+      "base_score": -2,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": -1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "強くロング",
+      "diff": 3,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": -1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,6 +103,16 @@
     },
     {
       "source": "FXStreet",
+      "title": "AUD/JPY Price Forecast: Yen strength keeps 110.00 in sight",
+      "summary": "The Australian Dollar weakens versus the Japanese Yen as risk-appetite shifted sour due to the escalation of the US-Iran"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar steadies after two-month low slide",
+      "summary": "NZD/USD is clinging to the 0.5800 mark at the start of the Asian session on Friday after dipping to a near two-month low"
+    },
+    {
+      "source": "FXStreet",
       "title": "Forex Today: US Dollar rebounds on hot PPI ahead of US CPI",
       "summary": "The US Dollar Index (DXY) reclaimed the 99.00 barrier and then some, rebounding firmly as the hot Producer Price Index ("
     },
@@ -127,19 +137,9 @@
       "summary": "According to Reuters sources, the European Central Bank (ECB) is expected to further tighten monetary policy in the mont"
     },
     {
-      "source": "FXStreet",
-      "title": "Gold bulls blink as hot US PPI, $100 Oil send yields flying",
-      "summary": "Gold price retraces by about 0.90% on Thursday as traders price in a hawkish Federal Reserve (Fed) following the release"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro steadies against the Yen after ECB lifts rates",
-      "summary": "EUR/JPY rises above the 179.00 mark on Thursday in the aftermath of the European Central Bank (ECB) raising its deposit "
-    },
-    {
-      "source": "FXStreet",
-      "title": "ECB recap: A hawkish hike despite downside growth risks",
-      "summary": "The European Central Bank (ECB) increased the Deposit Facility Rate to 2.50%, the Refinancing Rate to 2.65% and the Marg"
+      "source": "Investing",
+      "title": "Bitcoin dips to $77.1k as PPI data boosts Fed rate hike bets, oil prices jump",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -187,18 +187,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] AUD/JPY Price Forecast: Yen strength keeps 110.00 in si",
       "[強気] Forex Today: US Dollar rebounds on hot PPI ahead of US ",
-      "[強気] Gold bulls blink as hot US PPI, $100 Oil send yields fl"
+      "[強気] Bitcoin dips to $77.1k as PPI data boosts Fed rate hike"
     ],
-    "EUR": [
-      "[強気] ECB recap: A hawkish hike despite downside growth risks"
+    "JPY": [
+      "[弱気] AUD/JPY Price Forecast: Yen strength keeps 110.00 in si"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+287,656)"
+      "[COT] 🟢ロング優勢 (ネット:+287,656)",
+      "[弱気] AUD/JPY Price Forecast: Yen strength keeps 110.00 in si"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -218,45 +220,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 153.5543,
-      "today_close": 154.43672,
-      "prev_close": 153.5536,
-      "diff": 0.8831,
-      "diff_pct": 0.58
+      "today_open": 154.48598,
+      "today_close": 154.39574,
+      "prev_close": 154.49485,
+      "diff": -0.0991,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.43672,
-      "sma20": 157.7306,
-      "sma50": 158.9624,
-      "sma200": 159.4018,
+      "latest": 154.39574,
+      "sma20": 157.5053,
+      "sma50": 158.7741,
+      "sma200": 159.4009,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 48.3,
+      "rsi14": 48.4,
       "high20": 160.4047,
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.15,
-      "chg20d_pct": -2.86
+      "chg5d_pct": -1.03,
+      "chg20d_pct": -2.87
     },
     "EURUSD": {
-      "latest": 1.16071,
-      "sma20": 1.1625,
-      "sma50": 1.1564,
-      "sma200": 1.1582,
+      "latest": 1.16106,
+      "sma20": 1.1622,
+      "sma50": 1.1569,
+      "sma200": 1.1581,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 79.5,
+      "rsi14": 78.4,
       "high20": 1.1693,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.08,
-      "chg20d_pct": -0.59
+      "chg5d_pct": -0.03,
+      "chg20d_pct": -0.58
     }
   }
 }
