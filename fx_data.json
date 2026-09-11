@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-11T20:34:14.109502",
-  "generated": "2026年09月11日 20:34",
+  "timestamp": "2026-09-11T23:01:29.962725",
+  "generated": "2026年09月11日 23:01",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 2
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -98,6 +98,26 @@
     },
     {
       "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
+      "summary": "The AUD/USD ended the day in the green but finished the week 0.45% lower amid growing bets that the Fed will raise rates"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note that USD/SGD has rebounded strongly, with sho"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
+      "summary": "The USDCHF climbs over 0.40% on Friday after US consumer inflation data, coupled with Thursday's PPI, pushed investors t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Taiwan Dollar: CBC seen on hold before December hike – DBS",
+      "summary": "DBS Group Research expects Taiwan’s central bank to keep its policy rate unchanged on September 17, before raising it to"
+    },
+    {
+      "source": "FXStreet",
       "title": "Chinese Yuan: Bullish bias fades against dollar – UOB",
       "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann reports that USD/CNH has bounced sharply to 6.7153"
     },
@@ -117,28 +137,8 @@
       "summary": "US Treasury yields fall during the North American session on Friday following the release of US inflation data, but are "
     },
     {
-      "source": "FXStreet",
-      "title": "Asia FX: Resilience at risk as US yields climb – MUFG",
-      "summary": "MUFG’s Michael Wan notes that Asia FX and rates have stayed relatively stable despite sharply higher US Treasury yields,"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen rises as the Greenback's inflation bounce fades",
-      "summary": "USD/JPY is trading around 153.70 on Friday, down for the day after briefly spiking above 154.50 following the US inflati"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Dollar Index retreats from post-CPI high, all eyes on Fed",
-      "summary": "The US Dollar Index (DXY) reverses earlier gains on Friday as a pullback in longer-dated US Treasury yields outweighs su"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold price dodges CPI shock as US yields hand bulls lifeline",
-      "summary": "Gold (XAU/USD) price bounces off daily lows beneath $4,300 on Friday and reclaims the 100-day Simple Moving Average (SMA"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin rebounds to near $79k after in-line inflation report",
+      "title": "Bitcoin set to snap three-week win streak on surging oil, tick up in Fed hike bets",
       "summary": ""
     },
     {
@@ -192,7 +192,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold price dodges CPI shock as US yields hand bulls lif",
+      "[強気] Singapore Dollar: Downside bias capped with 1.2705 agai",
+      "[強気] USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels",
       "[強気] Bitcoin dips to $77.1k as PPI data boosts Fed rate hike"
     ],
     "GBP": [
@@ -206,11 +207,12 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+83,893)"
+      "[COT] 🟢ロング優勢 (ネット:+83,893)",
+      "[強気] USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
+    "US_FF": null,
     "US_10Y": 4.95,
     "JP_10Y": 2.67,
     "DE_10Y": 2.97,
@@ -223,45 +225,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 154.48598,
-      "today_close": 153.69324,
-      "prev_close": 154.49485,
-      "diff": -0.8016,
-      "diff_pct": -0.52
+      "today_open": 153.51533,
+      "today_close": 153.5752,
+      "prev_close": 153.52682,
+      "diff": 0.0484,
+      "diff_pct": 0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 153.69324,
-      "sma20": 157.4701,
-      "sma50": 158.76,
-      "sma200": 159.3974,
+      "latest": 153.5752,
+      "sma20": 157.19,
+      "sma50": 158.5511,
+      "sma200": 159.3855,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 48.4,
+      "rsi14": 60.0,
       "high20": 160.4047,
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.48,
-      "chg20d_pct": -3.31
+      "chg5d_pct": -0.51,
+      "chg20d_pct": -3.42
     },
     "EURUSD": {
-      "latest": 1.15943,
-      "sma20": 1.1621,
-      "sma50": 1.1568,
-      "sma200": 1.1581,
+      "latest": 1.16035,
+      "sma20": 1.1618,
+      "sma50": 1.1573,
+      "sma200": 1.158,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 78.4,
-      "high20": 1.1693,
+      "rsi14": 52.6,
+      "high20": 1.1687,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
       "chg5d_pct": -0.17,
-      "chg20d_pct": -0.72
+      "chg20d_pct": -0.62
     }
   }
 }
