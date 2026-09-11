@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-11T10:43:58.502232",
-  "generated": "2026年09月11日 10:43",
+  "timestamp": "2026-09-11T15:59:30.774405",
+  "generated": "2026年09月11日 15:59",
   "scores": {
     "USD": 5,
-    "JPY": 1,
-    "EUR": 1,
-    "GBP": 2,
-    "AUD": 0,
+    "JPY": 0,
+    "EUR": 0,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
+      "diff": -6,
+      "base_score": -1,
       "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
+      "diff": 5,
       "base_score": 5,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
+      "diff": -5,
+      "base_score": 0,
       "quote_score": 5
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -78,13 +78,13 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Comm"
+      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
+      "summary": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcemen"
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch",
-      "summary": "Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcemen"
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Comm"
     },
     {
       "source": "Fed",
@@ -97,63 +97,63 @@
       "summary": "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc.",
-      "summary": "Federal Reserve Board announces approval of the application by Coastal Bend Bancshares, Inc."
+      "source": "FXStreet",
+      "title": "British Pound shakes off US CPI jolt as UK growth steals spotlight",
+      "summary": "The Pound Sterling (GBP) climbs slightly against the US Dollar (USD) on Friday, up 0.10%, as the latest US consumer infl"
     },
     {
       "source": "FXStreet",
-      "title": "SNB’s Schlegel: Inflation accelerates in recent months but remains within stability range",
-      "summary": "Swiss National Bank Chairman Martin Schlegel said during the European trading session on Friday that the Swiss Franc exc"
+      "title": "Australian Dollar holds firm as hotter US inflation fails to cement Greenback's advantage",
+      "summary": "AUD/USD is edging higher today but is yet to retake the 0.7200 mark on Friday. The pair is clawing back part of the prev"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc nears monthly lows as investors brace for US CPI data",
-      "summary": "The Swiss Franc extends losses for the sixth consecutive day against the US Dollar on Friday, nearing one-and-a-half-mon"
+      "title": "Gold rebounds but Fed rate hike bets risks remain a headwind",
+      "summary": "Gold (XAU/USD) rebounds on Friday, reversing most of the previous day’s losses as a pullback in the US Dollar, US Treasu"
     },
     {
       "source": "FXStreet",
-      "title": "US core CPI set to show a small decline, testing odds of a September Fed rate hike",
-      "summary": "The US Bureau of Labor Statistics (BLS) will publish the August Consumer Price Index (CPI) data on Friday. The report is"
+      "title": "Japan: BoJ tightening path in focus – ING",
+      "summary": "ING economists Deepali Bhargava and Lynn Song expect the Bank of Japan to raise its policy rate by 25bp to 1.25%, citing"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Support at 1.3495 under pressure against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann report that GBP/USD’s sharp drop to 1.3493 looks s"
+      "title": "Swiss Franc struggles even as US Dollar gives back CPI-led gains",
+      "summary": "USD/CHF holds onto gains on Friday even as the US Dollar (USD) turns lower following the release of the latest United St"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar steadies vs Japanese Yen as hawkish RBA signals offset JPY strength",
-      "summary": "AUD/JPY trades around 110.50 on Friday at the time of writing, posting a modest 0.04% decline on the day. The pair remai"
+      "title": "India: Inflation pressures point to tighter bias – DBS",
+      "summary": "DBS Group Research expects India’s inflation to accelerate to 4.9% year-on-year, with food and energy costs driving a gr"
     },
     {
       "source": "FXStreet",
-      "title": "Czech Koruna: CZK faces downside risks against Euro into CNB – ING",
-      "summary": "ING analysts David Havrlant and Frantisek Taborsky say the Czech market is being driven mainly by global factors and hig"
+      "title": "Canadian Dollar slides with Oil prices, US CPI fails to keep US Dollar higher",
+      "summary": "USD/CAD rises 0.27% on Friday and trades around 1.3870 at the time of writing, after reaching a daily high of 1.3882 in "
     },
     {
       "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD clings to a key support area around $4,300",
-      "summary": "Gold (XAU/USD) nudges higher on Friday, as the US Dollar’s (USD) recovery stalls ahead of the US Consumer Price Index (C"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Hawkish ECB fails to lift Euro – Commerzbank",
-      "summary": "Michael Pfister at Commerzbank notes the European Central Bank (ECB) delivered a second rate hike this year and raised i"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee extends downtrend ahead of US CPI data",
-      "summary": "The Indian Rupee (INR) extends its downward spiral against the US Dollar (USD) for the fourth trading day on Friday, wit"
+      "title": "United Kingdom: Growth outlook strengthens with AI-driven services – Deutsche Bank",
+      "summary": "Deutsche Bank’s Chief UK Economist Sanjay Raja highlights stronger-than-expected UK GDP data, with July output rising 0."
     },
     {
       "source": "Investing",
-      "title": "Bitcoin falls to $77.1k amid U.S.-Iran jitters, CPI caution",
+      "title": "Bitcoin rebounds to near $79k after in-line inflation report",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin dips to $77.1k as PPI data boosts Fed rate hike bets, oil prices jump",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Tag Markets Names Craig Lund Chief Executive Officer",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,23 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US core CPI set to show a small decline, testing odds o",
-      "[強気] Australian Dollar steadies vs Japanese Yen as hawkish R",
+      "[強気] British Pound shakes off US CPI jolt as UK growth steal",
+      "[強気] Gold rebounds but Fed rate hike bets risks remain a hea",
       "[強気] Bitcoin dips to $77.1k as PPI data boosts Fed rate hike"
     ],
-    "JPY": [
-      "[強気] Australian Dollar steadies vs Japanese Yen as hawkish R"
-    ],
-    "EUR": [
-      "[強気] Euro: Hawkish ECB fails to lift Euro – Commerzbank"
-    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound shakes off US CPI jolt as UK growth steal"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+287,656)",
-      "[強気] Australian Dollar steadies vs Japanese Yen as hawkish R"
+      "[COT] 🟢ロング優勢 (ネット:+287,656)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -229,18 +223,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 154.48598,
-      "today_close": 154.10623,
+      "today_close": 153.72378,
       "prev_close": 154.49485,
-      "diff": -0.3886,
-      "diff_pct": -0.25
+      "diff": -0.7711,
+      "diff_pct": -0.5
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.10623,
-      "sma20": 157.4908,
-      "sma50": 158.7683,
-      "sma200": 159.3995,
+      "latest": 153.72378,
+      "sma20": 157.4717,
+      "sma50": 158.7606,
+      "sma200": 159.3975,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -249,13 +243,13 @@
       "low20": 152.9079,
       "high60": 164.0881,
       "low60": 152.9079,
-      "chg5d_pct": -1.21,
-      "chg20d_pct": -3.05
+      "chg5d_pct": -1.46,
+      "chg20d_pct": -3.29
     },
     "EURUSD": {
-      "latest": 1.15908,
-      "sma20": 1.1621,
-      "sma50": 1.1568,
+      "latest": 1.16016,
+      "sma20": 1.1622,
+      "sma50": 1.1569,
       "sma200": 1.1581,
       "vs_sma20": "下",
       "vs_sma50": "上",
@@ -265,8 +259,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.2,
-      "chg20d_pct": -0.75
+      "chg5d_pct": -0.11,
+      "chg20d_pct": -0.66
     }
   }
 }
