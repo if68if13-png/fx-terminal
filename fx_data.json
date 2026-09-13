@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-09-13T20:25:19.641099",
-  "generated": "2026年09月13日 20:25",
+  "timestamp": "2026-09-13T22:55:43.586854",
+  "generated": "2026年09月13日 22:55",
   "scores": {
     "USD": 5,
     "JPY": 0,
@@ -132,11 +132,6 @@
       "summary": "ING analysts Chris Turner and Padhraic Garvey argue the Bank of Japan is likely to hike 25bp to 1.25% and then proceed c"
     },
     {
-      "source": "FXStreet",
-      "title": "US Treasury yields ease after CPI as Fed hike risks linger",
-      "summary": "US Treasury yields fall during the North American session on Friday following the release of US inflation data, but are "
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin slips below $77,000 as rate pressure clashes with diversification case",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Tag Markets Names Craig Lund Chief Executive Officer",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -225,45 +225,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 153.56871,
-      "today_close": 153.6083,
-      "prev_close": 153.5706,
-      "diff": 0.0377,
-      "diff_pct": 0.02
+      "today_open": 153.5839,
+      "today_close": 153.71962,
+      "prev_close": 153.58473,
+      "diff": 0.1349,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 153.6083,
-      "sma20": 156.9153,
-      "sma50": 158.3461,
-      "sma200": 159.3713,
+      "latest": 153.71962,
+      "sma20": 156.6395,
+      "sma50": 158.1472,
+      "sma200": 159.3591,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 59.8,
+      "rsi14": 59.3,
       "high20": 160.4047,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": -0.25,
+      "chg5d_pct": 0.11,
       "chg20d_pct": -3.45
     },
     "EURUSD": {
-      "latest": 1.15992,
-      "sma20": 1.1614,
-      "sma50": 1.1578,
-      "sma200": 1.1579,
+      "latest": 1.15899,
+      "sma20": 1.161,
+      "sma50": 1.1582,
+      "sma200": 1.1578,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 53.0,
-      "high20": 1.168,
+      "rsi14": 53.3,
+      "high20": 1.1678,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.22,
-      "chg20d_pct": -0.56
+      "chg5d_pct": -0.37,
+      "chg20d_pct": -0.73
     }
   }
 }
