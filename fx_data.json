@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-13T22:55:43.586854",
-  "generated": "2026年09月13日 22:55",
+  "timestamp": "2026-09-14T03:43:42.802092",
+  "generated": "2026年09月14日 03:43",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 1,
     "CAD": 0,
-    "CHF": 2
+    "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -98,42 +98,42 @@
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Doji high guards bulls as Fed bets bite",
-      "summary": "The AUD/USD ended the day in the green but finished the week 0.45% lower amid growing bets that the Fed will raise rates"
+      "title": "United States Dollar Index rises to near 99.50 as Fed rate hike bets increase",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is gaining grou"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Downside bias capped with 1.2705 against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note that USD/SGD has rebounded strongly, with sho"
+      "title": "New Zealand Dollar weakens below 0.5800 on RBNZ dovish signals",
+      "summary": "The NZD/USD pair tumbles to around 0.5790 during the early Asian trading hours on Monday. The New Zealand Dollar (NZD) w"
     },
     {
       "source": "FXStreet",
-      "title": "USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels Fed bets",
-      "summary": "The USDCHF climbs over 0.40% on Friday after US consumer inflation data, coupled with Thursday's PPI, pushed investors t"
+      "title": "Canadian Dollar gains support from higher oil prices amid Saudi pipeline disruptions",
+      "summary": "USD/CAD halts its three-day winning streak, trading around 1.3870 during Asian hours on Monday. The pair inches lower as"
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan Dollar: CBC seen on hold before December hike – DBS",
-      "summary": "DBS Group Research expects Taiwan’s central bank to keep its policy rate unchanged on September 17, before raising it to"
+      "title": "Japanese Yen edges lower vs USD amid Middle East jitters as Fed, BoJ meetings loom",
+      "summary": "The USD/JPY pair attracts some buyers at the start of a new week and climbs closer to the 154.00 mark during the Asian s"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Bullish bias fades against dollar – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann reports that USD/CNH has bounced sharply to 6.7153"
+      "title": "Gold edges lower below $4,350 on imminent Fed rate hike",
+      "summary": "Gold price (XAU/USD) loses ground to near $4,340 during the early Asian trading hours on Monday. The precious metal rema"
     },
     {
       "source": "FXStreet",
-      "title": "Forecasting the upcoming week: Fed, BoE and BoJ headline a central bank triple-header",
-      "summary": "The US Dollar Index (DXY) closes the week near the 99.00 zone, little changed on the day and holding the ground it clawe"
+      "title": "British Pound consolidates above 1.3500 vs USD ahead of this week's UK data, Fed, BoE",
+      "summary": "The GBP/USD pair struggles to capitalize on Friday's bounce from the vicinity of the monthly swing low and consolidates "
     },
     {
       "source": "FXStreet",
-      "title": "Bank of Japan: Gradual path toward neutral rate – ING",
-      "summary": "ING analysts Chris Turner and Padhraic Garvey argue the Bank of Japan is likely to hike 25bp to 1.25% and then proceed c"
+      "title": "PBOC sets USD/CNY reference rate at 6.7698 vs. 6.7743 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7698 compa"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips below $77,000 as rate pressure clashes with diversification case",
+      "title": "Bitcoin little changed at $77k as rate pressure clashes with diversification case",
       "summary": ""
     },
     {
@@ -192,8 +192,9 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Downside bias capped with 1.2705 agai",
-      "[強気] USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels",
+      "[強気] United States Dollar Index rises to near 99.50 as Fed r",
+      "[弱気] New Zealand Dollar weakens below 0.5800 on RBNZ dovish ",
+      "[強気] Gold edges lower below $4,350 on imminent Fed rate hike",
       "[強気] Bitcoin dips to $77.1k as PPI data boosts Fed rate hike"
     ],
     "GBP": [
@@ -204,11 +205,11 @@
       "[COT] 🟢ロング優勢 (ネット:+339,888)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] New Zealand Dollar weakens below 0.5800 on RBNZ dovish "
     ],
     "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+83,893)",
-      "[強気] USD/CHF Price Forecast: Bulls break 0.8150 as CPI fuels"
+      "[COT] 🟢ロング優勢 (ネット:+83,893)"
     ]
   },
   "rates": {
@@ -226,18 +227,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 153.5839,
-      "today_close": 153.71962,
+      "today_close": 154.13646,
       "prev_close": 153.58473,
-      "diff": 0.1349,
-      "diff_pct": 0.09
+      "diff": 0.5517,
+      "diff_pct": 0.36
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 153.71962,
-      "sma20": 156.6395,
-      "sma50": 158.1472,
-      "sma200": 159.3591,
+      "latest": 154.13646,
+      "sma20": 156.6603,
+      "sma50": 158.1556,
+      "sma200": 159.3611,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -246,24 +247,24 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.11,
-      "chg20d_pct": -3.45
+      "chg5d_pct": 0.38,
+      "chg20d_pct": -3.19
     },
     "EURUSD": {
-      "latest": 1.15899,
-      "sma20": 1.161,
-      "sma50": 1.1582,
+      "latest": 1.15701,
+      "sma20": 1.1609,
+      "sma50": 1.1581,
       "sma200": 1.1578,
       "vs_sma20": "下",
-      "vs_sma50": "上",
-      "vs_sma200": "上",
+      "vs_sma50": "下",
+      "vs_sma200": "下",
       "rsi14": 53.3,
       "high20": 1.1678,
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.37,
-      "chg20d_pct": -0.73
+      "chg5d_pct": -0.54,
+      "chg20d_pct": -0.9
     }
   }
 }
