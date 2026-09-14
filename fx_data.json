@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-14T12:00:54.755572",
-  "generated": "2026年09月14日 12:00",
+  "timestamp": "2026-09-14T18:03:16.213840",
+  "generated": "2026年09月14日 18:03",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
-    "EUR": -1,
-    "GBP": 1,
-    "AUD": -1,
-    "NZD": 2,
+    "USD": 3,
+    "JPY": -2,
+    "EUR": 1,
+    "GBP": 3,
+    "AUD": 0,
+    "NZD": 1,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 3,
+      "quote_score": -2
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 3,
+      "quote_score": -2
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
-      "quote_score": 0
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 1,
+      "quote_score": -2
     },
     {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "pair": "EURUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 1,
-      "quote_score": 0
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     }
   ],
   "news": [
@@ -98,52 +98,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: BoE hold, slower QT and dovish repricing risk – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad expects the Bank of England (BoE) to keep its policy rate at 3.75% with a l"
+      "title": "Euro slides against the Pound as a UK jobs test looms",
+      "summary": "EUR/GBP slides on Monday, trading around 0.8560 as the Euro (EUR) side of the cross is underpinned by a European Central"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen trims gains with Fed and BoJ decisions looming",
-      "summary": "The Japanese Yen (JPY) holds moderate losses against the US Dollar (USD) on Monday, but remains close to seven-month hig"
+      "title": "British Pound buckles as US yields rise puts Fed in command",
+      "summary": "The British Pound (GBP/USD) tested five-week lows of 1.3464 and trimmed some of its earlier losses on Monday, but it rem"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee likely extends previous week’s downfall on Tuesday",
-      "summary": "The Indian Rupee is expected to extend its previous week’s plunge against the US Dollar (USD) after a long weekend on Tu"
+      "title": "Euro falls as higher Oil prices support Canadian Dollar amid mixed inflation data",
+      "summary": "EUR/CAD declines to around 1.6060 on Monday at the time of writing, down 0.17% on the day. The Canadian Dollar (CAD) ben"
     },
     {
       "source": "FXStreet",
-      "title": "Czech Koruna: Dovish CNB may weaken CZK against Euro - ING",
-      "summary": "ING strategist Frantisek Taborsky outlines a busy Central and Eastern Europe (CEE) data calendar but stresses that the C"
+      "title": "The Dollar Index climbs on Fed hike bets and stalls at its usual ceiling",
+      "summary": "The Dollar Index trades near 99.50, up 0.4% on the day, and it made the whole of that gain while America was asleep. A 5"
     },
     {
       "source": "FXStreet",
-      "title": "Gold starts the week lower as traders await Fed verdict",
-      "summary": "Gold (XAU/USD) kicks off the week on a bearish note as Federal Reserve (Fed) interest rate hike expectations dominate ma"
+      "title": "Japanese Yen weakens at the start of a central bank-heavy week",
+      "summary": "USD/JPY climbs on Monday as US Dollar (USD) demand picks up ahead of the Federal Reserve’s (Fed) interest rate decision "
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve: Rate hike path and data support – Deutsche Bank",
-      "summary": "Deutsche Bank’s Jim Reid and team say the Fed’s decision on Wednesday is the main market event, with their economists ex"
+      "title": "Gold falls as Fed rate hike bets, rising Oil push Treasury yields to 5%",
+      "summary": "Gold (XAU/USD) remains on the back foot on Monday as Federal Reserve (Fed) interest rate hike expectations dominate mark"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed hike expectations and limited gains – MUFG",
-      "summary": "MUFG’s Lee Hardman notes that the US Dollar (USD) has strengthened only modestly even as markets price in a Fed rate hik"
+      "title": "Euro area: Supply chain risks and core goods outlook – Societe Generale",
+      "summary": "Societe Generale economists Sam Cartwright and Michel Martinez analyze how renewed supply chain disruptions, including c"
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Schnabel: Recent energy-price developments have been quite concerning",
-      "summary": "European Central Bank (ECB) Executive Board member Isabel Schnabel said recent energy-price developments have been \"quit"
+      "title": "Australian Dollar slides to monthly low as Fed hike odds firm",
+      "summary": "AUD/USD slipped to a new monthly low in the 0.7100s on Monday, driven by a firm run of United States (US) data that has "
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Aussie bears aim for a key support area around 0.7110",
-      "summary": "The Australian Dollar (AUD) resumed its downtrend against the US Dollar (USD) on Monday, weighed by the risk-off market "
+      "title": "Japanese Yen: JPY underperforms into BoJ – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight a weaker Japanese Yen (JPY), down 0.7% versus the US Dol"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin steady at $77.7k amid M.East tensions, rate hike jitters",
+      "title": "Bitcoin steady at $78k amid M.East tensions, rate hike jitters",
       "summary": ""
     },
     {
@@ -192,24 +192,31 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold starts the week lower as traders await Fed verdict",
-      "[強気] Federal Reserve: Rate hike path and data support – Deut",
-      "[強気] US Dollar: Fed hike expectations and limited gains – MU",
+      "[弱気] Japanese Yen weakens at the start of a central bank-hea",
+      "[強気] Gold falls as Fed rate hike bets, rising Oil push Treas",
+      "[強気] Australian Dollar slides to monthly low as Fed hike odd",
+      "[弱気] Japanese Yen: JPY underperforms into BoJ – Scotiabank",
       "[強気] Bitcoin dips to $77.1k as PPI data boosts Fed rate hike"
     ],
+    "JPY": [
+      "[弱気] Japanese Yen weakens at the start of a central bank-hea",
+      "[弱気] Japanese Yen: JPY underperforms into BoJ – Scotiabank"
+    ],
     "EUR": [
-      "[弱気] Czech Koruna: Dovish CNB may weaken CZK against Euro - "
+      "[強気] Euro slides against the Pound as a UK jobs test looms"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound: BoE hold, slower QT and dovish repricing"
+      "[強気] Euro slides against the Pound as a UK jobs test looms"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+339,888)"
+      "[COT] 🟢ロング優勢 (ネット:+339,888)",
+      "[強気] Australian Dollar slides to monthly low as Fed hike odd"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Japanese Yen: JPY underperforms into BoJ – Scotiabank"
     ],
     "CHF": [
       "[COT] 🟢ロング優勢 (ネット:+83,893)"
@@ -218,27 +225,30 @@
   "rates": {
     "US_FF": 3.63,
     "US_10Y": 4.95,
-    "JP_10Y": null,
-    "DE_10Y": null,
-    "GB_10Y": null,
+    "JP_10Y": 2.67,
+    "DE_10Y": 2.97,
+    "GB_10Y": 4.796,
     "AU_10Y": 4.831,
+    "DIFF_USDJPY": 2.28,
+    "DIFF_EURUSD": -1.98,
+    "DIFF_GBPUSD": -0.15,
     "DIFF_AUDUSD": -0.12
   },
   "prices": {
     "USDJPY": {
       "today_open": 153.5839,
-      "today_close": 154.59379,
+      "today_close": 154.40394,
       "prev_close": 153.58473,
-      "diff": 1.0091,
-      "diff_pct": 0.66
+      "diff": 0.8192,
+      "diff_pct": 0.53
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.59379,
-      "sma20": 156.6832,
-      "sma50": 158.1647,
-      "sma200": 159.3634,
+      "latest": 154.40394,
+      "sma20": 156.6737,
+      "sma50": 158.1609,
+      "sma200": 159.3625,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -247,11 +257,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.68,
-      "chg20d_pct": -2.9
+      "chg5d_pct": 0.55,
+      "chg20d_pct": -3.02
     },
     "EURUSD": {
-      "latest": 1.15471,
+      "latest": 1.15569,
       "sma20": 1.1608,
       "sma50": 1.1581,
       "sma200": 1.1578,
@@ -263,8 +273,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.74,
-      "chg20d_pct": -1.09
+      "chg5d_pct": -0.66,
+      "chg20d_pct": -1.01
     }
   }
 }
