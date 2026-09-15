@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-09-15T03:43:53.902203",
-  "generated": "2026年09月15日 03:43",
+  "timestamp": "2026-09-15T11:15:09.888052",
+  "generated": "2026年09月15日 11:15",
   "scores": {
-    "USD": 5,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,37 +15,37 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPJPY",
       "direction": "強くロング",
       "diff": 3,
       "base_score": 3,
       "quote_score": 0
     },
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 3,
-      "quote_score": 5
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,48 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "EUR/JPY Price Forecast: Hovers around 178.50 within oversold territory",
-      "summary": "EUR/JPY gains ground for the second consecutive day, trading around 178.70 during Asian hours on Tuesday. Technical anal"
+      "title": "Australian Dollar: Looking for 0.7100 break against US Dollar – UOB",
+      "summary": "Quek Ser Leang at UOB notes AUD/USD fell more sharply than anticipated to 0.7109, leaving short-term conditions oversold"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc remains under pressure against US Dollar, Fed’s policy in focus",
-      "summary": "The Swiss Franc (CHF) is down against the US Dollar (USD) on Tuesday, with the USD/CHF pair trading slightly higher at a"
+      "title": "British Pound trades mixed after steady UK employment report, CPI data eyed",
+      "summary": "The British Pound (GBP) reflects a mixed performance against its currency peers after the release of the United Kingdom "
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index strengthens above 99.50 as Fed rate hike bets rise",
-      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
+      "title": "Bank of Japan: Gradual normalisation path outlined – Standard Chartered",
+      "summary": "Standard Chartered’s Chong Hoon Park and Nicholas Chia expect the Bank of Japan to hike its policy rate by 25bps to 1.25"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar remains subdued following release of China’s economic data",
-      "summary": "NZD/USD extends its losses for the second successive day, trading around 0.5760 during Asian hours on Tuesday. The pair "
+      "title": "Bank Of England: Jobs data supports steady policy – ING",
+      "summary": "ING economist James Smith argues that recent United Kingdom (UK) jobs data underline a cooler labour market and weaker w"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains depressed below mid-0.7100s vs bullish USD after Chinese data",
-      "summary": "The AUD/USD pair struggles to capitalize on the previous day's modest bounce from the 0.7100 neighborhood, or an over th"
+      "title": "Euro remains depressed as Eurozone sentiment and trade data fail to inspire",
+      "summary": "The Euro (EUR) remains on the defensive against the US Dollar (USD) as investors brace for the first interest rate hike "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound drifts lower below 1.3500 as Fed hike bets rise, UK jobs data loom",
-      "summary": "The GBP/USD pair loses momentum to around 1.3490 during Asian trading hours on Tuesday. Expectations of a US Federal Res"
+      "title": "Euro: Downside pressure targets 1.1490 against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang highlights renewed EUR/USD weakness after a sharper-than-expected drop below 1.1565 to 1.1522. He s"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls to near $63.00 amid rising inflation, Treasury yields",
-      "summary": "Silver price (XAG/USD) falls for the second successive day, trading around $63.20 per troy ounce during Asian hours on T"
+      "title": "Brent: Higher risk premium and retest of highs – Rabobank",
+      "summary": "Rabobank's Senior Energy Strategists Joe DeLaura and Florence Schmit revise their Brent outlook higher as Middle East di"
     },
     {
       "source": "FXStreet",
-      "title": "Euro remains depressed below mid-1.1500s vs bullish USD as focus remains on FOMC",
-      "summary": "The EUR/USD pair attracts some sellers for the fourth straight day and trades below mid-1.1500s during the Asian session"
+      "title": "US Dollar: Consolidation with two-way risks – OCBC",
+      "summary": "OCBC strategist Christopher Wong notes the US Dollar Index (DXY) around 99.5, supported by higher Oil, elevated UST yiel"
     },
     {
-      "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7670 vs. 6.7698 previous",
-      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7670 compa"
+      "source": "Investing",
+      "title": "Bitcoin slips below $77k ahead of Clarity Act vote, Fed meeting",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -192,14 +192,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar Index strengthens above 99.50 as F",
-      "[強気] British Pound drifts lower below 1.3500 as Fed hike bet",
-      "[強気] Silver Price Forecast: XAG/USD falls to near $63.00 ami",
+      "[強気] Euro remains depressed as Eurozone sentiment and trade ",
+      "[弱気] Euro: Downside pressure targets 1.1490 against US Dolla",
       "[強気] Bitcoin dips to $77.1k as PPI data boosts Fed rate hike"
     ],
+    "EUR": [
+      "[強気] Euro remains depressed as Eurozone sentiment and trade ",
+      "[弱気] Euro: Downside pressure targets 1.1490 against US Dolla"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound drifts lower below 1.3500 as Fed hike bet"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -227,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 154.34416,
-      "today_close": 154.72709,
+      "today_close": 154.82552,
       "prev_close": 154.34368,
-      "diff": 0.3834,
-      "diff_pct": 0.25
+      "diff": 0.4818,
+      "diff_pct": 0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 154.72709,
-      "sma20": 156.4412,
-      "sma50": 157.9793,
-      "sma200": 159.3557,
+      "latest": 154.82552,
+      "sma20": 156.4461,
+      "sma50": 157.9813,
+      "sma200": 159.3562,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -247,11 +249,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.15,
-      "chg20d_pct": -2.88
+      "chg5d_pct": 0.21,
+      "chg20d_pct": -2.82
     },
     "EURUSD": {
-      "latest": 1.15379,
+      "latest": 1.15376,
       "sma20": 1.1602,
       "sma50": 1.1584,
       "sma200": 1.1577,
