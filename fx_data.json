@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-16T16:17:42.042292",
-  "generated": "2026年09月16日 16:17",
+  "timestamp": "2026-09-16T20:57:27.942677",
+  "generated": "2026年09月16日 20:57",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
+    "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -56,6 +56,16 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve issues FOMC statement",
+      "summary": "Federal Reserve issues FOMC statement"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
+      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeti"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
@@ -87,73 +97,63 @@
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Regions Bank and former employee of United Comm"
     },
     {
-      "source": "Fed",
-      "title": "Minutes of the Federal Open Market Committee, July 28–29, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, July 28–29, 2026"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Regions Bank"
+      "source": "FXStreet",
+      "title": "The Australian Dollar continues to slide as the Fed enters hike country",
+      "summary": "Australia's central bank pays more than the Fed does. The cash rate is 4.35%, the Fed's new range is 3.75-4.00% after We"
     },
     {
       "source": "FXStreet",
-      "title": "Gold consolidates gains as traders brace for Fed interest rate decision",
-      "summary": "Gold (XAU/USD) consolidates gains on Wednesday after rebounding during Asian trading hours, supported by a modest pullba"
+      "title": "US Federal Reserve sends Gold to fresh one-month lows",
+      "summary": "Spot Gold (XAU/USD) is closing Wednesday with losses, trading around $4,250 after hitting an intraday high of $4,366."
     },
     {
       "source": "FXStreet",
-      "title": "Federal Reserve set to raise interest rate as markets await clues on future path",
-      "summary": "The United States (US) Federal Reserve (Fed) announces its interest rate decision on Wednesday, following another pivota"
+      "title": "The Euro breaks lower once the Fed raises rates",
+      "summary": "The Euro (EUR) trades just under 1.1500 against the US Dollar (USD) on Wednesday, through the pair of long-run averages "
     },
     {
       "source": "FXStreet",
-      "title": "The Pound sells its own inflation spike ahead of a Fed hike",
-      "summary": "The British Pound (GBP) trades just above 1.3450 on Wednesday, down 23 pips, after a morning that ran in two directions."
+      "title": "The Pound sinks as the Fed overtakes the BoE",
+      "summary": "The Pound trades just under 1.3400, 91 pips lower and down 0.68%. The Fed took its rate to 3.75-4.00% and, measured at t"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones Industrial Average huddles ahead of Fed action",
-      "summary": "The Dow Jones Industrial Average trades just above 52,100 and has spent the Wednesday morning going nowhere, on the day "
+      "title": "Fed rate hike bolsters US Dollar Index above 100.00",
+      "summary": "The Dollar Index broke above 100.00, back above both of its long-run averages. The quarter-point that took the Fed to 3."
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Consolidation with downside risks against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Euro (EUR) is consolidating in a tight range around the m"
+      "title": "The Canadian Dollar slips to a summer low on the Fed's rate hike",
+      "summary": "The Loonie trades at its weakest since early August, with USD/CAD just under 1.4000 after a 71-pip rise and a 0.51% gain"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed repricing risk caps downside – Rabobank",
-      "summary": "Rabobank’s Senior FX Strategist Jane Foley notes the US Dollar (USD) has outperformed G10 peers on expectations the Fed "
+      "title": "Dow Jones Industrial Average slides behind a Federal Reserve hike",
+      "summary": "The Dow Jones Industrial Average (DJIA) trades just above 51,500 on Wednesday, down 576 points and 1.11%, its worst sess"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: BoE repricing risk grows – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes GBP/USD is trading heavy near its 200-day moving average as United Ki"
+      "title": "Silver slides as hawkish Fed lifts US Dollar and Treasury yields",
+      "summary": "Silver (XAG/USD) trades under pressure on Wednesday as a stronger US Dollar (USD) and rising US Treasury yields weigh on"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar holds ground as Fed decision looms",
-      "summary": "AUD/USD trades in a narrow range on Wednesday as investors hold back from taking strong positions ahead of the Federal R"
+      "title": "Forex Today: Investors now look at the BoE",
+      "summary": "The US Dollar (USD) has navigated a positive range on Wednesday, gathering extra pace after the Federal Reserve (Fed) hi"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: BoC hawkish tilt and key levels – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report USD/CAD is steady near 1.39 as markets await the Federal Re"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United Kingdom: BoE hold view reinforced – Nomura",
-      "summary": "Nomura’s Global Markets Research team, including Josie Anderson, George Buckley and Andrzej Szczepaniak, notes that UK C"
+      "title": "Federal Reserve Chair Warsh: Inflation trends were not passing the test",
+      "summary": "Federal Reserve (Fed) Chair Kevin Warsh is holding a press conference following the Federal Open Market Committee (FOMC)"
     },
     {
       "source": "Investing",
-      "title": "Coinbase cuts trading fees for active users on Advanced platform",
+      "title": "Bitcoin extends losses after Clarity Act fails; eyes now on Fed for expected hike",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin drops below $76k as Clarity vote fails; Fed rate hike in focus",
+      "title": "Coinbase cuts trading fees for active users on Advanced platform",
       "summary": ""
     }
   ],
@@ -192,23 +192,18 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar holds ground as Fed decision looms",
-      "[強気] Canadian Dollar: BoC hawkish tilt and key levels – Scot",
-      "[強気] Bitcoin drops below $76k as Clarity vote fails; Fed rat"
+      "[強気] Fed rate hike bolsters US Dollar Index above 100.00",
+      "[強気] Silver slides as hawkish Fed lifts US Dollar and Treasu"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+339,888)",
-      "[強気] Australian Dollar holds ground as Fed decision looms"
+      "[COT] 🟢ロング優勢 (ネット:+339,888)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CAD": [
-      "[強気] Canadian Dollar: BoC hawkish tilt and key levels – Scot"
     ],
     "CHF": [
       "[COT] 🟢ロング優勢 (ネット:+83,893)"
@@ -216,31 +211,31 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.97,
+    "US_10Y": 5.0,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.03,
-    "DIFF_EURUSD": -1.79,
-    "DIFF_GBPUSD": 0.02,
-    "DIFF_AUDUSD": 0.04
+    "DIFF_USDJPY": 2.06,
+    "DIFF_EURUSD": -1.82,
+    "DIFF_GBPUSD": -0.01,
+    "DIFF_AUDUSD": 0.01
   },
   "prices": {
     "USDJPY": {
       "today_open": 155.11458,
-      "today_close": 155.20646,
+      "today_close": 156.29853,
       "prev_close": 155.11384,
-      "diff": 0.0926,
-      "diff_pct": 0.06
+      "diff": 1.1847,
+      "diff_pct": 0.76
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 155.20646,
-      "sma20": 156.2503,
-      "sma50": 157.8138,
-      "sma200": 159.3535,
+      "latest": 156.29853,
+      "sma20": 156.3049,
+      "sma50": 157.8356,
+      "sma200": 159.3589,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -249,24 +244,24 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 1.09,
-      "chg20d_pct": -2.64
+      "chg5d_pct": 1.81,
+      "chg20d_pct": -1.95
     },
     "EURUSD": {
-      "latest": 1.15379,
-      "sma20": 1.1597,
-      "sma50": 1.1587,
+      "latest": 1.1465,
+      "sma20": 1.1593,
+      "sma50": 1.1586,
       "sma200": 1.1575,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 52.8,
       "high20": 1.1656,
-      "low20": 1.149,
+      "low20": 1.1461,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": -0.98
+      "chg5d_pct": -1.15,
+      "chg20d_pct": -1.61
     }
   }
 }
