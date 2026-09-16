@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-09-15T23:26:36.456059",
-  "generated": "2026年09月15日 23:26",
+  "timestamp": "2026-09-16T03:41:52.157567",
+  "generated": "2026年09月16日 03:41",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
-    "GBP": 2,
-    "AUD": 0,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 3,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold declines below $4,300 as US yields climb, Fed rate decision looms",
-      "summary": "Gold price (XAU/USD) declines to near $4,285 during the early Asian session on Wednesday."
+      "title": "US Treasury Yields take a breather after recent rally, Fed’s policy in focus",
+      "summary": "United States (US) Treasury Yields have hit a pause after posting a fresh multi-year high on Tuesday ahead of the Federa"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar softens as risk-off mood meets FOMC countdown",
-      "summary": "The Aussie Dollar loses 0.11% against the Greenback on Tuesday as risk appetite remains negative amid calls from AI comp"
+      "title": "New Zealand Dollar drops as RBNZ’s Silk to exit in December",
+      "summary": "NZD/USD extends its losses for the third consecutive day, trading around 0.5750 during Asian hours on Wednesday."
     },
     {
       "source": "FXStreet",
-      "title": "The Euro edges lower as Frankfurt's hike takes effect the day Washington votes",
-      "summary": "EUR/USD closed Tuesday near 1.1540, down 0.1%. It fell on the day the European Central Bank (ECB) raised its deposit rat"
+      "title": "Australian Dollar weakens below 0.7150 as markets brace for Fed rate decision",
+      "summary": "The AUD/USD pair declines to around 0.7120 during Asian trading hours on Wednesday. Expectations of a US interest rate h"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Rebounds above 207.00 as oversold risk eases",
-      "summary": "The GBP/JPY edges higher by about 0.29% on Tuesday, even as risk appetite has shifted to the sour side due to geopolitic"
+      "title": "PBOC’s Pan says will rely less on loan growth targets and more on rate tools to guide policy",
+      "summary": "The People’s Bank of China (PBOC) Governor Pan Gongsheng said on Wednesday that the Chinese central bank will rely less "
     },
     {
       "source": "FXStreet",
-      "title": "The Pound drifts lower as the Fed lines up a rate above the Bank of England's",
-      "summary": "GBP/USD closed Tuesday near 1.3470, down 0.2%. Wednesday's Asian and London hours are the last before the Fed is expecte"
+      "title": "August UK inflation report expected to show rising inflation",
+      "summary": "The United Kingdom (UK) Office for National Statistics (ONS) will publish the highly anticipated Consumer Price Index (C"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso retreats as USD/MXN bounces from near YTD low",
-      "summary": "The Mexican Peso (MXN) loses some ground against the US Dollar (USD) on Tuesday, with USD/MXN rising by over 0.09% amid "
+      "title": "United States Dollar Index gains ground ahead of Fed interest rate decision",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is continuing i"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar slides ahead of Fed’s decision",
-      "summary": "NZD/USD trades close to the 0.5760s, extending a run of losses that has dragged it toward the lower end of its recent ra"
+      "title": "Euro sticks to losses near one-month low as USD bulls retain control ahead of Fed decision",
+      "summary": "The EUR/USD pair sticks to a negative bias for the fifth straight day and trades around the 1.1535-1.1530 area during th"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Range-bound with slight downside bias against US Dollar – UOB",
-      "summary": "Quek Ser Leang at UOB notes USD/CNH remains directionless, trading narrowly around 6.71 with little change in momentum. "
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Bears crack 100-day SMA, eye 1.1500",
-      "summary": "The Euro (EUR) extends its losses against the US Dollar (USD) on Tuesday, sliding below the 100-day Simple Moving Averag"
+      "title": "British Pound softens below 1.3500 as traders await UK CPI data, Fed rate decision",
+      "summary": "The GBP/USD pair loses ground to near 1.3470 during the early Asian trading hours on Wednesday. The US Dollar (USD) stre"
     },
     {
       "source": "Investing",
@@ -192,16 +187,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar softens as risk-off mood meets FOMC c",
-      "[強気] Mexican Peso retreats as USD/MXN bounces from near YTD "
+      "[強気] British Pound softens below 1.3500 as traders await UK "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound softens below 1.3500 as traders await UK "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+339,888)",
-      "[強気] Australian Dollar softens as risk-off mood meets FOMC c"
+      "[COT] 🟢ロング優勢 (ネット:+339,888)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -225,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 155.11458,
-      "today_close": 155.14959,
+      "today_close": 155.33176,
       "prev_close": 155.11384,
-      "diff": 0.0357,
-      "diff_pct": 0.02
+      "diff": 0.2179,
+      "diff_pct": 0.14
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 155.14959,
-      "sma20": 156.2475,
-      "sma50": 157.8127,
-      "sma200": 159.3532,
+      "latest": 155.33176,
+      "sma20": 156.2566,
+      "sma50": 157.8163,
+      "sma200": 159.3541,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,11 +239,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 1.06,
-      "chg20d_pct": -2.67
+      "chg5d_pct": 1.18,
+      "chg20d_pct": -2.56
     },
     "EURUSD": {
-      "latest": 1.15386,
+      "latest": 1.15413,
       "sma20": 1.1597,
       "sma50": 1.1587,
       "sma200": 1.1575,
@@ -261,8 +255,8 @@
       "low20": 1.149,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.52,
-      "chg20d_pct": -0.97
+      "chg5d_pct": -0.5,
+      "chg20d_pct": -0.95
     }
   }
 }
