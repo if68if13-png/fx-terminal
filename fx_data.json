@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-16T23:35:56.472035",
-  "generated": "2026年09月16日 23:35",
+  "timestamp": "2026-09-17T03:46:43.581400",
+  "generated": "2026年09月17日 03:46",
   "scores": {
     "USD": 5,
-    "JPY": 0,
-    "EUR": 1,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -20,18 +20,18 @@
       "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
-    {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
+      "diff": -5,
+      "base_score": 0,
       "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -41,18 +41,18 @@
       "quote_score": 5
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,53 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold falls to near $4,250 after Fed delivers rate hike",
-      "summary": "Gold price (XAU/USD) attracts some sellers to around $4,265 during the early Asian session on Thursday. The precious met"
+      "title": "Fed Policy Monitor: Hiking bias and curve reaction – NBC Economics and Strategy",
+      "summary": "NBC Economics and Strategy, authored by Taylor Schleich and Ethan Currie, reviews the latest Federal Reserve decision fo"
     },
     {
       "source": "FXStreet",
-      "title": "0.2%: New Zealand’s Gross Domestic Product grows more than expected in Q2",
-      "summary": "New Zealand's Gross Domestic Product (GDP) grew by 0.2% QoQ in the second quarter (Q2) of 2026, compared with a 0.8% exp"
+      "title": "United States rates: Yields seen contained, steepeners favoured – TD Securities",
+      "summary": "TD Securities analysts highlight that the Federal Reserve’s 25bp hike and hawkish projections have boosted its inflation"
     },
     {
       "source": "FXStreet",
-      "title": "The Pound drops below its long-run average as the Fed's rate passes Britain's",
-      "summary": "The Fed raised rates by a quarter point to 3.75-4.00% on Wednesday, the first hike since 2023, and the vote was 12-0. Th"
+      "title": "Canadian Dollar slides to five-week low after Fed’s hawkish decision",
+      "summary": "The Canadian Dollar (CAD) trades weakly against the US Dollar (USD) on Thursday. In the Asian session, the USD/CAD pair "
     },
     {
       "source": "FXStreet",
-      "title": "The Euro's losing streak runs on as the Fed matches the ECB's rate hike",
-      "summary": "The European Central Bank (ECB) raised its deposit rate to 2.50% on September 10, and the Euro has fallen every session "
+      "title": "Federal Reserve: Policy path reshaped – Rabobank",
+      "summary": "Rabobank’s RaboResearch Global Economics & Markets team reviews the latest FOMC decision, noting a unanimous 25 bps hike"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen gives back more of its rally as the Fed raises rates",
-      "summary": "The Bank of Japan meets on Friday, and the market has a quarter-point hike to 1.25% priced at 100%. The Yen has been fal"
+      "title": "United States Dollar Index holds gains above 100.00 as Fed signals further tightening",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand GDP in the barrel with the Kiwi at July lows",
-      "summary": "New Zealand reports second-quarter growth later on Wednesday, or early on Thursday depending on where you are relative t"
+      "title": "Euro weakens to near 1.1450 as Fed raises rate for first time in three years",
+      "summary": "The EUR/USD pair declines to around 1.1460 during Asian trading hours on Thursday. The Euro (EUR) weakens against the US"
     },
     {
       "source": "FXStreet",
-      "title": "Trump demands 1% rates hours after the Fed raised them",
-      "summary": "Trump posted on Wednesday that US rates should be 1% or less and that the country has the strongest credit anywhere. He "
+      "title": "Silver Price Forecast: XAG/USD rises to near $64.00 as oil prices decline",
+      "summary": "Silver price (XAG/USD) gains ground after posting losses the previous day, trading around $63.80 per troy ounce during t"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar sinks toward its July low after the Fed hikes",
-      "summary": "NZD/USD has dropped in six straight sessions. The run started near 0.5900 on September 8, went through both long-run ave"
+      "title": "Japanese Yen edges higher vs bullish USD amid expectations of a more hawkish BoJ",
+      "summary": "The USD/JPY pair edges lower during the Asian session on Thursday, snapping a three-day winning streak and eroding a par"
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar continues to slide as the Fed enters hike country",
-      "summary": "Australia's central bank pays more than the Federal Reserve (Fed) does. The cash rate is 4.35%, the Fed's new range is 3"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Federal Reserve sends Gold to fresh one-month lows",
-      "summary": "Spot Gold (XAU/USD) is closing Wednesday with losses, trading around $4,250 after hitting an intraday high of $4,366."
+      "title": "US President Donald Trump says he told Fed Chair to 'do what you want' ahead of rate hike",
+      "summary": "US President Donald Trump said that he counseled Federal Reserve (Fed) Chair Kevin Warsh to vote for an interest rate hi"
     },
     {
       "source": "Investing",
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Coinbase cuts trading fees for active users on Advanced platform",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,13 +192,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold falls to near $4,250 after Fed delivers rate hike",
-      "[強気] The Euro's losing streak runs on as the Fed matches the",
-      "[強気] Trump demands 1% rates hours after the Fed raised them",
+      "[強気] Fed Policy Monitor: Hiking bias and curve reaction – NB",
+      "[強気] United States rates: Yields seen contained, steepeners ",
+      "[強気] Japanese Yen edges higher vs bullish USD amid expectati",
+      "[強気] US President Donald Trump says he told Fed Chair to 'do",
       "[強気] Bitcoin turns slightly higher as traders digest Clarity"
     ],
-    "EUR": [
-      "[強気] The Euro's losing streak runs on as the Fed matches the"
+    "JPY": [
+      "[強気] Japanese Yen edges higher vs bullish USD amid expectati"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -220,26 +221,27 @@
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
-    "AU_10Y": null,
+    "AU_10Y": 5.015,
     "DIFF_USDJPY": 2.06,
     "DIFF_EURUSD": -1.82,
-    "DIFF_GBPUSD": -0.01
+    "DIFF_GBPUSD": -0.01,
+    "DIFF_AUDUSD": 0.01
   },
   "prices": {
     "USDJPY": {
       "today_open": 156.31259,
-      "today_close": 156.14175,
+      "today_close": 156.10918,
       "prev_close": 156.31617,
-      "diff": -0.1744,
-      "diff_pct": -0.11
+      "diff": -0.207,
+      "diff_pct": -0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.14175,
-      "sma20": 156.1071,
-      "sma50": 157.6901,
-      "sma200": 159.3591,
+      "latest": 156.10918,
+      "sma20": 156.1055,
+      "sma50": 157.6894,
+      "sma200": 159.3589,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -248,11 +250,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 1.67,
-      "chg20d_pct": -2.48
+      "chg5d_pct": 1.65,
+      "chg20d_pct": -2.5
     },
     "EURUSD": {
-      "latest": 1.14688,
+      "latest": 1.14601,
       "sma20": 1.1587,
       "sma50": 1.1586,
       "sma200": 1.1573,
@@ -261,11 +263,11 @@
       "vs_sma200": "下",
       "rsi14": 26.1,
       "high20": 1.1654,
-      "low20": 1.1459,
+      "low20": 1.1456,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -1.12,
-      "chg20d_pct": -0.99
+      "chg5d_pct": -1.2,
+      "chg20d_pct": -1.06
     }
   }
 }
