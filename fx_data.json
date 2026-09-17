@@ -1,26 +1,26 @@
 {
-  "timestamp": "2026-09-17T21:01:47.596061",
-  "generated": "2026年09月17日 21:01",
+  "timestamp": "2026-09-17T23:31:13.846147",
+  "generated": "2026年09月17日 23:31",
   "scores": {
     "USD": 5,
     "JPY": 2,
     "EUR": 0,
-    "GBP": 2,
-    "AUD": 0,
-    "NZD": 3,
+    "GBP": 3,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
-      "pair": "EURUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
+      "diff": -6,
+      "base_score": -1,
       "quote_score": 5
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": 0,
@@ -35,9 +35,9 @@
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
       "quote_score": 5
     },
     {
@@ -50,8 +50,8 @@
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
+      "diff": 1,
+      "base_score": 3,
       "quote_score": 2
     }
   ],
@@ -98,13 +98,23 @@
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar slips against the Japanese Yen before the Bank of Japan raises rates",
-      "summary": "USD/JPY trades near 156.00 after a session high at 156.32 and a low at 155.34, which leaves it three Yen above the Septe"
+      "title": "Gold rebounds to near $4,350 on weaker US Dollar, falling oil prices",
+      "summary": "Gold price (XAU/USD) rises to near $4,345 during the early Asian session on Friday. The precious metal rebounds from a s"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound Sterling slides after the Bank of England stays put",
-      "summary": "GBP/USD trades near 1.3350 after a session low at 1.3336, its weakest since the end of July, and it has been under its 2"
+      "title": "Australian Dollar finds a floor as Oil retreat loosens USD’s grip",
+      "summary": "The Australian Dollar recovered some ground versus the US Dollar on Thursday, following the Federal Reserve’s monetary p"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Bank of Japan is expected to deliver a hawkish hike, pressured by rising inflation",
+      "summary": "The Bank of Japan’s (BoJ) monetary policy meeting will close a week packed with central bank decisions on Friday, with m"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US Dollar slips against the Japanese Yen before the Bank of Japan raises rates",
+      "summary": "USD/JPY trades near 156.00 after a session high at 156.32 and a low at 155.34, which leaves it three Yen above the Septe"
     },
     {
       "source": "FXStreet",
@@ -122,23 +132,8 @@
       "summary": "The US Dollar (USD) is ending Thursday softer. The US Dollar Index (DXY) hovers just above the 100.00 mark after climbin"
     },
     {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: Bulls threaten bearish setup after Fed hike",
-      "summary": "Silver (XAG/USD) surges to five-day highs above $66.00 on Thursday as traders digest the Federal Reserve (Fed) rate hike"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold shrugs off Fed hike as falling yields reopen path to $4,400",
-      "summary": "Gold (XAU/USD) rallies on Thursday, up by more than 2% as investors digest the latest rate hike by the Federal Reserve ("
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian and New Zealand Dollars dig in ahead of a Japanese rate hike",
-      "summary": "The Australian Dollar (AUD) trades near 111.00 against the Japanese Yen (JPY) and the New Zealand Dollar (NZD) near 89.5"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin steady at $76.5k as markets digest Fed rate hike, M.East tensions",
+      "title": "Bitcoin extends recovery from Clarity setback, gains capped by Fed hawkishness",
       "summary": ""
     },
     {
@@ -192,58 +187,56 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound Sterling slides after the Bank of England",
+      "[強気] Australian Dollar finds a floor as Oil retreat loosens ",
       "[強気] Singapore Dollar: Strong Dollar keeps pair supported – ",
-      "[強気] Silver Price Forecast: Bulls threaten bearish setup aft",
-      "[強気] Gold shrugs off Fed hike as falling yields reopen path ",
-      "[強気] Australian and New Zealand Dollars dig in ahead of a Ja",
-      "[強気] Bitcoin steady at $76.5k as markets digest Fed rate hik",
+      "[強気] Bitcoin extends recovery from Clarity setback, gains ca",
       "[強気] Bitcoin turns slightly higher as traders digest Clarity"
     ],
     "JPY": [
-      "[強気] GBP/JPY Price Forecast: Evening star puts 207.00 back i",
-      "[強気] Australian and New Zealand Dollars dig in ahead of a Ja"
+      "[強気] Bank of Japan is expected to deliver a hawkish hike, pr",
+      "[強気] GBP/JPY Price Forecast: Evening star puts 207.00 back i"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound Sterling slides after the Bank of England",
       "[強気] GBP/JPY Price Forecast: Evening star puts 207.00 back i"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+339,888)",
-      "[強気] Australian and New Zealand Dollars dig in ahead of a Ja"
+      "[COT] 🟢ロング優勢 (ネット:+339,888)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian and New Zealand Dollars dig in ahead of a Ja"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
       "[COT] 🟢ロング優勢 (ネット:+83,893)"
     ]
   },
   "rates": {
-    "US_FF": null,
-    "US_10Y": null,
-    "JP_10Y": null,
+    "US_FF": 3.63,
+    "US_10Y": 5.01,
+    "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
-    "AU_10Y": 5.015
+    "AU_10Y": 5.015,
+    "DIFF_USDJPY": 2.07,
+    "DIFF_EURUSD": -1.83,
+    "DIFF_GBPUSD": -0.02,
+    "DIFF_AUDUSD": 0.0
   },
   "prices": {
     "USDJPY": {
       "today_open": 155.97628,
-      "today_close": 155.97696,
+      "today_close": 155.98857,
       "prev_close": 155.97944,
-      "diff": -0.0025,
-      "diff_pct": -0.0
+      "diff": 0.0091,
+      "diff_pct": 0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 155.97696,
-      "sma20": 155.8928,
-      "sma50": 157.6155,
+      "latest": 155.98857,
+      "sma20": 155.8933,
+      "sma50": 157.6157,
       "sma200": 159.3524,
       "vs_sma20": "上",
       "vs_sma50": "下",
@@ -253,11 +246,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 1.56,
-      "chg20d_pct": -2.58
+      "chg5d_pct": 1.57,
+      "chg20d_pct": -2.57
     },
     "EURUSD": {
-      "latest": 1.14754,
+      "latest": 1.14772,
       "sma20": 1.1582,
       "sma50": 1.1585,
       "sma200": 1.1572,
@@ -269,8 +262,8 @@
       "low20": 1.1456,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -1.06,
-      "chg20d_pct": -0.93
+      "chg5d_pct": -1.05,
+      "chg20d_pct": -0.92
     }
   }
 }
