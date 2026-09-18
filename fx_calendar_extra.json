@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-09-18 19:42 JST",
+  "generated_at_jst": "2026-09-19 00:57 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,36 +7,8 @@
     "mag7": "live (6件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 123,
+  "count": 121,
   "events": [
-    {
-      "date": "2026-09-18",
-      "time": "08:30",
-      "tz": "JST",
-      "title": "日本 消費者物価指数(全国) 2026年8月分",
-      "short": "★★★ 日本CPI",
-      "category": "indicator",
-      "country": "JP",
-      "impact": "high",
-      "note": "コアCPI(生鮮食品除く)が主目線",
-      "confirmed": false,
-      "source": "stat.go.jp (公表ルールから算出)",
-      "id": "2026-09-18|日本 消費者物価指数(全国) 2026年8月分"
-    },
-    {
-      "date": "2026-09-18",
-      "time": "11:45",
-      "tz": "JST",
-      "title": "日銀 金融政策決定会合 結果発表",
-      "short": "★★★ 日銀会合",
-      "category": "central_bank",
-      "country": "JP",
-      "impact": "high",
-      "note": "15:30 総裁会見",
-      "confirmed": true,
-      "source": "boj.or.jp",
-      "id": "2026-09-18|日銀 金融政策決定会合 結果発表"
-    },
     {
       "date": "2026-09-22",
       "time": "17:00",
