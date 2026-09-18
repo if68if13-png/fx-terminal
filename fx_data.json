@@ -1,30 +1,30 @@
 {
-  "timestamp": "2026-09-18T20:30:55.806211",
-  "generated": "2026年09月18日 20:30",
+  "timestamp": "2026-09-18T23:03:57.900277",
+  "generated": "2026年09月18日 23:03",
   "scores": {
     "USD": 5,
-    "JPY": -1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 3,
     "AUD": -1,
-    "NZD": 2,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 2
+    "CHF": 1
   },
   "pairs": [
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 6,
-      "base_score": 5,
-      "quote_score": -1
-    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -6,
       "base_score": -1,
       "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -36,9 +36,9 @@
     {
       "pair": "GBPJPY",
       "direction": "強くロング",
-      "diff": 4,
+      "diff": 3,
       "base_score": 3,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "GBPUSD",
@@ -50,9 +50,9 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,6 +98,31 @@
     },
     {
       "source": "FXStreet",
+      "title": "Singapore Dollar: Strong NODX but USD still drives USD/SGD – OCBC",
+      "summary": "OCBC’s Christopher Wong highlights that Singapore’s August NODX surged 46.2% year-on-year, far above consensus, with ele"
+    },
+    {
+      "source": "FXStreet",
+      "title": "AUD/USD Price Forecast: Bulls eye 0.7200 after 0.7100 break",
+      "summary": "The Aussie Dollar is poised to end the week on a positive note versus the US Dollar, up 0.21% as improved risk appetite "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: Pre-summit support and firmer bias – DBS",
+      "summary": "Chang Wei Liang at DBS Group Research highlights that USD/CNH is easing toward 6.70 despite a stronger Dollar, with the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under pressure",
+      "summary": "The New Zealand Dollar (NZD) turns negative on Friday, down 0.11% against the US Dollar (USD), in a week that saw the Fe"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Range trade persists against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that USD/SGD has slipped into a short-term range phase after a sharp p"
+    },
+    {
+      "source": "FXStreet",
       "title": "Malaysian Ringgit: External pressure but scope for reversal – OCBC",
       "summary": "Christopher Wong at OCBC writes that the Malaysian Ringgit weakened during Thursday’s Asian session on a firmer US Dolla"
     },
@@ -122,26 +147,6 @@
       "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is posting a small gain versus the US Dollar"
     },
     {
-      "source": "FXStreet",
-      "title": "Silver Price Forecast: Mild bullish bias holds, but trend strength stays weak",
-      "summary": "Silver (XAG/USD) trades on the front foot on Friday as the US Dollar reverses its intraday gains, with traders booking p"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold reclaims its footing as Oil retreat blunts Fed shock",
-      "summary": "Gold (XAU/USD) price extends its gains on Friday, edging up 0.89% as Oil prices eased despite renewed concerns of supply"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc gains against US Dollar, but Fed-SNB divergence weighs",
-      "summary": "USD/CHF turns lower on Friday as the US Dollar (USD) loses momentum heading into the weekend, with traders booking profi"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Dollar Index nudges to a fresh high and slips back as Japan raises rates",
-      "summary": "The Bank of Japan (BoJ) raised its rate to 1.25% on Friday and the Yen weakened anyway. The Dollar Index ran to its high"
-    },
-    {
       "source": "Investing",
       "title": "Why is Bitcoin US Dollar stock climbing today?",
       "summary": ""
@@ -149,11 +154,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin extends recovery from Clarity setback, gains capped by Fed hawkishness",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin turns slightly higher as traders digest Clarity Act failure, Fed rate hike",
       "summary": ""
     }
   ],
@@ -192,16 +192,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Singapore Dollar: Strong NODX but USD still drives USD/",
+      "[強気] Chinese Yuan: Pre-summit support and firmer bias – DBS",
+      "[強気] NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under",
       "[弱気] Malaysian Ringgit: External pressure but scope for reve",
       "[強気] British Pound: Limited upside after hawkish BoE hold – ",
-      "[強気] Gold reclaims its footing as Oil retreat blunts Fed sho",
-      "[強気] Swiss Franc gains against US Dollar, but Fed-SNB diverg",
-      "[弱気] Dollar Index nudges to a fresh high and slips back as J",
       "[強気] Bitcoin extends recovery from Clarity setback, gains ca",
       "[強気] Bitcoin turns slightly higher as traders digest Clarity"
-    ],
-    "JPY": [
-      "[弱気] Dollar Index nudges to a fresh high and slips back as J"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
@@ -212,11 +209,11 @@
       "[COT] 🟢ロング優勢 (ネット:+406,535)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under"
     ],
     "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+85,999)",
-      "[強気] Swiss Franc gains against US Dollar, but Fed-SNB diverg"
+      "[COT] 🟢ロング優勢 (ネット:+85,999)"
     ]
   },
   "rates": {
@@ -233,45 +230,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 155.97628,
-      "today_close": 156.7799,
-      "prev_close": 155.97944,
-      "diff": 0.8005,
-      "diff_pct": 0.51
+      "today_open": 156.893,
+      "today_close": 157.03433,
+      "prev_close": 156.89522,
+      "diff": 0.1391,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.7799,
-      "sma20": 155.9329,
-      "sma50": 157.6315,
-      "sma200": 159.3564,
+      "latest": 157.03433,
+      "sma20": 155.7871,
+      "sma50": 157.6253,
+      "sma200": 159.3539,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 24.8,
+      "rsi14": 30.0,
       "high20": 160.4047,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 2.08,
-      "chg20d_pct": -2.07
+      "chg5d_pct": 1.74,
+      "chg20d_pct": -1.89
     },
     "EURUSD": {
-      "latest": 1.14881,
-      "sma20": 1.1583,
-      "sma50": 1.1585,
+      "latest": 1.14861,
+      "sma20": 1.1578,
+      "sma50": 1.1584,
       "sma200": 1.1572,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 38.1,
+      "rsi14": 36.7,
       "high20": 1.1654,
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.95,
-      "chg20d_pct": -0.82
+      "chg5d_pct": -0.56,
+      "chg20d_pct": -0.83
     }
   }
 }
