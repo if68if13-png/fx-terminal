@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-09-18T15:57:26.585557",
-  "generated": "2026年09月18日 15:57",
+  "timestamp": "2026-09-18T20:30:55.806211",
+  "generated": "2026年09月18日 20:30",
   "scores": {
     "USD": 5,
     "JPY": -1,
     "EUR": 0,
-    "GBP": 4,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
-    "CAD": 1,
-    "CHF": 1
+    "CAD": 0,
+    "CHF": 2
   },
   "pairs": [
     {
@@ -36,15 +36,15 @@
     {
       "pair": "GBPJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 4,
+      "diff": 4,
+      "base_score": 3,
       "quote_score": -1
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 4,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
       "quote_score": 5
     },
     {
@@ -98,53 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen weakens despite BoJ hike as US Dollar remains firm",
-      "summary": "USD/JPY advances sharply on Friday, trading around 156.95 at the time of writing, up 0.63% on the day. The pair has pull"
+      "title": "Malaysian Ringgit: External pressure but scope for reversal – OCBC",
+      "summary": "Christopher Wong at OCBC writes that the Malaysian Ringgit weakened during Thursday’s Asian session on a firmer US Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Schmid supports rate hike as inflation broadens beyond 3%",
-      "summary": "On Friday, Kansas City Fed President Jeffrey Schmid said he supported the rate hike, as “recent data suggest inflation t"
+      "title": "British Pound: Limited upside after hawkish BoE hold – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight that the British Pound (GBP) is only marginally firmer v"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound gives back UK sales pop as Oil shock returns",
-      "summary": "The Pound Sterling retraces after reaching a daily high of 1.3375 on upbeat UK data, as headlines suggest that an oil su"
+      "title": "10-year Treasury yield rises back to 5% as global tightening wave pushes",
+      "summary": "US Treasury yields rise on Friday, boosted mainly by the Federal Reserve’s (Fed) decision to increase rates on Wednesday"
     },
     {
       "source": "FXStreet",
-      "title": "Gold outlook hinges on Oil prices and shifting Fed expectations",
-      "summary": "Gold (XAU/USD) loses momentum after nearing the $4,400 level on Friday as the Federal Reserve’s hawkish policy outlook k"
+      "title": "Eurozone: Energy shock reshapes outlook – Rabobank",
+      "summary": "Rabobank strategists Bas van Geffen and Elwin de Groot highlight that sharply higher Oil and natural gas forecasts will "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index Price Forecast: Technical setup favours further gains above 100",
-      "summary": "The US Dollar Index (DXY) climbs to a fresh seven-week high on Friday, supported by the Federal Reserve’s (Fed) hawkish "
+      "title": "Euro: Stabilization after FOMC volatility – Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret report the Euro (EUR) is posting a small gain versus the US Dollar"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Policy rate seen on hold – ING",
-      "summary": "ING economist Charlotte de Montpellier expects the Swiss National Bank to keep its policy rate at 0% next Thursday and o"
+      "title": "Silver Price Forecast: Mild bullish bias holds, but trend strength stays weak",
+      "summary": "Silver (XAG/USD) trades on the front foot on Friday as the US Dollar reverses its intraday gains, with traders booking p"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound: Retail rebound but BoE risks – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes GBP/USD is holding just above recent lows as UK August retail sales b"
+      "title": "Gold reclaims its footing as Oil retreat blunts Fed shock",
+      "summary": "Gold (XAU/USD) price extends its gains on Friday, edging up 0.89% as Oil prices eased despite renewed concerns of supply"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar dips as Fed, US yields support the US Dollar",
-      "summary": "USD/CAD edges higher on Friday, trading around 1.4000 at the time of writing, up 0.10% on the day. The US Dollar (USD) r"
+      "title": "Swiss Franc gains against US Dollar, but Fed-SNB divergence weighs",
+      "summary": "USD/CHF turns lower on Friday as the US Dollar (USD) loses momentum heading into the weekend, with traders booking profi"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Pressure builds near 1.40 against US Dollar - Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Canadian Dollar (CAD) remains under pressure near 1.40 ag"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Bank of Canada: Rate path risks tilt earlier – RBC",
-      "summary": "Nathan Janzen at Royal Bank of Canada (RBC) notes that markets are focused on whether the Bank of Canada (BoC) will rais"
+      "title": "Dollar Index nudges to a fresh high and slips back as Japan raises rates",
+      "summary": "The Bank of Japan (BoJ) raised its rate to 1.25% on Friday and the Yen weakened anyway. The Dollar Index ran to its high"
     },
     {
       "source": "Investing",
@@ -155,102 +150,102 @@
       "source": "Investing",
       "title": "Bitcoin extends recovery from Clarity setback, gains capped by Fed hawkishness",
       "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin turns slightly higher as traders digest Clarity Act failure, Fed rate hike",
+      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 153683,
-      "short": 69790,
-      "net": 83893,
+      "long": 171313,
+      "short": 85314,
+      "net": 85999,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 43316,
-      "short": 1082,
-      "net": 42234,
+      "long": 45149,
+      "short": 1852,
+      "net": 43297,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 23252,
-      "short": 475,
-      "net": 22777,
+      "long": 20725,
+      "short": 440,
+      "net": 20285,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 23252,
-      "short": 475,
-      "net": 22777,
+      "long": 20725,
+      "short": 440,
+      "net": 20285,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 455468,
-      "short": 115580,
-      "net": 339888,
+      "long": 493141,
+      "short": 86606,
+      "net": 406535,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Japanese Yen weakens despite BoJ hike as US Dollar rema",
-      "[強気] Fed’s Schmid supports rate hike as inflation broadens b",
-      "[強気] British Pound gives back UK sales pop as Oil shock retu",
-      "[強気] Gold outlook hinges on Oil prices and shifting Fed expe",
-      "[強気] US Dollar Index Price Forecast: Technical setup favours",
-      "[強気] British Pound: Retail rebound but BoE risks – BBH",
-      "[強気] Canadian Dollar dips as Fed, US yields support the US D",
+      "[弱気] Malaysian Ringgit: External pressure but scope for reve",
+      "[強気] British Pound: Limited upside after hawkish BoE hold – ",
+      "[強気] Gold reclaims its footing as Oil retreat blunts Fed sho",
+      "[強気] Swiss Franc gains against US Dollar, but Fed-SNB diverg",
+      "[弱気] Dollar Index nudges to a fresh high and slips back as J",
       "[強気] Bitcoin extends recovery from Clarity setback, gains ca",
       "[強気] Bitcoin turns slightly higher as traders digest Clarity"
     ],
     "JPY": [
-      "[弱気] Japanese Yen weakens despite BoJ hike as US Dollar rema"
+      "[弱気] Dollar Index nudges to a fresh high and slips back as J"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound gives back UK sales pop as Oil shock retu",
-      "[強気] British Pound: Retail rebound but BoE risks – BBH"
+      "[強気] British Pound: Limited upside after hawkish BoE hold – "
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+339,888)"
+      "[COT] 🟢ロング優勢 (ネット:+406,535)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
-    "CAD": [
-      "[強気] Canadian Dollar dips as Fed, US yields support the US D"
-    ],
     "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+83,893)"
+      "[COT] 🟢ロング優勢 (ネット:+85,999)",
+      "[強気] Swiss Franc gains against US Dollar, but Fed-SNB diverg"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 5.01,
+    "US_10Y": 4.94,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.07,
-    "DIFF_EURUSD": -1.83,
-    "DIFF_GBPUSD": -0.02,
-    "DIFF_AUDUSD": 0.0
+    "DIFF_USDJPY": 2.0,
+    "DIFF_EURUSD": -1.76,
+    "DIFF_GBPUSD": 0.05,
+    "DIFF_AUDUSD": 0.07
   },
   "prices": {
     "USDJPY": {
       "today_open": 155.97628,
-      "today_close": 156.9974,
+      "today_close": 156.7799,
       "prev_close": 155.97944,
-      "diff": 1.018,
-      "diff_pct": 0.65
+      "diff": 0.8005,
+      "diff_pct": 0.51
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.9974,
-      "sma20": 155.9438,
-      "sma50": 157.6359,
-      "sma200": 159.3575,
+      "latest": 156.7799,
+      "sma20": 155.9329,
+      "sma50": 157.6315,
+      "sma200": 159.3564,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -259,12 +254,12 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 2.22,
-      "chg20d_pct": -1.94
+      "chg5d_pct": 2.08,
+      "chg20d_pct": -2.07
     },
     "EURUSD": {
-      "latest": 1.14612,
-      "sma20": 1.1582,
+      "latest": 1.14881,
+      "sma20": 1.1583,
       "sma50": 1.1585,
       "sma200": 1.1572,
       "vs_sma20": "下",
@@ -275,8 +270,8 @@
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -1.19,
-      "chg20d_pct": -1.06
+      "chg5d_pct": -0.95,
+      "chg20d_pct": -0.82
     }
   }
 }
