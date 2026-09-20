@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-20T20:26:21.979784",
-  "generated": "2026年09月20日 20:26",
+  "timestamp": "2026-09-20T23:03:13.794724",
+  "generated": "2026年09月20日 23:03",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": -1,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,30 @@
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 4,
+      "diff": 6,
+      "base_score": 5,
       "quote_score": -1
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 3,
       "base_score": 2,
       "quote_score": -1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
     },
     {
       "pair": "EURJPY",
@@ -142,11 +142,6 @@
       "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that USD/SGD has slipped into a short-term range phase after a sharp p"
     },
     {
-      "source": "FXStreet",
-      "title": "Malaysian Ringgit: External pressure but scope for reversal – OCBC",
-      "summary": "Christopher Wong at OCBC writes that the Malaysian Ringgit weakened during Thursday’s Asian session on a firmer US Dolla"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin jumps above $81k as short squeeze offsets rate and regulatory pressure",
       "summary": ""
@@ -154,6 +149,11 @@
     {
       "source": "Investing",
       "title": "Why is Bitcoin US Dollar stock climbing today?",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -196,8 +196,7 @@
       "[弱気] Japanese Yen: Dovish BoJ hike weighs on yen – Scotiaban",
       "[強気] Singapore Dollar: Strong NODX but USD still drives USD/",
       "[強気] Chinese Yuan: Pre-summit support and firmer bias – DBS",
-      "[強気] NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under",
-      "[弱気] Malaysian Ringgit: External pressure but scope for reve"
+      "[強気] NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under"
     ],
     "JPY": [
       "[弱気] Japanese Yen: Dovish BoJ hike weighs on yen – Scotiaban"
@@ -231,45 +230,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 156.89711,
-      "today_close": 156.84555,
-      "prev_close": 156.89982,
-      "diff": -0.0543,
-      "diff_pct": -0.03
+      "today_open": 156.86896,
+      "today_close": 157.08239,
+      "prev_close": 156.87493,
+      "diff": 0.2075,
+      "diff_pct": 0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.84555,
-      "sma20": 155.6353,
-      "sma50": 157.6071,
-      "sma200": 159.3525,
+      "latest": 157.08239,
+      "sma20": 155.481,
+      "sma50": 157.6049,
+      "sma200": 159.3489,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 30.0,
+      "rsi14": 28.5,
       "high20": 160.4047,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 1.12,
-      "chg20d_pct": -1.82
+      "chg5d_pct": 0.49,
+      "chg20d_pct": -1.95
     },
     "EURUSD": {
-      "latest": 1.14851,
-      "sma20": 1.1571,
-      "sma50": 1.1583,
-      "sma200": 1.1571,
+      "latest": 1.14808,
+      "sma20": 1.1566,
+      "sma50": 1.1582,
+      "sma200": 1.157,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 36.7,
+      "rsi14": 36.6,
       "high20": 1.1654,
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.49,
-      "chg20d_pct": -1.14
+      "chg5d_pct": 0.15,
+      "chg20d_pct": -0.97
     }
   }
 }
