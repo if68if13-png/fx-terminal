@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-09-21T12:10:41.946769",
-  "generated": "2026年09月21日 12:10",
+  "timestamp": "2026-09-21T19:53:42.641541",
+  "generated": "2026年09月21日 19:53",
   "scores": {
     "USD": 5,
     "JPY": 0,
-    "EUR": 0,
-    "GBP": 2,
-    "AUD": -1,
+    "EUR": 1,
+    "GBP": 3,
+    "AUD": 1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -29,29 +22,36 @@
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
+      "diff": -4,
+      "base_score": 1,
       "quote_score": 5
     },
     {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
+      "diff": -4,
+      "base_score": 1,
       "quote_score": 5
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
+      "diff": 1,
+      "base_score": 1,
       "quote_score": 0
     }
   ],
@@ -98,48 +98,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Experts agree: Further US Dollar’s upside hinges on upcoming data and not hawkish Fed prospects",
-      "summary": "The US Dollar (USD) trades slightly higher on Monday as traders remain confident that the Federal Reserve (Fed) will hik"
+      "title": "Brent: Supply risks contrast softer prices – ING",
+      "summary": "ING strategists Ewa Manthey and Warren Patterson note ICE Brent and WTI started the week lower despite persistent supply"
     },
     {
       "source": "FXStreet",
-      "title": "Silver price edges up as lower Oil, guarded Fed stance temper upside",
-      "summary": "Silver (XAG/USD) starts the week on a positive note, gaining 0.37% on Monday to trade around $66.50 at the time of writi"
+      "title": "Singapore Dollar: Inflation keeps MAS tightening risk alive - Commerzbank",
+      "summary": "Commerzbank’s Henry Hao and Moses Lim highlight that Singapore’s August NODX growth was the strongest since 1998, driven"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecasts: Bears remain in control with 1.1450 support eyed",
-      "summary": "The Euro (EUR) is consolidating last week’s decline against the US Dollar (USD) on Monday, with price action capped belo"
+      "title": "Fed's Musalem calls for more rate hikes",
+      "summary": "St. Louis Federal Reserve (Fed) President Alberto Musalem said interest rates likely need to rise further to tame inflat"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso: Sideways range against US Dollar intact – Rabobank",
-      "summary": "Rabobank's Christian Lawrence and Molly Schwartz expect USD/MXN to trade broadly between 17 and 18 over the next 12 mont"
+      "title": "AUD/USD Price Forecast: Upside bias intact despite mixed momentum",
+      "summary": "AUD/USD reverses its earlier gains on Monday as a broadly firmer US Dollar (USD) and hawkish Federal Reserve (Fed) expec"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Momentum stabilizes, but lacks bullish conviction",
-      "summary": "GBP/JPY edges higher on Monday as the Japanese Yen (JPY) remains under pressure across the board in thin trading conditi"
+      "title": "Forex Today: Fedspeak takes centre stage alongside weekly ADP figures",
+      "summary": "The US Dollar (USD) has started the week on a positive footing, rapidly leaving behind two daily drops in a row and refo"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar wavers near two-month lows despite a brighter market mood",
-      "summary": "The New Zealand Dollar (NZD) languishes just above two-and-a-half-month lows against the US Dollar (USD), despite a some"
+      "title": "BoC’s Macklem sees inflation drifting higher as uncertainty lingers",
+      "summary": "The Bank of Canada Governor, Tiff Macklem, said that he expects inflation to “drift up a little higher in the coming mon"
     },
     {
       "source": "FXStreet",
-      "title": "Gold: Range-bound outlook with Fed headwinds – ING",
-      "summary": "ING’s commodities team reports Gold eased as markets digest the Federal Reserve’s first rate hike since 2023 and guidanc"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Goolsbee: Demand, tariffs, energy, supply shocks all are fuelling inflation",
-      "summary": "Chicago Federal Reserve (Fed) Bank President Austan Goolsbee said at an Official Monetary and Financial Institutions For"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold starts week on the back foot as US Dollar holds firm, Oil decline limits losses",
-      "summary": "Gold (XAU/USD) starts the week on a bearish note, snapping a two-day winning streak as expectations of additional Federa"
+      "title": "British Pound loses grip as Fed hawks stay in charge",
+      "summary": "The Pound Sterling (GBP) retreats by some 0.17% on Monday as the US Dollar (USD) trades in the green following last week"
     },
     {
       "source": "Investing",
@@ -187,17 +177,24 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Experts agree: Further US Dollar’s upside hinges on upc",
-      "[強気] Gold: Range-bound outlook with Fed headwinds – ING",
-      "[強気] Fed’s Goolsbee: Demand, tariffs, energy, supply shocks ",
-      "[強気] Gold starts week on the back foot as US Dollar holds fi"
+      "[強気] Singapore Dollar: Inflation keeps MAS tightening risk a",
+      "[強気] Fed's Musalem calls for more rate hikes",
+      "[強気] AUD/USD Price Forecast: Upside bias intact despite mixe",
+      "[強気] Forex Today: Fedspeak takes centre stage alongside week",
+      "[強気] British Pound loses grip as Fed hawks stay in charge"
+    ],
+    "EUR": [
+      "[強気] Brent: Supply risks contrast softer prices – ING"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound loses grip as Fed hawks stay in charge"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+406,535)"
+      "[COT] 🟢ロング優勢 (ネット:+406,535)",
+      "[強気] Brent: Supply risks contrast softer prices – ING",
+      "[強気] AUD/USD Price Forecast: Upside bias intact despite mixe"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -221,18 +218,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 156.86896,
-      "today_close": 157.23488,
+      "today_close": 157.38973,
       "prev_close": 156.87493,
-      "diff": 0.3599,
-      "diff_pct": 0.23
+      "diff": 0.5148,
+      "diff_pct": 0.33
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.23488,
-      "sma20": 155.4886,
-      "sma50": 157.6079,
-      "sma200": 159.3497,
+      "latest": 157.38973,
+      "sma20": 155.4963,
+      "sma50": 157.611,
+      "sma200": 159.3505,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -241,12 +238,12 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": -1.85
+      "chg5d_pct": 0.69,
+      "chg20d_pct": -1.75
     },
     "EURUSD": {
-      "latest": 1.14915,
-      "sma20": 1.1566,
+      "latest": 1.14664,
+      "sma20": 1.1565,
       "sma50": 1.1582,
       "sma200": 1.157,
       "vs_sma20": "下",
@@ -257,8 +254,8 @@
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.24,
-      "chg20d_pct": -0.88
+      "chg5d_pct": 0.03,
+      "chg20d_pct": -1.09
     }
   }
 }
