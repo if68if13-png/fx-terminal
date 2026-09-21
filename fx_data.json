@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-21T03:42:13.387846",
-  "generated": "2026年09月21日 03:42",
+  "timestamp": "2026-09-21T12:10:41.946769",
+  "generated": "2026年09月21日 12:10",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,30 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -98,42 +98,52 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD consolidates near $66.35 at the start of the week",
-      "summary": "Silver price (XAG/USD) trades in a tight range at the start of the week near $66.35 during the Asian trading session. Th"
+      "title": "Experts agree: Further US Dollar’s upside hinges on upcoming data and not hawkish Fed prospects",
+      "summary": "The US Dollar (USD) trades slightly higher on Monday as traders remain confident that the Federal Reserve (Fed) will hik"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds firm on hawkish Fed outlook",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is gaining grou"
+      "title": "Silver price edges up as lower Oil, guarded Fed stance temper upside",
+      "summary": "Silver (XAG/USD) starts the week on a positive note, gaining 0.37% on Monday to trade around $66.50 at the time of writi"
     },
     {
       "source": "FXStreet",
-      "title": "Gold edges lower to near $4,350 on Fed hawkish stance, Middle East tensions",
-      "summary": "Gold price (XAU/USD) edges lower to near $4,365 during the early Asians session on Monday. The precious metal loses mome"
+      "title": "EUR/USD Price Forecasts: Bears remain in control with 1.1450 support eyed",
+      "summary": "The Euro (EUR) is consolidating last week’s decline against the US Dollar (USD) on Monday, with price action capped belo"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar seems vulnerable near August 7 low amid sliding oil prices, trade tensions",
-      "summary": "The USD/CAD pair attracts some dip-buyers at the start of a new week, stalling Friday's modest pullback from levels beyo"
+      "title": "Mexican Peso: Sideways range against US Dollar intact – Rabobank",
+      "summary": "Rabobank's Christian Lawrence and Molly Schwartz expect USD/MXN to trade broadly between 17 and 18 over the next 12 mont"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
-      "summary": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the A"
+      "title": "GBP/JPY Price Forecast: Momentum stabilizes, but lacks bullish conviction",
+      "summary": "GBP/JPY edges higher on Monday as the Japanese Yen (JPY) remains under pressure across the board in thin trading conditi"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7487 vs. 6.7521 previous",
-      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7487 compa"
+      "title": "New Zealand Dollar wavers near two-month lows despite a brighter market mood",
+      "summary": "The New Zealand Dollar (NZD) languishes just above two-and-a-half-month lows against the US Dollar (USD), despite a some"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold: Range-bound outlook with Fed headwinds – ING",
+      "summary": "ING’s commodities team reports Gold eased as markets digest the Federal Reserve’s first rate hike since 2023 and guidanc"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed’s Goolsbee: Demand, tariffs, energy, supply shocks all are fuelling inflation",
+      "summary": "Chicago Federal Reserve (Fed) Bank President Austan Goolsbee said at an Official Monetary and Financial Institutions For"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold starts week on the back foot as US Dollar holds firm, Oil decline limits losses",
+      "summary": "Gold (XAU/USD) starts the week on a bearish note, snapping a two-day winning streak as expectations of additional Federa"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin jumps above $81k as short squeeze offsets rate and regulatory pressure",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Why is Bitcoin US Dollar stock climbing today?",
+      "title": "Strategy buys 950 bitcoin, repurchases STRC shares in weekly update",
       "summary": ""
     },
     {
@@ -177,8 +187,10 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar Index holds firm on hawkish Fed ou",
-      "[強気] Gold edges lower to near $4,350 on Fed hawkish stance, "
+      "[強気] Experts agree: Further US Dollar’s upside hinges on upc",
+      "[強気] Gold: Range-bound outlook with Fed headwinds – ING",
+      "[強気] Fed’s Goolsbee: Demand, tariffs, energy, supply shocks ",
+      "[強気] Gold starts week on the back foot as US Dollar holds fi"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 156.86896,
-      "today_close": 156.89848,
+      "today_close": 157.23488,
       "prev_close": 156.87493,
-      "diff": 0.0236,
-      "diff_pct": 0.02
+      "diff": 0.3599,
+      "diff_pct": 0.23
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.89848,
-      "sma20": 155.4718,
-      "sma50": 157.6012,
-      "sma200": 159.348,
+      "latest": 157.23488,
+      "sma20": 155.4886,
+      "sma50": 157.6079,
+      "sma200": 159.3497,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -229,11 +241,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.37,
-      "chg20d_pct": -2.06
+      "chg5d_pct": 0.59,
+      "chg20d_pct": -1.85
     },
     "EURUSD": {
-      "latest": 1.14773,
+      "latest": 1.14915,
       "sma20": 1.1566,
       "sma50": 1.1582,
       "sma200": 1.157,
@@ -245,8 +257,8 @@
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.12,
-      "chg20d_pct": -1.0
+      "chg5d_pct": 0.24,
+      "chg20d_pct": -0.88
     }
   }
 }
