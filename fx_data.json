@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-20T23:03:13.794724",
-  "generated": "2026年09月20日 23:03",
+  "timestamp": "2026-09-21T03:42:13.387846",
+  "generated": "2026年09月21日 03:42",
   "scores": {
-    "USD": 5,
-    "JPY": -1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 6,
-      "base_score": 5,
-      "quote_score": -1
-    },
-    {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": -1
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 0,
-      "quote_score": -1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,48 +98,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan Dollar: Mildly hawkish CBC but flows drive – OCBC",
-      "summary": "OCBC strategist Christopher Wong highlights that Taiwan’s CBC kept its policy rate at 2% for a tenth straight quarter wi"
+      "title": "Silver Price Forecast: XAG/USD consolidates near $66.35 at the start of the week",
+      "summary": "Silver price (XAG/USD) trades in a tight range at the start of the week near $66.35 during the Asian trading session. Th"
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan Dollar: CBC holds rates but flags inflation risks – Commerzbank",
-      "summary": "Commerzbank’s Charlie Lay and Henry Hao report that Taiwan’s CBC kept its policy rate at 2.0% for a tenth straight meeti"
+      "title": "United States Dollar Index holds firm on hawkish Fed outlook",
+      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is gaining grou"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Foreign equity flows keep KRW heavy against US Dollar – OCBC",
-      "summary": "OCBC strategist Christopher Wong notes that the Korean Won remains under pressure as foreign selling of Korean equities "
+      "title": "Gold edges lower to near $4,350 on Fed hawkish stance, Middle East tensions",
+      "summary": "Gold price (XAU/USD) edges lower to near $4,365 during the early Asians session on Monday. The precious metal loses mome"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Dovish BoJ hike weighs on yen – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Japanese Yen (JPY) is down sharply versus the US Dollar ("
+      "title": "Canadian Dollar seems vulnerable near August 7 low amid sliding oil prices, trade tensions",
+      "summary": "The USD/CAD pair attracts some dip-buyers at the start of a new week, stalling Friday's modest pullback from levels beyo"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Strong NODX but USD still drives USD/SGD – OCBC",
-      "summary": "OCBC’s Christopher Wong highlights that Singapore’s August NODX surged 46.2% year-on-year, far above consensus, with ele"
+      "title": "New Zealand Dollar languishes near two-month low vs USD as bears await break below 0.5700",
+      "summary": "The NZD/USD pair attracts some sellers for the second straight day and trades around the 0.5720-0.5715 zone during the A"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Bulls eye 0.7200 after 0.7100 break",
-      "summary": "The Aussie Dollar is poised to end the week on a positive note versus the US Dollar, up 0.21% as improved risk appetite "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Pre-summit support and firmer bias – DBS",
-      "summary": "Chang Wei Liang at DBS Group Research highlights that USD/CNH is easing toward 6.70 despite a stronger Dollar, with the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under pressure",
-      "summary": "The New Zealand Dollar (NZD) turns negative on Friday, down 0.11% against the US Dollar (USD), in a week that saw the Fe"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Singapore Dollar: Range trade persists against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang notes that USD/SGD has slipped into a short-term range phase after a sharp p"
+      "title": "PBOC sets USD/CNY reference rate at 6.7487 vs. 6.7521 previous",
+      "summary": "On Monday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7487 compa"
     },
     {
       "source": "Investing",
@@ -192,14 +177,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Taiwan Dollar: Mildly hawkish CBC but flows drive – OCB",
-      "[弱気] Japanese Yen: Dovish BoJ hike weighs on yen – Scotiaban",
-      "[強気] Singapore Dollar: Strong NODX but USD still drives USD/",
-      "[強気] Chinese Yuan: Pre-summit support and firmer bias – DBS",
-      "[強気] NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under"
-    ],
-    "JPY": [
-      "[弱気] Japanese Yen: Dovish BoJ hike weighs on yen – Scotiaban"
+      "[強気] United States Dollar Index holds firm on hawkish Fed ou",
+      "[強気] Gold edges lower to near $4,350 on Fed hawkish stance, "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -209,8 +188,7 @@
       "[COT] 🟢ロング優勢 (ネット:+406,535)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] NZD/USD Price Forecast: Kiwi reversal puts 0.5700 under"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
       "[COT] 🟢ロング優勢 (ネット:+85,999)"
@@ -231,18 +209,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 156.86896,
-      "today_close": 157.08239,
+      "today_close": 156.89848,
       "prev_close": 156.87493,
-      "diff": 0.2075,
-      "diff_pct": 0.13
+      "diff": 0.0236,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.08239,
-      "sma20": 155.481,
-      "sma50": 157.6049,
-      "sma200": 159.3489,
+      "latest": 156.89848,
+      "sma20": 155.4718,
+      "sma50": 157.6012,
+      "sma200": 159.348,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -251,11 +229,11 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.49,
-      "chg20d_pct": -1.95
+      "chg5d_pct": 0.37,
+      "chg20d_pct": -2.06
     },
     "EURUSD": {
-      "latest": 1.14808,
+      "latest": 1.14773,
       "sma20": 1.1566,
       "sma50": 1.1582,
       "sma200": 1.157,
@@ -267,8 +245,8 @@
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.15,
-      "chg20d_pct": -0.97
+      "chg5d_pct": 0.12,
+      "chg20d_pct": -1.0
     }
   }
 }
