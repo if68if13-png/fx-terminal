@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-21T19:53:42.641541",
-  "generated": "2026年09月21日 19:53",
+  "timestamp": "2026-09-21T23:52:08.597730",
+  "generated": "2026年09月21日 23:52",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 1,
-    "GBP": 3,
-    "AUD": 1,
-    "NZD": 2,
+    "EUR": 0,
+    "GBP": 2,
+    "AUD": 0,
+    "NZD": 3,
     "CAD": 0,
     "CHF": 1
   },
@@ -15,43 +15,43 @@
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 3,
-      "quote_score": 5
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -98,38 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Brent: Supply risks contrast softer prices – ING",
-      "summary": "ING strategists Ewa Manthey and Warren Patterson note ICE Brent and WTI started the week lower despite persistent supply"
+      "title": "ECB’s Lane says energy shock could delay inflation’s return to 2%",
+      "summary": "The European Central Bank (ECB) Chief Economist Philip Lane stated that the European economy will expand steadily at a m"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Inflation keeps MAS tightening risk alive - Commerzbank",
-      "summary": "Commerzbank’s Henry Hao and Moses Lim highlight that Singapore’s August NODX growth was the strongest since 1998, driven"
+      "title": "Australian Dollar holds its nerve as Fed hawks meet RBA hike bets",
+      "summary": "The Aussie Dollar holds firm versus the Greenback at the start of the week, hovering near 0.7119 as risk appetite remain"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Musalem calls for more rate hikes",
-      "summary": "St. Louis Federal Reserve (Fed) President Alberto Musalem said interest rates likely need to rise further to tame inflat"
+      "title": "Gold declines to near $4,350 on rising odds of Fed rate hike",
+      "summary": "Gold price (XAU/USD) declines to near $4,365, snapping the two-day winning streak during the early Asian session on Tues"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Upside bias intact despite mixed momentum",
-      "summary": "AUD/USD reverses its earlier gains on Monday as a broadly firmer US Dollar (USD) and hawkish Federal Reserve (Fed) expec"
+      "title": "The British Pound slips again as bets on an October Fed hike build",
+      "summary": "GBP/USD has stalled at 1.3400 in each of the last three sessions, and it trades just under that level again on Monday. T"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Fedspeak takes centre stage alongside weekly ADP figures",
-      "summary": "The US Dollar (USD) has started the week on a positive footing, rapidly leaving behind two daily drops in a row and refo"
+      "title": "The Japanese Yen keeps sliding after the Bank of Japan's split vote",
+      "summary": "Japan's markets are shut from Monday to Wednesday for national holidays, which is when a government that wants to move i"
     },
     {
       "source": "FXStreet",
-      "title": "BoC’s Macklem sees inflation drifting higher as uncertainty lingers",
-      "summary": "The Bank of Canada Governor, Tiff Macklem, said that he expects inflation to “drift up a little higher in the coming mon"
+      "title": "NZD/USD Price Forecast: Bears lean on 0.5700 as RSI sinks",
+      "summary": "The New Zealand Dollar extends its losses for the second straight trading session, down 0.13% after last week’s Fed rate"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound loses grip as Fed hawks stay in charge",
-      "summary": "The Pound Sterling (GBP) retreats by some 0.17% on Monday as the US Dollar (USD) trades in the green following last week"
+      "title": "Silver Price Forecast: 100-day SMA caps bulls as range tightens",
+      "summary": "Silver price advance stalled at the 100-day Simple Moving Average (SMA) of $66.39 and is set to end Monday’s session wit"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed’s Collins eyes another hike as energy risks linger",
+      "summary": "On Monday, Boston Federal Reserve (Fed) President Susan Collins said the resumption of hostilities in the Middle East wa"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Labour slack limits MAS tightening risk – UOB",
+      "summary": "UOB’s Jester Koh assesses Singapore’s soft labour market and its implications for Monetary Authority of Singapore policy"
     },
     {
       "source": "Investing",
@@ -177,27 +187,22 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Inflation keeps MAS tightening risk a",
-      "[強気] Fed's Musalem calls for more rate hikes",
-      "[強気] AUD/USD Price Forecast: Upside bias intact despite mixe",
-      "[強気] Forex Today: Fedspeak takes centre stage alongside week",
-      "[強気] British Pound loses grip as Fed hawks stay in charge"
-    ],
-    "EUR": [
-      "[強気] Brent: Supply risks contrast softer prices – ING"
+      "[強気] Australian Dollar holds its nerve as Fed hawks meet RBA",
+      "[強気] Gold declines to near $4,350 on rising odds of Fed rate",
+      "[強気] NZD/USD Price Forecast: Bears lean on 0.5700 as RSI sin",
+      "[弱気] Singapore Dollar: Labour slack limits MAS tightening ri"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound loses grip as Fed hawks stay in charge"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
       "[COT] 🟢ロング優勢 (ネット:+406,535)",
-      "[強気] Brent: Supply risks contrast softer prices – ING",
-      "[強気] AUD/USD Price Forecast: Upside bias intact despite mixe"
+      "[強気] Australian Dollar holds its nerve as Fed hawks meet RBA"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] NZD/USD Price Forecast: Bears lean on 0.5700 as RSI sin"
     ],
     "CHF": [
       "[COT] 🟢ロング優勢 (ネット:+85,999)"
@@ -205,57 +210,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 4.94,
+    "US_10Y": 5.01,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.0,
-    "DIFF_EURUSD": -1.76,
-    "DIFF_GBPUSD": 0.05,
-    "DIFF_AUDUSD": 0.07
+    "DIFF_USDJPY": 2.07,
+    "DIFF_EURUSD": -1.83,
+    "DIFF_GBPUSD": -0.02,
+    "DIFF_AUDUSD": 0.0
   },
   "prices": {
     "USDJPY": {
-      "today_open": 156.86896,
-      "today_close": 157.38973,
-      "prev_close": 156.87493,
-      "diff": 0.5148,
-      "diff_pct": 0.33
+      "today_open": 157.39295,
+      "today_close": 157.34035,
+      "prev_close": 157.3948,
+      "diff": -0.0545,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.38973,
-      "sma20": 155.4963,
-      "sma50": 157.611,
-      "sma200": 159.3505,
+      "latest": 157.34035,
+      "sma20": 155.4273,
+      "sma50": 157.6139,
+      "sma200": 159.3479,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 28.5,
-      "high20": 160.4047,
+      "rsi14": 22.3,
+      "high20": 158.9674,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.69,
-      "chg20d_pct": -1.75
+      "chg5d_pct": 0.87,
+      "chg20d_pct": -0.87
     },
     "EURUSD": {
-      "latest": 1.14664,
-      "sma20": 1.1565,
-      "sma50": 1.1582,
+      "latest": 1.14649,
+      "sma20": 1.1559,
+      "sma50": 1.1581,
       "sma200": 1.157,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 36.6,
+      "rsi14": 41.1,
       "high20": 1.1654,
       "low20": 1.1455,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": -1.09
+      "chg5d_pct": -0.09,
+      "chg20d_pct": -1.07
     }
   }
 }
