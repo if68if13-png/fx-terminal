@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-09-22T20:58:42.130727",
-  "generated": "2026年09月22日 20:58",
+  "timestamp": "2026-09-22T23:33:12.225154",
+  "generated": "2026年09月22日 23:33",
   "scores": {
-    "USD": 5,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 3
     },
     {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -46,6 +39,13 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,48 +98,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "49.3: Australia’s S&P Global Manufacturing PMI declines in September",
+      "summary": "The preliminary reading of Australia's S&amp;P Global Manufacturing Purchasing Managers Index (PMI) eased to 49.3 in Sep"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The New Zealand Dollar dips to a new low and bounces as Crude Oil gets cheaper",
+      "summary": "Four weeks of selling have taken NZD/USD from just under 0.6000 to its lowest since early July. On Tuesday the pair dipp"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar remains subdued as Fed and RBA hawks collide",
+      "summary": "The Aussie Dollar is poised to end Tuesday’s session unchanged versus the Greenback amid renewed hopes for an end of the"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Japanese Yen spikes and unwinds as Iran offers to reopen Hormuz",
+      "summary": "Cheaper Crude Oil should help the Yen, since Japan buys almost all of its Crude Oil abroad, and on Tuesday it helped onl"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Euro drops to its lowest since July as the Dollar keeps climbing",
+      "summary": "About 80% of the Euro's August rally is gone. EUR/USD climbed from near 1.1350 at the end of July to just above 1.1700 i"
+    },
+    {
+      "source": "FXStreet",
+      "title": "The British Pound sets a new September low as Fed officials argue for more",
+      "summary": "1.3400 has capped GBP/USD in every session since the Fed raised rates on September 16. The pair went through that level "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Chinese Yuan: RMB gains hinge on PBoC fix – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that the Renminbi (RMB) has extended gains, with USD/CNY breaki"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Singapore Dollar: Sideways bias holds above support against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann maintain a constructive short-term view on USD/SGD, noting r"
+    },
+    {
+      "source": "FXStreet",
       "title": "Banxico expected to stay put as inflation risks block easing – Reuters",
-      "summary": "A Reuters poll revealed that all economists expect that the Mexican Central Bank, also known as Banxico, will hold rates"
-    },
-    {
-      "source": "FXStreet",
-      "title": "ECB’s Nagel says restrictive policy cannot be ruled out",
-      "summary": "The Bundesbank President and European Central Bank (ECB) member Joachim Nagel crossed the wires at a financial event in "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso carry cushion thins as USD/MXN breaks 100-day SMA",
-      "summary": "The Mexican Peso extended its losses for the third straight trading session, down over 0.43% as investors reduce their e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Taiwan Dollar: Equity inflows support TWD againt US Dollar – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that the Taiwan Dollar (TWD) has extended gains, briefly s"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold losses altitude as peace hopes meet hawkish Fed bets",
-      "summary": "Gold (XAU/USD) price retreats from daily highs of $4,376 on Tuesday as US Treasury yields rise and the US Dollar continu"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Asia FX: AI-driven support for regional currencies – MUFG",
-      "summary": "MUFG’s Michael Wan notes that improved risk sentiment and AI optimism around Meta’s Muse supported a slightly stronger D"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Forex Today: Advanced PMIs in the limelight, but what about the UN General Assembly?",
-      "summary": "The US Dollar (USD) has extended its recovery on Tuesday, climbing to new multi-week highs on the back of steady bets fo"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Chinese Yuan: Gradual decline within tight bands – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann expect USD/CNH to edge lower intraday but stay con"
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin climbs above $86k as Strategy buys more coins",
-      "summary": ""
+      "summary": "A Reuters poll shows that all economists expect that the Mexican Central Bank (Banxico) will hold rates unchanged at 6.5"
     },
     {
       "source": "MarketWatch",
@@ -182,16 +182,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Taiwan Dollar: Equity inflows support TWD againt US Dol",
-      "[強気] Gold losses altitude as peace hopes meet hawkish Fed be",
-      "[強気] Asia FX: AI-driven support for regional currencies – MU"
+      "[強気] Australian Dollar remains subdued as Fed and RBA hawks "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+406,535)"
+      "[COT] 🟢ロング優勢 (ネット:+406,535)",
+      "[強気] Australian Dollar remains subdued as Fed and RBA hawks "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -214,45 +213,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.39295,
-      "today_close": 157.39651,
-      "prev_close": 157.3948,
-      "diff": 0.0017,
-      "diff_pct": 0.0
+      "today_open": 157.39128,
+      "today_close": 157.47703,
+      "prev_close": 157.3996,
+      "diff": 0.0774,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.39651,
-      "sma20": 155.4301,
-      "sma50": 157.615,
-      "sma200": 159.3482,
+      "latest": 157.47703,
+      "sma20": 155.5135,
+      "sma50": 157.6099,
+      "sma200": 159.3468,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 22.3,
-      "high20": 158.9674,
+      "rsi14": 20.4,
+      "high20": 158.024,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.91,
-      "chg20d_pct": -0.84
+      "chg5d_pct": 0.37,
+      "chg20d_pct": 1.07
     },
     "EURUSD": {
-      "latest": 1.14493,
-      "sma20": 1.1558,
-      "sma50": 1.1581,
+      "latest": 1.14471,
+      "sma20": 1.1549,
+      "sma50": 1.1579,
       "sma200": 1.1569,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 41.1,
+      "rsi14": 38.6,
       "high20": 1.1654,
       "low20": 1.143,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.23,
-      "chg20d_pct": -1.2
+      "chg5d_pct": -0.34,
+      "chg20d_pct": -1.54
     }
   }
 }
