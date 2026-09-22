@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-22T11:05:46.107450",
-  "generated": "2026年09月22日 11:05",
+  "timestamp": "2026-09-22T16:25:06.253742",
+  "generated": "2026年09月22日 16:25",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 2,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
-    "CAD": 0,
+    "NZD": 2,
+    "CAD": -2,
     "CHF": 1
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 2,
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,57 +98,42 @@
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen recovers against US Dollar as oil prices correct sharply",
-      "summary": "The Japanese Yen (JPY) claws back its early losses and turns slightly positive against the US Dollar (USD) during the Eu"
+      "title": "Canadian Dollar dips as Oil slump, dovish BoC outlook underpin USD strength",
+      "summary": "USD/CAD gains 0.27% on Tuesday and trades around 1.4070 at the time of writing, supported by weakness in the Canadian Do"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar hesitates as Oil falls amid Hormuz reopening talks",
-      "summary": "The Canadian Dollar (CAD) trades practically flat against the US Dollar (USD) on Tuesday as the risk appetite triggered "
+      "title": "Gold consolidates as Iran diplomacy hopes clash with hawkish Fed expectations",
+      "summary": "Gold (XAU/USD) consolidates on Tuesday as traders weigh fresh Middle East headlines while the broader geopolitical backd"
     },
     {
       "source": "FXStreet",
-      "title": "South African Rand: SARB hike and hawkish tone – Commerzbank",
-      "summary": "Commerzbank’s Volkmar Baur expects the South African Reserve Bank (SARB) to deliver a 25 basis point rate hike after sur"
+      "title": "USD/JPY Price Forecast: Recovery stalls below key moving averages",
+      "summary": "USD/JPY trades flat on Tuesday as the Japanese Yen (JPY) holds firm in thin holiday trading during Japan’s Silver Week. "
     },
     {
       "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD approaches $4,300 after rejection at the $4,400 area",
-      "summary": "Gold (XAU/USD) trades lower for the second consecutive day on Tuesday, extending its decline to levels below $4,320 duri"
+      "title": "Bank of Canada: Slack delays hikes despite crude shock – NBC",
+      "summary": "National Bank of Canada's Ethan Currie notes that while oil-driven inflation risks have increased, the Bank of Canada is"
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: NBH stance supports carry appeal – ING",
-      "summary": "ING’s Frantisek Taborsky expects the National Bank of Hungary to pause its mini easing cycle at 5.50% and possibly outli"
+      "title": "United States: September inflation profile – TD Securities",
+      "summary": "TD Securities economists Oscar Munoz and Eli Nir provide an early projection for United States (US) September Consumer P"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fed tightening keeps upside risks – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad notes the US Dollar (USD) is extending gains after the latest hawkish Feder"
+      "title": "Natural gas: Price downside limited – Commerzbank",
+      "summary": "Norman Liebke at Commerzbank argues that European gas prices may see only limited further declines despite a brief 8% dr"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar: Hawkish RBNZ pricing supports kiwi – MUFG",
-      "summary": "MUFG's Lee Hardman highlights the New Zealand Dollar (NZD) as the main overnight mover, boosted by hawkish guidance from"
-    },
-    {
-      "source": "FXStreet",
-      "title": "WTI falls to near $90.00 after news of Iran proposing reopening Hormuz",
-      "summary": "West Texas Intermediate (WTI) extends its losing streak after losing daily gains, trading around $90.20 per barrel durin"
-    },
-    {
-      "source": "FXStreet",
-      "title": "United States Dollar Index (DXY) eases from July 30 high as Iran offers to reopen Hormuz",
-      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, retreats slightly after hitting a "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar: Consolidation continues below resistance against US Dollar - UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann see AUD/USD consolidating around 0.7120 after a brief spike "
+      "title": "Canadian Dollar: USD strength keeps CAD weakness in focus - Scotiabank",
+      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that the Canadian Dollar (CAD) is largely unchanged, with Gov"
     },
     {
       "source": "Investing",
-      "title": "Bitcoin climbs toward $86k as Strategy buys more coins",
+      "title": "Bitcoin climbs above $86k as Strategy buys more coins",
       "summary": ""
     },
     {
@@ -192,8 +177,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: Fed tightening keeps upside risks – BBH",
-      "[強気] New Zealand Dollar: Hawkish RBNZ pricing supports kiwi "
+      "[弱気] Canadian Dollar dips as Oil slump, dovish BoC outlook u",
+      "[強気] Gold consolidates as Iran diplomacy hopes clash with ha",
+      "[強気] USD/JPY Price Forecast: Recovery stalls below key movin",
+      "[弱気] Canadian Dollar: USD strength keeps CAD weakness in foc"
+    ],
+    "JPY": [
+      "[強気] USD/JPY Price Forecast: Recovery stalls below key movin"
+    ],
+    "EUR": [
+      "[強気] Gold consolidates as Iran diplomacy hopes clash with ha"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -203,8 +196,11 @@
       "[COT] 🟢ロング優勢 (ネット:+406,535)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar: Hawkish RBNZ pricing supports kiwi "
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CAD": [
+      "[弱気] Canadian Dollar dips as Oil slump, dovish BoC outlook u",
+      "[弱気] Canadian Dollar: USD strength keeps CAD weakness in foc"
     ],
     "CHF": [
       "[COT] 🟢ロング優勢 (ネット:+85,999)"
@@ -225,18 +221,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.39295,
-      "today_close": 157.07658,
+      "today_close": 157.60283,
       "prev_close": 157.3948,
-      "diff": -0.3182,
-      "diff_pct": -0.2
+      "diff": 0.208,
+      "diff_pct": 0.13
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.07658,
-      "sma20": 155.4141,
-      "sma50": 157.6086,
-      "sma200": 159.3466,
+      "latest": 157.60283,
+      "sma20": 155.4404,
+      "sma50": 157.6192,
+      "sma200": 159.3493,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -245,24 +241,24 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.7,
-      "chg20d_pct": -1.04
+      "chg5d_pct": 1.04,
+      "chg20d_pct": -0.71
     },
     "EURUSD": {
-      "latest": 1.14666,
-      "sma20": 1.1559,
-      "sma50": 1.1581,
-      "sma200": 1.157,
+      "latest": 1.14321,
+      "sma20": 1.1557,
+      "sma50": 1.158,
+      "sma200": 1.1569,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 41.1,
       "high20": 1.1654,
-      "low20": 1.1435,
+      "low20": 1.143,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.08,
-      "chg20d_pct": -1.05
+      "chg5d_pct": -0.38,
+      "chg20d_pct": -1.35
     }
   }
 }
