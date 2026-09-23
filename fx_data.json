@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-23T03:38:58.194555",
-  "generated": "2026年09月23日 03:38",
+  "timestamp": "2026-09-23T10:55:44.957301",
+  "generated": "2026年09月23日 10:55",
   "scores": {
-    "USD": 5,
-    "JPY": 1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 3
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -6,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": 1,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 1,
-      "quote_score": 1
+      "quote_score": 0
     }
   ],
   "news": [
@@ -98,43 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index jumps to near 100.70 as Fed maintains hawkish rhetoric",
-      "summary": "The US Dollar reflects strength on Wednesday amid firm expectations that the Federal Reserve (Fed) will deliver more int"
+      "title": "British Pound tests 12-week lows amid mixed UK PMIs and US Dollar strength",
+      "summary": "The British Pound (GBP) accelerates its decline against the US Dollar (USD) on Wednesday, with the GBP/USD pair trading "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls to near $66.50 as Fed signals further rate hikes",
-      "summary": "Silver price (XAG/USD) depreciates after registering gains the previous day, trading around $66.50 per troy ounce during"
+      "title": "Euro: PMI strength limits downside against US Dollar – BBH",
+      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports EUR/USD is weaker on broad Dollar strength, but Eurozone data and E"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen softens on BoJ's lack of hawkish guidance, potential intervention eyed",
-      "summary": "The USD/JPY pair gathers strength to around 157.60 during the early Asian trading hours on Wednesday. The Japanese Yen ("
+      "title": "Gold Price Forecast: XAU/USD drifts toward $4.300 with bears gaining traction",
+      "summary": "Gold (XAU/USD) retraces Tuesday’s gains on Wednesday and drifts lower, approaching the $4,300 area as the US Dollar Inde"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar seems vulnerable as Iran diplomacy hopes weigh on oil prices",
-      "summary": "The USD/CAD pair attracts buyers for the third straight day and trades around the 1.4070-1.4075 area during the Asian se"
+      "title": "Australian Dollar: Bearish outlook retained below 0.7140 - UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe AUD/USD price action as range-bound around 0.7115, "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains under pressure as PMI slows",
-      "summary": "AUD/USD loses ground for the third consecutive day, trading around 0.7110 during Asian hours on Wednesday."
+      "title": "US Dollar: Staying strong as Fed expectations hold – ING",
+      "summary": "ING strategist Francesco Pesole notes the Dollar’s resilience despite lower Oil prices and improved global risk sentimen"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens below 1.1450 on hawkish Fed signals, German political risks",
-      "summary": "The EUR/USD pair loses ground to near 1.1445 during the early Asian trading hours on Wednesday. The US Dollar (USD) stre"
+      "title": "British Pound holds steady against Japanese Yen after mixed UK PMIs",
+      "summary": "GBP/JPY trades around 209.90 on Wednesday at the time of writing, virtually unchanged on the day with a modest 0.05% dec"
     },
     {
       "source": "FXStreet",
-      "title": "PBOC sets USD/CNY reference rate at 6.7468 vs. 6.7459 previous",
-      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7468 co"
+      "title": "Hungarian Forint: Cautious MNB stance supports HUF – Commerzbank",
+      "summary": "Commerzbank’s Antje Praefcke reviews the Hungarian Central Bank decision to keep the key rate at 5.50% while lowering it"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound hangs near late July lows vs USD; looks to UK/US PMIs for fresh impetus",
-      "summary": "The GBP/USD pair struggles to build on the previous day's modest bounce from the 1.3320 area, or its lowest since July 2"
+      "title": "Euro dips against Canadian Dollar following HCOB PMI data release",
+      "summary": "EUR/CAD halts its four day-winning streak, trading around 1.6090 during the European hours on Wednesday. The currency cr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro remains depressed as German politics, France's debt offset strong PMI figures",
+      "summary": "The Euro (EUR) remains on its back foot against the US Dollar (USD) on Wednesday, extending its decline to two-and-a-hal"
     },
     {
       "source": "MarketWatch",
@@ -177,16 +182,11 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] United States Dollar Index jumps to near 100.70 as Fed ",
-      "[強気] Silver Price Forecast: XAG/USD falls to near $66.50 as ",
-      "[強気] Japanese Yen softens on BoJ's lack of hawkish guidance,",
-      "[強気] Euro weakens below 1.1450 on hawkish Fed signals, Germa"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen softens on BoJ's lack of hawkish guidance,"
+      "[強気] US Dollar: Staying strong as Fed expectations hold – IN",
+      "[強気] Euro remains depressed as German politics, France's deb"
     ],
     "EUR": [
-      "[強気] Euro weakens below 1.1450 on hawkish Fed signals, Germa"
+      "[強気] Euro remains depressed as German politics, France's deb"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -199,7 +199,9 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+85,999)"
+      "[COT] 🟢ロング優勢 (ネット:+85,999)",
+      "[強気] US Dollar: Staying strong as Fed expectations hold – IN",
+      "[強気] Euro remains depressed as German politics, France's deb"
     ]
   },
   "rates": {
@@ -217,18 +219,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.39128,
-      "today_close": 157.6384,
+      "today_close": 157.82635,
       "prev_close": 157.3996,
-      "diff": 0.2388,
-      "diff_pct": 0.15
+      "diff": 0.4267,
+      "diff_pct": 0.27
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.6384,
-      "sma20": 155.5215,
-      "sma50": 157.6132,
-      "sma200": 159.3476,
+      "latest": 157.82635,
+      "sma20": 155.5309,
+      "sma50": 157.6169,
+      "sma200": 159.3486,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -237,24 +239,24 @@
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.47,
-      "chg20d_pct": 1.17
+      "chg5d_pct": 0.59,
+      "chg20d_pct": 1.29
     },
     "EURUSD": {
-      "latest": 1.14312,
-      "sma20": 1.1548,
-      "sma50": 1.1579,
+      "latest": 1.14108,
+      "sma20": 1.1547,
+      "sma50": 1.1578,
       "sma200": 1.1568,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 38.6,
       "high20": 1.1654,
-      "low20": 1.143,
+      "low20": 1.1408,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.48,
-      "chg20d_pct": -1.67
+      "chg5d_pct": -0.65,
+      "chg20d_pct": -1.85
     }
   }
 }
