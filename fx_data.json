@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-22T23:33:12.225154",
-  "generated": "2026年09月22日 23:33",
+  "timestamp": "2026-09-23T03:38:58.194555",
+  "generated": "2026年09月23日 03:38",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 5,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -6,
+      "base_score": -1,
+      "quote_score": 5
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "49.3: Australia’s S&P Global Manufacturing PMI declines in September",
-      "summary": "The preliminary reading of Australia's S&amp;P Global Manufacturing Purchasing Managers Index (PMI) eased to 49.3 in Sep"
+      "title": "United States Dollar Index jumps to near 100.70 as Fed maintains hawkish rhetoric",
+      "summary": "The US Dollar reflects strength on Wednesday amid firm expectations that the Federal Reserve (Fed) will deliver more int"
     },
     {
       "source": "FXStreet",
-      "title": "The New Zealand Dollar dips to a new low and bounces as Crude Oil gets cheaper",
-      "summary": "Four weeks of selling have taken NZD/USD from just under 0.6000 to its lowest since early July. On Tuesday the pair dipp"
+      "title": "Silver Price Forecast: XAG/USD falls to near $66.50 as Fed signals further rate hikes",
+      "summary": "Silver price (XAG/USD) depreciates after registering gains the previous day, trading around $66.50 per troy ounce during"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar remains subdued as Fed and RBA hawks collide",
-      "summary": "The Aussie Dollar is poised to end Tuesday’s session unchanged versus the Greenback amid renewed hopes for an end of the"
+      "title": "Japanese Yen softens on BoJ's lack of hawkish guidance, potential intervention eyed",
+      "summary": "The USD/JPY pair gathers strength to around 157.60 during the early Asian trading hours on Wednesday. The Japanese Yen ("
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen spikes and unwinds as Iran offers to reopen Hormuz",
-      "summary": "Cheaper Crude Oil should help the Yen, since Japan buys almost all of its Crude Oil abroad, and on Tuesday it helped onl"
+      "title": "Canadian Dollar seems vulnerable as Iran diplomacy hopes weigh on oil prices",
+      "summary": "The USD/CAD pair attracts buyers for the third straight day and trades around the 1.4070-1.4075 area during the Asian se"
     },
     {
       "source": "FXStreet",
-      "title": "The Euro drops to its lowest since July as the Dollar keeps climbing",
-      "summary": "About 80% of the Euro's August rally is gone. EUR/USD climbed from near 1.1350 at the end of July to just above 1.1700 i"
+      "title": "Australian Dollar remains under pressure as PMI slows",
+      "summary": "AUD/USD loses ground for the third consecutive day, trading around 0.7110 during Asian hours on Wednesday."
     },
     {
       "source": "FXStreet",
-      "title": "The British Pound sets a new September low as Fed officials argue for more",
-      "summary": "1.3400 has capped GBP/USD in every session since the Fed raised rates on September 16. The pair went through that level "
+      "title": "Euro weakens below 1.1450 on hawkish Fed signals, German political risks",
+      "summary": "The EUR/USD pair loses ground to near 1.1445 during the early Asian trading hours on Wednesday. The US Dollar (USD) stre"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: RMB gains hinge on PBoC fix – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note that the Renminbi (RMB) has extended gains, with USD/CNY breaki"
+      "title": "PBOC sets USD/CNY reference rate at 6.7468 vs. 6.7459 previous",
+      "summary": "On Wednesday, the People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead at 6.7468 co"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Sideways bias holds above support against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann maintain a constructive short-term view on USD/SGD, noting r"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Banxico expected to stay put as inflation risks block easing – Reuters",
-      "summary": "A Reuters poll shows that all economists expect that the Mexican Central Bank (Banxico) will hold rates unchanged at 6.5"
+      "title": "British Pound hangs near late July lows vs USD; looks to UK/US PMIs for fresh impetus",
+      "summary": "The GBP/USD pair struggles to build on the previous day's modest bounce from the 1.3320 area, or its lowest since July 2"
     },
     {
       "source": "MarketWatch",
@@ -182,15 +177,23 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar remains subdued as Fed and RBA hawks "
+      "[強気] United States Dollar Index jumps to near 100.70 as Fed ",
+      "[強気] Silver Price Forecast: XAG/USD falls to near $66.50 as ",
+      "[強気] Japanese Yen softens on BoJ's lack of hawkish guidance,",
+      "[強気] Euro weakens below 1.1450 on hawkish Fed signals, Germa"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen softens on BoJ's lack of hawkish guidance,"
+    ],
+    "EUR": [
+      "[強気] Euro weakens below 1.1450 on hawkish Fed signals, Germa"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+406,535)",
-      "[強気] Australian Dollar remains subdued as Fed and RBA hawks "
+      "[COT] 🟢ロング優勢 (ネット:+406,535)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -214,34 +217,34 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.39128,
-      "today_close": 157.47703,
+      "today_close": 157.6384,
       "prev_close": 157.3996,
-      "diff": 0.0774,
-      "diff_pct": 0.05
+      "diff": 0.2388,
+      "diff_pct": 0.15
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.47703,
-      "sma20": 155.5135,
-      "sma50": 157.6099,
-      "sma200": 159.3468,
+      "latest": 157.6384,
+      "sma20": 155.5215,
+      "sma50": 157.6132,
+      "sma200": 159.3476,
       "vs_sma20": "上",
-      "vs_sma50": "下",
+      "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 20.4,
       "high20": 158.024,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.37,
-      "chg20d_pct": 1.07
+      "chg5d_pct": 0.47,
+      "chg20d_pct": 1.17
     },
     "EURUSD": {
-      "latest": 1.14471,
-      "sma20": 1.1549,
+      "latest": 1.14312,
+      "sma20": 1.1548,
       "sma50": 1.1579,
-      "sma200": 1.1569,
+      "sma200": 1.1568,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -250,8 +253,8 @@
       "low20": 1.143,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.34,
-      "chg20d_pct": -1.54
+      "chg5d_pct": -0.48,
+      "chg20d_pct": -1.67
     }
   }
 }
