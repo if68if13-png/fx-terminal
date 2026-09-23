@@ -1,37 +1,37 @@
 {
-  "timestamp": "2026-09-23T16:15:13.232842",
-  "generated": "2026年09月23日 16:15",
+  "timestamp": "2026-09-23T21:11:05.778980",
+  "generated": "2026年09月23日 21:11",
   "scores": {
     "USD": 5,
-    "JPY": 0,
-    "EUR": 1,
+    "JPY": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 3,
     "CAD": 0,
     "CHF": 1
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -6,
+      "base_score": -1,
+      "quote_score": 5
     },
     {
-      "pair": "AUDUSD",
+      "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": 0,
       "quote_score": 5
     },
     {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
@@ -41,18 +41,18 @@
       "quote_score": 5
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
       "diff": 1,
-      "base_score": 1,
-      "quote_score": 0
+      "base_score": 2,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -98,38 +98,48 @@
     },
     {
       "source": "FXStreet",
+      "title": "Mexican Peso selloff deepens as Fed hawks drive USD/MXN toward 17.50",
+      "summary": "The Mexican Peso extends its depreciation against the Greenback, as the USD/MXN pair rallies over 1.25% amid speculation"
+    },
+    {
+      "source": "FXStreet",
+      "title": "USD/CHF Price Forecast: Bulls retake control, eye 0.8300 break",
+      "summary": "The USD/CHF pair climbs some 0.5% on Wednesday as the uptrend resumes following a retracement after hitting a yearly hig"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold buckles as 5% yields and Fed hawks take control",
+      "summary": "Gold sank by over 1.5% during the North American session on Wednesday as investors grew confident that the Federal Reser"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: Fed hawks knock XAG/USD toward $64 support",
+      "summary": "Silver (XAG/USD) price tumbles over 3.67% on Wednesday as investors increase Federal Reserve (Fed)-hawkish bets, followi"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Forex Today: Australia’s jobs report comes to the fore",
+      "summary": "There was no respite for the US Dollar’s (USD) march north on Wednesday. In fact, the Greenback has clinched its third c"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen declines as upbeat US PMI lifts the US Dollar and yields",
+      "summary": "The Japanese Yen (JPY) extends its decline against the US Dollar (USD) on Wednesday, with USD/JPY climbing to a three-we"
+    },
+    {
+      "source": "FXStreet",
+      "title": "US 10-year yield hits a 19-year high as Fed Governor Barr backs hikes",
+      "summary": "Federal Reserve (Fed) Governor Michael Barr made on Wednesday the case for more rate increases, saying the risks to gett"
+    },
+    {
+      "source": "FXStreet",
       "title": "Dow Jones Industrial Average keeps sliding as yields climb on a strong PMI",
       "summary": "The strongest S&amp;P Global flash Purchasing Managers Index (PMI) readings since 2021 have done nothing for the Dow Jon"
     },
     {
       "source": "FXStreet",
       "title": "New Zealand Dollar tumbles as strong US PMI data lifts USD",
-      "summary": "NZD/USD tumbles on Wednesday, losing 1.00% on the day to trade around 0.5670 at the time of writing. The pair faces stro"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold slides as strong US PMI data gives Fed room to raise rates again",
-      "summary": "Gold (XAU/USD) trades on the back foot on Wednesday as expectations of further Federal Reserve (Fed) interest rate hikes"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro slides as strong US PMI data lifts Fed rate hike bets",
-      "summary": "EUR/USD extends its intraday decline on Wednesday as stronger-than-expected US business activity data reinforces expecta"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Brazil: Growth outlook and inflation risks – Societe Generale",
-      "summary": "Societe Generale’s Dev Ashish reviews Brazil’s updated macro-fiscal projections from the Finance Ministry, highlighting "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed's Barr: Further rate hikes needed for timely return to 2% inflation",
-      "summary": "Federal Reserve (Fed) Governor Michael Barr said on Wednesday that the central bank will likely need to raise interest r"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar tumbles amid stronger US PMIs, softer Australian data",
-      "summary": "AUD/USD tumbles 1.07% on Wednesday and trades around 0.7040 at the time of writing, pressured by a combination of a stro"
+      "summary": "NZD/USD tumbles on Wednesday, losing 1% to trade around 0.5670 at the time of writing. The pair faces strong selling pre"
     },
     {
       "source": "Investing",
@@ -177,22 +187,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar tumbles as strong US PMI data lifts ",
-      "[強気] Gold slides as strong US PMI data gives Fed room to rai",
-      "[強気] Euro slides as strong US PMI data lifts Fed rate hike b",
-      "[強気] Fed's Barr: Further rate hikes needed for timely return",
-      "[強気] Australian Dollar tumbles amid stronger US PMIs, softer"
+      "[強気] Mexican Peso selloff deepens as Fed hawks drive USD/MXN",
+      "[強気] Gold buckles as 5% yields and Fed hawks take control",
+      "[強気] Silver Price Forecast: Fed hawks knock XAG/USD toward $",
+      "[強気] Japanese Yen declines as upbeat US PMI lifts the US Dol",
+      "[強気] New Zealand Dollar tumbles as strong US PMI data lifts "
     ],
-    "EUR": [
-      "[強気] Euro slides as strong US PMI data lifts Fed rate hike b"
+    "JPY": [
+      "[強気] Japanese Yen declines as upbeat US PMI lifts the US Dol"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+406,535)",
-      "[強気] Australian Dollar tumbles amid stronger US PMIs, softer"
+      "[COT] 🟢ロング優勢 (ネット:+406,535)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
@@ -216,45 +225,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.39128,
-      "today_close": 158.31224,
-      "prev_close": 157.3996,
-      "diff": 0.9126,
-      "diff_pct": 0.58
+      "today_open": 158.34375,
+      "today_close": 158.34112,
+      "prev_close": 158.34676,
+      "diff": -0.0056,
+      "diff_pct": -0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.31224,
-      "sma20": 155.5552,
-      "sma50": 157.6266,
-      "sma200": 159.351,
+      "latest": 158.34112,
+      "sma20": 155.6615,
+      "sma50": 157.6387,
+      "sma200": 159.3531,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 20.4,
-      "high20": 158.3989,
+      "rsi14": 18.5,
+      "high20": 158.4203,
       "low20": 152.3794,
-      "high60": 164.0881,
+      "high60": 163.9537,
       "low60": 152.3794,
-      "chg5d_pct": 0.9,
-      "chg20d_pct": 1.6
+      "chg5d_pct": 0.92,
+      "chg20d_pct": 1.34
     },
     "EURUSD": {
-      "latest": 1.13937,
-      "sma20": 1.1547,
-      "sma50": 1.1578,
-      "sma200": 1.1568,
+      "latest": 1.13837,
+      "sma20": 1.1535,
+      "sma50": 1.1574,
+      "sma200": 1.1567,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 38.6,
+      "rsi14": 45.1,
       "high20": 1.1654,
-      "low20": 1.1384,
+      "low20": 1.1371,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.8,
-      "chg20d_pct": -2.0
+      "chg5d_pct": -0.89,
+      "chg20d_pct": -1.99
     }
   }
 }
