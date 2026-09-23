@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-23T10:55:44.957301",
-  "generated": "2026年09月23日 10:55",
+  "timestamp": "2026-09-23T16:15:13.232842",
+  "generated": "2026年09月23日 16:15",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 0,
     "EUR": 1,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "AUD": 0,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 3
+    "CHF": 1
   },
   "pairs": [
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
+    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 1,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -98,48 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "British Pound tests 12-week lows amid mixed UK PMIs and US Dollar strength",
-      "summary": "The British Pound (GBP) accelerates its decline against the US Dollar (USD) on Wednesday, with the GBP/USD pair trading "
+      "title": "Dow Jones Industrial Average keeps sliding as yields climb on a strong PMI",
+      "summary": "The strongest S&amp;P Global flash Purchasing Managers Index (PMI) readings since 2021 have done nothing for the Dow Jon"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: PMI strength limits downside against US Dollar – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports EUR/USD is weaker on broad Dollar strength, but Eurozone data and E"
+      "title": "New Zealand Dollar tumbles as strong US PMI data lifts USD",
+      "summary": "NZD/USD tumbles on Wednesday, losing 1.00% on the day to trade around 0.5670 at the time of writing. The pair faces stro"
     },
     {
       "source": "FXStreet",
-      "title": "Gold Price Forecast: XAU/USD drifts toward $4.300 with bears gaining traction",
-      "summary": "Gold (XAU/USD) retraces Tuesday’s gains on Wednesday and drifts lower, approaching the $4,300 area as the US Dollar Inde"
+      "title": "Gold slides as strong US PMI data gives Fed room to raise rates again",
+      "summary": "Gold (XAU/USD) trades on the back foot on Wednesday as expectations of further Federal Reserve (Fed) interest rate hikes"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Bearish outlook retained below 0.7140 - UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann describe AUD/USD price action as range-bound around 0.7115, "
+      "title": "Euro slides as strong US PMI data lifts Fed rate hike bets",
+      "summary": "EUR/USD extends its intraday decline on Wednesday as stronger-than-expected US business activity data reinforces expecta"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Staying strong as Fed expectations hold – ING",
-      "summary": "ING strategist Francesco Pesole notes the Dollar’s resilience despite lower Oil prices and improved global risk sentimen"
+      "title": "Brazil: Growth outlook and inflation risks – Societe Generale",
+      "summary": "Societe Generale’s Dev Ashish reviews Brazil’s updated macro-fiscal projections from the Finance Ministry, highlighting "
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds steady against Japanese Yen after mixed UK PMIs",
-      "summary": "GBP/JPY trades around 209.90 on Wednesday at the time of writing, virtually unchanged on the day with a modest 0.05% dec"
+      "title": "Fed's Barr: Further rate hikes needed for timely return to 2% inflation",
+      "summary": "Federal Reserve (Fed) Governor Michael Barr said on Wednesday that the central bank will likely need to raise interest r"
     },
     {
       "source": "FXStreet",
-      "title": "Hungarian Forint: Cautious MNB stance supports HUF – Commerzbank",
-      "summary": "Commerzbank’s Antje Praefcke reviews the Hungarian Central Bank decision to keep the key rate at 5.50% while lowering it"
+      "title": "Australian Dollar tumbles amid stronger US PMIs, softer Australian data",
+      "summary": "AUD/USD tumbles 1.07% on Wednesday and trades around 0.7040 at the time of writing, pressured by a combination of a stro"
     },
     {
-      "source": "FXStreet",
-      "title": "Euro dips against Canadian Dollar following HCOB PMI data release",
-      "summary": "EUR/CAD halts its four day-winning streak, trading around 1.6090 during the European hours on Wednesday. The currency cr"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro remains depressed as German politics, France's debt offset strong PMI figures",
-      "summary": "The Euro (EUR) remains on its back foot against the US Dollar (USD) on Wednesday, extending its decline to two-and-a-hal"
+      "source": "Investing",
+      "title": "Travala Launches Permanent AVA Strategic Reserve, Doubles Monthly Open-Market Buybacks",
+      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -182,26 +177,29 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] US Dollar: Staying strong as Fed expectations hold – IN",
-      "[強気] Euro remains depressed as German politics, France's deb"
+      "[強気] New Zealand Dollar tumbles as strong US PMI data lifts ",
+      "[強気] Gold slides as strong US PMI data gives Fed room to rai",
+      "[強気] Euro slides as strong US PMI data lifts Fed rate hike b",
+      "[強気] Fed's Barr: Further rate hikes needed for timely return",
+      "[強気] Australian Dollar tumbles amid stronger US PMIs, softer"
     ],
     "EUR": [
-      "[強気] Euro remains depressed as German politics, France's deb"
+      "[強気] Euro slides as strong US PMI data lifts Fed rate hike b"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+406,535)"
+      "[COT] 🟢ロング優勢 (ネット:+406,535)",
+      "[強気] Australian Dollar tumbles amid stronger US PMIs, softer"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar tumbles as strong US PMI data lifts "
     ],
     "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+85,999)",
-      "[強気] US Dollar: Staying strong as Fed expectations hold – IN",
-      "[強気] Euro remains depressed as German politics, France's deb"
+      "[COT] 🟢ロング優勢 (ネット:+85,999)"
     ]
   },
   "rates": {
@@ -219,31 +217,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.39128,
-      "today_close": 157.82635,
+      "today_close": 158.31224,
       "prev_close": 157.3996,
-      "diff": 0.4267,
-      "diff_pct": 0.27
+      "diff": 0.9126,
+      "diff_pct": 0.58
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.82635,
-      "sma20": 155.5309,
-      "sma50": 157.6169,
-      "sma200": 159.3486,
+      "latest": 158.31224,
+      "sma20": 155.5552,
+      "sma50": 157.6266,
+      "sma200": 159.351,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 20.4,
-      "high20": 158.024,
+      "high20": 158.3989,
       "low20": 152.3794,
       "high60": 164.0881,
       "low60": 152.3794,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": 1.29
+      "chg5d_pct": 0.9,
+      "chg20d_pct": 1.6
     },
     "EURUSD": {
-      "latest": 1.14108,
+      "latest": 1.13937,
       "sma20": 1.1547,
       "sma50": 1.1578,
       "sma200": 1.1568,
@@ -252,11 +250,11 @@
       "vs_sma200": "下",
       "rsi14": 38.6,
       "high20": 1.1654,
-      "low20": 1.1408,
+      "low20": 1.1384,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.65,
-      "chg20d_pct": -1.85
+      "chg5d_pct": -0.8,
+      "chg20d_pct": -2.0
     }
   }
 }
