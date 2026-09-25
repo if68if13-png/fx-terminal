@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-25T16:43:57.877212",
-  "generated": "2026年09月25日 16:43",
+  "timestamp": "2026-09-25T21:11:43.299629",
+  "generated": "2026年09月25日 21:11",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
-    },
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
+      "base_score": -1,
+      "quote_score": 4
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -50,101 +50,51 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
   "news": [
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "summary": "Federal Reserve Board announces approval of application by BancFirst Corporation"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Exp"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeti"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp., and Quontic Bank Holdings Corp.",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with United Texas Bank, Quontic Bank Acquisition Corp"
+      "source": "FXStreet",
+      "title": "South Korean Won: Trade surplus seen widening – ING",
+      "summary": "ING’s Asia-Pacific research notes that South Korea’s upcoming data should show stronger industrial production and a wide"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound finds relief as USD pauses, but inflation risks linger",
-      "summary": "The Pound Sterling (GBP) trims some of its weekly losses, gaining over 0.18% against the US Dollar (USD) on Friday as th"
+      "title": "Chinese Yuan: PBoC keeps yuan broadly stable – Societe Generale",
+      "summary": "Societe Generale describes a limited impact from President Xi’s US visit, with no new tariff cuts or AI dialogue mechani"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Undervalued near 1.41 against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note that the Canadian Dollar (CAD) is flat versus the US Dollar ("
+      "title": "Fed’s Hammack says policy still isn’t restrictive despite high inflation",
+      "summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said on Friday the two sides of the Fed's dual mandate are not in"
     },
     {
       "source": "FXStreet",
-      "title": "Gold struggles below $4,300, heads for weekly decline on hawkish Fed outlook",
-      "summary": "Gold (XAU/USD) reverses earlier intraday gains on Friday, failing to capitalize on a modest pullback in the US Dollar as"
+      "title": "Singapore Dollar: Consolidation near lows against US Dollar – UOB",
+      "summary": "UOB’s Quek Ser Leang and Lee Sue Ann note USD/SGD held steady around 1.2800 after Wednesday’s surge, with the Singapore "
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Correction seen near key averages against US Dollar – Societe Generale",
-      "summary": "Societe Generale’s Morning Briefing reports EUR/USD traded between 1.1359 and 1.1387 overnight and is on course for a se"
+      "title": "ECB’s Vujcic warns energy shock could keep inflation hot",
+      "summary": "European Central Bank (ECB) Vice President Boris Vujcic said on Friday that the ECB started a tightening cycle and sees "
     },
     {
       "source": "FXStreet",
-      "title": "Euro set for third weekly decline as hawkish Federal Reserve outlook weighs",
-      "summary": "EUR/USD edges higher on Friday as the US Dollar (USD) pauses after a strong weekly rally, allowing the Euro (EUR) to rec"
+      "title": "Asian FX: Higher yields and Oil weigh – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong report that Asian FX traded broadly softer as higher Oil prices and "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA hike expectations shape outlook – ING",
-      "summary": "ING economists Deepali Bhargava and Lynn Song expect the Reserve Bank of Australia (RBA) to raise rates by 25bp, citing "
+      "title": "Fed’s Hammack warns inflation mindset is the biggest risk",
+      "summary": "The Cleveland Federal Reserve (Fed) President Beth Hammack said on Friday that “the biggest risk with inflation is the f"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Yields support Greenback strength – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight that resilient US data, sticky inflation and elevated ener"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Australian Dollar rebounds from 0.7000 as US Dollar eases after strong week",
-      "summary": "AUD/USD edges higher on Friday, trading around 0.7025 at the time of writing, up 0.20% on the day."
-    },
-    {
-      "source": "FXStreet",
-      "title": "Mexican Peso: Banxico stance keeps bar high for hikes – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad reports that Banxico left its policy rate at 6.50% for a third consecutive "
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat at $84k as focus shifts to rate jitters, Bitget hack",
-      "summary": ""
+      "title": "Silver Price Forecast: XAG/USD lacks direction as RSI, ADX signal weak momentum",
+      "summary": "Silver (XAG/USD) holds firm on Friday, supported by a modest pullback in the US Dollar (USD) after its strong weekly ral"
     },
     {
       "source": "Investing",
@@ -155,119 +105,115 @@
       "source": "Investing",
       "title": "Federal Reserve unveils proposed framework for stablecoin issuers",
       "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 171313,
-      "short": 85314,
-      "net": 85999,
+      "long": 133495,
+      "short": 87286,
+      "net": 46209,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 45149,
-      "short": 1852,
-      "net": 43297,
+      "long": 40955,
+      "short": 1203,
+      "net": 39752,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 20725,
-      "short": 440,
-      "net": 20285,
+      "long": 18263,
+      "short": 0,
+      "net": 18263,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 20725,
-      "short": 440,
-      "net": 20285,
+      "long": 18263,
+      "short": 0,
+      "net": 18263,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 493141,
-      "short": 86606,
-      "net": 406535,
+      "long": 306488,
+      "short": 78235,
+      "net": 228253,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Gold struggles below $4,300, heads for weekly decline o",
-      "[強気] Euro set for third weekly decline as hawkish Federal Re",
-      "[強気] Australian Dollar rebounds from 0.7000 as US Dollar eas",
+      "[強気] Singapore Dollar: Consolidation near lows against US Do",
       "[強気] Bitcoin cuts losses, remains muted amid rising oil and "
-    ],
-    "EUR": [
-      "[強気] Euro set for third weekly decline as hawkish Federal Re"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+406,535)",
-      "[強気] Australian Dollar rebounds from 0.7000 as US Dollar eas"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[COT] 🟢ロング優勢 (ネット:+85,999)"
     ]
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 5.11,
+    "US_10Y": 5.18,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.17,
-    "DIFF_EURUSD": -1.93,
-    "DIFF_GBPUSD": -0.12,
-    "DIFF_AUDUSD": -0.1
+    "DIFF_USDJPY": 2.24,
+    "DIFF_EURUSD": -2.0,
+    "DIFF_GBPUSD": -0.19,
+    "DIFF_AUDUSD": -0.17
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.85532,
-      "today_close": 157.21964,
-      "prev_close": 158.85957,
-      "diff": -1.6399,
-      "diff_pct": -1.03
+      "today_open": 157.29755,
+      "today_close": 157.27809,
+      "prev_close": 157.29533,
+      "diff": -0.0172,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.21964,
-      "sma20": 155.7365,
-      "sma50": 157.6241,
-      "sma200": 159.3527,
+      "latest": 157.27809,
+      "sma20": 155.8043,
+      "sma50": 157.6153,
+      "sma200": 159.3493,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 25.4,
+      "rsi14": 17.9,
       "high20": 159.0292,
       "low20": 152.3794,
-      "high60": 163.9537,
+      "high60": 163.911,
       "low60": 152.3794,
-      "chg5d_pct": 0.22,
-      "chg20d_pct": 0.63
+      "chg5d_pct": -0.07,
+      "chg20d_pct": 0.82
     },
     "EURUSD": {
-      "latest": 1.13949,
-      "sma20": 1.1523,
-      "sma50": 1.1572,
-      "sma200": 1.1566,
+      "latest": 1.13938,
+      "sma20": 1.1512,
+      "sma50": 1.1568,
+      "sma200": 1.1565,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 41.0,
+      "rsi14": 54.6,
       "high20": 1.1654,
       "low20": 1.136,
       "high60": 1.1711,
-      "low60": 1.1354,
-      "chg5d_pct": -0.79,
-      "chg20d_pct": -1.91
+      "low60": 1.136,
+      "chg5d_pct": -0.61,
+      "chg20d_pct": -1.89
     }
   }
 }
