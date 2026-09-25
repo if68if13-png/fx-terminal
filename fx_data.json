@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-24T21:13:11.913375",
-  "generated": "2026年09月24日 21:13",
+  "timestamp": "2026-09-25T03:47:44.637435",
+  "generated": "2026年09月25日 03:47",
   "scores": {
-    "USD": 3,
-    "JPY": 1,
-    "EUR": 0,
+    "USD": 5,
+    "JPY": 2,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 5,
+      "quote_score": 2
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": 1,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 2
     }
   ],
   "news": [
@@ -98,53 +98,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Banxico: Flexible stance with upside risks – Rabobank",
-      "summary": "Rabobank’s Molly Schwartz and Christian Lawrence note Banxico kept its overnight rate at 6.50% but significantly softene"
+      "title": "United States Dollar Index approaches 101.80 as bond yields keep rallying",
+      "summary": "The US Dollar continues to outperform its peers as United States (US) Treasury Yields keep rallying due to firm expectat"
     },
     {
       "source": "FXStreet",
-      "title": "Norwegian Krone: Norges Bank hike supports currency – BBH",
-      "summary": "Brown Brothers Harriman’s (BBH) Elias Haddad highlights that the Norwegian Krone (NOK) outperformed after Norges Bank de"
+      "title": "Silver Price Forecast: XAG/USD remains steady near $94.00 as oil prices ease",
+      "summary": "Silver price (XAG/USD) inches higher after two days of losses, trading around $63.90 per troy ounce during Asian hours o"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso slides to April lows as Banxico shrugs off Fed gap",
-      "summary": "The Mexican Peso (MXN) extends its losses against the US Dollar (USD) on Thursday after the Bank of Mexico (Banxico) hel"
+      "title": "Japanese Yen recovers from three-week low vs USD amid looming intervention risk",
+      "summary": "The USD/JPY pair drifts lower during the Asian session on Friday, stalling its recent strong move up to a three-week hig"
     },
     {
       "source": "FXStreet",
-      "title": "Banxico unanimously holds benchmark rate at 6.50%",
-      "summary": "On Thursday, the Bank of Mexico (Banxico) held interest rates unchanged at 6.50% for the third time, as expected, in a u"
+      "title": "Australian Dollar flatlines near 0.7000 as traders assess Trump-Xi summit",
+      "summary": "The AUD/USD pair holds steady around 0.7010 during the early Asian trading hours on Friday. Traders continue to assess t"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index extends its winning streak as Fed speakers line up behind hikes",
-      "summary": "The Dollar Index has won back about 90% of what it lost between the late-July top and the August low. It reached 101.40 "
+      "title": "Japan’s Katayama says BoJ's latest rate hike was done to achieve inflation target",
+      "summary": "Japanese Finance Minister (FM) Satsuki Katayama said on Friday that the latest rate hike from the Bank of Japan (BoJ) wa"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Inflation keeps MAS cautious – Commerzbank",
-      "summary": "Commerzbank’s Dr. Henry Hao and Moses Lim note that Singapore’s August headline and core inflation both climbed to the u"
+      "title": "Canadian Dollar weakens amid falling oil prices, stronger US Dollar",
+      "summary": "USD/CAD extends its gains for the fifth consecutive day, trading around 1.4140 during Asian hours on Friday. The pair ap"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Fedspeak takes centre stage",
-      "summary": "The US Dollar (USD) has traded with gains for the fourth consecutive day on Thursday, managing to revisit levels last se"
+      "title": "Euro posts modest lossess on rising Fed hike odds, Middle East tensions",
+      "summary": "The EUR/USD pair trades with mild losses near 1.1375 during the early Asian trading hours on Friday. The US Dollar (USD)"
     },
     {
-      "source": "FXStreet",
-      "title": "Japanese Yen struggles as Fed rate hike bets drive US yields higher",
-      "summary": "USD/JPY extends its advance for a fifth consecutive day on Thursday as broad US Dollar (USD) strength and persistent pre"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Swiss Franc: SNB on hold keeps upside in crosses – BBH",
-      "summary": "Brown Brothers Harriman notes the Swiss Franc underperformed as the Swiss National Bank (SNB) kept its policy rate at ze"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro: Decline nears support zone against US Dollar – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret note the Euro (EUR) remains soft as front-end spreads widen and Eu"
+      "source": "Investing",
+      "title": "Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -192,10 +182,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen struggles as Fed rate hike bets drive US y"
+      "[強気] United States Dollar Index approaches 101.80 as bond yi",
+      "[強気] Japanese Yen recovers from three-week low vs USD amid l",
+      "[強気] Euro posts modest lossess on rising Fed hike odds, Midd",
+      "[強気] Bitcoin cuts losses, remains muted amid rising oil and "
     ],
     "JPY": [
-      "[強気] Japanese Yen struggles as Fed rate hike bets drive US y"
+      "[強気] Japanese Yen recovers from three-week low vs USD amid l",
+      "[強気] Japan’s Katayama says BoJ's latest rate hike was done t"
+    ],
+    "EUR": [
+      "[強気] Euro posts modest lossess on rising Fed hike odds, Midd"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -226,18 +223,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.85532,
-      "today_close": 158.95015,
+      "today_close": 158.41416,
       "prev_close": 158.85957,
-      "diff": 0.0906,
-      "diff_pct": 0.06
+      "diff": -0.4454,
+      "diff_pct": -0.28
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.95015,
-      "sma20": 155.8231,
-      "sma50": 157.6587,
-      "sma200": 159.3614,
+      "latest": 158.41416,
+      "sma20": 155.7963,
+      "sma50": 157.648,
+      "sma200": 159.3587,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -246,11 +243,11 @@
       "low20": 152.3794,
       "high60": 163.9537,
       "low60": 152.3794,
-      "chg5d_pct": 1.32,
-      "chg20d_pct": 1.74
+      "chg5d_pct": 0.98,
+      "chg20d_pct": 1.39
     },
     "EURUSD": {
-      "latest": 1.13787,
+      "latest": 1.1369,
       "sma20": 1.1522,
       "sma50": 1.1571,
       "sma200": 1.1566,
@@ -262,8 +259,8 @@
       "low20": 1.136,
       "high60": 1.1711,
       "low60": 1.1354,
-      "chg5d_pct": -0.93,
-      "chg20d_pct": -2.05
+      "chg5d_pct": -1.02,
+      "chg20d_pct": -2.13
     }
   }
 }
