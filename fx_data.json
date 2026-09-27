@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-27T20:59:07.857099",
-  "generated": "2026年09月27日 20:59",
+  "timestamp": "2026-09-27T23:45:21.231664",
+  "generated": "2026年09月27日 23:45",
   "scores": {
-    "USD": 4,
+    "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 5,
+      "base_score": 5,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": 0,
-      "quote_score": 4
+      "quote_score": 5
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
     },
     {
       "pair": "GBPJPY",
@@ -98,6 +98,11 @@
     },
     {
       "source": "FXStreet",
+      "title": "Australian Dollar softens to near 0.7000 on hawkish Fed signals, RBA rate decision looms",
+      "summary": "The AUD/USD pair loses momentum to near 0.7010 during the early Asian session on Monday. The US Dollar (USD) strengthens"
+    },
+    {
+      "source": "FXStreet",
       "title": "South Korean Won: Export strength supports KRW – Societe Generale",
       "summary": "Societe Generale notes the Korean Won has been one of Asia’s standout performers, with USD/KRW slipping from around 1,39"
     },
@@ -125,16 +130,6 @@
       "source": "FXStreet",
       "title": "ECB’s Vujcic warns energy shock could keep inflation hot",
       "summary": "European Central Bank (ECB) Vice President Boris Vujcic said on Friday that the ECB started a tightening cycle and sees "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Asian FX: Higher yields and Oil weigh – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong report that Asian FX traded broadly softer as higher Oil prices and "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Hammack warns inflation mindset is the biggest risk",
-      "summary": "The Cleveland Federal Reserve (Fed) President Beth Hammack said on Friday that “the biggest risk with inflation is the f"
     },
     {
       "source": "Investing",
@@ -187,6 +182,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Australian Dollar softens to near 0.7000 on hawkish Fed",
       "[強気] Singapore Dollar: Consolidation near lows against US Do",
       "[強気] Bitcoin cuts losses, remains muted amid rising oil and "
     ],
@@ -195,7 +191,8 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)",
+      "[強気] Australian Dollar softens to near 0.7000 on hawkish Fed"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -215,45 +212,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.29486,
-      "today_close": 157.22744,
-      "prev_close": 157.29795,
-      "diff": -0.0705,
-      "diff_pct": -0.04
+      "today_open": 157.22999,
+      "today_close": 157.5765,
+      "prev_close": 157.24001,
+      "diff": 0.3365,
+      "diff_pct": 0.21
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.22744,
-      "sma20": 155.9486,
-      "sma50": 157.6038,
-      "sma200": 159.3408,
+      "latest": 157.5765,
+      "sma20": 156.1282,
+      "sma50": 157.6006,
+      "sma200": 159.3318,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 18.2,
+      "rsi14": 18.4,
       "high20": 159.0292,
       "low20": 152.3794,
-      "high60": 163.7413,
+      "high60": 160.892,
       "low60": 152.3794,
-      "chg5d_pct": -0.11,
-      "chg20d_pct": 1.86
+      "chg5d_pct": -0.49,
+      "chg20d_pct": 2.32
     },
     "EURUSD": {
-      "latest": 1.1391,
-      "sma20": 1.15,
-      "sma50": 1.1565,
-      "sma200": 1.1564,
+      "latest": 1.13755,
+      "sma20": 1.1488,
+      "sma50": 1.1561,
+      "sma200": 1.1563,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 54.4,
+      "rsi14": 54.6,
       "high20": 1.1654,
       "low20": 1.136,
       "high60": 1.1711,
       "low60": 1.136,
-      "chg5d_pct": -0.51,
-      "chg20d_pct": -2.0
+      "chg5d_pct": -0.08,
+      "chg20d_pct": -2.14
     }
   }
 }
