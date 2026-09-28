@@ -1,150 +1,85 @@
 {
-  "timestamp": "2026-09-28T13:06:15.478960",
-  "generated": "2026年09月28日 13:06",
+  "timestamp": "2026-09-28T21:05:52.012103",
+  "generated": "2026年09月28日 21:05",
   "scores": {
-    "USD": 5,
-    "JPY": 0,
+    "USD": 4,
+    "JPY": 1,
     "EUR": 0,
-    "GBP": 2,
-    "AUD": 0,
+    "GBP": 3,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": -1,
+      "quote_score": 4
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -5,
-      "base_score": 0,
-      "quote_score": 5
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 2,
-      "quote_score": 5
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 3,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 3,
+      "quote_score": 4
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
     }
   ],
   "news": [
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-      "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc."
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "summary": "Federal Reserve Board announces approval of application by BancFirst Corporation"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Exp"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeting",
-      "summary": "Federal Reserve Board and Federal Open Market Committee release economic projections from the September 15-16 FOMC meeti"
+      "source": "FXStreet",
+      "title": "Japanese Yen trades cautiously as intervention risk clashes with Fed rate hike bets",
+      "summary": "USD/JPY trades little changed around 157.25 on Monday as the US Dollar (USD) also holds steady near recent highs, with t"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar holds steady as RBA rate hike expectations balance elevated US yields",
-      "summary": "AUD/USD trades around 0.7020 on Monday at the time of writing, virtually unchanged on the day."
+      "title": "Forex Today: The RBA and Fedspeak grab all the attention",
+      "summary": "The US Dollar (USD) has stated the week with slight gains, resuming its recent uptrend and leaving behind Friday’s hiccu"
     },
     {
       "source": "FXStreet",
-      "title": "Gold slides 3% as traders weigh Fed outlook, latest US-Iran developments",
-      "summary": "Gold (XAU/USD) remains under strong selling pressure on Monday, down nearly 3% as elevated Oil prices keep inflation con"
+      "title": "Fed’s Cook: AI, Iran risks could keep inflation pressures high",
+      "summary": "Federal Reserve (Fed) Governor Lisa Cook said in a speech in Oakland, California, that the number and magnitude of futur"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar struggles as US-Canada yield gap widens",
-      "summary": "USD/CAD extends its rally on Monday as diverging monetary policy outlooks between the Federal Reserve (Fed) and the Bank"
+      "title": "USD: Speculative longs steady as Fed hikes – Rabobank",
+      "summary": "Rabobank’s RaboResearch Global Economics & Markets FX Strategy team notes that USD net long speculative positions were b"
     },
     {
       "source": "FXStreet",
-      "title": "US-Iran indirect talks to resume in US as mediators revisit seven-day proposal - Reuters",
-      "summary": "The United States (US) and Iran are expected to resume indirect talks as early as Monday or Tuesday, according to an off"
-    },
-    {
-      "source": "FXStreet",
-      "title": "AUD/NZD Price Forecast: Aussie rally shows signs of exhaustion ahead of RBA decision",
-      "summary": "The Aussie Dollar (AUD) trades practically flat around 1.2390 against the New Zealand Dollar (NZD) on Monday, with all e"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Indian Rupee falls sharply as oil prices rally",
-      "summary": "The Indian Rupee (INR) starts the week on a negative note against the US Dollar (USD) due to significant gains in oil pr"
-    },
-    {
-      "source": "FXStreet",
-      "title": "UK Chancellor Healey: We will maintain control of Britain's finances",
-      "summary": "United Kingdom (UK) Chancellor of the Exchequer John Healey said during the European trade on Monday that the administra"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound gains as several BoE members warn of upside inflation risks",
-      "summary": "The British Pound (GBP) trades higher against its major currency peers, except the Japanese Yen (JPY) on Monday. In the "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Oil: Higher prices drive yields and Dollar – MUFG",
-      "summary": "Lee Hardman at MUFG highlights that Oil has been one of the biggest movers, with prices rising back towards recent highs"
-    },
-    {
-      "source": "FXStreet",
-      "title": "EUR/GBP Price Forecast: Euro tests support at 0.8570 as Oil prices rally",
-      "summary": "The Euro (EUR) is dropping sharply against the British Pound (GBP) on Monday, with EUR/GBP bears testing support at the "
+      "title": "British Pound defies US yields surge as BoE hike bets build",
+      "summary": "The Pound Sterling (GBP) registers modest gains of 0.18% on Monday even as US Treasury yields soar, with the US 10-year "
     },
     {
       "source": "Investing",
@@ -152,8 +87,8 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals",
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,17 +127,19 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar holds steady as RBA rate hike expecta",
-      "[強気] Gold slides 3% as traders weigh Fed outlook, latest US-",
-      "[強気] Bitcoin cuts losses, remains muted amid rising oil and "
+      "[強気] Japanese Yen trades cautiously as intervention risk cla",
+      "[強気] British Pound defies US yields surge as BoE hike bets b"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen trades cautiously as intervention risk cla"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound defies US yields surge as BoE hike bets b"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)",
-      "[強気] Australian Dollar holds steady as RBA rate hike expecta"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -210,57 +147,57 @@
   },
   "rates": {
     "US_FF": 3.63,
-    "US_10Y": 5.18,
+    "US_10Y": 5.17,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.24,
-    "DIFF_EURUSD": -2.0,
-    "DIFF_GBPUSD": -0.19,
-    "DIFF_AUDUSD": -0.17
+    "DIFF_USDJPY": 2.23,
+    "DIFF_EURUSD": -1.99,
+    "DIFF_GBPUSD": -0.18,
+    "DIFF_AUDUSD": -0.16
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.22999,
-      "today_close": 157.22389,
-      "prev_close": 157.24001,
-      "diff": -0.0161,
-      "diff_pct": -0.01
+      "today_open": 157.38459,
+      "today_close": 157.39367,
+      "prev_close": 157.38131,
+      "diff": 0.0124,
+      "diff_pct": 0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.22389,
-      "sma20": 156.1106,
-      "sma50": 157.5935,
-      "sma200": 159.3301,
+      "latest": 157.39367,
+      "sma20": 156.3105,
+      "sma50": 157.5582,
+      "sma200": 159.3194,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 18.4,
+      "rsi14": 24.8,
       "high20": 159.0292,
       "low20": 152.3794,
-      "high60": 160.892,
+      "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.71,
-      "chg20d_pct": 2.1
+      "chg5d_pct": -0.92,
+      "chg20d_pct": 2.5
     },
     "EURUSD": {
-      "latest": 1.13672,
-      "sma20": 1.1487,
-      "sma50": 1.1561,
+      "latest": 1.13686,
+      "sma20": 1.1474,
+      "sma50": 1.1558,
       "sma200": 1.1563,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 54.6,
-      "high20": 1.1654,
-      "low20": 1.136,
+      "rsi14": 32.1,
+      "high20": 1.1642,
+      "low20": 1.1353,
       "high60": 1.1711,
-      "low60": 1.136,
-      "chg5d_pct": -0.15,
-      "chg20d_pct": -2.21
+      "low60": 1.1353,
+      "chg5d_pct": -0.11,
+      "chg20d_pct": -2.28
     }
   }
 }
