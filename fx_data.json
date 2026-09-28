@@ -1,24 +1,17 @@
 {
-  "timestamp": "2026-09-28T04:03:27.493243",
-  "generated": "2026年09月28日 04:03",
+  "timestamp": "2026-09-28T13:06:15.478960",
+  "generated": "2026年09月28日 13:06",
   "scores": {
     "USD": 5,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
@@ -28,6 +21,13 @@
     },
     {
       "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -5,
+      "base_score": 0,
+      "quote_score": 5
+    },
+    {
+      "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
       "base_score": 0,
@@ -98,47 +98,62 @@
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc hits fresh low since May 2025, near 0.8300 vs USD amid Fed-SNB divergence",
-      "summary": "The USD/CHF pair attracts some follow-through buying for the fourth straight day, hitting a fresh high since May 2025 du"
+      "title": "Australian Dollar holds steady as RBA rate hike expectations balance elevated US yields",
+      "summary": "AUD/USD trades around 0.7020 on Monday at the time of writing, virtually unchanged on the day."
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls to near $62.00 amid Fed rate hike odds",
-      "summary": "Silver price (XAG/USD) falls nearly 3.5% after posting modest gains in the previous day, trading around $62.00 per troy "
+      "title": "Gold slides 3% as traders weigh Fed outlook, latest US-Iran developments",
+      "summary": "Gold (XAU/USD) remains under strong selling pressure on Monday, down nearly 3% as elevated Oil prices keep inflation con"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index trades flat at the start of the US NFP week",
-      "summary": "The US Dollar (USD) reflects a flat performance at the start of the week. In the Asian trade, the US Dollar Index (DXY),"
+      "title": "Canadian Dollar struggles as US-Canada yield gap widens",
+      "summary": "USD/CAD extends its rally on Monday as diverging monetary policy outlooks between the Federal Reserve (Fed) and the Bank"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar strengthens above 0.5650 on US-China truce extension",
-      "summary": "The NZD/USD pair gathers strength to around 0.5665 during the Asian trading hours on Monday. Positive developments surro"
+      "title": "US-Iran indirect talks to resume in US as mediators revisit seven-day proposal - Reuters",
+      "summary": "The United States (US) and Iran are expected to resume indirect talks as early as Monday or Tuesday, according to an off"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar falls as US-Canada rate gap seen widening further",
-      "summary": "USD/CAD extends its gains for the sixth consecutive day, trading around 1.4150 during Asian hours on Monday. The pair ap"
+      "title": "AUD/NZD Price Forecast: Aussie rally shows signs of exhaustion ahead of RBA decision",
+      "summary": "The Aussie Dollar (AUD) trades practically flat around 1.2390 against the New Zealand Dollar (NZD) on Monday, with all e"
     },
     {
       "source": "FXStreet",
-      "title": "Gold tumbles to near $4,200 as hawkish Fed signals and stronger US Dollar pressure bullion",
-      "summary": "Gold price (XAU/USD) drops to around $4,215 during the early Asian trading hours on Monday. The precious metal loses gro"
+      "title": "Indian Rupee falls sharply as oil prices rally",
+      "summary": "The Indian Rupee (INR) starts the week on a negative note against the US Dollar (USD) due to significant gains in oil pr"
+    },
+    {
+      "source": "FXStreet",
+      "title": "UK Chancellor Healey: We will maintain control of Britain's finances",
+      "summary": "United Kingdom (UK) Chancellor of the Exchequer John Healey said during the European trade on Monday that the administra"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound gains as several BoE members warn of upside inflation risks",
+      "summary": "The British Pound (GBP) trades higher against its major currency peers, except the Japanese Yen (JPY) on Monday. In the "
+    },
+    {
+      "source": "FXStreet",
+      "title": "Oil: Higher prices drive yields and Dollar – MUFG",
+      "summary": "Lee Hardman at MUFG highlights that Oil has been one of the biggest movers, with prices rising back towards recent highs"
+    },
+    {
+      "source": "FXStreet",
+      "title": "EUR/GBP Price Forecast: Euro tests support at 0.8570 as Oil prices rally",
+      "summary": "The Euro (EUR) is dropping sharply against the British Pound (GBP) on Monday, with EUR/GBP bears testing support at the "
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy purchases 1,665 bitcoin",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin cuts losses, remains muted amid rising oil and yields, hawkish Fed signals",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Federal Reserve unveils proposed framework for stablecoin issuers",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -177,8 +192,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Silver Price Forecast: XAG/USD falls to near $62.00 ami",
-      "[強気] Gold tumbles to near $4,200 as hawkish Fed signals and ",
+      "[強気] Australian Dollar holds steady as RBA rate hike expecta",
+      "[強気] Gold slides 3% as traders weigh Fed outlook, latest US-",
       "[強気] Bitcoin cuts losses, remains muted amid rising oil and "
     ],
     "GBP": [
@@ -186,7 +201,8 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)",
+      "[強気] Australian Dollar holds steady as RBA rate hike expecta"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -207,34 +223,34 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.22999,
-      "today_close": 157.81686,
+      "today_close": 157.22389,
       "prev_close": 157.24001,
-      "diff": 0.5768,
-      "diff_pct": 0.37
+      "diff": -0.0161,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.81686,
-      "sma20": 156.1402,
-      "sma50": 157.6054,
-      "sma200": 159.333,
+      "latest": 157.22389,
+      "sma20": 156.1106,
+      "sma50": 157.5935,
+      "sma200": 159.3301,
       "vs_sma20": "上",
-      "vs_sma50": "上",
+      "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 18.4,
       "high20": 159.0292,
       "low20": 152.3794,
       "high60": 160.892,
       "low60": 152.3794,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": 2.48
+      "chg5d_pct": -0.71,
+      "chg20d_pct": 2.1
     },
     "EURUSD": {
-      "latest": 1.13862,
-      "sma20": 1.1488,
+      "latest": 1.13672,
+      "sma20": 1.1487,
       "sma50": 1.1561,
-      "sma200": 1.1564,
+      "sma200": 1.1563,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -243,8 +259,8 @@
       "low20": 1.136,
       "high60": 1.1711,
       "low60": 1.136,
-      "chg5d_pct": 0.01,
-      "chg20d_pct": -2.05
+      "chg5d_pct": -0.15,
+      "chg20d_pct": -2.21
     }
   }
 }
