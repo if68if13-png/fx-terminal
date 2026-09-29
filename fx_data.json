@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-09-29T04:37:31.040582",
-  "generated": "2026年09月29日 04:37",
+  "timestamp": "2026-09-29T12:16:12.502360",
+  "generated": "2026年09月29日 12:16",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
-    "NZD": 2,
+    "AUD": 0,
+    "NZD": 3,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 5
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -98,43 +98,53 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar gains as RBA hikes interest rates by 25 bps to 4.6%",
-      "summary": "The Australian Dollar (AUD) attracts significant bids against its major currency peers after the Reserve Bank of Austral"
+      "title": "Silver Price Forecasts: XAG/USD holds below $ 61.00 amid US Dollar strength",
+      "summary": "Silver (XAG/USD) remains practically flat on Tuesday, trading at its lowest levels in nearly two months on Tuesday, arou"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: RBA lifts interest rate by 25 bps to 4.60%, as expected",
-      "summary": "The Reserve Bank of Australia (RBA) announced on Tuesday that it raised the Official Cash Rate (OCR) by 25 basis points "
+      "title": "GBP/JPY Price Forecast: Sellers retain control near September low",
+      "summary": "GBP/JPY trades lower on Tuesday as the Japanese Yen (JPY) outperforms its major peers, supported by growing concerns tha"
     },
     {
       "source": "FXStreet",
-      "title": "Gold bounces off eight-week low; not out of the woods amid rising Fed hike bets",
-      "summary": "Gold (XAU/USD) attracts some buyers during the Asian session on Tuesday, reversing a part of the previous day's heavy lo"
+      "title": "Singapore Dollar: MAS tightening expectations support resilience – OCBC",
+      "summary": "OCBC’s Christopher Wong observes that Singapore Dollar (SGD) has held relatively steady despite softer Asian FX, with US"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc declines as US Dollar rises on Fed rate hike bets",
-      "summary": "USD/CHF continues its winning streak for the fifth successive trading day, reaching its fresh 16-month high of 0.8327 du"
+      "title": "Australian Dollar: RBA hike to support AUD/USD – BBH",
+      "summary": "Brown Brothers Harriman highlights that the Reserve Bank of Australia delivered a widely expected 25 bps hike to 4.60%, "
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD holds onto losses below $61 ahead of US Job Openings data",
-      "summary": "Silver price (XAG/USD) clings to Monday’s losses at around $60.70 during the Asian trading session on Tuesday. The white"
+      "title": "Euro: EUR/USD bearish bias converging on support – Societe Generale",
+      "summary": "Societe Generale’s FX strategy team reports EUR/USD remains under pressure, trading at a three-month low and moving towa"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen declines amid intervention risks",
-      "summary": "The USD/JPY pair posts modest gains around 157.40 during the Asian trading hours on Tuesday."
+      "title": "Indian Rupee claws back early losses and closes flat on Tuesday",
+      "summary": "The Indian Rupee (INR) recovers its early losess after sliding to a fresh two-month low against the US Dollar (USD) and "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar consolidates above 0.7000 vs USD as bears await RBA rate decision",
-      "summary": "The AUD/USD pair extends its consolidative price moves through the Asian session on Tuesday, trading just above the 0.70"
+      "title": "US yields: Real rates climb on Fed credibility – BNY Markets",
+      "summary": "BNY Markets’ John Velis observes that US real yields across the curve have risen sharply, driven more by expectations of"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index strengthens as oil surge bolster Fed rate hike bets",
-      "summary": "The US Dollar Index (DXY), which measures the value of the US Dollar (USD) against six major currencies, is extending it"
+      "title": "What drove the Australian Dollar below 0.7000 as the Reserve Bank of Australia hiked to 4.60%?",
+      "summary": "The Australian Dollar (AUD) came under immediate downside pressure following the Reserve Bank of Australia’s (RBA) decis"
+    },
+    {
+      "source": "FXStreet",
+      "title": "British Pound recovers slight losses against US Dollar, JOLTS data eyed",
+      "summary": "The British Pound (GBP) claws back some of its early losses, but is still 0.14% down at around 1.3235 against the US Dol"
+    },
+    {
+      "source": "FXStreet",
+      "title": "New Zealand Dollar falls toward 0.5650 despite rising RBNZ rate hike bets",
+      "summary": "NZD/USD declines to around 0.5650 at the time of writing on Tuesday, down 0.25% on the day, and remains close to its low"
     },
     {
       "source": "Investing",
@@ -182,22 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Swiss Franc declines as US Dollar rises on Fed rate hik",
-      "[強気] Silver Price Forecast: XAG/USD holds onto losses below ",
-      "[強気] United States Dollar Index strengthens as oil surge bol"
+      "[強気] Australian Dollar: RBA hike to support AUD/USD – BBH",
+      "[強気] New Zealand Dollar falls toward 0.5650 despite rising R"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)",
+      "[強気] Australian Dollar: RBA hike to support AUD/USD – BBH"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] Swiss Franc declines as US Dollar rises on Fed rate hik"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] New Zealand Dollar falls toward 0.5650 despite rising R"
     ]
   },
   "rates": {
@@ -215,18 +223,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.38459,
-      "today_close": 157.48489,
+      "today_close": 157.15933,
       "prev_close": 157.38131,
-      "diff": 0.1036,
-      "diff_pct": 0.07
+      "diff": -0.222,
+      "diff_pct": -0.14
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.48489,
-      "sma20": 156.315,
-      "sma50": 157.56,
-      "sma200": 159.3199,
+      "latest": 157.15933,
+      "sma20": 156.2987,
+      "sma50": 157.5535,
+      "sma200": 159.3183,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -235,12 +243,12 @@
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.87,
-      "chg20d_pct": 2.56
+      "chg5d_pct": -1.07,
+      "chg20d_pct": 2.35
     },
     "EURUSD": {
-      "latest": 1.13617,
-      "sma20": 1.1474,
+      "latest": 1.1354,
+      "sma20": 1.1473,
       "sma50": 1.1557,
       "sma200": 1.1563,
       "vs_sma20": "下",
@@ -248,11 +256,11 @@
       "vs_sma200": "下",
       "rsi14": 32.1,
       "high20": 1.1642,
-      "low20": 1.1353,
+      "low20": 1.1332,
       "high60": 1.1711,
-      "low60": 1.1353,
-      "chg5d_pct": -0.17,
-      "chg20d_pct": -2.34
+      "low60": 1.1332,
+      "chg5d_pct": -0.24,
+      "chg20d_pct": -2.4
     }
   }
 }
