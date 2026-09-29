@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-09-29T12:16:12.502360",
-  "generated": "2026年09月29日 12:16",
+  "timestamp": "2026-09-29T19:48:30.925270",
+  "generated": "2026年09月29日 19:48",
   "scores": {
-    "USD": 4,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": 0,
-    "NZD": 3,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
+    },
+    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
-      "base_score": 0,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -46,6 +39,13 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -98,57 +98,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecasts: XAG/USD holds below $ 61.00 amid US Dollar strength",
-      "summary": "Silver (XAG/USD) remains practically flat on Tuesday, trading at its lowest levels in nearly two months on Tuesday, arou"
+      "title": "The Canadian Dollar round-trips as Fed officials differ on hike timing",
+      "summary": "Tuesday's two Canadian catalysts, a flat July for the economy and a later start to Bank of Canada (BoC) bond buying, did"
     },
     {
       "source": "FXStreet",
-      "title": "GBP/JPY Price Forecast: Sellers retain control near September low",
-      "summary": "GBP/JPY trades lower on Tuesday as the Japanese Yen (JPY) outperforms its major peers, supported by growing concerns tha"
+      "title": "Fed’s Williams says worst inflation shocks have passed",
+      "summary": "New York Federal Reserve (Fed) President John Williams spoke at the University of Buffalo and said that “price stability"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: MAS tightening expectations support resilience – OCBC",
-      "summary": "OCBC’s Christopher Wong observes that Singapore Dollar (SGD) has held relatively steady despite softer Asian FX, with US"
+      "title": "Fed’s Musalem says policy still accommodative as demand fuels inflation",
+      "summary": "St. Louis Federal Reserve (Fed) President Alberto Musalem crossed the wires on Tuesday, saying that central bankers need"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: RBA hike to support AUD/USD – BBH",
-      "summary": "Brown Brothers Harriman highlights that the Reserve Bank of Australia delivered a widely expected 25 bps hike to 4.60%, "
+      "title": "United States Dollar Index approaches yearly peak on hawkish Fed outlook",
+      "summary": "The US Dollar Index (DXY) extends gains on Tuesday, approaching its year-to-date high as expectations of further Federal"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: EUR/USD bearish bias converging on support – Societe Generale",
-      "summary": "Societe Generale’s FX strategy team reports EUR/USD remains under pressure, trading at a three-month low and moving towa"
+      "title": "Fed’s Williams says no rush after September hike",
+      "summary": "The New York Fed Governor John Williams said that he “sees no need for urgency after September rate hike,” a dovish stat"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee claws back early losses and closes flat on Tuesday",
-      "summary": "The Indian Rupee (INR) recovers its early losess after sliding to a fresh two-month low against the US Dollar (USD) and "
+      "title": "Fed’s Goolsbee: Persistent inflation is like “playing with fire”",
+      "summary": "Chicago Federal Reserve (Fed) President Austan Goolsbee, a voter in the Federal Open Market Committee (FOMC) in 2027, sa"
     },
     {
       "source": "FXStreet",
-      "title": "US yields: Real rates climb on Fed credibility – BNY Markets",
-      "summary": "BNY Markets’ John Velis observes that US real yields across the curve have risen sharply, driven more by expectations of"
+      "title": "Forex Today: Focus shifts to US PCE, ADP, inflation in OZ and Chinese PMIs",
+      "summary": "The US Dollar (USD) has accelerated its recovery, adding to the positive start to the week and clinching new multi-week "
     },
     {
       "source": "FXStreet",
-      "title": "What drove the Australian Dollar below 0.7000 as the Reserve Bank of Australia hiked to 4.60%?",
-      "summary": "The Australian Dollar (AUD) came under immediate downside pressure following the Reserve Bank of Australia’s (RBA) decis"
+      "title": "Fed’s Barr calls economy “strikingly” resilient, defends last hike",
+      "summary": "Federal Reserve (Fed) Governor Michael Barr said Tuesday that he sees “elevated wage rates in the skilled trades,” and a"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound recovers slight losses against US Dollar, JOLTS data eyed",
-      "summary": "The British Pound (GBP) claws back some of its early losses, but is still 0.14% down at around 1.3235 against the US Dol"
+      "title": "Silver price retreats as rising US yields, Hormuz tensions bolster US Dollar",
+      "summary": "Silver (XAG/USD) retreats on Tuesday and trades around $60.75 at the time of writing, down 0.38% on the day."
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar falls toward 0.5650 despite rising RBNZ rate hike bets",
-      "summary": "NZD/USD declines to around 0.5650 at the time of writing on Tuesday, down 0.25% on the day, and remains close to its low"
+      "title": "Fed’s Barr says policy needs recalibration, more adjustments likely",
+      "summary": "Federal Reserve (Fed) Governor Michael Barr said on Tuesday that “there is a need to recalibrate policy” and that the ba"
     },
     {
       "source": "Investing",
-      "title": "Strategy purchases 1,665 bitcoin",
+      "title": "21X LLC Seeks Regulatory Approval to Operate as a US Broker Dealer and Appoints Ray Tierney as CEO",
       "summary": ""
     },
     {
@@ -192,20 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Australian Dollar: RBA hike to support AUD/USD – BBH",
-      "[強気] New Zealand Dollar falls toward 0.5650 despite rising R"
+      "[強気] United States Dollar Index approaches yearly peak on ha"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)",
-      "[強気] Australian Dollar: RBA hike to support AUD/USD – BBH"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] New Zealand Dollar falls toward 0.5650 despite rising R"
+      "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
@@ -223,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.38459,
-      "today_close": 157.15933,
+      "today_close": 157.2805,
       "prev_close": 157.38131,
-      "diff": -0.222,
-      "diff_pct": -0.14
+      "diff": -0.1008,
+      "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.15933,
-      "sma20": 156.2987,
-      "sma50": 157.5535,
-      "sma200": 159.3183,
+      "latest": 157.2805,
+      "sma20": 156.3048,
+      "sma50": 157.5559,
+      "sma200": 159.3189,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -243,11 +240,11 @@
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -1.07,
-      "chg20d_pct": 2.35
+      "chg5d_pct": -0.99,
+      "chg20d_pct": 2.43
     },
     "EURUSD": {
-      "latest": 1.1354,
+      "latest": 1.13382,
       "sma20": 1.1473,
       "sma50": 1.1557,
       "sma200": 1.1563,
@@ -256,11 +253,11 @@
       "vs_sma200": "下",
       "rsi14": 32.1,
       "high20": 1.1642,
-      "low20": 1.1332,
+      "low20": 1.131,
       "high60": 1.1711,
-      "low60": 1.1332,
-      "chg5d_pct": -0.24,
-      "chg20d_pct": -2.4
+      "low60": 1.131,
+      "chg5d_pct": -0.38,
+      "chg20d_pct": -2.54
     }
   }
 }
