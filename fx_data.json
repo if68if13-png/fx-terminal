@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-09-30T09:22:53.392952",
-  "generated": "2026年09月30日 09:22",
+  "timestamp": "2026-09-30T17:42:47.352346",
+  "generated": "2026年09月30日 17:42",
   "scores": {
-    "USD": 4,
-    "JPY": 0,
-    "EUR": 2,
+    "USD": 3,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,47 +15,52 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 4,
-      "quote_score": 0
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 1,
+      "quote_score": 3
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "様子見",
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 4
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 0
+      "quote_score": 1
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": 0,
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and red"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
@@ -98,57 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro: EUR/USD Bearish risks toward 1.10 – ING",
-      "summary": "ING’s Francesco Pesole reports EUR/USD has broken below its summer lows, trading near 1.1350 as Dollar strength dominate"
+      "title": "ECB’s Lagarde warns France needs a credible path to rein in debt",
+      "summary": "European Central Bank (ECB) President Christine Lagarde said that France’s debt situation is “serious at 120% of GDP and"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc edges up from yearly lows despite tepid Economic Expectations data",
-      "summary": "The Swiss Franc (CHF) shows a moderate recovery on Wednesday, as the US Dollar (USD) trims gains amid a slight pullback "
+      "title": "ECB’s Schnabel says yields surge could cool inflation pressures",
+      "summary": "European Central Bank (ECB) Governing Council member Isabel Schnabel said Wednesday that high costs are passed through t"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones futures advance as Fed rate hike expectations cool",
-      "summary": "Dow Jones futures gain by 0.39% to trade near 51,890 during European hours on Wednesday. Meanwhile, S&amp;P 500 futures "
+      "title": "Australian Dollar reverses post-PCE rebound as US Dollar recovers",
+      "summary": "AUD/USD declines 0.41% on Wednesday and trades around 0.6960 at the time of writing, having fully erased its initial reb"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee rebounds as traders reassess hawkish Fed bets, oil prices drop",
-      "summary": "The Indian Rupee (INR) gains against the US Dollar (USD) after a flat opening on Wednesday."
+      "title": "Silver Price Forecast: XAG/USD remains vulnerable near $60",
+      "summary": "Silver (XAG/USD) trades under pressure on Wednesday even as traders reduce bets that the Federal Reserve (Fed) will rais"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar: Fragile strength hinges on Fed – Commerzbank",
-      "summary": "Commerzbank’s Thu Lan Nguyen notes EUR/USD has dropped to its lowest level since mid-2025 as Dollar strength is driven b"
+      "title": "British Pound catches second wind as soft PCE knocks Fed hike bets",
+      "summary": "The Pound Sterling (GBP) posts solid gains versus the US Dollar (USD) on Wednesday, edging up 0.42% as the latest US inf"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index Price Forecast: Possibility of breakout above 101.80 hinges on US data",
-      "summary": "The US Dollar (USD) trades slightly lower against its key currency peers on Wednesday. At press time, the US Dollar Inde"
+      "title": "Gold loses momentum as the initial reaction to softer US PCE inflation fades",
+      "summary": "Gold (XAU/USD) reverses its earlier gains on Wednesday after briefly climbing above $4,200 in reaction to softer-than-ex"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY: Yen carry risks build into Q4 – Rabobank",
-      "summary": "Rabobank’s Global Daily notes that FX markets were surprised by Dollar strength in Q3, with EUR/USD and GBP/USD relative"
+      "title": "China: Targeted support and cautious stabilization signs – Societe Generale",
+      "summary": "Societe Generale analysts note China has unveiled targeted support measures, including a 25bp cut to the PBoC’s PSL rate"
     },
     {
       "source": "FXStreet",
-      "title": "ADP Employment Report expected to confirm a tight labour market in September",
-      "summary": "The Automatic Data Processing (ADP) Research Institute will release September’s monthly report on private-sector employm"
+      "title": "EUR/USD: Measured ECB tightening to support Euro – TD Securities",
+      "summary": "TD Securities' Macro Research team expects the European Central Bank (ECB) to continue a measured tightening cycle, deli"
     },
     {
       "source": "FXStreet",
-      "title": "US core PCE inflation set to rise in August, pressuring the Federal Reserve",
-      "summary": "The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price "
+      "title": "Japanese Yen advances as US PCE shifts Fed rate hike bets toward December",
+      "summary": "USD/JPY falls 0.30% on Wednesday and trades around 156.80 at the time of writing, as the US Dollar (USD) comes under sel"
+    },
+    {
+      "source": "Investing",
+      "title": "Open Standard issues dollar stablecoin backed by Visa, Stripe, and Mastercard",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "21X LLC Seeks Regulatory Approval to Operate as a US Broker Dealer and Appoints Ray Tierney as CEO",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -187,14 +192,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Euro: EUR/USD Bearish risks toward 1.10 – ING",
-      "[弱気] Swiss Franc edges up from yearly lows despite tepid Eco",
-      "[強気] Dow Jones futures advance as Fed rate hike expectations",
-      "[強気] Indian Rupee rebounds as traders reassess hawkish Fed b"
+      "[強気] Japanese Yen advances as US PCE shifts Fed rate hike be"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen advances as US PCE shifts Fed rate hike be"
     ],
     "EUR": [
-      "[強気] Euro: EUR/USD Bearish risks toward 1.10 – ING",
-      "[強気] Dow Jones futures advance as Fed rate hike expectations"
+      "[強気] ECB’s Schnabel says yields surge could cool inflation p"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -205,10 +209,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] Euro: EUR/USD Bearish risks toward 1.10 – ING",
-      "[弱気] Swiss Franc edges up from yearly lows despite tepid Eco"
     ]
   },
   "rates": {
@@ -226,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.28527,
-      "today_close": 157.01589,
+      "today_close": 157.29378,
       "prev_close": 157.28428,
-      "diff": -0.2684,
-      "diff_pct": -0.17
+      "diff": 0.0095,
+      "diff_pct": 0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.01589,
-      "sma20": 156.431,
-      "sma50": 157.5103,
-      "sma200": 159.3056,
+      "latest": 157.29378,
+      "sma20": 156.4449,
+      "sma50": 157.5158,
+      "sma200": 159.307,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -246,14 +246,14 @@
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.18,
-      "chg20d_pct": 1.63
+      "chg5d_pct": -0.0,
+      "chg20d_pct": 1.81
     },
     "EURUSD": {
-      "latest": 1.13539,
-      "sma20": 1.146,
+      "latest": 1.13391,
+      "sma20": 1.1459,
       "sma50": 1.1553,
-      "sma200": 1.1563,
+      "sma200": 1.1562,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -262,8 +262,8 @@
       "low20": 1.131,
       "high60": 1.1711,
       "low60": 1.131,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": -2.21
+      "chg5d_pct": -0.46,
+      "chg20d_pct": -2.34
     }
   }
 }
