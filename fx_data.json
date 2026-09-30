@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-09-30T00:05:46.701156",
-  "generated": "2026年09月30日 00:05",
+  "timestamp": "2026-09-30T09:22:53.392952",
+  "generated": "2026年09月30日 09:22",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 0,
+    "EUR": 2,
     "GBP": 2,
     "AUD": -1,
-    "NZD": 3,
+    "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
@@ -15,43 +15,43 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
     },
     {
-      "pair": "GBPJPY",
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
+    },
+    {
+      "pair": "EURJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 3
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -98,48 +98,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Gold rebounds from eight-week low as traders weigh Fed rate path",
-      "summary": "Gold price (XAU/USD) rebounds from an eight-week low to near $4,180 during the early Asian session on Wednesday. However"
+      "title": "Euro: EUR/USD Bearish risks toward 1.10 – ING",
+      "summary": "ING’s Francesco Pesole reports EUR/USD has broken below its summer lows, trading near 1.1350 as Dollar strength dominate"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar cracks 0.70 as Bullock dulls RBA hike, CPI looms",
-      "summary": "The Aussie Dollar tumbled over 0.40% against the US Dollar on Tuesday, even though the Reserve Bank of Australia (RBA) r"
+      "title": "Swiss Franc edges up from yearly lows despite tepid Economic Expectations data",
+      "summary": "The Swiss Franc (CHF) shows a moderate recovery on Wednesday, as the US Dollar (USD) trims gains amid a slight pullback "
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen sits still while Tokyo calls it undervalued",
-      "summary": "Finance Minister Katayama said on Tuesday that an undervalued Yen is generally a problem, and that she and US Treasury S"
+      "title": "Dow Jones futures advance as Fed rate hike expectations cool",
+      "summary": "Dow Jones futures gain by 0.39% to trade near 51,890 during European hours on Wednesday. Meanwhile, S&amp;P 500 futures "
     },
     {
       "source": "FXStreet",
-      "title": "The New Zealand Dollar breaks lower after Australia's rate hike",
-      "summary": "Australia's fourth rate hike of 2026 sent the Australian Dollar lower on Tuesday, and NZD/USD closed below 0.5650 for th"
+      "title": "Indian Rupee rebounds as traders reassess hawkish Fed bets, oil prices drop",
+      "summary": "The Indian Rupee (INR) gains against the US Dollar (USD) after a flat opening on Wednesday."
     },
     {
       "source": "FXStreet",
-      "title": "The Pound slips to its lowest since June as a BoE hold voter pushes back",
-      "summary": "The case for another Bank of England (BoE) hike rests on energy prices, and on Thursday the government takes value-added"
+      "title": "US Dollar: Fragile strength hinges on Fed – Commerzbank",
+      "summary": "Commerzbank’s Thu Lan Nguyen notes EUR/USD has dropped to its lowest level since mid-2025 as Dollar strength is driven b"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso breaks 18.00 as carry trade loses its edge",
-      "summary": "The Mexican Peso extended its losses against the US Dollar for the second straight day, down 0.29%, as USD/MXN decisivel"
+      "title": "US Dollar Index Price Forecast: Possibility of breakout above 101.80 hinges on US data",
+      "summary": "The US Dollar (USD) trades slightly lower against its key currency peers on Wednesday. At press time, the US Dollar Inde"
     },
     {
       "source": "FXStreet",
-      "title": "Gold springs from $4,110 as Oil rout eases inflation heat",
-      "summary": "Gold (XAU/USD) price registers solid gains of over 1.30% on Tuesday despite hawkish rhetoric from Federal Reserve (Fed) "
+      "title": "USD/JPY: Yen carry risks build into Q4 – Rabobank",
+      "summary": "Rabobank’s Global Daily notes that FX markets were surprised by Dollar strength in Q3, with EUR/USD and GBP/USD relative"
     },
     {
       "source": "FXStreet",
-      "title": "The Canadian Dollar round-trips as Fed officials differ on hike timing",
-      "summary": "Tuesday's two Canadian catalysts, a flat July for the economy and a later start to Bank of Canada (BoC) bond buying, did"
+      "title": "ADP Employment Report expected to confirm a tight labour market in September",
+      "summary": "The Automatic Data Processing (ADP) Research Institute will release September’s monthly report on private-sector employm"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Williams says worst inflation shocks have passed",
-      "summary": "New York Federal Reserve (Fed) President John Williams spoke at the University of Buffalo and said that “price stability"
+      "title": "US core PCE inflation set to rise in August, pressuring the Federal Reserve",
+      "summary": "The United States (US) Bureau of Economic Analysis (BEA) will publish the Personal Consumption Expenditures (PCE) Price "
     },
     {
       "source": "Investing",
@@ -187,22 +187,28 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar cracks 0.70 as Bullock dulls RBA hike",
-      "[強気] The New Zealand Dollar breaks lower after Australia's r",
-      "[強気] Gold springs from $4,110 as Oil rout eases inflation he"
+      "[強気] Euro: EUR/USD Bearish risks toward 1.10 – ING",
+      "[弱気] Swiss Franc edges up from yearly lows despite tepid Eco",
+      "[強気] Dow Jones futures advance as Fed rate hike expectations",
+      "[強気] Indian Rupee rebounds as traders reassess hawkish Fed b"
+    ],
+    "EUR": [
+      "[強気] Euro: EUR/USD Bearish risks toward 1.10 – ING",
+      "[強気] Dow Jones futures advance as Fed rate hike expectations"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)",
-      "[弱気] Australian Dollar cracks 0.70 as Bullock dulls RBA hike",
-      "[強気] The New Zealand Dollar breaks lower after Australia's r"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] The New Zealand Dollar breaks lower after Australia's r"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[強気] Euro: EUR/USD Bearish risks toward 1.10 – ING",
+      "[弱気] Swiss Franc edges up from yearly lows despite tepid Eco"
     ]
   },
   "rates": {
@@ -220,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.28527,
-      "today_close": 157.412,
+      "today_close": 157.01589,
       "prev_close": 157.28428,
-      "diff": 0.1277,
-      "diff_pct": 0.08
+      "diff": -0.2684,
+      "diff_pct": -0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.412,
-      "sma20": 156.4508,
-      "sma50": 157.5182,
-      "sma200": 159.3076,
+      "latest": 157.01589,
+      "sma20": 156.431,
+      "sma50": 157.5103,
+      "sma200": 159.3056,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -240,14 +246,14 @@
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": 1.89
+      "chg5d_pct": -0.18,
+      "chg20d_pct": 1.63
     },
     "EURUSD": {
-      "latest": 1.13386,
-      "sma20": 1.1459,
+      "latest": 1.13539,
+      "sma20": 1.146,
       "sma50": 1.1553,
-      "sma200": 1.1562,
+      "sma200": 1.1563,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
@@ -256,8 +262,8 @@
       "low20": 1.131,
       "high60": 1.1711,
       "low60": 1.131,
-      "chg5d_pct": -0.46,
-      "chg20d_pct": -2.34
+      "chg5d_pct": -0.33,
+      "chg20d_pct": -2.21
     }
   }
 }
