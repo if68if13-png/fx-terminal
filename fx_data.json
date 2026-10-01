@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-01T12:34:48.920397",
-  "generated": "2026年10月01日 12:34",
+  "timestamp": "2026-10-01T20:09:42.670939",
+  "generated": "2026年10月01日 20:09",
   "scores": {
-    "USD": 3,
-    "JPY": 2,
+    "USD": 5,
+    "JPY": 0,
     "EUR": 1,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 1,
-      "quote_score": 3
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 3,
-      "quote_score": 2
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
+    },
+    {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 2,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
       "diff": 1,
-      "base_score": 3,
-      "quote_score": 2
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 1,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "BoE's Mann: Can't rely on risk premia to do work of policy, need to raise rates",
-      "summary": "Bank of England (BoE) policymaker Catherine Mann argued on Thursday that they can't rely on risk premia to do the work o"
+      "title": "Fed’s Jefferson says US economy is near maximum employment",
+      "summary": "Federal Reserve (Fed) Vice Chairman Philip Jefferson said Thursday that “inflation has resulted from a cascade of shocks"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds firm against Euro on stronger growth, hawkish policy signals",
-      "summary": "EUR/GBP trades on the defensive on Thursday, remaining on the back foot for the fifth consecutive day following last wee"
+      "title": "Dollar Index breaks its June peak as the Euro sinks on dearer Crude Oil",
+      "summary": "The odds of an October Fed rate hike have roughly halved since Monday, and the Dollar Index has risen on every one of th"
     },
     {
       "source": "FXStreet",
-      "title": "Why is the US Dollar climbing when its preferred inflation gauge is cooling?",
-      "summary": "The US Dollar (USD) continues to display underlying strength, with the US Dollar Index (DXY) touching its June year-to-d"
+      "title": "US Dollar Index Price Forecast: DXY reaches fresh yearly high, but RSI turns overbought",
+      "summary": "The US Dollar Index (DXY) rally gathers pace on Thursday, climbing to a fresh year-to-date high as resilient US economic"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: Vulnerable as US diesel policy bites – Societe Generale",
-      "summary": "Kit Juckes at Societe Generale highlights that a proposed US diesel export ban would likely push up European diesel pric"
+      "title": "Fed’s Kashkari keeps October meeting open, still sees more hikes ahead",
+      "summary": "Minneapolis Federal Reserve (Fed) President Neel Kashkari said on Thursday he is unsure about an October rate hike but a"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee hits fresh two-month low amid surging US Treasury yields",
-      "summary": "The Indian Rupee (INR) extends its weakness against the US Dollar (USD) on Thursday after a weak opening."
+      "title": "Fed’s Jefferson signals patience as next rate move stays data-driven",
+      "summary": "Vice Chairman of the Federal Reserve (Fed) Philip Jefferson said on Thursday that the Fed \"is fully committed to returni"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY: Range-bound view on BOJ caution – BBH",
-      "summary": "Brown Brothers Harriman’s Elias Haddad notes USD/JPY has surged to its 200-day moving average on broad Dollar strength, "
+      "title": "Banxico survey sees lower inflation, stronger growth and 6.50% hold",
+      "summary": "A Bank of Mexico (Banxico) survey of private economists revised down headline and core inflation forecasts, updated proj"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Kashkari: Will put pressure on different parts of economy if we keep raising rates",
-      "summary": "Minneapolis Federal Reserve (Fed) President Neel Kashkari told Bloomberg on Thursday that if they keep raising rates, th"
+      "title": "Forex Today: US NFP takes centre stage",
+      "summary": "The US Dollar (USD) has advanced further on Thursday, trading in levels last seen in early April 2025 on the back of the"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Jumps to near 158.40 as traders reassess hawkish BoJ bets",
-      "summary": "The Japanese Yen (JPY) underperforms its currency peers on Thursday, with the USD/JPY pair trading 0.55% higher to near "
-    },
-    {
-      "source": "FXStreet",
-      "title": "NZD/USD Price Forecast: At fresh yearly lows with bears pushing against 0.5600",
-      "summary": "The New Zealand Dollar (NZD) keeps depreciating against the US Dollar (USD) on Thursday, hammered by a perfect storm of "
+      "title": "Gold struggles as elevated US Treasury yields outweigh dovish Fed repricing",
+      "summary": "Gold (XAU/USD) treads water on Thursday as a stronger US Dollar (USD) and elevated US Treasury yields limit the upside."
     },
     {
       "source": "Investing",
@@ -192,20 +187,15 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Indian Rupee hits fresh two-month low amid surging US T",
-      "[強気] USD/JPY: Range-bound view on BOJ caution – BBH",
-      "[強気] USD/JPY Price Forecast: Jumps to near 158.40 as traders"
-    ],
-    "JPY": [
-      "[強気] USD/JPY: Range-bound view on BOJ caution – BBH",
-      "[強気] USD/JPY Price Forecast: Jumps to near 158.40 as traders"
+      "[強気] Dollar Index breaks its June peak as the Euro sinks on ",
+      "[強気] Fed’s Kashkari keeps October meeting open, still sees m",
+      "[強気] Banxico survey sees lower inflation, stronger growth an"
     ],
     "EUR": [
-      "[強気] British Pound holds firm against Euro on stronger growt"
+      "[強気] Dollar Index breaks its June peak as the Euro sinks on "
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound holds firm against Euro on stronger growt"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -230,18 +220,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.41818,
-      "today_close": 157.95098,
+      "today_close": 158.13899,
       "prev_close": 157.42028,
-      "diff": 0.5307,
-      "diff_pct": 0.34
+      "diff": 0.7187,
+      "diff_pct": 0.46
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.95098,
-      "sma20": 156.6725,
-      "sma50": 157.4888,
-      "sma200": 159.2991,
+      "latest": 158.13899,
+      "sma20": 156.6819,
+      "sma50": 157.4925,
+      "sma200": 159.3,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -250,24 +240,24 @@
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.42,
-      "chg20d_pct": 2.88
+      "chg5d_pct": 0.53,
+      "chg20d_pct": 3.0
     },
     "EURUSD": {
-      "latest": 1.12964,
-      "sma20": 1.1444,
-      "sma50": 1.1548,
+      "latest": 1.12426,
+      "sma20": 1.1441,
+      "sma50": 1.1547,
       "sma200": 1.1562,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 24.4,
       "high20": 1.161,
-      "low20": 1.1267,
+      "low20": 1.1216,
       "high60": 1.1711,
-      "low60": 1.1267,
-      "chg5d_pct": -0.83,
-      "chg20d_pct": -2.61
+      "low60": 1.1216,
+      "chg5d_pct": -1.3,
+      "chg20d_pct": -3.07
     }
   }
 }
