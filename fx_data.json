@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-09-30T21:56:40.894016",
-  "generated": "2026年09月30日 21:56",
+  "timestamp": "2026-10-01T04:32:12.137076",
+  "generated": "2026年10月01日 04:32",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
-    "EUR": 1,
+    "USD": 5,
+    "JPY": 2,
+    "EUR": -1,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -6,
+      "base_score": -1,
+      "quote_score": 5
+    },
+    {
       "pair": "AUDUSD",
       "direction": "強くショート",
       "diff": -5,
-      "base_score": -1,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 5
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
+      "base_score": 5,
+      "quote_score": 2
     },
     {
       "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 2,
-      "quote_score": 4
+      "quote_score": 5
+    },
+    {
+      "pair": "EURJPY",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -1,
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "EURJPY",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: 50-day SMA caps recovery near 158.00",
-      "summary": "The USD/JPY registers modest gains of 0.08% on Wednesday after US inflation data trimmed market bets on a Federal Reserv"
+      "title": "United States Dollar Index approaches yearly high near 101.80, US ISM PMI in focus",
+      "summary": "The US Dollar (USD) outperforms its major currency peers on Thursday. In the Asian session, the US Dollar Index (DXY), w"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Cook says inflation has stayed too high for too long",
-      "summary": "Federal Reserve (Fed) Governor Lisa Cook crossed the wires on Wednesday and said she is committed to returning inflation"
+      "title": "Silver Price Forecast: XAG/USD holds above $61.00 amid easing Fed rate hike expectations",
+      "summary": "Silver price (XAG/USD) gains ground after posting losses the previous day, trading around $60.90 per troy ounce during A"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: Fedspeak, Jobless Claims and ISM data steal the show",
-      "summary": "The US Dollar (USD) has traded with marginal gains, coming under pressure following daily tops near 101.50 as investors "
+      "title": "Japanese Yen drops to weekly low as elevated US bond yields lift USD to two-month high",
+      "summary": "The USD/JPY pair builds on the previous day's bounce from the 156.40-156.35 region, or a one-and-a-half-week low, and ga"
     },
     {
       "source": "FXStreet",
-      "title": "EUR/USD Price Forecast: Monthly outlook mixed, daily chart remains bearish",
-      "summary": "EUR/USD remains on the defensive on Wednesday as a broadly stronger US Dollar (USD) weighs on the pair, leaving the Euro"
+      "title": "Euro weakens below 1.1350 on higher US Treasury yields, Lagarde's dovish tilt",
+      "summary": "The EUR/USD pair drifts lower to around 1.1325 during the early Asian trading hours on Thursday. The US Dollar (USD) str"
     },
     {
       "source": "FXStreet",
-      "title": "Gold can’t catch a PCE break as long US yields keep climbing",
-      "summary": "Gold prices (XAU/USD) retreated on Wednesday, down 0.6%, after US inflation data came in above the Federal Reserve’s (Fe"
+      "title": "Fed path shaped by firm inflation – Societe Generale",
+      "summary": "Societe Generale’s Jan Groen reviews August US inflation and growth data, highlighting that Core PCE came in softer than"
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Lagarde warns France needs a credible path to rein in debt",
-      "summary": "European Central Bank (ECB) President Christine Lagarde said that France’s debt situation is “serious at 120% of GDP and"
+      "title": "US Dollar: Fed outlook supported by robust data – TD Securities",
+      "summary": "TD Securities economists Oscar Munoz and Eli Nir assess US PCE and GDP revisions as broadly supportive for a firm US mac"
     },
     {
       "source": "FXStreet",
-      "title": "ECB’s Schnabel says yields surge could cool inflation pressures",
-      "summary": "European Central Bank (ECB) Governing Council member Isabel Schnabel said Wednesday that high costs are passed through t"
+      "title": "Australian Dollar remains stronger against Japanese Yen following Trade Balance data",
+      "summary": "AUD/JPY halts its seven-day losing streak, trading around 109.80 during Asian hours on Thursday. The currency cross rema"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar reverses post-PCE rebound as US Dollar recovers",
-      "summary": "AUD/USD declines 0.41% on Wednesday and trades around 0.6960 at the time of writing, having fully erased its initial reb"
+      "title": "Australian Dollar declines below 0.6959 as Trade Surplus shrinks sharply",
+      "summary": "The AUD/USD pair trades with mild losses around 0.6945 during the early Asian session on Thursday. The Australian Dollar"
     },
     {
       "source": "Investing",
@@ -192,21 +192,26 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] USD/JPY Price Forecast: 50-day SMA caps recovery near 1",
-      "[強気] Gold can’t catch a PCE break as long US yields keep cli"
+      "[強気] Silver Price Forecast: XAG/USD holds above $61.00 amid ",
+      "[強気] Japanese Yen drops to weekly low as elevated US bond yi",
+      "[弱気] Euro weakens below 1.1350 on higher US Treasury yields,",
+      "[強気] US Dollar: Fed outlook supported by robust data – TD Se",
+      "[強気] Australian Dollar remains stronger against Japanese Yen"
     ],
     "JPY": [
-      "[強気] USD/JPY Price Forecast: 50-day SMA caps recovery near 1"
+      "[強気] Japanese Yen drops to weekly low as elevated US bond yi",
+      "[強気] Australian Dollar remains stronger against Japanese Yen"
     ],
     "EUR": [
-      "[強気] ECB’s Schnabel says yields surge could cool inflation p"
+      "[弱気] Euro weakens below 1.1350 on higher US Treasury yields,"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)",
+      "[強気] Australian Dollar remains stronger against Japanese Yen"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -227,31 +232,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.41818,
-      "today_close": 157.35154,
+      "today_close": 158.28123,
       "prev_close": 157.42028,
-      "diff": -0.0687,
-      "diff_pct": -0.04
+      "diff": 0.861,
+      "diff_pct": 0.55
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.35154,
-      "sma20": 156.6425,
-      "sma50": 157.4768,
-      "sma200": 159.2961,
+      "latest": 158.28123,
+      "sma20": 156.689,
+      "sma50": 157.4954,
+      "sma200": 159.3007,
       "vs_sma20": "上",
-      "vs_sma50": "下",
+      "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 38.8,
       "high20": 159.0292,
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": 2.49
+      "chg5d_pct": 0.63,
+      "chg20d_pct": 3.1
     },
     "EURUSD": {
-      "latest": 1.13312,
+      "latest": 1.13205,
       "sma20": 1.1445,
       "sma50": 1.1549,
       "sma200": 1.1562,
@@ -263,8 +268,8 @@
       "low20": 1.131,
       "high60": 1.1711,
       "low60": 1.131,
-      "chg5d_pct": -0.52,
-      "chg20d_pct": -2.31
+      "chg5d_pct": -0.62,
+      "chg20d_pct": -2.4
     }
   }
 }
