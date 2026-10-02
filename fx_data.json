@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-02T17:33:56.745897",
-  "generated": "2026年10月02日 17:33",
+  "timestamp": "2026-10-02T21:54:37.506749",
+  "generated": "2026年10月02日 21:54",
   "scores": {
-    "USD": -3,
-    "JPY": -1,
-    "EUR": -1,
+    "USD": -1,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 1,
@@ -15,47 +15,57 @@
     {
       "pair": "GBPUSD",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 2,
-      "quote_score": -3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "強くロング",
       "diff": 3,
       "base_score": 2,
       "quote_score": -1
     },
     {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
+    },
+    {
       "pair": "USDJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -3,
-      "quote_score": -1
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": -1,
-      "quote_score": -3
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 0,
+      "quote_score": -1
     },
     {
       "pair": "AUDUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
+      "direction": "様子見",
+      "diff": 0,
       "base_score": -1,
-      "quote_score": -3
+      "quote_score": -1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": -1,
-      "quote_score": -1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regula"
+    },
     {
       "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
@@ -88,18 +98,28 @@
     },
     {
       "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula",
-      "summary": "Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula"
-    },
-    {
-      "source": "Fed",
       "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
       "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Exp"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
+      "source": "FXStreet",
+      "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
+      "summary": "Silver price retreats on Friday, dropping about 0.76% as US Treasury yields edged higher, capping US Dollar depreciation"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Mexican Peso rebounds but carry trade exodus still bites",
+      "summary": "The Mexican Peso (MXN) recovers some ground versus the US Dollar (USD) on Friday, gaining 0.5%, but it remains poised to"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Gold fails at $4,200 despite NFP miss as US yields climb",
+      "summary": "Gold prices dropped on Friday, with the yellow metal struggling to decisively break the $4,200 milestone. The precious m"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Fed’s Goolsbee says inflation now outweighs labor concerns",
+      "summary": "Chicago Federal Reserve (Fed) President Austan Goolsbee said in an interview with Fox Business that the labor market is "
     },
     {
       "source": "FXStreet",
@@ -132,60 +152,40 @@
       "summary": "USD/JPY trades around 157.65 on Friday at the time of writing, down 0.28% on the day. The pair briefly dropped to 156.95"
     },
     {
-      "source": "FXStreet",
-      "title": "Canada labour market: Tariff effects assessed – RBC",
-      "summary": "Royal Bank of Canada analysts review Canada’s September labour report, the first full dataset since U.S. Section 338 tar"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US labour market: Softer jobs ease Fed hike risk – ABN Amro",
-      "summary": "ABN Amro’s Rogier Quaedvlieg notes September US labour market data came in weaker than expected, with payrolls at 29k ve"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro rebounds above 1.1250 after weak US jobs data weighs on US Dollar",
-      "summary": "EUR/USD rebounds to around 1.1260 on Friday, gaining 0.16% on the day at the time of writing, after hitting an intraday "
-    },
-    {
       "source": "Investing",
       "title": "COINPAYMENTS founder Alex Alexandrov appointed Group CEO as company strengthens executive team",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
   "cot": {
     "CHF": {
-      "long": 133495,
-      "short": 87286,
-      "net": 46209,
+      "long": 133872,
+      "short": 86127,
+      "net": 47745,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 40955,
-      "short": 1203,
-      "net": 39752,
+      "long": 41138,
+      "short": 0,
+      "net": 41138,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 18263,
-      "short": 0,
-      "net": 18263,
+      "long": 360720,
+      "short": 54528,
+      "net": 306192,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 18263,
+      "long": 41138,
       "short": 0,
-      "net": 18263,
+      "net": 41138,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 306488,
-      "short": 78235,
-      "net": 228253,
+      "long": 309800,
+      "short": 82358,
+      "net": 227442,
       "bias": "🟢ロング優勢"
     }
   },
@@ -194,22 +194,18 @@
       "[中銀] 利上げ方向 (金利差方向)",
       "[弱気] New Zealand Dollar rebounds after sharp US employment d",
       "[弱気] US payrolls miss at 29K and the Dollar Index drops belo",
-      "[弱気] Japanese Yen gives back post-NFP gains despite US Dolla",
-      "[弱気] US labour market: Softer jobs ease Fed hike risk – ABN ",
-      "[弱気] Euro rebounds above 1.1250 after weak US jobs data weig"
-    ],
-    "JPY": [
       "[弱気] Japanese Yen gives back post-NFP gains despite US Dolla"
     ],
-    "EUR": [
-      "[弱気] Euro rebounds above 1.1250 after weak US jobs data weig"
+    "JPY": [
+      "[COT] 🟢ロング優勢 (ネット:+306,192)",
+      "[弱気] Japanese Yen gives back post-NFP gains despite US Dolla"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)"
+      "[COT] 🟢ロング優勢 (ネット:+227,442)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
@@ -218,57 +214,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.29,
+    "US_10Y": 5.24,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.35,
-    "DIFF_EURUSD": -2.11,
-    "DIFF_GBPUSD": -0.3,
-    "DIFF_AUDUSD": -0.28
+    "DIFF_USDJPY": 2.3,
+    "DIFF_EURUSD": -2.06,
+    "DIFF_GBPUSD": -0.25,
+    "DIFF_AUDUSD": -0.23
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.09109,
-      "today_close": 157.86679,
-      "prev_close": 158.09256,
-      "diff": -0.2258,
-      "diff_pct": -0.14
+      "today_open": 157.86399,
+      "today_close": 157.82019,
+      "prev_close": 157.86515,
+      "diff": -0.045,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.86679,
-      "sma20": 156.8944,
-      "sma50": 157.4585,
-      "sma200": 159.2933,
+      "latest": 157.82019,
+      "sma20": 157.106,
+      "sma50": 157.4284,
+      "sma200": 159.2872,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 51.0,
+      "rsi14": 53.7,
       "high20": 159.0292,
-      "low20": 152.3794,
+      "low20": 153.2197,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.4,
-      "chg20d_pct": 2.8
+      "chg5d_pct": 0.28,
+      "chg20d_pct": 2.76
     },
     "EURUSD": {
-      "latest": 1.12544,
-      "sma20": 1.1424,
-      "sma50": 1.1542,
-      "sma200": 1.156,
+      "latest": 1.12586,
+      "sma20": 1.1407,
+      "sma50": 1.1535,
+      "sma200": 1.1559,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 15.7,
-      "high20": 1.161,
+      "rsi14": 20.4,
+      "high20": 1.16,
       "low20": 1.1216,
       "high60": 1.1711,
       "low60": 1.1216,
-      "chg5d_pct": -1.13,
-      "chg20d_pct": -2.97
+      "chg5d_pct": -0.99,
+      "chg20d_pct": -2.93
     }
   }
 }
