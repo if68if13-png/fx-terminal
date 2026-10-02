@@ -1,44 +1,44 @@
 {
-  "timestamp": "2026-10-01T20:09:42.670939",
-  "generated": "2026年10月01日 20:09",
+  "timestamp": "2026-10-02T00:33:48.586408",
+  "generated": "2026年10月02日 00:33",
   "scores": {
-    "USD": 5,
+    "USD": 4,
     "JPY": 0,
-    "EUR": 1,
+    "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -6,
-      "base_score": -1,
-      "quote_score": 5
-    },
-    {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 5,
-      "base_score": 5,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -4,
-      "base_score": 1,
-      "quote_score": 5
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 5
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -50,8 +50,8 @@
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 1,
+      "diff": 0,
+      "base_score": 0,
       "quote_score": 0
     }
   ],
@@ -103,43 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Jefferson says US economy is near maximum employment",
-      "summary": "Federal Reserve (Fed) Vice Chairman Philip Jefferson said Thursday that “inflation has resulted from a cascade of shocks"
+      "title": "US pressures EU to tap emergency diesel stockpiles",
+      "summary": "The US President Donald Trump administration told European allies to release diesel from national emergency stockpiles, "
     },
     {
       "source": "FXStreet",
-      "title": "Dollar Index breaks its June peak as the Euro sinks on dearer Crude Oil",
-      "summary": "The odds of an October Fed rate hike have roughly halved since Monday, and the Dollar Index has risen on every one of th"
+      "title": "The Japanese Yen gains little from a hot Tokyo inflation report",
+      "summary": "Tokyo's core inflation rate came in at 2.7% against a 2.4% forecast, a beat that should have done more for the Yen than "
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index Price Forecast: DXY reaches fresh yearly high, but RSI turns overbought",
-      "summary": "The US Dollar Index (DXY) rally gathers pace on Thursday, climbing to a fresh year-to-date high as resilient US economic"
+      "title": "Fed’s Logan: Policy rate must increase by additional 50 bps or more",
+      "summary": "Federal Reserve (Fed) Bank of Dallas President Lorie Logan said on Thursday that the central bank will need to raise sho"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Kashkari keeps October meeting open, still sees more hikes ahead",
-      "summary": "Minneapolis Federal Reserve (Fed) President Neel Kashkari said on Thursday he is unsure about an October rate hike but a"
+      "title": "Breaking: Japan’s Tokyo CPI inflation climbs 2.7% in September",
+      "summary": "The headline Tokyo Consumer Price Index (CPI) for September rose 2.7% YoY as compared to 1.9% in the previous month, the"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Jefferson signals patience as next rate move stays data-driven",
-      "summary": "Vice Chairman of the Federal Reserve (Fed) Philip Jefferson said on Thursday that the Fed \"is fully committed to returni"
+      "title": "Australian Dollar drifts toward 0.69 as USD shrugs off Fed patience",
+      "summary": "The Aussie Dollar drifts lower, down 0.26% against the US Dollar, as the latter extends its gains for the fourth straigh"
     },
     {
       "source": "FXStreet",
-      "title": "Banxico survey sees lower inflation, stronger growth and 6.50% hold",
-      "summary": "A Bank of Mexico (Banxico) survey of private economists revised down headline and core inflation forecasts, updated proj"
+      "title": "The Japanese Yen weakens as traders pare Bank of Japan October hike bets",
+      "summary": "The Yen is falling on the timetable of the Bank of Japan (BoJ) rather than on Japanese inflation. The BoJ published its "
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: US NFP takes centre stage",
-      "summary": "The US Dollar (USD) has advanced further on Thursday, trading in levels last seen in early April 2025 on the back of the"
+      "title": "The New Zealand Dollar extends its slide as the US Dollar hits a yearly high",
+      "summary": "Five losing weeks in a row and most of a sixth have taken NZD/USD to its lowest since the Reserve Bank of New Zealand (R"
     },
     {
       "source": "FXStreet",
-      "title": "Gold struggles as elevated US Treasury yields outweigh dovish Fed repricing",
-      "summary": "Gold (XAU/USD) treads water on Thursday as a stronger US Dollar (USD) and elevated US Treasury yields limit the upside."
+      "title": "The Euro sells off hard as the French-German bond gap widens",
+      "summary": "France unveiled a 2027 budget on Thursday aimed at reassuring the investors who lend it money, and EUR/USD is heading fo"
     },
     {
       "source": "Investing",
@@ -187,77 +187,78 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Dollar Index breaks its June peak as the Euro sinks on ",
-      "[強気] Fed’s Kashkari keeps October meeting open, still sees m",
-      "[強気] Banxico survey sees lower inflation, stronger growth an"
+      "[強気] The Japanese Yen gains little from a hot Tokyo inflatio",
+      "[強気] Australian Dollar drifts toward 0.69 as USD shrugs off "
     ],
-    "EUR": [
-      "[強気] Dollar Index breaks its June peak as the Euro sinks on "
+    "JPY": [
+      "[強気] The Japanese Yen gains little from a hot Tokyo inflatio",
+      "[弱気] The Japanese Yen weakens as traders pare Bank of Japan "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+228,253)"
+      "[COT] 🟢ロング優勢 (ネット:+228,253)",
+      "[強気] Australian Dollar drifts toward 0.69 as USD shrugs off "
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
     ]
   },
   "rates": {
-    "US_FF": 3.63,
-    "US_10Y": 5.26,
+    "US_FF": 3.75,
+    "US_10Y": 5.29,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.32,
-    "DIFF_EURUSD": -2.08,
-    "DIFF_GBPUSD": -0.27,
-    "DIFF_AUDUSD": -0.25
+    "DIFF_USDJPY": 2.35,
+    "DIFF_EURUSD": -2.11,
+    "DIFF_GBPUSD": -0.3,
+    "DIFF_AUDUSD": -0.28
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.41818,
-      "today_close": 158.13899,
-      "prev_close": 157.42028,
-      "diff": 0.7187,
-      "diff_pct": 0.46
+      "today_open": 158.09109,
+      "today_close": 157.94795,
+      "prev_close": 158.09256,
+      "diff": -0.1446,
+      "diff_pct": -0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.13899,
-      "sma20": 156.6819,
-      "sma50": 157.4925,
-      "sma200": 159.3,
+      "latest": 157.94795,
+      "sma20": 156.8984,
+      "sma50": 157.4601,
+      "sma200": 159.2937,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 38.8,
+      "rsi14": 51.0,
       "high20": 159.0292,
       "low20": 152.3794,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.53,
-      "chg20d_pct": 3.0
+      "chg5d_pct": 0.45,
+      "chg20d_pct": 2.85
     },
     "EURUSD": {
-      "latest": 1.12426,
-      "sma20": 1.1441,
-      "sma50": 1.1547,
-      "sma200": 1.1562,
+      "latest": 1.12374,
+      "sma20": 1.1423,
+      "sma50": 1.1541,
+      "sma200": 1.156,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 24.4,
+      "rsi14": 15.7,
       "high20": 1.161,
       "low20": 1.1216,
       "high60": 1.1711,
       "low60": 1.1216,
-      "chg5d_pct": -1.3,
-      "chg20d_pct": -3.07
+      "chg5d_pct": -1.28,
+      "chg20d_pct": -3.12
     }
   }
 }
