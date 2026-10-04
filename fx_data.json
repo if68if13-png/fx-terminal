@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-04T20:56:08.461445",
-  "generated": "2026年10月04日 20:56",
+  "timestamp": "2026-10-04T23:52:15.758095",
+  "generated": "2026年10月04日 23:52",
   "scores": {
     "USD": 0,
-    "JPY": 0,
+    "JPY": 1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": -2,
     "NZD": 1,
     "CAD": 0,
     "CHF": 0
@@ -20,35 +20,35 @@
       "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
-    },
-    {
       "pair": "AUDUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": -2,
       "quote_score": 0
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 0,
-      "quote_score": 0
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 0,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": 0,
       "base_score": 0,
@@ -103,6 +103,11 @@
     },
     {
       "source": "FXStreet",
+      "title": "Australian Dollar drifts higher above 0.6950 on soft US jobs data",
+      "summary": "The AUD/USD pair edges higher to around 0.6955 during the earlyAsian session on Monday. Weaker-than-expected US jobs dat"
+    },
+    {
+      "source": "FXStreet",
       "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
       "summary": "Silver price retreats on Friday, dropping about 0.76% as US Treasury yields edged higher, capping US Dollar depreciation"
     },
@@ -142,18 +147,13 @@
       "summary": "TD Securities' Macro Research’s FX team notes the softer US payrolls data is only marginally negative for the Dollar, wi"
     },
     {
-      "source": "FXStreet",
-      "title": "US Dollar: FOMC minutes to offer limited fresh clues – TD Securities",
-      "summary": "TD Securities analysts characterize the upcoming September FOMC minutes as largely outdated given subsequent employment "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japanese Yen gives back post-NFP gains despite US Dollar weakness",
-      "summary": "USD/JPY trades around 157.65 on Friday at the time of writing, down 0.28% on the day. The pair briefly dropped to 156.95"
+      "source": "Investing",
+      "title": "Bitcoin slightly up for the week on pared Fed rate hike bets, ’uptober’ hopes",
+      "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slightly up for the week on pared Fed rate hike bets, ’uptober’ hopes",
+      "title": "COINPAYMENTS founder Alex Alexandrov appointed Group CEO as company strengthens executive team",
       "summary": ""
     }
   ],
@@ -192,21 +192,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] Australian Dollar drifts higher above 0.6950 on soft US",
       "[弱気] New Zealand Dollar rebounds after sharp US employment d",
       "[弱気] US payrolls miss at 29K and the Dollar Index drops belo",
-      "[弱気] Japanese Yen gives back post-NFP gains despite US Dolla",
       "[強気] Bitcoin slightly up for the week on pared Fed rate hike"
     ],
     "JPY": [
-      "[COT] 🟢ロング優勢 (ネット:+306,192)",
-      "[弱気] Japanese Yen gives back post-NFP gains despite US Dolla"
+      "[COT] 🟢ロング優勢 (ネット:+306,192)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+227,442)"
+      "[COT] 🟢ロング優勢 (ネット:+227,442)",
+      "[弱気] Australian Dollar drifts higher above 0.6950 on soft US"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)",
@@ -228,18 +228,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.86555,
-      "today_close": 157.83124,
+      "today_close": 157.7716,
       "prev_close": 157.8779,
-      "diff": -0.0467,
-      "diff_pct": -0.03
+      "diff": -0.1063,
+      "diff_pct": -0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.83124,
-      "sma20": 157.4987,
-      "sma50": 157.3387,
-      "sma200": 159.2713,
+      "latest": 157.7716,
+      "sma20": 157.4957,
+      "sma50": 157.3375,
+      "sma200": 159.271,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -248,11 +248,11 @@
       "low20": 155.3159,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.17,
-      "chg20d_pct": 0.97
+      "chg5d_pct": -0.2,
+      "chg20d_pct": 0.93
     },
     "EURUSD": {
-      "latest": 1.1255,
+      "latest": 1.12515,
       "sma20": 1.1367,
       "sma50": 1.1516,
       "sma200": 1.1555,
@@ -264,8 +264,8 @@
       "low20": 1.1216,
       "high60": 1.1711,
       "low60": 1.1216,
-      "chg5d_pct": 0.11,
-      "chg20d_pct": -1.82
+      "chg5d_pct": 0.08,
+      "chg20d_pct": -1.85
     }
   }
 }
