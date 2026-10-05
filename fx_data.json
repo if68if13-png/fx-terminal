@@ -1,119 +1,159 @@
 {
-  "timestamp": "2026-10-05T04:27:03.443146",
-  "generated": "2026年10月05日 04:27",
+  "timestamp": "2026-10-05T13:48:22.511532",
+  "generated": "2026年10月05日 13:48",
   "scores": {
-    "USD": 3,
+    "USD": 5,
     "JPY": 1,
-    "EUR": 0,
-    "GBP": 2,
+    "EUR": 1,
+    "GBP": 3,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": -1
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -6,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 5,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
+      "diff": -4,
+      "base_score": 1,
+      "quote_score": 5
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 3,
+      "quote_score": 5
+    },
+    {
+      "pair": "GBPJPY",
       "direction": "ロング優勢",
       "diff": 2,
       "base_score": 3,
       "quote_score": 1
     },
     {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
-    },
-    {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
+      "diff": 0,
+      "base_score": 1,
       "quote_score": 1
     }
   ],
   "news": [
     {
-      "source": "FXStreet",
-      "title": "Breaking: Euro plummets to May 2025 low vs bullish USD amid France's debt crisis",
-      "summary": "The EUR/USD pair comes under intense selling pressure on Monday, breaking below the 1.1200 mark and hitting a fresh low "
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
+      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
+      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regula"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
+      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc."
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
+      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and red"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
+      "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc."
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
+      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
+      "summary": "Federal Reserve Board announces approval of application by BancFirst Corporation"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
+      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Exp"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc weakens as safe-haven demand lifts US Dollar",
-      "summary": "USD/CHF gains ground after two days of losses, trading around 0.8310 during Asian hours on Monday. The pair is currently"
+      "title": "British Pound: Gradual Dollar gains into United Kingdom budget – HSBC",
+      "summary": "HSBC strategists highlight that GBP/USD is under pressure as resilient United States (US) data, a more hawkish Federal R"
     },
     {
       "source": "FXStreet",
-      "title": "US data week: ISM, labor and sentiment in focus – TD Securities",
-      "summary": "Munoz and Nir expect a relatively quiet US data calendar, with ISM Services likely slipping to 54.0 versus 55.0 consensu"
+      "title": "Gold struggles as dovish Fed repricing meets stronger US Dollar, elevated yields",
+      "summary": "Gold (XAU/USD) extends its sideways price action on Monday, entering New York trading hours on a subdued note. The metal"
     },
     {
       "source": "FXStreet",
-      "title": "AUD/USD Price Forecast: Fresh downside likely below 0.6900",
-      "summary": "The Australian Dollar (AUD) is down 0.15% to near 0.6935 against the US Dollar (USD) in the Asian trade on Monday. The A"
+      "title": "Euro extends decline against British Pound on France debt concerns",
+      "summary": "EUR/GBP extends its decline on Monday, sliding to its lowest level since mid-July as political turmoil and mounting conc"
     },
     {
       "source": "FXStreet",
-      "title": "US economy: Mixed labour and inflation picture – NBC Economics and Strategy",
-      "summary": "NBC Economics and Strategy highlights that U.S. nonfarm payrolls rose just 29K in September versus a 90K consensus, whil"
+      "title": "Euro: Fragmentation fears weigh on EUR – OCBC",
+      "summary": "OCBC’s Christopher Wong notes that widening Eurozone bond spreads and fragmentation concerns are tightening financial co"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD gains near $61.00 as Fed rate hike odds decline",
-      "summary": "Silver price (XAG/USD) gains ground after registering losses in the previous day, trading around $61.00 per troy ounce d"
+      "title": "Oil: Crude forecasts signal inflation surprises ahead - Societe Generale",
+      "summary": "Societe Generale’s analysts use their Brent, West Texas Intermediate (WTI) and Diesel price forecasts to derive forward-"
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index gathers strength above 102.00 on safe-haven flows",
-      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
+      "title": "ISM Services PMI expected to signal a solid US economy in September",
+      "summary": "On Monday, we’ll get the latest read on the US services sector when the Institute for Supply Management (ISM) publishes "
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar flirts with YTD low, below 0.5900 amid resurgent USD demand",
-      "summary": "The NZD/USD pair kicks off the new week on a weaker note and slides back below the 0.5600 mark during the Asian session,"
+      "title": "Canadian Dollar bounces up as US Dollar  loses steam with services PMIs in focus",
+      "summary": "The Canadian Dollar (CAD) pares previous daily losses on Monday, as the US Dollar (USD) pulls back from multi-month high"
     },
     {
       "source": "FXStreet",
-      "title": "Gold holds gains above $4,150 as traders trim bets on Fed rate hikes",
-      "summary": "Gold price (XAU/USD) gains momentum to near $4,160 during the early Asian trading hours on Monday. The precious metal re"
+      "title": "European Central Bank: Contagion risk reshapes rate expectations – MUFG",
+      "summary": "MUFG’s Lee Hardman notes that unwanted tightening in Euro-zone financial conditions is prompting markets to pare back ex"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Australian Dollar: Downside limited against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) strategist Quek Ser Leang reports AUD/USD closed at 0.6951 after a brief spike to 0.6976, wit"
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy buys 334 bitcoin and holds 848,000 BTC as of October 4",
+      "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin slightly up for the week on pared Fed rate hike bets, ’uptober’ hopes",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "COINPAYMENTS founder Alex Alexandrov appointed Group CEO as company strengthens executive team",
-      "summary": ""
-    },
-    {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -152,15 +192,19 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Swiss Franc weakens as safe-haven demand lifts US Dolla",
-      "[強気] Silver Price Forecast: XAG/USD gains near $61.00 as Fed",
+      "[強気] British Pound: Gradual Dollar gains into United Kingdom",
+      "[強気] Gold struggles as dovish Fed repricing meets stronger U",
       "[強気] Bitcoin slightly up for the week on pared Fed rate hike"
     ],
     "JPY": [
       "[COT] 🟢ロング優勢 (ネット:+306,192)"
     ],
+    "EUR": [
+      "[強気] European Central Bank: Contagion risk reshapes rate exp"
+    ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] British Pound: Gradual Dollar gains into United Kingdom"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -168,9 +212,6 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[弱気] Swiss Franc weakens as safe-haven demand lifts US Dolla"
     ]
   },
   "rates": {
@@ -188,18 +229,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.86555,
-      "today_close": 158.13651,
+      "today_close": 158.17098,
       "prev_close": 157.8779,
-      "diff": 0.2586,
-      "diff_pct": 0.16
+      "diff": 0.2931,
+      "diff_pct": 0.19
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.13651,
-      "sma20": 157.514,
-      "sma50": 157.3448,
-      "sma200": 159.2728,
+      "latest": 158.17098,
+      "sma20": 157.5157,
+      "sma50": 157.3455,
+      "sma200": 159.273,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -208,12 +249,12 @@
       "low20": 155.3159,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.03,
-      "chg20d_pct": 1.16
+      "chg5d_pct": 0.05,
+      "chg20d_pct": 1.19
     },
     "EURUSD": {
-      "latest": 1.11674,
-      "sma20": 1.1363,
+      "latest": 1.11897,
+      "sma20": 1.1364,
       "sma50": 1.1515,
       "sma200": 1.1554,
       "vs_sma20": "下",
@@ -224,8 +265,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.67,
-      "chg20d_pct": -2.58
+      "chg5d_pct": -0.47,
+      "chg20d_pct": -2.39
     }
   }
 }
