@@ -1,37 +1,44 @@
 {
-  "timestamp": "2026-10-04T23:52:15.758095",
-  "generated": "2026年10月04日 23:52",
+  "timestamp": "2026-10-05T04:27:03.443146",
+  "generated": "2026年10月05日 04:27",
   "scores": {
-    "USD": 0,
+    "USD": 3,
     "JPY": 1,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
-    "NZD": 1,
+    "AUD": -1,
+    "NZD": 2,
     "CAD": 0,
-    "CHF": 0
+    "CHF": -1
   },
   "pairs": [
     {
-      "pair": "GBPUSD",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": -1,
+      "quote_score": 3
     },
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -2,
-      "quote_score": 0
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 3,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -46,105 +53,53 @@
       "diff": 1,
       "base_score": 2,
       "quote_score": 1
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
     }
   ],
   "news": [
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
-      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regula"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc."
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements",
-      "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and red"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc.",
-      "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc."
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by BancFirst Corporation",
-      "summary": "Federal Reserve Board announces approval of application by BancFirst Corporation"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
-      "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Exp"
+      "source": "FXStreet",
+      "title": "Breaking: Euro plummets to May 2025 low vs bullish USD amid France's debt crisis",
+      "summary": "The EUR/USD pair comes under intense selling pressure on Monday, breaking below the 1.1200 mark and hitting a fresh low "
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar drifts higher above 0.6950 on soft US jobs data",
-      "summary": "The AUD/USD pair edges higher to around 0.6955 during the earlyAsian session on Monday. Weaker-than-expected US jobs dat"
+      "title": "Swiss Franc weakens as safe-haven demand lifts US Dollar",
+      "summary": "USD/CHF gains ground after two days of losses, trading around 0.8310 during Asian hours on Monday. The pair is currently"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: Bears crowd $60 after six-percent weekly rout",
-      "summary": "Silver price retreats on Friday, dropping about 0.76% as US Treasury yields edged higher, capping US Dollar depreciation"
+      "title": "US data week: ISM, labor and sentiment in focus – TD Securities",
+      "summary": "Munoz and Nir expect a relatively quiet US data calendar, with ISM Services likely slipping to 54.0 versus 55.0 consensu"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso rebounds but carry trade exodus still bites",
-      "summary": "The Mexican Peso (MXN) recovers some ground versus the US Dollar (USD) on Friday, gaining 0.5%, but it remains poised to"
+      "title": "AUD/USD Price Forecast: Fresh downside likely below 0.6900",
+      "summary": "The Australian Dollar (AUD) is down 0.15% to near 0.6935 against the US Dollar (USD) in the Asian trade on Monday. The A"
     },
     {
       "source": "FXStreet",
-      "title": "Gold fails at $4,200 despite NFP miss as US yields climb",
-      "summary": "Gold prices dropped on Friday, with the yellow metal struggling to decisively break the $4,200 milestone. The precious m"
+      "title": "US economy: Mixed labour and inflation picture – NBC Economics and Strategy",
+      "summary": "NBC Economics and Strategy highlights that U.S. nonfarm payrolls rose just 29K in September versus a 90K consensus, whil"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Goolsbee says inflation now outweighs labor concerns",
-      "summary": "Chicago Federal Reserve (Fed) President Austan Goolsbee said in an interview with Fox Business that the labor market is "
+      "title": "Silver Price Forecast: XAG/USD gains near $61.00 as Fed rate hike odds decline",
+      "summary": "Silver price (XAG/USD) gains ground after registering losses in the previous day, trading around $61.00 per troy ounce d"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar rebounds after sharp US employment disappointment",
-      "summary": "NZD/USD advances on Friday and trades around 0.5610 at the time of writing, up 0.12% on the day. The New Zealand Dollar "
+      "title": "United States Dollar Index gathers strength above 102.00 on safe-haven flows",
+      "summary": "The US Dollar Index (DXY), an index of the value of the US Dollar (USD) measured against a basket of six world currencie"
     },
     {
       "source": "FXStreet",
-      "title": "US payrolls miss at 29K and the Dollar Index drops below 102.00",
-      "summary": "US employers added 29K jobs in September against a forecast of 90K, and July and August were revised down by a combined "
+      "title": "New Zealand Dollar flirts with YTD low, below 0.5900 amid resurgent USD demand",
+      "summary": "The NZD/USD pair kicks off the new week on a weaker note and slides back below the 0.5600 mark during the Asian session,"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound rebounds as NFP knocks out October Fed hike bets",
-      "summary": "The Pound Sterling (GBP) rises by over 0.41% against the US Dollar (USD) on Friday, as the US Unemployment Rate rises am"
-    },
-    {
-      "source": "FXStreet",
-      "title": "US Dollar: Fading rallies as Fed pricing peaks – TD Securities",
-      "summary": "TD Securities' Macro Research’s FX team notes the softer US payrolls data is only marginally negative for the Dollar, wi"
+      "title": "Gold holds gains above $4,150 as traders trim bets on Fed rate hikes",
+      "summary": "Gold price (XAU/USD) gains momentum to near $4,160 during the early Asian trading hours on Monday. The precious metal re"
     },
     {
       "source": "Investing",
@@ -154,6 +109,11 @@
     {
       "source": "Investing",
       "title": "COINPAYMENTS founder Alex Alexandrov appointed Group CEO as company strengthens executive team",
+      "summary": ""
+    },
+    {
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -192,9 +152,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar drifts higher above 0.6950 on soft US",
-      "[弱気] New Zealand Dollar rebounds after sharp US employment d",
-      "[弱気] US payrolls miss at 29K and the Dollar Index drops belo",
+      "[弱気] Swiss Franc weakens as safe-haven demand lifts US Dolla",
+      "[強気] Silver Price Forecast: XAG/USD gains near $61.00 as Fed",
       "[強気] Bitcoin slightly up for the week on pared Fed rate hike"
     ],
     "JPY": [
@@ -205,12 +164,13 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+227,442)",
-      "[弱気] Australian Dollar drifts higher above 0.6950 on soft US"
+      "[COT] 🟢ロング優勢 (ネット:+227,442)"
     ],
     "NZD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] New Zealand Dollar rebounds after sharp US employment d"
+      "[中銀] 利上げ方向 (金利差方向)"
+    ],
+    "CHF": [
+      "[弱気] Swiss Franc weakens as safe-haven demand lifts US Dolla"
     ]
   },
   "rates": {
@@ -228,18 +188,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.86555,
-      "today_close": 157.7716,
+      "today_close": 158.13651,
       "prev_close": 157.8779,
-      "diff": -0.1063,
-      "diff_pct": -0.07
+      "diff": 0.2586,
+      "diff_pct": 0.16
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.7716,
-      "sma20": 157.4957,
-      "sma50": 157.3375,
-      "sma200": 159.271,
+      "latest": 158.13651,
+      "sma20": 157.514,
+      "sma50": 157.3448,
+      "sma200": 159.2728,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -248,24 +208,24 @@
       "low20": 155.3159,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.2,
-      "chg20d_pct": 0.93
+      "chg5d_pct": 0.03,
+      "chg20d_pct": 1.16
     },
     "EURUSD": {
-      "latest": 1.12515,
-      "sma20": 1.1367,
-      "sma50": 1.1516,
-      "sma200": 1.1555,
+      "latest": 1.11674,
+      "sma20": 1.1363,
+      "sma50": 1.1515,
+      "sma200": 1.1554,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 14.5,
       "high20": 1.1501,
-      "low20": 1.1216,
+      "low20": 1.1162,
       "high60": 1.1711,
-      "low60": 1.1216,
-      "chg5d_pct": 0.08,
-      "chg20d_pct": -1.85
+      "low60": 1.1162,
+      "chg5d_pct": -0.67,
+      "chg20d_pct": -2.58
     }
   }
 }
