@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-10-06T05:13:39.356955",
-  "generated": "2026年10月06日 05:13",
+  "timestamp": "2026-10-06T12:52:44.931345",
+  "generated": "2026年10月06日 12:52",
   "scores": {
     "USD": 2,
-    "JPY": 2,
+    "JPY": 1,
     "EUR": -1,
-    "GBP": 2,
+    "GBP": 1,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
@@ -28,31 +28,31 @@
     },
     {
       "pair": "EURJPY",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
-      "diff": 0,
+      "diff": 1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
-      "base_score": 2,
+      "diff": -1,
+      "base_score": 1,
       "quote_score": 2
     },
     {
       "pair": "GBPJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,38 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "AUD/JPY Price Forecast: Strengthens above 110.00, while bearish technical bias persists",
-      "summary": "The AUD/JPY cross trades in positive territory near 110.20 during the early European trading hours on Tuesday. Traders a"
+      "title": "Japanese Yen: Range-bound trade persists against US Dollar – UOB",
+      "summary": "United Overseas Bank strategists Quek Ser Leang and Lee Sue Ann note that USD/JPY lacks clear directional cues in the sh"
     },
     {
       "source": "FXStreet",
-      "title": "BoJ may indicate underlying inflation is near the 2% target, sources say",
-      "summary": "The Bank of Japan (BoJ) could indicate later this month that underlying inflation has reached nearly its 2% target, acco"
+      "title": "Gold rebounds from two-month lows as US Dollar, Treasury yields retreat",
+      "summary": "Gold (XAU/USD) rebounds on Tuesday as a pullback in US Treasury yields weighs on the US Dollar (USD), helping the metal "
     },
     {
       "source": "FXStreet",
-      "title": "United States Dollar Index holds above 102, remains supported by firm bond yields",
-      "summary": "The US Dollar (USD) trades  broadly firm against its major currency peers as United States (US) bond yields remain highe"
+      "title": "US ADP Employment Change 4-week average increases to 23.750K",
+      "summary": "Private-sector hiring in the US has gained some pace in early September. According to the NER Pulse, the weekly companio"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen steadies amid expansionary fiscal plans, rate hike uncertainty",
-      "summary": "USD/JPY moves little after posting minor gains in the previous day, trading around 157.90 during Asian hours on Tuesday."
+      "title": "Brazilian Real: Bolsonaro runoff risks and fiscal hopes – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong note Brazilian assets rallied after Flávio Bolsonaro’s stronger-than"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar consolidates around 0.5600, near YTD low as USD stays bullish",
-      "summary": "The NZD/USD pair seesaws between tepid gains and minor losses during the Asian session on Tuesday, trading around the 0."
+      "title": "EUR/GBP Price Forecast: Bears retain control as RSI turns oversold",
+      "summary": "EUR/GBP fluctuates between gains and losses on Tuesday, pausing a seven-day selloff driven by sharp weakness in the Euro"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD falls to near $60.50 as US Treasury yields rise",
-      "summary": "Silver price (XAG/USD) pares its recent gains from the previous day, trading around $60.70 per troy ounce during Asian h"
+      "title": "Czech Koruna: Hawkish CNB keeps CZK supported against Euro - Societe Generale",
+      "summary": "Societe Generale’s Kenneth Broux flags that a surprise upside in Czech inflation to 2.5% has reinforced the Czech Nation"
     },
     {
       "source": "FXStreet",
-      "title": "Euro weakens below 1.1250 on France debt concerns",
-      "summary": "The EUR/USD pair declined to around 1.1220 during the early Asian trading hours on Tuesday. The Euro (EUR) weakens near "
+      "title": "Euro: Balancing pressures as Fed path repriced – OCBC",
+      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong highlight EUR/USD caught between French political-fiscal risks and a"
+    },
+    {
+      "source": "FXStreet",
+      "title": "1.1111: Why the Euro's next key support is in view as France's budget crisis deepens",
+      "summary": "EUR/USD has slipped to fresh 17-month lows near 1.1160, weighed down by escalating political and fiscal uncertainties ac"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Indian Rupee declines further, RBI's policy awaited",
+      "summary": "The Indian Rupee (INR) trades lower against the US Dollar (USD) on Tuesday due to the continuous surge in global bond yi"
     },
     {
       "source": "Investing",
@@ -182,18 +192,20 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen steadies amid expansionary fiscal plans, r",
-      "[弱気] Euro weakens below 1.1250 on France debt concerns"
+      "[弱気] Euro: Balancing pressures as Fed path repriced – OCBC",
+      "[強気] Indian Rupee declines further, RBI's policy awaited"
     ],
     "JPY": [
-      "[COT] 🟢ロング優勢 (ネット:+306,192)",
-      "[強気] Japanese Yen steadies amid expansionary fiscal plans, r"
+      "[COT] 🟢ロング優勢 (ネット:+306,192)"
     ],
     "EUR": [
-      "[弱気] Euro weakens below 1.1250 on France debt concerns"
+      "[弱気] EUR/GBP Price Forecast: Bears retain control as RSI tur",
+      "[強気] Czech Koruna: Hawkish CNB keeps CZK supported against E",
+      "[弱気] Euro: Balancing pressures as Fed path repriced – OCBC"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] EUR/GBP Price Forecast: Bears retain control as RSI tur"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -203,7 +215,7 @@
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "CHF": [
-      "[弱気] Euro weakens below 1.1250 on France debt concerns"
+      "[弱気] EUR/GBP Price Forecast: Bears retain control as RSI tur"
     ]
   },
   "rates": {
@@ -221,18 +233,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.97001,
-      "today_close": 158.17525,
+      "today_close": 158.09979,
       "prev_close": 157.97139,
-      "diff": 0.2039,
-      "diff_pct": 0.13
+      "diff": 0.1284,
+      "diff_pct": 0.08
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.17525,
-      "sma20": 157.6155,
-      "sma50": 157.3126,
-      "sma200": 159.2667,
+      "latest": 158.09979,
+      "sma20": 157.6118,
+      "sma50": 157.3111,
+      "sma200": 159.2663,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -241,13 +253,13 @@
       "low20": 155.886,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": 1.41
+      "chg5d_pct": 0.15,
+      "chg20d_pct": 1.36
     },
     "EURUSD": {
-      "latest": 1.12185,
-      "sma20": 1.1353,
-      "sma50": 1.1508,
+      "latest": 1.12605,
+      "sma20": 1.1355,
+      "sma50": 1.1509,
       "sma200": 1.1553,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -257,8 +269,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.3,
-      "chg20d_pct": -2.24
+      "chg5d_pct": 0.07,
+      "chg20d_pct": -1.88
     }
   }
 }
