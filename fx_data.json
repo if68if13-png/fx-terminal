@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-10-07T00:24:03.133440",
-  "generated": "2026年10月07日 00:24",
+  "timestamp": "2026-10-07T09:56:13.832350",
+  "generated": "2026年10月07日 09:56",
   "scores": {
     "USD": 1,
-    "JPY": 2,
-    "EUR": 0,
-    "GBP": 2,
-    "AUD": -1,
+    "JPY": -1,
+    "EUR": -2,
+    "GBP": 1,
+    "AUD": -2,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": -1,
+      "pair": "EURUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -2,
       "quote_score": 1
     },
     {
-      "pair": "EURJPY",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -3,
+      "base_score": -2,
+      "quote_score": 1
     },
     {
       "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 1,
-      "quote_score": 2
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 1,
+      "quote_score": -1
+    },
+    {
+      "pair": "EURJPY",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": -2,
+      "quote_score": -1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "BoJ’s Sato signals support for future rate hikes",
-      "summary": "The Bank of Japan's (BoJ) new ‌policymaker Ayano Sato said that she supports the idea of raising interest rates in sever"
+      "title": "Gold Price Forecast: XAU/USD retraces gains and nears two-month lows at $4,104",
+      "summary": "Gold (XAU/USD) retraces Tuesday’s gains on Wednesday and resumes its broader bearish trend, with the US Dollar (USD) app"
     },
     {
       "source": "FXStreet",
-      "title": "The Pound climbs against the Japanese Yen as the BoJ gives no hike signal",
-      "summary": "210.00 has capped GBP/JPY three times since September 24, give or take a few pips, the latest on Tuesday. The cross trad"
+      "title": "Australian Dollar: Neutral outlook inside tight range against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann note that AUD/USD extended its recent gains on Tue"
     },
     {
       "source": "FXStreet",
-      "title": "The Australian Dollar slips against the New Zealand Dollar as confidence sinks",
-      "summary": "Australian consumer sentiment fell 4.7% to 80.4 in October, and the Reserve Bank of Australia (RBA) hike on September 29"
+      "title": "Euro: OAT repricing keeps downside bias against US Dollar – MUFG",
+      "summary": "Halpenny argues that last week’s sharp widening of the OAT/Bund spread to 150 bps looked overdone, with French bonds now"
     },
     {
       "source": "FXStreet",
-      "title": "Gold rises above $4,150 as bond yields turn lower, traders await FOMC Minutes",
-      "summary": "Gold price (XAU/USD) rises to near $4,165 during the early Asian session on Wednesday. The precious metal rebounds as lo"
+      "title": "WTI eases as Gulf export flows counter Middle East, US storm concerns",
+      "summary": "West Texas Intermediate (WTI) oil price declines after paring its daily gains, trading around $89.00 per barrel during E"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar eyes 0.70 as three-day rally meets Fed minutes",
-      "summary": "The Australian Dollar extends its rally to three consecutive days, up 0.14% on Tuesday, as the US Dollar behaves erratic"
+      "title": "Polish Zloty: NBP cautious as inflation overshoots – Commerzbank",
+      "summary": "Commerzbank’s Tatha Ghose highlights that Poland’s National Bank (NBP) is expected to keep its base rate at 3.75% in Oct"
     },
     {
       "source": "FXStreet",
-      "title": "The Japanese Yen flatlines through a BoJ speech that changed nothing",
-      "summary": "On Tuesday, Bank of Japan (BoJ) Governor Ueda gave his first major speech since the September 18 hike, and USD/JPY's who"
+      "title": "Indian Rupee approaches all-time low around 97 after RBI's hawkish policy decision",
+      "summary": "The Indian Rupee ((INR) weakens significantly against the US Dollar (USD) after a muted response, following the Reserve "
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso post gains as lower US yields revive the carry trade",
-      "summary": "The Mexican Peso stages a comeback against the US Dollar on Tuesday as the latter weakens amid profit-taking and lower U"
+      "title": "Euro tumbles after a relief rally as ECB officials warn economic slowdown",
+      "summary": "The Euro (EUR) underperforms its major currency peers on Wednesday, trading almost 0.55% lower at around 177.00 against "
     },
     {
       "source": "FXStreet",
-      "title": "The New Zealand Dollar edges off its low as the US Dollar slips",
-      "summary": "Traders give the Reserve Bank of New Zealand (RBNZ) about a 58% chance of raising its Official Cash Rate (OCR) to 3% on "
-    },
-    {
-      "source": "FXStreet",
-      "title": "The Euro wins back its slide to a fresh low as France files its budget",
-      "summary": "EUR/USD has won back all of Monday's drop to its lowest level since May 2025. The pair trades just above 1.1250, back at"
+      "title": "British Pound stays weak below 1.3250 as USD bulls retain control ahead of FOMC Minutes",
+      "summary": "The GBP/USD pair weakens further below mid-1.3200s during the first half of the European session on Wednesday, eroding a"
     },
     {
       "source": "Investing",
@@ -157,53 +152,25 @@
       "summary": ""
     }
   ],
-  "cot": {
-    "CHF": {
-      "long": 133872,
-      "short": 86127,
-      "net": 47745,
-      "bias": "🟢ロング優勢"
-    },
-    "GBP": {
-      "long": 41138,
-      "short": 0,
-      "net": 41138,
-      "bias": "🟢ロング優勢"
-    },
-    "JPY": {
-      "long": 360720,
-      "short": 54528,
-      "net": 306192,
-      "bias": "🟢ロング優勢"
-    },
-    "EUR": {
-      "long": 41138,
-      "short": 0,
-      "net": 41138,
-      "bias": "🟢ロング優勢"
-    },
-    "AUD": {
-      "long": 309800,
-      "short": 82358,
-      "net": 227442,
-      "bias": "🟢ロング優勢"
-    }
-  },
+  "cot": {},
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Mexican Peso post gains as lower US yields revive the c"
+      "[弱気] British Pound stays weak below 1.3250 as USD bulls reta"
     ],
     "JPY": [
-      "[COT] 🟢ロング優勢 (ネット:+306,192)",
-      "[強気] BoJ’s Sato signals support for future rate hikes"
+      "[弱気] Euro tumbles after a relief rally as ECB officials warn"
+    ],
+    "EUR": [
+      "[弱気] Euro tumbles after a relief rally as ECB officials warn",
+      "[弱気] British Pound stays weak below 1.3250 as USD bulls reta"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[弱気] British Pound stays weak below 1.3250 as USD bulls reta"
     ],
     "AUD": [
-      "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+227,442)"
+      "[中銀] 利下げ方向 (金利差方向)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -224,18 +191,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.16821,
-      "today_close": 158.46206,
+      "today_close": 158.34787,
       "prev_close": 158.17334,
-      "diff": 0.2887,
-      "diff_pct": 0.18
+      "diff": 0.1745,
+      "diff_pct": 0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.46206,
-      "sma20": 157.6938,
-      "sma50": 157.3186,
-      "sma200": 159.2622,
+      "latest": 158.34787,
+      "sma20": 157.6881,
+      "sma50": 157.3163,
+      "sma200": 159.2616,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -244,13 +211,13 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.38,
-      "chg20d_pct": 1.0
+      "chg5d_pct": 0.31,
+      "chg20d_pct": 0.93
     },
     "EURUSD": {
-      "latest": 1.12512,
-      "sma20": 1.1343,
-      "sma50": 1.1501,
+      "latest": 1.11928,
+      "sma20": 1.134,
+      "sma50": 1.15,
       "sma200": 1.1551,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -260,8 +227,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": -2.04
+      "chg5d_pct": -0.55,
+      "chg20d_pct": -2.55
     }
   }
 }
