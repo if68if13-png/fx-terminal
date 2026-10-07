@@ -1,47 +1,40 @@
 {
-  "timestamp": "2026-10-06T20:01:08.233326",
-  "generated": "2026年10月06日 20:01",
+  "timestamp": "2026-10-07T00:24:03.133440",
+  "generated": "2026年10月07日 00:24",
   "scores": {
-    "USD": 3,
-    "JPY": 1,
+    "USD": 1,
+    "JPY": 2,
     "EUR": 0,
-    "GBP": 3,
+    "GBP": 2,
     "AUD": -1,
     "NZD": 2,
     "CAD": 0,
-    "CHF": 1
+    "CHF": 0
   },
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -4,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": -1,
-      "quote_score": 3
-    },
-    {
-      "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 3,
       "quote_score": 1
     },
     {
       "pair": "EURJPY",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 0,
+      "quote_score": 2
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 1,
+      "quote_score": 2
+    },
+    {
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
       "base_score": 0,
@@ -50,9 +43,16 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
       "diff": 0,
-      "base_score": 3,
-      "quote_score": 3
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,43 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range trade against US Dollar with MAS in focus – OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong observe USD/SGD consolidating near recent highs, with bullish daily "
+      "title": "BoJ’s Sato signals support for future rate hikes",
+      "summary": "The Bank of Japan's (BoJ) new ‌policymaker Ayano Sato said that she supports the idea of raising interest rates in sever"
     },
     {
       "source": "FXStreet",
-      "title": "Philippines: One more BSP hike expected in October - Standard Chartered",
-      "summary": "Standard Chartered Bank economists Jonathan Koh and Edward Lee now expect Bangko Sentral ng Pilipinas to raise its polic"
+      "title": "The Pound climbs against the Japanese Yen as the BoJ gives no hike signal",
+      "summary": "210.00 has capped GBP/JPY three times since September 24, give or take a few pips, the latest on Tuesday. The cross trad"
     },
     {
       "source": "FXStreet",
-      "title": "Forex Today: The FOMC Minutes should shed further detail on the latest Fed decision",
-      "summary": "The US Dollar (USD) has come under fresh downside pressure on Tuesday, slipping back to the area of two-day lows as shri"
+      "title": "The Australian Dollar slips against the New Zealand Dollar as confidence sinks",
+      "summary": "Australian consumer sentiment fell 4.7% to 80.4 in October, and the Reserve Bank of Australia (RBA) hike on September 29"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Schmid warns inflation fight has a “way to go”",
-      "summary": "Kansas City Federal Reserve (Fed) President Jeffrey Schmid said on Tuesday that the labor market remains in a good place"
+      "title": "Gold rises above $4,150 as bond yields turn lower, traders await FOMC Minutes",
+      "summary": "Gold price (XAU/USD) rises to near $4,165 during the early Asian session on Wednesday. The precious metal rebounds as lo"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD remains range-bound below daily SMAs",
-      "summary": "Silver (XAG/USD) holds firm on Tuesday, supported by a pullback in the US Dollar (USD) and US Treasury yields. At the ti"
+      "title": "Australian Dollar eyes 0.70 as three-day rally meets Fed minutes",
+      "summary": "The Australian Dollar extends its rally to three consecutive days, up 0.14% on Tuesday, as the US Dollar behaves erratic"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Daly says more hikes may be needed if shocks persist",
-      "summary": "San Francisco Federal Reserve (Fed) President Mary Daly said she supported September’s rate hike and that additional rat"
+      "title": "The Japanese Yen flatlines through a BoJ speech that changed nothing",
+      "summary": "On Tuesday, Bank of Japan (BoJ) Governor Ueda gave his first major speech since the September 18 hike, and USD/JPY's who"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index slips from its 18-month high",
-      "summary": "Brent fell below $98 a barrel as Gulf exports picked up, and bond yields in Europe and the US fell with it. France got t"
+      "title": "Mexican Peso post gains as lower US yields revive the carry trade",
+      "summary": "The Mexican Peso stages a comeback against the US Dollar on Tuesday as the latter weakens amid profit-taking and lower U"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound catches bid as BoE hawk warns inflation is embedded",
-      "summary": "The Pound Sterling (GBP) advances about 0.40% on Tuesday as the Greenback retreats from multi-month highs, boosted by ha"
+      "title": "The New Zealand Dollar edges off its low as the US Dollar slips",
+      "summary": "Traders give the Reserve Bank of New Zealand (RBNZ) about a 58% chance of raising its Official Cash Rate (OCR) to 3% on "
+    },
+    {
+      "source": "FXStreet",
+      "title": "The Euro wins back its slide to a fresh low as France files its budget",
+      "summary": "EUR/USD has won back all of Monday's drop to its lowest level since May 2025. The pair trades just above 1.1250, back at"
     },
     {
       "source": "Investing",
@@ -187,14 +192,14 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Fed's Daly says more hikes may be needed if shocks pers"
+      "[弱気] Mexican Peso post gains as lower US yields revive the c"
     ],
     "JPY": [
-      "[COT] 🟢ロング優勢 (ネット:+306,192)"
+      "[COT] 🟢ロング優勢 (ネット:+306,192)",
+      "[強気] BoJ’s Sato signals support for future rate hikes"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] British Pound catches bid as BoE hawk warns inflation i"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
@@ -202,64 +207,61 @@
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "CHF": [
-      "[強気] Fed's Daly says more hikes may be needed if shocks pers"
     ]
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.28,
+    "US_10Y": 5.31,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.34,
-    "DIFF_EURUSD": -2.1,
-    "DIFF_GBPUSD": -0.29,
-    "DIFF_AUDUSD": -0.27
+    "DIFF_USDJPY": 2.37,
+    "DIFF_EURUSD": -2.13,
+    "DIFF_GBPUSD": -0.32,
+    "DIFF_AUDUSD": -0.29
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.97001,
-      "today_close": 158.17334,
-      "prev_close": 157.97139,
-      "diff": 0.2019,
-      "diff_pct": 0.13
+      "today_open": 158.16821,
+      "today_close": 158.46206,
+      "prev_close": 158.17334,
+      "diff": 0.2887,
+      "diff_pct": 0.18
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.17334,
-      "sma20": 157.6154,
-      "sma50": 157.3125,
-      "sma200": 159.2667,
+      "latest": 158.46206,
+      "sma20": 157.6938,
+      "sma50": 157.3186,
+      "sma200": 159.2622,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 74.5,
+      "rsi14": 82.2,
       "high20": 159.0292,
-      "low20": 155.886,
+      "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.2,
-      "chg20d_pct": 1.41
+      "chg5d_pct": 0.38,
+      "chg20d_pct": 1.0
     },
     "EURUSD": {
-      "latest": 1.12602,
-      "sma20": 1.1355,
-      "sma50": 1.1509,
-      "sma200": 1.1553,
+      "latest": 1.12512,
+      "sma20": 1.1343,
+      "sma50": 1.1501,
+      "sma200": 1.1551,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 13.3,
+      "rsi14": 7.7,
       "high20": 1.1501,
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": 0.07,
-      "chg20d_pct": -1.88
+      "chg5d_pct": -0.03,
+      "chg20d_pct": -2.04
     }
   }
 }
