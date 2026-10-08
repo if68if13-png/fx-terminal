@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-10-07T18:32:55.750508",
-  "generated": "2026年10月07日 18:32",
+  "timestamp": "2026-10-08T00:45:11.341611",
+  "generated": "2026年10月08日 00:45",
   "scores": {
     "USD": 5,
-    "JPY": 1,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -2,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
@@ -15,9 +15,16 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -7,
-      "base_score": -2,
+      "diff": -6,
+      "base_score": -1,
       "quote_score": 5
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 5,
+      "base_score": 5,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
@@ -27,13 +34,6 @@
       "quote_score": 5
     },
     {
-      "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 4,
-      "base_score": 5,
-      "quote_score": 1
-    },
-    {
       "pair": "GBPUSD",
       "direction": "強くショート",
       "diff": -3,
@@ -41,18 +41,18 @@
       "quote_score": 5
     },
     {
-      "pair": "EURJPY",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
-      "pair": "GBPJPY",
+      "pair": "EURJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "diff": 0,
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "WTI reverses earlier gains as recovering Middle East exports weigh",
-      "summary": "West Texas Intermediate (WTI) Oil trades lower on Wednesday, giving up earlier gains as a stronger US Dollar and recover"
+      "title": "Gold falls to two‑month low near $4,100 on stronger US Dollar",
+      "summary": "Gold price (XAU/USD) tumbles to a near two-month low around $4,110 during the early Asian session on Thursday. A stronge"
     },
     {
       "source": "FXStreet",
-      "title": "Breaking: Fed Minutes confirm another rate hike was already in sight",
-      "summary": "All participants at the Federal Reserve's (Fed) September 15–16 meeting supported the 25-basis-point rate increase, whil"
+      "title": "The Yen round-trips after Japanese pay beats its forecast",
+      "summary": "Japanese pay grew faster than forecast in August and the Yen weakened anyway. USD/JPY trades near 158.00, back where it "
     },
     {
       "source": "FXStreet",
-      "title": "Thailand: BoT policy risks balanced – Standard Chartered",
-      "summary": "Standard Chartered economist Tim Leelahaphan expects the Bank of Thailand (BoT) to keep its policy rate at 1.0% through "
+      "title": "Australian Dollar slips as Fed hike bets meet Middle East Oil risk",
+      "summary": "The Australian Dollar makes a U-turn and loses over 0.29% on Wednesday after the Federal Reserve revealed members expect"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound buckles as 30-year Gilts top 6%, US yields soar",
-      "summary": "The Pound Sterling (GBP) dives over 0.48% against the US Dollar (USD) on Wednesday as US Treasury yields hit a 24-year h"
+      "title": "The Euro gives back its bounce as French bonds sell off again",
+      "summary": "Banque de France Governor Moulin said on Wednesday that the strain in French bonds is serious but doesn't meet the condi"
     },
     {
       "source": "FXStreet",
-      "title": "USD/JPY Price Forecast: Pair consolidates below key moving averages",
-      "summary": "USD/JPY trades in a narrow range on Wednesday, with the Japanese Yen (JPY) holding a slight advantage over the US Dollar"
+      "title": "Mexican Peso holds firm as FOMC Minutes signal further rate hikes",
+      "summary": "The Mexican Peso finishes its winning streak yet holds firm at around Wednesday’s opening price against the US Dollar, a"
     },
     {
       "source": "FXStreet",
-      "title": "Gold tests $4,100 as US Dollar and yields rise ahead of FOMC Minutes",
-      "summary": "Gold (XAU/USD) extends its decline on Wednesday, falling nearly 1.3% as the US Dollar (USD) and US Treasury yields resum"
+      "title": "Chinese Yuan: Tight ranges persist against US Dollar – UOB",
+      "summary": "United Overseas Bank strategists Quek Ser Leang and Lee Sue Ann describe USD/CNH as confined to a narrow intraday band a"
     },
     {
       "source": "FXStreet",
-      "title": "US Dollar Index climbs back near its 18-month high as yields rise",
-      "summary": "The yield on the US 10-year Treasury note touched 5.35% on Wednesday, its highest since April 2002, and the 30-year bond"
+      "title": "Silver Price Forecast: XAG/USD cracks $60 as bears eye $56",
+      "summary": "Silver (XAG/USD) price extends its losses on Wednesday, following Gold’s path, as the latest Federal Reserve (Fed) Minut"
     },
     {
-      "source": "FXStreet",
-      "title": "NY Fed September survey shows households bracing for higher prices",
-      "summary": "The New York Fed's September Survey of Consumer Expectations showed that American households expect short-term inflation"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Vietnam: Strong GDP but rising inflation risks – Commerzbank",
-      "summary": "Commerzbank Research highlights Vietnam’s Q3 GDP growth at 10.0% year-on-year, the strongest since the pandemic, driven "
+      "source": "Investing",
+      "title": "Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -152,8 +147,8 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Superform Activates Earn Strategies for Tokenized Stocks on Base, Powered by Aave",
+      "source": "MarketWatch",
+      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
     }
   ],
@@ -161,18 +156,16 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] WTI reverses earlier gains as recovering Middle East ex",
-      "[強気] Breaking: Fed Minutes confirm another rate hike was alr",
-      "[強気] USD/JPY Price Forecast: Pair consolidates below key mov"
-    ],
-    "JPY": [
-      "[強気] USD/JPY Price Forecast: Pair consolidates below key mov"
+      "[強気] Gold falls to two‑month low near $4,100 on stronger US ",
+      "[強気] Australian Dollar slips as Fed hike bets meet Middle Ea",
+      "[強気] Mexican Peso holds firm as FOMC Minutes signal further "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
-      "[中銀] 利下げ方向 (金利差方向)"
+      "[中銀] 利下げ方向 (金利差方向)",
+      "[強気] Australian Dollar slips as Fed hike bets meet Middle Ea"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -180,57 +173,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.31,
+    "US_10Y": 5.27,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.37,
-    "DIFF_EURUSD": -2.13,
-    "DIFF_GBPUSD": -0.32,
-    "DIFF_AUDUSD": -0.29
+    "DIFF_USDJPY": 2.33,
+    "DIFF_EURUSD": -2.09,
+    "DIFF_GBPUSD": -0.28,
+    "DIFF_AUDUSD": -0.25
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.16821,
-      "today_close": 157.9607,
-      "prev_close": 158.17334,
-      "diff": -0.2126,
-      "diff_pct": -0.13
+      "today_open": 158.06457,
+      "today_close": 157.74281,
+      "prev_close": 158.07016,
+      "diff": -0.3273,
+      "diff_pct": -0.21
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.9607,
-      "sma20": 157.6687,
-      "sma50": 157.3086,
-      "sma200": 159.2597,
+      "latest": 157.74281,
+      "sma20": 157.7163,
+      "sma50": 157.2841,
+      "sma200": 159.257,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 82.2,
+      "rsi14": 81.1,
       "high20": 159.0292,
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": 0.68
+      "chg5d_pct": -0.08,
+      "chg20d_pct": 0.54
     },
     "EURUSD": {
-      "latest": 1.11981,
-      "sma20": 1.134,
-      "sma50": 1.15,
-      "sma200": 1.1551,
+      "latest": 1.11996,
+      "sma20": 1.1326,
+      "sma50": 1.149,
+      "sma200": 1.1549,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 7.7,
+      "rsi14": 8.2,
       "high20": 1.1501,
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.51,
-      "chg20d_pct": -2.51
+      "chg5d_pct": -0.52,
+      "chg20d_pct": -2.49
     }
   }
 }
