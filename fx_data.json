@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-09T10:10:04.408000",
-  "generated": "2026年10月09日 10:10",
+  "timestamp": "2026-10-09T18:03:28.394106",
+  "generated": "2026年10月09日 18:03",
   "scores": {
     "USD": 2,
     "JPY": 1,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families",
+      "summary": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymake"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
       "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the "
     },
@@ -97,49 +102,44 @@
       "summary": "Federal Reserve Board announces approval of application by Peoples Bancorp Inc."
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act",
-      "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-"
+      "source": "FXStreet",
+      "title": "Asia FX: Trade negotiations and resilient macro backdrop – MUFG",
+      "summary": "MUFG’s Michael Wan highlights a mixed global backdrop for Asian currencies, with US Treasuries rallying and the US Dolla"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc: Range trade bias holds against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CHF shows slightly increased downside m"
+      "title": "Singapore: Policy slope tightening view – DBS",
+      "summary": "DBS Group Research expects the Monetary Authority of Singapore to slightly increase the SGD NEER policy band slope at th"
     },
     {
       "source": "FXStreet",
-      "title": "Euro: China trade tensions and CNY strength pose downside risks - MUFG",
-      "summary": "MUFG's Derek Halpenny highlights Europe's economic resilience following Germany's upward Gross Domestic Product (GDP) gr"
+      "title": "British Pound holds ground as US Consumer Sentiment deteriorates",
+      "summary": "The Pound Sterling (GBP) holds firm against the US Dollar (USD) on Friday, which posts modest gains against a basket of "
     },
     {
       "source": "FXStreet",
-      "title": "Romanian Leu: Coalition hopes support RON assets – Societe Generale",
-      "summary": "Societe Generale strategists note the National Bank of Romania (NBR) kept its policy rate at 6.50% and reinforced a hawk"
+      "title": "Gold edges higher but remains capped in tight range as Dollar and yields rebound",
+      "summary": "Gold (XAU/USD) trades on the front foot on Friday but struggles to extend its advance as the US Dollar (USD) and US Trea"
     },
     {
       "source": "FXStreet",
-      "title": "Polish Zloty: Dovish NBP signals weigh on PLN – Commerzbank",
-      "summary": "Tatha Ghose at Commerzbank describes NBP Governor Glapinski’s latest press conference as a net dovish surprise versus ex"
+      "title": "Euro struggles as French fiscal concerns and firm US Dollar dominate",
+      "summary": "EUR/USD reverses earlier gains on Friday and remains on track for a fifth consecutive weekly decline as the US Dollar (U"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee regains ground as rally in US bond yields hits pause",
-      "summary": "The Indian Rupee (INR) trades slightly higher against the US Dollar (USD) on Friday. The USD/INR pair corrects to near 9"
+      "title": "New Zealand Dollar edges higher on softer US yields, Fed hike bets cap recovery",
+      "summary": "NZD/USD trades around 0.5605 on Friday at the time of writing, posting a modest gain of 0.06% on the day, but more broad"
     },
     {
       "source": "FXStreet",
-      "title": "Canadian Dollar: Jobs data and BoC path – ING",
-      "summary": "ING’s Francesco Pesole expects Canada’s September jobs report to show a modest payroll rebound and slightly higher unemp"
+      "title": "Japan: Bond outflows reshape global yields - Commerzbank",
+      "summary": "Commerzbank's Volkmar Baur highlights Japanese investors' net selling of foreign bonds and its implications for global y"
     },
     {
       "source": "FXStreet",
-      "title": "Euro extends recovery due to relief from drop in French bond yields",
-      "summary": "The Euro (EUR) extends Thursday’s recovery move against the US Dollar (USD) on Friday. In the European trade, the EUR/US"
-    },
-    {
-      "source": "FXStreet",
-      "title": "British Pound: Mild downside bias against US Dollar - UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann observe that GBP/USD has held modest gains around 1.3230, bu"
+      "title": "Poland: Inflation outlook stabilises – ING",
+      "summary": "ING economists Adam Antoniak and David Havrlant expect Poland’s final September CPI, due Wednesday, to confirm headline "
     },
     {
       "source": "Investing",
@@ -217,18 +217,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.87516,
-      "today_close": 158.29427,
+      "today_close": 158.24987,
       "prev_close": 157.87402,
-      "diff": 0.4203,
-      "diff_pct": 0.27
+      "diff": 0.3758,
+      "diff_pct": 0.24
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.29427,
-      "sma20": 157.7939,
-      "sma50": 157.2731,
-      "sma200": 159.2542,
+      "latest": 158.24987,
+      "sma20": 157.7916,
+      "sma50": 157.2722,
+      "sma200": 159.254,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -237,12 +237,12 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.26,
-      "chg20d_pct": 0.9
+      "chg5d_pct": 0.24,
+      "chg20d_pct": 0.88
     },
     "EURUSD": {
-      "latest": 1.12206,
-      "sma20": 1.1313,
+      "latest": 1.11984,
+      "sma20": 1.1312,
       "sma50": 1.1481,
       "sma200": 1.1547,
       "vs_sma20": "下",
@@ -253,8 +253,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": -2.31
+      "chg5d_pct": -0.53,
+      "chg20d_pct": -2.5
     }
   }
 }
