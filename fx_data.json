@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-09T01:00:50.650815",
-  "generated": "2026年10月09日 01:00",
+  "timestamp": "2026-10-09T10:10:04.408000",
+  "generated": "2026年10月09日 10:10",
   "scores": {
-    "USD": 1,
+    "USD": 2,
     "JPY": 1,
     "EUR": 0,
     "GBP": 2,
@@ -14,20 +14,20 @@
   "pairs": [
     {
       "pair": "AUDUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
       "pair": "EURUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 1
+      "quote_score": 2
     },
     {
-      "pair": "GBPUSD",
+      "pair": "USDJPY",
       "direction": "様子見",
       "diff": 1,
       "base_score": 2,
@@ -48,11 +48,11 @@
       "quote_score": 1
     },
     {
-      "pair": "USDJPY",
+      "pair": "GBPUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 2,
+      "quote_score": 2
     }
   ],
   "news": [
@@ -103,52 +103,47 @@
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds gains above 1.1200 despite France's fiscal worries",
-      "summary": "The EUR/USD pair holds positive ground near 1.1215 during the early Asian trading hours on Friday. Nonetheless, the pote"
+      "title": "Swiss Franc: Range trade bias holds against US Dollar – UOB",
+      "summary": "United Overseas Bank (UOB) analysts Quek Ser Leang and Lee Sue Ann note that USD/CHF shows slightly increased downside m"
     },
     {
       "source": "FXStreet",
-      "title": "Gold gains ground to near $4,150 as traders weigh Fed rate path",
-      "summary": "Gold price (XAU/USD) edges higher to around $4,140 during the early Asian session on Friday. The precious metal rebounds"
+      "title": "Euro: China trade tensions and CNY strength pose downside risks - MUFG",
+      "summary": "MUFG's Derek Halpenny highlights Europe's economic resilience following Germany's upward Gross Domestic Product (GDP) gr"
     },
     {
       "source": "FXStreet",
-      "title": "Yen gains as Trump rules out Iran strikes before the midterms",
-      "summary": "The 10-year Treasury yield ended near 5.22% after President Trump said on Truth Social that the US won't attack Iran bef"
+      "title": "Romanian Leu: Coalition hopes support RON assets – Societe Generale",
+      "summary": "Societe Generale strategists note the National Bank of Romania (NBR) kept its policy rate at 6.50% and reinforced a hawk"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar slides as AI sell-off rattles Wall Street",
-      "summary": "The Aussie Dollar dives 0.11% on Thursday as the US Dollar retreats from monthly highs, with safe-haven flows shifting f"
+      "title": "Polish Zloty: Dovish NBP signals weigh on PLN – Commerzbank",
+      "summary": "Tatha Ghose at Commerzbank describes NBP Governor Glapinski’s latest press conference as a net dovish surprise versus ex"
     },
     {
       "source": "FXStreet",
-      "title": "Pound holds its floor as BoE member Greene presses for a hike",
-      "summary": "Bank of England (BoE) external member Greene said in Cape Town that it's dangerous to assume markets will do the BoE's w"
+      "title": "Indian Rupee regains ground as rally in US bond yields hits pause",
+      "summary": "The Indian Rupee (INR) trades slightly higher against the US Dollar (USD) on Friday. The USD/INR pair corrects to near 9"
     },
     {
       "source": "FXStreet",
-      "title": "Gold gains on geopolitics as Fed hike bets shift to December",
-      "summary": "Gold (XAU/USD) price edges higher on Thursday, underpinned by lower US Treasury yields and a weaker US Dollar, even as F"
+      "title": "Canadian Dollar: Jobs data and BoC path – ING",
+      "summary": "ING’s Francesco Pesole expects Canada’s September jobs report to show a modest payroll rebound and slightly higher unemp"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Upside bias within defined band against US Dollar – UOB",
-      "summary": "UOB strategists Quek Ser Leang and Lee Sue Ann describe USD/CNH as holding largely unchanged, but with a slight increase"
+      "title": "Euro extends recovery due to relief from drop in French bond yields",
+      "summary": "The Euro (EUR) extends Thursday’s recovery move against the US Dollar (USD) on Friday. In the European trade, the EUR/US"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso dives on solid US data despite rising inflation",
-      "summary": "The Mexican Peso (MXN) depreciates about 0.91% against the US Dollar (USD) on Thursday amid positive US data, while Bank"
+      "title": "British Pound: Mild downside bias against US Dollar - UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann observe that GBP/USD has held modest gains around 1.3230, bu"
     },
     {
       "source": "Investing",
       "title": "Bitcoin falls to $83k amid pressure from Fed minutes, oil prices, and yields",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin falls as Iran attacks, oil surge fuel rate fears; crypto stocks slip",
       "summary": ""
     },
     {
@@ -191,8 +186,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Gold gains on geopolitics as Fed hike bets shift to Dec"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "JPY": [
       "[COT] 🟢ロング優勢 (ネット:+306,192)"
@@ -223,18 +217,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.87516,
-      "today_close": 158.02189,
+      "today_close": 158.29427,
       "prev_close": 157.87402,
-      "diff": 0.1479,
-      "diff_pct": 0.09
+      "diff": 0.4203,
+      "diff_pct": 0.27
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.02189,
-      "sma20": 157.7802,
-      "sma50": 157.2676,
-      "sma200": 159.2528,
+      "latest": 158.29427,
+      "sma20": 157.7939,
+      "sma50": 157.2731,
+      "sma200": 159.2542,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -243,11 +237,11 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.09,
-      "chg20d_pct": 0.73
+      "chg5d_pct": 0.26,
+      "chg20d_pct": 0.9
     },
     "EURUSD": {
-      "latest": 1.12196,
+      "latest": 1.12206,
       "sma20": 1.1313,
       "sma50": 1.1481,
       "sma200": 1.1547,
@@ -259,8 +253,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.34,
-      "chg20d_pct": -2.32
+      "chg5d_pct": -0.33,
+      "chg20d_pct": -2.31
     }
   }
 }
