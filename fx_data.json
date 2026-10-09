@@ -1,44 +1,37 @@
 {
-  "timestamp": "2026-10-08T18:30:59.736384",
-  "generated": "2026年10月08日 18:30",
+  "timestamp": "2026-10-09T01:00:50.650815",
+  "generated": "2026年10月09日 01:00",
   "scores": {
-    "USD": 2,
+    "USD": 1,
     "JPY": 1,
     "EUR": 0,
-    "GBP": 1,
-    "AUD": 0,
+    "GBP": 2,
+    "AUD": -1,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
-    },
-    {
       "pair": "AUDUSD",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": 1
     },
     {
-      "pair": "USDJPY",
+      "pair": "EURUSD",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
+      "diff": -1,
+      "base_score": 0,
       "quote_score": 1
     },
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 1,
-      "quote_score": 2
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
@@ -50,12 +43,24 @@
     {
       "pair": "GBPJPY",
       "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
+    },
+    {
+      "pair": "USDJPY",
+      "direction": "様子見",
       "diff": 0,
       "base_score": 1,
       "quote_score": 1
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
+      "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the "
+    },
     {
       "source": "Fed",
       "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
@@ -97,49 +102,44 @@
       "summary": "Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank"
+      "source": "FXStreet",
+      "title": "Euro holds gains above 1.1200 despite France's fiscal worries",
+      "summary": "The EUR/USD pair holds positive ground near 1.1215 during the early Asian trading hours on Friday. Nonetheless, the pote"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Further weakness possible against US Dollar – UOB",
-      "summary": "UOB strategists Quek Ser Leang and Lee Sue Ann note that USD/SGD rebounded to 1.2810 before closing at 1.2797. While upw"
+      "title": "Gold gains ground to near $4,150 as traders weigh Fed rate path",
+      "summary": "Gold price (XAU/USD) edges higher to around $4,140 during the early Asian session on Friday. The precious metal rebounds"
     },
     {
       "source": "FXStreet",
-      "title": "Dollar Index flatlines as Fed Governor Waller puts no date on more hikes",
-      "summary": "102.50 has stopped the Dollar Index on Monday, Wednesday and Thursday, and a call for more rate hikes from Fed Governor "
+      "title": "Yen gains as Trump rules out Iran strikes before the midterms",
+      "summary": "The 10-year Treasury yield ended near 5.22% after President Trump said on Truth Social that the US won't attack Iran bef"
     },
     {
       "source": "FXStreet",
-      "title": "Banxico minutes flag upside inflation risks despite 6.50% rate hold",
-      "summary": "The Bank of Mexico (Banxico) released its September meeting minutes on Thursday, which showed the central bank holding r"
+      "title": "Australian Dollar slides as AI sell-off rattles Wall Street",
+      "summary": "The Aussie Dollar dives 0.11% on Thursday as the US Dollar retreats from monthly highs, with safe-haven flows shifting f"
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar slips as hawkish Fed, elevated US yields sustain USD",
-      "summary": "AUD/USD extends its decline for the second consecutive day on Thursday, trading around 0.6950, down 0.20% on the day at "
+      "title": "Pound holds its floor as BoE member Greene presses for a hike",
+      "summary": "Bank of England (BoE) external member Greene said in Cape Town that it's dangerous to assume markets will do the BoE's w"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound catches bid as Fed’s Waller eyes a pause in October",
-      "summary": "The Pound Sterling (GBP) advances about 0.14% on Thursday as the US Dollar (USD) weakens despite positive US jobs data, "
+      "title": "Gold gains on geopolitics as Fed hike bets shift to December",
+      "summary": "Gold (XAU/USD) price edges higher on Thursday, underpinned by lower US Treasury yields and a weaker US Dollar, even as F"
     },
     {
       "source": "FXStreet",
-      "title": "Silver Price Forecast: XAG/USD slides below $60 as sellers retain control",
-      "summary": "Silver (XAG/USD) remains under pressure on Thursday even as the US Dollar (USD) and US Treasury yields ease. Sellers rem"
+      "title": "Chinese Yuan: Upside bias within defined band against US Dollar – UOB",
+      "summary": "UOB strategists Quek Ser Leang and Lee Sue Ann describe USD/CNH as holding largely unchanged, but with a slight increase"
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso: Watching support for reversal signal against US Dollar – Societe Generale",
-      "summary": "Societe Generale analysts report USD/MXN has extended its rebound after reclaiming the 200-day moving average near 17.40"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Gold gains modestly as US Treasury yields ease, Fed hike risks linger",
-      "summary": "Gold (XAU/USD) holds modest gains on Thursday as a retreat in US Treasury yields tempers the US Dollar’s (USD) strength,"
+      "title": "Mexican Peso dives on solid US data despite rising inflation",
+      "summary": "The Mexican Peso (MXN) depreciates about 0.91% against the US Dollar (USD) on Thursday amid positive US data, while Bank"
     },
     {
       "source": "Investing",
@@ -192,22 +192,17 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Singapore Dollar: Further weakness possible against US ",
-      "[強気] Dollar Index flatlines as Fed Governor Waller puts no d",
-      "[強気] Australian Dollar slips as hawkish Fed, elevated US yie",
-      "[弱気] British Pound catches bid as Fed’s Waller eyes a pause "
+      "[弱気] Gold gains on geopolitics as Fed hike bets shift to Dec"
     ],
     "JPY": [
       "[COT] 🟢ロング優勢 (ネット:+306,192)"
     ],
     "GBP": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] British Pound catches bid as Fed’s Waller eyes a pause "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+227,442)",
-      "[強気] Australian Dollar slips as hawkish Fed, elevated US yie"
+      "[COT] 🟢ロング優勢 (ネット:+227,442)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -215,57 +210,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.27,
+    "US_10Y": 5.28,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.33,
-    "DIFF_EURUSD": -2.09,
-    "DIFF_GBPUSD": -0.28,
-    "DIFF_AUDUSD": -0.25
+    "DIFF_USDJPY": 2.34,
+    "DIFF_EURUSD": -2.1,
+    "DIFF_GBPUSD": -0.29,
+    "DIFF_AUDUSD": -0.27
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.06457,
-      "today_close": 157.9361,
-      "prev_close": 158.07016,
-      "diff": -0.1341,
-      "diff_pct": -0.08
+      "today_open": 157.87516,
+      "today_close": 158.02189,
+      "prev_close": 157.87402,
+      "diff": 0.1479,
+      "diff_pct": 0.09
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.9361,
-      "sma20": 157.726,
-      "sma50": 157.288,
-      "sma200": 159.258,
+      "latest": 158.02189,
+      "sma20": 157.7802,
+      "sma50": 157.2676,
+      "sma200": 159.2528,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 81.1,
+      "rsi14": 74.7,
       "high20": 159.0292,
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.04,
-      "chg20d_pct": 0.66
+      "chg5d_pct": 0.09,
+      "chg20d_pct": 0.73
     },
     "EURUSD": {
-      "latest": 1.12038,
-      "sma20": 1.1326,
-      "sma50": 1.149,
-      "sma200": 1.1549,
+      "latest": 1.12196,
+      "sma20": 1.1313,
+      "sma50": 1.1481,
+      "sma200": 1.1547,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 8.2,
-      "high20": 1.1501,
+      "rsi14": 12.0,
+      "high20": 1.1496,
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.48,
-      "chg20d_pct": -2.46
+      "chg5d_pct": -0.34,
+      "chg20d_pct": -2.32
     }
   }
 }
