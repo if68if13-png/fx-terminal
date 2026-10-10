@@ -1,58 +1,58 @@
 {
-  "timestamp": "2026-10-09T18:03:28.394106",
-  "generated": "2026年10月09日 18:03",
+  "timestamp": "2026-10-10T00:30:48.795501",
+  "generated": "2026年10月10日 00:30",
   "scores": {
-    "USD": 2,
-    "JPY": 1,
+    "USD": 4,
+    "JPY": 0,
     "EUR": 0,
     "GBP": 2,
-    "AUD": -1,
+    "AUD": 0,
     "NZD": 2,
     "CAD": 0,
     "CHF": 0
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "pair": "USDJPY",
+      "direction": "強くロング",
+      "diff": 4,
+      "base_score": 4,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 4
     },
     {
-      "pair": "USDJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "pair": "AUDUSD",
+      "direction": "強くショート",
+      "diff": -4,
+      "base_score": 0,
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
-      "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,43 +103,33 @@
     },
     {
       "source": "FXStreet",
-      "title": "Asia FX: Trade negotiations and resilient macro backdrop – MUFG",
-      "summary": "MUFG’s Michael Wan highlights a mixed global backdrop for Asian currencies, with US Treasuries rallying and the US Dolla"
+      "title": "Aussie extends weekly gains as Fed pause bets offset hawkish rhetoric",
+      "summary": "The Aussie Dollar ended Friday’s session on a positive note, gaining 0.38% and 0.58% weekly as the US Dollar trimmed som"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore: Policy slope tightening view – DBS",
-      "summary": "DBS Group Research expects the Monetary Authority of Singapore to slightly increase the SGD NEER policy band slope at th"
+      "title": "Singapore Dollar: Range trading persists against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains supported within the Monetary Auth"
     },
     {
       "source": "FXStreet",
-      "title": "British Pound holds ground as US Consumer Sentiment deteriorates",
-      "summary": "The Pound Sterling (GBP) holds firm against the US Dollar (USD) on Friday, which posts modest gains against a basket of "
+      "title": "Taiwan Dollar: Trade strength but losses capped against US Dollar – Commerzbank",
+      "summary": "Commerzbank analysts note Taiwan’s September trade surplus hit a record USD23.6bn, with exports surging 60.9% year-on-ye"
     },
     {
       "source": "FXStreet",
-      "title": "Gold edges higher but remains capped in tight range as Dollar and yields rebound",
-      "summary": "Gold (XAU/USD) trades on the front foot on Friday but struggles to extend its advance as the US Dollar (USD) and US Trea"
+      "title": "China: Robust trade and rising prices – DBS",
+      "summary": "DBS Group Research expects China’s exports to grow 25.7% year-on-year in September, supported by strong electronics dema"
     },
     {
       "source": "FXStreet",
-      "title": "Euro struggles as French fiscal concerns and firm US Dollar dominate",
-      "summary": "EUR/USD reverses earlier gains on Friday and remains on track for a fifth consecutive weekly decline as the US Dollar (U"
+      "title": "Dollar Index stalls under its high as the Fed's hawks repeat themselves",
+      "summary": "Four sessions after its highest level since April 2025, the Dollar Index hasn't got back to it. The index trades near 10"
     },
     {
       "source": "FXStreet",
-      "title": "New Zealand Dollar edges higher on softer US yields, Fed hike bets cap recovery",
-      "summary": "NZD/USD trades around 0.5605 on Friday at the time of writing, posting a modest gain of 0.06% on the day, but more broad"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Japan: Bond outflows reshape global yields - Commerzbank",
-      "summary": "Commerzbank's Volkmar Baur highlights Japanese investors' net selling of foreign bonds and its implications for global y"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Poland: Inflation outlook stabilises – ING",
-      "summary": "ING economists Adam Antoniak and David Havrlant expect Poland’s final September CPI, due Wednesday, to confirm headline "
+      "title": "Singapore Dollar: MAS tightening but gains constrained – OCBC",
+      "summary": "OCBC’s Christopher Wong notes that Singapore Dollar (SGD) has held relatively steady despite a firmer US Dollar (USD) an"
     },
     {
       "source": "Investing",
@@ -154,49 +144,49 @@
   ],
   "cot": {
     "CHF": {
-      "long": 133872,
-      "short": 86127,
-      "net": 47745,
+      "long": 137185,
+      "short": 82560,
+      "net": 54625,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 41138,
-      "short": 0,
-      "net": 41138,
+      "long": 40934,
+      "short": 950,
+      "net": 39984,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 360720,
-      "short": 54528,
-      "net": 306192,
+      "long": 17367,
+      "short": 0,
+      "net": 17367,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 41138,
+      "long": 17367,
       "short": 0,
-      "net": 41138,
+      "net": 17367,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 309800,
-      "short": 82358,
-      "net": 227442,
+      "long": 328682,
+      "short": 111494,
+      "net": 217188,
       "bias": "🟢ロング優勢"
     }
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
-    ],
-    "JPY": [
-      "[COT] 🟢ロング優勢 (ネット:+306,192)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Aussie extends weekly gains as Fed pause bets offset ha",
+      "[強気] Taiwan Dollar: Trade strength but losses capped against"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+227,442)"
+      "[COT] 🟢ロング優勢 (ネット:+217,188)",
+      "[強気] Aussie extends weekly gains as Fed pause bets offset ha"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -204,57 +194,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.28,
+    "US_10Y": 5.22,
     "JP_10Y": 2.94,
     "DE_10Y": 3.18,
     "GB_10Y": 4.9886,
     "AU_10Y": 5.015,
-    "DIFF_USDJPY": 2.34,
-    "DIFF_EURUSD": -2.1,
-    "DIFF_GBPUSD": -0.29,
-    "DIFF_AUDUSD": -0.27
+    "DIFF_USDJPY": 2.28,
+    "DIFF_EURUSD": -2.04,
+    "DIFF_GBPUSD": -0.23,
+    "DIFF_AUDUSD": -0.21
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.87516,
-      "today_close": 158.24987,
-      "prev_close": 157.87402,
-      "diff": 0.3758,
-      "diff_pct": 0.24
+      "today_open": 158.25135,
+      "today_close": 158.31238,
+      "prev_close": 158.24862,
+      "diff": 0.0638,
+      "diff_pct": 0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.24987,
-      "sma20": 157.7916,
-      "sma50": 157.2722,
-      "sma200": 159.254,
+      "latest": 158.31238,
+      "sma20": 157.8375,
+      "sma50": 157.2592,
+      "sma200": 159.2481,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 74.7,
+      "rsi14": 74.6,
       "high20": 159.0292,
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.24,
-      "chg20d_pct": 0.88
+      "chg5d_pct": 0.22,
+      "chg20d_pct": 0.58
     },
     "EURUSD": {
-      "latest": 1.11984,
-      "sma20": 1.1312,
-      "sma50": 1.1481,
-      "sma200": 1.1547,
+      "latest": 1.12021,
+      "sma20": 1.1299,
+      "sma50": 1.1471,
+      "sma200": 1.1545,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 12.0,
-      "high20": 1.1496,
+      "high20": 1.1479,
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": -2.5
+      "chg5d_pct": -0.16,
+      "chg20d_pct": -2.29
     }
   }
 }
