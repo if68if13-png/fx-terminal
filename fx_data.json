@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-10T09:30:41.994530",
-  "generated": "2026年10月10日 09:30",
+  "timestamp": "2026-10-10T17:02:42.241727",
+  "generated": "2026年10月10日 17:02",
   "scores": {
     "USD": 4,
     "JPY": 0,
@@ -132,11 +132,6 @@
       "summary": "OCBC’s Christopher Wong notes that Singapore Dollar (SGD) has held relatively steady despite a firmer US Dollar (USD) an"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin trades above $82,000 as rising oil prices, Fed outlook weigh",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -207,18 +202,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.25135,
-      "today_close": 158.31596,
+      "today_close": 158.32911,
       "prev_close": 158.24862,
-      "diff": 0.0673,
-      "diff_pct": 0.04
+      "diff": 0.0805,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.31596,
-      "sma20": 157.8376,
-      "sma50": 157.2592,
-      "sma200": 159.2481,
+      "latest": 158.32911,
+      "sma20": 157.8383,
+      "sma50": 157.2595,
+      "sma200": 159.2482,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -227,11 +222,11 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.22,
+      "chg5d_pct": 0.23,
       "chg20d_pct": 0.59
     },
     "EURUSD": {
-      "latest": 1.12013,
+      "latest": 1.12038,
       "sma20": 1.1299,
       "sma50": 1.1471,
       "sma200": 1.1545,
@@ -243,8 +238,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": -0.17,
-      "chg20d_pct": -2.29
+      "chg5d_pct": -0.14,
+      "chg20d_pct": -2.27
     }
   }
 }
