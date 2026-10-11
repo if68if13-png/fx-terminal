@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-10-11 13:26 JST",
+  "generated_at_jst": "2026-10-11 21:14 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -9,6 +9,20 @@
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
   "count": 123,
   "events": [
+    {
+      "date": "2026-10-21",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "テスラ (TSLA) 決算発表",
+      "short": "★★★ TSLA決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-10-21|テスラ (TSLA) 決算発表"
+    },
     {
       "date": "2026-10-22",
       "time": "17:00",
@@ -55,20 +69,6 @@
       "date": "2026-10-28",
       "time": "05:30",
       "tz": "JST",
-      "title": "テスラ (TSLA) 決算発表",
-      "short": "★★★ TSLA決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-10-28|テスラ (TSLA) 決算発表"
-    },
-    {
-      "date": "2026-10-28",
-      "time": "05:30",
-      "tz": "JST",
       "title": "マイクロソフト (MSFT) 決算発表",
       "short": "★★★ MSFT決算",
       "category": "earnings",
@@ -92,20 +92,6 @@
       "confirmed": true,
       "source": "smartcalendars.ai (自動更新ics)",
       "id": "2026-10-28|メタ (META) 決算発表"
-    },
-    {
-      "date": "2026-10-29",
-      "time": "05:30",
-      "tz": "JST",
-      "title": "アップル (AAPL) 決算発表",
-      "short": "★★★ AAPL決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-10-29|アップル (AAPL) 決算発表"
     },
     {
       "date": "2026-10-29",
@@ -162,6 +148,20 @@
       "confirmed": true,
       "source": "boj.or.jp",
       "id": "2026-10-30|日銀 金融政策決定会合 結果発表"
+    },
+    {
+      "date": "2026-11-02",
+      "time": "05:30",
+      "tz": "JST",
+      "title": "アップル (AAPL) 決算発表",
+      "short": "★★★ AAPL決算",
+      "category": "earnings",
+      "country": "US",
+      "impact": "high",
+      "note": "米引け後発表。日本時間は翌朝",
+      "confirmed": true,
+      "source": "smartcalendars.ai (自動更新ics)",
+      "id": "2026-11-02|アップル (AAPL) 決算発表"
     },
     {
       "date": "2026-11-02",
