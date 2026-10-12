@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-12T10:21:14.335819",
-  "generated": "2026年10月12日 10:21",
+  "timestamp": "2026-10-12T20:59:09.529349",
+  "generated": "2026年10月12日 20:59",
   "scores": {
-    "USD": 4,
-    "JPY": 1,
-    "EUR": 1,
+    "USD": 3,
+    "JPY": 0,
+    "EUR": 0,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -5,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 4
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 4,
-      "quote_score": 1
+      "base_score": 3,
+      "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 1,
-      "quote_score": 4
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
-      "base_score": 2,
-      "quote_score": 4
+      "base_score": 0,
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
+      "direction": "ロング優勢",
+      "diff": 2,
       "base_score": 2,
-      "quote_score": 1
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "様子見",
+      "diff": -1,
+      "base_score": 2,
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 1,
-      "quote_score": 1
+      "base_score": 0,
+      "quote_score": 0
     }
   ],
   "news": [
@@ -103,48 +103,43 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar: Firmer tone but capped at 0.7000 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note AUD/USD closed firmly around 0.6981, with underlying mo"
+      "title": "Chinese Yuan: Building upside momentum toward 6.6800 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/CNH unexpectedly fell to 6.6919 on Friday, with dow"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee: RBI measures support INR against US Dollar – Societe Generale",
-      "summary": "Societe Generale’s Santosh Ejanthkar and Tanmay Purohit highlight that USD/INR fell by more than 1% after the RBI unveil"
+      "title": "FX Today: US Dollar hits 17-month high, RBA minutes and Fed speaking, up next",
+      "summary": "Buyers are stepping in and keeping the US Dollar (USD) bid due to safe-haven demand, as the resumption of hostilities in"
     },
     {
       "source": "FXStreet",
-      "title": "Swiss Franc dips as geopolitical tensions and Oil prices boost the US Dollar",
-      "summary": "The Swiss Franc (CHF) has turned lower on Monday and is retracing gains from the previous two trading days against the U"
+      "title": "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets",
+      "summary": "Gold (XAU/USD) price drifts lower by about 1.49% on Monday as the Greenback gains ground amid escalating hostilities in "
     },
     {
       "source": "FXStreet",
-      "title": "CEE FX: Inflation data versus global Dollar strength – ING",
-      "summary": "ING’s Frantisek Taborsky highlights a busy week for CEE with key inflation releases and IMF meetings, while regional FX "
+      "title": "South Korean Won: Uptrend seen resuming against US Dollar – Societe Generale",
+      "summary": "Societe Generale strategists note that the recent USD/KRW bounce stalled around 1390 and the pair is now testing the low"
     },
     {
       "source": "FXStreet",
-      "title": "Euro holds range vs Yen as French strains, Japan’s loose policy offset",
-      "summary": "EUR/JPY trades without a clear direction on Monday, hovering around 177.35 at the time of writing, posting a modest dail"
+      "title": "Chinese Yuan: Gradual appreciation with trade pressures – MUFG",
+      "summary": "MUFG’s Lee Hardman notes the Chinese Renminbi has outperformed the Euro against the Dollar, with USD/CNY hitting a year-"
     },
     {
       "source": "FXStreet",
-      "title": "Indian Rupee jumps higher on fresh RBI measures",
-      "summary": "The Indian Rupee (INR) trades significantly higher against the US Dollar (USD) on Monday. The USD/INR pair falls 1% to n"
+      "title": "Fed’s Hammack sees higher neutral rate, urges more policy restraint",
+      "summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said on Monday that the neutral rate for the Fed funds “is likely"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen seems vulnerable vs bullish amid fiscal woes, Mideast jitters",
-      "summary": "The USD/JPY pair attracts buyers for the second straight day, though it lacks strong follow-through and trades below mid"
+      "title": "Singapore Dollar: Range bias holds near 1.2835 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD was little changed around 1.2800 on Friday and "
     },
     {
       "source": "FXStreet",
-      "title": "S&P 500: Earnings strength offsets yield headwinds – HSBC",
-      "summary": "HSBC Asset Management notes that global equities, including the S&amp;P 500, have shown resilience as the index inches t"
-    },
-    {
-      "source": "FXStreet",
-      "title": "Euro falls against Canadian Dollar amid French debt crisis",
-      "summary": "EUR/CAD inches lower after posting modest gains in the previous day, trading around 1.5960 during European hours on Mond"
+      "title": "Fed’s Hammack calls for higher rates as inflation pressures broaden",
+      "summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said Monday that interest rates need to be higher, that inflation"
     },
     {
       "source": "MarketWatch",
@@ -187,14 +182,7 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Japanese Yen seems vulnerable vs bullish amid fiscal wo",
-      "[強気] S&P 500: Earnings strength offsets yield headwinds – HS"
-    ],
-    "JPY": [
-      "[強気] Japanese Yen seems vulnerable vs bullish amid fiscal wo"
-    ],
-    "EUR": [
-      "[強気] Japanese Yen seems vulnerable vs bullish amid fiscal wo"
+      "[強気] Singapore Dollar: Range bias holds near 1.2835 against "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -221,45 +209,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.29851,
-      "today_close": 158.59977,
-      "prev_close": 158.33168,
-      "diff": 0.2681,
-      "diff_pct": 0.17
+      "today_open": 158.64448,
+      "today_close": 158.64454,
+      "prev_close": 158.65373,
+      "diff": -0.0092,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.59977,
-      "sma20": 157.8966,
-      "sma50": 157.2356,
-      "sma200": 159.2328,
+      "latest": 158.64454,
+      "sma20": 157.8886,
+      "sma50": 157.2253,
+      "sma200": 159.225,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 71.7,
-      "high20": 159.0292,
+      "rsi14": 67.1,
+      "high20": 158.9573,
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.34,
-      "chg20d_pct": 0.16
+      "chg5d_pct": 0.49,
+      "chg20d_pct": -0.14
     },
     "EURUSD": {
-      "latest": 1.11843,
-      "sma20": 1.1276,
-      "sma50": 1.1452,
-      "sma200": 1.1542,
+      "latest": 1.11563,
+      "sma20": 1.1264,
+      "sma50": 1.1441,
+      "sma200": 1.154,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 13.4,
+      "rsi14": 12.4,
       "high20": 1.1416,
-      "low20": 1.1162,
+      "low20": 1.1153,
       "high60": 1.1711,
-      "low60": 1.1162,
-      "chg5d_pct": -0.1,
-      "chg20d_pct": -1.76
+      "low60": 1.1153,
+      "chg5d_pct": -0.51,
+      "chg20d_pct": -1.98
     }
   }
 }
