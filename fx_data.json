@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-12T00:16:11.672208",
-  "generated": "2026年10月12日 00:16",
+  "timestamp": "2026-10-12T10:21:14.335819",
+  "generated": "2026年10月12日 10:21",
   "scores": {
-    "USD": 3,
-    "JPY": 0,
-    "EUR": 0,
+    "USD": 4,
+    "JPY": 1,
+    "EUR": 1,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -15,44 +15,44 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
       "diff": 3,
-      "base_score": 3,
-      "quote_score": 0
+      "base_score": 4,
+      "quote_score": 1
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
       "diff": -3,
-      "base_score": 0,
-      "quote_score": 3
-    },
-    {
-      "pair": "GBPJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 4
     },
     {
       "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "様子見",
+      "diff": 1,
+      "base_score": 2,
+      "quote_score": 1
     },
     {
       "pair": "EURJPY",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 0,
-      "quote_score": 0
+      "base_score": 1,
+      "quote_score": 1
     }
   ],
   "news": [
@@ -103,33 +103,48 @@
     },
     {
       "source": "FXStreet",
-      "title": "Australian Dollar edges higher to near 0.7000 on weak US Sentiment",
-      "summary": "The AUD/USD pair trades with mild gains around 0.6985 during the early Asian session on Monday. Softening US Consumer Se"
+      "title": "Australian Dollar: Firmer tone but capped at 0.7000 against US Dollar – UOB",
+      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note AUD/USD closed firmly around 0.6981, with underlying mo"
     },
     {
       "source": "FXStreet",
-      "title": "Aussie extends weekly gains as Fed pause bets offset hawkish rhetoric",
-      "summary": "The Aussie Dollar ended Friday’s session on a positive note, gaining 0.38% and 0.58% weekly as the US Dollar trimmed som"
+      "title": "Indian Rupee: RBI measures support INR against US Dollar – Societe Generale",
+      "summary": "Societe Generale’s Santosh Ejanthkar and Tanmay Purohit highlight that USD/INR fell by more than 1% after the RBI unveil"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range trading persists against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note that USD/SGD remains supported within the Monetary Auth"
+      "title": "Swiss Franc dips as geopolitical tensions and Oil prices boost the US Dollar",
+      "summary": "The Swiss Franc (CHF) has turned lower on Monday and is retracing gains from the previous two trading days against the U"
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan Dollar: Trade strength but losses capped against US Dollar – Commerzbank",
-      "summary": "Commerzbank analysts note Taiwan’s September trade surplus hit a record USD23.6bn, with exports surging 60.9% year-on-ye"
+      "title": "CEE FX: Inflation data versus global Dollar strength – ING",
+      "summary": "ING’s Frantisek Taborsky highlights a busy week for CEE with key inflation releases and IMF meetings, while regional FX "
     },
     {
       "source": "FXStreet",
-      "title": "China: Robust trade and rising prices – DBS",
-      "summary": "DBS Group Research expects China’s exports to grow 25.7% year-on-year in September, supported by strong electronics dema"
+      "title": "Euro holds range vs Yen as French strains, Japan’s loose policy offset",
+      "summary": "EUR/JPY trades without a clear direction on Monday, hovering around 177.35 at the time of writing, posting a modest dail"
     },
     {
       "source": "FXStreet",
-      "title": "Dollar Index stalls under its high as the Fed's hawks repeat themselves",
-      "summary": "Four sessions after its highest level since April 2025, the Dollar Index hasn't got back to it. The index trades near 10"
+      "title": "Indian Rupee jumps higher on fresh RBI measures",
+      "summary": "The Indian Rupee (INR) trades significantly higher against the US Dollar (USD) on Monday. The USD/INR pair falls 1% to n"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Japanese Yen seems vulnerable vs bullish amid fiscal woes, Mideast jitters",
+      "summary": "The USD/JPY pair attracts buyers for the second straight day, though it lacks strong follow-through and trades below mid"
+    },
+    {
+      "source": "FXStreet",
+      "title": "S&P 500: Earnings strength offsets yield headwinds – HSBC",
+      "summary": "HSBC Asset Management notes that global equities, including the S&amp;P 500, have shown resilience as the index inches t"
+    },
+    {
+      "source": "FXStreet",
+      "title": "Euro falls against Canadian Dollar amid French debt crisis",
+      "summary": "EUR/CAD inches lower after posting modest gains in the previous day, trading around 1.5960 during European hours on Mond"
     },
     {
       "source": "MarketWatch",
@@ -172,18 +187,21 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[弱気] Australian Dollar edges higher to near 0.7000 on weak U",
-      "[強気] Aussie extends weekly gains as Fed pause bets offset ha",
-      "[強気] Taiwan Dollar: Trade strength but losses capped against"
+      "[強気] Japanese Yen seems vulnerable vs bullish amid fiscal wo",
+      "[強気] S&P 500: Earnings strength offsets yield headwinds – HS"
+    ],
+    "JPY": [
+      "[強気] Japanese Yen seems vulnerable vs bullish amid fiscal wo"
+    ],
+    "EUR": [
+      "[強気] Japanese Yen seems vulnerable vs bullish amid fiscal wo"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+217,188)",
-      "[弱気] Australian Dollar edges higher to near 0.7000 on weak U",
-      "[強気] Aussie extends weekly gains as Fed pause bets offset ha"
+      "[COT] 🟢ロング優勢 (ネット:+217,188)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -204,18 +222,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.29851,
-      "today_close": 158.13219,
+      "today_close": 158.59977,
       "prev_close": 158.33168,
-      "diff": -0.1995,
-      "diff_pct": -0.13
+      "diff": 0.2681,
+      "diff_pct": 0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.13219,
-      "sma20": 157.8733,
-      "sma50": 157.2262,
-      "sma200": 159.2305,
+      "latest": 158.59977,
+      "sma20": 157.8966,
+      "sma50": 157.2356,
+      "sma200": 159.2328,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -224,13 +242,13 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.04,
-      "chg20d_pct": -0.14
+      "chg5d_pct": 0.34,
+      "chg20d_pct": 0.16
     },
     "EURUSD": {
-      "latest": 1.12113,
-      "sma20": 1.1278,
-      "sma50": 1.1453,
+      "latest": 1.11843,
+      "sma20": 1.1276,
+      "sma50": 1.1452,
       "sma200": 1.1542,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -240,8 +258,8 @@
       "low20": 1.1162,
       "high60": 1.1711,
       "low60": 1.1162,
-      "chg5d_pct": 0.14,
-      "chg20d_pct": -1.52
+      "chg5d_pct": -0.1,
+      "chg20d_pct": -1.76
     }
   }
 }
