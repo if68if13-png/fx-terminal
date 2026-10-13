@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-12T20:59:09.529349",
-  "generated": "2026年10月12日 20:59",
+  "timestamp": "2026-10-13T02:31:18.727994",
+  "generated": "2026年10月13日 02:31",
   "scores": {
-    "USD": 3,
+    "USD": 4,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,30 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -5,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 4
     },
     {
       "pair": "USDJPY",
       "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "diff": 4,
+      "base_score": 4,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 4
+    },
+    {
+      "pair": "GBPUSD",
+      "direction": "ショート優勢",
+      "diff": -2,
+      "base_score": 2,
+      "quote_score": 4
     },
     {
       "pair": "GBPJPY",
@@ -39,13 +46,6 @@
       "diff": 2,
       "base_score": 2,
       "quote_score": 0
-    },
-    {
-      "pair": "GBPUSD",
-      "direction": "様子見",
-      "diff": -1,
-      "base_score": 2,
-      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -103,43 +103,38 @@
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Building upside momentum toward 6.6800 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/CNH unexpectedly fell to 6.6919 on Friday, with dow"
+      "title": "Silver Price Forecast: XAG/USD falls to near $60.00 amid higher oil prices, US Dollar",
+      "summary": "Silver price (XAG/USD) extends its losses for the second consecutive day, trading around $60.00 per troy ounce during As"
     },
     {
       "source": "FXStreet",
-      "title": "FX Today: US Dollar hits 17-month high, RBA minutes and Fed speaking, up next",
-      "summary": "Buyers are stepping in and keeping the US Dollar (USD) bid due to safe-haven demand, as the resumption of hostilities in"
+      "title": "United States Dollar Index eases from 18-month peak; slips below 102.50",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, drifts lower during the Asians ses"
     },
     {
       "source": "FXStreet",
-      "title": "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets",
-      "summary": "Gold (XAU/USD) price drifts lower by about 1.49% on Monday as the Greenback gains ground amid escalating hostilities in "
+      "title": "Euro gathers strength above 1.1150 despite France’s fiscal concerns",
+      "summary": "The EUR/USD pair gains ground to near 1.1165 during the early Asian trading hours on Tuesday. Nonetheless, the potential"
     },
     {
       "source": "FXStreet",
-      "title": "South Korean Won: Uptrend seen resuming against US Dollar – Societe Generale",
-      "summary": "Societe Generale strategists note that the recent USD/KRW bounce stalled around 1390 and the pair is now testing the low"
+      "title": "Canadian Dollar edges higher but remains close to April 2025 lows vs bullish USD",
+      "summary": "The USD/CAD pair edges lower during the Asian session on Tuesday, though it remains close to the highest level since Apr"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Gradual appreciation with trade pressures – MUFG",
-      "summary": "MUFG’s Lee Hardman notes the Chinese Renminbi has outperformed the Euro against the Dollar, with USD/CNY hitting a year-"
+      "title": "PBOC sets USD/CNY reference rate at 6.7298 vs. 6.7313 previous",
+      "summary": "The People’s Bank of China (PBOC) sets the USD/CNY central rate for the trading session ahead on Tuesday at 6.7298 compa"
     },
     {
       "source": "FXStreet",
-      "title": "Fed’s Hammack sees higher neutral rate, urges more policy restraint",
-      "summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said on Monday that the neutral rate for the Fed funds “is likely"
+      "title": "RBA Minutes: Case for rates to act promptly to keep inflation expectations anchored",
+      "summary": "Reserve Bank of Australia (RBA) published the Minutes of its September monetary policy meeting on Tuesday, with the key "
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Range bias holds near 1.2835 against US Dollar – UOB",
-      "summary": "United Overseas Bank’s (UOB) Quek Ser Leang and Lee Sue Ann note USD/SGD was little changed around 1.2800 on Friday and "
-    },
-    {
-      "source": "FXStreet",
-      "title": "Fed’s Hammack calls for higher rates as inflation pressures broaden",
-      "summary": "Cleveland Federal Reserve (Fed) President Beth Hammack said Monday that interest rates need to be higher, that inflation"
+      "title": "Aussie Dollar struggles at 0.70, retreats as Oil shock boosts the USD",
+      "summary": "The Australian Dollar ended Monday’s session with losses of close to 0.40% amid thin liquidity due to the Columbus Day h"
     },
     {
       "source": "MarketWatch",
@@ -182,7 +177,8 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Singapore Dollar: Range bias holds near 1.2835 against "
+      "[強気] Silver Price Forecast: XAG/USD falls to near $60.00 ami",
+      "[強気] United States Dollar Index eases from 18-month peak; sl"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -210,18 +206,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.64448,
-      "today_close": 158.64454,
+      "today_close": 158.23573,
       "prev_close": 158.65373,
-      "diff": -0.0092,
-      "diff_pct": -0.01
+      "diff": -0.418,
+      "diff_pct": -0.26
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.64454,
-      "sma20": 157.8886,
-      "sma50": 157.2253,
-      "sma200": 159.225,
+      "latest": 158.23573,
+      "sma20": 157.8682,
+      "sma50": 157.2171,
+      "sma200": 159.2229,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -230,13 +226,13 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.49,
-      "chg20d_pct": -0.14
+      "chg5d_pct": 0.23,
+      "chg20d_pct": -0.39
     },
     "EURUSD": {
-      "latest": 1.11563,
-      "sma20": 1.1264,
-      "sma50": 1.1441,
+      "latest": 1.11752,
+      "sma20": 1.1265,
+      "sma50": 1.1442,
       "sma200": 1.154,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -246,8 +242,8 @@
       "low20": 1.1153,
       "high60": 1.1711,
       "low60": 1.1153,
-      "chg5d_pct": -0.51,
-      "chg20d_pct": -1.98
+      "chg5d_pct": -0.34,
+      "chg20d_pct": -1.81
     }
   }
 }
