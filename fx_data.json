@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-14T14:21:46.873264",
-  "generated": "2026年10月14日 14:21",
+  "timestamp": "2026-10-14T19:11:54.253416",
+  "generated": "2026年10月14日 19:11",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,7 +103,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin flat at $83.5k as markets await U.S. inflation data",
+      "title": "Bitcoin dips below $83k after hot U.S. inflation data",
       "summary": ""
     },
     {
@@ -174,18 +174,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.36114,
-      "today_close": 158.8499,
+      "today_close": 158.17118,
       "prev_close": 158.36506,
-      "diff": 0.4848,
-      "diff_pct": 0.31
+      "diff": -0.1939,
+      "diff_pct": -0.12
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.8499,
-      "sma20": 157.9523,
-      "sma50": 157.2104,
-      "sma200": 159.2167,
+      "latest": 158.17118,
+      "sma20": 157.9184,
+      "sma50": 157.1968,
+      "sma200": 159.2133,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -194,24 +194,24 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.38,
-      "chg20d_pct": 0.99
+      "chg5d_pct": -0.05,
+      "chg20d_pct": 0.56
     },
     "EURUSD": {
-      "latest": 1.11204,
-      "sma20": 1.1252,
-      "sma50": 1.1431,
+      "latest": 1.11543,
+      "sma20": 1.1254,
+      "sma50": 1.1432,
       "sma200": 1.1538,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 16.4,
       "high20": 1.1416,
-      "low20": 1.1115,
+      "low20": 1.1114,
       "high60": 1.1711,
-      "low60": 1.1115,
-      "chg5d_pct": -0.72,
-      "chg20d_pct": -2.38
+      "low60": 1.1114,
+      "chg5d_pct": -0.42,
+      "chg20d_pct": -2.08
     }
   }
 }
