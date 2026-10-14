@@ -1,10 +1,10 @@
 {
-  "timestamp": "2026-10-14T00:10:28.902849",
-  "generated": "2026年10月14日 00:10",
+  "timestamp": "2026-10-14T08:26:48.689976",
+  "generated": "2026年10月14日 08:26",
   "scores": {
-    "USD": 2,
-    "JPY": 1,
-    "EUR": 0,
+    "USD": -1,
+    "JPY": 0,
+    "EUR": -2,
     "GBP": 2,
     "AUD": -1,
     "NZD": 2,
@@ -13,46 +13,46 @@
   },
   "pairs": [
     {
-      "pair": "AUDUSD",
-      "direction": "強くショート",
-      "diff": -3,
-      "base_score": -1,
-      "quote_score": 2
+      "pair": "GBPUSD",
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 2,
+      "quote_score": -1
     },
     {
-      "pair": "EURUSD",
+      "pair": "EURJPY",
       "direction": "ショート優勢",
       "diff": -2,
-      "base_score": 0,
-      "quote_score": 2
+      "base_score": -2,
+      "quote_score": 0
+    },
+    {
+      "pair": "GBPJPY",
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
+      "quote_score": 0
     },
     {
       "pair": "USDJPY",
       "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
+      "diff": -1,
+      "base_score": -1,
+      "quote_score": 0
     },
     {
-      "pair": "EURJPY",
+      "pair": "EURUSD",
       "direction": "様子見",
       "diff": -1,
-      "base_score": 0,
-      "quote_score": 1
+      "base_score": -2,
+      "quote_score": -1
     },
     {
-      "pair": "GBPJPY",
-      "direction": "様子見",
-      "diff": 1,
-      "base_score": 2,
-      "quote_score": 1
-    },
-    {
-      "pair": "GBPUSD",
+      "pair": "AUDUSD",
       "direction": "様子見",
       "diff": 0,
-      "base_score": 2,
-      "quote_score": 2
+      "base_score": -1,
+      "quote_score": -1
     }
   ],
   "news": [
@@ -103,52 +103,57 @@
     },
     {
       "source": "FXStreet",
-      "title": "Yen trails the majors as the BoJ is said to lean against a hike",
-      "summary": "The Dollar fell against every major currency on Tuesday and fell least against the Yen, on the day the Bank of Japan (Bo"
+      "title": "Euro holds mild gains above 1.1200 as US Dollar drifts with US CPI on tap",
+      "summary": "The Euro (EUR) is showing a frail recovery against the US Dollar (USD) on Tuesday, due more to the Greenback’s weakness "
     },
     {
       "source": "FXStreet",
-      "title": "Mexican Peso buckles as Fed inflation fears overshadow dovish Williams",
-      "summary": "The Mexican Peso depreciates against the US Dollar as traders await the release of the US Consumer Price Index (CPI) rep"
+      "title": "Euro: Inflation data guides near term – Commerzbank",
+      "summary": "Commerzbank’s Volkmar Baur notes EUR/USD briefly dipped to 1.115 before recovering above 1.12 as French bond yields stab"
     },
     {
       "source": "FXStreet",
-      "title": "Pound gains as Fed's Williams sees no 2027 hike",
-      "summary": "Despite Tuesday's gain, GBP/USD is in its third straight week of trading between roughly 1.3200 and 1.3300, a range it h"
+      "title": "US Dollar Index Price Forecast: DXY holds above 101.70 pivotal support ahead of US CPI",
+      "summary": "The US Dollar Index (DXY), which tracks the Greenback against a basket of currencies, drifts lower for the second straig"
     },
     {
       "source": "FXStreet",
-      "title": "Dow Jones Industrial Average gives back a 500-point earnings jump",
-      "summary": "Goldman Sachs (GS) earned $17.01 a share in the third quarter against a forecast near $13.00. JPMorgan Chase (JPM) misse"
+      "title": "Indian Rupee rallies further on RBI's forceful measures to curb USD's demand",
+      "summary": "The Indian Rupee (INR) extends the rally against the US Dollar (USD) for the third trading day on Wednesday, driven by f"
     },
     {
       "source": "FXStreet",
-      "title": "Taiwan: AI-driven growth and inflation outlook – DBS",
-      "summary": "DBS Group Research economist Ma Tieying assesses Taiwan’s macro outlook, highlighting a strong AI cycle, diversified ene"
+      "title": "Indian Rupee: RBI FX steps support INR but raise hedging costs – MUFG",
+      "summary": "MUFG’s Michael Wan explains that recent RBI FX measures have supported spot Indian Rupee, while temporarily disrupting d"
     },
     {
       "source": "FXStreet",
-      "title": "Chinese Yuan: Outlook stays mildly positive against US Dollar – UOB",
-      "summary": "United Overseas Bank (UOB) strategists Quek Ser Leang and Lee Sue Ann describe USD/CNH price action as fading in downsid"
+      "title": "Silver Price Forecast: XAG/USD declines to near $58.70 in countdown to US inflation data",
+      "summary": "Silver price (XAG/USD) is down 0.65% to near $58.70 during the European trading session on Wednesday. The white metal is"
     },
     {
       "source": "FXStreet",
-      "title": "Fed's Collins backs September hike, sees Oil and AI driving inflation",
-      "summary": "On Tuesday, Boston Federal Reserve (Fed) President Susan Collins said that the Fed's main focus is inflation, while addi"
+      "title": "Gold struggles around $4,150 as Fed hike bets counter USD weakness ahead of US CPI report",
+      "summary": "Gold (XAU/USD) trades with a negative bias for the third straight day, hovering below $4,150 heading into Wednesday’s Eu"
     },
     {
       "source": "FXStreet",
-      "title": "Japanese Yen: Choppy trade after JPY-supportive comments – Scotiabank",
-      "summary": "Scotiabank strategists Shaun Osborne and Eric Theoret highlight the Japanese Yen (JPY) as somewhat firmer, with USD/JPY "
+      "title": "Forex Today: US Dollar weakens ahead of US CPI inflation data",
+      "summary": "Here is what you need to know on Wednesday, October 14:"
     },
     {
       "source": "FXStreet",
-      "title": "Singapore Dollar: Priced-in MAS move limits gains against US Dollar - OCBC",
-      "summary": "OCBC strategists Sim Moh Siong and Christopher Wong expect Monetary Authority of Singapore (MAS)  to slightly steepen it"
+      "title": "US Dollar: Fed inflation focus into October FOMC – Danske Bank",
+      "summary": "Danske Bank strategists highlight September Consumer Price Index (CPI  as this week's key US release, with headline and "
     },
     {
-      "source": "MarketWatch",
-      "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
+      "source": "FXStreet",
+      "title": "Euro hits fresh 16-month lows against a firmer British Pound",
+      "summary": "The Euro (EUR) resumes its downtrend against the British Pound (GBP) as France’s public debt keeps investors on their to"
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin flat at $83k as markets await U.S. inflation data",
       "summary": ""
     }
   ],
@@ -187,11 +192,13 @@
   "reasons": {
     "USD": [
       "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Yen trails the majors as the BoJ is said to lean agains",
-      "[弱気] Mexican Peso buckles as Fed inflation fears overshadow "
+      "[弱気] Euro holds mild gains above 1.1200 as US Dollar drifts ",
+      "[弱気] Gold struggles around $4,150 as Fed hike bets counter U",
+      "[弱気] Forex Today: US Dollar weakens ahead of US CPI inflatio"
     ],
-    "JPY": [
-      "[強気] Yen trails the majors as the BoJ is said to lean agains"
+    "EUR": [
+      "[弱気] Euro holds mild gains above 1.1200 as US Dollar drifts ",
+      "[弱気] Gold struggles around $4,150 as Fed hike bets counter U"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -219,18 +226,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.36114,
-      "today_close": 158.31874,
+      "today_close": 158.39309,
       "prev_close": 158.36506,
-      "diff": -0.0463,
-      "diff_pct": -0.03
+      "diff": 0.028,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.31874,
-      "sma20": 157.9258,
-      "sma50": 157.1998,
-      "sma200": 159.214,
+      "latest": 158.39309,
+      "sma20": 157.9295,
+      "sma50": 157.2013,
+      "sma200": 159.2144,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -239,12 +246,12 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.04,
-      "chg20d_pct": 0.65
+      "chg5d_pct": 0.09,
+      "chg20d_pct": 0.7
     },
     "EURUSD": {
-      "latest": 1.12027,
-      "sma20": 1.1256,
+      "latest": 1.12061,
+      "sma20": 1.1257,
       "sma50": 1.1433,
       "sma200": 1.1539,
       "vs_sma20": "下",
@@ -255,8 +262,8 @@
       "low20": 1.1153,
       "high60": 1.1711,
       "low60": 1.1153,
-      "chg5d_pct": 0.02,
-      "chg20d_pct": -1.66
+      "chg5d_pct": 0.05,
+      "chg20d_pct": -1.63
     }
   }
 }
