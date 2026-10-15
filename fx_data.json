@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-15T03:32:03.603974",
-  "generated": "2026年10月15日 03:32",
+  "timestamp": "2026-10-15T10:58:31.512705",
+  "generated": "2026年10月15日 10:58",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -103,6 +103,11 @@
     },
     {
       "source": "Investing",
+      "title": "Bitcoin falls to $81k as hot U.S. CPI spurs rate hike bets",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
       "title": "Bitcoin slips under $82k as hot CPI data fuels an uptick in Fed rate hike bets",
       "summary": ""
     },
@@ -175,18 +180,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.2976,
-      "today_close": 157.65852,
+      "today_close": 157.80156,
       "prev_close": 158.31177,
-      "diff": -0.6532,
-      "diff_pct": -0.41
+      "diff": -0.5102,
+      "diff_pct": -0.32
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.65852,
-      "sma20": 157.9435,
-      "sma50": 157.1646,
-      "sma200": 159.2038,
+      "latest": 157.80156,
+      "sma20": 157.9506,
+      "sma50": 157.1674,
+      "sma200": 159.2045,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -195,13 +200,13 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.41,
-      "chg20d_pct": 0.23
+      "chg5d_pct": -0.32,
+      "chg20d_pct": 0.32
     },
     "EURUSD": {
-      "latest": 1.12282,
-      "sma20": 1.1246,
-      "sma50": 1.1424,
+      "latest": 1.12128,
+      "sma20": 1.1245,
+      "sma50": 1.1423,
       "sma200": 1.1537,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -211,8 +216,8 @@
       "low20": 1.1114,
       "high60": 1.1711,
       "low60": 1.1114,
-      "chg5d_pct": 0.23,
-      "chg20d_pct": -1.43
+      "chg5d_pct": 0.09,
+      "chg20d_pct": -1.56
     }
   }
 }
