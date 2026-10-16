@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-16T10:52:01.673015",
-  "generated": "2026年10月16日 10:52",
+  "timestamp": "2026-10-16T16:12:08.573506",
+  "generated": "2026年10月16日 16:12",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -56,6 +56,11 @@
     }
   ],
   "news": [
+    {
+      "source": "Fed",
+      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
+      "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank"
+    },
     {
       "source": "Fed",
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
@@ -103,7 +108,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips under $82k as hot CPI data fuels an uptick in Fed rate hike bets",
+      "title": "Arbitrum pitches European banks as WisdomTree touts network’s revenue model",
       "summary": ""
     },
     {
@@ -146,8 +151,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Bitcoin slips under $82k as hot CPI data fuels an uptic"
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -175,19 +179,19 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.10542,
-      "today_close": 157.94053,
+      "today_close": 158.05995,
       "prev_close": 158.10307,
-      "diff": -0.1625,
-      "diff_pct": -0.1
+      "diff": -0.0431,
+      "diff_pct": -0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.94053,
-      "sma20": 158.0007,
-      "sma50": 157.13,
-      "sma200": 159.2021,
-      "vs_sma20": "下",
+      "latest": 158.05995,
+      "sma20": 158.0067,
+      "sma50": 157.1323,
+      "sma200": 159.2027,
+      "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 59.9,
@@ -195,15 +199,15 @@
       "low20": 156.3835,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.25,
-      "chg20d_pct": 0.45
+      "chg5d_pct": -0.17,
+      "chg20d_pct": 0.52
     },
     "EURUSD": {
-      "latest": 1.12617,
-      "sma20": 1.1239,
-      "sma50": 1.1417,
+      "latest": 1.12278,
+      "sma20": 1.1238,
+      "sma50": 1.1416,
       "sma200": 1.1536,
-      "vs_sma20": "上",
+      "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 7.2,
@@ -211,8 +215,8 @@
       "low20": 1.1114,
       "high60": 1.1711,
       "low60": 1.1114,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": -1.07
+      "chg5d_pct": 0.29,
+      "chg20d_pct": -1.37
     }
   }
 }
