@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-19T03:33:32.589698",
-  "generated": "2026年10月19日 03:33",
+  "timestamp": "2026-10-19T12:21:49.676637",
+  "generated": "2026年10月19日 12:21",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,7 +108,7 @@
     },
     {
       "source": "Investing",
-      "title": "Arbitrum pitches European banks as WisdomTree touts network’s revenue model",
+      "title": "Strategy buys bitcoin and repurchases preferred shares in weekly update",
       "summary": ""
     },
     {
@@ -179,19 +179,19 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.01945,
-      "today_close": 158.09686,
+      "today_close": 158.26955,
       "prev_close": 158.0293,
-      "diff": 0.0676,
-      "diff_pct": 0.04
+      "diff": 0.2403,
+      "diff_pct": 0.15
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.09686,
-      "sma20": 158.107,
-      "sma50": 157.0159,
-      "sma200": 159.1821,
-      "vs_sma20": "下",
+      "latest": 158.26955,
+      "sma20": 158.1157,
+      "sma50": 157.0194,
+      "sma200": 159.183,
+      "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 55.5,
@@ -199,13 +199,13 @@
       "low20": 156.3897,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.14,
-      "chg20d_pct": 0.43
+      "chg5d_pct": -0.03,
+      "chg20d_pct": 0.54
     },
     "EURUSD": {
-      "latest": 1.12276,
+      "latest": 1.12216,
       "sma20": 1.1218,
-      "sma50": 1.1394,
+      "sma50": 1.1393,
       "sma200": 1.1531,
       "vs_sma20": "上",
       "vs_sma50": "下",
@@ -215,8 +215,8 @@
       "low20": 1.1114,
       "high60": 1.1693,
       "low60": 1.1114,
-      "chg5d_pct": 0.63,
-      "chg20d_pct": -0.9
+      "chg5d_pct": 0.58,
+      "chg20d_pct": -0.96
     }
   }
 }
