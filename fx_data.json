@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-20T00:07:26.505336",
-  "generated": "2026年10月20日 00:07",
+  "timestamp": "2026-10-20T08:14:09.866215",
+  "generated": "2026年10月20日 08:14",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,6 +108,11 @@
     },
     {
       "source": "Investing",
+      "title": "Bitcoin slips below $82,000 as elevated oil prices, Fed outlook weigh",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
       "title": "Strategy buys bitcoin and repurchases preferred shares in weekly update",
       "summary": ""
     },
@@ -179,18 +184,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.54082,
-      "today_close": 158.55819,
+      "today_close": 158.16419,
       "prev_close": 158.54888,
-      "diff": 0.0093,
-      "diff_pct": 0.01
+      "diff": -0.3847,
+      "diff_pct": -0.24
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.55819,
-      "sma20": 158.1529,
-      "sma50": 156.9922,
-      "sma200": 159.179,
+      "latest": 158.16419,
+      "sma20": 158.1332,
+      "sma50": 156.9843,
+      "sma200": 159.177,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -199,11 +204,11 @@
       "low20": 156.3897,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.29,
-      "chg20d_pct": 0.29
+      "chg5d_pct": 0.04,
+      "chg20d_pct": 0.05
     },
     "EURUSD": {
-      "latest": 1.12167,
+      "latest": 1.12284,
       "sma20": 1.1216,
       "sma50": 1.1386,
       "sma200": 1.1529,
@@ -215,8 +220,8 @@
       "low20": 1.1114,
       "high60": 1.1693,
       "low60": 1.1114,
-      "chg5d_pct": 0.02,
-      "chg20d_pct": -0.23
+      "chg5d_pct": 0.12,
+      "chg20d_pct": -0.13
     }
   }
 }
