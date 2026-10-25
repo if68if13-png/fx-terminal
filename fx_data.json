@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-25T03:32:01.598993",
-  "generated": "2026年10月25日 03:32",
+  "timestamp": "2026-10-25T10:51:56.912886",
+  "generated": "2026年10月25日 10:51",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -107,6 +107,11 @@
       "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and red"
     },
     {
+      "source": "Investing",
+      "title": "Bitcoin price today: BTC recovers to $80,800 ahead of Fed meeting",
+      "summary": ""
+    },
+    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -174,17 +179,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 156.83793,
-      "today_close": 156.8327,
+      "today_close": 156.83924,
       "prev_close": 156.83781,
-      "diff": -0.0051,
-      "diff_pct": -0.0
+      "diff": 0.0014,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.8327,
-      "sma20": 157.9454,
-      "sma50": 157.0377,
+      "latest": 156.83924,
+      "sma20": 157.9458,
+      "sma50": 157.0378,
       "sma200": 159.1225,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -194,11 +199,11 @@
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.91,
+      "chg5d_pct": -0.9,
       "chg20d_pct": -0.72
     },
     "EURUSD": {
-      "latest": 1.12024,
+      "latest": 1.12035,
       "sma20": 1.1207,
       "sma50": 1.1346,
       "sma200": 1.1519,
@@ -210,8 +215,8 @@
       "low20": 1.1114,
       "high60": 1.1656,
       "low60": 1.1114,
-      "chg5d_pct": -0.29,
-      "chg20d_pct": -0.16
+      "chg5d_pct": -0.28,
+      "chg20d_pct": -0.15
     }
   }
 }
