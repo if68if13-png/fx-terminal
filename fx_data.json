@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-26T12:24:49.439984",
-  "generated": "2026年10月26日 12:24",
+  "timestamp": "2026-10-26T20:20:22.090645",
+  "generated": "2026年10月26日 20:20",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -107,6 +107,21 @@
       "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and red"
     },
     {
+      "source": "Investing",
+      "title": "Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy pauses bitcoin purchases, repurchases $204.9M in STRC stock",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
+      "summary": ""
+    },
+    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -161,57 +176,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 4.96,
+    "US_10Y": 5.0,
     "JP_10Y": 3.05,
     "DE_10Y": 3.46952380952381,
     "GB_10Y": 5.2421,
     "AU_10Y": 5.283,
-    "DIFF_USDJPY": 1.91,
-    "DIFF_EURUSD": -1.49,
-    "DIFF_GBPUSD": 0.28,
-    "DIFF_AUDUSD": 0.32
+    "DIFF_USDJPY": 1.95,
+    "DIFF_EURUSD": -1.53,
+    "DIFF_GBPUSD": 0.24,
+    "DIFF_AUDUSD": 0.28
   },
   "prices": {
     "USDJPY": {
-      "today_open": 156.88081,
-      "today_close": 157.39459,
-      "prev_close": 156.9018,
-      "diff": 0.4928,
-      "diff_pct": 0.31
+      "today_open": 157.49143,
+      "today_close": 157.52799,
+      "prev_close": 157.49909,
+      "diff": 0.0289,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.39459,
-      "sma20": 157.91,
-      "sma50": 157.0998,
-      "sma200": 159.1133,
+      "latest": 157.52799,
+      "sma20": 157.8881,
+      "sma50": 157.1725,
+      "sma200": 159.1052,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 71.6,
+      "rsi14": 78.2,
       "high20": 158.9624,
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.51,
-      "chg20d_pct": -0.49
+      "chg5d_pct": 0.42,
+      "chg20d_pct": -0.34
     },
     "EURUSD": {
-      "latest": 1.11974,
-      "sma20": 1.1205,
-      "sma50": 1.1338,
-      "sma200": 1.1517,
+      "latest": 1.1175,
+      "sma20": 1.1203,
+      "sma50": 1.1328,
+      "sma200": 1.1514,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 23.1,
+      "rsi14": 22.3,
       "high20": 1.1269,
       "low20": 1.1114,
       "high60": 1.1654,
       "low60": 1.1114,
-      "chg5d_pct": -0.32,
-      "chg20d_pct": -0.56
+      "chg5d_pct": -0.37,
+      "chg20d_pct": -0.18
     }
   }
 }

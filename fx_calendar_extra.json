@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-10-26 21:25 JST",
+  "generated_at_jst": "2026-10-27 05:20 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -136,7 +136,7 @@
       "id": "2026-11-04|ユーロ圏 サービス業・総合PMI 確報"
     },
     {
-      "date": "2026-11-17",
+      "date": "2026-11-18",
       "time": "05:30",
       "tz": "JST",
       "title": "エヌビディア (NVDA) 決算発表",
@@ -147,7 +147,7 @@
       "note": "米引け後発表。日本時間は翌朝",
       "confirmed": true,
       "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-11-17|エヌビディア (NVDA) 決算発表"
+      "id": "2026-11-18|エヌビディア (NVDA) 決算発表"
     },
     {
       "date": "2026-11-20",
