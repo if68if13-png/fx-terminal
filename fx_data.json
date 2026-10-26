@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-26T03:33:39.732127",
-  "generated": "2026年10月26日 03:33",
+  "timestamp": "2026-10-26T12:24:49.439984",
+  "generated": "2026年10月26日 12:24",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -107,11 +107,6 @@
       "summary": "Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and red"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -179,35 +174,35 @@
   "prices": {
     "USDJPY": {
       "today_open": 156.88081,
-      "today_close": 156.75348,
+      "today_close": 157.39459,
       "prev_close": 156.9018,
-      "diff": -0.1483,
-      "diff_pct": -0.09
+      "diff": 0.4928,
+      "diff_pct": 0.31
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 156.75348,
-      "sma20": 157.8779,
-      "sma50": 157.0869,
-      "sma200": 159.1101,
+      "latest": 157.39459,
+      "sma20": 157.91,
+      "sma50": 157.0998,
+      "sma200": 159.1133,
       "vs_sma20": "下",
-      "vs_sma50": "下",
+      "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 71.6,
       "high20": 158.9624,
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": -0.92,
-      "chg20d_pct": -0.9
+      "chg5d_pct": -0.51,
+      "chg20d_pct": -0.49
     },
     "EURUSD": {
-      "latest": 1.1223,
-      "sma20": 1.1206,
+      "latest": 1.11974,
+      "sma20": 1.1205,
       "sma50": 1.1338,
       "sma200": 1.1517,
-      "vs_sma20": "上",
+      "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 23.1,
@@ -215,8 +210,8 @@
       "low20": 1.1114,
       "high60": 1.1654,
       "low60": 1.1114,
-      "chg5d_pct": -0.09,
-      "chg20d_pct": -0.33
+      "chg5d_pct": -0.32,
+      "chg20d_pct": -0.56
     }
   }
 }
