@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-27T08:42:27.469469",
-  "generated": "2026年10月27日 08:42",
+  "timestamp": "2026-10-27T15:09:51.781934",
+  "generated": "2026年10月27日 15:09",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,22 +108,17 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin dips below $80k as Strategy pauses buying, Fed caution weighs",
+      "title": "Mirae Asset Securities and Grvt Collaborate on Tokenised Funding Note Issuance",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Bitcoin slips to $80k as Strategy pauses buying, Fed caution weighs",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy pauses bitcoin purchases, repurchases $204.9M in STRC stock",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin steadies near $80,400 after weekend selloff, Fed decision looms",
       "summary": ""
     },
     {
@@ -194,18 +189,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.49143,
-      "today_close": 157.79213,
+      "today_close": 157.75858,
       "prev_close": 157.49909,
-      "diff": 0.293,
-      "diff_pct": 0.19
+      "diff": 0.2595,
+      "diff_pct": 0.16
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.79213,
-      "sma20": 157.9013,
-      "sma50": 157.1778,
-      "sma200": 159.1065,
+      "latest": 157.75858,
+      "sma20": 157.8996,
+      "sma50": 157.1771,
+      "sma200": 159.1063,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -214,12 +209,12 @@
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.59,
-      "chg20d_pct": -0.18
+      "chg5d_pct": 0.57,
+      "chg20d_pct": -0.2
     },
     "EURUSD": {
-      "latest": 1.11573,
-      "sma20": 1.1202,
+      "latest": 1.11446,
+      "sma20": 1.1201,
       "sma50": 1.1328,
       "sma200": 1.1514,
       "vs_sma20": "下",
@@ -230,8 +225,8 @@
       "low20": 1.1114,
       "high60": 1.1654,
       "low60": 1.1114,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": -0.34
+      "chg5d_pct": -0.64,
+      "chg20d_pct": -0.45
     }
   }
 }
