@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-28T04:23:55.708904",
-  "generated": "2026年10月28日 04:23",
+  "timestamp": "2026-10-28T12:14:30.062999",
+  "generated": "2026年10月28日 12:14",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,17 +108,17 @@
     },
     {
       "source": "Investing",
+      "title": "Bitcoin rebounds to $81.5k as tech rally buoys risk appetite; Fed meeting awaited",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
       "title": "Bitcoin up as risk sentiment, oil slip offset Strategy buying pause, Fed caution",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Mirae Asset Securities and Grvt Collaborate on Tokenised Funding Note Issuance",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin little-changed at $80.4k as oil, rate jitters dent crypto appetite",
       "summary": ""
     },
     {
@@ -189,18 +189,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.92854,
-      "today_close": 157.97045,
+      "today_close": 157.91453,
       "prev_close": 157.93178,
-      "diff": 0.0387,
-      "diff_pct": 0.02
+      "diff": -0.0172,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.97045,
-      "sma20": 157.9131,
-      "sma50": 157.2689,
-      "sma200": 159.0992,
+      "latest": 157.91453,
+      "sma20": 157.9103,
+      "sma50": 157.2678,
+      "sma200": 159.0989,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -209,24 +209,24 @@
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.72,
-      "chg20d_pct": 0.06
+      "chg5d_pct": 0.68,
+      "chg20d_pct": 0.03
     },
     "EURUSD": {
-      "latest": 1.1121,
-      "sma20": 1.1196,
-      "sma50": 1.1317,
+      "latest": 1.1135,
+      "sma20": 1.1197,
+      "sma50": 1.1318,
       "sma200": 1.1511,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 32.2,
       "high20": 1.1269,
-      "low20": 1.1114,
+      "low20": 1.1113,
       "high60": 1.1654,
-      "low60": 1.1114,
-      "chg5d_pct": -0.66,
-      "chg20d_pct": -0.82
+      "low60": 1.1113,
+      "chg5d_pct": -0.54,
+      "chg20d_pct": -0.7
     }
   }
 }
