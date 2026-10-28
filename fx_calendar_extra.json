@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-10-28 21:14 JST",
+  "generated_at_jst": "2026-10-29 05:05 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,36 +7,8 @@
     "mag7": "live (7件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 119,
+  "count": 117,
   "events": [
-    {
-      "date": "2026-10-28",
-      "time": "05:30",
-      "tz": "JST",
-      "title": "アルファベット (GOOGL) 決算発表",
-      "short": "★★★ GOOGL決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-10-28|アルファベット (GOOGL) 決算発表"
-    },
-    {
-      "date": "2026-10-28",
-      "time": "05:30",
-      "tz": "JST",
-      "title": "マイクロソフト (MSFT) 決算発表",
-      "short": "★★★ MSFT決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-10-28|マイクロソフト (MSFT) 決算発表"
-    },
     {
       "date": "2026-10-29",
       "time": "05:30",
