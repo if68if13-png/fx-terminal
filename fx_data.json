@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-27T21:52:29.094586",
-  "generated": "2026年10月27日 21:52",
+  "timestamp": "2026-10-28T04:23:55.708904",
+  "generated": "2026年10月28日 04:23",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,7 +108,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin subdued at $80k as Strategy pauses buying, Fed caution weighs",
+      "title": "Bitcoin up as risk sentiment, oil slip offset Strategy buying pause, Fed caution",
       "summary": ""
     },
     {
@@ -189,18 +189,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.92854,
-      "today_close": 157.93581,
+      "today_close": 157.97045,
       "prev_close": 157.93178,
-      "diff": 0.004,
-      "diff_pct": 0.0
+      "diff": 0.0387,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.93581,
-      "sma20": 157.9113,
-      "sma50": 157.2682,
-      "sma200": 159.099,
+      "latest": 157.97045,
+      "sma20": 157.9131,
+      "sma50": 157.2689,
+      "sma200": 159.0992,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -209,12 +209,12 @@
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.69,
-      "chg20d_pct": 0.04
+      "chg5d_pct": 0.72,
+      "chg20d_pct": 0.06
     },
     "EURUSD": {
-      "latest": 1.11277,
-      "sma20": 1.1197,
+      "latest": 1.1121,
+      "sma20": 1.1196,
       "sma50": 1.1317,
       "sma200": 1.1511,
       "vs_sma20": "下",
@@ -225,8 +225,8 @@
       "low20": 1.1114,
       "high60": 1.1654,
       "low60": 1.1114,
-      "chg5d_pct": -0.6,
-      "chg20d_pct": -0.77
+      "chg5d_pct": -0.66,
+      "chg20d_pct": -0.82
     }
   }
 }
