@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-29T09:28:20.835362",
-  "generated": "2026年10月29日 09:28",
+  "timestamp": "2026-10-29T18:06:50.228558",
+  "generated": "2026年10月29日 18:06",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,22 +108,12 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin weakens to $80k as hawkish Fed, mixed tech earnings weigh",
+      "title": "Bitcoin flat at $80k as hawkish Fed, hotter inflation data weigh",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin rises slightly after Fed holds interest rates steady; oil caps gains",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin up as risk sentiment, oil slip offset Strategy buying pause, Fed caution",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Mirae Asset Securities and Grvt Collaborate on Tokenised Funding Note Issuance",
       "summary": ""
     },
     {
@@ -194,19 +184,19 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.97825,
-      "today_close": 157.90773,
+      "today_close": 157.89338,
       "prev_close": 157.97369,
-      "diff": -0.066,
-      "diff_pct": -0.04
+      "diff": -0.0803,
+      "diff_pct": -0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.90773,
-      "sma20": 157.8962,
-      "sma50": 157.3372,
-      "sma200": 159.0915,
-      "vs_sma20": "上",
+      "latest": 157.89338,
+      "sma20": 157.8955,
+      "sma50": 157.3369,
+      "sma200": 159.0914,
+      "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 55.6,
@@ -214,24 +204,24 @@
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.68,
+      "chg5d_pct": 0.67,
       "chg20d_pct": -0.22
     },
     "EURUSD": {
-      "latest": 1.11295,
-      "sma20": 1.1194,
-      "sma50": 1.1308,
+      "latest": 1.11687,
+      "sma20": 1.1196,
+      "sma50": 1.1309,
       "sma200": 1.1508,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 36.8,
       "high20": 1.1269,
-      "low20": 1.1113,
+      "low20": 1.1107,
       "high60": 1.1654,
-      "low60": 1.1113,
-      "chg5d_pct": -0.65,
-      "chg20d_pct": -0.64
+      "low60": 1.1107,
+      "chg5d_pct": -0.3,
+      "chg20d_pct": -0.29
     }
   }
 }
