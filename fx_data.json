@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-28T20:05:41.287590",
-  "generated": "2026年10月28日 20:05",
+  "timestamp": "2026-10-29T00:37:53.314102",
+  "generated": "2026年10月29日 00:37",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,7 +108,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips back to $80.5k after brief tech-led rebound; Fed meeting awaited",
+      "title": "Bitcoin rises slightly after Fed holds interest rates steady; oil caps gains",
       "summary": ""
     },
     {
@@ -176,32 +176,32 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.0,
+    "US_10Y": 4.99,
     "JP_10Y": 3.05,
     "DE_10Y": 3.46952380952381,
     "GB_10Y": 5.2421,
     "AU_10Y": 5.283,
-    "DIFF_USDJPY": 1.95,
-    "DIFF_EURUSD": -1.53,
-    "DIFF_GBPUSD": 0.24,
-    "DIFF_AUDUSD": 0.28
+    "DIFF_USDJPY": 1.94,
+    "DIFF_EURUSD": -1.52,
+    "DIFF_GBPUSD": 0.25,
+    "DIFF_AUDUSD": 0.29
   },
   "prices": {
     "USDJPY": {
       "today_open": 157.97825,
-      "today_close": 157.87815,
+      "today_close": 157.99066,
       "prev_close": 157.97369,
-      "diff": -0.0955,
-      "diff_pct": -0.06
+      "diff": 0.017,
+      "diff_pct": 0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.87815,
-      "sma20": 157.8947,
-      "sma50": 157.3366,
-      "sma200": 159.0913,
-      "vs_sma20": "下",
+      "latest": 157.99066,
+      "sma20": 157.9003,
+      "sma50": 157.3389,
+      "sma200": 159.0919,
+      "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 55.6,
@@ -209,12 +209,12 @@
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.66,
-      "chg20d_pct": -0.23
+      "chg5d_pct": 0.74,
+      "chg20d_pct": -0.16
     },
     "EURUSD": {
-      "latest": 1.11591,
-      "sma20": 1.1196,
+      "latest": 1.11376,
+      "sma20": 1.1195,
       "sma50": 1.1309,
       "sma200": 1.1508,
       "vs_sma20": "下",
@@ -225,8 +225,8 @@
       "low20": 1.1113,
       "high60": 1.1654,
       "low60": 1.1113,
-      "chg5d_pct": -0.39,
-      "chg20d_pct": -0.37
+      "chg5d_pct": -0.58,
+      "chg20d_pct": -0.56
     }
   }
 }
