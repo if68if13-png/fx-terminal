@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-29T18:06:50.228558",
-  "generated": "2026年10月29日 18:06",
+  "timestamp": "2026-10-30T00:38:35.170704",
+  "generated": "2026年10月30日 00:38",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
+      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve issues FOMC statement",
       "summary": "Federal Reserve issues FOMC statement"
     },
@@ -100,21 +105,6 @@
       "source": "Fed",
       "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
       "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regula"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.",
-      "summary": "Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc."
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin flat at $80k as hawkish Fed, hotter inflation data weigh",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin rises slightly after Fed holds interest rates steady; oil caps gains",
-      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -171,57 +161,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 4.99,
+    "US_10Y": 5.05,
     "JP_10Y": 3.05,
     "DE_10Y": 3.46952380952381,
     "GB_10Y": 5.2421,
     "AU_10Y": 5.283,
-    "DIFF_USDJPY": 1.94,
-    "DIFF_EURUSD": -1.52,
-    "DIFF_GBPUSD": 0.25,
-    "DIFF_AUDUSD": 0.29
+    "DIFF_USDJPY": 2.0,
+    "DIFF_EURUSD": -1.58,
+    "DIFF_GBPUSD": 0.19,
+    "DIFF_AUDUSD": 0.23
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.97825,
-      "today_close": 157.89338,
-      "prev_close": 157.97369,
-      "diff": -0.0803,
-      "diff_pct": -0.05
+      "today_open": 157.97382,
+      "today_close": 157.72025,
+      "prev_close": 157.97734,
+      "diff": -0.2571,
+      "diff_pct": -0.16
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.89338,
-      "sma20": 157.8955,
-      "sma50": 157.3369,
-      "sma200": 159.0914,
+      "latest": 157.72025,
+      "sma20": 157.8701,
+      "sma50": 157.4225,
+      "sma200": 159.0864,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 55.6,
+      "rsi14": 56.1,
       "high20": 158.9624,
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.67,
-      "chg20d_pct": -0.22
+      "chg5d_pct": 0.52,
+      "chg20d_pct": -0.37
     },
     "EURUSD": {
-      "latest": 1.11687,
-      "sma20": 1.1196,
-      "sma50": 1.1309,
-      "sma200": 1.1508,
+      "latest": 1.11864,
+      "sma20": 1.1195,
+      "sma50": 1.1301,
+      "sma200": 1.1505,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 36.8,
+      "rsi14": 45.0,
       "high20": 1.1269,
       "low20": 1.1107,
       "high60": 1.1654,
       "low60": 1.1107,
-      "chg5d_pct": -0.3,
-      "chg20d_pct": -0.29
+      "chg5d_pct": -0.28,
+      "chg20d_pct": -0.15
     }
   }
 }
