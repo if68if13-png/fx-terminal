@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-30T17:46:32.784647",
-  "generated": "2026年10月30日 17:46",
+  "timestamp": "2026-10-30T21:59:04.864967",
+  "generated": "2026年10月30日 21:59",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -107,6 +107,11 @@
       "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regula"
     },
     {
+      "source": "Investing",
+      "title": "Bitcoin cuts some losses, but falls below $77k after Binance hit with $6.3B hack",
+      "summary": ""
+    },
+    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -114,33 +119,33 @@
   ],
   "cot": {
     "CHF": {
-      "long": 136451,
-      "short": 78398,
-      "net": 58053,
+      "long": 135489,
+      "short": 77945,
+      "net": 57544,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 44273,
-      "short": 2645,
-      "net": 41628,
+      "long": 44966,
+      "short": 1930,
+      "net": 43036,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 19857,
-      "short": 2631,
-      "net": 17226,
+      "long": 20282,
+      "short": 3285,
+      "net": 16997,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 19857,
-      "short": 2631,
-      "net": 17226,
+      "long": 20282,
+      "short": 3285,
+      "net": 16997,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 333010,
-      "short": 125601,
-      "net": 207409,
+      "long": 325008,
+      "short": 110654,
+      "net": 214354,
       "bias": "🟢ロング優勢"
     }
   },
@@ -153,7 +158,7 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+207,409)"
+      "[COT] 🟢ロング優勢 (ネット:+214,354)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -161,57 +166,57 @@
   },
   "rates": {
     "US_FF": 3.75,
-    "US_10Y": 5.05,
+    "US_10Y": 4.98,
     "JP_10Y": 3.05,
     "DE_10Y": 3.46952380952381,
     "GB_10Y": 5.2421,
     "AU_10Y": 5.283,
-    "DIFF_USDJPY": 2.0,
-    "DIFF_EURUSD": -1.58,
-    "DIFF_GBPUSD": 0.19,
-    "DIFF_AUDUSD": 0.23
+    "DIFF_USDJPY": 1.93,
+    "DIFF_EURUSD": -1.51,
+    "DIFF_GBPUSD": 0.26,
+    "DIFF_AUDUSD": 0.3
   },
   "prices": {
     "USDJPY": {
-      "today_open": 157.97382,
-      "today_close": 157.46489,
-      "prev_close": 157.97734,
-      "diff": -0.5125,
-      "diff_pct": -0.32
+      "today_open": 157.56426,
+      "today_close": 157.37871,
+      "prev_close": 157.55809,
+      "diff": -0.1794,
+      "diff_pct": -0.11
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.46489,
-      "sma20": 157.8574,
-      "sma50": 157.3293,
-      "sma200": 159.0895,
+      "latest": 157.37871,
+      "sma20": 157.8144,
+      "sma50": 157.4082,
+      "sma200": 159.0828,
       "vs_sma20": "下",
-      "vs_sma50": "上",
+      "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 50.2,
+      "rsi14": 53.2,
       "high20": 158.9624,
       "low20": 156.0687,
       "high60": 160.4047,
       "low60": 152.3794,
-      "chg5d_pct": 0.36,
-      "chg20d_pct": -0.53
+      "chg5d_pct": -0.08,
+      "chg20d_pct": -0.6
     },
     "EURUSD": {
-      "latest": 1.11521,
-      "sma20": 1.1193,
-      "sma50": 1.1307,
-      "sma200": 1.1508,
-      "vs_sma20": "下",
+      "latest": 1.11949,
+      "sma20": 1.1194,
+      "sma50": 1.1299,
+      "sma200": 1.1505,
+      "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 46.5,
+      "rsi14": 48.4,
       "high20": 1.1269,
       "low20": 1.1107,
       "high60": 1.1654,
       "low60": 1.1107,
-      "chg5d_pct": -0.59,
-      "chg20d_pct": -0.45
+      "chg5d_pct": 0.15,
+      "chg20d_pct": -0.0
     }
   }
 }
