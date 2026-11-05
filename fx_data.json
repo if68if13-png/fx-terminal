@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-05T10:25:59.065507",
-  "generated": "2026年11月05日 10:25",
+  "timestamp": "2026-11-05T19:37:20.947912",
+  "generated": "2026年11月05日 19:37",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
+      "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Ho"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia"
     },
@@ -100,11 +105,6 @@
       "source": "Fed",
       "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
       "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O",
-      "summary": "Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regula"
     },
     {
       "source": "MarketWatch",
@@ -174,18 +174,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.49159,
-      "today_close": 158.33408,
+      "today_close": 157.78691,
       "prev_close": 158.48698,
-      "diff": -0.1529,
-      "diff_pct": -0.1
+      "diff": -0.7001,
+      "diff_pct": -0.44
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.33408,
-      "sma20": 157.8049,
-      "sma50": 157.7745,
-      "sma200": 159.0684,
+      "latest": 157.78691,
+      "sma20": 157.7775,
+      "sma50": 157.7635,
+      "sma200": 159.0657,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -194,13 +194,13 @@
       "low20": 156.0687,
       "high60": 159.0292,
       "low60": 152.3794,
-      "chg5d_pct": 0.47,
-      "chg20d_pct": 0.21
+      "chg5d_pct": 0.12,
+      "chg20d_pct": -0.13
     },
     "EURUSD": {
-      "latest": 1.1232,
+      "latest": 1.12223,
       "sma20": 1.1194,
-      "sma50": 1.1264,
+      "sma50": 1.1263,
       "sma200": 1.149,
       "vs_sma20": "上",
       "vs_sma50": "下",
@@ -210,8 +210,8 @@
       "low20": 1.1107,
       "high60": 1.1654,
       "low60": 1.1107,
-      "chg5d_pct": 0.63,
-      "chg20d_pct": -0.06
+      "chg5d_pct": 0.54,
+      "chg20d_pct": -0.15
     }
   }
 }
