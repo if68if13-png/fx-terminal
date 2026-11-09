@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-09T10:58:12.020478",
-  "generated": "2026年11月09日 10:58",
+  "timestamp": "2026-11-09T21:59:10.314708",
+  "generated": "2026年11月09日 21:59",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
+      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc."
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
       "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Ho"
     },
@@ -102,9 +107,9 @@
       "summary": "Federal Reserve Board announces approval of application by Isabella Bank Corporation"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Fleur Capital Corporation",
-      "summary": "Federal Reserve Board announces approval of application by Fleur Capital Corporation"
+      "source": "Investing",
+      "title": "Strategy sells MSTR shares, buys bitcoin, and repurchases STRC stock",
+      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -161,57 +166,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 4.84,
+    "US_10Y": 4.86,
     "JP_10Y": 3.05,
     "DE_10Y": 3.46952380952381,
     "GB_10Y": 5.2421,
     "AU_10Y": 5.283,
-    "DIFF_USDJPY": 1.79,
-    "DIFF_EURUSD": -1.37,
-    "DIFF_GBPUSD": 0.4,
-    "DIFF_AUDUSD": 0.44
+    "DIFF_USDJPY": 1.81,
+    "DIFF_EURUSD": -1.39,
+    "DIFF_GBPUSD": 0.38,
+    "DIFF_AUDUSD": 0.42
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.46104,
-      "today_close": 157.98579,
-      "prev_close": 158.45239,
-      "diff": -0.4666,
-      "diff_pct": -0.29
+      "today_open": 157.72769,
+      "today_close": 157.92067,
+      "prev_close": 157.73091,
+      "diff": 0.1898,
+      "diff_pct": 0.12
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 157.98579,
-      "sma20": 157.808,
-      "sma50": 157.9002,
-      "sma200": 159.0459,
+      "latest": 157.92067,
+      "sma20": 157.781,
+      "sma50": 157.9057,
+      "sma200": 159.0373,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 28.3,
+      "rsi14": 33.9,
       "high20": 158.7636,
       "low20": 156.0687,
       "high60": 159.0292,
       "low60": 152.3794,
-      "chg5d_pct": -0.32,
+      "chg5d_pct": 0.04,
       "chg20d_pct": -0.18
     },
     "EURUSD": {
-      "latest": 1.11928,
-      "sma20": 1.1182,
-      "sma50": 1.1237,
-      "sma200": 1.1479,
+      "latest": 1.12237,
+      "sma20": 1.1183,
+      "sma50": 1.1233,
+      "sma200": 1.1476,
       "vs_sma20": "上",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 52.9,
+      "rsi14": 53.0,
       "high20": 1.1273,
       "low20": 1.1107,
-      "high60": 1.1618,
+      "high60": 1.161,
       "low60": 1.1107,
-      "chg5d_pct": -0.27,
-      "chg20d_pct": -0.38
+      "chg5d_pct": -0.0,
+      "chg20d_pct": -0.08
     }
   }
 }
