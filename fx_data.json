@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-10T06:13:54.891154",
-  "generated": "2026年11月10日 06:13",
+  "timestamp": "2026-11-10T16:49:21.858430",
+  "generated": "2026年11月10日 16:49",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,6 +108,11 @@
     },
     {
       "source": "Investing",
+      "title": "Bitcoin slides to $74k on hot inflation data, regulatory uncertainty",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
       "title": "Strategy sells MSTR shares, buys bitcoin, and repurchases STRC stock",
       "summary": ""
     },
@@ -179,35 +184,35 @@
   "prices": {
     "USDJPY": {
       "today_open": 157.72769,
-      "today_close": 158.01894,
+      "today_close": 158.80267,
       "prev_close": 157.73091,
-      "diff": 0.288,
-      "diff_pct": 0.18
+      "diff": 1.0718,
+      "diff_pct": 0.68
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.01894,
-      "sma20": 157.7859,
-      "sma50": 157.9076,
-      "sma200": 159.0378,
+      "latest": 158.80267,
+      "sma20": 157.8251,
+      "sma50": 157.9233,
+      "sma200": 159.0417,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
       "rsi14": 33.9,
-      "high20": 158.7636,
+      "high20": 158.8498,
       "low20": 156.0687,
       "high60": 159.0292,
       "low60": 152.3794,
-      "chg5d_pct": 0.11,
-      "chg20d_pct": -0.12
+      "chg5d_pct": 0.6,
+      "chg20d_pct": 0.38
     },
     "EURUSD": {
-      "latest": 1.12305,
-      "sma20": 1.1183,
-      "sma50": 1.1233,
+      "latest": 1.11485,
+      "sma20": 1.1179,
+      "sma50": 1.1231,
       "sma200": 1.1476,
-      "vs_sma20": "上",
+      "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 53.0,
@@ -215,8 +220,8 @@
       "low20": 1.1107,
       "high60": 1.161,
       "low60": 1.1107,
-      "chg5d_pct": 0.06,
-      "chg20d_pct": -0.02
+      "chg5d_pct": -0.67,
+      "chg20d_pct": -0.75
     }
   }
 }
