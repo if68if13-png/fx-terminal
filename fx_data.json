@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-11T13:41:07.196474",
-  "generated": "2026年11月11日 13:41",
+  "timestamp": "2026-11-11T21:45:15.846998",
+  "generated": "2026年11月11日 21:45",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -108,7 +108,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin slips below $74k as hot CPI data spurs rate hike bets",
+      "title": "Bitcoin weakens to $73.6k as hot CPI data spurs rate hike bets",
       "summary": ""
     },
     {
@@ -188,45 +188,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.78324,
-      "today_close": 159.3929,
-      "prev_close": 158.78211,
-      "diff": 0.6108,
-      "diff_pct": 0.38
+      "today_open": 159.84947,
+      "today_close": 159.81916,
+      "prev_close": 159.84619,
+      "diff": -0.027,
+      "diff_pct": -0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.3929,
-      "sma20": 157.9503,
-      "sma50": 157.9627,
-      "sma200": 159.0417,
+      "latest": 159.81916,
+      "sma20": 158.1215,
+      "sma50": 158.0013,
+      "sma200": 159.0452,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 44.2,
-      "high20": 159.3965,
-      "low20": 156.0687,
-      "high60": 159.3965,
-      "low60": 152.3794,
-      "chg5d_pct": 0.56,
-      "chg20d_pct": 1.61
+      "rsi14": 45.4,
+      "high20": 159.9409,
+      "low20": 156.6612,
+      "high60": 159.9409,
+      "low60": 153.2197,
+      "chg5d_pct": 0.84,
+      "chg20d_pct": 1.89
     },
     "EURUSD": {
-      "latest": 1.11186,
-      "sma20": 1.1175,
-      "sma50": 1.1225,
-      "sma200": 1.1473,
+      "latest": 1.10901,
+      "sma20": 1.1168,
+      "sma50": 1.1219,
+      "sma200": 1.147,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 42.1,
+      "rsi14": 49.9,
       "high20": 1.1273,
-      "low20": 1.1107,
-      "high60": 1.161,
-      "low60": 1.1107,
-      "chg5d_pct": -0.19,
-      "chg20d_pct": -0.87
+      "low20": 1.1083,
+      "high60": 1.16,
+      "low60": 1.1083,
+      "chg5d_pct": -0.45,
+      "chg20d_pct": -0.94
     }
   }
 }
