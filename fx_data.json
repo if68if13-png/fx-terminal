@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-11T21:45:15.846998",
-  "generated": "2026年11月11日 21:45",
+  "timestamp": "2026-11-12T06:01:24.617910",
+  "generated": "2026年11月12日 06:01",
   "scores": {
-    "USD": 2,
+    "USD": 3,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -3,
+      "diff": -4,
       "base_score": -1,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "USDJPY",
-      "direction": "ロング優勢",
-      "diff": 2,
-      "base_score": 2,
+      "direction": "強くロング",
+      "diff": 3,
+      "base_score": 3,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "ショート優勢",
-      "diff": -2,
+      "direction": "強くショート",
+      "diff": -3,
       "base_score": 0,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": 0,
+      "diff": -1,
       "base_score": 2,
-      "quote_score": 2
+      "quote_score": 3
     },
     {
       "pair": "EURJPY",
@@ -108,7 +108,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin weakens to $73.6k as hot CPI data spurs rate hike bets",
+      "title": "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh",
       "summary": ""
     },
     {
@@ -161,7 +161,8 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)"
+      "[中銀] 利上げ方向 (金利差方向)",
+      "[強気] Bitcoin subdued, hovers under $74k as rise in Fed rate "
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -189,18 +190,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.84947,
-      "today_close": 159.81916,
+      "today_close": 159.6921,
       "prev_close": 159.84619,
-      "diff": -0.027,
-      "diff_pct": -0.02
+      "diff": -0.1541,
+      "diff_pct": -0.1
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.81916,
-      "sma20": 158.1215,
-      "sma50": 158.0013,
-      "sma200": 159.0452,
+      "latest": 159.6921,
+      "sma20": 158.1152,
+      "sma50": 157.9987,
+      "sma200": 159.0446,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -209,24 +210,24 @@
       "low20": 156.6612,
       "high60": 159.9409,
       "low60": 153.2197,
-      "chg5d_pct": 0.84,
-      "chg20d_pct": 1.89
+      "chg5d_pct": 0.76,
+      "chg20d_pct": 1.81
     },
     "EURUSD": {
-      "latest": 1.10901,
+      "latest": 1.10815,
       "sma20": 1.1168,
-      "sma50": 1.1219,
+      "sma50": 1.1218,
       "sma200": 1.147,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
       "rsi14": 49.9,
       "high20": 1.1273,
-      "low20": 1.1083,
+      "low20": 1.1067,
       "high60": 1.16,
-      "low60": 1.1083,
-      "chg5d_pct": -0.45,
-      "chg20d_pct": -0.94
+      "low60": 1.1067,
+      "chg5d_pct": -0.53,
+      "chg20d_pct": -1.01
     }
   }
 }
