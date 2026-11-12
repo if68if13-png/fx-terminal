@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12T17:23:22.724117",
-  "generated": "2026年11月12日 17:23",
+  "timestamp": "2026-11-12T23:15:50.326175",
+  "generated": "2026年11月12日 23:15",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -58,6 +58,16 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
+      "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provi"
+    },
+    {
+      "source": "Fed",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
       "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank"
     },
@@ -97,18 +107,8 @@
       "summary": "Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymake"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the firm’s failure to sufficiently detect and report certain suspicious activity related to money laundering",
-      "summary": "Federal Reserve Board announces enforcement action against American Express Company to address, among other things, the "
-    },
-    {
-      "source": "Fed",
-      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-      "summary": "Minutes of the Federal Open Market Committee, September 15-16, 2026"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin drops to $71.6k; Strategy tumbles on MSCI index removal",
+      "title": "Bitcoin hits over 12-week low; Strategy sinks on MSCI index removal",
       "summary": ""
     },
     {
@@ -182,57 +182,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 4.88,
+    "US_10Y": 4.98,
     "JP_10Y": 3.05,
     "DE_10Y": 3.46952380952381,
     "GB_10Y": 5.2421,
     "AU_10Y": 5.283,
-    "DIFF_USDJPY": 1.83,
-    "DIFF_EURUSD": -1.41,
-    "DIFF_GBPUSD": 0.36,
-    "DIFF_AUDUSD": 0.4
+    "DIFF_USDJPY": 1.93,
+    "DIFF_EURUSD": -1.51,
+    "DIFF_GBPUSD": 0.26,
+    "DIFF_AUDUSD": 0.3
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.84947,
-      "today_close": 159.73805,
-      "prev_close": 159.84619,
-      "diff": -0.1081,
-      "diff_pct": -0.07
+      "today_open": 159.83892,
+      "today_close": 159.84471,
+      "prev_close": 159.83752,
+      "diff": 0.0072,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.73805,
-      "sma20": 158.1175,
-      "sma50": 157.9996,
-      "sma200": 159.0448,
+      "latest": 159.84471,
+      "sma20": 158.2728,
+      "sma50": 158.0213,
+      "sma200": 159.0474,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 45.4,
+      "rsi14": 48.2,
       "high20": 160.1141,
       "low20": 156.6612,
       "high60": 160.1141,
-      "low60": 153.2197,
-      "chg5d_pct": 0.79,
-      "chg20d_pct": 1.84
+      "low60": 154.2206,
+      "chg5d_pct": 0.88,
+      "chg20d_pct": 1.92
     },
     "EURUSD": {
-      "latest": 1.10559,
-      "sma20": 1.1167,
-      "sma50": 1.1218,
-      "sma200": 1.147,
+      "latest": 1.10557,
+      "sma20": 1.1159,
+      "sma50": 1.1211,
+      "sma200": 1.1466,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 49.9,
+      "rsi14": 41.7,
       "high20": 1.1273,
-      "low20": 1.1053,
-      "high60": 1.16,
-      "low60": 1.1053,
-      "chg5d_pct": -0.76,
-      "chg20d_pct": -1.24
+      "low20": 1.1046,
+      "high60": 1.1557,
+      "low60": 1.1046,
+      "chg5d_pct": -0.74,
+      "chg20d_pct": -1.31
     }
   }
 }
