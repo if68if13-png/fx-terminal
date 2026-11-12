@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-12T06:01:24.617910",
-  "generated": "2026年11月12日 06:01",
+  "timestamp": "2026-11-12T17:23:22.724117",
+  "generated": "2026年11月12日 17:23",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
       "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc."
     },
@@ -102,9 +107,14 @@
       "summary": "Minutes of the Federal Open Market Committee, September 15-16, 2026"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by Isabella Bank Corporation",
-      "summary": "Federal Reserve Board announces approval of application by Isabella Bank Corporation"
+      "source": "Investing",
+      "title": "Bitcoin drops to $71.6k; Strategy tumbles on MSCI index removal",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "MidChains and Standard Chartered establish strategic banking partnership",
+      "summary": ""
     },
     {
       "source": "Investing",
@@ -114,11 +124,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin falls over 2%, drops under $74k after hot CPI data, hawkish Waller",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy sells MSTR shares, buys bitcoin, and repurchases STRC stock",
       "summary": ""
     },
     {
@@ -190,32 +195,32 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.84947,
-      "today_close": 159.6921,
+      "today_close": 159.73805,
       "prev_close": 159.84619,
-      "diff": -0.1541,
-      "diff_pct": -0.1
+      "diff": -0.1081,
+      "diff_pct": -0.07
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.6921,
-      "sma20": 158.1152,
-      "sma50": 157.9987,
-      "sma200": 159.0446,
+      "latest": 159.73805,
+      "sma20": 158.1175,
+      "sma50": 157.9996,
+      "sma200": 159.0448,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 45.4,
-      "high20": 159.9409,
+      "high20": 160.1141,
       "low20": 156.6612,
-      "high60": 159.9409,
+      "high60": 160.1141,
       "low60": 153.2197,
-      "chg5d_pct": 0.76,
-      "chg20d_pct": 1.81
+      "chg5d_pct": 0.79,
+      "chg20d_pct": 1.84
     },
     "EURUSD": {
-      "latest": 1.10815,
-      "sma20": 1.1168,
+      "latest": 1.10559,
+      "sma20": 1.1167,
       "sma50": 1.1218,
       "sma200": 1.147,
       "vs_sma20": "下",
@@ -223,11 +228,11 @@
       "vs_sma200": "下",
       "rsi14": 49.9,
       "high20": 1.1273,
-      "low20": 1.1067,
+      "low20": 1.1053,
       "high60": 1.16,
-      "low60": 1.1067,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": -1.01
+      "low60": 1.1053,
+      "chg5d_pct": -0.76,
+      "chg20d_pct": -1.24
     }
   }
 }
