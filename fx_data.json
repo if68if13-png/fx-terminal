@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-13T05:25:50.978937",
-  "generated": "2026年11月13日 05:25",
+  "timestamp": "2026-11-13T14:01:19.145867",
+  "generated": "2026年11月13日 14:01",
   "scores": {
     "USD": 3,
     "JPY": 0,
@@ -122,11 +122,6 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin falls over 2%, drops under $74k after hot CPI data, hawkish Waller",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -195,32 +190,32 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.83892,
-      "today_close": 159.95975,
+      "today_close": 159.91215,
       "prev_close": 159.83752,
-      "diff": 0.1222,
-      "diff_pct": 0.08
+      "diff": 0.0746,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.95975,
-      "sma20": 158.2786,
-      "sma50": 158.0236,
-      "sma200": 159.0479,
+      "latest": 159.91215,
+      "sma20": 158.2762,
+      "sma50": 158.0227,
+      "sma200": 159.0477,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
       "rsi14": 48.2,
-      "high20": 160.1141,
+      "high20": 160.1924,
       "low20": 156.6612,
-      "high60": 160.1141,
+      "high60": 160.1924,
       "low60": 154.2206,
-      "chg5d_pct": 0.95,
-      "chg20d_pct": 1.99
+      "chg5d_pct": 0.92,
+      "chg20d_pct": 1.96
     },
     "EURUSD": {
-      "latest": 1.10597,
-      "sma20": 1.116,
+      "latest": 1.10513,
+      "sma20": 1.1159,
       "sma50": 1.1211,
       "sma200": 1.1466,
       "vs_sma20": "下",
@@ -228,11 +223,11 @@
       "vs_sma200": "下",
       "rsi14": 41.7,
       "high20": 1.1273,
-      "low20": 1.1046,
+      "low20": 1.1045,
       "high60": 1.1557,
-      "low60": 1.1046,
-      "chg5d_pct": -0.71,
-      "chg20d_pct": -1.27
+      "low60": 1.1045,
+      "chg5d_pct": -0.78,
+      "chg20d_pct": -1.35
     }
   }
 }
