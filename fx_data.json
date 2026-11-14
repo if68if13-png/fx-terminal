@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-14T05:15:34.848187",
-  "generated": "2026年11月14日 05:15",
+  "timestamp": "2026-11-14T13:03:53.580036",
+  "generated": "2026年11月14日 13:03",
   "scores": {
-    "USD": 3,
+    "USD": 2,
     "JPY": 0,
     "EUR": 0,
     "GBP": 2,
@@ -15,23 +15,23 @@
     {
       "pair": "AUDUSD",
       "direction": "強くショート",
-      "diff": -4,
+      "diff": -3,
       "base_score": -1,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "USDJPY",
-      "direction": "強くロング",
-      "diff": 3,
-      "base_score": 3,
+      "direction": "ロング優勢",
+      "diff": 2,
+      "base_score": 2,
       "quote_score": 0
     },
     {
       "pair": "EURUSD",
-      "direction": "強くショート",
-      "diff": -3,
+      "direction": "ショート優勢",
+      "diff": -2,
       "base_score": 0,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "GBPJPY",
@@ -43,9 +43,9 @@
     {
       "pair": "GBPUSD",
       "direction": "様子見",
-      "diff": -1,
+      "diff": 0,
       "base_score": 2,
-      "quote_score": 3
+      "quote_score": 2
     },
     {
       "pair": "EURJPY",
@@ -112,11 +112,6 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin subdued, hovers under $74k as rise in Fed rate hike expectations weigh",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -156,8 +151,7 @@
   },
   "reasons": {
     "USD": [
-      "[中銀] 利上げ方向 (金利差方向)",
-      "[強気] Bitcoin subdued, hovers under $74k as rise in Fed rate "
+      "[中銀] 利上げ方向 (金利差方向)"
     ],
     "GBP": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -185,17 +179,17 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.76393,
-      "today_close": 159.67849,
+      "today_close": 159.68467,
       "prev_close": 159.77261,
-      "diff": -0.0941,
+      "diff": -0.0879,
       "diff_pct": -0.06
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.67849,
-      "sma20": 158.408,
-      "sma50": 158.0676,
+      "latest": 159.68467,
+      "sma20": 158.4084,
+      "sma50": 158.0677,
       "sma200": 159.0473,
       "vs_sma20": "上",
       "vs_sma50": "上",
@@ -205,11 +199,11 @@
       "low20": 156.6612,
       "high60": 160.1924,
       "low60": 154.897,
-      "chg5d_pct": 1.23,
+      "chg5d_pct": 1.24,
       "chg20d_pct": 1.77
     },
     "EURUSD": {
-      "latest": 1.10213,
+      "latest": 1.10221,
       "sma20": 1.1148,
       "sma50": 1.1203,
       "sma200": 1.1463,
@@ -221,8 +215,8 @@
       "low20": 1.1018,
       "high60": 1.1557,
       "low60": 1.1018,
-      "chg5d_pct": -1.81,
-      "chg20d_pct": -1.76
+      "chg5d_pct": -1.8,
+      "chg20d_pct": -1.75
     }
   }
 }
