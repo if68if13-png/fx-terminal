@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-14T13:03:53.580036",
-  "generated": "2026年11月14日 13:03",
+  "timestamp": "2026-11-14T19:45:23.351540",
+  "generated": "2026年11月14日 19:45",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -107,11 +107,6 @@
       "summary": ""
     },
     {
-      "source": "Investing",
-      "title": "MidChains and Standard Chartered establish strategic banking partnership",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -179,18 +174,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.76393,
-      "today_close": 159.68467,
+      "today_close": 159.69075,
       "prev_close": 159.77261,
-      "diff": -0.0879,
-      "diff_pct": -0.06
+      "diff": -0.0819,
+      "diff_pct": -0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.68467,
-      "sma20": 158.4084,
-      "sma50": 158.0677,
-      "sma200": 159.0473,
+      "latest": 159.69075,
+      "sma20": 158.4087,
+      "sma50": 158.0678,
+      "sma200": 159.0474,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -200,10 +195,10 @@
       "high60": 160.1924,
       "low60": 154.897,
       "chg5d_pct": 1.24,
-      "chg20d_pct": 1.77
+      "chg20d_pct": 1.78
     },
     "EURUSD": {
-      "latest": 1.10221,
+      "latest": 1.10223,
       "sma20": 1.1148,
       "sma50": 1.1203,
       "sma200": 1.1463,
