@@ -1,5 +1,5 @@
 {
-  "generated_at_jst": "2026-11-17 15:53 JST",
+  "generated_at_jst": "2026-11-18 03:13 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
@@ -7,22 +7,8 @@
     "mag7": "live (47件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
-  "count": 115,
+  "count": 114,
   "events": [
-    {
-      "date": "2026-11-17",
-      "time": "05:30",
-      "tz": "JST",
-      "title": "エヌビディア (NVDA) 決算発表",
-      "short": "★★★ NVDA決算",
-      "category": "earnings",
-      "country": "US",
-      "impact": "high",
-      "note": "米引け後発表。日本時間は翌朝",
-      "confirmed": true,
-      "source": "smartcalendars.ai (自動更新ics)",
-      "id": "2026-11-17|エヌビディア (NVDA) 決算発表"
-    },
     {
       "date": "2026-11-20",
       "time": "08:30",
