@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-18T11:13:52.627427",
-  "generated": "2026年11月18日 11:13",
+  "timestamp": "2026-11-18T20:03:29.237486",
+  "generated": "2026年11月18日 20:03",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
+      "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provide to banks and credit unions, and changes to streamline and adjust their check services",
       "summary": "Federal Reserve Board announces pricing, effective January 1, 2027, for payment services the Federal Reserve Banks provi"
     },
@@ -97,13 +102,8 @@
       "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank"
     },
     {
-      "source": "Fed",
-      "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
-      "summary": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin stays below $65k as rate jitters persist; Fed minutes awaited",
+      "title": "Bitcoin dips to $63.4k as rate jitters persist; Fed minutes awaited",
       "summary": ""
     },
     {
@@ -188,45 +188,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.33818,
-      "today_close": 159.34665,
-      "prev_close": 159.33715,
-      "diff": 0.0095,
-      "diff_pct": 0.01
+      "today_open": 159.36211,
+      "today_close": 159.3652,
+      "prev_close": 159.36178,
+      "diff": 0.0034,
+      "diff_pct": 0.0
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.34665,
-      "sma20": 158.7271,
-      "sma50": 158.2387,
-      "sma200": 159.08,
+      "latest": 159.3652,
+      "sma20": 158.8182,
+      "sma50": 158.2779,
+      "sma200": 159.0925,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 55.5,
+      "rsi14": 53.2,
       "high20": 160.295,
-      "low20": 156.9716,
+      "low20": 157.0238,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.27,
-      "chg20d_pct": 0.87
+      "chg5d_pct": -0.2,
+      "chg20d_pct": 1.15
     },
     "EURUSD": {
-      "latest": 1.09693,
-      "sma20": 1.1117,
-      "sma50": 1.1174,
-      "sma200": 1.1448,
+      "latest": 1.09652,
+      "sma20": 1.1106,
+      "sma50": 1.1166,
+      "sma200": 1.1445,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 39.9,
+      "rsi14": 48.1,
       "high20": 1.1273,
-      "low20": 1.096,
-      "high60": 1.1501,
-      "low60": 1.096,
-      "chg5d_pct": -0.5,
-      "chg20d_pct": -1.73
+      "low20": 1.0954,
+      "high60": 1.1496,
+      "low60": 1.0954,
+      "chg5d_pct": -0.52,
+      "chg20d_pct": -1.81
     }
   }
 }
