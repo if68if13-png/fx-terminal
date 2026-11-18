@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-17T18:12:48.531414",
-  "generated": "2026年11月17日 18:12",
+  "timestamp": "2026-11-18T02:45:06.032231",
+  "generated": "2026年11月18日 02:45",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,12 +103,12 @@
     },
     {
       "source": "Investing",
-      "title": "Bitrue Research Institute Releases Report Finding Growing Interest in AI-Assisted Crypto Trading",
+      "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin flat at $65k amid rate hike fears; Strategy buys more coins",
+      "title": "Bitrue Research Institute Releases Report Finding Growing Interest in AI-Assisted Crypto Trading",
       "summary": ""
     },
     {
@@ -171,57 +171,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 5.15,
+    "US_10Y": 5.12,
     "JP_10Y": 2.755,
     "DE_10Y": 3.4159090909,
     "GB_10Y": 5.3393,
     "AU_10Y": 5.265,
-    "DIFF_USDJPY": 2.4,
-    "DIFF_EURUSD": -1.73,
-    "DIFF_GBPUSD": 0.19,
-    "DIFF_AUDUSD": 0.11
+    "DIFF_USDJPY": 2.37,
+    "DIFF_EURUSD": -1.7,
+    "DIFF_GBPUSD": 0.22,
+    "DIFF_AUDUSD": 0.14
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.47767,
-      "today_close": 159.25224,
-      "prev_close": 159.47272,
-      "diff": -0.2205,
-      "diff_pct": -0.14
+      "today_open": 159.33818,
+      "today_close": 159.3734,
+      "prev_close": 159.33715,
+      "diff": 0.0362,
+      "diff_pct": 0.02
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.25224,
-      "sma20": 158.6543,
-      "sma50": 158.1958,
-      "sma200": 159.0682,
+      "latest": 159.3734,
+      "sma20": 158.7284,
+      "sma50": 158.2393,
+      "sma200": 159.0801,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 41.5,
+      "rsi14": 55.5,
       "high20": 160.295,
       "low20": 156.9716,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.37,
-      "chg20d_pct": 0.81
+      "chg5d_pct": -0.25,
+      "chg20d_pct": 0.88
     },
     "EURUSD": {
-      "latest": 1.10217,
-      "sma20": 1.1127,
-      "sma50": 1.1181,
-      "sma200": 1.1452,
+      "latest": 1.09918,
+      "sma20": 1.1118,
+      "sma50": 1.1174,
+      "sma200": 1.1449,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 46.6,
+      "rsi14": 39.9,
       "high20": 1.1273,
       "low20": 1.0967,
       "high60": 1.1501,
       "low60": 1.0967,
-      "chg5d_pct": -0.31,
-      "chg20d_pct": -1.2
+      "chg5d_pct": -0.3,
+      "chg20d_pct": -1.53
     }
   }
 }

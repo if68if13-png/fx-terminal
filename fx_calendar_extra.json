@@ -1,10 +1,10 @@
 {
-  "generated_at_jst": "2026-11-18 03:13 JST",
+  "generated_at_jst": "2026-11-18 11:45 JST",
   "horizon_months": 18,
   "source_status": {
     "boj": "live (16件)",
     "ecb": "live (17件)",
-    "mag7": "live (47件)"
+    "mag7": "live (46件)"
   },
   "note": "confirmed=false は公表ルールから算出した予定日。前後する場合があります。",
   "count": 114,
