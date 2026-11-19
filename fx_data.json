@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19T02:18:33.558193",
-  "generated": "2026年11月19日 02:18",
+  "timestamp": "2026-11-19T11:12:03.824094",
+  "generated": "2026年11月19日 11:12",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,6 +103,11 @@
     },
     {
       "source": "Investing",
+      "title": "Bitcoin down to $63.5k amid little relief from rate hike jitters",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
       "title": "Bitcoin drops to around $62.5k, hits over four-month low amid rate jitters",
       "summary": ""
     },
@@ -114,11 +119,6 @@
     {
       "source": "Investing",
       "title": "Bitrue Research Institute Releases Report Finding Growing Interest in AI-Assisted Crypto Trading",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy buys 485 bitcoin, sells MSTR shares for $244.7M in ATM offering",
       "summary": ""
     },
     {
@@ -189,18 +189,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.36211,
-      "today_close": 159.40204,
+      "today_close": 159.95195,
       "prev_close": 159.36178,
-      "diff": 0.0403,
-      "diff_pct": 0.03
+      "diff": 0.5902,
+      "diff_pct": 0.37
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.40204,
-      "sma20": 158.82,
-      "sma50": 158.2787,
-      "sma200": 159.0927,
+      "latest": 159.95195,
+      "sma20": 158.8475,
+      "sma50": 158.2897,
+      "sma200": 159.0955,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -209,13 +209,13 @@
       "low20": 157.0238,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.18,
-      "chg20d_pct": 1.17
+      "chg5d_pct": 0.17,
+      "chg20d_pct": 1.52
     },
     "EURUSD": {
-      "latest": 1.09684,
-      "sma20": 1.1106,
-      "sma50": 1.1166,
+      "latest": 1.10063,
+      "sma20": 1.1108,
+      "sma50": 1.1167,
       "sma200": 1.1445,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -225,8 +225,8 @@
       "low20": 1.0954,
       "high60": 1.1496,
       "low60": 1.0954,
-      "chg5d_pct": -0.49,
-      "chg20d_pct": -1.78
+      "chg5d_pct": -0.14,
+      "chg20d_pct": -1.44
     }
   }
 }
