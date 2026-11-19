@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19T11:12:03.824094",
-  "generated": "2026年11月19日 11:12",
+  "timestamp": "2026-11-19T20:02:02.864310",
+  "generated": "2026年11月19日 20:02",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
+      "summary": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp"
+    },
+    {
+      "source": "Fed",
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
       "summary": "Minutes of the Federal Open Market Committee, October 27-28, 2026"
     },
@@ -97,13 +102,8 @@
       "summary": "Federal Reserve issues FOMC statement"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-      "summary": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin down to $63.5k amid little relief from rate hike jitters",
+      "title": "Bitcoin pinned at $63.6k amid little relief from rate hike jitters",
       "summary": ""
     },
     {
@@ -114,11 +114,6 @@
     {
       "source": "Investing",
       "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitrue Research Institute Releases Report Finding Growing Interest in AI-Assisted Crypto Trading",
       "summary": ""
     },
     {
@@ -188,45 +183,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.36211,
-      "today_close": 159.95195,
-      "prev_close": 159.36178,
-      "diff": 0.5902,
-      "diff_pct": 0.37
+      "today_open": 159.76148,
+      "today_close": 159.73761,
+      "prev_close": 159.75756,
+      "diff": -0.02,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.95195,
-      "sma20": 158.8475,
-      "sma50": 158.2897,
-      "sma200": 159.0955,
+      "latest": 159.73761,
+      "sma20": 158.945,
+      "sma50": 158.3187,
+      "sma200": 159.1069,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 53.2,
+      "rsi14": 63.1,
       "high20": 160.295,
-      "low20": 157.0238,
+      "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": 0.17,
-      "chg20d_pct": 1.52
+      "chg5d_pct": 0.09,
+      "chg20d_pct": 1.36
     },
     "EURUSD": {
-      "latest": 1.10063,
-      "sma20": 1.1108,
-      "sma50": 1.1167,
-      "sma200": 1.1445,
+      "latest": 1.09746,
+      "sma20": 1.1097,
+      "sma50": 1.1161,
+      "sma200": 1.1441,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 48.1,
+      "rsi14": 51.6,
       "high20": 1.1273,
       "low20": 1.0954,
-      "high60": 1.1496,
+      "high60": 1.1479,
       "low60": 1.0954,
-      "chg5d_pct": -0.14,
-      "chg20d_pct": -1.44
+      "chg5d_pct": -0.43,
+      "chg20d_pct": -1.68
     }
   }
 }
