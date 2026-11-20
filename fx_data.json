@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-19T20:02:02.864310",
-  "generated": "2026年11月19日 20:02",
+  "timestamp": "2026-11-20T02:01:45.296321",
+  "generated": "2026年11月20日 02:01",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,17 +103,12 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin pinned at $63.6k amid little relief from rate hike jitters",
+      "title": "Bitcoin dips, hovers at over four-month low amid rate hike bets, stocks rout",
       "summary": ""
     },
     {
       "source": "Investing",
       "title": "Bitcoin drops to around $62.5k, hits over four-month low amid rate jitters",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slips to $64.7k amid ht to risk sentiment; Strategy buys more coins",
       "summary": ""
     },
     {
@@ -171,31 +166,31 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 5.1,
+    "US_10Y": 5.07,
     "JP_10Y": 2.755,
     "DE_10Y": 3.4159090909,
     "GB_10Y": 5.3393,
     "AU_10Y": 5.265,
-    "DIFF_USDJPY": 2.34,
-    "DIFF_EURUSD": -1.68,
-    "DIFF_GBPUSD": 0.24,
-    "DIFF_AUDUSD": 0.17
+    "DIFF_USDJPY": 2.32,
+    "DIFF_EURUSD": -1.65,
+    "DIFF_GBPUSD": 0.27,
+    "DIFF_AUDUSD": 0.19
   },
   "prices": {
     "USDJPY": {
       "today_open": 159.76148,
-      "today_close": 159.73761,
+      "today_close": 159.33451,
       "prev_close": 159.75756,
-      "diff": -0.02,
-      "diff_pct": -0.01
+      "diff": -0.4231,
+      "diff_pct": -0.26
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.73761,
-      "sma20": 158.945,
-      "sma50": 158.3187,
-      "sma200": 159.1069,
+      "latest": 159.33451,
+      "sma20": 158.9248,
+      "sma50": 158.3106,
+      "sma200": 159.1049,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -204,11 +199,11 @@
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": 0.09,
-      "chg20d_pct": 1.36
+      "chg5d_pct": -0.17,
+      "chg20d_pct": 1.1
     },
     "EURUSD": {
-      "latest": 1.09746,
+      "latest": 1.09631,
       "sma20": 1.1097,
       "sma50": 1.1161,
       "sma200": 1.1441,
@@ -220,8 +215,8 @@
       "low20": 1.0954,
       "high60": 1.1479,
       "low60": 1.0954,
-      "chg5d_pct": -0.43,
-      "chg20d_pct": -1.68
+      "chg5d_pct": -0.53,
+      "chg20d_pct": -1.78
     }
   }
 }
