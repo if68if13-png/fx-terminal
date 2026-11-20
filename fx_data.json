@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-20T10:58:10.098307",
-  "generated": "2026年11月20日 10:58",
+  "timestamp": "2026-11-20T19:40:05.499134",
+  "generated": "2026年11月20日 19:40",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
+      "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and prac"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp",
       "summary": "Federal Reserve Board issues enforcement action with former employee of First Security Bancorp"
     },
@@ -95,11 +100,6 @@
       "source": "Fed",
       "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
       "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve issues FOMC statement",
-      "summary": "Federal Reserve issues FOMC statement"
     },
     {
       "source": "Investing",
@@ -174,18 +174,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.76148,
-      "today_close": 158.89467,
+      "today_close": 158.58378,
       "prev_close": 159.75756,
-      "diff": -0.8629,
-      "diff_pct": -0.54
+      "diff": -1.1738,
+      "diff_pct": -0.73
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.89467,
-      "sma20": 158.9028,
-      "sma50": 158.3018,
-      "sma200": 159.1027,
+      "latest": 158.58378,
+      "sma20": 158.8873,
+      "sma50": 158.2956,
+      "sma200": 159.1011,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -194,11 +194,11 @@
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.44,
-      "chg20d_pct": 0.83
+      "chg5d_pct": -0.64,
+      "chg20d_pct": 0.63
     },
     "EURUSD": {
-      "latest": 1.09636,
+      "latest": 1.0968,
       "sma20": 1.1097,
       "sma50": 1.1161,
       "sma200": 1.1441,
@@ -210,8 +210,8 @@
       "low20": 1.0954,
       "high60": 1.1479,
       "low60": 1.0954,
-      "chg5d_pct": -0.53,
-      "chg20d_pct": -1.77
+      "chg5d_pct": -0.49,
+      "chg20d_pct": -1.73
     }
   }
 }
