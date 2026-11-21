@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-20T19:40:05.499134",
-  "generated": "2026年11月20日 19:40",
+  "timestamp": "2026-11-21T01:59:26.876679",
+  "generated": "2026年11月21日 01:59",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Federal Reserve announces College Fed Challenge winners",
+      "summary": "Federal Reserve announces College Fed Challenge winners"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and practices for managing reserve balances",
       "summary": "Federal Reserve Board releases results from survey of senior financial officers at banks about their strategies and prac"
     },
@@ -97,11 +102,6 @@
       "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Ho"
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia",
-      "summary": "Federal Reserve Board announces approval of application by The Bank of Nova Scotia"
-    },
-    {
       "source": "Investing",
       "title": "Bitcoin dips, hovers at over four-month low amid rate hike bets, stocks rout",
       "summary": ""
@@ -114,33 +114,33 @@
   ],
   "cot": {
     "CHF": {
-      "long": 126378,
-      "short": 66704,
-      "net": 59674,
+      "long": 126410,
+      "short": 65015,
+      "net": 61395,
       "bias": "🟢ロング優勢"
     },
     "GBP": {
-      "long": 43612,
+      "long": 44009,
       "short": 1358,
-      "net": 42254,
+      "net": 42651,
       "bias": "🟢ロング優勢"
     },
     "JPY": {
-      "long": 20703,
-      "short": 3887,
-      "net": 16816,
+      "long": 20825,
+      "short": 3883,
+      "net": 16942,
       "bias": "🟢ロング優勢"
     },
     "EUR": {
-      "long": 20703,
-      "short": 3887,
-      "net": 16816,
+      "long": 20825,
+      "short": 3883,
+      "net": 16942,
       "bias": "🟢ロング優勢"
     },
     "AUD": {
-      "long": 352859,
-      "short": 134819,
-      "net": 218040,
+      "long": 374281,
+      "short": 172185,
+      "net": 202096,
       "bias": "🟢ロング優勢"
     }
   },
@@ -153,7 +153,7 @@
     ],
     "AUD": [
       "[中銀] 利下げ方向 (金利差方向)",
-      "[COT] 🟢ロング優勢 (ネット:+218,040)"
+      "[COT] 🟢ロング優勢 (ネット:+202,096)"
     ],
     "NZD": [
       "[中銀] 利上げ方向 (金利差方向)"
@@ -161,57 +161,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 5.07,
+    "US_10Y": 5.04,
     "JP_10Y": 2.755,
     "DE_10Y": 3.4159090909,
     "GB_10Y": 5.3393,
     "AU_10Y": 5.265,
-    "DIFF_USDJPY": 2.32,
-    "DIFF_EURUSD": -1.65,
-    "DIFF_GBPUSD": 0.27,
-    "DIFF_AUDUSD": 0.19
+    "DIFF_USDJPY": 2.29,
+    "DIFF_EURUSD": -1.62,
+    "DIFF_GBPUSD": 0.3,
+    "DIFF_AUDUSD": 0.22
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.76148,
-      "today_close": 158.58378,
-      "prev_close": 159.75756,
-      "diff": -1.1738,
-      "diff_pct": -0.73
+      "today_open": 158.52841,
+      "today_close": 158.5636,
+      "prev_close": 158.52273,
+      "diff": 0.0409,
+      "diff_pct": 0.03
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.58378,
-      "sma20": 158.8873,
-      "sma50": 158.2956,
-      "sma200": 159.1011,
+      "latest": 158.5636,
+      "sma20": 158.9349,
+      "sma50": 158.3083,
+      "sma200": 159.1042,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 63.1,
+      "rsi14": 68.9,
       "high20": 160.295,
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.64,
-      "chg20d_pct": 0.63
+      "chg5d_pct": -0.57,
+      "chg20d_pct": 0.64
     },
     "EURUSD": {
-      "latest": 1.0968,
-      "sma20": 1.1097,
-      "sma50": 1.1161,
-      "sma200": 1.1441,
+      "latest": 1.09683,
+      "sma20": 1.1088,
+      "sma50": 1.1155,
+      "sma200": 1.1437,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 51.6,
+      "rsi14": 40.8,
       "high20": 1.1273,
       "low20": 1.0954,
-      "high60": 1.1479,
+      "high60": 1.1451,
       "low60": 1.0954,
-      "chg5d_pct": -0.49,
-      "chg20d_pct": -1.73
+      "chg5d_pct": -0.33,
+      "chg20d_pct": -1.72
     }
   }
 }
