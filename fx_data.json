@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-22T00:59:12.151755",
-  "generated": "2026年11月22日 00:59",
+  "timestamp": "2026-11-22T10:47:26.456000",
+  "generated": "2026年11月22日 10:47",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -102,11 +102,6 @@
       "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Ho"
     },
     {
-      "source": "Investing",
-      "title": "Bitcoin dips, hovers at over four-month low amid rate hike bets, stocks rout",
-      "summary": ""
-    },
-    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -174,18 +169,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.56515,
-      "today_close": 158.56269,
+      "today_close": 158.55697,
       "prev_close": 158.56625,
-      "diff": -0.0036,
-      "diff_pct": -0.0
+      "diff": -0.0093,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.56269,
-      "sma20": 158.9673,
-      "sma50": 158.3224,
-      "sma200": 159.1151,
+      "latest": 158.55697,
+      "sma20": 158.9671,
+      "sma50": 158.3223,
+      "sma200": 159.115,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
@@ -198,7 +193,7 @@
       "chg20d_pct": 0.41
     },
     "EURUSD": {
-      "latest": 1.09686,
+      "latest": 1.0969,
       "sma20": 1.1076,
       "sma50": 1.115,
       "sma200": 1.1434,
