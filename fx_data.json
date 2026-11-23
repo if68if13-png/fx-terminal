@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23T11:53:55.344960",
-  "generated": "2026年11月23日 11:53",
+  "timestamp": "2026-11-23T23:28:45.937691",
+  "generated": "2026年11月23日 23:28",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -102,6 +102,26 @@
       "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Ho"
     },
     {
+      "source": "Investing",
+      "title": "Bitcoin cuts gains sparked by AI trade rally on Wall Street, remains above $61,000",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Armitage and Superform build a stock-strategy franchise on SuperformOS",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Zodia Markets Appoints Jan Brzezek as Chief Executive Officer",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
+      "title": "Strategy buys bitcoin, expands repurchase program",
+      "summary": ""
+    },
+    {
       "source": "MarketWatch",
       "title": "U.S. productivity slows down in fourth quarter while unit labor costs accelerate",
       "summary": ""
@@ -156,57 +176,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 5.04,
+    "US_10Y": 4.92,
     "JP_10Y": 2.755,
     "DE_10Y": 3.4159090909,
     "GB_10Y": 5.3393,
     "AU_10Y": 5.265,
-    "DIFF_USDJPY": 2.29,
-    "DIFF_EURUSD": -1.62,
-    "DIFF_GBPUSD": 0.3,
-    "DIFF_AUDUSD": 0.22
+    "DIFF_USDJPY": 2.17,
+    "DIFF_EURUSD": -1.5,
+    "DIFF_GBPUSD": 0.42,
+    "DIFF_AUDUSD": 0.34
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.511,
-      "today_close": 159.10128,
-      "prev_close": 158.50887,
-      "diff": 0.5924,
-      "diff_pct": 0.37
+      "today_open": 158.96026,
+      "today_close": 159.02703,
+      "prev_close": 158.96317,
+      "diff": 0.0639,
+      "diff_pct": 0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.10128,
-      "sma20": 158.9827,
-      "sma50": 158.3469,
-      "sma200": 159.1256,
+      "latest": 159.02703,
+      "sma20": 159.0028,
+      "sma50": 158.3652,
+      "sma200": 159.1366,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 67.8,
+      "rsi14": 52.6,
       "high20": 160.295,
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.16,
-      "chg20d_pct": 0.23
+      "chg5d_pct": -0.46,
+      "chg20d_pct": 0.34
     },
     "EURUSD": {
-      "latest": 1.09582,
-      "sma20": 1.1065,
-      "sma50": 1.1144,
-      "sma200": 1.143,
+      "latest": 1.09075,
+      "sma20": 1.1046,
+      "sma50": 1.1136,
+      "sma200": 1.1425,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 35.8,
-      "high20": 1.1273,
-      "low20": 1.0954,
+      "rsi14": 57.1,
+      "high20": 1.1268,
+      "low20": 1.0882,
       "high60": 1.1416,
-      "low60": 1.0954,
-      "chg5d_pct": -0.06,
-      "chg20d_pct": -2.07
+      "low60": 1.0882,
+      "chg5d_pct": -0.61,
+      "chg20d_pct": -2.82
     }
   }
 }
