@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24T08:44:16.677338",
-  "generated": "2026年11月24日 08:44",
+  "timestamp": "2026-11-24T19:58:47.248311",
+  "generated": "2026年11月24日 19:58",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,11 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026"
+    },
+    {
+      "source": "Fed",
       "title": "Federal Reserve announces College Fed Challenge winners",
       "summary": "Federal Reserve announces College Fed Challenge winners"
     },
@@ -97,13 +102,8 @@
       "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc."
     },
     {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-      "summary": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Ho"
-    },
-    {
       "source": "Investing",
-      "title": "Bitcoin hovers around $60k amid little relief from rate, regulatory jitters",
+      "title": "Bitcoin retreats to $60k amid rate, regulatory jitters",
       "summary": ""
     },
     {
@@ -194,18 +194,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.96026,
-      "today_close": 159.26145,
+      "today_close": 159.23817,
       "prev_close": 158.96317,
-      "diff": 0.2983,
-      "diff_pct": 0.19
+      "diff": 0.275,
+      "diff_pct": 0.17
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.26145,
-      "sma20": 159.0145,
-      "sma50": 158.3699,
-      "sma200": 159.1377,
+      "latest": 159.23817,
+      "sma20": 159.0133,
+      "sma50": 158.3695,
+      "sma200": 159.1376,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -214,13 +214,13 @@
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.31,
-      "chg20d_pct": 0.49
+      "chg5d_pct": -0.33,
+      "chg20d_pct": 0.47
     },
     "EURUSD": {
-      "latest": 1.09139,
-      "sma20": 1.1046,
-      "sma50": 1.1136,
+      "latest": 1.09647,
+      "sma20": 1.1049,
+      "sma50": 1.1137,
       "sma200": 1.1425,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -230,8 +230,8 @@
       "low20": 1.0882,
       "high60": 1.1416,
       "low60": 1.0882,
-      "chg5d_pct": -0.55,
-      "chg20d_pct": -2.76
+      "chg5d_pct": -0.08,
+      "chg20d_pct": -2.31
     }
   }
 }
