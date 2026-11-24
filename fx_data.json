@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-23T23:28:45.937691",
-  "generated": "2026年11月23日 23:28",
+  "timestamp": "2026-11-24T08:44:16.677338",
+  "generated": "2026年11月24日 08:44",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,6 +103,11 @@
     },
     {
       "source": "Investing",
+      "title": "Bitcoin hovers around $60k amid little relief from rate, regulatory jitters",
+      "summary": ""
+    },
+    {
+      "source": "Investing",
       "title": "Bitcoin cuts gains sparked by AI trade rally on Wall Street, remains above $61,000",
       "summary": ""
     },
@@ -189,31 +194,31 @@
   "prices": {
     "USDJPY": {
       "today_open": 158.96026,
-      "today_close": 159.02703,
+      "today_close": 159.26145,
       "prev_close": 158.96317,
-      "diff": 0.0639,
-      "diff_pct": 0.04
+      "diff": 0.2983,
+      "diff_pct": 0.19
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.02703,
-      "sma20": 159.0028,
-      "sma50": 158.3652,
-      "sma200": 159.1366,
+      "latest": 159.26145,
+      "sma20": 159.0145,
+      "sma50": 158.3699,
+      "sma200": 159.1377,
       "vs_sma20": "上",
       "vs_sma50": "上",
-      "vs_sma200": "下",
+      "vs_sma200": "上",
       "rsi14": 52.6,
       "high20": 160.295,
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.46,
-      "chg20d_pct": 0.34
+      "chg5d_pct": -0.31,
+      "chg20d_pct": 0.49
     },
     "EURUSD": {
-      "latest": 1.09075,
+      "latest": 1.09139,
       "sma20": 1.1046,
       "sma50": 1.1136,
       "sma200": 1.1425,
@@ -225,8 +230,8 @@
       "low20": 1.0882,
       "high60": 1.1416,
       "low60": 1.0882,
-      "chg5d_pct": -0.61,
-      "chg20d_pct": -2.82
+      "chg5d_pct": -0.55,
+      "chg20d_pct": -2.76
     }
   }
 }
