@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25T03:58:01.859347",
-  "generated": "2026年11月25日 03:58",
+  "timestamp": "2026-11-25T16:53:08.604306",
+  "generated": "2026年11月25日 16:53",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,17 +103,7 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin cuts gains sparked by AI trade rally on Wall Street, remains above $61,000",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Armitage and Superform build a stock-strategy franchise on SuperformOS",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Zodia Markets Appoints Jan Brzezek as Chief Executive Officer",
+      "title": "Bitcoin slides toward worst month since 2022 as ETF outflows, Fed hike bets bite",
       "summary": ""
     },
     {
@@ -184,32 +174,32 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.23673,
-      "today_close": 159.29748,
+      "today_close": 158.84954,
       "prev_close": 159.23017,
-      "diff": 0.0673,
-      "diff_pct": 0.04
+      "diff": -0.3806,
+      "diff_pct": -0.24
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.29748,
-      "sma20": 159.0853,
-      "sma50": 158.3918,
-      "sma200": 159.1507,
-      "vs_sma20": "上",
+      "latest": 158.84954,
+      "sma20": 159.0629,
+      "sma50": 158.3828,
+      "sma200": 159.1484,
+      "vs_sma20": "下",
       "vs_sma50": "上",
-      "vs_sma200": "上",
+      "vs_sma200": "下",
       "rsi14": 58.3,
       "high20": 160.295,
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": 0.49,
-      "chg20d_pct": 0.92
+      "chg5d_pct": 0.21,
+      "chg20d_pct": 0.63
     },
     "EURUSD": {
-      "latest": 1.09459,
-      "sma20": 1.1035,
+      "latest": 1.09659,
+      "sma20": 1.1036,
       "sma50": 1.1131,
       "sma200": 1.1421,
       "vs_sma20": "下",
@@ -220,8 +210,8 @@
       "low20": 1.0882,
       "high60": 1.1416,
       "low60": 1.0882,
-      "chg5d_pct": -0.22,
-      "chg20d_pct": -2.48
+      "chg5d_pct": -0.03,
+      "chg20d_pct": -2.3
     }
   }
 }
