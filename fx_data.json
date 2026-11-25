@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-24T19:58:47.248311",
-  "generated": "2026年11月24日 19:58",
+  "timestamp": "2026-11-25T03:58:01.859347",
+  "generated": "2026年11月25日 03:58",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,11 +103,6 @@
     },
     {
       "source": "Investing",
-      "title": "Bitcoin retreats to $60k amid rate, regulatory jitters",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
       "title": "Bitcoin cuts gains sparked by AI trade rally on Wall Street, remains above $61,000",
       "summary": ""
     },
@@ -119,11 +114,6 @@
     {
       "source": "Investing",
       "title": "Zodia Markets Appoints Jan Brzezek as Chief Executive Officer",
-      "summary": ""
-    },
-    {
-      "source": "Investing",
-      "title": "Strategy buys bitcoin, expands repurchase program",
       "summary": ""
     },
     {
@@ -193,45 +183,45 @@
   },
   "prices": {
     "USDJPY": {
-      "today_open": 158.96026,
-      "today_close": 159.23817,
-      "prev_close": 158.96317,
-      "diff": 0.275,
-      "diff_pct": 0.17
+      "today_open": 159.23673,
+      "today_close": 159.29748,
+      "prev_close": 159.23017,
+      "diff": 0.0673,
+      "diff_pct": 0.04
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.23817,
-      "sma20": 159.0133,
-      "sma50": 158.3695,
-      "sma200": 159.1376,
+      "latest": 159.29748,
+      "sma20": 159.0853,
+      "sma50": 158.3918,
+      "sma200": 159.1507,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 52.6,
+      "rsi14": 58.3,
       "high20": 160.295,
       "low20": 157.2705,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": 0.47
+      "chg5d_pct": 0.49,
+      "chg20d_pct": 0.92
     },
     "EURUSD": {
-      "latest": 1.09647,
-      "sma20": 1.1049,
-      "sma50": 1.1137,
-      "sma200": 1.1425,
+      "latest": 1.09459,
+      "sma20": 1.1035,
+      "sma50": 1.1131,
+      "sma200": 1.1421,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 57.1,
-      "high20": 1.1268,
+      "rsi14": 54.6,
+      "high20": 1.1251,
       "low20": 1.0882,
       "high60": 1.1416,
       "low60": 1.0882,
-      "chg5d_pct": -0.08,
-      "chg20d_pct": -2.31
+      "chg5d_pct": -0.22,
+      "chg20d_pct": -2.48
     }
   }
 }
