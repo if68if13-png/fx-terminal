@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-25T16:53:08.604306",
-  "generated": "2026年11月25日 16:53",
+  "timestamp": "2026-11-26T01:38:02.996913",
+  "generated": "2026年11月26日 01:38",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -58,6 +58,16 @@
   "news": [
     {
       "source": "Fed",
+      "title": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit and lease transactions",
+      "summary": "Agencies announce dollar thresholds for applicability of truth in lending and consumer leasing rules for consumer credit"
+    },
+    {
+      "source": "Fed",
+      "title": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage loans",
+      "summary": "Agencies announce dollar thresholds for smaller loan exemption from appraisal requirements for higher-priced mortgage lo"
+    },
+    {
+      "source": "Fed",
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
       "summary": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026"
     },
@@ -90,21 +100,6 @@
       "source": "Fed",
       "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
       "summary": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board issues enforcement action with former employee of United Community Bank",
-      "summary": "Federal Reserve Board issues enforcement action with former employee of United Community Bank"
-    },
-    {
-      "source": "Fed",
-      "title": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc.",
-      "summary": "Federal Reserve Board announces approval of two applications by Mutual Federal Bancorp, MHC, and MFB Bancorp, Inc."
-    },
-    {
-      "source": "Investing",
-      "title": "Bitcoin slides toward worst month since 2022 as ETF outflows, Fed hike bets bite",
-      "summary": ""
     },
     {
       "source": "MarketWatch",
@@ -161,57 +156,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 4.92,
+    "US_10Y": 4.91,
     "JP_10Y": 2.755,
     "DE_10Y": 3.4159090909,
     "GB_10Y": 5.3393,
     "AU_10Y": 5.265,
-    "DIFF_USDJPY": 2.17,
-    "DIFF_EURUSD": -1.5,
-    "DIFF_GBPUSD": 0.42,
-    "DIFF_AUDUSD": 0.34
+    "DIFF_USDJPY": 2.16,
+    "DIFF_EURUSD": -1.49,
+    "DIFF_GBPUSD": 0.43,
+    "DIFF_AUDUSD": 0.35
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.23673,
-      "today_close": 158.84954,
-      "prev_close": 159.23017,
-      "diff": -0.3806,
-      "diff_pct": -0.24
+      "today_open": 159.19752,
+      "today_close": 159.04965,
+      "prev_close": 159.20102,
+      "diff": -0.1514,
+      "diff_pct": -0.1
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 158.84954,
-      "sma20": 159.0629,
-      "sma50": 158.3828,
-      "sma200": 159.1484,
+      "latest": 159.04965,
+      "sma20": 159.1079,
+      "sma50": 158.4094,
+      "sma200": 159.1623,
       "vs_sma20": "下",
       "vs_sma50": "上",
       "vs_sma200": "下",
-      "rsi14": 58.3,
+      "rsi14": 65.3,
       "high20": 160.295,
-      "low20": 157.2705,
+      "low20": 157.6716,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": 0.21,
-      "chg20d_pct": 0.63
+      "chg5d_pct": 0.3,
+      "chg20d_pct": 0.35
     },
     "EURUSD": {
-      "latest": 1.09659,
-      "sma20": 1.1036,
-      "sma50": 1.1131,
-      "sma200": 1.1421,
+      "latest": 1.09657,
+      "sma20": 1.1028,
+      "sma50": 1.1127,
+      "sma200": 1.1417,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 54.6,
+      "rsi14": 42.1,
       "high20": 1.1251,
       "low20": 1.0882,
-      "high60": 1.1416,
+      "high60": 1.1395,
       "low60": 1.0882,
-      "chg5d_pct": -0.03,
-      "chg20d_pct": -2.3
+      "chg5d_pct": -0.02,
+      "chg20d_pct": -1.56
     }
   }
 }
