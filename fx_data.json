@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-26T21:14:56.867222",
-  "generated": "2026年11月26日 21:14",
+  "timestamp": "2026-11-27T07:02:20.391615",
+  "generated": "2026年11月27日 07:02",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -103,12 +103,12 @@
     },
     {
       "source": "Investing",
-      "title": "PrimeXBT Celebrates 8 Years of Redefining Crypto Trading with 50% Deposit Bonus",
+      "title": "Bitcoin stays afloat above $60.5k, but rates, regulatory fears persist",
       "summary": ""
     },
     {
       "source": "Investing",
-      "title": "Bitcoin recovers to $60.9k, but rates, regulatory fears persist",
+      "title": "PrimeXBT Celebrates 8 Years of Redefining Crypto Trading with 50% Deposit Bonus",
       "summary": ""
     },
     {
@@ -179,18 +179,18 @@
   "prices": {
     "USDJPY": {
       "today_open": 159.27099,
-      "today_close": 159.29725,
+      "today_close": 159.35331,
       "prev_close": 159.27207,
-      "diff": 0.0252,
-      "diff_pct": 0.02
+      "diff": 0.0812,
+      "diff_pct": 0.05
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.29725,
-      "sma20": 159.1598,
-      "sma50": 158.4423,
-      "sma200": 159.1738,
+      "latest": 159.35331,
+      "sma20": 159.1626,
+      "sma50": 158.4435,
+      "sma200": 159.1741,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
@@ -199,13 +199,13 @@
       "low20": 157.6716,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": 0.5,
-      "chg20d_pct": 0.51
+      "chg5d_pct": 0.53,
+      "chg20d_pct": 0.55
     },
     "EURUSD": {
-      "latest": 1.09694,
+      "latest": 1.09783,
       "sma20": 1.102,
-      "sma50": 1.1122,
+      "sma50": 1.1123,
       "sma200": 1.1413,
       "vs_sma20": "下",
       "vs_sma50": "下",
@@ -215,8 +215,8 @@
       "low20": 1.0882,
       "high60": 1.138,
       "low60": 1.0882,
-      "chg5d_pct": -0.01,
-      "chg20d_pct": -1.54
+      "chg5d_pct": 0.07,
+      "chg20d_pct": -1.46
     }
   }
 }
