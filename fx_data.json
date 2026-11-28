@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-11-27T18:42:57.923468",
-  "generated": "2026年11月27日 18:42",
+  "timestamp": "2026-11-28T03:06:57.648565",
+  "generated": "2026年11月28日 03:06",
   "scores": {
     "USD": 2,
     "JPY": 0,
@@ -166,57 +166,57 @@
   },
   "rates": {
     "US_FF": 3.88,
-    "US_10Y": 4.91,
+    "US_10Y": 4.85,
     "JP_10Y": 2.755,
     "DE_10Y": 3.4159090909,
     "GB_10Y": 5.3393,
     "AU_10Y": 5.265,
-    "DIFF_USDJPY": 2.16,
-    "DIFF_EURUSD": -1.49,
-    "DIFF_GBPUSD": 0.43,
-    "DIFF_AUDUSD": 0.35
+    "DIFF_USDJPY": 2.09,
+    "DIFF_EURUSD": -1.43,
+    "DIFF_GBPUSD": 0.49,
+    "DIFF_AUDUSD": 0.42
   },
   "prices": {
     "USDJPY": {
-      "today_open": 159.27099,
-      "today_close": 159.53717,
-      "prev_close": 159.27207,
-      "diff": 0.2651,
-      "diff_pct": 0.17
+      "today_open": 159.56847,
+      "today_close": 159.56021,
+      "prev_close": 159.56817,
+      "diff": -0.008,
+      "diff_pct": -0.01
     }
   },
   "technicals": {
     "USDJPY": {
-      "latest": 159.53717,
-      "sma20": 159.1718,
-      "sma50": 158.4471,
-      "sma200": 159.175,
+      "latest": 159.56021,
+      "sma20": 159.2288,
+      "sma50": 158.474,
+      "sma200": 159.1849,
       "vs_sma20": "上",
       "vs_sma50": "上",
       "vs_sma200": "上",
-      "rsi14": 65.2,
+      "rsi14": 69.2,
       "high20": 160.295,
       "low20": 157.6716,
       "high60": 160.295,
       "low60": 156.0687,
-      "chg5d_pct": 0.65,
-      "chg20d_pct": 0.67
+      "chg5d_pct": 0.38,
+      "chg20d_pct": 0.7
     },
     "EURUSD": {
-      "latest": 1.09338,
-      "sma20": 1.1018,
-      "sma50": 1.1122,
-      "sma200": 1.1413,
+      "latest": 1.09354,
+      "sma20": 1.1008,
+      "sma50": 1.1116,
+      "sma200": 1.1409,
       "vs_sma20": "下",
       "vs_sma50": "下",
       "vs_sma200": "下",
-      "rsi14": 37.6,
+      "rsi14": 34.3,
       "high20": 1.1251,
       "low20": 1.0882,
       "high60": 1.138,
       "low60": 1.0882,
-      "chg5d_pct": -0.33,
-      "chg20d_pct": -1.86
+      "chg5d_pct": 0.29,
+      "chg20d_pct": -1.82
     }
   }
 }
